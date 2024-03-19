@@ -1,0 +1,20 @@
+<div
+  class="grid"
+  [ngClass]="{ 'setting-item': !isChild, 'child-item': isChild }"
+>
+  <div class="col-8 font-lg bold" [id]="getId(elementIds.TITLE)">
+    @if (!hideTitle) {
+    {{ title | translate }}
+    }
+  </div>
+  <div class="col-4 text-right" [ngClass]="{ 'pr-0': isChild }">
+    <ng-content></ng-content>
+  </div>
+  @if (!hideDescription) {
+  <div class="col-8 font-sm" [id]="getId(elementIds.TEXT)">
+    {{ description | translate }}
+  </div>
+  }
+  <ng-content select="[children]"></ng-content>
+  <ng-content select="[link]"></ng-content>
+</div>

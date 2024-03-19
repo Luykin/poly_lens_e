@@ -1,0 +1,228 @@
+.card-container {
+  max-width: 900px;
+  margin: 20px auto 50px;
+}
+
+.card-container-sm {
+  max-width: 650px;
+  margin: 20px auto 50px;
+}
+
+.card-container-xs {
+  max-width: 450px;
+  margin: 20px auto 50px;
+}
+
+.card-container-spaced {
+  grid-gap: 24px;
+  max-width: 650px;
+  margin: 24px auto;
+}
+
+.card,
+.card[class*='col-'] {
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 8px;
+  background: $white;
+  box-shadow: $card-box-shadow;
+  text-align: left;
+
+  .title {
+    font-size: $font-lg;
+    font-weight: $font-weight-bold;
+  }
+
+  .sub-title {
+    color: #707070;
+    font-size: 12px;
+    font-weight: $font-weight-extra-bold;
+    letter-spacing: 0.5px;
+    line-height: 14px;
+  }
+
+  &.extra-padding {
+    padding: 50px;
+  }
+
+  .description {
+    font-size: $font-md;
+    font-weight: $font-weight-light;
+  }
+
+  &.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+// HOME PAGE (dynamic-card-component) STYLES
+// These appear in a 4x4 grid
+// TODO: The fact that it's text-center makes it less reusable (eg, in "Support" component)
+.card-sm {
+  // TODO: REMOVE FIXED WIDTH, lean into container width
+  // TODO: grid-column-gap - 32px
+  //width: 290px;
+  min-height: 162px;
+  background: rgba(255, 255, 255, 0.9);
+  color: $black;
+  text-align: center;
+  text-decoration: none;
+
+  backdrop-filter: blur(27px);
+
+  .logo {
+    display: inline-block;
+  }
+
+  .title {
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+// Specific styles for home component only
+.component-home {
+  .card {
+    .card-sm {
+      min-height: 140px;
+
+      .title {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+      }
+
+      .description {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 16px;
+      }
+    }
+  }
+}
+
+// LANDING PAGE (dynamic-card-component - pre-login) STYLES
+// These appear full width, stacked vertically
+.card-full {
+  display: flex;
+  margin: 16px 0;
+  padding: 22px 37px;
+
+  mix-blend-mode: normal;
+
+  .card-details {
+    flex: 1;
+    align-self: center;
+    padding: 15px;
+    overflow: hidden;
+    font-size: $font-md;
+
+    .header {
+      margin-bottom: 20px;
+      color: #5d748e;
+      font-weight: $font-weight-extra-bold;
+      text-transform: uppercase;
+    }
+
+    .count {
+      margin-bottom: 4px;
+      font-size: $font-sm;
+      font-weight: $font-weight-bold;
+    }
+
+    .description,
+    .source {
+      margin-top: 1em;
+      font-size: $font-md;
+      font-weight: $font-weight-light;
+    }
+  }
+
+  .logo {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.toggle-card {
+  //max-width: 900px;
+  height: auto; //max-height: 42px;  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  transition: 0.4s;
+  &.expanded {
+    max-height: 200px !important;
+
+    &.tall {
+      max-height: 1000px !important;
+    }
+  }
+
+  .fade-in {
+    transition: 0.4s;
+    opacity: 0;
+
+    &.hide {
+      display: none;
+    }
+  }
+
+  &.expanded {
+    .fade-in {
+      opacity: 1;
+    }
+  }
+}
+
+.next-section {
+  padding: 70px 30px;
+
+  .next-text {
+    p {
+      margin-bottom: 10px;
+      font-size: $font-md;
+      font-weight: $font-weight-bold;
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 36px;
+    }
+  }
+}
+
+.margin-left-right-xs {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.box-outline {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.card {
+  &-slideshow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    &-slide {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+
+  &-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  &-vertical-line {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}

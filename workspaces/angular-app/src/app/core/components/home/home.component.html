@@ -1,0 +1,62 @@
+<div class="scroll-container component-home">
+  <div class="scrollable-content">
+    <div class="card-container-sm my-0">
+      <div class="grid">
+        <h1 class="page-title text-left col-6" id="home_welcome_title">
+          <span
+            class="initial-fade-in"
+            [innerHTML]="'HOME.TITLE_GUEST' | translate : titleParams"
+          ></span>
+        </h1>
+      </div>
+    </div>
+    <div class="card-container-spaced">
+      <div class="grid equal-height-home">
+        <div class="col-6 card clickable" (click)="goToPage('/usage-network')">
+          <oz-dynamic-card
+            title="{{ 'HOME.CARDS.DEVICE_USAGE.TITLE' | translate }}"
+            description="{{
+              'HOME.CARDS.DEVICE_USAGE.DESCRIPTION' | translate
+            }}"
+            logo="chart"
+            id="insights"
+          ></oz-dynamic-card>
+        </div>
+        <div
+          class="col-6 card clickable"
+          (click)="goToPage('/health-wellness/soundscaping')"
+        >
+          <oz-dynamic-card
+            title="{{ 'HOME.CARDS.HEALTH_AND_WELLNESS.TITLE' | translate }}"
+            description="{{
+              'HOME.CARDS.HEALTH_AND_WELLNESS.DESCRIPTION' | translate
+            }}"
+            logo="health"
+            id="wellness"
+          ></oz-dynamic-card>
+        </div>
+        <div
+          class="col-6 card clickable"
+          (click)="goToPage('/best-practices/headset')"
+        >
+          <oz-dynamic-card
+            title="{{ 'HOME.CARDS.BEST_PRACTICES.TITLE' | translate }}"
+            description="{{
+              'HOME.CARDS.BEST_PRACTICES.DESCRIPTION' | translate
+            }}"
+            logo="play_on_screen"
+            id="practices"
+          ></oz-dynamic-card>
+        </div>
+        <div class="col-6 card clickable" (click)="goToPage('/poly-support')">
+          <oz-dynamic-card
+            title="{{ 'HOME.CARDS.SUPPORT.TITLE' | translate }}"
+            description="{{ 'HOME.CARDS.SUPPORT.DESCRIPTION' | translate }}"
+            logo="support"
+            id="support"
+          ></oz-dynamic-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

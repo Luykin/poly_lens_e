@@ -1,0 +1,4 @@
+.webpack
+package-lock.json
+workspaces/angular-app/.angular
+workspaces/angular-app/src/assets/lottie/*.json

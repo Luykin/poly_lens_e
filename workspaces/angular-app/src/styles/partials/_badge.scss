@@ -1,0 +1,36 @@
+@import './variables';
+
+.badge {
+  display: inline-block;
+  min-width: $badge-height;
+  height: $badge-height;
+  border: $badge-border-width solid $badge-background;
+  border-radius: $badge-border-radius;
+  background-color: $badge-background;
+  color: $white;
+  font-size: 12px;
+  line-height: $badge-height;
+  text-align: center;
+
+  &.accordion {
+    position: absolute;
+    top: -9px;
+    left: 99%;
+  }
+}
+
+.icon-with-badge {
+  display: inline-block;
+  position: relative;
+
+  oz-icon {
+    position: relative;
+  }
+
+  oz-badge,
+  > .badge {
+    position: absolute;
+    top: -12px;
+    left: 55%;
+  }
+}

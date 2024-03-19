@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "O dispositivo deve estar conectado a uma rede para ser provisionado",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Sair da configuração do dispositivo",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "A configuração do dispositivo não foi concluída.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "O {{deviceName}} não pode ser usado até que a configuração esteja concluída. O progresso não foi salvo.",
+  "EXIT_SETUP": "Sair da configuração",
+  "GET_STARTED": "Introdução",
+  "NETWORK": "Rede",
+  "PROVISIONING": "Provisionamento",
+  "COMPLETE": "Concluído",
+  "BUTTON_BACK": "Voltar",
+  "BUTTON_SKIP": "Pular",
+  "BUTTON_NEXT": "Avançar",
+  "BUTTON_FINISH": "Finalizar",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "Configuração do {{deviceName}} concluída!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Dispositivo de provisionamento",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Provisão",
+  "POSTPONE_DFU_MESSAGE": "Há atualizações disponíveis para seus dispositivos. Estas atualizações levam alguns minutos para serem concluídas. Não desconecte os dispositivos durante o processo de atualização.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "Há uma atualização disponível para o seu {{deviceName}}. Esta atualização levará alguns minutos para ser concluída. Não desconecte o dispositivo durante o processo de atualização.",
+  "UPDATE_NOW": "Atualizar agora",
+  "ASK_ME_LATER": "Pergunte-me mais tarde",
+  "AUDIO_RECORDING_START": "Início da gravação de áudio",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}} atualização adiada por 1 hora",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}} atualizar {{hours}} horas adiadas",
+  "PLAY_GREETING_NAME": "Reproduzir saudação",
+  "PLAY_GREETING_DESCRIPTION": "Selecione um arquivo de voz para reproduzir ao atender uma chamada.",
+  "SELECT_FILE": "Selecionar arquivo",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Desligado",
+    "NARROW": "Estreito",
+    "MEDIUM": "Médio",
+    "WIDE": "Amplo",
+    "CAMERA_VIEW": "Combinar visualização da câmera"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Vamos começar do começo...",
+    "I_AGREE": "Eu concordo com o",
+    "POLY_EULA": "Contrato de licença de usuário final Poly",
+    "CLOSE": "Fechar",
+    "PROCEED": "Continuar"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Práticas recomendadas",
+    "MENU": {
+      "HEADSET": "Headset",
+      "CAMERA": "Câmera",
+      "DESK_SETUP": "Configuração da estação de trabalho"
+    },
+    "NEXT": {
+      "NEXT": "PRÓXIMO:",
+      "TITLE": "Práticas recomendadas",
+      "LEARN_MORE": "Saiba mais"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Aceitar",
+    "APPLY": "Aplicar",
+    "CANCEL": "Cancelar",
+    "CONTINUE": "Continuar",
+    "DECLINE": "Recusar",
+    "DONE": "Concluído",
+    "LOG_IN": "Fazer login",
+    "LOG_OUT": "Fazer logout",
+    "OK": "OK",
+    "RETRY": "Tentar novamente",
+    "SHOW_LESS": "Mostrar menos",
+    "JOIN": "Participe",
+    "JOINING": "Ação em andamento",
+    "CREATE": "Criar plano",
+    "INSTALL": "Instalar",
+    "CHOOSE_FILE": "Escolher arquivo",
+    "DELETE": "Excluir",
+    "CLOSE": "Fechar",
+    "SELECT_FILE": "Selecionar arquivo",
+    "FEEDBACK": "Feedback"
+  },
+  "REQUIRED": "Obrigatório",
+  "OPTIONAL": "Opcional",
+  "Download": "Download",
+  "Upload": "Upload",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "A operação não foi concluída com êxito. Tente novamente.",
+  "RECEIVING_SETTINGS": "Configurações de recebimento",
+  "GENERAL": {
+    "BACK": "Voltar",
+    "CANCEL": "Cancelar",
+    "CLOSE": "Fechar",
+    "COMING_SOON": "EM BREVE",
+    "DOWNLOAD": "Download",
+    "DOWNLOADING": "Baixando",
+    "LOADING": "Carregando",
+    "FEEDBACK": "Feedback",
+    "HOME": "Página inicial",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Adicionar novo",
+    "EDIT_NAME": "Editar nome",
+    "DELETE": "Excluir",
+    "RESTORE_DEFAULTS": "Restaurar padrões",
+    "SEARCH_SETTINGS": "Configurações de pesquisa",
+    "SUPPORT": "Suporte",
+    "UPLOAD": "Upload",
+    "UPDATE": "Atualização",
+    "RETURN_HOME": "Retornar à página inicial",
+    "VERSION": "Versões",
+    "RECORDING": "Gravação",
+    "RECOVER": "Recuperar"
+  },
+  "FTU": {
+    "WELCOME_TO": "Bem-vindo ao",
+    "WELCOME_1": "Deixe-nos ajudar você a obter a melhor experiência com o Poly Lens.",
+    "CONNECTIVITY": {
+      "HEADER": "Conectividade",
+      "TITLE": "O Lens gerencia seus dispositivos"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Práticas recomendadas",
+      "TITLE": "O Lens melhora a sua experiência de mesa"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Saúde e bem-estar",
+      "TITLE": "Lens cuida de você"
+    },
+    "EXPLORE": {
+      "BUTTON": "Continuar como convidado"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Fazer login"
+    },
+    "GETTING_STARTED": "Introdução",
+    "LOGIN_CARD": {
+      "TITLE": "Comece hoje mesmo!",
+      "DESCRIPTION": "Faça login no Lens Desktop para que o Poly e sua organização possam oferecer a melhor experiência de dispositivos."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Montagem",
+      "DESCRIPTION": "Posicione o monitor de modo que seus olhos fiquem no mesmo nível do terço superior da tela. Fixe sua câmera no meio do monitor."
+    },
+    "CENTERING": {
+      "TITLE": "Centralização",
+      "DESCRIPTION": "Você fica melhor quando centralizado na visão da câmera. Certifique-se de que seu rosto esteja claramente visível e que não esteja cortado. Tente se posicionar para que os observadores consigam ver pelo menos 15 cm (6 pol.) da sua camisa da gola para baixo."
+    },
+    "LIGHTING": {
+      "TITLE": "Iluminação",
+      "DESCRIPTION": "A iluminação é fundamental para obter o melhor visual na câmera. A luz do dia é uma fonte de luz variável e pode entrar em conflito com a iluminação interna da sala. Se possível, posicione a estação de trabalho de modo que as janelas fiquem atrás do monitor e evite fontes de luz fortes atrás de você. A iluminação de teto dispersa é a melhor opção."
+    },
+    "BACKGROUND": {
+      "TITLE": "fundo",
+      "DESCRIPTION": "Objetos em segundo plano tornam chamadas de vídeo mais pessoais, mas certifique-se de que você seja o principal ponto focal. Em caso de dúvidas, quanto menos objetos em segundo plano, melhor."
+    },
+    "NEXT": {
+      "SUBTITLE": "Configuração da estação de trabalho"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Lista de verificação de conexão",
+    "POWER": {
+      "TITLE": "Verifique a chave liga/desliga",
+      "DESCRIPTION": "A chave liga/desliga está ligada?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Verifique seu adaptador para Bluetooth",
+      "DESCRIPTION": "Há uma luz azul brilhando na extremidade do adaptador? Às vezes, se você desconectar o adaptador e conectá-lo novamente, o headset será conectado."
+    },
+    "SUPPORT": {
+      "TITLE": "Entre em contato com o suporte.",
+      "DESCRIPTION": "Ainda está enfrentando problemas?",
+      "LINK": {
+        "TEXT": "Entre em contato com o suporte."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Estação de trabalho",
+      "DESCRIPTION": "Certifique-se de que o espaço sob a estação de trabalho esteja livre e que tenha espaço suficiente para as pernas. Se não conseguir ajustar a altura da estação de trabalho, levante ou abaixe a cadeira e use um descanso para os pés, se necessário."
+    },
+    "KEYBOARD": {
+      "TITLE": "Teclado",
+      "DESCRIPTION": "Verifique se você consegue alcançar o teclado com os ombros relaxados e os antebraços paralelos ao chão.  Tente manter os pulsos retos com o mínimo de flexão."
+    },
+    "CHAIR": {
+      "TITLE": "Cadeira",
+      "DESCRIPTION": "Escolha uma cadeira que sustente a sua coluna. Ajuste a altura da cadeira de modo que os pés fiquem apoiados inteiramente no chão e as coxas fiquem paralelas ao chão. Ajuste os apoios de braço para que os braços fiquem levemente sobre eles com os ombros relaxados."
+    },
+    "FEET": {
+      "TITLE": "Pés",
+      "DESCRIPTION": "Certifique-se de que seus pés fiquem totalmente apoiados no chão. Use um descanso para os pés se a cadeira estiver muito alta ou se a altura da estação de trabalho exigir que você eleve a altura da cadeira."
+    },
+    "MONITOR": {
+      "TITLE": "Monitor",
+      "DESCRIPTION": "Coloque o monitor diretamente à sua frente, a cerca de um braço de distância. Posicione o monitor a uma distância de 45 a 70 cm (18 a 24 pol.) dos olhos, com a parte superior da tela no nível dos olhos ou ligeiramente abaixo deles."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Headset",
+    "USB_ADAPTER": "Adaptador USB",
+    "CUSTOM_SOFTWARE_UPDATE": "Atualização de software personalizada:",
+    "LOGS": "Logs:",
+    "PID": "ID do produto:",
+    "SAVE_LOGS": "Salvar logs",
+    "SELECT_SOFTWARE_UPDATE": "Selecionar atualização de software",
+    "SERIAL_NUMBER": "Número de série:",
+    "SOFTWARE_VERSION": "Versão do software:",
+    "COUNTRY": "País:",
+    "LENS_ACCOUNT": "Conta Lens:",
+    "HARDWARE_VERSION": "Versão do hardware:",
+    "HARDWARE_REVISION": "Revisão do hardware:",
+    "ADDITIONAL_HARDWARE_REVISION": "Revisão de hardware do headset:",
+    "MAC_ADDRESS": "Endereço Mac:",
+    "IP_ADDRESS": "Endereço IP:",
+    "DEVICE_DIAGNOSTIC_CODE": "Código de diagnóstico do dispositivo:",
+    "CRASH_REPORTS": "Relatórios de falhas:",
+    "SAVE_CRASH_REPORTS": "Salvar relatórios de falhas"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Sugestões",
+    "CHART": {
+      "TITLE": "Uso",
+      "SERIES_NAME": "Uso total"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Latência (ms)",
+      "NETWORK_SPEED": "Velocidade da rede (Mbps)",
+      "RUNNING": "Execução",
+      "START_TEST": "Executar teste",
+      "TEST_AGAIN": "Testar novamente",
+      "TEST_RESULTS": "Resultados do teste",
+      "TITLE": "Teste de diagnóstico de rede",
+      "NO_CONNECTION": "Você parece estar off-line. O teste de rede só está disponível quando você está conectado à Internet.",
+      "SUBTEXT": "O teste de diagnóstico de rede é um recurso de visualização comercial."
+    }
+  },
+  "EE": {
+    "PAUSED": "Pausado",
+    "CONTINUE": "Pressione ESPAÇO para continuar.",
+    "FIRE": "SHIFT - Fire",
+    "MOVE": "SETAS - Mover",
+    "PAUSE": "ESPAÇO - Pausar",
+    "EXIT": "ESC - Sair",
+    "START": "Pressione ESPAÇO para iniciar.",
+    "DONE": "Nada mau. Mandou bem.",
+    "TRY_AGAIN": "Pressione ESPAÇO para tentar novamente."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Ajuste do headband",
+      "DESCRIPTION": "Para um encaixe adequado, ajuste o headband de modo que os fones de ouvido do headset fiquem centralizados por cima ou em cima dos ouvidos e verifique se o headset não está muito apertado ou muito solto. Consulte o guia do usuário do headset para obter instruções detalhadas de ajuste."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Formato da haste",
+      "DESCRIPTION": "As hastes da Poly são dobráveis e fáceis de posicionar. Se o headset tiver uma haste, posicione o microfone a cerca de 5 cm (2 pol.) dos lábios."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Posicionamento da haste",
+      "DESCRIPTION": "Se o headset tiver uma haste, você poderá girá-la para usar no lado esquerdo ou direito. Certifique-se de que, ao atender uma chamada, a haste esteja voltada para os seus lábios e não para cima."
+    },
+    "NEXT": {
+      "SUBTITLE": "Câmera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Olá, {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Olá, {{open_tag}}Convidado{{close_tag}}",
+    "GO_TO_DETAIL": "Ir para Detalhes",
+    "CONNECT_A_DEVICE": "Conecte um dispositivo para começar.",
+    "NOT_SEEING_DEVICE": "Não vê seu dispositivo?",
+    "SUBMIT_FEEDBACK": "Enviar feedback",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Sugestões",
+        "DESCRIPTION": "Verifique o uso de dispositivos e a conectividade da estação de trabalho."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Saúde e bem-estar",
+        "DESCRIPTION": "Receba lembretes para se hidratar e descansar. Reproduza sons para melhorar a concentração."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Práticas recomendadas",
+        "DESCRIPTION": "Otimize sua câmera e saiba como tornar seu espaço de trabalho mais ergonômico."
+      },
+      "SUPPORT": {
+        "TITLE": "Suporte Poly",
+        "DESCRIPTION": "Está com problemas? Podemos ajudar."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Cantonês",
+    "1030": "Dinamarquês",
+    "2057": "Inglês britânico",
+    "1033": "Inglês americano",
+    "1036": "Francês",
+    "1031": "Alemão",
+    "1040": "Italiano",
+    "1041": "Japonês",
+    "1042": "Coreano",
+    "1045": "Polonês",
+    "2052": "Mandarim",
+    "1044": "Norueguês",
+    "2068": "Norueguês",
+    "1049": "Russo",
+    "1034": "Espanhol",
+    "1053": "Sueco",
+    "16393": "Inglês indiano",
+    "1057": "Indonésio",
+    "1054": "Tailandês",
+    "1046": "Português brasileiro"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Promoção ativa",
+    "INACTIVE": "Inativo",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "O NoiseBlockAI foi desenvolvido para evitar que ruídos não humanos (como digitação de teclado ou manuseio de papel) afetem suas reuniões, ouvindo os momentos onde existe som no local, mas ninguém está falando, e silenciando automaticamente seu microfone. O microfone é desativado assim que você começa a falar novamente.",
+    "FOR_INCOMING_DESCRIPTION": "Evite que sons distrativos do outro lado da conversa (como digitação de teclado ou manuseio de papel) interrompam sua reunião.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI para áudio de entrada",
+    "FOR_OUTGOING_DESCRIPTION": "Evite que sons distrativos em seu ambiente (como digitação de teclado ou manuseio de papel) interrompam sua reunião.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI para áudio de saída",
+    "SEE_HOW_WORKS": "Veja como funciona"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Carregamento",
+      "STOPPED": "Carregamento interrompido"
+    },
+    "MUTE": {
+      "ON": "Interrupção de som ligada",
+      "OFF": "Interrupção de som desligada"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "A atualização de software {{build}} está disponível."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Atualização do dispositivo disponível"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Dispositivo não encontrado",
+      "MESSAGE": "Ah, não. Houve um problema. Tente novamente."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Página não encontrada",
+      "MESSAGE": "Ah, não. Houve um problema. Tente novamente."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "O Poly Lens requer permissões para acessar sua câmera. Para ativar, conceda à câmera acesso ao Poly Lens nas configurações do sistema."
+    },
+    "BUTTON": {
+      "CLOSE": "Fechar"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "O dispositivo foi desconectado"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "A bateria está fraca"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Bem-vindo ao Studio P21",
+      "CONTENT": "Para usar o Studio P21, você precisará baixar um software adicional para o monitor.",
+      "BUTTON": "Download"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Bem-vindo ao seu novo Studio P21!",
+      "CONTENT": "Bem-vindo ao seu novo Studio P21! Antes de usar seu novo dispositivo, é necessário instalar um software adicional para o monitor",
+      "BUTTON_DOWNLOAD": "Faça o download aqui",
+      "BUTTON_MORE_INFO": "Mais informações"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} detectado. Abra o Poly Lens para configurar este dispositivo."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Recursos adicionais de idioma carregados com êxito."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Sua tela será bloqueada em 5 segundos. Volte a ligar o headset ao controlador em linha para continuar a trabalhar."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "A configuração foi salva com êxito.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "A configuração não foi salva com êxito.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "As configurações do servidor NTP foram aplicadas com êxito.",
+    "CHANGE_NTP_SETTINGS_FAILED": "Não foi possível aplicar as configurações do servidor NTP.",
+    "COPIED_TO_CLIPBOARD": "Copiado para a área de transferência",
+    "SAVE_CSR_FILE_SUCCESS": "Arquivo CSR salvo com êxito.",
+    "SAVE_CSR_FILE_FAILED": "O arquivo CSR não foi salvo com êxito.",
+    "FILE_READ_FAILED": "Falha ao ler o arquivo.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Certificado instalado com sucesso.",
+    "CERTIFICATE_INSTALL_FAILED": "Falha na instalação do certificado.",
+    "CERTIFICATE_DELETE_SUCCESS": "Certificado excluído com sucesso.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Senha alterada com sucesso.",
+    "CONFIG_EXPORT_FAILED": "Falha na exportação. Tente novamente.",
+    "CONFIG_IMPORT_FAILED": "Falha ao importar. Tente novamente.",
+    "CONFIG_EXPORT_SUCCEEDED": "Exportação bem-sucedida.",
+    "CONFIG_IMPORT_SUCCEEDED": "Importação bem-sucedida.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Falha no diagnóstico de áudio. Tente novamente.",
+    "WIFI_JOIN_ERROR": "Não foi possível entrar na rede. Verifique suas credenciais e tente de novo.",
+    "CRASH_REPORTS_SUCCESS": "Relatórios de falhas baixados.",
+    "CRASH_REPORTS_FAILED": "Relatórios de falhas não encontrados.",
+    "NETWORK_ERROR": "A conectividade de rede não está disponível. Alguns recursos podem ficar limitados até que a conexão seja restaurada."
+  },
+  "DETAIL": {
+    "AUTO": "Automático",
+    "TITLE": "Página de detalhes",
+    "BACK_TO_HOME": "Voltar à página inicial",
+    "CAMERA": "Câmera",
+    "CONTROLS": "Controles",
+    "EXPAND": "Expandir",
+    "LINK": "Link",
+    "UNLINK": "Desvincular",
+    "CONTRACT": "Reduzir",
+    "GRID": "Grade",
+    "SETTINGS": "Configurações",
+    "FAVORITES": "Favoritos",
+    "FAVORITE_DELETE_CONFIRM": "Tem certeza de que deseja excluir o favorito \"{{favoriteName}}\"?",
+    "FAVORITE_NUMBER": "Favorito {{number}}",
+    "FAVORITE_SAVE_AS": "Salvar como Novo favorito",
+    "FAVORITES_SAVED": "Gravado",
+    "FAVORITE_COPY": "{{favoriteName}} cópia",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Clique no ícone Mostrar abaixo para iniciar a visualização.",
+    "PREVIEW_SHOW": "Mostrar",
+    "PREVIEW_HIDE": "Ocultar",
+    "PREVIEW_HIDDEN": "Visualização oculta",
+    "PREVIEW_WINDOWS_NOTICE": "Outros aplicativos não conseguirão usar esta câmera quando a Visualização estiver ativada.",
+    "PREVIEW_CONTROLS_READ_ERROR": "Outro aplicativo está usando esta câmera.{{line_feed}}Feche-o para ativar Visualização e Configurações.{{line_feed}}{{line_feed}}Se isso não funcionar, verifique se o outro aplicativo não está sendo executado em segundo plano.",
+    "SNAPSHOT": "Instantâneo",
+    "SNAPSHOT_SAVE": "Salvar instantâneo",
+    "SNAPSHOT_SAVED_SUCCESS": "Instantâneo salvo com êxito.",
+    "SNAPSHOT_SAVED_FAIL": "O instantâneo não foi salvo.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "instantâneo",
+    "SANDBOX": "Sandbox",
+    "IT_MANAGED": "Gerenciado pelo TI",
+    "HEADSET": "Headset",
+    "SUPPORT": "Suporte",
+    "USB_ADAPTER": "Adaptador USB",
+    "CHARGING_CASE": "Estojo",
+    "CHARGING_CASE_NAME": "Estojo de carga",
+    "DEVICES": "Microsoft Teams",
+    "OVERVIEW": {
+      "OVERVIEW": "Visão geral",
+      "BATTERY_LABEL": "Bateria:",
+      "BATTERY_CRITICAL": "Crítico",
+      "WIFI_LABEL": "Rede:",
+      "PROVISION_LABEL": "Provisão:",
+      "PROVISION_AUTO": "Genérico",
+      "PROVISION_OFF": "Provisão",
+      "PROVISION_NOT_SET_UP": "Não configurado",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "O dispositivo funcionará, mas não será gerenciado remotamente",
+      "SET_PROVISION": "Clique para configurar o provisionamento",
+      "STATUS_LABEL": "Status:",
+      "HEADSET_STATUS_LABEL": "Headset:",
+      "FIRMWARE_LABEL": "Software:",
+      "CONNECTED": "Conectado",
+      "NOT_CONNECTED": "Desconectado",
+      "DISCONNECTED": "Desconectado",
+      "PAIRING_MODE": "Emparelhar áudio bluetooth",
+      "PAIR_REMOTE": "Emparelhar bluetooth remoto",
+      "USB_PAIRING_MODE": "Emparelhar novo dispositivo",
+      "MAKE_PRIMARY": "Tornar principal",
+      "DELETE_DEVICE": "Excluir dispositivo",
+      "TROUBLE_CONNECTING": "Problemas para conectar seu dispositivo?",
+      "AVAILABLE_FIRMWARE": "Disponível:",
+      "SAVE_BUTTON": "Salvar",
+      "CANCEL_BUTTON": "Cancelar",
+      "RENAME_DEVICE": "Renomear",
+      "DEVICE_NAME": "Nome:",
+      "RECOVERY_MODE": "Modo de recuperação",
+      "POLICY_UPDATE_NOTE": "Sua organização exige que este dispositivo use uma versão de software específica. Atualize o mais rápido possível.",
+      "CASE_UPDATE_NOTE": "Conecte o cabo USB para atualizar o estojo de carga"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Dispositivo detectado",
+      "SETUP_REQUIRED": "Configuração necessária para uso do dispositivo.",
+      "IMPORT_CONFIGURATION": "Importar configuração",
+      "BEGIN_SETUP": "Iniciar configuração",
+      "MODAL": {
+        "TITLE": "Importar configuração",
+        "DESCRIPTION": "Insira o nome e o tipo de segurança da rede na qual você deseja entrar.",
+        "LABEL_INPUT": "Nome do dispositivo",
+        "INPUT_PLACEHOLDER": "Opcional",
+        "INPUT_RECOMMENDATION": "Recomendamos nomear este dispositivo com o nome da sala ou o espaço para reuniões em que ele está localizado."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Ao clicar em \"Aceito\" abaixo, você reconhece e aceita que o uso deste software é regido pelos termos do ",
+      "EULA_LINK": "Contrato de licença de usuário final Poly",
+      "EULA_I_ACCEPT": "Aceito o Contrato de licença de usuário final",
+      "BEGIN_SETUP": "Iniciar configuração",
+      "PASSWORD_INVALID": "A senha inserida é inválida. Digite a senha novamente."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Abrir",
+      "NO_DEVICES": "Nenhum dispositivo conectado.",
+      "QUIT": "Sair do Poly Lens",
+      "SOUNDSCAPING": "Paisagens sonoras",
+      "MDA_AUDIO_RECORDING": "Gravação de áudio com o mudo ativado",
+      "MDA_AUDIO_RECORDING_START": "Gravar mensagens de voz",
+      "MDA_AUDIO_RECORDING_STOP": "Parar gravação de mensagens de voz",
+      "OFF": "Desligado"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Saúde e bem-estar",
+    "SOUNDSCAPING": {
+      "TITLE": "Paisagens sonoras",
+      "ENABLE_SOUNDSCAPES": "Ativar paisagens sonoras",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Adicione paisagens sonoras ao seu ambiente",
+          "DESCRIPTION": "Um ambiente relaxante pode ajudar a diminuir as distrações. As opções de paisagem sonora incluem sons naturais de cachoeiras, vento, riachos, florestas e oceanos. Esses sons biofílicos selecionados sob medida podem ajudar a reduzir o estresse e melhorar a concentração."
+        }
+      },
+      "MOUNTAIN_RANCH": "Rancho na montanha",
+      "GENTLE_OCEAN": "Oceano tranquilo",
+      "BABBLING_BROOK": "Riacho corrente",
+      "AT_VOLUME": "no volume"
+    },
+    "HYDRATION": {
+      "TITLE": "Hidratação",
+      "REMINDERS": "Lembretes de hidratação",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Beba água",
+          "DESCRIPTION": "Para se manter hidratado, os homens precisam beber cerca de 3,7 litros (125 onças) de água e as mulheres, cerca de 2,7 litros (91 onças) de água por dia.",
+          "SOURCE_LINK_LABEL": "Fonte",
+          "SOURCE": "Academias nacionais de Ciências, Engenharia e Medicina"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "É hora de uma pausa para a água",
+        "BODY": "Estar bem hidratado pode melhorar a qualidade do sono, a cognição e o humor."
+      }
+    },
+    "VISION": {
+      "TITLE": "Visão",
+      "REMINDERS": "Lembretes de descanso dos olhos",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Desvie os olhos da tela",
+          "DESCRIPTION": "Uma boa prática é seguir a regra 20-20-20, que significa a cada 20 minutos, olhe para algo a cerca de 6 m (20 pés) de distância por 20 segundos."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Movimente o corpo",
+          "DESCRIPTION": "A regra 20-20-20 é um bom começo, mas certifique-se de sair da sua estação de trabalho, ir para o ambiente externo, fazer alongamentos ou praticar o conceito de mindfulness."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Hora de uma pausa",
+        "BODY": "Fazer uma pausa pode aumentar a atenção, a produtividade e a qualidade do trabalho"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Definir frequência do lembrete",
+    "REMINDER_SCHEDULE": "{{timeSpan}} em {{days}} entre {{startTime}} e {{endTime}}",
+    "FREQUENCY": "Frequência",
+    "TIME_RANGE": "Intervalo de tempo",
+    "WEEKDAYS": "Dias da semana (Seg. a Sex.)",
+    "WEEKDAYS_SHORT": "Dias da semana",
+    "EVERY_DAY": "Todos os dias",
+    "CUSTOM": "Personalizar",
+    "ON": "em",
+    "LEARN_MORE": "Saiba mais",
+    "NEXT": "PRÓXIMO",
+    "THROUGH": "às"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Como o Acoustic Fence funciona",
+      "TITLE": "Como o Acoustic Fence funciona",
+      "DESCRIPTION": "A Acoustic Fence usa tecnologia avançada de cancelamento de eco e vários microfones para criar uma \"cerca de áudio\" virtual. Isso reduz o impacto que os sons de fora da cerca podem ter em sua chamada, como a conversa de seus colegas de trabalho. {{line_feed}}Para obter a melhor experiência, use com Poly NoiseBlockAI para suprimir o ruído de fundo sem fala, especialmente sons de teclado, sons de papel e até mesmo cães latindo."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Como o NoiseBlockAI funciona",
+      "TITLE": "Como o NoiseBlockAI funciona",
+      "DESCRIPTION": "O NoiseBlockAI foi desenvolvido para evitar que ruídos não humanos (como digitação de teclado ou manuseio de papel) afetem suas reuniões, usando técnicas de supressão de ruído baseadas em aprendizado de máquina para reduzir ruídos de fundo distrativos no ambiente ou enquanto você está falando. {{line_feed}}Quando você não está falando, o NoiseBlockAI silencia automaticamente o microfone para evitar que ruídos de fundo interrompam a sua chamada."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Restaurar padrões",
+      "CONFIRM_MESSAGE": "Esta ação restaura todas as configurações padrão de fábrica do seu dispositivo.",
+      "COMPLETE_TITLE": "Configurações restauradas!",
+      "COMPLETE_MESSAGE": "Lembre-se de desconectar (caso o USB esteja conectado) e desligue o headset para que as novas configurações entrem em vigor.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "Para concluir esse processo, seu dispositivo pode reiniciar agora."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Reiniciar dispositivo",
+      "CONFIRM_MESSAGE": "Esta ação reinicia imediatamente o dispositivo."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Restaurar padrões",
+      "CONFIRM_MESSAGE": "Esta ação restaura todas as configurações padrão do Lens."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Título do áudio",
+      "CONFIRM_MESSAGE": "Mensagem de confirmação de áudio."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Saiba mais sobre o antissusto",
+      "TITLE": "Sobre o antissusto",
+      "INTRO": "Existem 2 ou 3 opções para a proteção antissusto, dependendo do produto:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "Uma diretriz australiana do setor para proteção contra choque acústico limita os níveis de áudio a sua orelha, evitando choques causados por volumes altos.",
+      "G616_POLY_ENHANCED": "G616 (Poly Enhanced)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Os algoritmos proprietários da Poly vão além da proteção G616, eliminando sons elevados e repentinos, e instantaneamente reduzindo-os para garantir mais conforto enquanto mantém a integridade do áudio.",
+      "OFF": "Desligado",
+      "OFF_DESCRIPTION": "Quando essa configuração estiver desabilitada, o headset transmitirá áudio sem filtros, mas continuará limitando os níveis de som em 118 dBA para proteger sua audição.",
+      "NOTE": "NOTA",
+      "NOTE_DESCRIPTION": "Esta opção depende do produto.",
+      "MORE_INFO": "Para obter mais informações sobre este recurso, visite"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Encontrar uma rede Wi-Fi e entrar nela",
+      "NETWORK_NAME": "Nome da rede",
+      "DESCRIPTION": "Insira o nome e o tipo de segurança da rede na qual você deseja entrar.",
+      "PASSWORD_TITLE": "Adicionar senha para a rede {{networkName}}",
+      "SECURITY": "Segurança",
+      "EAP_METHOD": "Método EAP",
+      "PHASE2": "Autenticação de fase 2",
+      "CA_CERTIFICATE": "Certificado CA",
+      "USER_CERTIFICATE": "Certificado do usuário",
+      "IDENTITY": "Identidade",
+      "ANONYMOUS_IDENTITY": "Identidade anônima",
+      "PASSWORD": "Senha",
+      "IP_SETTINGS": "Configurações de IP",
+      "STATIC": "Estático",
+      "SHOW_ADVANCED": "Mostrar configurações avançadas",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "Endereço IP",
+      "GATEWAY": "Gateway",
+      "SUBNET_MASK": "Máscara de sub-rede",
+      "DNS1": "Endereço de DNS 1",
+      "DNS2": "Endereço de DNS 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Gerenciar redes conhecidas",
+      "NO_NETWORKS": "Não há redes conhecidas. Conecte-se."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Criar solicitação de autenticação de certificado",
+      "DESCRIPTION": "Especifique abaixo as informações para a solicitação de certificado.",
+      "COUNTRY": "País",
+      "STATE": "Estado ou província",
+      "CITY": "Cidade ou localidade",
+      "ORGANIZATION": "Organização",
+      "ORGANIZATION_UNIT": "Unidade da organização",
+      "COMMON_NAME": "Nome comum",
+      "SAVE_FILE_TITLE": "Salvar arquivo de solicitação de assinatura de certificado"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Instalar certificado",
+      "TYPE": "Tipo",
+      "CERTIFICATE": "Certificado",
+      "CHOOSE_FILE_TITLE": "Escolher arquivo"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Detalhes de certificado",
+      "PASSWORD_ERROR": "A senha digitada é inválida. Digite a senha novamente.",
+      "PASSWORD": "Senha da chave privada:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Este é o seu dispositivo principal.",
+    "MAKE_DEVICE_MAIN": "Torne este dispositivo no principal.",
+    "DEVICE_NOT_SUPPORTED": "Suporte a dispositivos em breve. A funcionalidade no aplicativo pode ser limitada.",
+    "DISABLED_BY_ADMIN": "Recurso desativado pelo administrador"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Componentes do software",
+    "VIEW_LIST_OF_COMPONENTS": "Exibir {{numberOfComponents}} componentes",
+    "VIEW_ONE_COMPONENT": "Exibir 1 componente",
+    "USB": "USB",
+    "PIC": "IMAGEM",
+    "TUNING": "Sintonização",
+    "BASE": "Base",
+    "HEADSET": "Headset",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "ConfigId",
+    "CAMERA": "Câmera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Quase pronto!",
+    "REPLUG_DESCRIPTION": "Desconecte e reconecte o dispositivo e selecione \"Continuar\" para concluir a atualização.",
+    "UPDATE_WARNING_1": "Esta atualização leva alguns minutos para ser concluída.",
+    "UPDATE_WARNING_2": "{{open_tag}}Não desconecte o dispositivo{{close_tag}} durante o processo de atualização.",
+    "UPDATE_WARNING_3": "Verifique se a câmera não está em uso por outro aplicativo antes de prosseguir com esta atualização de software.",
+    "DISTANCE_WARNING.TITLE": "Prepare-se para atualizar",
+    "DISTANCE_WARNING_1": "Mantenha seu {{open_tag}}{{device_name}}{{close_tag}} a até 1,5 m (5 pés) do computador durante a atualização.",
+    "DISTANCE_WARNING_2": "Desconecte todas as outras conexões Bluetooth (por exemplo, telefone celular) para evitar a interrupção da atualização.",
+    "LANGUAGE_DOWNLOAD": "Download de idioma",
+    "DOWNLOADING_LANGUAGE": "Baixando idioma",
+    "LANGUAGE_UPDATE": "Atualização de idioma",
+    "UPDATEING_LANGUAGE": "Atualizando o idioma",
+    "LANGUAGE_UPDATED": "Idioma atualizado",
+    "SOFTWARE_DOWNLOAD": "Download de software",
+    "DOWNLOADING_SOFTWARE": "Fazendo download do software",
+    "SOFTWARE_UPDATE": "Atualização de software",
+    "UPDATING_SOFTWARE": "Atualizando o software",
+    "SOFTWARE_INSTALLED": "Software instalado",
+    "CUSTOM_SOFTWARE_UPDATE": "Atualização de software personalizado",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Carregando atualização de software personalizado",
+    "CUSTOM_SOFTWARE_INSTALLED": "Software personalizado instalado",
+    "DEVICE_RECOVERY": "Recuperação do dispositivo",
+    "RECOVERING_DEVICE": "Recuperar dispositivo",
+    "DEVICE_RECOVERED": "Dispositivo recuperado",
+    "UPDATE_FAILED": "Falha na atualização de software",
+    "UPDATE_FAILED_TITLE": "Ah, não. Temos um problema.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "A atualização do software não foi concluída com êxito.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "O software já está atualizado",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "O dispositivo que você tentou atualizar já tem o software mais recente.",
+    "PREREQUISITES": {
+      "BatteryLowError": "O nível da bateria é insuficiente para executar uma atualização. Carregue a bateria do seu {{deviceName}} antes de atualizar.",
+      "DeviceNotConnectedError": "Conecte seu {{deviceName}} via cabo para atualizar.",
+      "CallinProgressError": "Não é possível atualizar o {{deviceName}} durante uma chamada.",
+      "DFUInProgressError": "Não é possível atualizar o {{deviceName}} enquanto outra atualização estiver em andamento.",
+      "MultipleDevicesError": "Dois ou mais dispositivos do mesmo modelo estão conectados. Desconecte os outros dispositivos antes de atualizar este dispositivo.",
+      "ReplugDevice": "Desconecte e reconecte o dispositivo para concluir a atualização do software.",
+      "CameraInUseError": "Verifique se a visualização da câmera está desativada e se o microfone e a câmera não estão ativos em nenhum outro aplicativo.",
+      "SingleEarbudError": "Ambos os fones devem estar ligados, fora do estojo e com uma carga de mais de 50% para a atualização."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Geral",
+    "DisplayControls": "Controles de exibição",
+    "RingtoneAndVolume": "Toques e volume",
+    "Audio": "Áudio",
+    "SensorAndPresence": "Sensores e presença",
+    "SoftphonesAndMediaPlayers": "Softphones e reprodutores de mídia",
+    "Wireless": "Sem fio",
+    "Advanced": "Avançado",
+    "ANC": "Cancelamento de ruído ativado",
+    "Firmware": "Firmware",
+    "Language": "Idioma",
+    "VoicePromptsAndTones": "Aviso de voz e tons",
+    "Admin": "Administrador",
+    "ResetHeadset": "Redefinir dispositivo",
+    "Lights": "Luzes",
+    "CustomButton": "Botão personalizado",
+    "CustomSwipe": "Sensor de deslizamento personalizado",
+    "Diagnostics": "Diagnósticos",
+    "SoftwareSettings": "Configurações de Software"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Idioma",
+      "description": "Selecione o idioma desejado para todos os avisos de voz e alertas. Por exemplo, \"Chamada recebida de João.\" ou \"Sigilo ativado.\"",
+      "serverNotReachable": "Não é possível alterar o idioma neste momento porque o servidor está indisponível.",
+      "options": {
+        "3076": "Cantonês",
+        "1030": "Dinamarquês",
+        "2057": "Inglês - Reino Unido",
+        "1033": "Inglês - Estados Unidos",
+        "1036": "Francês",
+        "1031": "Alemão",
+        "1040": "Italiano",
+        "1041": "Japonês",
+        "1042": "Coreano",
+        "1045": "Polonês",
+        "2052": "Mandarim",
+        "1044": "Norueguês - Bokmal",
+        "2068": "Norueguês - Nynorsk",
+        "1049": "Russo",
+        "1034": "Espanhol",
+        "1053": "Sueco",
+        "16393": "Inglês - Índia",
+        "1057": "Indonésio",
+        "1054": "Tailandês",
+        "1046": "Português - Brasil"
+      }
+    },
+    "0x102": {
+      "name": "Segunda chamada recebida",
+      "description": "Controle o comportamento do toque para uma chamada recebida de uma segunda via de comunicação (por exemplo, uma chamada recebida no celular enquanto você está em uma chamada no softphone existente).",
+      "options": {
+        "ignore": "Ignorar",
+        "once": "Tocar apenas uma vez",
+        "continuous": "Tocar continuamente"
+      }
+    },
+    "0x103": {
+      "name": "Volume do computador",
+      "description": "",
+      "options": {
+        "off": "Desligado",
+        "low": "Volume baixo",
+        "standard": "Volume padrão"
+      }
+    },
+    "0x104": {
+      "name": "Volume do telefone de mesa",
+      "description": "",
+      "options": {
+        "off": "Desligado",
+        "low": "Volume baixo",
+        "standard": "Volume padrão"
+      }
+    },
+    "0x105": {
+      "name": "Volume do telefone celular",
+      "description": "",
+      "options": {
+        "off": "Desligado",
+        "low": "Volume baixo",
+        "standard": "Volume padrão"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "Selecione o toque (e o volume para modelos aplicáveis) que deseja ouvir quando o softphone de seu PC tocar.",
+      "options": {
+        "sound1": "Som 1",
+        "sound2": "Som 2",
+        "sound3": "Som 3",
+        "off": "Desligado"
+      }
+    },
+    "0x107": {
+      "name": "Telefone de mesa",
+      "description": "Selecione o toque (e o volume para modelos aplicáveis) que deseja ouvir quando o seu telefone de mesa tocar.",
+      "options": {
+        "sound1": "Som 1",
+        "sound2": "Som 2",
+        "sound3": "Som 3",
+        "off": "Desligado"
+      }
+    },
+    "0x108": {
+      "name": "Telefone celular",
+      "description": "Selecione o toque (e volume para modelos aplicáveis) que deseja ouvir quando o seu dispositivo móvel tocar.",
+      "options": {
+        "sound1": "Som 1",
+        "sound2": "Som 2",
+        "sound3": "Som 3",
+        "off": "Desligado"
+      }
+    },
+    "0x109": {
+      "name": "Toque",
+      "description": "Emite um toque audível quando um dispositivo conectado receber um ligação e estiver configurado para não emitir seu próprio toque."
+    },
+    "0x10A": {
+      "name": "Volume da campainha da base",
+      "description": "Configure o volume da campainha da base.",
+      "options": {
+        "off": "Desligado",
+        "low": "Baixo",
+        "medium": "Médio",
+        "high": "Alto"
+      }
+    },
+    "0x200": {
+      "name": "Uso do sensor",
+      "description": "Ligue esta função principal para permitir a definição de cada configuração que depende do sensor."
+    },
+    "0x201": {
+      "name": "Atendimento automático",
+      "description": "Atenda automaticamente a uma chamada recebida ao colocar o headset enquanto o telefone toca."
+    },
+    "0x202": {
+      "name": "Transferência de áudio inteligente",
+      "description": "Transfira automaticamente o áudio de uma chamada do headset para o telefone celular sempre que você remover o headset. Coloque o headset novamente para transferir o áudio da chamada para o headset."
+    },
+    "0x203": {
+      "name": "Bloqueio de botão de chamada",
+      "description": "Bloqueie o botão de chamada do headset para eliminar o risco de chamadas acidentais no celular quando não estiver utilizando o headset."
+    },
+    "0x204": {
+      "name": "Pausa automática de música",
+      "description": "Pause automaticamente a transmissão de áudio de um dispositivo móvel quando o headset for retirado do ouvido (e retome-a quando colocá-lo no ouvido). Desative para reproduzir o áudio transmitido continuamente."
+    },
+    "0x205": {
+      "name": "Interrupção de som automática",
+      "description": "Interrompa o som do microfone do seu headset automaticamente sempre que remover o headset durante uma chamada."
+    },
+    "0x206": {
+      "name": "Áudio da chamada ativa",
+      "description": "Selecione a ação que deseja que o headset execute ao removê-lo durante uma chamada ativa.",
+      "options": {
+        "doNothing": "Não fazer nada",
+        "transferAudioToMobile": "Transferir áudio para o telefone celular",
+        "muteMic": "Sigilo do microfone"
+      }
+    },
+    "0x300": {
+      "name": "Atendimento automático (Sem sensor)",
+      "description": "Atenda chamadas automaticamente quando o headset for removido da base de carga. Desative esse recurso para atender às chamadas pressionando o botão de controle de chamada."
+    },
+    "0x301": {
+      "name": "Conectar automaticamente ao telefone celular",
+      "description": "Reconecte automaticamente a base Savi ao seu telefone celular quando ele entrar no alcance da unidade de base."
+    },
+    "0x302": {
+      "name": "Colocar na base para desconectar automaticamente",
+      "description": "Desconecte uma chamada automaticamente quando você colocar o headset na base de carga."
+    },
+    "0x400": {
+      "name": "Linha telefônica padrão",
+      "description": "Defina a linha ativa a ser usada ao pressionar o botão de controle de chamada do headset.",
+      "options": {
+        "pstn": "Telefone de mesa",
+        "voip": "Computador",
+        "mobile": "Celular"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Habilite para conectar seu dispositivo móvel via Bluetooth."
+    },
+    "0x402": {
+      "name": "Comandos de voz móveis",
+      "description": "Habilite para colocar um dispositivo móvel conectado no modo de comando de voz pressionando o botão do dispositivo móvel na base."
+    },
+    "0xB05": {
+      "name": "Alerta de chamada recebida",
+      "description": "Ouça um aviso de voz quando receber uma chamada."
+    },
+    "0x913": {
+      "name": "Lembrete de espera",
+      "description": "Receba um lembrete útil de que há uma chamada em espera."
+    },
+    "0xB06": {
+      "name": "Alertas de volume mínimo/máximo",
+      "description": "Selecione o tipo de aviso emitido quando o volume mínimo e o volume máximo forem atingidos.",
+      "options": {
+        "voice": "Voz",
+        "tone": "Tom"
+      }
+    },
+    "0x500": {
+      "name": "Exposição a ruído",
+      "description": "Monitore e controle a exposição diária a ruído para garantir que ela não exceda o valor de ação selecionado (80 dBA ou 85 dBA) especificado pela legislação atual.",
+      "options": {
+        "85db": "Limitado a 85 dBA",
+        "80db": "Limitado a 80 dBA",
+        "off": "Sem limitação"
+      }
+    },
+    "0x501": {
+      "name": "Horas no telefone por dia",
+      "description": "Otimize a precisão da Exposição a ruído selecionando o valor que melhor represente o uso normal deste dispositivo.",
+      "options": {
+        "off": "Desligado",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Antissusto",
+      "description": "Os algoritmos inteligentes eliminam choques acústicos de sons elevados, instantaneamente reduzindo-os para garantir mais proteção e conforto para audição."
+    },
+    "0x505": {
+      "name": "Antissusto",
+      "description": "Com proteção acústica padrão do setor, o G616 limita os níveis de áudio à sua orelha para evitar sustos causados por volumes altos."
+    },
+    "0x600": {
+      "name": "Atender/Ignorar",
+      "description": "Ouça um aviso de voz para \"Atender\" ou \"Ignorar\" sempre que receber chamadas no telefone celular."
+    },
+    "0x601": {
+      "name": "Anúncio de chamada",
+      "description": "Ouça o alerta de voz \"Atendendo chamada\" ao atender a uma chamada com o headset."
+    },
+    "0x602": {
+      "name": "Alerta de sigilo desativado",
+      "description": "O feedback que ouve quando ativa/desativa o microfone do headset.",
+      "options": {
+        "false": "Tom",
+        "true": "Voz"
+      }
+    },
+    "0x603": {
+      "name": "Cronômetro do lembrete de sigilo",
+      "description": "Defina o número de minutos entre os alertas de lembrete de interrupção do som.",
+      "options": {
+        "off": "Desligado",
+        "1": "1 minuto",
+        "2": "2 minutos",
+        "3": "3 minutos",
+        "4": "4 minutos",
+        "5": "5 minutos",
+        "6": "6 minutos",
+        "7": "7 minutos",
+        "8": "8 minutos",
+        "9": "9 minutos",
+        "10": "10 minutos",
+        "11": "11 minutos",
+        "12": "12 minutos",
+        "13": "13 minutos",
+        "14": "14 minutos",
+        "15": "15 minutos"
+      }
+    },
+    "0x604": {
+      "name": "Volume do lembrete de sigilo",
+      "description": "Ajuste o volume do alerta de lembrete de interrupção do som.",
+      "options": {
+        "off": "Desligado",
+        "low": "Volume baixo",
+        "standard": "Volume padrão"
+      }
+    },
+    "0x607": {
+      "name": "Ativar/desativar sigilo de alertas",
+      "description": "Selecione o tipo de alerta que você ouve quando ativa/desativa o microfone do headset ou recebe um lembrete de interrupção de som.",
+      "options": {
+        "voice": "Voz",
+        "singleTone": "Toque único",
+        "doubleTone": "Toque duplo"
+      }
+    },
+    "0x608": {
+      "name": "Toque do sistema",
+      "description": "Defina o volume das notificações de áudio do headset.",
+      "options": {
+        "off": "Desligado",
+        "low": "Volume baixo",
+        "standard": "Volume padrão"
+      }
+    },
+    "0x609": {
+      "name": "Nível de volume dos toques",
+      "description": "Ao ajustar o volume, ouça tons indicando seu nível de volume atual.",
+      "options": {
+        "atEveryLevel": "Todos os níveis",
+        "minMaxOnly": "Somente mínimo e máximo"
+      }
+    },
+    "0x60A": {
+      "name": "ID de chamada",
+      "description": "Ouça o nome da pessoa que está ligando."
+    },
+    "0x60C": {
+      "name": "Tom de áudio ativo",
+      "description": "Ouça um combinação de tom curto indicando que o canal de áudio está aberto e pronto para ser utilizado para comunicação."
+    },
+    "0x60D": {
+      "name": "Modo do lembrete de sigilo",
+      "description": "Receba um lembrete útil de que o seu headset está com o som interrompido durante uma chamada. Configure como e quando o lembrete ocorrerá.",
+      "options": {
+        "off": "Desligado",
+        "timed": "Baseado em tempo",
+        "voiceAudible": "Lembrete Audível",
+        "voiceVisible": "Lembrete Exibido na tela",
+        "voiceVisibleAndAudible": "Lembretes Audíveis e Exibidos na tela"
+      }
+    },
+    "0x610": {
+      "name": "Interromper o som dos alertas",
+      "description": "A resposta que ouve quando ativa/desativa o microfone do viva-voz."
+    },
+    "0x700": {
+      "name": "Qualidade do áudio",
+      "description": "Otimizar a qualidade do áudio para a atividade desejada.",
+      "options": {
+        "homeMode": "Música",
+        "enterpriseMode": "Híbrido",
+        "mono": "Conversa",
+        "narrowBand": "Banda estreita"
+      }
+    },
+    "0x701": {
+      "name": "Vinculação Over-the-Air",
+      "description": "Vincule o headset à base sem colocá-lo fisicamente na base de carga."
+    },
+    "0x702": {
+      "name": "Alcance",
+      "description": "Limite o alcance para reduzir os problemas de interferência de áudio a partir de outros dispositivos DECT.",
+      "options": {
+        "low": "Baixo",
+        "medium": "Médio",
+        "high": "Alto"
+      }
+    },
+    "0x704": {
+      "name": "Streaming de áudio",
+      "description": "Permite transmitir música, podcasts e outros tipos de áudio de seu dispositivo móvel ao headset. Se não estiver fazendo o streaming de áudio para o headset, desative este recurso para ajudar a economizar bateria.",
+      "powerCycleRequired": {
+        "title": "Ativar/Desativar transmissão de áudio",
+        "buttonText": "OK",
+        "true": {
+          "title": "Desativar o streaming de áudio",
+          "text": "Selecione para economizar bateria e permanecer nas chamadas por mais tempo. Enquanto ele estiver desativado, você não poderá ouvir músicas ou podcasts pelo headset."
+        },
+        "false": {
+          "title": "Ativar streaming de áudio",
+          "text": "Selecione para ouvir músicas e podcasts pelo headset. Quando ativado, você pode reduzir o tempo de conversação disponível para chamadas."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Modo de alcance estendido (PC)",
+      "description": "Obtenha alcance sem fio melhorado do seu PC ao headset. NOTA: essa ação desativará a telefonia estéreo de banda larga e diminuirá a qualidade do áudio do seu PC."
+    },
+    "0x706": {
+      "name": "Largura de banda do áudio do PC",
+      "description": "O áudio de banda larga proporciona nitidez de voz e realismo, porém consome mais energia da bateria, resultando em menor tempo de conversação.",
+      "options": {
+        "narrowband": "Banda estreita",
+        "wideband": "Banda larga"
+      }
+    },
+    "0x707": {
+      "name": "Largura de banda do áudio do telefone de mesa",
+      "description": "O áudio de banda larga proporciona nitidez de voz e realismo, porém consome mais energia da bateria, resultando em menor tempo de conversação.",
+      "options": {
+        "narrowband": "Banda estreita",
+        "wideband": "Banda larga"
+      }
+    },
+    "0x708": {
+      "name": "Voz em HD",
+      "description": "O áudio de banda larga aumenta a clareza da fala se seu telefone e operadora de serviços também suportarem o recurso. NOTA: Esse recurso consome muita energia da bateria, resultando em redução do tempo de conversação.",
+      "options": {
+        "narrowband": "Desligado",
+        "wideband": "Ligado",
+        "stereo": "Estéreo",
+        "widebandStereo": "Estéreo de banda larga"
+      },
+      "powerCycleRequired": {
+        "title": "Ativar/Desativar voz HD",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "Desativar voz HD",
+          "text": "O áudio de banda larga aumenta a nitidez do áudio se o seu telefone e a sua operadora oferecerem suporte a esse recurso. Desative para economizar bateria e permanecer nas chamadas por mais tempo."
+        },
+        "wideband": {
+          "title": "Ativar voz HD",
+          "text": "O áudio de banda larga aumenta a nitidez do áudio se o seu telefone e a sua operadora oferecerem suporte a esse recurso. A ativação da voz HD consome mais energia da bateria e reduz o tempo de conversação disponível para chamadas."
+        },
+        "stereo": {
+          "title": "Título estéreo",
+          "text": "Texto estéreo"
+        },
+        "widebandStereo": {
+          "title": "Título estéreo de banda larga",
+          "text": "Texto estéreo de banda larga"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Reconectar automaticamente o encadeamento em série",
+      "description": "Mantenha a conexão em cadeia entre dois dispositivos quando eles estiverem ligados."
+    },
+    "0x70B": {
+      "name": "Desconexão automática do Bluetooth",
+      "description": "Desconecte o Bluetooth quando o dispositivo entrar no modo de espera."
+    },
+    "0x800": {
+      "name": "Aumente o volume do headset QD",
+      "description": "Se o volume do headset conectado ao QD (Quick Disconnect) da sua base estiver muito baixo, selecione o seu headset para aumentar o volume.",
+      "options": {
+        "new": "Série EncorePro 500",
+        "legacy": "EncorePro Série 700 e todos os outros modelos de headset"
+      }
+    },
+    "0x801": {
+      "name": "Controle de tonalidade",
+      "description": "Aumente os tons graves ou agudos para otimizar sua experiência sonora. Você pode personalizar os tons do telefone de mesa e do computador separadamente para cada dispositivo. ",
+      "options": {
+        "maxBass": "Graves máximos",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Agudos máximos"
+      }
+    },
+    "0x802": {
+      "name": "Limitação de conversa próxima",
+      "description": "Limite a quantidade de conversas nas proximidades transmitidas pelo microfone. (Observação: as alterações feitas entrarão em vigor na próxima chamada.)",
+      "options": {
+        "no": "Sem limitação",
+        "moderate": "Melhor áudio",
+        "agressive": "Escritório aberto"
+      }
+    },
+    "0x803": {
+      "name": "Sons secundários",
+      "description": "Ajuste o volume da sua própria voz quando estiver falando.",
+      "options": {
+        "low": "Baixo",
+        "medium": "Médio",
+        "high": "Alto"
+      }
+    },
+    "0x804": {
+      "name": "Tempo limite do ANC",
+      "description": "Para economizar bateria, reduza o tempo de ativação do Cancelamento de ruído ativo (CRA) quando seu headset estiver ocioso.",
+      "options": {
+        "2": "2 horas",
+        "4": "4 horas",
+        "off": "Desligado"
+      }
+    },
+    "0x810": {
+      "name": "Modo do ANC",
+      "description": "Selecione o melhor nível de cancelamento de ruído para o seu ambiente.",
+      "options": {
+        "adaptive": "Adaptativo",
+        "automatic": "Automático",
+        "standard": "Padrão",
+        "off": "Desligado"
+      }
+    },
+    "0x805": {
+      "name": "Toques de notificação",
+      "description": "Escute toques de notificação de outros dispositivos conectados durante a transmissão de áudio."
+    },
+    "0x806": {
+      "name": "Controle de volume independente",
+      "description": "Ativar ou desativar o controle de volume independente."
+    },
+    "0x807": {
+      "name": "Áudio de encadeamento em série",
+      "description": "Selecione a saída de áudio emitida quando os viva-vozes são conectados em série.",
+      "options": {
+        "party": "Festa",
+        "stereo": "Estéreo"
+      }
+    },
+    "0x808": {
+      "name": "Equalizador",
+      "description": "Ajuste o Equalizador de acordo com sua característica de som preferida.",
+      "options": {
+        "bass": "Grave",
+        "flat": "Plano",
+        "bright": "Brilhante"
+      }
+    },
+    "0x90A": {
+      "name": "Restaurar padrões",
+      "description": "Esta ação restaura todas as configurações padrão de fábrica do seu dispositivo.",
+      "resetBtn": "Restaurar padrões",
+      "powerCycleRequired": {
+        "title": "Configurações restauradas",
+        "buttonText": "Restaurar",
+        "true": {
+          "title": "Restaurar configurações padrão",
+          "text": "Todas as suas configurações personalizadas serão restauradas para seus padrões originais."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Reiniciar dispositivo",
+      "description": "Esta ação reinicia imediatamente o dispositivo.",
+      "resetBtn": "Reiniciar"
+    },
+    "0x848": {
+      "name": "Apagar dispositivos confiáveis",
+      "description": "Exclua a lista de dispositivos conectados armazenados no seu headset. (Isso se aplica a todos os dispositivos conectados, incluindo o BT700.)",
+      "resetBtn": "Apagar dispositivos",
+      "powerCycleRequired": {
+        "title": "Dispositivos apagados",
+        "buttonText": "Apagar",
+        "true": {
+          "title": "Apagar dispositivos confiáveis",
+          "text": "Essa ação apaga todos os dispositivos conectados armazenados no headset, incluindo o adaptador USB BT700."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Vibrar ao receber chamada",
+      "description": "Ajuste seu headset para que ele vibre quando receber chamadas."
+    },
+    "0x901": {
+      "name": "Confirmação de carregamento",
+      "description": "Defina o headset para vibrar para confirmar que está carregando."
+    },
+    "0x902": {
+      "name": "Indicador Online",
+      "description": "Ativar o indicador LED no seu dispositivo para informar aos demais que você está em uma chamada."
+    },
+    "0x903": {
+      "name": "Preferência de uso para controle de volume",
+      "description": "Indique a preferência de uso do headset (orelha direita ou esquerda) e depois aperte o controle de volume para cima para aumentar o nível de volume.",
+      "options": {
+        "unknown": "Sem alterações",
+        "left": "Ouvido esquerdo",
+        "right": "Ouvido direito",
+        "leftRight": "Haste no lado direito",
+        "leftRightSwapped": "Haste no lado esquerdo"
+      }
+    },
+    "0xA00": {
+      "name": "Percepção de áudio",
+      "description": "Estabeleça automaticamente um vínculo de rádio entre a base e o headset sem fio quando a porta USB detectar o áudio do computador."
+    },
+    "0xA01": {
+      "name": "Tom de discagem",
+      "description": "Ouça um tom de discagem para uma chamada VoIP quando pressionar o botão de chamada do headset. O softphone deve ser compatível com tons de discagem."
+    },
+    "0xFFF1": {
+      "name": "Conectar automaticamente ao telefone celular",
+      "description": "Reconecte automaticamente a base Savi a seu dispositivo móvel emparelhado quando o telefone entrar na faixa da unidade de base.",
+      "options": {
+        "never": "Nunca",
+        "whenUndocked": "Somente quando o headset está desacoplado da base",
+        "always": "Sempre"
+      }
+    },
+    "0xFFF2": {
+      "name": "Antissusto",
+      "description": "Algoritmos que eliminam choques acústicos de sons elevados para garantir mais proteção e conforto para a audição.",
+      "options": {
+        "off": "Desligado",
+        "standard": "G616",
+        "enhanced": "G616 (Poly Enhanced)"
+      }
+    },
+    "0x60E": {
+      "name": "Status da bateria",
+      "description": "Ouça o status da bateria ao ligar o dispositivo."
+    },
+    "0x60F": {
+      "name": "Conexão",
+      "description": "Ouça um aviso de voz indicando o status da conexão.",
+      "options": {
+        "voice": "Voz",
+        "tone": "Tom"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Ativa ou desativa todas as conexões Bluetooth na caixa acústica Sync."
+    },
+    "-": {
+      "name": "Conexão",
+      "description": "Ouça um aviso de voz indicando o status da conexão."
+    },
+    "0x907": {
+      "name": "Conexão Bluetooth segura",
+      "description": "Pressione o botão de emparelhamento bluetooth para concluir a conexão entre o viva-voz e o dispositivo móvel."
+    },
+    "0x908": {
+      "name": "Botão personalizado",
+      "description": "Atribua a ação que será iniciada quando o botão de ação for ativado.",
+      "options": {
+        "playPause": "Reproduzir/pausar",
+        "redial": "Rediscar (somente celular)",
+        "vpa": "VPA (Siri, Google Assistant etc.)",
+        "clearTrustedDevice": "Limpar lista de dispositivos confiáveis",
+        "statusCheck": "Verificação de status",
+        "holdResume": "Colocar em espera/retomar uma chamada",
+        "anc": "ANC/Modo de transparência",
+        "nothing": "Não fazer nada"
+      }
+    },
+    "0x909": {
+      "name": "Conexão exclusiva",
+      "description": "Remova as informações do dispositivo emparelhado anteriormente quando um novo dispositivo for emparelhado e conectado. Isso permite que apenas um dispositivo seja emparelhado e conectado de cada vez."
+    },
+    "0xC00": {
+      "name": "Brilho",
+      "description": "Ajuste o brilho do vídeo."
+    },
+    "0xC01": {
+      "name": "Contraste",
+      "description": "Ajuste o contraste do vídeo."
+    },
+    "0xC02": {
+      "name": "Matiz",
+      "description": "Ajuste a cor do vídeo."
+    },
+    "0xC03": {
+      "name": "Saturação",
+      "description": "Ajuste a saturação de cor do vídeo."
+    },
+    "0xC04": {
+      "name": "Nitidez",
+      "description": "Ajuste a nitidez do vídeo."
+    },
+    "0xC05": {
+      "name": "Gama",
+      "description": "Ajuste a gama do vídeo."
+    },
+    "0xC06": {
+      "name": "Cor",
+      "description": "Ajuste a cor do vídeo."
+    },
+    "0xC07": {
+      "name": "Equilíbrio de branco",
+      "description": "Especifique como a câmera compensa variações nas fontes de luz da sala."
+    },
+    "0xC08": {
+      "name": "Compensação de retroiluminação",
+      "description": "Ative ou desative a compensação de retroiluminação."
+    },
+    "0xC09": {
+      "name": "Ganho",
+      "description": "Ajuste a amplificação do sinal da câmera."
+    },
+    "0xC0A": {
+      "name": "Panorâmica",
+      "description": "Ajuste a direção da câmera para a esquerda ou direita."
+    },
+    "0xC0B": {
+      "name": "Inclinação",
+      "description": "Ajuste a direção da câmera para cima ou para baixo."
+    },
+    "0xC0C": {
+      "name": "Rolagem",
+      "description": "Ajuste o ângulo de rolagem da câmera."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Ajuste o nível de zoom da câmera."
+    },
+    "0xC0E": {
+      "name": "Exposição",
+      "description": "Ajuste a exposição da câmera."
+    },
+    "0xC0F": {
+      "name": "Íris",
+      "description": "Ajuste a íris da câmera."
+    },
+    "0xC10": {
+      "name": "Foco",
+      "description": "Ajuste o foco da câmera."
+    },
+    "0xC11": {
+      "name": "Aprimoramento da pele",
+      "description": "Ativa ou desativa aprimoramentos de cor de pele natural para os participantes."
+    },
+    "0xC12": {
+      "name": "Grande amplitude dinâmica",
+      "description": "Ative ou desative a exposição da câmera com base na área de enquadramento, em vez da visualização completa."
+    },
+    "0xC13": {
+      "name": "Número de participantes",
+      "description": "Relate o número de participantes em reuniões."
+    },
+    "0xC14": {
+      "name": "Exibição na tela",
+      "description": "Exiba os parâmetros da câmera na saída de vídeo."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Ative o Poly Acoustic Fence para bloquear o ruído de fundo e configurar a largura do feixe do Poly Acoustic Fence.",
+      "options": {
+        "off": "Desligado",
+        "60": "Estreito",
+        "90": "Médio",
+        "120": "Amplo",
+        "cameraView": "Visualização da câmera"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI para áudio de saída",
+      "description": "Evite que sons distrativos em seu ambiente (como digitação de teclado ou manuseio de papel) interrompam sua reunião.",
+      "options": {
+        "true": "Verdadeiro",
+        "false": "Falso",
+        "fast": "Rápido"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI para áudio de entrada",
+      "description": "Evite que sons distrativos do outro lado da conversa (como digitação de teclado ou manuseio de papel) interrompam sua reunião."
+    },
+    "0xC17": {
+      "name": "Áudio estéreo",
+      "description": "Use dois canais de áudio na câmera para fornecer som estéreo."
+    },
+    "0xC26": {
+      "name": "Aumento de graves",
+      "description": "Aumento de graves."
+    },
+    "0xC18": {
+      "name": "Velocidade de movimentação",
+      "description": "Configure a velocidade com que a câmera detecta os participantes da reunião.",
+      "options": {
+        "slow": "Lento",
+        "normal": "Normal",
+        "fast": "Rápido"
+      }
+    },
+    "0xC19": {
+      "name": "Modo de movimentação",
+      "description": "Configure como a câmera acompanha os participantes.",
+      "options": {
+        "speaker": "Enquadramento do alto-falante",
+        "off": "Desligado",
+        "group": "Enquadramento do grupo",
+        "presenter": "Apresentador",
+        "conversation": "Conversa",
+        "gallery": "Enquadramento de pessoas"
+      }
+    },
+    "0xC21": {
+      "name": "Grave",
+      "description": "Ajuste a saída de graves de áudio do alto-falante."
+    },
+    "0xC22": {
+      "name": "Agudo",
+      "description": "Ajuste a saída de agudos de áudio do alto-falante."
+    },
+    "0xC23": {
+      "name": "Solução antioscilação (50 Hz/60 Hz)",
+      "description": "Selecione a frequência apropriada (NTSC 60Hz/PAL 50Hz) para reduzir a oscilação da tela.",
+      "options": {
+        "0": "Desabilitado",
+        "1": "50 Hz",
+        "2": "60 Hz",
+        "3": "Automático"
+      }
+    },
+    "0xC27": {
+      "name": "Espelho/Inversão da imagem",
+      "description": "Inverta a saída de vídeo da câmera.",
+      "options": {
+        "0": "Desabilitado",
+        "1": "Espelhar horizontalmente",
+        "2": "Inverter verticalmente",
+        "3": "Vire e espelhe em ambas as direções"
+      }
+    },
+    "0xC28": {
+      "name": "Temperatura da cor",
+      "description": "Temperatura da cor",
+      "options": {
+        "warm": "Quente",
+        "cool": "Fria"
+      }
+    },
+    "0xC1A": {
+      "name": "Tamanho do quadro",
+      "description": "Configure o modo de exibição de enquadramento do rastreamento da câmera.",
+      "options": {
+        "tight": "Apertado",
+        "medium": "Médio",
+        "wide": "Amplo"
+      }
+    },
+    "0xC1B": {
+      "name": "Zoom máximo",
+      "description": "Limite o zoom máximo da câmera em proporções de 2x, 3x ou 4x",
+      "options": {
+        "2x": "2 x",
+        "3x": "3 x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Movimento da câmera",
+      "description": "Ajuste o movimento da câmera",
+      "options": {
+        "auto pan": "Panorama automático",
+        "cut": "Corte"
+      }
+    },
+    "0xC80": {
+      "name": "Brilho da tela",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Brilho do LED de status",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Estado ocioso",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Chamada de entrada",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Chamada ativa",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Chamada em espera",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Lembrete de interrupção de som",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Carregamento sem fio",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "Botão Aplicativo",
+      "description": "Selecione a plataforma que deseja acessar a partir do seu monitor.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Dispositivos pessoais"
+      }
+    },
+    "0xC8E": {
+      "name": "Botão Foguete",
+      "description": "Atribua a ação que será iniciada quando você tocar no foguete espacial",
+      "options": {
+        "holdResume": "Colocar em espera/retomar uma chamada",
+        "playPause": "Reproduzir/pausar",
+        "statusLight": "Luzes de status",
+        "lens": "Abrir a área de trabalho do Poly Lens",
+        "vpa": "VPA - Siri, Cortana",
+        "redial": "Discar novamente para a última chamada de efetuada",
+        "vanity": "Luzes conduzidas",
+        "answerEnd": "Atender/encerrar uma chamada",
+        "videoMute": "Câmera de vídeo sem som"
+      }
+    },
+    "0xC90": {
+      "name": "Brilho do monitor",
+      "description": "Ajuste o brilho do visor."
+    },
+    "0xC81": {
+      "name": "Contraste do visor",
+      "description": "Ajuste o contraste do visor."
+    },
+    "0x910": {
+      "name": "Modo de retenção de áudio do PC",
+      "description": "Se ativado, o áudio do PC será misturado com a interface do telefone de mesa."
+    },
+    "0x1300": {
+      "name": "Gerenciar tudo",
+      "description": "Selecione as mensagens e os tons que são ouvidos durante o uso do dispositivo."
+    },
+    "0x1301": {
+      "name": "Chamadas",
+      "description": "Ouça comandos de voz ou tons para indicar o status da chamada."
+    },
+    "0x1302": {
+      "name": "Chamada de entrada"
+    },
+    "0x1303": {
+      "name": "Atender/Ignorar"
+    },
+    "0x1305": {
+      "name": "Atender chamada"
+    },
+    "0x1500": {
+      "name": " Modo de transparência",
+      "description": "Selecione o nível do modo de transparência e a assinatura de som.",
+      "options": {
+        "speech": "Fala",
+        "environment": "Ambiente",
+        "off": "Desligado"
+      }
+    },
+    "0x1800": {
+      "name": "Inativo",
+      "description": "Atribua a ação rápida para quando o dispositivo ficar ocioso.",
+      "options": {
+        "volume": "Volume",
+        "anc": "ANC/Modo de transparência",
+        "status": "Verificação de status",
+        "nothing": "Não fazer nada"
+      }
+    },
+    "0x1801": {
+      "name": "Em chamada",
+      "description": "Atribua a ação rápida para quando estiver em uma chamada. ",
+      "options": {
+        "volume": "Volume",
+        "anc": "ANC/Modo de transparência",
+        "hold": "Colocar em espera/retomar uma chamada",
+        "mute": "Mudo",
+        "nothing": "Não fazer nada"
+      }
+    },
+    "0x1802": {
+      "name": "Fazendo streaming de mídia ",
+      "description": "Atribua a ação rápida ao fazer streaming de mídia.",
+      "options": {
+        "volume": "Volume",
+        "anc": "ANC/Modo de transparência",
+        "track": "Avançar/retroceder faixa",
+        "nothing": "Não fazer nada"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "Certo, entendi",
+      "powerOffText": "Lembre-se de <b>desligar seu headset por pelo menos 5 segundos</b> para que suas configurações sejam aplicadas."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Selecione o idioma",
+      "DESCRIPTION": "Selecione o idioma que gostaria de ouvir para todos os avisos de voz e alertas (por exemplo, \"Chamada recebida de John\", \"Sigilo ativado\").",
+      "DESCRIPTION_USB_CABLE": "Para alterar o idioma dos avisos de voz e alertas, conecte o {{device_name}} ao computador via cabo USB.",
+      "CONFIRM_TITLE": "Alterar idioma"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Nome do Wi-Fi",
+      "CONNECTED": "Conectado",
+      "DISCONNECTED": "Desconectado",
+      "SIGNAL_STRENGTH": "Força do sinal",
+      "AUTOCONNECT": "Conexão automática",
+      "JOIN_OTHER_NETWORK": "Ingresso em outra rede",
+      "MANAGE_KNOWN_NETWORKS": "Gerenciar redes conhecidas",
+      "PLACEHOLDER": "Selecione rede"
+    },
+    "GENERAL": {
+      "LABEL": "Geral",
+      "NTP_LABEL": "NTP",
+      "NTP": "Modo do NTP",
+      "NTP_SERVER": "Servidor de NTP",
+      "CAMERA_VIVID": "Modo vívido da câmera",
+      "CAMERA_VIVID_NOTE": "O dispositivo precisa ser reiniciado para aplicar a configuração de Câmera Vívida."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Conexão automática",
+      "REMOTE_CONTROL_CONNECTION": "Conexão de controle remoto",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "Você deve emparelhar o controle remoto manualmente depois de desabilitar e reabilitar a conexão."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Provisionamento de servidor",
+      "PROVISIONING_MODE": "Modo de provisionamento",
+      "PROVISIONING_MODE_OPTION_AUTO": "Automático",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Manual",
+      "PROVISIONING_MODE_OPTION_OFF": "Desligado",
+      "SERVER_TYPE": "Tipo de Servidor",
+      "SERVER_TYPE_OPTION_HTTPS": "Servidor de HTTPS (usado para provisionamento Lens)",
+      "SERVER_TYPE_OPTION_CLOUD": "Servidor de aprovisionamento Poly",
+      "SERVER_TYPE_OPTION_FTPS": "Servidor de FTPS",
+      "SERVER_ADDRESS": "End serv",
+      "USERNAME": "Nome de usuário",
+      "PASSWORD": "Senha"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Certificados",
+      "VALIDATE_PEER_CERTS": "Sempre validar certificados de mesmo nível do servidor",
+      "INSTALLED_CERTIFICATES": "Certificados instalados",
+      "ISSUED_TO": "Emitido para",
+      "ISSUED_BY": "Emitido por",
+      "EXPIRATION_DATE": "Data de expiração",
+      "TYPE": "Tipo",
+      "CERTIFICATE_SIGNING_REQUEST": "Solicitação de autenticação de certificado",
+      "NO_CERTIFICATES": "Nenhum registro encontrado"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Configuração",
+      "DESCRIPTION": "Exporte o arquivo de configuração para o sistema local ou importe um conjunto de configurações de um arquivo local. Você deve reiniciar o dispositivo para que uma configuração importada tenha efeito.",
+      "IMPORT": "Importa",
+      "IMPORT_DIALOG_TITLE": "Importar configuração",
+      "EXPORT": "Exportar",
+      "EXPORT_DIALOG_TITLE": "Exportar configuração"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "Se você não vir as configurações que está procurando, entre em contato com o Administrador Poly Lens ou faça login com a senha do dispositivo.",
+      "ACTION": "Faça login com a senha do dispositivo",
+      "PASSWORD": "Senha",
+      "CANCEL": "Cancelar",
+      "LOGIN": "Logon",
+      "INVALID_PASSWORD": "A senha inserida é inválida. Digite a senha novamente.",
+      "REQUIRED": "Obrigatório"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Senha",
+      "CHANGE_PASSWORD": "Alterar senha",
+      "CURRENT_PASSWORD": "Senha atual",
+      "CREATE_NEW_PASSWORD": "Criar nova senha do dispositivo",
+      "NEW_PASSWORD": "Nova senha",
+      "RE_ENTER_NEW_PASSWORD": "Inserir nova senha novamente",
+      "PASSWORD_UNMATCH": "As senhas são diferentes. Insira a senha novamente.",
+      "SIMPLE_PASSWORD": "Senha simples",
+      "DEVICE_PASSWORD": "Senha do dispositivo",
+      "WEAK_PASSWORD": "Usar senha fraca (não recomendado).",
+      "STRONG_PASSWORD_RECOMMENDED": "Uma senha de alta segurança é recomendada.",
+      "SAME_PASSWORD_ERROR": "Você não pode usar uma senha que já tenha usado antes. Inserir nova senha.",
+      "RECOMMENDATION_1": "Comprimento mínimo de 15 caracteres",
+      "RECOMMENDATION_2": "Requer 2 letras minúsculas",
+      "RECOMMENDATION_3": "Requer 2 letras maiúsculas",
+      "RECOMMENDATION_4": "Requer 2 números",
+      "RECOMMENDATION_5": "Requer 2 caracteres especiais"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Equalizador de áudio",
+      "DESCRIPTION": "Obtenha e defina os controles deslizantes de graves e agudos. "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Ao clicar em \"Aceito\" abaixo, você reconhece e aceita que o uso deste software é regido pelos termos do ",
+      "EULA_LINK": "Contrato de licença de usuário final Poly",
+      "EULA_I_ACCEPT": "Aceito o Contrato de licença de usuário final",
+      "BEGIN_SETUP": "Iniciar configuração",
+      "PASSWORD_INVALID": "A senha inserida é inválida. Digite a senha novamente."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "País",
+      "DEVICE_NAME": "Nome do dispositivo",
+      "DEVICE_NAME_DESCRIPTION": "Recomendamos nomear este dispositivo com o nome da sala ou o espaço para reuniões em que ele está localizado.",
+      "BEGIN_SETUP": "Iniciar configuração",
+      "PASSWORD_INVALID": "A senha inserida é inválida. Digite a senha novamente."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Teste de áudio",
+      "DESCRIPTION": "Demora vários minutos para concluir o teste de áudio e transferir os registos de áudio para o disco local. Clique em \"Iniciar teste\" para o sistema gravar áudio usando portas de entrada de áudio: microfone, USB e entrada de linha.",
+      "START_TEST": "Iniciar teste",
+      "MODAL_TITLE": "Gravação de áudio",
+      "MODAL_TIME": "Hora:",
+      "DIALOG_TITLE": "Salvar arquivo de diagnóstico",
+      "PLEASE_WAIT": "Aguarde enquanto os diagnósticos são salvos.",
+      "STOP_RECORDING": "Parar"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "Desconectar da base",
+      "DESCRIPTION": "Aplique automaticamente o comportamento selecionado quando desconectar seu headset do adaptador em linha Poly.",
+      "HOLD_ACTIVE_CALL": "Colocar a chamada ativa em espera",
+      "LOCK_SCREEN": "Bloquear a tela do computador",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Bloquear a tela do computador e colocar a chamada ativa em espera",
+      "DO_NOTHING": "Não fazer nada"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Vínculo de rádio do headset com o PC",
+      "DESCRIPTION": "Mantenha o link do rádio para o PC ativo depois que a chamada terminar.",
+      "ACTIVE_ONLY_DURING_CALL": "Ativo somente durante chamada",
+      "ALWAYS_ACTIVE": "Sempre ativo"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}Configurações{{close_tag}}",
+    "NAME_LABEL": "Nome:",
+    "EMAIL_LABEL": "E-mail:",
+    "INVITED_BY_IT_ADMIN": "Um administrador de TI",
+    "INVITED": "{{invited_by_email}} convidou você para se juntar a {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Conta",
+      "login": {
+        "TITLE": "Sua conta",
+        "DESCRIPTION_INTRO": "Você não está conectado. Ao fazer login, você concorda com nossos",
+        "DESCRIPTION_TERMS": "Termos de Serviço",
+        "DESCRIPTION_AND": "e",
+        "DESCRIPTION_PRIVACY": "Política de privacidade"
+      }
+    },
+    "General": {
+      "TITLE": "Geral",
+      "startOnSystemStartup": {
+        "TITLE": "Inicie o Poly Lens na inicialização",
+        "DESCRIPTION": "Permitir que o Poly Lens seja iniciado automaticamente após o login."
+      },
+      "startMinimized": {
+        "TITLE": "Iniciar o aplicativo minimizado"
+      },
+      "eulaAccepted": {
+        "TITLE": "EULA",
+        "DESCRIPTION": " aceito pelo Administrador"
+      }
+    },
+    "Language": {
+      "TITLE": "Idioma",
+      "LABEL": "Selecione o idioma usado neste aplicativo."
+    },
+    "Softphone": {
+      "TITLE": "Softphone",
+      "MODULE_NAME": "Nome do módulo",
+      "MODULE_VERSION": "Versão do módulo",
+      "ENABLE": "Ativar",
+      "CONNECTED": "Conectado",
+      "VIEW_ALL": "Exibir todos os softphones suportados",
+      "targetSoftphone": {
+        "TITLE": "Softphone alvo",
+        "DESCRIPTION": "Indique o softphone que será usado para chamadas realizadas e o tom de discagem (para dispositivos e softphones compatíveis)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Ação de reprodutor de mídia em chamada recebida",
+        "DESCRIPTION": "Controla o comportamento dos aplicativos de reprodução de mídia como iTunes e Windows Media Player quando uma chamada de softphone é recebida."
+      },
+      "table": {
+        "TITLE": "Softphones e reprodutores de mídia | Compatíveis com a Poly"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Notificações e alertas de dispositivo",
+      "enableNotifications": {
+        "TITLE": "Permitir notificações na área de trabalho e alertas de dispositivo"
+      },
+      "wellness": {
+        "TITLE": "Saúde e bem-estar",
+        "DESCRIPTION": "Hidratação adequada e movimentos consistentes são essenciais para a saúde a curto e longo prazo em um ambiente basicamente estacionário. Selecione as opções para personalizar a frequência e o tempo das notificações.",
+        "hydrationEnabled": "Lembrete de hidratação",
+        "visionEnabled": "Lembrete de descanso dos olhos",
+        "hydrationEnabledTitle": "Lembretes de hidratação",
+        "visionEnabledTitle": "Lembretes de descanso dos olhos"
+      },
+      "deviceAlerts": {
+        "TITLE": "Alertas de dispositivo",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Dispositivo desemparelhado",
+        "lowBattery": "Bateria baixa",
+        "deviceCharging": "Dispositivo carregando",
+        "deviceDisconnected": "Dispositivo desconectado",
+        "muteAlert": "Silenciar alerta",
+        "deviceSoftwareUpdate": "Atualização de software do dispositivo"
+      },
+      "softwareUpdate": {
+        "TITLE": "Atualização de software",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Atualização de software",
+      "softwareUpdate": {
+        "TITLE": "Versão do Poly Lens Desktop",
+        "SOFTWARE": "Software",
+        "UP_TO_DATE": "Você está atualizado",
+        "RELEASE_NOTES": "Notas da versão",
+        "CHECKING_FOR_UPDATES": "Verificando atualizações",
+        "UPDATE": "Atualização",
+        "UPDATE_AVAILABLE": "Disponível",
+        "DOWNLOADING": "Baixando",
+        "CONTINUE": "Continuar",
+        "CONTINUE_DESC": "Selecione a opção {{open_tag}}Continuar{{close_tag}} para sair do Poly Lens e instalar a atualização.",
+        "DOWNLOAD_ERROR": "Ocorreu um erro ao fazer download da atualização. Verifique a conexão com a Internet e tente novamente."
+      }
+    },
+    "About": {
+      "TITLE": "Sobre",
+      "COPYRIGHT": "2022-2024 HP Inc. Todos os direitos reservados.",
+      "PRIVACY_POLICY": "Política de privacidade",
+      "EULA": "Contrato de licença de usuário final"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Pausar e retomar",
+    "NO_ACTION": "Sem ação"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Suporte do Poly Lens",
+    "TITLE_OTHER": "Entrar em contato com o suporte",
+    "QUICK_START_GUIDE": "Guia de início rápido",
+    "USER_GUIDE": "Guia do usuário",
+    "DEVICE_INFO_AND_LOGS": "Informações e logs de dispositivo",
+    "CONTACT_SUPPORT": "Entrar em contato com o suporte",
+    "CONTACT_TYPE": "Suporte por telefone, e-mail e on-line",
+    "DEVICE_INFO": "Informações do dispositivo",
+    "APP_INFO": "Informações do aplicativo",
+    "DEVICE_MODEL": "Modelo do dispositivo",
+    "SERIAL_NUMBER": "Número de série",
+    "SOFTWARE_VERSION": "Versão do software",
+    "COM_LIB_VERSION": "Versão de comunicação do dispositivo",
+    "PID": "ID do produto",
+    "LAST_CONNECTED": "Última conexão",
+    "USER_ID": "ID do usuário",
+    "TENANT_ID": "ID do inquilino",
+    "APP_ID": "ID do aplicativo",
+    "GET_ACCESS": "Acesse o suporte direto e da comunidade",
+    "GET_STARTED": "Introdução, documentação e muito mais",
+    "POLY_SUPPORT_LINK": "Visite o Suporte da Poly",
+    "POLY_DOCUMENT_LINK": "Ajuda online do Lens Desktop",
+    "DIAGNOSTICS": "Diagnósticos",
+    "DIAGNOSTICS_DESCRIPTION": "Para obter assistência para resolver problemas, baixe os logs para compartilhar com o Suporte Poly",
+    "DOWNLOAD_LOGS": "Baixar logs",
+    "SAVE_LOGS": "Salvar logs",
+    "NONE": "Nenhuma",
+    "UNKNOWN": "Desconhecido"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "dias da semana",
+    "Monday": "Segunda-feira",
+    "Tuesday": "Terça-feira",
+    "Wednesday": "Quarta-feira",
+    "Thursday": "Quinta-feira",
+    "Friday": "Sexta-feira",
+    "Saturday": "Sábado",
+    "Sunday": "Domingo",
+    "MON": "Seg",
+    "TUE": "Ter",
+    "WED": "Qua",
+    "THU": "Qui",
+    "FRI": "Sex",
+    "SAT": "Sáb",
+    "SUN": "Dom",
+    "12:00 AM": "12:00",
+    "1:00 AM": "1:00",
+    "2:00 AM": "2:00",
+    "3:00 AM": "3:00",
+    "4:00 AM": "4:00",
+    "5:00 AM": "5:00",
+    "6:00 AM": "6:00",
+    "7:00 AM": "7:00",
+    "8:00 AM": "8:00",
+    "9:00 AM": "9:00",
+    "10:00 AM": "10:00",
+    "11:00 AM": "11:00",
+    "12:00 PM": "12:00",
+    "1:00 PM": "13:00",
+    "2:00 PM": "14:00",
+    "3:00 PM": "15:00",
+    "4:00 PM": "16:00",
+    "5:00 PM": "17:00",
+    "6:00 PM": "18:00",
+    "7:00 PM": "19:00",
+    "8:00 PM": "20:00",
+    "9:00 PM": "21:00",
+    "10:00 PM": "22:00",
+    "11:00 PM": "23:00",
+    "SHORT_LABELS": {
+      "12AM": "12:00",
+      "4AM": "4 AM",
+      "8AM": "8 AM",
+      "12PM": "12 PM",
+      "4PM": "4 PM",
+      "8PM": "8 PM"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "0h",
+      "1am": "1h",
+      "2am": "2h",
+      "3am": "3h",
+      "4am": "4h",
+      "5am": "5h",
+      "6am": "6h",
+      "7am": "7h",
+      "8am": "8h",
+      "9am": "9h",
+      "10am": "10h",
+      "11am": "11h",
+      "12pm": "12h",
+      "1pm": "13h",
+      "2pm": "14h",
+      "3pm": "15h",
+      "4pm": "16h",
+      "5pm": "17h",
+      "6pm": "18h",
+      "7pm": "19h",
+      "8pm": "20h",
+      "9pm": "21h",
+      "10pm": "22h",
+      "11pm": "23h"
+    },
+    "1 minute": "A cada minuto",
+    "30 minutes": "A cada 30 minutos",
+    "1 hour": "A cada hora",
+    "3 hours": "A cada 3 horas"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Indisponível",
+    "SELECT_PLACEHOLDER": "Selecionar"
+  }
+}

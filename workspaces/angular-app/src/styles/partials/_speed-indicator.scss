@@ -1,0 +1,195 @@
+@import 'variables';
+$indicator-height: 132px;
+$bar-height: 5px;
+$bar-top: calc(($indicator-height - $bar-height) / 2);
+$ball-size: 21px;
+$ball-top: calc(($indicator-height - $ball-size) / 2);
+
+.test-indicator {
+  position: relative;
+  height: $indicator-height;
+  padding: 0;
+
+  .bar {
+    position: absolute;
+    top: $bar-top;
+    left: 0;
+    width: 100%;
+    height: $bar-height;
+    margin: 0;
+    padding: 0;
+    border: 1px solid $test-dark-blue;
+    background: #dbf4ef;
+
+    .danger {
+      position: absolute;
+      top: -1px;
+      height: 100%;
+      border: 1px solid $test-danger;
+      background: #f9d1db;
+    }
+  }
+
+  .indicator {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    height: $indicator-height;
+    transform: translateX(-50%);
+    transition: left 0.5s ease-in-out;
+    text-align: center;
+
+    .liner {
+      position: relative;
+      box-sizing: border-box;
+      height: $indicator-height;
+      padding: 1px;
+    }
+
+    .labels {
+      box-sizing: border-box;
+      width: 100%;
+      height: calc(($indicator-height - $ball-size) / 2);
+      margin: 0;
+      padding: 8px 0;
+      text-align: center;
+    }
+  }
+
+  .name {
+    // necessary in case name is empty
+    min-height: $font-md;
+    color: #999;
+    font-size: $font-md;
+    line-height: $font-md;
+
+    &.after-value {
+      display: none;
+    }
+  }
+
+  .value {
+    font-size: $font-xl;
+    font-weight: $font-weight-bold;
+    line-height: $font-xl;
+  }
+
+  .unit {
+    color: #999;
+  }
+
+  .ball {
+    position: absolute;
+    top: $ball-top;
+    left: 50%;
+    box-sizing: border-box;
+    width: $ball-size;
+    height: $ball-size;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-50%);
+    border: 2px solid $test-dark-blue;
+    border-radius: 50%;
+    background: $test-dark-blue;
+
+    // not used, for future use
+    &.empty {
+      background: $white;
+    }
+
+    &.up,
+    &.down {
+      &::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 2px;
+        left: 8px;
+        width: 0;
+        height: 14px;
+        border-right: 1px solid white;
+      }
+
+      &::after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 8px;
+        height: 8px;
+        transform: rotate(-45deg);
+        border-top: 1px solid white;
+        border-right: 1px solid white;
+      }
+    }
+
+    &.down {
+      &::before {
+        top: 1px;
+      }
+
+      &::after {
+        top: 5px;
+        transform: rotate(135deg);
+      }
+    }
+  }
+
+  .indicator.type-download {
+    .labels {
+      margin-top: calc(($indicator-height + $ball-size) / 2);
+    }
+
+    .name {
+      &.before-value {
+        display: none;
+      }
+
+      &.after-value {
+        display: block;
+      }
+    }
+  }
+
+  .indicator.danger {
+    .ball {
+      border-color: $test-danger;
+
+      &:not(.empty) {
+        background: $test-danger;
+      }
+    }
+  }
+
+  .indicator {
+    &.close-push-right {
+      .labels {
+        width: 0;
+        margin-left: calc(50% - #{calc($ball-size / 2)});
+      }
+    }
+
+    &.close-push-left {
+      .labels {
+        transform: translateX(calc(-50% + #{calc($ball-size / 2)}));
+        text-align: right;
+      }
+    }
+
+    &.close-same {
+      .ball {
+        &::after,
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    &.close-hide {
+      .ball {
+        display: none;
+      }
+    }
+  }
+}

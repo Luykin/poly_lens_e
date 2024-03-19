@@ -1,0 +1,129 @@
+// Media Query Sizes
+$screen-sizes: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1300px,
+);
+
+// Grid
+$grid-columns-lg: 12;
+
+// Typography
+$font-family: 'Lato', sans-serif;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+$font-weight-bolder: 700;
+$font-weight-extra-bold: 900;
+$font-xxs: 8px;
+$font-xs: 10px;
+$font-sm: 12px;
+$font-md: 14px;
+$font-lg: 16px;
+$font-xl: 24px;
+$font-xxl: 32px;
+$default-bg: #f7f8f9;
+$black: #000;
+$white: #fff;
+$light-gray: #ccc;
+$mid-gray: #707070;
+$button-gray: #5d748e;
+$link-color: #0270e3;
+$dot-background: #c4c4c4;
+$button-background: $link-color;
+$nav-border-color: #000;
+$error: #e2184a;
+$card-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.03), 0 1px 1px rgba(0, 0, 0, 0.04);
+$dropdown-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12),
+  0 1px 1px rgba(0, 0, 0, 0.06), 0 2px 2px rgba(0, 0, 0, 0.04),
+  0 4px 4px rgba(0, 0, 0, 0.03), 0 8px 8px rgba(0, 0, 0, 0.01);
+$table-color: $black;
+$table-heading-color: $black;
+$table-heading-background: $white;
+$table-background-color: $white;
+$table-cell-padding: 4px 8px;
+$table-border-width: 1px;
+$table-border-color: #bbb;
+$toast-max-height: 84px;
+$toast-total-height: 105px;
+$toast-default-bg: #0270e3;
+$toast-success-bg: #539842;
+$toast-error-bg: #D74A6E;
+
+// Layout
+
+$title-bar-height: 38px;
+
+// takes into account the titlebar...
+$layout-height: calc(100vh - #{$title-bar-height});
+$layout-height-with-toasts: calc(100vh - 22px - 19px);
+$main-content-padding-x: 30px;
+$sidebar-width: 290px;
+$global-padding-top: 75px;
+$scrollbar-width: 30px;
+
+// Test Indicator component
+$test-dark-blue: #4ac6b0;
+$test-danger: #e21849;
+
+// TODO: consider moving to own file
+%sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+$disabled-opacity: 0.3;
+
+// z-index position
+$front-z-index: 100;
+$camera-wrap-z-index: 1;
+$controls-container-z-index: 0;
+$video-z-index: 5;
+$camera-grid-z-index: 10;
+// preview-hidden text needs to be above video and grid
+$preview-hidden-z-index: 15;
+$camera-controls-z-index: 20;
+$led-controls-z-index: 21;
+$top-nav-z-index: 1000;
+$toast-z-index: 1001;
+
+// video camera, reference controls component
+// for bottom-shelf widths, see cameraControlsWidthExpanded and cameraControlsWidthCollapsed animations
+$video-radius: 7px;
+$camera-grid-color: rgba(247, 248, 249, 0.5);
+$bottom-shelf-height: 48px;
+$camera-bottom: 4px;
+$ptz-spacer: 10px;
+$camera-transition-time: 400ms;
+$camera-transition: $camera-transition-time ease-in-out;
+$camera-fast-transition: 300ms ease-out;
+$led-controls-animation: all $camera-transition-time * 1.2 ease;
+$camera-preview-min-height: 258px;
+$camera-preview-bottom: 384px;
+$camera-top-nav-height: 90px;
+$camera-heading-height: 74px;
+$preview-hidden-border: #8f8f90;
+$preview-hidden-background: #f6f7f8;
+$camera-button-label-time: 300ms;
+$favorites-width: 129px;
+$led-controls-width: 42px;
+$camera-controls-disabled-opacity: 0.7;
+
+// styles for gear badge
+$badge-border-width: 4px;
+$badge-height: 10px;
+$badge-border-radius: calc((($badge-border-width * 2) + $badge-height) / 2);
+$badge-background: #e2184a;
+$hr-color: #ccc;
+
+// styles for animations (eg "How NBAI works", "How Acoustic Fence Works")
+$animation-container-padding: 8px;
+
+// Color used for inlined error descriptions
+$error-text-message: $badge-background;

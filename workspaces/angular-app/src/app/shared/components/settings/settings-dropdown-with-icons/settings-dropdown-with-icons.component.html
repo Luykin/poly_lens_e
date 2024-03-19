@@ -1,0 +1,25 @@
+<oz-generic-setting
+  [settingName]="settingName"
+  [settingActionName]="settingActionName"
+  [hideDescription]="hideDescription"
+  [hideTitle]="hideTitle"
+  [isChild]="isChild"
+>
+  <oz-dropdown-with-icons
+    [id]="getId()"
+    [options]="options"
+    [ngModel]="selectedValueInternal"
+    [translateOptions]="translateOptions"
+    (ngModelChange)="onChange($event)"
+  ></oz-dropdown-with-icons>
+  @if (childrenComponents && childrenComponents.length && !isDropdownValueOff())
+  {
+  <div children class="col-12">
+    @for (child of childrenComponents; track $index) {
+    <ng-container
+      *ngComponentOutlet="child.component; inputs: child.inputs"
+    ></ng-container>
+    }
+  </div>
+  }
+</oz-generic-setting>

@@ -1,0 +1,54 @@
+<div class="mx-2">
+  <h1
+    class="page-title text-left mb-2"
+    [innerHTML]="
+      'SETTINGS.TITLE'
+        | translate
+          : {
+              open_tag: '<span class=thin-text>',
+              close_tag: '</span>'
+            }
+    "
+  ></h1>
+  <div class="mat-input mb-15">
+    <oz-icon icon="search" [size]="4"></oz-icon>
+    <input
+      class="input-search"
+      type="text"
+      [placeholder]="'GENERAL.SEARCH_SETTINGS' | translate"
+      [(ngModel)]="searchString"
+      (ngModelChange)="search()"
+    />
+  </div>
+</div>
+<div class="scroll-container has-sub-nav">
+  <div class="scrollable-content pb-3">
+    <div id="device-settings-container">
+      @if (categories && categories.length > 0) {
+      <oz-accordion>
+        @for (category of categories; track $index) {
+        <oz-accordion-item [title]="category.category | translate">
+          <ng-template ozAccordionContent>
+            <ng-container
+              *ngComponentOutlet="category.component"
+            ></ng-container>
+          </ng-template>
+          ></oz-accordion-item
+        >
+        }
+      </oz-accordion>
+      }
+    </div>
+    <div class="grid font-sm">
+      <div class="col-6 mt-4"></div>
+      <button
+        class="link uppercase font-sm black mt-4 mr-2 col-6 text-right"
+        (click)="restoreDefault()"
+        [disabled]="restoring"
+        id="restore_defaults_button"
+      >
+        {{ 'GENERAL.RESTORE_DEFAULTS' | translate }}
+      </button>
+    </div>
+  </div>
+</div>

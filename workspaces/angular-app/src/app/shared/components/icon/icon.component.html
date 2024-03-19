@@ -1,0 +1,9 @@
+<div
+  class="oz-icon"
+  [innerHTML]="iconSVG"
+  [ngStyle]="{
+    position: offset ? 'relative' : null,
+    top: offset?.top ? offset?.top : null,
+    left: offset?.left ? offset?.left : null
+  }"
+></div>

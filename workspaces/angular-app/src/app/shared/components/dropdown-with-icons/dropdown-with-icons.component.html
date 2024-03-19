@@ -1,0 +1,93 @@
+<div class="dropdown-with-icons" #dropdownWithIcons>
+  <div class="dropdown-select" #dropdownInput>
+    <div
+      class="input-select"
+      [ngStyle]="{
+        'padding-right': !!placeholderIcons.length ? '80px' : '30px'
+      }"
+      readonly="readonly"
+      [ngClass]="{ disabled: disabled }"
+    >
+      {{ translateOptions ? (placeholderText | translate) : placeholderText }}
+    </div>
+    <img
+      class="arrow-down"
+      src="./assets/icons/down_arrow.svg"
+      width="16px"
+      height="16px"
+    />
+    <div class="icons">
+      @for(icon of placeholderIcons; track trackByFn){
+      <div class="icon">
+        <oz-icon [icon]="icon.name" [size]="icon.size"></oz-icon>
+      </div>
+      }
+    </div>
+  </div>
+  @if(openDropdown) {
+  <div class="dropdown-list" #dropdownList tabindex="-1">
+    <img
+      class="arrow-up"
+      src="./assets/icons/up_arrow.svg"
+      width="16px"
+      height="16px"
+    />
+    <div class="option placeholder">
+      <div class="option-label">
+        {{ translateOptions ? (placeholderText | translate) : placeholderText }}
+      </div>
+      <div class="option-icons">
+        @for(icon of placeholderIcons; track trackByFn) {
+        <div class="option-icon">
+          <oz-icon [icon]="icon.name" [size]="icon.size"></oz-icon>
+        </div>
+        }
+      </div>
+    </div>
+    <div class="options-wrapper">
+      @for(option of options; track trackByFn) {
+      <div
+        class="option"
+        [ngClass]="{ selected: value === option.value }"
+        (click)="emitChanges(option)"
+        tabindex="-1"
+      >
+        <div class="option-label">
+          {{
+            translateOptions
+              ? (option.text | translate : option.params)
+              : option.text
+          }}
+        </div>
+        <div class="option-icons no-padding">
+          @for(icon of option.icons; track trackByFn) {
+          <div class="option-icon">
+            <oz-icon [icon]="icon.name" [size]="icon.size"></oz-icon>
+          </div>
+          }
+        </div>
+      </div>
+      } @if(additionalOptions?.length){
+      <hr />
+      } @for(option of additionalOptions; track trackByFn) {
+      <div class="option" (click)="emitChanges(option)" tabindex="-1">
+        <div class="option-label">
+          {{
+            translateOptions
+              ? (option.text | translate : option.params)
+              : option.text
+          }}
+        </div>
+        <div class="option-icons no-padding">
+          @for(icon of option.icons; track trackByFn) {
+          <div class="option-icon">
+            <oz-icon [icon]="icon.name" [size]="icon.size"></oz-icon>
+          </div>
+          }
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+  }
+</div>

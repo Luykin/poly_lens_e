@@ -1,0 +1,64 @@
+@import 'variables';
+
+$opened-modal-body-overflow: hidden !default;
+
+body.dialog-open {
+  overflow: $opened-modal-body-overflow;
+}
+
+.nsm-dialog-btn-close {
+  display: none;
+}
+
+.overlay {
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.25s;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+
+  &.nsm-overlay-open {
+    opacity: 1;
+  }
+}
+
+.nsm-content {
+  max-width: 450px;
+  max-height: calc(90vh - #{$title-bar-height});
+  margin-top: $title-bar-height;
+  padding: 20px;
+  overflow-y: auto;
+  border-radius: 8px;
+  background-color: $white;
+  pointer-events: auto;
+
+  h1 {
+    margin: 0 0 1em 0;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+}
+
+.nsm-body {
+  position: relative;
+  flex: 1 1 auto;
+}
+
+.nsm-dialog {
+  outline: none;
+
+  &.wide {
+    .nsm-content {
+      width: 520px;
+      max-width: 520px;
+    }
+  }
+}

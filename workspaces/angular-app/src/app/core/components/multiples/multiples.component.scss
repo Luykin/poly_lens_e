@@ -1,0 +1,18 @@
+#multiples {
+	justify-content: center;
+	color: #ffffff;
+	font-weight: 900;
+
+	.container {
+		background-color: #d47800e0;
+		border-radius: 4px;
+		padding: 20px;
+
+		form {
+			display: flex;
+			> * {
+				margin: 5px;
+			}
+		}
+	}
+}

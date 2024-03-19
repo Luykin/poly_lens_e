@@ -1,0 +1,147 @@
+@import './variables';
+$displays: (
+  none: none,
+  block: block,
+  inline: inline,
+  inline-block: inline-block,
+  flex: flex,
+);
+
+// Utilize CSS grid to create a flexible grid layout system.
+.grid {
+  display: grid;
+  grid-template-columns: repeat($grid-columns-lg, 1fr);
+  align-content: start;
+  align-items: start;
+  justify-content: flex-start;
+
+  justify-items: stretch;
+
+  &.fitted {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  &.inline {
+    display: inline-grid;
+    width: calc(100% - 10px);
+    padding-left: 10px;
+  }
+
+  &.even {
+    display: flex;
+
+    .col {
+      flex: 1;
+    }
+  }
+
+  &.equal-height {
+    grid-auto-rows: 1fr;
+    grid-gap: 18px;
+    align-items: stretch;
+  }
+
+  &.equal-height-no-gap {
+    grid-auto-rows: 1fr;
+    align-items: stretch;
+  }
+
+  &.equal-height-home {
+    grid-auto-rows: 1fr;
+    grid-gap: 24px;
+    align-items: stretch;
+  }
+
+  &.align-center {
+    align-items: center;
+  }
+
+  [class*='col-'] {
+    box-sizing: border-box;
+    padding: 3px 10px;
+
+    &.end {
+      text-align: end;
+    }
+
+    &.vcenter {
+      display: flex;
+      align-items: center;
+    }
+
+    &.grid {
+      padding: 0;
+    }
+  }
+
+  // "xs" defaults
+  @each $d, $dname in $displays {
+    .d-#{$d}-xs {
+      display: $d !important;
+    }
+  }
+
+  // default.  all sizes.
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      grid-column: span $i;
+
+      @for $o from 1 through (12 - $i) {
+        @if $o < 12 {
+          &.offset-#{$o} {
+            grid-column: ($o + 1) / span $i;
+          }
+        }
+      }
+    }
+  }
+
+  @for $i from 1 through 4 {
+    .row-#{$i} {
+      grid-row: span $i;
+    }
+  }
+
+  @each $name, $size in $screen-sizes {
+    @media only screen and (min-width: $size) {
+      @for $i from 1 through 12 {
+        .col-#{$name}-#{$i} {
+          grid-column: span $i;
+
+          @for $o from 1 through (12 - $i) {
+            @if $o < 12 {
+              &.offset-#{$name}-#{$o} {
+                grid-column: ($o + 1) / span $i;
+              }
+            }
+          }
+        }
+      }
+
+      @each $d, $dname in $displays {
+        .d-#{$d}-#{$name} {
+          display: $d !important;
+        }
+      }
+
+      @for $i from 1 through 4 {
+        .row-#{$name}-#{$i} {
+          grid-row: span $i;
+        }
+      }
+    }
+  }
+}
+
+// generates display utilities:
+// .d-block
+// .d-inline
+// .d-inline-block
+// .d-none
+// .d-flex
+@each $d, $dname in $displays {
+  .d-#{$d} {
+    display: $d !important;
+  }
+}

@@ -1,0 +1,41 @@
+@if (!isConnectionEstablished && !timerFinished) {
+<ng-lottie
+  [options]="connectionEstablishedAnimationOptions"
+  (animationCreated)="animationCreated($event)"
+></ng-lottie>
+<div class="text-center">
+  <br />
+  <h1 class="mb-5">
+    {{ 'MODALS.LCS_CONNECTION_NOT_ESTABLISHED.TITLE' | translate }}
+  </h1>
+  <p>{{ 'MODALS.LCS_CONNECTION_NOT_ESTABLISHED.DESCRIPTION' | translate }}</p>
+  <br />
+</div>
+} @else if (isDisconnected || timerFinished) {
+<div class="text-right mt-n5 mr-n5">
+  <oz-icon
+    (click)="close()"
+    class="clickable"
+    icon="close"
+    [size]="5"
+    color="black"
+  />
+</div>
+<br />
+<img
+  class="full-width"
+  src="./assets/icons/lcs_disconnected.svg"
+  alt="Disconnected"
+/>
+<div class="text-center">
+  <br />
+  <h1 class="mb-5">{{ 'MODALS.LCS_DISCONNECTED.TITLE' | translate }}</h1>
+  <p>
+    {{ 'MODALS.LCS_DISCONNECTED.DESCRIPTION' | translate }}
+    <a class="blue strong" (click)="openTroubleshootingPage()">
+      {{ 'MODALS.LCS_DISCONNECTED.LINK' | translate }}</a
+    >.
+  </p>
+  <br />
+</div>
+}

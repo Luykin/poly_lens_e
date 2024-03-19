@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "裝置必須連線至網路才能佈建",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "結束裝置設定",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "裝置設定未完成。",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "{{deviceName}} 在設定完成前無法使用。進度未儲存。",
+  "EXIT_SETUP": "結束設定",
+  "GET_STARTED": "開始使用",
+  "NETWORK": "網路",
+  "PROVISIONING": "佈建",
+  "COMPLETE": "完成",
+  "BUTTON_BACK": "返回",
+  "BUTTON_SKIP": "跳過",
+  "BUTTON_NEXT": "下一步",
+  "BUTTON_FINISH": "結束",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "{{deviceName}} 設定完成！",
+  "PROVISION_DEVICE_MODAL_TITLE": "佈建裝置",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "佈建",
+  "POSTPONE_DFU_MESSAGE": "您的裝置有可用的更新。完成這些更新需要幾分鐘的時間。更新過程中，請勿將裝置中斷連線。",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "您的 {{deviceName}} 有可用的更新。完成此更新需要幾分鐘的時間。更新過程中，請勿將裝置中斷連線。",
+  "UPDATE_NOW": "立即更新",
+  "ASK_ME_LATER": "稍後詢問我",
+  "AUDIO_RECORDING_START": "錄音開始",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}} 更新延遲 1 小時",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}} 更新延遲 {{hours}} 小時",
+  "PLAY_GREETING_NAME": "播放問候語",
+  "PLAY_GREETING_DESCRIPTION": "選取接聽來電時要播放的語音檔案。",
+  "SELECT_FILE": "選取檔案",
+  "ACOUSTIC_FENCE": {
+    "OFF": "關閉",
+    "NARROW": "窄",
+    "MEDIUM": "中",
+    "WIDE": "寬鬆",
+    "CAMERA_VIEW": "配合攝影機檢視"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "首要之務...",
+    "I_AGREE": "我同意",
+    "POLY_EULA": "Poly 博詣使用者授權合約",
+    "CLOSE": "關閉",
+    "PROCEED": "繼續"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "最佳做法",
+    "MENU": {
+      "HEADSET": "耳機",
+      "CAMERA": "攝影機",
+      "DESK_SETUP": "工作站設定"
+    },
+    "NEXT": {
+      "NEXT": "下一步：",
+      "TITLE": "最佳做法",
+      "LEARN_MORE": "深入瞭解"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "接受",
+    "APPLY": "套用",
+    "CANCEL": "取消",
+    "CONTINUE": "繼續",
+    "DECLINE": "拒絕",
+    "DONE": "完成",
+    "LOG_IN": "登入",
+    "LOG_OUT": "登出",
+    "OK": "確定",
+    "RETRY": "重試",
+    "SHOW_LESS": "顯示更少",
+    "JOIN": "加入",
+    "JOINING": "正在加入",
+    "CREATE": "建立",
+    "INSTALL": "安裝",
+    "CHOOSE_FILE": "選擇檔案",
+    "DELETE": "刪除",
+    "CLOSE": "關閉",
+    "SELECT_FILE": "選取檔案",
+    "FEEDBACK": "意見反應"
+  },
+  "REQUIRED": "必填",
+  "OPTIONAL": "選擇性",
+  "Download": "下載",
+  "Upload": "上傳",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "作業未成功完成。請再試一次。",
+  "RECEIVING_SETTINGS": "接收設定中",
+  "GENERAL": {
+    "BACK": "返回",
+    "CANCEL": "取消",
+    "CLOSE": "關閉",
+    "COMING_SOON": "即將推出",
+    "DOWNLOAD": "下載",
+    "DOWNLOADING": "下載中",
+    "LOADING": "正在載入",
+    "FEEDBACK": "意見反應",
+    "HOME": "首頁",
+    "OK": "確定",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "新增",
+    "EDIT_NAME": "編輯名稱",
+    "DELETE": "刪除",
+    "RESTORE_DEFAULTS": "還原預設值",
+    "SEARCH_SETTINGS": "搜尋設定",
+    "SUPPORT": "支援",
+    "UPLOAD": "上傳",
+    "UPDATE": "更新",
+    "RETURN_HOME": "返回首頁",
+    "VERSION": "版本",
+    "RECORDING": "錄音中",
+    "RECOVER": "復原"
+  },
+  "FTU": {
+    "WELCOME_TO": "歡迎使用",
+    "WELCOME_1": "讓我們協助您獲得 Poly Lens 的最佳體驗。",
+    "CONNECTIVITY": {
+      "HEADER": "連線",
+      "TITLE": "Lens 可管理您的裝置"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "最佳做法",
+      "TITLE": "Lens 可改善您的桌面體驗"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "健康與保健",
+      "TITLE": "Lens 照顧好您的需求"
+    },
+    "EXPLORE": {
+      "BUTTON": "以訪客身分繼續"
+    },
+    "GET_STARTED": {
+      "BUTTON": "登入"
+    },
+    "GETTING_STARTED": "開始使用",
+    "LOGIN_CARD": {
+      "TITLE": "馬上開始！",
+      "DESCRIPTION": "登入 Lens Desktop，讓 Poly 博詣與貴組織能提供您最佳的裝置使用體驗。"
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "安裝",
+      "DESCRIPTION": "調整顯示器的位置，使眼睛與螢幕頂端的三分之一同高。將攝影機連接至顯示器的中央。"
+    },
+    "CENTERING": {
+      "TITLE": "置中",
+      "DESCRIPTION": "讓自己出現在攝影機畫面的正中央，展現自己最好的一面。確認臉部清楚可見且未遭裁切。試著調整自己的位置，讓其他人可以看到您衣服領口以下至少 15 公分 (6 英吋) 的部分。"
+    },
+    "LIGHTING": {
+      "TITLE": "光線",
+      "DESCRIPTION": "光線是讓您在攝影機上呈現最佳樣態的關鍵。白天的光線是變動的光源，可能會與室內照明有所衝突。如果可以，請調整工作站的位置，讓窗戶位在顯示器後方，並避免讓強烈光源出現在您的後方。柔和的頭頂照明效果最好。"
+    },
+    "BACKGROUND": {
+      "TITLE": "背景",
+      "DESCRIPTION": "背景物件可以為視訊畫面添加個人風格，但必須確定您才是主要的焦點。若有疑慮，背景物件越少越好。"
+    },
+    "NEXT": {
+      "SUBTITLE": "工作站設定"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "連線檢查清單",
+    "POWER": {
+      "TITLE": "檢查電源開關",
+      "DESCRIPTION": "是否已開啟電源？"
+    },
+    "BLUETOOTH": {
+      "TITLE": "檢查 Bluetooth 轉接器",
+      "DESCRIPTION": "轉接器尾端是否有閃藍光？有時候，如果您拔除轉接器並重新插入，耳機便會連線。"
+    },
+    "SUPPORT": {
+      "TITLE": "聯絡支援。",
+      "DESCRIPTION": "仍然有問題嗎？",
+      "LINK": {
+        "TEXT": "聯絡支援。"
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "工作站",
+      "DESCRIPTION": "確認工作站下方的空間淨空，並有足夠的腿部空間。如果您無法調整工作站的高度，請升起或降下椅子，必要時可使用腳踏板。"
+    },
+    "KEYBOARD": {
+      "TITLE": "鍵盤",
+      "DESCRIPTION": "確定您使用鍵盤時肩膀可以放鬆，前臂與地板平行。  試著讓手腕保持筆直與最小的彎曲度。"
+    },
+    "CHAIR": {
+      "TITLE": "座椅",
+      "DESCRIPTION": "選擇可支撐脊椎的座椅。調整座椅高度，讓雙腳平放在地板上，大腿與地板平行。調整扶手，讓雙手在肩膀放鬆的情況下輕輕靠在扶手上。"
+    },
+    "FEET": {
+      "TITLE": "足部",
+      "DESCRIPTION": "確保您的雙腳可平放在地板上。若椅子太高，或若您需要配合工作站高度將椅子升高，請使用腳踏板。"
+    },
+    "MONITOR": {
+      "TITLE": "顯示器",
+      "DESCRIPTION": "將顯示器直接放在您的前方，大約一個手臂的距離。將顯示器放在距離眼睛 45 到 70 公分 (18 到 24 英吋) 的位置，且螢幕頂端應與眼睛同高或稍低。"
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "耳機",
+    "USB_ADAPTER": "USB 接收器",
+    "CUSTOM_SOFTWARE_UPDATE": "自訂軟體更新：",
+    "LOGS": "記錄：",
+    "PID": "PID：",
+    "SAVE_LOGS": "儲存記錄",
+    "SELECT_SOFTWARE_UPDATE": "選取軟體更新",
+    "SERIAL_NUMBER": "序列號：",
+    "SOFTWARE_VERSION": "軟體版本：",
+    "COUNTRY": "國家/地區：",
+    "LENS_ACCOUNT": "Lens 帳戶：",
+    "HARDWARE_VERSION": "硬體版本：",
+    "HARDWARE_REVISION": "硬體修訂版：",
+    "ADDITIONAL_HARDWARE_REVISION": "耳機硬體修訂版：",
+    "MAC_ADDRESS": "Mac 位址：",
+    "IP_ADDRESS": "IP 位址：",
+    "DEVICE_DIAGNOSTIC_CODE": "裝置診斷代碼：",
+    "CRASH_REPORTS": "當機報告：",
+    "SAVE_CRASH_REPORTS": "儲存當機報告"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "深入分析",
+    "CHART": {
+      "TITLE": "使用資訊",
+      "SERIES_NAME": "總使用量"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "延遲 (毫秒)",
+      "NETWORK_SPEED": "網路速度 (Mbps)",
+      "RUNNING": "執行中",
+      "START_TEST": "執行測試",
+      "TEST_AGAIN": "重新測試",
+      "TEST_RESULTS": "測試結果",
+      "TITLE": "網路診斷測試",
+      "NO_CONNECTION": "您似乎已離線。您必須連線至網際網路才能進行網路測試。",
+      "SUBTEXT": "網路診斷測試是一項商業預覽功能。"
+    }
+  },
+  "EE": {
+    "PAUSED": "已暫停",
+    "CONTINUE": "按下空格鍵以繼續。",
+    "FIRE": "SHIFT - Fire",
+    "MOVE": "箭頭 - 移動",
+    "PAUSE": "空白鍵 - 暫停",
+    "EXIT": "ESC - 結束",
+    "START": "按下空白鍵即可開始。",
+    "DONE": "還不錯。做得好。",
+    "TRY_AGAIN": "按下空白鍵再試一次。"
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "頭帶調整",
+      "DESCRIPTION": "為達到適當的貼合度，請調整頭帶，使耳機的耳罩位於耳朵中央或耳朵上，並確定耳機不會太緊或太鬆。請查看耳機使用指南，以取得詳細的調整說明。"
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "吊桿形狀",
+      "DESCRIPTION": "Poly 博詣的吊桿可摺疊且容易調整位置。如果您的耳機有吊桿，請將麥克風放在距離您嘴唇約 5 公分 (2 英吋) 的位置。"
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "吊桿位置",
+      "DESCRIPTION": "若耳機有吊桿，您可以旋轉吊桿，且可配戴在左側或右側。當您要接聽電話時，請確認吊桿是正對嘴部而非朝上。"
+    },
+    "NEXT": {
+      "SUBTITLE": "攝影機"
+    }
+  },
+  "HOME": {
+    "TITLE": "您好，{{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "您好，{{open_tag}}訪客{{close_tag}}",
+    "GO_TO_DETAIL": "前往詳細資料",
+    "CONNECT_A_DEVICE": "連接裝置以開始使用。",
+    "NOT_SEEING_DEVICE": "沒有看到您的裝置？",
+    "SUBMIT_FEEDBACK": "提交意見反應",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "深入分析",
+        "DESCRIPTION": "檢查裝置使用狀況和工作站連線能力。"
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "健康與保健",
+        "DESCRIPTION": "取得補充水分和休息的提醒。播放聲景以提升專注力。"
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "最佳做法",
+        "DESCRIPTION": "最佳化您的攝影機，並瞭解如何讓工作空間更符合人體工學。"
+      },
+      "SUPPORT": {
+        "TITLE": "Poly 博詣支援",
+        "DESCRIPTION": "遇到問題？讓我們協助您。"
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "廣東話",
+    "1030": "丹麥文",
+    "2057": "英文 (英國)",
+    "1033": "英文 (美國)",
+    "1036": "法文",
+    "1031": "德文",
+    "1040": "義大利文",
+    "1041": "日文",
+    "1042": "韓文",
+    "1045": "波蘭文",
+    "2052": "普通話",
+    "1044": "挪威文",
+    "2068": "挪威文",
+    "1049": "俄羅斯文",
+    "1034": "西班牙文",
+    "1053": "瑞典文",
+    "16393": "英文 (印度)",
+    "1057": "印尼文",
+    "1054": "泰文",
+    "1046": "巴西葡萄牙文"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "使用中",
+    "INACTIVE": "非使用中",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI 的設計目的，是在有聲音但沒有人說話的時候自動將麥克風靜音，以避免非人類噪音 (如鍵盤敲擊聲或紙張移動聲) 對會議造成影響。只要您再次開始說話，麥克風就會解除靜音。",
+    "FOR_INCOMING_DESCRIPTION": "避免對話遠端惱人的聲響 (如鍵盤敲擊聲或紙張移動聲) 干擾您的會議。",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI 處理傳入音訊",
+    "FOR_OUTGOING_DESCRIPTION": "避免環境中惱人的聲響 (如鍵盤敲擊聲或紙張移動聲) 干擾您的會議。",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI 處理傳出音訊",
+    "SEE_HOW_WORKS": "瞭解運作方式"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "充電中",
+      "STOPPED": "已停止充電"
+    },
+    "MUTE": {
+      "ON": "靜音開啟",
+      "OFF": "靜音關閉"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "有可用的軟體更新 {{build}}。"
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "有可用的裝置更新"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "找不到裝置",
+      "MESSAGE": "糟糕！發生問題。請再試一次。"
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "找不到頁面",
+      "MESSAGE": "糟糕！發生問題。請再試一次。"
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens 需要存取您攝影機的權限。若要啟用，請在系統設定中允許 Poly Lens 存取攝影機。"
+    },
+    "BUTTON": {
+      "CLOSE": "關閉"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "裝置已中斷連線"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "電量低"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "歡迎使用 Studio P21",
+      "CONTENT": "若要使用 Studio P21，您需要為此顯示器下載其他軟體。",
+      "BUTTON": "下載"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "歡迎使用全新的 Studio P21！",
+      "CONTENT": "歡迎使用全新的 Studio P21！在使用這個新的顯示器裝置之前，您需要先為它安裝其他軟體",
+      "BUTTON_DOWNLOAD": "請從此處下載",
+      "BUTTON_MORE_INFO": "更多資訊"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "偵測到 {{deviceName}}。開啟 Poly Lens 以設定此裝置。"
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "已成功載入其他語言功能。"
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "您的螢幕將在 5 秒後鎖定。將耳機重新連接至線路控制，以繼續運作。"
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "已成功儲存設定。",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "未成功儲存設定。",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP 伺服器設定已成功套用。",
+    "CHANGE_NTP_SETTINGS_FAILED": "NTP 伺服器設定無法套用。",
+    "COPIED_TO_CLIPBOARD": "已複製到剪貼簿",
+    "SAVE_CSR_FILE_SUCCESS": "CSR 檔案已成功儲存。",
+    "SAVE_CSR_FILE_FAILED": "CSR 檔案未成功儲存。",
+    "FILE_READ_FAILED": "無法讀取檔案。",
+    "CERTIFICATE_INSTALL_SUCCESS": "憑證已成功安裝。",
+    "CERTIFICATE_INSTALL_FAILED": "無法安裝憑證。",
+    "CERTIFICATE_DELETE_SUCCESS": "憑證已成功刪除。",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "密碼已成功更新。",
+    "CONFIG_EXPORT_FAILED": "匯出失敗。請再試一次。",
+    "CONFIG_IMPORT_FAILED": "匯入失敗。請再試一次。",
+    "CONFIG_EXPORT_SUCCEEDED": "匯出成功。",
+    "CONFIG_IMPORT_SUCCEEDED": "匯入成功。",
+    "AUDIO_DIAGNOSTIC_FAILED": "音訊診斷失敗。請再試一次。",
+    "WIFI_JOIN_ERROR": "無法加入網路。請檢查帳號密碼後再試一次。",
+    "CRASH_REPORTS_SUCCESS": "已下載當機報告。",
+    "CRASH_REPORTS_FAILED": "找不到當機報告。",
+    "NETWORK_ERROR": "網路連線功能無法使用。部分功能可能受限，直到連線恢復為止。"
+  },
+  "DETAIL": {
+    "AUTO": "自動",
+    "TITLE": "詳細資料頁",
+    "BACK_TO_HOME": "返回首頁",
+    "CAMERA": "攝影機",
+    "CONTROLS": "控制項",
+    "EXPAND": "展開",
+    "LINK": "連結",
+    "UNLINK": "取消連結",
+    "CONTRACT": "縮小",
+    "GRID": "網格",
+    "SETTINGS": "設定",
+    "FAVORITES": "最愛",
+    "FAVORITE_DELETE_CONFIRM": "確定要刪除最愛「{{favoriteName}}」嗎？",
+    "FAVORITE_NUMBER": "最愛 {{number}}",
+    "FAVORITE_SAVE_AS": "另存為新的最愛",
+    "FAVORITES_SAVED": "已錄音",
+    "FAVORITE_COPY": "{{favoriteName}} 複製",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "按一下下方的「顯示」圖示以開始預覽。",
+    "PREVIEW_SHOW": "顯示",
+    "PREVIEW_HIDE": "隱藏",
+    "PREVIEW_HIDDEN": "預覽已隱藏",
+    "PREVIEW_WINDOWS_NOTICE": "啟用預覽時，其他應用程式將無法使用此攝影機。",
+    "PREVIEW_CONTROLS_READ_ERROR": "另一個應用程式正在使用此攝影機。{{line_feed}}請將其關閉以啟用「預覽」和「設定」。{{line_feed}}{{line_feed}}如果該方法無效，請確定另一個應用程式沒有在背景中執行。",
+    "SNAPSHOT": "快照",
+    "SNAPSHOT_SAVE": "儲存快照",
+    "SNAPSHOT_SAVED_SUCCESS": "快照儲存成功。",
+    "SNAPSHOT_SAVED_FAIL": "快照未儲存。",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "快照",
+    "SANDBOX": "沙箱",
+    "IT_MANAGED": "IT 管理",
+    "HEADSET": "耳機",
+    "SUPPORT": "支援",
+    "USB_ADAPTER": "USB 接收器",
+    "CHARGING_CASE": "收納盒",
+    "CHARGING_CASE_NAME": "充電盒",
+    "DEVICES": "裝置",
+    "OVERVIEW": {
+      "OVERVIEW": "概觀",
+      "BATTERY_LABEL": "電池：",
+      "BATTERY_CRITICAL": "嚴重",
+      "WIFI_LABEL": "網路：",
+      "PROVISION_LABEL": "佈建：",
+      "PROVISION_AUTO": "一般",
+      "PROVISION_OFF": "佈建",
+      "PROVISION_NOT_SET_UP": "未設定",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "裝置將可運作，但無法從遠端管理",
+      "SET_PROVISION": "按一下以設定佈建",
+      "STATUS_LABEL": "狀態：",
+      "HEADSET_STATUS_LABEL": "耳機：",
+      "FIRMWARE_LABEL": "軟體：",
+      "CONNECTED": "已連接",
+      "NOT_CONNECTED": "未連接",
+      "DISCONNECTED": "已中斷連線",
+      "PAIRING_MODE": "配對 Bluetooth 音訊",
+      "PAIR_REMOTE": "配對 Bluetooth 遙控器",
+      "USB_PAIRING_MODE": "配對新裝置",
+      "MAKE_PRIMARY": "設為主要",
+      "DELETE_DEVICE": "刪除裝置",
+      "TROUBLE_CONNECTING": "連接裝置時發生問題？",
+      "AVAILABLE_FIRMWARE": "可用：",
+      "SAVE_BUTTON": "儲存",
+      "CANCEL_BUTTON": "取消",
+      "RENAME_DEVICE": "重新命名",
+      "DEVICE_NAME": "姓名：",
+      "RECOVERY_MODE": "復原模式",
+      "POLICY_UPDATE_NOTE": "您的組織要求此裝置要使用特定的軟體版本。請盡快執行更新。",
+      "CASE_UPDATE_NOTE": "連接 USB 纜線以更新充電盒"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "偵測到裝置",
+      "SETUP_REQUIRED": "需進行設定才能使用裝置。",
+      "IMPORT_CONFIGURATION": "匯入設定",
+      "BEGIN_SETUP": "開始設定",
+      "MODAL": {
+        "TITLE": "匯入設定",
+        "DESCRIPTION": "請輸入您想要加入的網路的名稱及安全性類型。",
+        "LABEL_INPUT": "裝置名稱",
+        "INPUT_PLACEHOLDER": "選擇性",
+        "INPUT_RECOMMENDATION": "我們建議以此裝置放置的房間或會議空間來命名。"
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "一旦按下下方所示的「我接受」，即表示您認可並同意對於此軟體的使用須遵照以下文件的規定： ",
+      "EULA_LINK": "Poly 博詣使用者授權合約",
+      "EULA_I_ACCEPT": "我接受使用者授權合約",
+      "BEGIN_SETUP": "開始設定",
+      "PASSWORD_INVALID": "您輸入的密碼無效。請重新輸入密碼。"
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "開啟",
+      "NO_DEVICES": "未連接任何裝置。",
+      "QUIT": "結束 Poly Lens",
+      "SOUNDSCAPING": "聲景",
+      "MDA_AUDIO_RECORDING": "啟用靜音時錄音",
+      "MDA_AUDIO_RECORDING_START": "錄製語音記事",
+      "MDA_AUDIO_RECORDING_STOP": "停止錄製語音記事",
+      "OFF": "關閉"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "健康與保健",
+    "SOUNDSCAPING": {
+      "TITLE": "聲景",
+      "ENABLE_SOUNDSCAPES": "啟用聲景",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "為您的環境新增聲景",
+          "DESCRIPTION": "舒緩身心的環境有助於讓您專心一意。聲景選項包括瀑布、風、溪流、森林及海洋等自然音效。這些精心挑選且親近自然的音效有助於減輕壓力並提升專注力。"
+        }
+      },
+      "MOUNTAIN_RANCH": "山間牧場",
+      "GENTLE_OCEAN": "溫柔海洋",
+      "BABBLING_BROOK": "潺潺溪流",
+      "AT_VOLUME": "音量"
+    },
+    "HYDRATION": {
+      "TITLE": "補充水分",
+      "REMINDERS": "喝水提醒",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "喝水",
+          "DESCRIPTION": "為了保持身體水分充足，男性每天應喝的水量約為 125 盎司 (3.7 公升)，女性則約為 91 盎司 (2.7 公升)。",
+          "SOURCE_LINK_LABEL": "來源",
+          "SOURCE": "美國國家學院 (National Academies of Sciences, Engineering, and Medicine)"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "該補充水分了",
+        "BODY": "攝取充足的水分能提升睡眠品質、認知能力和心情。"
+      }
+    },
+    "VISION": {
+      "TITLE": "視力",
+      "REMINDERS": "眼睛休息提醒",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "讓眼睛離開螢幕畫面",
+          "DESCRIPTION": "20-20-20 是個不錯的護眼規則，也就是每 20 分鐘即看向 20 英呎 (約 6 公尺) 外的某物 20 秒。"
+        },
+        "TAKE_BREAK": {
+          "TITLE": "活動身體",
+          "DESCRIPTION": "遵守 20-20-20 規則是個很好的開始，但是請務必離開工作站，並到外面伸展一下筋骨或練習正念。"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "該休息了",
+        "BODY": "休息一下可增加您的工作注意力、生產力和品質"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "設定提醒頻率",
+    "REMINDER_SCHEDULE": "{{days}}，{{timeSpan}}，{{startTime}} 至 {{endTime}}",
+    "FREQUENCY": "頻率",
+    "TIME_RANGE": "時間範圍",
+    "WEEKDAYS": "工作日 (週一至週五)",
+    "WEEKDAYS_SHORT": "工作日",
+    "EVERY_DAY": "每天",
+    "CUSTOM": "自訂",
+    "ON": "在",
+    "LEARN_MORE": "深入瞭解",
+    "NEXT": "下一步",
+    "THROUGH": "直到"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Acoustic Fence 的運作方式",
+      "TITLE": "Acoustic Fence 的運作方式",
+      "DESCRIPTION": "Acoustic Fence 採用先進的回音消除技術和多個麥克風，建立出虛擬的「音訊圍牆」。如此一來，便可降低牆外擾人聲響可能對您通話造成的影響，例如同事的談話聲。{{line_feed}}為獲得最佳體驗，請使用 Poly NoiseBlockAI 抑制非通話背景雜音，特別是鍵盤聲響、紙張移動聲，甚至是狗吠聲。"
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "NoiseBlockAI 的運作方式",
+      "TITLE": "NoiseBlockAI 的運作方式",
+      "DESCRIPTION": "NoiseBlockAI 的設計目的，是使用機器學習型的噪音抑制技術來減少談話時環境中及遠端擾人的背景雜音，避免非人類噪音 (如鍵盤敲擊聲或紙張移動聲) 對會議造成影響。{{line_feed}}而當您不說話時，NoiseBlockAI 會自動將麥克風靜音，避免背景雜音干擾您的通話。"
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "還原預設值",
+      "CONFIRM_MESSAGE": "此動作會還原裝置所有的出廠預設設定。",
+      "COMPLETE_TITLE": "已還原設定！",
+      "COMPLETE_MESSAGE": "請記得拔掉插頭 (若以 USB 連接) 並將耳機關閉電源後重新開啟，新設定方可生效。",
+      "COMPLETE_MESSAGE_NO_REPLUG": "為完成此程序，您的裝置現在可能會重新啟動。"
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "重新啟動裝置",
+      "CONFIRM_MESSAGE": "此動作會立即重新啟動您的裝置。"
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "還原預設值",
+      "CONFIRM_MESSAGE": "此動作會還原 Lens 的所有預設設定。"
+    },
+    "AUDIO_TEST": {
+      "TITLE": "音訊標題",
+      "CONFIRM_MESSAGE": "音訊確認訊息。"
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "深入瞭解 Anti-Startle",
+      "TITLE": "關於 Anti-Startle",
+      "INTRO": "依產品而定，Anti-Startle 保護有 2 或 3 個選項：",
+      "G616": "G616",
+      "G616_DESCRIPTION": "澳洲聲震防護產業準則，限制傳送到您耳朵的音訊音量，進而避免高音量造成傷害。",
+      "G616_POLY_ENHANCED": "G616 (Poly 博詣強化版)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Poly 博詣專利演算法提供比 G616 更高的保護，可立即降低音量，消除突發的巨大聲響，確保聆聽舒適度，同時維持完善的音訊品質。",
+      "OFF": "關閉",
+      "OFF_DESCRIPTION": "停用此設定時，耳機不會過濾通過的音訊，但會持續將音量保持在 118 dBA 以保護您的聽力。",
+      "NOTE": "注意",
+      "NOTE_DESCRIPTION": "此選項依產品而定。",
+      "MORE_INFO": "如需有關此功能的更多資訊，請造訪"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "尋找並加入一個 Wi-Fi 網路",
+      "NETWORK_NAME": "網路名稱",
+      "DESCRIPTION": "請輸入您想要加入的網路的名稱及安全性類型。",
+      "PASSWORD_TITLE": "新增 {{networkName}} 網路的密碼",
+      "SECURITY": "安全性",
+      "EAP_METHOD": "EAP 驗證法",
+      "PHASE2": "第二階段驗證",
+      "CA_CERTIFICATE": "CA 憑證",
+      "USER_CERTIFICATE": "使用者憑證",
+      "IDENTITY": "識別",
+      "ANONYMOUS_IDENTITY": "匿名識別",
+      "PASSWORD": "密碼",
+      "IP_SETTINGS": "IP 設定",
+      "STATIC": "靜態",
+      "SHOW_ADVANCED": "顯示進階設定",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP 位址",
+      "GATEWAY": "閘道",
+      "SUBNET_MASK": "子網路遮罩",
+      "DNS1": "DNS 位址 1",
+      "DNS2": "DNS 位址 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "管理已知網路",
+      "NO_NETWORKS": "沒有已知的網路。請加以連線。"
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "建立憑證簽署要求",
+      "DESCRIPTION": "請為您的憑證要求指定以下資訊。",
+      "COUNTRY": "國家/地區",
+      "STATE": "州或省",
+      "CITY": "市區鄉鎮",
+      "ORGANIZATION": "組織",
+      "ORGANIZATION_UNIT": "組織單位",
+      "COMMON_NAME": "通用名稱",
+      "SAVE_FILE_TITLE": "儲存憑證簽署要求檔案"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "安裝憑證",
+      "TYPE": "類型",
+      "CERTIFICATE": "憑證",
+      "CHOOSE_FILE_TITLE": "選擇檔案"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "憑證詳細資料",
+      "PASSWORD_ERROR": "您輸入的密碼無效。請重新輸入密碼。",
+      "PASSWORD": "私密金鑰密碼："
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "這是您的主要裝置。",
+    "MAKE_DEVICE_MAIN": "將此裝置設為主要裝置。",
+    "DEVICE_NOT_SUPPORTED": "即將提供裝置支援。應用程式內的功能可能有限。",
+    "DISABLED_BY_ADMIN": "管理員已停用此功能"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "軟體元件",
+    "VIEW_LIST_OF_COMPONENTS": "檢視 {{numberOfComponents}} 個元件",
+    "VIEW_ONE_COMPONENT": "檢視 1 個元件",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "調整",
+    "BASE": "基座",
+    "HEADSET": "耳機",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "攝影機"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "即將完成！",
+    "REPLUG_DESCRIPTION": "拔除後再重新連接裝置，然後按一下「繼續」以完成更新。",
+    "UPDATE_WARNING_1": "完成此更新需要幾分鐘的時間。",
+    "UPDATE_WARNING_2": "更新過程中，{{open_tag}}請勿將裝置中斷連線{{close_tag}}。",
+    "UPDATE_WARNING_3": "繼續進行此軟體更新前，請先確認沒有其他應用程式正在使用您的攝影機。",
+    "DISTANCE_WARNING.TITLE": "準備更新",
+    "DISTANCE_WARNING_1": "更新期間，請將您的 {{open_tag}}{{device_name}}{{close_tag}} 與電腦保持在 1.5 公尺 (5 英呎) 的距離內。",
+    "DISTANCE_WARNING_2": "中斷任何其他 Bluetooth 連線 (例如行動電話)，以避免中斷更新。",
+    "LANGUAGE_DOWNLOAD": "語言下載",
+    "DOWNLOADING_LANGUAGE": "正在下載語言",
+    "LANGUAGE_UPDATE": "語言更新",
+    "UPDATEING_LANGUAGE": "正在更新語言",
+    "LANGUAGE_UPDATED": "語言已更新",
+    "SOFTWARE_DOWNLOAD": "軟體下載",
+    "DOWNLOADING_SOFTWARE": "正在下載軟體",
+    "SOFTWARE_UPDATE": "軟體更新",
+    "UPDATING_SOFTWARE": "正在更新軟體",
+    "SOFTWARE_INSTALLED": "軟體已安裝",
+    "CUSTOM_SOFTWARE_UPDATE": "自訂軟體更新",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "正在上傳自訂軟體更新",
+    "CUSTOM_SOFTWARE_INSTALLED": "自訂軟體已安裝",
+    "DEVICE_RECOVERY": "裝置復原",
+    "RECOVERING_DEVICE": "正在復原裝置",
+    "DEVICE_RECOVERED": "裝置已復原",
+    "UPDATE_FAILED": "軟體更新失敗",
+    "UPDATE_FAILED_TITLE": "糟糕！發生問題。",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "軟體更新未成功完成。",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "軟體已是最新版本",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "您嘗試更新的裝置已經有最新的軟體。",
+    "PREREQUISITES": {
+      "BatteryLowError": "您的電池電量不足，無法執行更新。更新前請先為 {{deviceName}} 的電池充電。",
+      "DeviceNotConnectedError": "透過纜線連接 {{deviceName}} 以進行更新。",
+      "CallinProgressError": "無法在通話期間更新 {{deviceName}}。",
+      "DFUInProgressError": "另一個更新正在進行中，無法更新您的 {{deviceName}}。",
+      "MultipleDevicesError": "已連接兩個或更多相同型號的裝置。更新此裝置前，請先中斷其他裝置的連線。",
+      "ReplugDevice": "拔除後再重新連接裝置，以完成軟體更新。",
+      "CameraInUseError": "請確認攝影機預覽已停用，且麥克風和攝影機在任何其他應用程式中皆未處於使用狀態。",
+      "SingleEarbudError": "如要更新，請確保兩個耳塞式耳機皆已連接、取出充電盒，且電量達 50% 以上。"
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "一般",
+    "DisplayControls": "顯示控制項",
+    "RingtoneAndVolume": "鈴聲和音量",
+    "Audio": "音訊",
+    "SensorAndPresence": "感應器和目前狀態",
+    "SoftphonesAndMediaPlayers": "軟體電話與媒體播放器",
+    "Wireless": "無線",
+    "Advanced": "進階",
+    "ANC": "ANC",
+    "Firmware": "韌體",
+    "Language": "語言",
+    "VoicePromptsAndTones": "語音提示和提示音",
+    "Admin": "管理員",
+    "ResetHeadset": "重設裝置",
+    "Lights": "指示燈",
+    "CustomButton": "自訂按鈕",
+    "CustomSwipe": "自訂滑動感應器",
+    "Diagnostics": "診斷",
+    "SoftwareSettings": "軟體設定"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "語言",
+      "description": "選取您要用於所有語音提示和警示的語言。例如，「Incoming call from John」(John 的來電) 或「Mute on」(靜音開啟)。",
+      "serverNotReachable": "您目前無法變更語言，因為伺服器無法使用。",
+      "options": {
+        "3076": "廣東話",
+        "1030": "丹麥文",
+        "2057": "英文 - 英國",
+        "1033": "英文 - 美國",
+        "1036": "法文",
+        "1031": "德文",
+        "1040": "義大利文",
+        "1041": "日文",
+        "1042": "韓文",
+        "1045": "波蘭文",
+        "2052": "普通話",
+        "1044": "挪威文 - 巴克摩",
+        "2068": "挪威文 - 耐諾斯克",
+        "1049": "俄羅斯文",
+        "1034": "西班牙文",
+        "1053": "瑞典文",
+        "16393": "英文 - 印度",
+        "1057": "印尼文",
+        "1054": "泰文",
+        "1046": "葡萄牙文 - 巴西"
+      }
+    },
+    "0x102": {
+      "name": "第二通來電",
+      "description": "控制來自第二個通訊路徑的來電響鈴行為 (例如當您使用現有軟體電話時的行動通話來電)。",
+      "options": {
+        "ignore": "拒絕",
+        "once": "鈴響一聲",
+        "continuous": "持續鈴響"
+      }
+    },
+    "0x103": {
+      "name": "電腦音量",
+      "description": "",
+      "options": {
+        "off": "關閉",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x104": {
+      "name": "桌上型電話音量",
+      "description": "",
+      "options": {
+        "off": "關閉",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x105": {
+      "name": "行動電話音量",
+      "description": "",
+      "options": {
+        "off": "關閉",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "選取您要在 PC 軟體電話響鈴時使用的鈴聲 (與適用型號的音量)。",
+      "options": {
+        "sound1": "音效 1",
+        "sound2": "音效 2",
+        "sound3": "音效 3",
+        "off": "關閉"
+      }
+    },
+    "0x107": {
+      "name": "桌上型電話",
+      "description": "選取您要在桌上型電話響鈴時使用的鈴聲 (與適用型號的音量)。",
+      "options": {
+        "sound1": "音效 1",
+        "sound2": "音效 2",
+        "sound3": "音效 3",
+        "off": "關閉"
+      }
+    },
+    "0x108": {
+      "name": "行動電話",
+      "description": "選取您要在行動裝置響鈴時使用的鈴聲 (與適用型號的音量)。",
+      "options": {
+        "sound1": "音效 1",
+        "sound2": "音效 2",
+        "sound3": "音效 3",
+        "off": "關閉"
+      }
+    },
+    "0x109": {
+      "name": "鈴聲",
+      "description": "播放當連線裝置有來電且設為不播放自己鈴聲時會聽到的鈴聲。"
+    },
+    "0x10A": {
+      "name": "基座響鈴音量",
+      "description": "設定基座響鈴音量。",
+      "options": {
+        "off": "關閉",
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x200": {
+      "name": "配戴感應器",
+      "description": "開啟這項主要設定，以允許對感應器設定進行個別設定。"
+    },
+    "0x201": {
+      "name": "自動接聽",
+      "description": "電話響鈴時，您戴上耳機即可自動接聽來電。"
+    },
+    "0x202": {
+      "name": "智慧音訊轉接",
+      "description": "取下耳機時，自動將通話音訊從耳機轉接至行動電話。戴回耳機後，通話音訊會轉接回耳機。"
+    },
+    "0x203": {
+      "name": "通話按鈕鎖定",
+      "description": "鎖定耳機的通話按鈕，以避免在未配戴耳機時意外回撥行動電話。"
+    },
+    "0x204": {
+      "name": "自動暫停音樂",
+      "description": "從耳朵上取下耳機時，自動暫停來自行動裝置的串流音訊 (放回耳朵上後則繼續串流)。停用以持續播放串流音訊。"
+    },
+    "0x205": {
+      "name": "自動靜音",
+      "description": "當您在通話期間取下耳機時，耳機麥克風會自動靜音。"
+    },
+    "0x206": {
+      "name": "通話期間音訊",
+      "description": "選取通話期間拿下耳機時要耳機採取的動作。",
+      "options": {
+        "doNothing": "無動作",
+        "transferAudioToMobile": "將音訊轉接到行動電話",
+        "muteMic": "把麥克風靜音"
+      }
+    },
+    "0x300": {
+      "name": "自動接聽 (無感應器)",
+      "description": "從充電座取下耳機時自動接聽來電。設為「關閉」時，按下通話控制鈕可接聽來電。"
+    },
+    "0x301": {
+      "name": "自動連接至行動電話",
+      "description": "在行動電話進入 Savi 基座範圍內時，自動與該基座重新連線。"
+    },
+    "0x302": {
+      "name": "放置在充電座中以自動中斷連線",
+      "description": "將耳機放入充電座時，自動中斷通話。"
+    },
+    "0x400": {
+      "name": "預設電話線路",
+      "description": "設定當按下耳機通話控制鈕時，電話使用的外撥線路。",
+      "options": {
+        "pstn": "桌上型電話",
+        "voip": "電腦",
+        "mobile": "行動"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "啟用以透過 Bluetooth 連線至行動裝置。"
+    },
+    "0x402": {
+      "name": "行動電話語音命令",
+      "description": "按下基座上的行動裝置按鈕，啟用以將連線的行動裝置設為語音命令模式。"
+    },
+    "0xB05": {
+      "name": "來電通知",
+      "description": "接聽來電時聽到語音提示。"
+    },
+    "0x913": {
+      "name": "保留提醒",
+      "description": "接收實用的提醒，讓您知道有保留的通話。"
+    },
+    "0xB06": {
+      "name": "最低音量/最高音量警示",
+      "description": "選取在達到最低音量或最高音量時您所聽到的告知類型。",
+      "options": {
+        "voice": "語音",
+        "tone": "提示音"
+      }
+    },
+    "0x500": {
+      "name": "噪音曝露",
+      "description": "監控每日噪音曝露，確保不超過現行法定限制的選取作用值 (80 dBA 或 85 dBA)。",
+      "options": {
+        "85db": "限制值 85 dBA",
+        "80db": "限制值 80 dBA",
+        "off": "無限制"
+      }
+    },
+    "0x501": {
+      "name": "每日通話時數",
+      "description": "選取最適合此裝置一般使用情形的值，最佳化處理噪音曝露的精確度。",
+      "options": {
+        "off": "關閉",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Anti-Startle",
+      "description": "消除聲音突然變大的智慧型演算法，立即降低聲震問題，確保安全防護性及聆聽舒適度。"
+    },
+    "0x505": {
+      "name": "防驚嚇",
+      "description": "G616 是聽力防護的產業標準，限制傳送到您耳朵的音訊音量，以避免受到高音量驚嚇。"
+    },
+    "0x600": {
+      "name": "接聽/拒絕",
+      "description": "行動電話接到來電時，會聽到語音提示詢問您要「Answer」(接聽) 或「Ignore」(拒絕)。"
+    },
+    "0x601": {
+      "name": "通話宣告",
+      "description": "當您透過耳機接聽來電時，會聽到語音警示「Answering Call」(接聽來電)。"
+    },
+    "0x602": {
+      "name": "靜音關閉警示",
+      "description": "將耳機麥克風靜音與解除靜音時所聽到的回應音。",
+      "options": {
+        "false": "提示音",
+        "true": "語音"
+      }
+    },
+    "0x603": {
+      "name": "靜音提醒時機",
+      "description": "設定靜音提醒警示之間相隔的分鐘數。",
+      "options": {
+        "off": "關閉",
+        "1": "1 分鐘",
+        "2": "2 分鐘",
+        "3": "3 分鐘",
+        "4": "4 分鐘",
+        "5": "5 分鐘",
+        "6": "6 分鐘",
+        "7": "7 分鐘",
+        "8": "8 分鐘",
+        "9": "9 分鐘",
+        "10": "10 分鐘",
+        "11": "11 分鐘",
+        "12": "12 分鐘",
+        "13": "13 分鐘",
+        "14": "14 分鐘",
+        "15": "15 分鐘"
+      }
+    },
+    "0x604": {
+      "name": "靜音提醒音量",
+      "description": "設定靜音提醒警示的音量。",
+      "options": {
+        "off": "關閉",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x607": {
+      "name": "靜音開啟/關閉警示",
+      "description": "選取您將耳機麥克風靜音、解除靜音或在收到靜音提醒時所聽到的警示類型。",
+      "options": {
+        "voice": "語音",
+        "singleTone": "一聲提示音",
+        "doubleTone": "兩聲提示音"
+      }
+    },
+    "0x608": {
+      "name": "系統提示音",
+      "description": "設定耳機音訊提示的音量。",
+      "options": {
+        "off": "關閉",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x609": {
+      "name": "音量提示音",
+      "description": "調整音量時，會聽到表示目前音量的提示音。",
+      "options": {
+        "atEveryLevel": "每一種音量",
+        "minMaxOnly": "只在最小聲和最大聲時"
+      }
+    },
+    "0x60A": {
+      "name": "來電顯示",
+      "description": "聽取來電者的姓名。"
+    },
+    "0x60C": {
+      "name": "進行中提示音",
+      "description": "聽到一串短頻音即代表音訊頻道開啟，且準備就緒可供通訊。"
+    },
+    "0x60D": {
+      "name": "靜音提醒模式",
+      "description": "接收實用的提醒，讓您知道耳機在通話時處於靜音狀態。設定提醒出現的方式與時機。",
+      "options": {
+        "off": "關閉",
+        "timed": "依據時間",
+        "voiceAudible": "聲音提醒",
+        "voiceVisible": "螢幕顯示提醒",
+        "voiceVisibleAndAudible": "螢幕顯示和聲音提醒"
+      }
+    },
+    "0x610": {
+      "name": "靜音警示",
+      "description": "將喇叭擴音器的麥克風靜音與解除靜音時所聽到的回應音。"
+    },
+    "0x700": {
+      "name": "音訊品質",
+      "description": "針對您要進行的活動，最佳化音訊品質。",
+      "options": {
+        "homeMode": "音樂",
+        "enterpriseMode": "混合",
+        "mono": "對話",
+        "narrowBand": "窄頻"
+      }
+    },
+    "0x701": {
+      "name": "Over-the-Air 登錄",
+      "description": "將此耳機登錄到基座，而無需實際將耳機放到充電座上。"
+    },
+    "0x702": {
+      "name": "範圍",
+      "description": "限制範圍，減少其他 DECT 裝置造成的音訊干擾。",
+      "options": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x704": {
+      "name": "串流音訊",
+      "description": "啟用以將音樂、Podcast 及其他類型音訊從行動裝置串流至耳機。若您並未將音訊串流至耳機，請停用此功能以節省電池壽命。",
+      "powerCycleRequired": {
+        "title": "啟用/停用串流音訊",
+        "buttonText": "確定",
+        "true": {
+          "title": "停用串流音訊",
+          "text": "選取以節省電池電力並延長可用通話時間。停用時，您不能透過耳機聆聽音樂或 Podcast。"
+        },
+        "false": {
+          "title": "啟用串流音訊",
+          "text": "選取此選項以透過耳機收聽音樂和 Podcast。若啟用，可用通話時間可能會減少。"
+        }
+      }
+    },
+    "0x705": {
+      "name": "擴大範圍模式 (PC)",
+      "description": "加大 PC 與耳機之間的無線涵蓋範圍。注意：這樣將會停用寬頻立體聲電話語音功能，並會降低您所聽到的 PC 音訊品質。"
+    },
+    "0x706": {
+      "name": "PC 音訊頻寬",
+      "description": "寬頻音訊可提供更高的通話清晰度，以及更真實的音訊品質，但會消耗較多電池電力，使得可通話時間變短。",
+      "options": {
+        "narrowband": "窄頻",
+        "wideband": "寬頻"
+      }
+    },
+    "0x707": {
+      "name": "桌上型電話音訊頻寬",
+      "description": "寬頻音訊可提供更高的通話清晰度，以及更真實的音訊品質，但會消耗較多電池電力，使得可通話時間變短。",
+      "options": {
+        "narrowband": "窄頻",
+        "wideband": "寬頻"
+      }
+    },
+    "0x708": {
+      "name": "HD 語音",
+      "description": "若您的手機與服務業者支援此功能，則可使用寬頻音訊增強語音清晰度。注意：此功能會消耗大量電池電力，使得可通話時間變短。",
+      "options": {
+        "narrowband": "關閉",
+        "wideband": "開啟",
+        "stereo": "立體聲",
+        "widebandStereo": "寬頻立體聲"
+      },
+      "powerCycleRequired": {
+        "title": "啟用/停用 HD 語音",
+        "buttonText": "確定",
+        "narrowband": {
+          "title": "停用 HD 語音",
+          "text": "若您的電話與電信業者支援寬頻音訊，則可使用此功能增強語音清晰度。停用以節省電池電力並延長可用通話時間。"
+        },
+        "wideband": {
+          "title": "啟用 HD 語音",
+          "text": "若您的電話與電信業者支援寬頻音訊，則可使用此功能增強語音清晰度。啟用 HD 語音會消耗更多電池電力，並減少可用通話時間。"
+        },
+        "stereo": {
+          "title": "立體聲標題",
+          "text": "立體聲文字"
+        },
+        "widebandStereo": {
+          "title": "寬頻立體聲標題",
+          "text": "寬頻立體聲文字"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "自動重新連線菊輪鍊",
+      "description": "開啟電源時，保留兩個裝置之間的菊輪鍊連接。"
+    },
+    "0x70B": {
+      "name": "自動中斷 Bluetooth 連線",
+      "description": "當裝置進入待機模式時，中斷 Bluetooth 連線。"
+    },
+    "0x800": {
+      "name": "調高 QD 耳機音量",
+      "description": "如果連接到基座 Quick Disconnect (QD) 的耳機音量太低，請選取您的耳機型號，以調高音量。",
+      "options": {
+        "new": "EncorePro 500 系列",
+        "legacy": "EncorePro 700 系列與所有其他耳機型號"
+      }
+    },
+    "0x801": {
+      "name": "音調調校",
+      "description": "加強低音或高音以最佳化您的聆聽體驗。您可以分別為每個裝置自訂桌上型電話和電腦的提示音。 ",
+      "options": {
+        "maxBass": "最大低音",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "最大高音"
+      }
+    },
+    "0x802": {
+      "name": "關閉對話限制",
+      "description": "限制麥克風所傳輸的鄰近對話量。(注意：變更會於下次通話生效。)",
+      "options": {
+        "no": "無限制",
+        "moderate": "最佳音訊",
+        "agressive": "開放式辦公室"
+      }
+    },
+    "0x803": {
+      "name": "側音",
+      "description": "調整說話時聽到自己聲音的音量大小。",
+      "options": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x804": {
+      "name": "ANC 逾時",
+      "description": "縮短耳機閒置時主動式雜音消除 (ANC) 保持開啟的時間，可增加電池壽命。",
+      "options": {
+        "2": "2 小時",
+        "4": "4 小時",
+        "off": "關閉"
+      }
+    },
+    "0x810": {
+      "name": "ANC 模式",
+      "description": "為您的環境選取最佳的降噪等級。",
+      "options": {
+        "adaptive": "自適應",
+        "automatic": "自動",
+        "standard": "標準",
+        "off": "關閉"
+      }
+    },
+    "0x805": {
+      "name": "通知音",
+      "description": "串流音訊時從其他連線裝置聽到通知音。"
+    },
+    "0x806": {
+      "name": "獨立音量控制",
+      "description": "啟用或停用獨立音量控制。"
+    },
+    "0x807": {
+      "name": "菊輪鍊接音訊",
+      "description": "選擇當喇叭擴音器菊輪鍊接在一起時您所聽到的音訊輸出。",
+      "options": {
+        "party": "派對",
+        "stereo": "立體聲"
+      }
+    },
+    "0x808": {
+      "name": "等化器",
+      "description": "將等化器預設設定為您偏好的音質表現。",
+      "options": {
+        "bass": "低音",
+        "flat": "平坦",
+        "bright": "清亮"
+      }
+    },
+    "0x90A": {
+      "name": "還原預設值",
+      "description": "此動作會還原裝置所有的出廠預設設定。",
+      "resetBtn": "還原預設值",
+      "powerCycleRequired": {
+        "title": "已還原設定",
+        "buttonText": "還原",
+        "true": {
+          "title": "還原預設設定",
+          "text": "您的所有自訂設定將會還原為原始預設值。"
+        }
+      }
+    },
+    "0x90C": {
+      "name": "重新啟動裝置",
+      "description": "此動作會立即重新啟動您的裝置。",
+      "resetBtn": "重新啟動"
+    },
+    "0x848": {
+      "name": "清除信任的裝置",
+      "description": "刪除耳機所儲存的連線裝置清單。(此會套用到所有連線的裝置，包括 BT700。)",
+      "resetBtn": "清除裝置",
+      "powerCycleRequired": {
+        "title": "已清除裝置",
+        "buttonText": "清除",
+        "true": {
+          "title": "清除信任的裝置",
+          "text": "此動作將會清除儲存在耳機上的所有已連接裝置，包括 BT700 USB 轉接器。"
+        }
+      }
+    },
+    "0x900": {
+      "name": "響鈴時震動",
+      "description": "設定耳機在接收到來電時震動。"
+    },
+    "0x901": {
+      "name": "充電確認",
+      "description": "設定耳機以震動確認耳機正在充電。"
+    },
+    "0x902": {
+      "name": "通話指示燈",
+      "description": "啟用裝置上的 LED 指示燈，讓旁人知道您正在通話。"
+    },
+    "0x903": {
+      "name": "音量控制配戴偏好",
+      "description": "表示耳機配戴偏好 (左耳或右耳)，並一律讓音量控制向上以調高音量。",
+      "options": {
+        "unknown": "不變更",
+        "left": "左耳",
+        "right": "右耳",
+        "leftRight": "吊桿在右邊",
+        "leftRightSwapped": "吊桿在左邊"
+      }
+    },
+    "0xA00": {
+      "name": "音訊感應",
+      "description": "當 USB 連接埠偵測到電腦音訊時，在基座與無線耳機之間自動建立無線電連結。"
+    },
+    "0xA01": {
+      "name": "撥號音",
+      "description": "按下耳機通話按鈕進行 VoIP 通話時，聽到撥號音。您的軟體電話必須支援撥號音。"
+    },
+    "0xFFF1": {
+      "name": "自動連接至行動電話",
+      "description": "電話進入基座範圍內時，自動將 Savi 基座與已配對的行動裝置重新連線。",
+      "options": {
+        "never": "永不",
+        "whenUndocked": "只在耳機未接上時",
+        "always": "永遠"
+      }
+    },
+    "0xFFF2": {
+      "name": "Anti–Startle",
+      "description": "消除聲音突然變大的演算法，可以保護您的聽力以及提升聆聽舒適度。",
+      "options": {
+        "off": "關閉",
+        "standard": "G616",
+        "enhanced": "G616 (Poly 博詣強化版)"
+      }
+    },
+    "0x60E": {
+      "name": "電池狀態",
+      "description": "在您開啟裝置電源時聽到電池狀態。"
+    },
+    "0x60F": {
+      "name": "連線",
+      "description": "聽到表示連線狀態的語音提示。",
+      "options": {
+        "voice": "語音",
+        "tone": "提示音"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "啟用或停用所有 Sync 喇叭上的 Bluetooth 連線。"
+    },
+    "-": {
+      "name": "連線",
+      "description": "聽到表示連線狀態的語音提示。"
+    },
+    "0x907": {
+      "name": "Bluetooth 安全連線",
+      "description": "按下 Bluetooth 配對按鈕以完成喇叭擴音器與行動裝置之間的連線。"
+    },
+    "0x908": {
+      "name": "自訂按鈕",
+      "description": "指派當您按下動作按鈕時所啟動的動作。",
+      "options": {
+        "playPause": "播放/暫停",
+        "redial": "重撥 (僅限行動電話)",
+        "vpa": "VPA (Siri、Google 助理等)",
+        "clearTrustedDevice": "清除信任的裝置清單",
+        "statusCheck": "狀態檢查",
+        "holdResume": "保留/繼續通話",
+        "anc": "ANC/Transparency 模式",
+        "nothing": "無動作"
+      }
+    },
+    "0x909": {
+      "name": "專用連線",
+      "description": "配對及連線新裝置時，移除先前配對裝置的資訊。此功能只允許一次配對及連線一個裝置。"
+    },
+    "0xC00": {
+      "name": "亮度",
+      "description": "調整視訊亮度。"
+    },
+    "0xC01": {
+      "name": "對比",
+      "description": "調整視訊對比。"
+    },
+    "0xC02": {
+      "name": "色調",
+      "description": "調整視訊色彩。"
+    },
+    "0xC03": {
+      "name": "飽和度",
+      "description": "調整視訊色彩飽和度。"
+    },
+    "0xC04": {
+      "name": "清晰度",
+      "description": "調整視訊清晰度。"
+    },
+    "0xC05": {
+      "name": "色差補正",
+      "description": "調整視訊色差補正。"
+    },
+    "0xC06": {
+      "name": "色彩",
+      "description": "調整視訊色彩。"
+    },
+    "0xC07": {
+      "name": "白平衡",
+      "description": "指定攝影機要如何補償室內光線來源的變動。"
+    },
+    "0xC08": {
+      "name": "背光補償",
+      "description": "啟用或停用背光補償。"
+    },
+    "0xC09": {
+      "name": "增益",
+      "description": "調整攝影機的訊號放大。"
+    },
+    "0xC0A": {
+      "name": "平移",
+      "description": "調整攝影機的向左或向右方向。"
+    },
+    "0xC0B": {
+      "name": "傾斜",
+      "description": "調整攝影機的向上或向下方向。"
+    },
+    "0xC0C": {
+      "name": "滾動",
+      "description": "調整攝影機的滾轉角。"
+    },
+    "0xC0D": {
+      "name": "縮放",
+      "description": "調整攝影機縮放等級。"
+    },
+    "0xC0E": {
+      "name": "曝光",
+      "description": "調整攝影機曝光。"
+    },
+    "0xC0F": {
+      "name": "光圈",
+      "description": "調整攝影機光圈。"
+    },
+    "0xC10": {
+      "name": "對焦",
+      "description": "調整攝影機對焦。"
+    },
+    "0xC11": {
+      "name": "美肌功能",
+      "description": "為與會者啟用或停用自然膚色增強功能。"
+    },
+    "0xC12": {
+      "name": "廣域動態範圍",
+      "description": "根據框定區域而非全景啟用或停用攝影機曝光。"
+    },
+    "0xC13": {
+      "name": "與會者人數",
+      "description": "報告會議中的與會者人數。"
+    },
+    "0xC14": {
+      "name": "螢幕顯示",
+      "description": "在視訊輸出中顯示攝影機參數。"
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "啟用 Poly Acoustic Fence 以阻隔背景噪音，並設定 Poly Acoustic Fence 波束寬度。",
+      "options": {
+        "off": "關閉",
+        "60": "窄",
+        "90": "中",
+        "120": "寬鬆",
+        "cameraView": "攝影機檢視"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI 處理傳出音訊",
+      "description": "避免環境中惱人的聲響 (如鍵盤敲擊聲或紙張移動聲) 干擾您的會議。",
+      "options": {
+        "true": "真",
+        "false": "假",
+        "fast": "快速"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI 處理傳入音訊",
+      "description": "避免對話遠端惱人的聲響 (如鍵盤敲擊聲或紙張移動聲) 干擾您的會議。"
+    },
+    "0xC17": {
+      "name": "立體聲音訊",
+      "description": "使用攝影機上的兩個音訊頻道來提供立體聲音效。"
+    },
+    "0xC26": {
+      "name": "低音加強",
+      "description": "低音加強。"
+    },
+    "0xC18": {
+      "name": "追蹤速度",
+      "description": "設定攝影機偵測與會者的速度。",
+      "options": {
+        "slow": "慢速",
+        "normal": "一般",
+        "fast": "快速"
+      }
+    },
+    "0xC19": {
+      "name": "追蹤模式",
+      "description": "設定攝影機如何追蹤與會者。",
+      "options": {
+        "speaker": "講者取景",
+        "off": "關閉",
+        "group": "群組取景",
+        "presenter": "簡報者",
+        "conversation": "對話",
+        "gallery": "人像取景"
+      }
+    },
+    "0xC21": {
+      "name": "低音",
+      "description": "調整喇叭的音訊低音輸出。"
+    },
+    "0xC22": {
+      "name": "高音",
+      "description": "調整喇叭的音訊高音輸出。"
+    },
+    "0xC23": {
+      "name": "防閃爍 (50Hz / 60Hz) 解決方案",
+      "description": "選取適合的頻率 (NTSC 60Hz / PAL 50Hz)，減少顯示器閃爍。",
+      "options": {
+        "0": "已停用",
+        "1": "50Hz",
+        "2": "60Hz",
+        "3": "自動"
+      }
+    },
+    "0xC27": {
+      "name": "影像鏡射/翻轉",
+      "description": "反轉攝影機視訊輸出。",
+      "options": {
+        "0": "已停用",
+        "1": "水平鏡射",
+        "2": "垂直翻轉",
+        "3": "雙向翻轉和鏡射"
+      }
+    },
+    "0xC28": {
+      "name": "色溫",
+      "description": "色溫",
+      "options": {
+        "warm": "暖色調",
+        "cool": "冷色調"
+      }
+    },
+    "0xC1A": {
+      "name": "畫面大小",
+      "description": "設定攝影機追蹤畫面檢視。",
+      "options": {
+        "tight": "緊密",
+        "medium": "中",
+        "wide": "寬鬆"
+      }
+    },
+    "0xC1B": {
+      "name": "縮放上限",
+      "description": "以 2x、3x 或 4x 的比例限制攝影機的最大縮放比例",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "攝影機移動",
+      "description": "調整攝影機移動",
+      "options": {
+        "auto pan": "自動平移",
+        "cut": "切換"
+      }
+    },
+    "0xC80": {
+      "name": "螢幕亮度",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "狀態 LED 亮度",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "閒置狀態",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "來電",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "進行中通話",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "保留的通話",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "靜音提醒",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "無線充電",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "應用程式按鈕",
+      "description": "選取要從顯示器存取的平台。",
+      "options": {
+        "zoom": "縮放",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "火箭按鈕",
+      "description": "指派當您按下火箭飛船時所啟動的動作",
+      "options": {
+        "holdResume": "保留/繼續通話",
+        "playPause": "播放/暫停",
+        "statusLight": "狀態指示燈",
+        "lens": "開啟 Poly Lens Desktop",
+        "vpa": "VPA - Siri、Cortana",
+        "redial": "重撥上次通話",
+        "vanity": "化妝燈",
+        "answerEnd": "接聽/結束通話",
+        "videoMute": "視訊靜音攝影機"
+      }
+    },
+    "0xC90": {
+      "name": "顯示器亮度",
+      "description": "調整顯示器亮度。"
+    },
+    "0xC81": {
+      "name": "顯示器對比",
+      "description": "調整顯示器對比。"
+    },
+    "0x910": {
+      "name": "PC 音訊持續模式",
+      "description": "如果啟用，PC 音訊將會與桌上型電話介面混用。"
+    },
+    "0x1300": {
+      "name": "管理全部",
+      "description": "選取您在使用裝置時聽到的語音提示和提示音。"
+    },
+    "0x1301": {
+      "name": "來電",
+      "description": "聽到表示通話狀態的語音提示或提示音。"
+    },
+    "0x1302": {
+      "name": "來電"
+    },
+    "0x1303": {
+      "name": "接聽/拒絕"
+    },
+    "0x1305": {
+      "name": "接聽來電"
+    },
+    "0x1500": {
+      "name": " Transparency 模式",
+      "description": "選取 Transparency 模式的程度和音質表現。",
+      "options": {
+        "speech": "語音",
+        "environment": "環境",
+        "off": "關閉"
+      }
+    },
+    "0x1800": {
+      "name": "閒置",
+      "description": "指派裝置進入閒置狀態時的快速動作。",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/Transparency 模式",
+        "status": "狀態檢查",
+        "nothing": "無動作"
+      }
+    },
+    "0x1801": {
+      "name": "通話中",
+      "description": "指派通話時的快速動作。 ",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/Transparency 模式",
+        "hold": "保留/繼續通話",
+        "mute": "靜音",
+        "nothing": "無動作"
+      }
+    },
+    "0x1802": {
+      "name": "串流媒體 ",
+      "description": "指派串流媒體時的快速動作。",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/Transparency 模式",
+        "track": "上一首/下一首",
+        "nothing": "無動作"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "好，瞭解",
+      "powerOffText": "請記得<b>關閉耳機電源至少 5 秒</b>，新設定方可生效。"
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "選取語言",
+      "DESCRIPTION": "選取欲播放所有語音提示與警示 (例如「Incoming call from John」(John 來電)、「Mute on」(靜音開啟)) 的語言。",
+      "DESCRIPTION_USB_CABLE": "若要變更語音提示和提示音的語言，請透過 USB 纜線將您的 {{device_name}} 連接至電腦。",
+      "CONFIRM_TITLE": "變更語言"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi 名稱",
+      "CONNECTED": "已連接",
+      "DISCONNECTED": "已中斷連線",
+      "SIGNAL_STRENGTH": "訊號強度",
+      "AUTOCONNECT": "自動連線",
+      "JOIN_OTHER_NETWORK": "加入其他網路",
+      "MANAGE_KNOWN_NETWORKS": "管理已知網路",
+      "PLACEHOLDER": "選取網路"
+    },
+    "GENERAL": {
+      "LABEL": "一般",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP 模式",
+      "NTP_SERVER": "NTP 伺服器",
+      "CAMERA_VIVID": "攝影機增艷模式",
+      "CAMERA_VIVID_NOTE": "裝置需要重新啟動以套用攝影機增艷模式。"
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "自動連線",
+      "REMOTE_CONTROL_CONNECTION": "遙控器連線",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "停用並重新啟用連線之後，您必須手動配對遙控器。"
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "佈建伺服器",
+      "PROVISIONING_MODE": "佈建模式",
+      "PROVISIONING_MODE_OPTION_AUTO": "自動",
+      "PROVISIONING_MODE_OPTION_MANUAL": "手動",
+      "PROVISIONING_MODE_OPTION_OFF": "關閉",
+      "SERVER_TYPE": "伺服器類型",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS 伺服器 (用於 Lens 佈建)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly 佈建伺服器",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS 伺服器",
+      "SERVER_ADDRESS": "伺服器位址",
+      "USERNAME": "使用者名稱",
+      "PASSWORD": "密碼"
+    },
+    "CERTIFICATES": {
+      "LABEL": "憑證",
+      "VALIDATE_PEER_CERTS": "一律從伺服器驗證對等端憑證",
+      "INSTALLED_CERTIFICATES": "已安裝憑證",
+      "ISSUED_TO": "簽發對象",
+      "ISSUED_BY": "核發者",
+      "EXPIRATION_DATE": "到期日期",
+      "TYPE": "類型",
+      "CERTIFICATE_SIGNING_REQUEST": "憑證簽署要求",
+      "NO_CERTIFICATES": "找不到記錄"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "設定",
+      "DESCRIPTION": "將設定檔案匯出至您的本機系統，或從本機檔案匯入設定集。您必須重新啟動裝置才能使匯入的設定生效。",
+      "IMPORT": "匯入",
+      "IMPORT_DIALOG_TITLE": "匯入設定",
+      "EXPORT": "匯出",
+      "EXPORT_DIALOG_TITLE": "匯出設定"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "如果您沒有看到您要尋找的設定，請聯絡您的 Poly Lens 管理員，或使用裝置密碼登入。",
+      "ACTION": "使用裝置密碼登入",
+      "PASSWORD": "密碼",
+      "CANCEL": "取消",
+      "LOGIN": "登入",
+      "INVALID_PASSWORD": "您輸入的密碼無效。請重新輸入密碼。",
+      "REQUIRED": "必填"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "密碼",
+      "CHANGE_PASSWORD": "變更密碼",
+      "CURRENT_PASSWORD": "目前密碼",
+      "CREATE_NEW_PASSWORD": "建立新的裝置密碼",
+      "NEW_PASSWORD": "新密碼",
+      "RE_ENTER_NEW_PASSWORD": "重新輸入新密碼",
+      "PASSWORD_UNMATCH": "密碼不符。請重新輸入新密碼。",
+      "SIMPLE_PASSWORD": "簡單密碼",
+      "DEVICE_PASSWORD": "裝置密碼",
+      "WEAK_PASSWORD": "使用弱式密碼 (不建議)。",
+      "STRONG_PASSWORD_RECOMMENDED": "建議使用強式密碼。",
+      "SAME_PASSWORD_ERROR": "您無法使用之前用過的密碼。請輸入新密碼。",
+      "RECOMMENDATION_1": "最短長度 15 個字元",
+      "RECOMMENDATION_2": "須使用 2 個小寫字母",
+      "RECOMMENDATION_3": "須使用 2 個大寫字母",
+      "RECOMMENDATION_4": "須使用 2 個數字",
+      "RECOMMENDATION_5": "須使用 2 個特殊字元"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "音訊等化器",
+      "DESCRIPTION": "取得並設定低音與高音滑桿。 "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "一旦按下下方所示的「我接受」，即表示您認可並同意對於此軟體的使用須遵照以下文件的規定： ",
+      "EULA_LINK": "Poly 博詣使用者授權合約",
+      "EULA_I_ACCEPT": "我接受使用者授權合約",
+      "BEGIN_SETUP": "開始設定",
+      "PASSWORD_INVALID": "您輸入的密碼無效。請重新輸入密碼。"
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "國家/地區",
+      "DEVICE_NAME": "裝置名稱",
+      "DEVICE_NAME_DESCRIPTION": "我們建議以此裝置放置的房間或會議空間來命名。",
+      "BEGIN_SETUP": "開始設定",
+      "PASSWORD_INVALID": "您輸入的密碼無效。請重新輸入密碼。"
+    },
+    "AUDIO_TEST": {
+      "TITLE": "音訊測試",
+      "DESCRIPTION": "將需要幾分鐘的時間來完成音訊測試並將音訊記錄下載到您的本機磁碟。按一下「開始測試」後，系統就會開始錄製來自所有音訊輸入連接埠的音訊：麥克風、USB、線路輸入。",
+      "START_TEST": "開始測試",
+      "MODAL_TITLE": "錄音",
+      "MODAL_TIME": "時間：",
+      "DIALOG_TITLE": "儲存診斷檔案",
+      "PLEASE_WAIT": "請稍候，正在儲存診斷。",
+      "STOP_RECORDING": "停止"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "裝置中斷連接",
+      "DESCRIPTION": "中斷耳機與 Poly 博詣線控轉接器的連接時，自動套用所選行為。",
+      "HOLD_ACTIVE_CALL": "保留進行中通話",
+      "LOCK_SCREEN": "鎖定電腦螢幕",
+      "LOCK_SCREEN_AND_HOLD_CALL": "鎖定電腦螢幕與保留進行中通話",
+      "DO_NOTHING": "無動作"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "耳機與 PC 無線電連結",
+      "DESCRIPTION": "在通話結束後，維持 PC 的無線電連結運作。",
+      "ACTIVE_ONLY_DURING_CALL": "僅於通話期間運作",
+      "ALWAYS_ACTIVE": "永遠處於運作中"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}設定{{close_tag}}",
+    "NAME_LABEL": "姓名：",
+    "EMAIL_LABEL": "電子郵件：",
+    "INVITED_BY_IT_ADMIN": "IT 管理員",
+    "INVITED": "{{invited_by_email}} 已邀請您加入 {{tenant_name}}。",
+    "Account": {
+      "TITLE": "帳戶",
+      "login": {
+        "TITLE": "您的帳戶",
+        "DESCRIPTION_INTRO": "您目前未登入。一旦登入，即代表您同意我們的",
+        "DESCRIPTION_TERMS": "服務條款",
+        "DESCRIPTION_AND": "和",
+        "DESCRIPTION_PRIVACY": "隱私權政策"
+      }
+    },
+    "General": {
+      "TITLE": "一般",
+      "startOnSystemStartup": {
+        "TITLE": "啟動時啟動 Poly Lens",
+        "DESCRIPTION": "允許 Poly Lens 在登入時自動啟動。"
+      },
+      "startMinimized": {
+        "TITLE": "啟動最小化的應用程式"
+      },
+      "eulaAccepted": {
+        "TITLE": "EULA",
+        "DESCRIPTION": " 已為系統管理員接受"
+      }
+    },
+    "Language": {
+      "TITLE": "語言",
+      "LABEL": "選取此應用程式使用的語言。"
+    },
+    "Softphone": {
+      "TITLE": "軟體電話",
+      "MODULE_NAME": "模組名稱",
+      "MODULE_VERSION": "模組版本",
+      "ENABLE": "啟用",
+      "CONNECTED": "已連接",
+      "VIEW_ALL": "檢視所有支援的軟體電話",
+      "targetSoftphone": {
+        "TITLE": "目標軟體電話",
+        "DESCRIPTION": "指出用於進行外撥通話的軟體電話與撥號音 (適用於受支援的裝置和軟體電話)。"
+      },
+      "mediaPlayerAction": {
+        "TITLE": "來電時的媒體播放器動作",
+        "DESCRIPTION": "控制當接到軟體電話來電時，iTunes 和 Windows Media Player 等媒體播放器應用程式的行為。"
+      },
+      "table": {
+        "TITLE": "軟體電話與媒體播放器 | Poly 博詣支援"
+      }
+    },
+    "Notifications": {
+      "TITLE": "通知與裝置警示",
+      "enableNotifications": {
+        "TITLE": "允許桌面通知與裝置警示"
+      },
+      "wellness": {
+        "TITLE": "健康與保健",
+        "DESCRIPTION": "在活動量較少的環境中，適當的水份補充以及持續的運動，對於短期和長期的健康都是不可或缺的。選取選項以自訂通知頻率和時間。",
+        "hydrationEnabled": "喝水提醒",
+        "visionEnabled": "眼睛休息提醒",
+        "hydrationEnabledTitle": "喝水提醒",
+        "visionEnabledTitle": "眼睛休息提醒"
+      },
+      "deviceAlerts": {
+        "TITLE": "裝置警示",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "裝置已取消配對",
+        "lowBattery": "電池電量不足",
+        "deviceCharging": "裝置充電中",
+        "deviceDisconnected": "裝置已中斷連線",
+        "muteAlert": "靜音警示",
+        "deviceSoftwareUpdate": "裝置軟體更新"
+      },
+      "softwareUpdate": {
+        "TITLE": "軟體更新",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "軟體更新",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens 桌上型電腦版本",
+        "SOFTWARE": "軟體",
+        "UP_TO_DATE": "您已是最新版本",
+        "RELEASE_NOTES": "檢視版本資訊",
+        "CHECKING_FOR_UPDATES": "正在檢查更新",
+        "UPDATE": "更新",
+        "UPDATE_AVAILABLE": "有空",
+        "DOWNLOADING": "下載中",
+        "CONTINUE": "繼續",
+        "CONTINUE_DESC": "選取{{open_tag}}繼續{{close_tag}}以結束 Poly Lens 並安裝更新。",
+        "DOWNLOAD_ERROR": "下載更新時發生錯誤。請檢查您的網際網路連線，然後再試一次。"
+      }
+    },
+    "About": {
+      "TITLE": "關於",
+      "COPYRIGHT": "2022-2024 HP Inc. 版權所有。",
+      "PRIVACY_POLICY": "隱私權政策",
+      "EULA": "使用者授權合約"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "暫停與繼續",
+    "NO_ACTION": "無動作"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens 支援",
+    "TITLE_OTHER": "聯絡支援",
+    "QUICK_START_GUIDE": "快速入門指南",
+    "USER_GUIDE": "使用指南",
+    "DEVICE_INFO_AND_LOGS": "裝置資訊與記錄",
+    "CONTACT_SUPPORT": "聯絡支援",
+    "CONTACT_TYPE": "電話、電子郵件及線上支援",
+    "DEVICE_INFO": "裝置資訊",
+    "APP_INFO": "應用程式資訊",
+    "DEVICE_MODEL": "裝置型號",
+    "SERIAL_NUMBER": "序列號",
+    "SOFTWARE_VERSION": "軟體版本",
+    "COM_LIB_VERSION": "裝置通訊版本",
+    "PID": "產品 ID",
+    "LAST_CONNECTED": "上次連線",
+    "USER_ID": "使用者 ID",
+    "TENANT_ID": "承租人 ID",
+    "APP_ID": "應用程式 ID",
+    "GET_ACCESS": "取得直接支援與社群支援",
+    "GET_STARTED": "快速入門、說明文件和更多內容",
+    "POLY_SUPPORT_LINK": "造訪 Poly 博詣支援",
+    "POLY_DOCUMENT_LINK": "Lens Desktop 線上說明",
+    "DIAGNOSTICS": "診斷",
+    "DIAGNOSTICS_DESCRIPTION": "若需疑難排解協助，請下載記錄並分享給 Poly 博詣支援",
+    "DOWNLOAD_LOGS": "下載記錄",
+    "SAVE_LOGS": "儲存記錄",
+    "NONE": "無",
+    "UNKNOWN": "不明"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "工作日",
+    "Monday": "星期一",
+    "Tuesday": "星期二",
+    "Wednesday": "星期三",
+    "Thursday": "星期四",
+    "Friday": "星期五",
+    "Saturday": "星期六",
+    "Sunday": "星期日",
+    "MON": "週一",
+    "TUE": "週二",
+    "WED": "週三",
+    "THU": "週四",
+    "FRI": "週五",
+    "SAT": "週六",
+    "SUN": "週日",
+    "12:00 AM": "凌晨 12:00",
+    "1:00 AM": "凌晨 01:00",
+    "2:00 AM": "凌晨 02:00",
+    "3:00 AM": "凌晨 03:00",
+    "4:00 AM": "凌晨 04:00",
+    "5:00 AM": "上午 05:00",
+    "6:00 AM": "上午 06:00",
+    "7:00 AM": "上午 07:00",
+    "8:00 AM": "上午 08:00",
+    "9:00 AM": "上午 09:00",
+    "10:00 AM": "上午 10:00",
+    "11:00 AM": "上午 11:00",
+    "12:00 PM": "中午 12:00",
+    "1:00 PM": "下午 01:00",
+    "2:00 PM": "下午 2:00",
+    "3:00 PM": "下午 3:00",
+    "4:00 PM": "下午 4:00",
+    "5:00 PM": "下午 5:00",
+    "6:00 PM": "晚上 6:00",
+    "7:00 PM": "晚上 7:00",
+    "8:00 PM": "晚上 8:00",
+    "9:00 PM": "晚上 9:00",
+    "10:00 PM": "晚上 10:00",
+    "11:00 PM": "晚上 11:00",
+    "SHORT_LABELS": {
+      "12AM": "12 AM",
+      "4AM": "4 AM",
+      "8AM": "8 AM",
+      "12PM": "12 PM",
+      "4PM": "4 PM",
+      "8PM": "8 PM"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12am",
+      "1am": "1am",
+      "2am": "2am",
+      "3am": "3am",
+      "4am": "4am",
+      "5am": "5am",
+      "6am": "6am",
+      "7am": "7am",
+      "8am": "8am",
+      "9am": "9am",
+      "10am": "10am",
+      "11am": "11am",
+      "12pm": "12pm",
+      "1pm": "1pm",
+      "2pm": "2pm",
+      "3pm": "3pm",
+      "4pm": "4pm",
+      "5pm": "5pm",
+      "6pm": "6pm",
+      "7pm": "7pm",
+      "8pm": "8pm",
+      "9pm": "9pm",
+      "10pm": "10pm",
+      "11pm": "11pm"
+    },
+    "1 minute": "每分鐘",
+    "30 minutes": "每 30 分鐘",
+    "1 hour": "每小時",
+    "3 hours": "每 3 小時"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "無法使用",
+    "SELECT_PLACEHOLDER": "選取"
+  }
+}

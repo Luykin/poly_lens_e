@@ -1,0 +1,9 @@
+<input
+  class="checkbox"
+  type="checkbox"
+  [id]="checkboxId"
+  [disabled]="isDisabled"
+  [checked]="isChecked"
+  (change)="onChange($event)"
+/>
+<label [for]="checkboxId"></label>

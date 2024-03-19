@@ -1,0 +1,56 @@
+@import './variables';
+
+.table {
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: $table-background-color;
+
+  // Reset for nesting within parents with `background-color`.
+
+  th,
+  td {
+    padding: $table-cell-padding;
+    border-top: $table-border-width solid $table-border-color;
+    vertical-align: top;
+  }
+
+  thead th {
+    border-bottom: (2 * $table-border-width) solid $table-border-color;
+    vertical-align: bottom;
+  }
+
+  tbody + tbody {
+    border-top: (2 * $table-border-width) solid $table-border-color;
+  }
+}
+
+.table-borderless {
+  margin: 0;
+  background-color: unset;
+
+  th,
+  td,
+  thead th,
+  tbody + tbody {
+    padding: 0;
+    border: 0;
+    vertical-align: middle;
+  }
+}
+
+.table-borderless-gray {
+  background-color: unset;
+  color: $mid-gray;
+
+  th,
+  td,
+  thead th,
+  tbody + tbody {
+    border: 0;
+    text-align: left;
+  }
+
+  th {
+    font-weight: bold;
+  }
+}

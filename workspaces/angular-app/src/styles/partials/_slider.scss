@@ -1,0 +1,117 @@
+@import './variables';
+
+input[type='range'] {
+  height: 14px;
+  background: none;
+
+  -webkit-appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &::-webkit-slider-runnable-track {
+    height: 1px;
+    border-radius: 1px;
+    background-color: #000;
+  }
+
+  &::-webkit-slider-thumb {
+    width: 14px;
+    height: 14px;
+    margin-top: -6px;
+    border-radius: 7px;
+    background-color: #000;
+
+    -webkit-appearance: none;
+  }
+
+  &:focus::-webkit-slider-runnable-track {
+    background: #000;
+  }
+
+  &:disabled::-webkit-slider-runnable-track {
+    background-color: #888;
+  }
+
+  &:disabled::-webkit-slider-thumb {
+    background-color: #888;
+  }
+}
+
+.range-slider {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 14px;
+
+  .track {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: $mid-gray;
+  }
+
+  .track-highlighted {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+  }
+
+  input[type='range'] {
+    position: absolute;
+    width: 100%;
+    height: 14px;
+    background: none;
+    pointer-events: none;
+
+    -webkit-appearance: none;
+
+    &:focus {
+      outline: none;
+    }
+
+    &::-webkit-slider-runnable-track {
+      z-index: 1;
+      height: 1px;
+      border-radius: 1px;
+      background: none;
+    }
+
+    &::-webkit-slider-thumb {
+      z-index: 2;
+      width: 14px;
+      height: 14px;
+      margin-top: -6px;
+      border-radius: 7px;
+      background-color: $black;
+      pointer-events: auto;
+
+      -webkit-appearance: none;
+    }
+
+    &:focus::-webkit-slider-thumb {
+      z-index: 3;
+    }
+
+    &:disabled::-webkit-slider-runnable-track {
+      background-color: $mid-gray;
+    }
+
+    &:disabled::-webkit-slider-thumb {
+      background-color: $mid-gray;
+    }
+  }
+}
+
+.range-slider-labels {
+  display: flex;
+  justify-content: space-between;
+  color: $mid-gray;
+}

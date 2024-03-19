@@ -1,0 +1,2172 @@
+{
+  "MULTIPLES": {
+    "TITLE": "Times table",
+    "SUBMIT": "SUBMIT"
+  },
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "Device must be connected to a network to be Provisioned",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Exit Device Setup",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "Device setup is not complete.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "{{deviceName}} cannot be used until setup is complete. Progress is not saved.",
+  "EXIT_SETUP": "Exit Setup",
+  "GET_STARTED": "Get Started",
+  "NETWORK": "Network",
+  "PROVISIONING": "Provisioning",
+  "COMPLETE": "Complete",
+  "BUTTON_BACK": "Back",
+  "BUTTON_SKIP": "Skip",
+  "BUTTON_NEXT": "Next",
+  "BUTTON_FINISH": "Finish",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "{{deviceName}} set up complete!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Provision Device",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Provision",
+  "POSTPONE_DFU_MESSAGE": "Updates are available for your devices. These updates will take a few minutes to complete. Do not disconnect your devices during the update process.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "An update is available for your {{deviceName}}. This update will take a few minutes to complete. Do not disconnect your device during the update process.",
+  "POSTPONE_DFU_MESSAGE_DELAY_INFO": "Only {{delays}} delays are allowed before installation is auto-installed.",
+  "POSTPONE_DFU_MESSAGE_FINAL_DELAY_INFO": "Only 1 delay is allowed before installation is auto-installed.",
+  "POSTPONE_APPLICATION_UPDATE": "An update is available for your application.",
+  "UPDATE_NOW": "Update Now",
+  "INSTALL_NOW": "Install Now",
+  "ASK_ME_LATER": "Ask Me Later",
+  "DELAY": "Delay",
+  "AUDIO_RECORDING_START": "Audio Recording Start",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}} update postponed 1 hour",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR_FINAL": "Your update for {{deviceName}} will be automatically installed in 1 hour or after reboot",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}} update postponed {{hours}} hours",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS_FINAL": "Your update for {{deviceName}} will be automatically installed in {{hours}} hours or after reboot",
+  "SUCCESSFULLY_POSTPONED_APP_MANY_HOURS": "Lens Desktop App update postponed 8 hours",
+  "PLAY_GREETING_NAME": "Play Greeting",
+  "PLAY_GREETING_DESCRIPTION": "Select a voice file to play when answering a call.",
+  "SELECT_FILE": "Select File",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Off",
+    "NARROW": "Narrow",
+    "MEDIUM": "Medium",
+    "WIDE": "Wide",
+    "CAMERA_VIEW": "Match Camera View"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "First things first...",
+    "I_AGREE": "I agree to the",
+    "POLY_EULA": "Poly End User License Agreement",
+    "CLOSE": "Close",
+    "PROCEED": "Proceed"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Best Practices",
+    "MENU": {
+      "HEADSET": "Headset",
+      "CAMERA": "Camera",
+      "DESK_SETUP": "Workstation Setup"
+    },
+    "NEXT": {
+      "NEXT": "NEXT:",
+      "TITLE": "Best Practices",
+      "LEARN_MORE": "Learn More"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Accept",
+    "APPLY": "Apply",
+    "CANCEL": "Cancel",
+    "CONTINUE": "Continue",
+    "DECLINE": "Decline",
+    "DONE": "Done",
+    "LOG_IN": "Log In",
+    "LOG_OUT": "Log Out",
+    "OK": "OK",
+    "RETRY": "Retry",
+    "SHOW_LESS": "Show Less",
+    "JOIN": "Join",
+    "JOINING": "Joining",
+    "CREATE": "Create",
+    "INSTALL": "Install",
+    "CHOOSE_FILE": "Choose File",
+    "DELETE": "Delete",
+    "CLOSE": "Close",
+    "SELECT_FILE": "Select File",
+    "FEEDBACK": "Feedback"
+  },
+  "REQUIRED": "Required",
+  "OPTIONAL": "Optional",
+  "Download": "Download",
+  "Upload": "Upload",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "Operation was not successfully completed. Please try again.",
+  "RECEIVING_SETTINGS": "Receiving Settings",
+  "GENERAL": {
+    "BACK": "Back",
+    "CANCEL": "Cancel",
+    "CLOSE": "Close",
+    "COMING_SOON": "COMING SOON",
+    "DOWNLOAD": "Download",
+    "DOWNLOADING": "Downloading",
+    "LOADING": "Loading",
+    "FEEDBACK": "Feedback",
+    "HOME": "Home",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Add New",
+    "EDIT_NAME": "Edit Name",
+    "DELETE": "Delete",
+    "RESTORE_DEFAULTS": "Factory Reset",
+    "SEARCH_SETTINGS": "Search Settings",
+    "SUPPORT": "Support",
+    "UPLOAD": "Upload",
+    "UPDATE": "Update",
+    "RETURN_HOME": "Return Home",
+    "VERSION": "Version",
+    "RECORDING": "Recording",
+    "RECOVER": "Recover"
+  },
+  "FTU": {
+    "WELCOME_TO": "Welcome to",
+    "WELCOME_1": "Let us help you get the best experience out of Poly Lens.",
+    "CONNECTIVITY": {
+      "HEADER": "Connectivity",
+      "TITLE": "Lens manages your devices"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Best Practices",
+      "TITLE": "Lens improves your desk experience"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Wellbeing",
+      "TITLE": "Lens takes care of you"
+    },
+    "HP": {
+      "HEADER": "Stronger Together",
+      "TITLE": "Manage HP cameras within Poly Lens"
+    },
+    "EXPLORE": {
+      "BUTTON": "Continue as Guest"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Log In"
+    },
+    "GETTING_STARTED": "Getting Started",
+    "LOGIN_CARD": {
+      "TITLE": "Get Started Today!",
+      "DESCRIPTION": "Log into Lens Desktop so Poly and your organization can provide you the best device experience."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Mounting",
+      "DESCRIPTION": "Position your monitor so that your eyes are level with the top third of your screen. Attach your camera to the middle of your monitor."
+    },
+    "CENTERING": {
+      "TITLE": "Centering",
+      "DESCRIPTION": "You look best when centered in your camera's view. Make sure your face is clearly visible and not cropped. Try to position yourself so others can see at least 15 cm (6 in.) of your shirt from the collar line down."
+    },
+    "LIGHTING": {
+      "TITLE": "Lighting",
+      "DESCRIPTION": "Lighting is key to looking good on camera. Daylight is a variable light source and can conflict with interior room lighting. If possible, position your workstation so that windows are behind your monitor, and avoid strong light sources behind you. Defused overhead lighting works best."
+    },
+    "BACKGROUND": {
+      "TITLE": "Background",
+      "DESCRIPTION": "Background objects can make video calls more personable, but make sure that you are the main focal point. When in doubt, fewer background objects are better."
+    },
+    "NEXT": {
+      "SUBTITLE": "Workstation Setup"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Connection Checklist",
+    "POWER": {
+      "TITLE": "Check the Power Switch",
+      "DESCRIPTION": "Is the power switch turned on?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Check Your Bluetooth Adapter",
+      "DESCRIPTION": "Is there a blue light shining at the end of your adapter? Sometimes if you unplug the adapter and plug it back in, the headset connects."
+    },
+    "MORE_APPS_OPEN": {
+      "TITLE": "Is more than one app using the device?",
+      "DESCRIPTION": "The device may act differently than expected if more than one app is currently using it. Try closing other apps that may be using it."
+    },
+    "SUPPORT": {
+      "TITLE": "Contact Support.",
+      "DESCRIPTION": "Still having issues?",
+      "LINK": {
+        "TEXT": "Contact support."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Workstation",
+      "DESCRIPTION": "Make sure the space under your workstation is clear and that you have sufficient leg room. If you can't adjust the height of your workstation, raise or lower your chair and use a footrest if necessary."
+    },
+    "KEYBOARD": {
+      "TITLE": "Keyboard",
+      "DESCRIPTION": "Make sure you can reach your keyboard with relaxed  shoulders with your forearms parallel to the floor.  Try to keep your wrists straight with minimal bending."
+    },
+    "CHAIR": {
+      "TITLE": "Chair",
+      "DESCRIPTION": "Choose a chair that supports your spine. Adjust the height of your chair so that your feet rest flat on the floor and your thighs are parallel to the floor. Adjust armrests so your arms gently rest on them with your shoulders relaxed."
+    },
+    "FEET": {
+      "TITLE": "Feet",
+      "DESCRIPTION": "Make sure you can rest your feet flat on the floor. Use a footrest if your chair is too high or if the height of your workstation requires you to raise the height of your chair."
+    },
+    "MONITOR": {
+      "TITLE": "Monitor",
+      "DESCRIPTION": "Place the monitor directly in front of you, about an arm's length away. Position the monitor 45 to 70 cm (18 to 24 in.) from your eyes, with the top of the screen at or slightly below eye level."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Headset",
+    "USB_ADAPTER": "USB Adapter",
+    "CHARGE_CASE": "Charge Case",
+    "CUSTOM_SOFTWARE_UPDATE": "Custom Software Update:",
+    "LOGS": "Logs:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Save Logs",
+    "SELECT_SOFTWARE_UPDATE": "Select Software Update",
+    "SERIAL_NUMBER": "Serial Number:",
+    "SOFTWARE_VERSION": "Software Version:",
+    "COUNTRY": "Country:",
+    "LENS_ACCOUNT": "Lens Account:",
+    "HARDWARE_VERSION": "Hardware version:",
+    "HARDWARE_REVISION": "Hardware revision:",
+    "ADDITIONAL_HARDWARE_REVISION": "Headset hardware revision:",
+    "MAC_ADDRESS": "Mac address:",
+    "IP_ADDRESS": "IP address:",
+    "DEVICE_DIAGNOSTIC_CODE": "Device diagnostic code:",
+    "CRASH_REPORTS": "Crash Reports:",
+    "SAVE_CRASH_REPORTS": "Save Crash Reports"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Insights",
+    "CHART": {
+      "TITLE": "Usage",
+      "SERIES_NAME": "Total Usage"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Latency (ms)",
+      "NETWORK_SPEED": "Network Speed (Mbps)",
+      "RUNNING": "Running",
+      "START_TEST": "Run Test",
+      "TEST_AGAIN": "Test Again",
+      "TEST_RESULTS": "Test Results",
+      "TITLE": "Network Diagnostic Testing",
+      "NO_CONNECTION": "You appear to be offline. Network testing is only available when you are connected to the internet.",
+      "SUBTEXT": "Network diagnostic testing is a commercial preview feature."
+    }
+  },
+  "EE": {
+    "PAUSED": "Paused",
+    "CONTINUE": "Press SPACE to continue.",
+    "FIRE": "SHIFT - Fire",
+    "MOVE": "ARROWS - Move",
+    "PAUSE": "SPACE - Pause",
+    "EXIT": "ESC - Exit",
+    "START": "Press SPACE to start.",
+    "DONE": "Not bad. Good going.",
+    "TRY_AGAIN": "Press SPACE to try again."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Headband Adjustment",
+      "DESCRIPTION": "For a proper fit, adjust your headband so that your headset's ear cups are centered over or on your ears, and make sure the headset isn't too tight or too loose. Review the headset’s user guide for detailed adjustment instructions."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Boom Shape",
+      "DESCRIPTION": "Poly’s booms are bendable and easy to position. If your headset has a boom, position the microphone about 5 cm (2 in.) from your lips."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Boom Placement",
+      "DESCRIPTION": "If your headset has a boom, you can rotate it and wear it on either the left or right side. Make sure that when you answer a call, your boom is facing your mouth and not pointing up."
+    },
+    "NEXT": {
+      "SUBTITLE": "Camera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Hello {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Hello, {{open_tag}}Guest{{close_tag}}",
+    "GO_TO_DETAIL": "Go to Details",
+    "CONNECT_A_DEVICE": "Connect a device to get started.",
+    "NOT_SEEING_DEVICE": "Don't see your device?",
+    "SUBMIT_FEEDBACK": "Submit Feedback",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Insights",
+        "DESCRIPTION": "Check your device usage and workstation connectivity."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Wellbeing",
+        "DESCRIPTION": "Get reminders to hydrate and rest. Play soundscapes to improve focus."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Best Practices",
+        "DESCRIPTION": "Optimize your camera and learn how to make your workspace more ergonomic."
+      },
+      "SUPPORT": {
+        "TITLE": "Poly Support",
+        "DESCRIPTION": "Experiencing issues? Let us help."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Cantonese",
+    "1030": "Danish",
+    "2057": "English UK",
+    "1033": "English US",
+    "1036": "French",
+    "1031": "German",
+    "1040": "Italian",
+    "1041": "Japanese",
+    "1042": "Korean",
+    "1045": "Polish",
+    "2052": "Mandarin",
+    "1044": "Norwegian",
+    "2068": "Norwegian",
+    "1049": "Russian",
+    "1034": "Spanish",
+    "1053": "Swedish",
+    "16393": "English Indian",
+    "1057": "Indonesian",
+    "1054": "Thai",
+    "1046": "Brazilian Portuguese"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Active",
+    "INACTIVE": "Inactive",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI is designed to keep non-human noises (like keyboard typing or paper shuffling) from impacting your meetings by listening for times when sound is occurring but no one is talking, and automatically muting your microphone. Microphone is unmuted as soon as you start speaking again.",
+    "FOR_INCOMING_DESCRIPTION": "Prevent distracting sounds from the far end of the conversation (like keyboard typing or paper shuffling) from interrupting your meeting.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI for Incoming Audio",
+    "FOR_OUTGOING_DESCRIPTION": "Prevent distracting sounds in your environment (like keyboard typing or paper shuffling) from interrupting your meeting.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI for Outgoing Audio",
+    "SEE_HOW_WORKS": "See how it works"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Charging",
+      "STOPPED": "Stopped Charging"
+    },
+    "MUTE": {
+      "ON": "Mute On",
+      "OFF": "Mute Off"
+    },
+    "MUTE_REMINDER": {
+      "MUTE_IS_ON": "Mute is on!"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Software update {{build}} is available, and only {{delays}} delays are allowed before installation is auto-installed after reboot.",
+      "DESCRIPTION_ONE": "Software update {{build}} is available, and only {{delays}} delay is allowed before installation is auto-installed after reboot.",
+      "DESCRIPTION_PUBLIC": "Software update {{build}} is available."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "New Update available and only {{delays}} delays are allowed before installation is auto-installed.",
+      "DESCRIPTION_FINAL": "New Update available and only 1 delay is allowed before installation is auto-installed.",
+      "DESCRIPTION_PUBLIC": "Device update is available",
+      "UPDATE_FAILED": "Update couldn't be installed at this time."
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Device Not Found",
+      "MESSAGE": "Uh oh. There is a problem. Please try again."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Page Not Found",
+      "MESSAGE": "Uh oh. There is a problem. Please try again."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens requires permissions to access your camera. To enable, grant camera access to Poly Lens in your system settings."
+    },
+    "BUTTON": {
+      "CLOSE": "Close"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "Device has been disconnected"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "Battery is low"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Welcome to Studio P21",
+      "CONTENT": "To use your Studio P21, you will need to download additional software for the display.",
+      "BUTTON": "Download"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Welcome to your new Studio P21!",
+      "CONTENT": "Welcome to your new Studio P21! Before you can use your new device, you need to install additional software for the display",
+      "BUTTON_DOWNLOAD": "Download Here",
+      "BUTTON_MORE_INFO": "More Info"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} detected. Open Poly Lens to set up this device."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Additional language capabilities successfully loaded."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Your screen will lock in 5 seconds. Reconnect the headset to the inline controller to continue working."
+    },
+    "ZOOM": {
+      "ZOOM_END_MEETING": "To end the current meeting, tap the call button on your headset again."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "The configuration was saved successfully.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "The configuration was not successfully saved.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP Server Configurations were applied successfully.",
+    "CHANGE_NTP_SETTINGS_FAILED": "NTP Server Configurations could not be applied.",
+    "COPIED_TO_CLIPBOARD": "Copied to clipboard",
+    "SAVE_CSR_FILE_SUCCESS": "CSR file successfully saved.",
+    "SAVE_CSR_FILE_FAILED": "CSR file was not successfully saved.",
+    "FILE_READ_FAILED": "Failed to read the file.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Certificate installed successfully.",
+    "CERTIFICATE_INSTALL_FAILED": "Failed to install the certificate.",
+    "CERTIFICATE_DELETE_SUCCESS": "Certificate deleted successfully.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Password successfully updated.",
+    "CONFIG_EXPORT_FAILED": "Export failed. Please try again.",
+    "CONFIG_IMPORT_FAILED": "Import failed. Please try again.",
+    "CONFIG_EXPORT_SUCCEEDED": "Export was successful.",
+    "CONFIG_IMPORT_SUCCEEDED": "Import was successful.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Audio diagnostic failed. Please try again.",
+    "WIFI_JOIN_ERROR": "The network could not be joined. Please check credentials and try again.",
+    "CRASH_REPORTS_SUCCESS": "Crash Reports downloaded.",
+    "CRASH_REPORTS_FAILED": "Crash Reports not found.",
+    "NETWORK_ERROR": "Network connectivity is not available. Some features may be limited until connection is restored."
+  },
+  "DETAIL": {
+    "AUTO": "Auto",
+    "TITLE": "Details Page",
+    "BACK_TO_HOME": "Back to Home",
+    "CAMERA": "Camera",
+    "CONTROLS": "Controls",
+    "EXPAND": "Expand",
+    "LINK": "Link",
+    "UNLINK": "Unlink",
+    "CONTRACT": "Contract",
+    "GRID": "Grid",
+    "SETTINGS": "Settings",
+    "FAVORITES": "Favorites",
+    "FAVORITE_DELETE_CONFIRM": "Are you sure you want to delete the favorite \"{{favoriteName}}\"?",
+    "FAVORITE_NUMBER": "Favorite {{number}}",
+    "FAVORITE_SAVE_AS": "Save as New Favorite",
+    "FAVORITES_SAVED": "Saved",
+    "FAVORITE_COPY": "{{favoriteName}} copy",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Click the Show icon below to start Preview.",
+    "PREVIEW_SHOW": "Show",
+    "PREVIEW_HIDE": "Hide",
+    "PREVIEW_HIDDEN": "Preview Hidden",
+    "PREVIEW_WINDOWS_NOTICE": "Other apps will not be able to use this camera when Preview is enabled.",
+    "PREVIEW_CONTROLS_READ_ERROR": "Another app is using this camera.{{line_feed}}Close it to enable Preview and Settings.{{line_feed}}{{line_feed}}If that does not work, make sure the other app is not running in the background.",
+    "SNAPSHOT": "Snapshot",
+    "SNAPSHOT_SAVE": "Save Snapshot",
+    "SNAPSHOT_SAVED_SUCCESS": "Snapshot saved successfully.",
+    "SNAPSHOT_SAVED_FAIL": "Snapshot was not saved.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "snapshot",
+    "SANDBOX": "Sandbox",
+    "IT_MANAGED": "IT Managed",
+    "HEADSET": "Headset",
+    "SUPPORT": "Support",
+    "USB_ADAPTER": "USB Adapter",
+    "CHARGING_CASE": "Case",
+    "CHARGING_CASE_NAME": "Charge Case",
+    "DEVICES": "Devices",
+    "OVERVIEW": {
+      "OVERVIEW": "Overview",
+      "BATTERY_LABEL": "Battery:",
+      "BATTERY_CRITICAL": "Critical",
+      "WIFI_LABEL": "Network:",
+      "PROVISION_LABEL": "Provision:",
+      "PROVISION_AUTO": "Generic",
+      "PROVISION_OFF": "Provision",
+      "PROVISION_NOT_SET_UP": "Not set up",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "Device will function but will not be remotely managed",
+      "SET_PROVISION": "Click to set up provisioning",
+      "STATUS_LABEL": "Status:",
+      "HEADSET_STATUS_LABEL": "Headset:",
+      "FIRMWARE_LABEL": "Software",
+      "INITIALIZING": "Initializing",
+      "CONNECTED": "Connected",
+      "NOT_CONNECTED": "Not Connected",
+      "DISCONNECTED": "Disconnected",
+      "PAIRING_MODE": "Pair Bluetooth Audio",
+      "PAIR_REMOTE": "Pair Bluetooth Remote",
+      "USB_PAIRING_MODE": "Pair New Device",
+      "MAKE_PRIMARY": "Make Primary",
+      "DELETE_DEVICE": "Delete Device",
+      "TROUBLE_CONNECTING": "Having trouble connecting your device?",
+      "AVAILABLE_FIRMWARE": "Available Software",
+      "CURRENT_FIRMWARE": "Current Software",
+      "SAVE_BUTTON": "Save",
+      "CANCEL_BUTTON": "Cancel",
+      "RENAME_DEVICE": "Rename",
+      "DEVICE_NAME": "Name:",
+      "RECOVERY_MODE": "Recovery Mode",
+      "POLICY_UPDATE_NOTE": "Your organization requires that this device uses a specific software version. Please update as soon as possible.",
+      "CASE_UPDATE_NOTE": "Connect USB cable to update charge case",
+      "CONNECT_EARBUDS_NOTE": "Connect earbuds to Lens Desktop via USB adapter to update Charge Case",
+      "DFU_UP_TO_DATE": "Up to Date",
+      "DFU_DOWNLOADING": "Downloading",
+      "DFU_PROGRESS": "Updating"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Device detected",
+      "SETUP_REQUIRED": "Setup required for device usage.",
+      "IMPORT_CONFIGURATION": "Import Configuration",
+      "BEGIN_SETUP": "Begin Setup",
+      "MODAL": {
+        "TITLE": "Import Configuration",
+        "DESCRIPTION": "Enter the name and security type of the network you want to join.",
+        "LABEL_INPUT": "Device Name",
+        "INPUT_PLACEHOLDER": "Optional",
+        "INPUT_RECOMMENDATION": "We recommend naming this device after the room or meeting space it is located in."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "By clicking \"I Accept\" below, you acknowledge and agree that your use of this software is governed by the terms of the ",
+      "EULA_LINK": "Poly End User License Agreement",
+      "EULA_I_ACCEPT": "I accept the End User License Agreement",
+      "BEGIN_SETUP": "Begin Setup",
+      "PASSWORD_INVALID": "The password you entered is invalid. Please enter the password again."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Open",
+      "NO_DEVICES": "No devices are connected.",
+      "QUIT": "Quit Poly Lens",
+      "SOUNDSCAPING": "Soundscaping",
+      "MDA_AUDIO_RECORDING": "Audio Recording While Muted Enabled",
+      "MDA_AUDIO_RECORDING_START": "Record Voice Notes",
+      "MDA_AUDIO_RECORDING_STOP": "Stop Recording Voice Notes",
+      "OFF": "Off"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Wellbeing",
+    "SOUNDSCAPING": {
+      "TITLE": "Soundscaping",
+      "ENABLE_SOUNDSCAPES": "Enable Soundscapes",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Add soundscapes to your environment",
+          "DESCRIPTION": "A soothing environment can help keep distractions at bay. Soundscape options include the natural sounds of waterfalls, wind, streams, forests, and oceans. These curated biophilic sounds can help reduce stress and improve focus."
+        }
+      },
+      "MOUNTAIN_RANCH": "Mountain Ranch",
+      "GENTLE_OCEAN": "Gentle Ocean",
+      "BABBLING_BROOK": "Babbling Brook",
+      "AT_VOLUME": "at volume"
+    },
+    "HYDRATION": {
+      "TITLE": "Hydration",
+      "REMINDERS": "Hydration Reminders",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Drink Water",
+          "DESCRIPTION": "To stay hydrated, men need about 125 ounces (3.7 liters) of water and women need about 91 ounces (2.7 liters) of water each day.",
+          "SOURCE_LINK_LABEL": "Source",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Time for a water break",
+        "BODY": "Being well-hydrated can improve sleep quality, cognition, and mood."
+      }
+    },
+    "VISION": {
+      "TITLE": "Vision",
+      "REMINDERS": "Vision Break Reminders",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Look Away from the screen",
+          "DESCRIPTION": "A good rule to follow is the 20-20-20 rule, which means every 20 minutes, look at something about 20 ft (6m) away for 20 seconds."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Move your body",
+          "DESCRIPTION": "The 20-20-20 rule is a good start, but be sure to leave your workstation and get outside, stretch, or practice mindfulness."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Time for a break",
+        "BODY": "Taking a break can increase your attention, productivity and the quality of your work"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Set reminder frequency",
+    "REMINDER_SCHEDULE": "{{timeSpan}} on {{days}} between {{startTime}} and {{endTime}}",
+    "FREQUENCY": "Frequency",
+    "TIME_RANGE": "Time Range",
+    "WEEKDAYS": "Weekdays (M-F)",
+    "WEEKDAYS_SHORT": "Weekdays",
+    "EVERY_DAY": "Every Day",
+    "CUSTOM": "Custom",
+    "ON": "on",
+    "LEARN_MORE": "Learn More",
+    "NEXT": "NEXT",
+    "THROUGH": "through"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "How Acoustic Fence Works",
+      "TITLE": "How Acoustic Fence Works",
+      "DESCRIPTION": "Acoustic Fence uses advanced echo cancellation technology and multiple microphones to create a virtual “audio fence”. This reduces the impact that distracting sounds from outside the fence can have on your call, like your co-workers' chatter. {{line_feed}}For the best experience, use with Poly NoiseBlockAI to suppress non-speech background noise especially keyboard sounds, paper rustling, and even barking dogs."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "How NoiseBlockAI Works",
+      "TITLE": "How NoiseBlockAI Works",
+      "DESCRIPTION": "NoiseBlockAI is designed to keep non-human noises (like keyboard typing or paper shuffling) from impacting your meetings by using machine learning-based noise suppression techniques to reduce distracting background noises both in your environment and from the far end of the conversation. {{line_feed}}And when you aren't talking, NoiseBlockAI is automatically muting your microphone to prevent your background noises from interrupting your call."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Factory Reset",
+      "CONFIRM_MESSAGE": "This action restores all factory default settings for your device.",
+      "COMPLETE_TITLE": "Settings Restored!",
+      "COMPLETE_MESSAGE": "Remember to unplug (if USB-connected) and power off/on your headset in order for your new settings to take effect.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "In order to complete this process, your device may restart now."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Restart Device",
+      "CONFIRM_MESSAGE": "This action immediately restarts your device."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Factory Reset",
+      "CONFIRM_MESSAGE": "This action will restore all default settings for Lens."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Audio title",
+      "CONFIRM_MESSAGE": "Audio confirm message."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Learn More about Anti-Startle",
+      "TITLE": "About Anti-Startle",
+      "INTRO": "There are 2 or 3 options for Anti-Startle protection, depending on the product:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "An Australian industry guideline for acoustic shock protection that limits the audio level to your ear, reducing shock from high volumes.",
+      "G616_POLY_ENHANCED": "G616 (Poly Enhanced)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Poly proprietary algorithms go beyond G616 protection, eliminating sudden loud sounds and instantly reducing them to ensure your listening comfort while maintaining audio integrity.",
+      "OFF": "Off",
+      "OFF_DESCRIPTION": "When this setting is disabled, the headset will pass audio through unfiltered, but will continue to cap sound levels at 118 dBA to protect your hearing.",
+      "NOTE": "NOTE",
+      "NOTE_DESCRIPTION": "This option is product dependant.",
+      "MORE_INFO": "For more information about this feature, visit"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Find and Join a Wi-Fi Network",
+      "NETWORK_NAME": "Network Name",
+      "DESCRIPTION": "Enter the name and security type of the network you want to join.",
+      "PASSWORD_TITLE": "Add password for {{networkName}} network",
+      "SECURITY": "Security",
+      "EAP_METHOD": "EAP Method",
+      "PHASE2": "Phase 2 Authentication",
+      "CA_CERTIFICATE": "CA Certificate",
+      "USER_CERTIFICATE": "User Certificate",
+      "IDENTITY": "Identity",
+      "ANONYMOUS_IDENTITY": "Anonymous Identity",
+      "PASSWORD": "Password",
+      "IP_SETTINGS": "IP Settings",
+      "STATIC": "Static",
+      "SHOW_ADVANCED": "Show Advanced Settings",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP Address",
+      "GATEWAY": "Gateway",
+      "SUBNET_MASK": "Subnet Mask",
+      "DNS1": "DNS Address 1",
+      "DNS2": "DNS Address 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Manage known networks",
+      "NO_NETWORKS": "There are no known networks. Please connect."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Create Certificate Signing Request",
+      "DESCRIPTION": "Specify below information for your certificate request.",
+      "COUNTRY": "Country",
+      "STATE": "State or Province",
+      "CITY": "City or Locality",
+      "ORGANIZATION": "Organization",
+      "ORGANIZATION_UNIT": "Organization Unit",
+      "COMMON_NAME": "Common Name",
+      "SAVE_FILE_TITLE": "Save Certificate Signing Request file"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Install Certificate",
+      "TYPE": "Type",
+      "CERTIFICATE": "Certificate",
+      "CHOOSE_FILE_TITLE": "Choose File"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Certificate Details",
+      "PASSWORD_ERROR": "The password you entered is not valid. Please enter the password again.",
+      "PASSWORD": "Private Key Password:"
+    },
+    "LCS_DISCONNECTED": {
+      "TITLE": "Unable to connect to Lens Control Service",
+      "DESCRIPTION": "We'll keep trying to establish a connection. View troubleshooting tips",
+      "LINK": "here"
+    },
+    "LCS_CONNECTION_NOT_ESTABLISHED": {
+      "TITLE": "Connecting to Lens Control Service",
+      "DESCRIPTION": "This process may take a few seconds."
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "This is your primary device.",
+    "MAKE_DEVICE_MAIN": "Make this device your primary device.",
+    "DEVICE_NOT_SUPPORTED": "Device support coming soon. In-app functionality may be limited.",
+    "DISABLED_BY_ADMIN": "Feature disabled by your admin"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Software Components",
+    "VIEW_LIST_OF_COMPONENTS": "View {{numberOfComponents}} components",
+    "VIEW_ONE_COMPONENT": "View 1 component",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "Tuning",
+    "BASE": "Base",
+    "HEADSET": "Headset",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "Camera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Almost Done!",
+    "REPLUG_DESCRIPTION": "Unplug and reconnect device, then click Continue to complete the update.",
+    "UPDATE_WARNING_1": "This update takes a few minutes to complete.",
+    "UPDATE_WARNING_2": "{{open_tag}}Do not disconnect your device{{close_tag}} during the update process.",
+    "UPDATE_WARNING_3": "Make sure your camera is not in use by another application before proceeding with this software update.",
+    "DISTANCE_WARNING.TITLE": "Get Ready to Update",
+    "DISTANCE_WARNING_1": "Keep your {{open_tag}}{{device_name}}{{close_tag}} within 1.5m (5ft) of your computer during the update.",
+    "DISTANCE_WARNING_2": "Disconnect any other Bluetooth connections (e.g. mobile phone) to avoid interrupting the update.",
+    "LANGUAGE_DOWNLOAD": "Language Download",
+    "DOWNLOADING_LANGUAGE": "Downloading language",
+    "LANGUAGE_UPDATE": "Language Update",
+    "UPDATEING_LANGUAGE": "Updating language",
+    "LANGUAGE_UPDATED": "Language updated",
+    "SOFTWARE_DOWNLOAD": "Software Download",
+    "DOWNLOADING_SOFTWARE": "Downloading software",
+    "SOFTWARE_UPDATE": "Software Update",
+    "UPDATING_SOFTWARE": "Updating software",
+    "SOFTWARE_INSTALLED": "Software installed",
+    "CUSTOM_SOFTWARE_UPDATE": "Custom Software Update",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Uploading custom software update",
+    "CUSTOM_SOFTWARE_INSTALLED": "Custom software installed",
+    "DEVICE_RECOVERY": "Device Recovery",
+    "RECOVERING_DEVICE": "Recovering device",
+    "DEVICE_RECOVERED": "Device recovered",
+    "UPDATE_COMPLETE": "{{productName}} update complete",
+    "UPDATE_FAILED": "{{productName}} update failed",
+    "UPDATE_FAILED_ON_RETRY": "Retry Software Update Failed",
+    "UPDATE_FAILED_TITLE": "Uh oh. We have a problem.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "The software update didn't successfully complete.",
+    "UPDATE_FAILED_GROUP_MESSAGE": "Please check device connectivity and network connection, and retry. If you do nothing, Lens will try to perform Software Update again in 60 seconds.",
+    "UPDATE_FAILED_GROUP_MESSAGE_SUPPORT": "Please try again at a later time. If problem persists, contact Support.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "Software is already up to date",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "The device you tried to update already has the latest software.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Your battery level is insufficient for performing an update. Charge your {{deviceName}} battery prior to updating.",
+      "DeviceNotConnectedError": "Connect your {{deviceName}} via cable to update.",
+      "CallinProgressError": "Cannot update {{deviceName}} during a call.",
+      "DFUInProgressError": "Cannot update your {{deviceName}} while another update is in progress.",
+      "MultipleDevicesError": "Two or more devices of the same model are connected. Disconnect the other devices before updating this device.",
+      "ReplugDevice": "Unplug and reconnect device to complete the software update.",
+      "CameraInUseError": "Please make sure camera preview is disabled and microphone and camera are not active in any other application.",
+      "SingleEarbudError": "Make sure both earbuds are connected, out of the case, and at more than a 50% charge to update.",
+      "EarbudsNotConnectedError": "Connect your earbuds to proceed with update",
+      "UpdateCaseViaUnifiedTooltip": "Charge Case update available. Connect case via cable to update all devices at one time.",
+      "UpdateCaseViaUnified": "Charge Case update available. Connect case via cable to update."
+    },
+    "UPDATE_WILL_TAKE_FEW_MINUTES": "This update will take a few minutes to complete.",
+    "GROUP_DFU_WARNING_CASE_1": "Make sure charge case is plugged in via cable.",
+    "GROUP_DFU_WARNING_CASE_2": "Do not disconnect your charge case.",
+    "GROUP_DFU_WARNING_ADAPTER_OR_CASE": "Do not disconnect your USB adapter or charge case.",
+    "GROUP_DFU_WARNING_ADAPTER": "Do not disconnect your USB adapter.",
+    "GROUP_DFU_WARNING_EARBUDS": "Do not put earbuds in the charge case during the update process."
+  },
+  "DeviceSettingsCategories": {
+    "General": "General",
+    "DisplayControls": "Display Controls",
+    "RingtoneAndVolume": "Ringtones & Volume",
+    "Audio": "Audio",
+    "SensorAndPresence": "Sensors & Presence",
+    "SoftphonesAndMediaPlayers": "Softphones & Media Players",
+    "Wireless": "Wireless",
+    "Advanced": "Advanced",
+    "ANC": "ANC",
+    "Firmware": "Firmware",
+    "Language": "Language",
+    "VoicePromptsAndTones": "Voice Prompts & Tones",
+    "Admin": "Admin",
+    "ResetHeadset": "Reset Device",
+    "Lights": "Lights",
+    "CustomButton": "Custom Button",
+    "CustomSwipe": "Custom Swipe Sensor",
+    "Diagnostics": "Diagnostics",
+    "SoftwareSettings": "Software Settings"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Language",
+      "description": "Select the language you want for all voice prompts and alerts. For example, \"Incoming call from John.\" or \"Mute on.\"",
+      "serverNotReachable": "You can't change your language at this time because the server is unavailable.",
+      "options": {
+        "3076": "Cantonese",
+        "1030": "Danish",
+        "2057": "English - United Kingdom",
+        "1033": "English - United States",
+        "1036": "French",
+        "1031": "German",
+        "1040": "Italian",
+        "1041": "Japanese",
+        "1042": "Korean",
+        "1045": "Polish",
+        "2052": "Mandarin",
+        "1044": "Norwegian - Bokml",
+        "2068": "Norwegian - Nynorsk",
+        "1049": "Russian",
+        "1034": "Spanish",
+        "1053": "Swedish",
+        "16393": "English - India",
+        "1057": "Indonesian",
+        "1054": "Thai",
+        "1046": "Portuguese - Brazil"
+      }
+    },
+    "Second Incoming Call": {
+      "name": "Second Incoming Call",
+      "description": "Control the ring behavior for an incoming call from a second communication pathway (e.g. an incoming mobile call when you are on an existing softphone call).",
+      "options": {
+        "Ignore": "Ignore",
+        "Ring Once": "Ring Once",
+        "Ring Continuous": "Ring Continuous"
+      }
+    },
+    "0x103": {
+      "name": "Computer Volume",
+      "description": "",
+      "options": {
+        "off": "Off",
+        "low": "Low Volume",
+        "standard": "Standard Volume"
+      }
+    },
+    "0x104": {
+      "name": "Desk Phone Volume",
+      "description": "",
+      "options": {
+        "off": "Off",
+        "low": "Low Volume",
+        "standard": "Standard Volume"
+      }
+    },
+    "0x105": {
+      "name": "Mobile Phone Volume",
+      "description": "",
+      "options": {
+        "off": "Off",
+        "low": "Low Volume",
+        "standard": "Standard Volume"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "Select the ringtone (and volume for applicable models) that you hear when your PC softphone rings.",
+      "options": {
+        "sound1": "Sound 1",
+        "sound2": "Sound 2",
+        "sound3": "Sound 3",
+        "off": "Off"
+      }
+    },
+    "0x107": {
+      "name": "Desk Phone",
+      "description": "Select the ringtone (and volume for applicable models) that you hear when your deskphone rings.",
+      "options": {
+        "sound1": "Sound 1",
+        "sound2": "Sound 2",
+        "sound3": "Sound 3",
+        "off": "Off"
+      }
+    },
+    "0x108": {
+      "name": "Mobile Phone",
+      "description": "Select the ringtone (and volume for applicable models) that you hear when your mobile device rings.",
+      "options": {
+        "sound1": "Sound 1",
+        "sound2": "Sound 2",
+        "sound3": "Sound 3",
+        "off": "Off"
+      }
+    },
+    "Ringtone": {
+      "name": "Ringtone",
+      "description": "Play a ringtone that you hear when a connected device receives a call and is configured to not play its own ringtone."
+    },
+    "0x10A": {
+      "name": "Base ringer volume",
+      "description": "Configure the base ringer volume.",
+      "options": {
+        "off": "Off",
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      }
+    },
+    "Wearing Sensor": {
+      "name": "Wearing Sensor",
+      "description": "Turn on this master setting to allow individual configuration of all sensor-dependent settings. Turn it off to conveniently disable them all with ON one click."
+    },
+    "Auto-Answer": {
+      "name": "Auto-Answer",
+      "description": "Automatically answer an incoming call as you put on your headset while your phone rings."
+    },
+    "0x202": {
+      "name": "Smart Audio Transfer",
+      "description": "Automatically transfer call's audio from your headset to your mobile phone when you remove your headset. Put your headset on again to transfer call's audio back to the headset."
+    },
+    "0x203": {
+      "name": "Call Button Lock",
+      "description": "Lock the headset's call button to eliminate accidental mobile call back dialing when you are not wearing your headset."
+    },
+    "Auto-Pause Music": {
+      "name": "Auto-Pause Music",
+      "description": "Automatically pause audio streaming from a mobile device when the headset is taken off the ear (and resume when placed on the ear). Disable to play streamed audio continuously."
+    },
+    "0x205": {
+      "name": "Auto-Mute",
+      "description": "Automatically mute your headset's microphone when you remove your headset during a call."
+    },
+    "Active Call Audio": {
+      "name": "Active Call Audio",
+      "description": "Select the action you would like the headset to take when you remove it from your head during an active call.",
+      "options": {
+        "Do Nothing": "Do Nothing",
+        "Transfer Audio to Mobile Phone": "Transfer Audio to Mobile Phone",
+        "Mute Microphone": "Mute Microphone"
+      }
+    },
+    "Auto-Answer (No Sensor)": {
+      "name": "Auto-Answer (No Sensor)",
+      "description": "Automatically answer incoming calls when you remove your headset from the charge cradle. Set to Off to answer incoming calls when you press the call control button."
+    },
+    "0x301": {
+      "name": "Auto-Connect to Mobile Phone",
+      "description": "Automatically reconnect the Savi base to your mobile phone when it comes within range of the base unit."
+    },
+    "0x302": {
+      "name": "Place in Cradle to Auto-Disconnect",
+      "description": "Automatically disconnect a call when you place your headset in the charge cradle."
+    },
+    "0x400": {
+      "name": "Default Phone Line",
+      "description": "Set the outbound line your phone uses when you press the headset call control button.",
+      "options": {
+        "pstn": "Desk Phone",
+        "voip": "Computer",
+        "mobile": "Mobile"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Enable to connect to your mobile device via Bluetooth."
+    },
+    "0x402": {
+      "name": "Mobile Voice Commands",
+      "description": "Enable to put a connected mobile device in voice command mode by pressing the mobile device button on the base."
+    },
+    "Answering Call": {
+      "name": "Answering Call",
+      "description": "Hear the voice alert \"Answering Call\" when you answer an incoming call via your headset."
+    },
+    "0x913": {
+      "name": "Hold Reminder",
+      "description": "Receive a helpful reminder that you have a call on hold."
+    },
+    "Volume Min/Max Alerts": {
+      "name": "Volume Min/Max Alerts",
+      "description": "Select the type of announcement heard when volume minimum and volume maximum are reached.",
+      "options": {
+        "Voice": "Voice",
+        "Tone": "Tone"
+      }
+    },
+    "Noise Exposure": {
+      "name": "Noise Exposure",
+      "description": "Monitor and control daily noise exposure to ensure that it does not exceed the selected action value (80 dBA or 85 dBA) specified by current legislation.",
+      "options": {
+        "Limit at 85dBA": "Limit at 85dBA",
+        "Limit at 80dBA": "Limit at 80dBA",
+        "No Limiting": "No Limiting"
+      }
+    },
+    "Hours on Phone Per Day": {
+      "name": "Hours on Phone per Day",
+      "description": "Optimize the accuracy of the Noise Exposure setting by selecting the value that best represents your typical use of this device.",
+      "options": {
+        "2 hrs.": "2 hrs.",
+        "4 hrs.": "4 hrs.",
+        "6 hrs.": "6 hrs.",
+        "8 hrs.": "8 hrs."
+      }
+    },
+    "Anti-Startle": {
+      "name": "Anti-Startle",
+      "description": "Intelligent algorithms that eliminate acoustic shock from loud sounds, instantly reducing them to ensure your protection and listening comfort."
+    },
+    "Answer/Ignore": {
+      "name": "Answer/Ignore",
+      "description": "Hear a voice prompt to \"Answer\" or \"Ignore\" a call when you receive incoming calls to your mobile phone."
+    },
+    "Mute Reminder Mode": {
+      "name": "Mute Reminder Mode",
+      "description": "Receive a helpful reminder that your headset is muted during a call. Configure how and when teh reminder occurs.",
+      "options": {
+        "off": "Off",
+        "timed": "Time-Based",
+        "voiceAudible": "Audible Reminder",
+        "voiceVisible": "On-Screen Reminder",
+        "voiceVisibleAndAudible": "On-Screen & Audible Reminders"
+      }
+    },
+    "Answering Call Alert": {
+      "name": "Answering Call Alert",
+      "description": "Hear the voice alert \"Answering Call\" when you answer an incoming call via your headset."
+    },
+    "0x602": {
+      "name": "Mute Off Alert",
+      "description": "The feedback you hear when you mute and unmute your headset mic.",
+      "options": {
+        "false": "Tone",
+        "true": "Voice"
+      }
+    },
+    "Mute Reminder Time": {
+      "name": "Mute Reminder Timing",
+      "description": "Set the number of minutes between mute reminder alerts.",
+      "options": {
+        "": "When I Start Speaking",
+        "off": "Off",
+        "1 minute": "1 minute",
+        "2 minutes": "2 minutes",
+        "3 minutes": "3 minutes",
+        "4 minutes": "4 minutes",
+        "5 minutes": "5 minutes",
+        "6 minutes": "6 minutes",
+        "7 minutes": "7 minutes",
+        "8 minutes": "8 minutes",
+        "9 minutes": "9 minutes",
+        "10 minutes": "10 minutes",
+        "11 minutes": "11 minutes",
+        "12 minutes": "12 minutes",
+        "13 minutes": "13 minutes",
+        "14 minutes": "14 minutes",
+        "15 minutes": "15 minutes"
+      }
+    },
+    "0x604": {
+      "name": "Mute Reminder Volume",
+      "description": "Set the volume for the mute reminder alert.",
+      "options": {
+        "off": "Off",
+        "low": "Low Volume",
+        "standard": "Standard Volume"
+      }
+    },
+    "Mute On/Off Alerts": {
+      "name": "Mute On/Off Alerts",
+      "description": "Select the type of alert you hear when you mute or unmute your headset microphone or receive a mute reminder.",
+      "options": {
+        "Voice": "Voice",
+        "Single Tone": "Single Tone",
+        "Double Tone": "Double Tone"
+      }
+    },
+    "0x608": {
+      "name": "System Tone",
+      "description": "Set the volume for your headset's audio prompts.",
+      "options": {
+        "off": "Off",
+        "low": "Low Volume",
+        "standard": "Standard Volume"
+      }
+    },
+    "Volume Level Tones": {
+      "name": "Volume Level Tones",
+      "description": "When adjusting the volume, hear tones indicating your current volume level.",
+      "options": {
+        "Minimum & Maximum Only": "Minimum & Maximum Only",
+        "At Every Level": "At Every Level"
+      }
+    },
+    "0x60A": {
+      "name": "Caller ID",
+      "description": "Hear the name of the person calling."
+    },
+    "Audio Channel Tone": {
+      "name": "Audio Channel Tone",
+      "description": "Hear a short tone combination indicating that the audio channel is open and ready for communication."
+    },
+    "0x60D": {
+      "name": "Mute Reminder Mode",
+      "description": "Receive a helpful reminder that your headset is muted during a call. Configure how and when the reminder occurs.",
+      "options": {
+        "off": "Off",
+        "timed": "Time-Based",
+        "voiceAudible": "Audible Reminder",
+        "voiceVisible": "On-Screen Reminder",
+        "voiceVisibleAndAudible": "On-Screen & Audible Reminders"
+      }
+    },
+    "0x610": {
+      "name": "Mute Alerts",
+      "description": "The feedback you hear when you mute and unmute your speakerphone mic."
+    },
+    "0x700": {
+      "name": "Audio Quality",
+      "description": "Optimize audio quality for your desired activity.",
+      "options": {
+        "homeMode": "Music",
+        "enterpriseMode": "Hybrid",
+        "mono": "Conversation",
+        "narrowBand": "Narrowband"
+      }
+    },
+    "0x701": {
+      "name": "Over-the-Air Subscription",
+      "description": "Subscribe this headset to your base without physically placing the headset in the charge cradle."
+    },
+    "0x702": {
+      "name": "Range",
+      "description": "Limit range to reduce audio interference from other DECT devices.",
+      "options": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      }
+    },
+    "0x704": {
+      "name": "Streaming Audio",
+      "description": "Enable to stream music, podcasts, and other types of audio from your mobile device to your headset. If you aren't streaming audio to your headset, disable this feature to help conserve battery life.",
+      "powerCycleRequired": {
+        "title": "Enable/Disable Streaming Audio",
+        "buttonText": "OK",
+        "true": {
+          "title": "Disable Streaming Audio",
+          "text": "Select to conserve battery power and stay on calls longer. When disabled, you can't listen to music or podcasts through your headset."
+        },
+        "false": {
+          "title": "Enable Streaming Audio",
+          "text": "Select to listen to music and podcasts through your headset. When enabled, you may reduce available talk time for calls."
+        }
+      }
+    },
+    "Extended Range Mode (PC)": {
+      "name": "Extended Range Mode (PC)",
+      "description": "Get improved wireless range from your PC to your headset. NOTE: This will disable wideband stereo telephony and will decrease the quality of audio you hear from your PC."
+    },
+    "0x706": {
+      "name": "PC Audio Bandwidth",
+      "description": "Wideband audio delivers heightened speech clarity and life-like fidelity but consumes more battery power, resulting in reduced talk time.",
+      "options": {
+        "narrowband": "Narrowband",
+        "wideband": "Wideband"
+      }
+    },
+    "0x707": {
+      "name": "Desk Phone Audio Bandwidth",
+      "description": "Wideband audio delivers heightened speech clarity and life-like fidelity but consumes more battery power, resulting in reduced talk time.",
+      "options": {
+        "narrowband": "Narrowband",
+        "wideband": "Wideband"
+      }
+    },
+    "HD Voice": {
+      "name": "HD Voice",
+      "description": "Wideband audio enhances speech clarity if your phone and service carrier also support the feature. NOTE: This feature consumes significant battery power, resulting in reduced talk time.",
+      "powerCycleRequired": {
+        "title": "Enable/Disable HD Voice",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "Disable HD Voice",
+          "text": "Wideband audio enhances speech clarity if your phone and carrier support this feature. Disable to conserve battery power and stay on calls longer."
+        },
+        "wideband": {
+          "title": "Enable HD Voice",
+          "text": "Wideband audio enhances speech clarity if your phone and carrier support this feature. Enabling HD Voice consumes more battery power and reduces available talk time for calls."
+        },
+        "stereo": {
+          "title": "Stereo Title",
+          "text": "Stereo Text"
+        },
+        "widebandStereo": {
+          "title": "Wideband Stereo Title",
+          "text": "Wideband Stereo Text"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Auto Reconnect Daisy Chain",
+      "description": "Retain daisy chain connection between two devices when they are powered on."
+    },
+    "0x70B": {
+      "name": "Auto Disconnect Bluetooth",
+      "description": "Disconnect Bluetooth when device enters standby mode."
+    },
+    "0x800": {
+      "name": "Increase QD Headset Volume",
+      "description": "If the volume of the headset connected to your base Quick Disconnect (QD) is too low, select your headset model to increase the volume.",
+      "options": {
+        "new": "EncorePro 500 Series",
+        "legacy": "EncorePro 700 Series & All Other Headset Models"
+      }
+    },
+    "0x801": {
+      "name": "Tone Control",
+      "description": "Boost your bass or treble tones to optimize your listening experience. You can customize desk phone and computer tones separately for each device. ",
+      "options": {
+        "maxBass": "Max Bass",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Max Treble"
+      }
+    },
+    "0x802": {
+      "name": "Close Conversation Limiting",
+      "description": "Limit the amount of nearby conversation transmitted through your microphone. (Note: changes will take effect on the next call.)",
+      "options": {
+        "no": "No Limiting",
+        "moderate": "Best Audio",
+        "agressive": "Open Office"
+      }
+    },
+    "Sidetone": {
+      "name": "Sidetone",
+      "description": "Adjust the volume of your voice that you hear when speaking.",
+      "options": {
+        "Low": "Low",
+        "Medium": "Medium",
+        "High": "High"
+      }
+    },
+    "0x804": {
+      "name": "ANC Timeout",
+      "description": "Save battery life by reducing the amount of time Active Noise Cancellation (ANC) remains on when your headset is idle.",
+      "options": {
+        "2": "2 hours",
+        "4": "4 hours",
+        "off": "Off"
+      }
+    },
+    "ANC Mode": {
+      "name": "ANC Mode",
+      "description": "Select the best noise cancelling level for your environment.",
+      "options": {
+        "Adaptive": "Adaptive",
+        "Standard": "Standard",
+        "Off": "Off"
+      }
+    },
+    "Notification Tones": {
+      "name": "Notification Tones",
+      "description": "Hear notification tones from other connected devices while streaming audio."
+    },
+    "0x806": {
+      "name": "Independent Volume Control",
+      "description": "Enable or Disable Independent volume control."
+    },
+    "0x807": {
+      "name": "Daisy Chain Audio",
+      "description": "Select the audio output you hear when speakerphones are daisy-chained together.",
+      "options": {
+        "party": "Party",
+        "stereo": "Stereo"
+      }
+    },
+    "Equalizer": {
+      "name": "Equalizer",
+      "description": "Set the Equalizer preset to your preferred sound signature.",
+      "options": {
+        "Bass": "Bass",
+        "Flat": "Flat",
+        "Bright": "Bright"
+      }
+    },
+    "Factory Reset": {
+      "name": "Factory Reset",
+      "description": "This action will reset all settings for your device to factory default.",
+      "resetBtn": "Factory Reset",
+      "powerCycleRequired": {
+        "title": "Settings Restored",
+        "buttonText": "Restore",
+        "true": {
+          "title": "Factory Reset",
+          "text": "All your custom settings will be restored to their original defaults."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Restart Device",
+      "description": "This action immediately restarts your device.",
+      "resetBtn": "Restart"
+    },
+    "Clear Trusted Devices": {
+      "name": "Clear Trusted Devices",
+      "description": "Delete the list of connected devices stored on your headset. (This applies to all connected devices, including the BT700.)",
+      "resetBtn": "Clear Devices",
+      "powerCycleRequired": {
+        "title": "Devices Cleared",
+        "buttonText": "Clear",
+        "true": {
+          "title": "Clear Trusted Devices",
+          "text": "This action clears all connected devices stored on your headset, including the BT700 USB adapter."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Vibrate on Ring",
+      "description": "Set your headset to vibrate when you receive incoming calls."
+    },
+    "0x901": {
+      "name": "Charge Confirmation",
+      "description": "Set your headset to vibrate to confirm that your headset is charging."
+    },
+    "Online Indicator": {
+      "name": "Online Indicator",
+      "description": "Enable the LED indicator on your device to inform others that you are on a call."
+    },
+    "0x903": {
+      "name": "Wearing Preference for Volume Control",
+      "description": "Indicate headset wearing preference (left or right ear) and always puts volume control upwards to increase volume level.",
+      "options": {
+        "unknown": "No Change",
+        "left": "Left Ear",
+        "right": "Right Ear",
+        "leftRight": "Boom on Right Side",
+        "leftRightSwapped": "Boom on Left Side"
+      }
+    },
+    "0xA00": {
+      "name": "Audio Sensing",
+      "description": "Automatically establish a radio link between the base and your wireless headset when the USB port detects computer audio."
+    },
+    "0xA01": {
+      "name": "Dialtone",
+      "description": "Hear a dialtone for a VoIP call when you press your headset's call button. Your softphone must support dialtones."
+    },
+    "0xFFF1": {
+      "name": "Auto-Connect to Mobile Phone",
+      "description": "Automatically reconnect the Savi base to your paired mobile device when the phone comes within range of the base unit.",
+      "options": {
+        "never": "Never",
+        "whenUndocked": "Only when Headset is Undocked",
+        "always": "Always"
+      }
+    },
+    "0xFFF2": {
+      "name": "Anti–Startle",
+      "description": "Algorithms that eliminate acoustic shock from loud sounds for your protection and listening comfort.",
+      "options": {
+        "off": "Off",
+        "standard": "G616",
+        "enhanced": "G616 (Poly Enhanced)"
+      }
+    },
+    "0x60E": {
+      "name": "Battery Status",
+      "description": "Hear your battery status when you power on your device."
+    },
+    "Connection Indication": {
+      "name": "Connection Indication",
+      "description": "Hear a voice prompt indicating connection status."
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Enable or disable all Bluetooth connections on the Sync speaker."
+    },
+    "-": {
+      "name": "Connection",
+      "description": "Hear a voice prompt indicating connection status."
+    },
+    "0x907": {
+      "name": "Bluetooth Secure Connection",
+      "description": "Press the bluetooth pairing button to complete the connection between the speakerphone and mobile device."
+    },
+    "Custom Button": {
+      "name": "Custom Button",
+      "description": "Assign the action that launches when you tap the action button.",
+      "options": {
+        "ANC/Transparecy Mode": "ANC/Transparecy Mode",
+        "ANC On/Off": "ANC On/Off",
+        "Redial (mobile only)": "Redial (mobile only)",
+        "Status Check": "Status Check",
+        "Voice Services": "Voice Services",
+        "Do Nothing": "Do Nothing"
+      }
+    },
+    "0x909": {
+      "name": "Exclusive Connection",
+      "description": "Remove previous paired device information when a new device is paired and connected. This allows only one device to be paired and connected at a time."
+    },
+    "0xC00": {
+      "name": "Brightness",
+      "description": "Adjust video brightness."
+    },
+    "0xC01": {
+      "name": "Contrast",
+      "description": "Adjust video contrast."
+    },
+    "0xC02": {
+      "name": "Hue",
+      "description": "Adjust video color."
+    },
+    "0xC03": {
+      "name": "Saturation",
+      "description": "Adjust video color saturation."
+    },
+    "0xC04": {
+      "name": "Sharpness",
+      "description": "Adjust video sharpness."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Adjust video gamma."
+    },
+    "0xC06": {
+      "name": "Color",
+      "description": "Adjust video color."
+    },
+    "0xC07": {
+      "name": "White Balance",
+      "description": "Specify how the camera compensates for variation in room light sources."
+    },
+    "0xC08": {
+      "name": "Back Light Compensation",
+      "description": "Enable or disable backlight compensation."
+    },
+    "0xC09": {
+      "name": "Gain",
+      "description": "Adjust the signal amplification from the camera."
+    },
+    "0xC0A": {
+      "name": "Pan",
+      "description": "Adjust the left or right direction of the camera."
+    },
+    "0xC0B": {
+      "name": "Tilt",
+      "description": "Adjust the up or down direction of the camera."
+    },
+    "0xC0C": {
+      "name": "Roll",
+      "description": "Adjust the roll angle of the camera."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Adjust the camera zoom level."
+    },
+    "0xC0E": {
+      "name": "Exposure",
+      "description": "Adjust the camera exposure."
+    },
+    "0xC0F": {
+      "name": "Iris",
+      "description": "Adjust the camera iris."
+    },
+    "0xC10": {
+      "name": "Focus",
+      "description": "Adjust the camera focus."
+    },
+    "0xC11": {
+      "name": "Skin Enhancement",
+      "description": "Enables or disables natural skin color enhancements for participants."
+    },
+    "0xC12": {
+      "name": "Wide Dynamic Range",
+      "description": "Enable or disable camera exposure based on the framed area instead of full view."
+    },
+    "0xC13": {
+      "name": "Participant Count",
+      "description": "Report the participant count in meetings."
+    },
+    "0xC14": {
+      "name": "On-Screen Display",
+      "description": "Display camera parameters on the video output."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Enable Poly Acoustic Fence to block background noise and configure the width of the Poly Acoustic Fence beam.",
+      "options": {
+        "off": "Off",
+        "60": "Narrow",
+        "90": "Medium",
+        "120": "Wide",
+        "cameraView": "Camera View"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI for Outgoing Audio",
+      "description": "Prevent distracting sounds in your environment (like keyboard typing or paper shuffling) from interrupting your meeting.",
+      "options": {
+        "true": "True",
+        "false": "False",
+        "fast": "Fast"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI for Incoming Audio",
+      "description": "Prevent distracting sounds from the far end of the conversation (like keyboard typing or paper shuffling) from interrupting your meeting."
+    },
+    "0xC17": {
+      "name": "Stereo Audio",
+      "description": "Use two audio channels on the camera to provide stereo sound."
+    },
+    "0xC26": {
+      "name": "Bass Boost",
+      "description": "Bass Boost."
+    },
+    "0xC18": {
+      "name": "Tracking Speed",
+      "description": "Configure how fast the camera detects meeting participants.",
+      "options": {
+        "slow": "Slow",
+        "normal": "Normal",
+        "fast": "Fast"
+      }
+    },
+    "0xC19": {
+      "name": "Tracking Mode",
+      "description": "Configure how the camera tracks participants.",
+      "options": {
+        "speaker": "Speaker Framing",
+        "off": "Off",
+        "group": "Group Framing",
+        "presenter": "Presenter",
+        "conversation": "Conversation",
+        "gallery": "People Framing"
+      }
+    },
+    "0xC21": {
+      "name": "Bass",
+      "description": "Adjust audio bass output from the speaker."
+    },
+    "0xC22": {
+      "name": "Treble",
+      "description": "Adjust audio treble output from the speaker."
+    },
+    "0xC23": {
+      "name": "Anti-Flicker (50Hz / 60Hz) Solution",
+      "description": "Select the appropriate frequency (NTSC 60Hz / PAL 50Hz) to reduce display flicker.",
+      "options": {
+        "0": "Disabled",
+        "1": "50Hz",
+        "2": "60Hz",
+        "3": "Auto"
+      }
+    },
+    "0xC25": {
+      "name": "Resolution",
+      "description": "Select the appropriate resolution for camera preview.",
+      "options": {
+        "0": "640x480x60fps",
+        "1": "1280x720x60fps",
+        "2": "1920x1080x30fps",
+        "3": "1920x1080x60fps",
+        "4": "2560x1440x30fps",
+        "5": "3840x2160x30fps"
+      }
+    },
+    "0xC27": {
+      "name": "Image Mirror/Flip",
+      "description": "Invert camera video output.",
+      "options": {
+        "0": "Disabled",
+        "1": "Mirror horizontally",
+        "2": "Flip vertically",
+        "3": "Flip and Mirror in both directions"
+      }
+    },
+    "0xC28": {
+      "name": "Color Temperature",
+      "description": "Color Temperature",
+      "options": {
+        "warm": "Warm",
+        "cool": "Cool"
+      }
+    },
+    "0xC29": {
+      "name": "HDR",
+      "description": "High dynamic range",
+      "options": {
+        "true": "On",
+        "false": "Off"
+      },
+      "note": "To view HDR changes when camera is in use by another app, turn Camera Preview off and on in the app in use."
+    },
+    "0xC30": {
+      "name": "Auto-Frame",
+      "description": "Auto-Framing for HP webcams",
+      "options": {
+        "true": "On",
+        "false": "Off"
+      }
+    },
+    "0xC1A": {
+      "name": "Frame Size",
+      "description": "Configure the camera tracking framing view.",
+      "options": {
+        "tight": "Tight",
+        "medium": "Medium",
+        "wide": "Wide"
+      }
+    },
+    "0xC1B": {
+      "name": "Maximum Zoom",
+      "description": "Limit the maximum camera zoom in ratios of 2x, 3x, or 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Camera Movement",
+      "description": "Adjust the camera movement",
+      "options": {
+        "auto pan": "Auto Pan",
+        "cut": "Cut"
+      }
+    },
+    "0xC80": {
+      "name": "Screen Brightness",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Status LED Brightness",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Idle State",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Incoming Call",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Active Call",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Held Call",
+      "description": ""
+    },
+    "Mute Reminder": {
+      "name": "Mute Reminder",
+      "description": "Receive a helpful reminder that your headset is muted during a call. Configure how and when the reminder occurs.",
+      "options": {
+        "Off": "Off",
+        "Time Based": "Time Based",
+        "Audible": "Audible",
+        "On Screen": "On Screen",
+        "On Screen + Audible": "On Screen + Audible"
+      }
+    },
+    "0xC89": {
+      "name": "Wireless Charging",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "App Button",
+      "description": "Select the platform you want to access from your display.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Rocket Button",
+      "description": "Assign the action that launches when you tap the rocket ship",
+      "options": {
+        "holdResume": "Hold / Resume Call",
+        "playPause": "Play / Pause",
+        "statusLight": "Status Lights",
+        "lens": "Open Poly Lens Desktop",
+        "vpa": "VPA - Siri, Cortana",
+        "redial": "Redial Last Call",
+        "vanity": "Vanity Lights",
+        "answerEnd": "Answer / End Call",
+        "videoMute": "Video Mute Camera"
+      }
+    },
+    "0xC90": {
+      "name": "Display Brightness",
+      "description": "Adjust the brightness of your display."
+    },
+    "0xC81": {
+      "name": "Display Contrast",
+      "description": "Adjust the contrast of your display."
+    },
+    "0x910": {
+      "name": "PC Audio Persistence Mode",
+      "description": "If enabled, the PC Audio will be mixed with deskphone interface."
+    },
+    "Manage All": {
+      "name": "Manage All",
+      "description": "Select the prompts and tones you hear while using your device."
+    },
+    "Calls": {
+      "name": "Calls",
+      "description": "Hear voice prompts or tones to indicate call status."
+    },
+    "Incoming Call": {
+      "name": "Incoming Call",
+      "description": "Hear a voice prompt when you receive an incoming call."
+    },
+    "0x1303": {
+      "name": "Answer/Ignore"
+    },
+    "0x1305": {
+      "name": "Answering Call"
+    },
+    "Active Audio Tone": {
+      "name": "Active Audio Tone",
+      "description": "Hear a short tone combination indicating that the audio channel is open and ready for communication."
+    },
+    "Hold Reminder": {
+      "name": "Hold Reminder",
+      "description": "Receive a helpful reminder that you have a call on hold."
+    },
+    "Transparency Mode": {
+      "name": " Transparency Mode",
+      "description": "Select the transparency mode level and sound signature.",
+      "options": {
+        "Speech": "Speech",
+        "Environment": "Environment",
+        "Off": "Off"
+      }
+    },
+    "Custom Swipe Sensor Idle": {
+      "name": "Idle",
+      "description": "Assign the quick action when the device goes into an idle state.",
+      "options": {
+        "Volume": "Volume",
+        "ANC/Transparency Mode": "ANC/Transparency Mode",
+        "Status Check": "Status Check",
+        "Do Nothing": "Do Nothing"
+      }
+    },
+    "Custom Swipe Sensor In Call": {
+      "name": "In Call",
+      "description": "Assign the quick action for when in a call.",
+      "options": {
+        "Volume": "Volume",
+        "ANC On/Off": "ANC On/Off",
+        "Hold/Resume Call": "Hold/Resume Call",
+        "Mute": "Mute",
+        "Do Nothing": "Do Nothing"
+      }
+    },
+    "Custom Swipe Sensor Streaming Media": {
+      "name": "Streaming Media",
+      "description": "Assign the quick action for when streaming media.",
+      "options": {
+        "Volume": "Volume",
+        "ANC/Transparency Mode": "ANC/Transparency Mode",
+        "Track Forward/Track Backward": "Track Forward/Track Backward",
+        "Do Nothing": "Do Nothing"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "OK, Got It",
+      "powerOffText": "Remember to <b> power off your headset for at least 5 seconds</b> for your new settings to take effect."
+    },
+    "Language Selection": {
+      "name": "Select language",
+      "description": "Select the language you would like to hear for all voice prompts and alerts (e.g. \"Incoming call from John\", \"Mute on\")."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Select Language",
+      "DESCRIPTION": "Select the language you would like to hear for all voice prompts and alerts (e.g. “Incoming call from John”, “Mute on”).",
+      "DESCRIPTION_USB_CABLE": "To change the language you would like to hear for voice prompts and alerts, connect your {{device_name}} to your computer via USB cable.",
+      "DESCRIPTION_CHARGE_CASE": "Select the language you would like to read for the case's navigation, and hear in your earbuds.",
+      "DESCRIPTION_CHARGE_CASE_USB_CABLE": "Select the language you would like to read for the case's navigation, and hear in your earbuds, connect your {{device_name}} to your computer via USB cable.",
+      "CONFIRM_TITLE": "Change Language"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi Name",
+      "CONNECTED": "Connected",
+      "DISCONNECTED": "Disconnected",
+      "SIGNAL_STRENGTH": "Signal strength",
+      "AUTOCONNECT": "Autoconnect",
+      "JOIN_OTHER_NETWORK": "Join Other Network",
+      "MANAGE_KNOWN_NETWORKS": "Manage Known Networks",
+      "PLACEHOLDER": "Select Network"
+    },
+    "GENERAL": {
+      "LABEL": "General",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP Mode",
+      "NTP_SERVER": "NTP Server",
+      "CAMERA_VIVID": "Camera Vivid Mode",
+      "CAMERA_VIVID_NOTE": "The device needs to be restarted in order to apply Camera Vivid mode."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Autoconnect",
+      "REMOTE_CONTROL_CONNECTION": "Remote Control Connection",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "You must pair the remote control manually after you disable and re-enable the connection."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Provisioning Server",
+      "PROVISIONING_MODE": "Provisioning Mode",
+      "PROVISIONING_MODE_OPTION_AUTO": "Auto",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Manual",
+      "PROVISIONING_MODE_OPTION_OFF": "Off",
+      "SERVER_TYPE": "Server Type",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS Server (Used for Lens provisioning)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly Provisioning Server",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS Server",
+      "SERVER_ADDRESS": "Server Address",
+      "USERNAME": "Username",
+      "PASSWORD": "Password"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Certificates",
+      "VALIDATE_PEER_CERTS": "Always validate peer certificates from server",
+      "INSTALLED_CERTIFICATES": "Installed Certificates",
+      "ISSUED_TO": "Issued To",
+      "ISSUED_BY": "Issued By",
+      "EXPIRATION_DATE": "Expiration Date",
+      "TYPE": "Type",
+      "CERTIFICATE_SIGNING_REQUEST": "Certificate Signing Request",
+      "NO_CERTIFICATES": "No records found"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Configuration",
+      "DESCRIPTION": "Export the configuration file to your local system, or import a configuration set from a local file. You must restart your device for an imported configuration to take effect.",
+      "IMPORT": "Import",
+      "IMPORT_DIALOG_TITLE": "Import configuration",
+      "EXPORT": "Export",
+      "EXPORT_DIALOG_TITLE": "Export configuration"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "If you don’t see the settings that you are looking for, please contact your Poly Lens  Administrator, or, login with the Device password.",
+      "ACTION": "Login with Device Password",
+      "PASSWORD": "Password",
+      "CANCEL": "Cancel",
+      "LOGIN": "Login",
+      "INVALID_PASSWORD": "The password you entered is invalid. Please enter the password again.",
+      "REQUIRED": "Required"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Password",
+      "CHANGE_PASSWORD": "Change Password",
+      "CURRENT_PASSWORD": "Current Password",
+      "CREATE_NEW_PASSWORD": "Create New Device Password",
+      "NEW_PASSWORD": "New Password",
+      "RE_ENTER_NEW_PASSWORD": "Re-enter New Password",
+      "PASSWORD_UNMATCH": "Passwords do not match. Please re-enter new password.",
+      "SIMPLE_PASSWORD": "Simple password",
+      "DEVICE_PASSWORD": "Device Password",
+      "WEAK_PASSWORD": "Use weak password (not recommended).",
+      "STRONG_PASSWORD_RECOMMENDED": "A strong password is recommended.",
+      "SAME_PASSWORD_ERROR": "You cannot use a password you have used before. Please enter a new password.",
+      "RECOMMENDATION_1": "Minimum length 15 characters",
+      "RECOMMENDATION_2": "Requires 2 lowercase letters",
+      "RECOMMENDATION_3": "Requires 2 uppercase letters",
+      "RECOMMENDATION_4": "Requires 2 numbers",
+      "RECOMMENDATION_5": "Requires 2 special characters"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Audio Equalizer",
+      "DESCRIPTION": "Get and Set Bass and Treble sliders. "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "By clicking \"I Accept\" below, you acknowledge and agree that your use of this software is governed by the terms of the ",
+      "EULA_LINK": "Poly End User License Agreement",
+      "EULA_I_ACCEPT": "I accept the End User License Agreement",
+      "BEGIN_SETUP": "Begin Setup",
+      "PASSWORD_INVALID": "The password you entered is invalid. Please enter the password again."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "Country",
+      "DEVICE_NAME": "Device Name",
+      "DEVICE_NAME_DESCRIPTION": "We recommend naming this device after the room or meeting space it is located in.",
+      "BEGIN_SETUP": "Begin Setup",
+      "PASSWORD_INVALID": "The password you entered is invalid. Please enter the password again."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Audio Test",
+      "DESCRIPTION": "It takes several minutes to complete the audio test and download the audio records to your local disk. Click 'Start Test' for the system to record audio from all audio input ports: microphone, USB and line-in.",
+      "START_TEST": "Start Test",
+      "MODAL_TITLE": "Audio Recording",
+      "MODAL_TIME": "Time:",
+      "DIALOG_TITLE": "Save Diagnostic File",
+      "PLEASE_WAIT": "Please wait while diagnostics are saved.",
+      "STOP_RECORDING": "Stop"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "On Device Disconnect",
+      "DESCRIPTION": "Automatically apply the selected behavior when you disconnect your headset from the Poly in-line adapter.",
+      "HOLD_ACTIVE_CALL": "Place Active Call on Hold",
+      "LOCK_SCREEN": "Lock Computer Screen",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Lock Computer Screen & Place Active Call on Hold",
+      "DO_NOTHING": "Do Nothing"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Headset to PC Radio Link",
+      "DESCRIPTION": "Keep the radio link to the PC active after the call ends.",
+      "ACTIVE_ONLY_DURING_CALL": "Active Only During Call",
+      "ALWAYS_ACTIVE": "Always Active"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}Settings{{close_tag}}",
+    "NAME_LABEL": "Name:",
+    "EMAIL_LABEL": "Email:",
+    "INVITED_BY_IT_ADMIN": "An IT administrator",
+    "INVITED": "{{invited_by_email}} has invited you to join {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Account",
+      "login": {
+        "TITLE": "Your Account",
+        "DESCRIPTION_INTRO": "You are not currently logged in. By logging in, you agree to our",
+        "DESCRIPTION_TERMS": "Terms of Service",
+        "DESCRIPTION_AND": "and",
+        "DESCRIPTION_PRIVACY": "Privacy Policy"
+      }
+    },
+    "General": {
+      "TITLE": "General",
+      "startOnSystemStartup": {
+        "TITLE": "Launch Poly Lens on Startup",
+        "DESCRIPTION": "Allow Poly Lens to start up automatically upon login."
+      },
+      "startMinimized": {
+        "TITLE": "Launch Application Minimized"
+      },
+      "eulaAccepted": {
+        "TITLE": "EULA",
+        "DESCRIPTION": " accepted by Administrator"
+      }
+    },
+    "Language": {
+      "TITLE": "Language",
+      "LABEL": "Select the language used in this application."
+    },
+    "Softphone": {
+      "TITLE": "Softphone",
+      "MODULE_NAME": "Module Name",
+      "MODULE_VERSION": "Module Version",
+      "ENABLE": "Enable",
+      "CONNECTED": "Connected",
+      "VIEW_ALL": "View All Supported Softphones",
+      "targetSoftphone": {
+        "TITLE": "Target Softphone",
+        "DESCRIPTION": "Indicates the softphone that will be used for outgoing calls and dial tone (for supported devices and softphone)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Media Player Action on Incoming Call",
+        "DESCRIPTION": "Controls the behavior of media player applications, such as iTunes and Windows Media Player, when you receive a softphone call."
+      },
+      "table": {
+        "TITLE": "Softphones & Media Players | Poly Enabled"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Notifications & Device Alerts",
+      "DISCLAIMER": "Your organization is managing some of your devices software update via Policy. Notifications for these devices will stay enabled.",
+      "enableNotifications": {
+        "TITLE": "Allow Desktop Notifications and Device Alerts"
+      },
+      "wellness": {
+        "TITLE": "Wellbeing",
+        "DESCRIPTION": "Proper hydration and consistent movement are essential to your wellbeing in a primarily stationary environment. Select options to customize notification frequency and timing.",
+        "hydrationEnabled": "Hydration reminder",
+        "visionEnabled": "Vision break reminder",
+        "hydrationEnabledTitle": "Hydration Reminders",
+        "visionEnabledTitle": "Vision Break Reminders"
+      },
+      "deviceAlerts": {
+        "TITLE": "Device Alerts",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Device Unpaired",
+        "lowBattery": "Low Battery",
+        "deviceCharging": "Device Charging",
+        "deviceDisconnected": "Device Disconnected",
+        "muteAlert": "Mute Alert",
+        "deviceSoftwareUpdate": "Device Software Update"
+      },
+      "softwareUpdate": {
+        "TITLE": "Software Update",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Software Update",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens Desktop Version",
+        "SOFTWARE": "Software",
+        "UP_TO_DATE": "You are up to date",
+        "RELEASE_NOTES": "View Release Notes",
+        "CHECKING_FOR_UPDATES": "Checking for Updates",
+        "UPDATE": "Update",
+        "UPDATE_AVAILABLE": "Available",
+        "DOWNLOADING": "Downloading",
+        "CONTINUE": "Continue",
+        "CONTINUE_DESC": "Select {{open_tag}}Continue{{close_tag}} to exit Poly Lens and install the update.",
+        "DOWNLOAD_ERROR": "There was an error downloading the update. Please check your internet connection and try again.",
+        "NOTIFICATION": "Your organization requires the use of specific software version. Please update as soon as possible."
+      }
+    },
+    "About": {
+      "TITLE": "About",
+      "COPYRIGHT": "2022-2024 HP Inc. All Rights Reserved.",
+      "PRIVACY_POLICY": "Privacy Policy",
+      "EULA": "End User License Agreement"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Pause & Resume",
+    "NO_ACTION": "No Action"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens Support",
+    "TITLE_OTHER": "Contact Support",
+    "QUICK_START_GUIDE": "Quick Start Guide",
+    "USER_GUIDE": "User Guide",
+    "DEVICE_INFO_AND_LOGS": "Device Info & Logs",
+    "CONTACT_SUPPORT": "Contact Support",
+    "CONTACT_TYPE": "Phone, Email & Online Support",
+    "DEVICE_INFO": "Device Information",
+    "APP_INFO": "Application Information",
+    "DEVICE_MODEL": "Device Model",
+    "SERIAL_NUMBER": "Serial Number",
+    "SOFTWARE_VERSION": "Software Version",
+    "COM_LIB_VERSION": "Device Communication Version",
+    "LENS_SYSTEM": "Lens System",
+    "LENS_SYSTEM_NOT_CONNECTED": "Not Connected",
+    "PID": "Product ID",
+    "LAST_CONNECTED": "Last Connected",
+    "USER_ID": "User ID",
+    "TENANT_ID": "Tenant ID",
+    "APP_ID": "Application ID",
+    "GET_ACCESS": "Access support and community forums",
+    "HP_SUPPORT": "Visit HP Support",
+    "GET_STARTED": "Getting started, documentation and more",
+    "POLY_SUPPORT_LINK": "Visit Support",
+    "POLY_COMMUNITY_LINK": "Visit Community",
+    "POLY_DOCUMENT_LINK": "Lens Desktop Online Help",
+    "DIAGNOSTICS": "Diagnostics",
+    "DIAGNOSTICS_DESCRIPTION": "For troubleshooting assistance, download logs to share with the Support team",
+    "DOWNLOAD_LOGS": "Download Logs",
+    "SAVE_LOGS": "Save Logs",
+    "NONE": "None",
+    "UNKNOWN": "Unknown"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "weekdays",
+    "Monday": "Monday",
+    "Tuesday": "Tuesday",
+    "Wednesday": "Wednesday",
+    "Thursday": "Thursday",
+    "Friday": "Friday",
+    "Saturday": "Saturday",
+    "Sunday": "Sunday",
+    "MON": "Mon",
+    "TUE": "Tue",
+    "WED": "Wed",
+    "THU": "Thu",
+    "FRI": "Fri",
+    "SAT": "Sat",
+    "SUN": "Sun",
+    "12:00 AM": "12:00 a.m.",
+    "1:00 AM": "1:00 a.m.",
+    "2:00 AM": "2:00 a.m.",
+    "3:00 AM": "3:00 a.m.",
+    "4:00 AM": "4:00 a.m.",
+    "5:00 AM": "5:00 a.m.",
+    "6:00 AM": "6:00 a.m.",
+    "7:00 AM": "7:00 a.m.",
+    "8:00 AM": "8:00 a.m.",
+    "9:00 AM": "9:00 a.m.",
+    "10:00 AM": "10:00 a.m.",
+    "11:00 AM": "11:00 a.m.",
+    "12:00 PM": "12:00 p.m.",
+    "1:00 PM": "1:00 p.m.",
+    "2:00 PM": "2:00 p.m.",
+    "3:00 PM": "3:00 p.m.",
+    "4:00 PM": "4:00 p.m.",
+    "5:00 PM": "5:00 p.m.",
+    "6:00 PM": "6:00 p.m.",
+    "7:00 PM": "7:00 p.m.",
+    "8:00 PM": "8:00 p.m.",
+    "9:00 PM": "9:00 p.m.",
+    "10:00 PM": "10:00 p.m.",
+    "11:00 PM": "11:00 p.m.",
+    "SHORT_LABELS": {
+      "12AM": "12 AM",
+      "4AM": "4 AM",
+      "8AM": "8 AM",
+      "12PM": "12 PM",
+      "4PM": "4 PM",
+      "8PM": "8 PM"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12am",
+      "1am": "1am",
+      "2am": "2am",
+      "3am": "3am",
+      "4am": "4am",
+      "5am": "5am",
+      "6am": "6am",
+      "7am": "7am",
+      "8am": "8am",
+      "9am": "9am",
+      "10am": "10am",
+      "11am": "11am",
+      "12pm": "12pm",
+      "1pm": "1pm",
+      "2pm": "2pm",
+      "3pm": "3pm",
+      "4pm": "4pm",
+      "5pm": "5pm",
+      "6pm": "6pm",
+      "7pm": "7pm",
+      "8pm": "8pm",
+      "9pm": "9pm",
+      "10pm": "10pm",
+      "11pm": "11pm"
+    },
+    "1 minute": "Every minute",
+    "30 minutes": "Every 30 minutes",
+    "1 hour": "Every hour",
+    "3 hours": "Every 3 hours"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Unavailable",
+    "SELECT_PLACEHOLDER": "Select"
+  }
+}

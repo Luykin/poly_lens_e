@@ -1,0 +1,58 @@
+<!-- Title -->
+<div class="grid">
+  <h3 class="col-12 py-1">
+    {{ 'SETTINGS.Softphone.table.TITLE' | translate }}
+  </h3>
+</div>
+<!-- Table -->
+<table class="table table-borderless col-12 font-sm">
+  <thead class="grid">
+    <tr class="grid col-12">
+      <th class="col-7 col-xl-7 text-left">
+        {{ 'SETTINGS.Softphone.MODULE_NAME' | translate }}
+      </th>
+      <th class="col-3 col-xl-3 text-left">
+        {{ 'SETTINGS.Softphone.ENABLE' | translate }}
+      </th>
+      <th class="col-2 col-xl-2 text-left">
+        {{ 'SETTINGS.Softphone.CONNECTED' | translate }}
+      </th>
+    </tr>
+  </thead>
+  @if(displayedSoftPhones && displayedSoftPhones.length) {
+  <tbody>
+    @for (softphone of displayedSoftPhones; track $index) {
+    <tr class="grid full-width mt-5">
+      <td class="col-7 col-xl-7 text-left">{{ softphone.displayName }}</td>
+      <td class="col-3 col-xl-3 text-left pt-5">
+        <oz-checkbox
+          [value]="softphone.enabled"
+          [checkboxId]="softphone.id.toString()"
+          (valueChanged)="onSoftPhoneEnabledChanged($event, softphone.id)"
+          [ngStyle]="{ 'vertical-align': 'middle' }"
+        ></oz-checkbox>
+      </td>
+      <td class="col-2 col-xl-2 pt-5">
+        @if(softphone.enabled && softphone.connected) {
+        <oz-icon icon="circle_check" color="#26870D" [size]="6"></oz-icon>
+        }
+      </td>
+    </tr>
+    }
+  </tbody>
+  }
+</table>
+<!-- Button to expand the table -->
+@if (softPhones && softPhones.length > 5) {
+<div class="col-12 grid mt-5">
+  <div class="col-6 col-xl-4"></div>
+  <div class="col-5">
+    <button class="link-primary font-sm" (click)="toggleFullTableView()">
+      {{
+        (tableExpanded ? 'BUTTONS.SHOW_LESS' : 'SETTINGS.Softphone.VIEW_ALL')
+          | translate
+      }}
+    </button>
+  </div>
+</div>
+}

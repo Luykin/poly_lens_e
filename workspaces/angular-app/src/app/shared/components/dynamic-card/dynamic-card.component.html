@@ -1,0 +1,64 @@
+<ng-template #noHeader>
+  @if(index) {
+  <div class="count" id="{{ id + '_number' }}">
+    {{ index }}
+  </div>
+  }
+</ng-template>
+@if(isRectangleCard) {
+<ng-container [class.disabled]="disabled">
+  <div class="has-tooltip card-sm">
+    @if(disabled === true) {
+    <div class="tooltip disabled">
+      {{ tooltipText }}
+    </div>
+    }
+    <div class="logo" id="{{ id + '_logo' }}">
+      <oz-icon [class.pt-15]="!description" [icon]="logo" [size]="5"></oz-icon>
+    </div>
+    <div class="title" id="{{ id + '_title' }}">{{ title }}</div>
+    <div class="description" id="{{ id + '_description' }}">
+      {{ description }}
+    </div>
+  </div>
+</ng-container>
+} @if(isDetailCard) {
+<ng-container [class.disabled]="disabled">
+  <div class="has-tooltip">
+    @if(disabled === true) {
+    <div class="tooltip disabled">
+      {{ tooltipText }}
+    </div>
+    }
+    <div class="card card-full">
+      <div class="card-details">
+        @if(header) {
+        <div class="header">{{ header }}</div>
+        } @else {
+        <ng-container *ngTemplateOutlet="noHeader"></ng-container>
+        }
+        <div class="title" id="{{ id + '_title' }}">{{ title }}</div>
+        <div class="description" id="{{ id + '_description' }}">
+          {{ description }}
+        </div>
+        @if(source) {
+        <div class="source">
+          <span id="{{ id + '_source_label' }}">{{ sourceLinkLabel }}: </span>
+          @if(sourceLink) {
+          <a
+            class="blue"
+            (click)="handleOpenBrowser()"
+            id="{{ id + '_source_link' }}"
+            >{{ source }}</a
+          >
+          }
+        </div>
+        }
+      </div>
+      <div class="logo">
+        <oz-icon [icon]="logo" id="{{ id + '_image' }}" [size]="6"></oz-icon>
+      </div>
+    </div>
+  </div>
+</ng-container>
+}

@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "Enhet må være koblet til et nettverk for å kobles til",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Avslutt enhetskonfigurasjon",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "Enhetskonfigurasjon er ikke fullført.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "{{deviceName}} kan ikke brukes før konfigurasjonen er fullført. Fremdriften lagres ikke.",
+  "EXIT_SETUP": "Avslutt konfigurasjon",
+  "GET_STARTED": "Kom i gang",
+  "NETWORK": "Nettverk",
+  "PROVISIONING": "Tilkobling",
+  "COMPLETE": "Fullført",
+  "BUTTON_BACK": "Bakside",
+  "BUTTON_SKIP": "Hopp over",
+  "BUTTON_NEXT": "Neste",
+  "BUTTON_FINISH": "Fullfør",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "{{deviceName}}-Konfigurasjon fullført!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Tilkoblingsenhet",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Tilkobling",
+  "POSTPONE_DFU_MESSAGE": "Oppdateringer er tilgjengelige for enhetene dine. Disse oppdateringene tar noen minutter. Ikke koble fra enheten under oppdateringsprosessen.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "En oppdatering er tilgjengelig for {{deviceName}}. Denne oppdateringen tar noen minutter. Ikke koble fra enheten under oppgradering.",
+  "UPDATE_NOW": "Oppdater nå",
+  "ASK_ME_LATER": "Spør meg senere",
+  "AUDIO_RECORDING_START": "Lydopptakstart",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}}-oppdatering utsettes 1 time",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}}-oppdatering utsettes {{hours}} timer",
+  "PLAY_GREETING_NAME": "Spill av hilsen",
+  "PLAY_GREETING_DESCRIPTION": "Velg en talefil som skal spilles av når du svarer på et anrop.",
+  "SELECT_FILE": "Velg fil",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Av",
+    "NARROW": "Smal",
+    "MEDIUM": "Medium",
+    "WIDE": "Bred",
+    "CAMERA_VIEW": "Match kameravisning"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Først og fremst ...",
+    "I_AGREE": "Jeg godtar",
+    "POLY_EULA": "Polys lisensavtale for sluttbrukere",
+    "CLOSE": "Lukk",
+    "PROCEED": "Fortsett"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Beste praksis",
+    "MENU": {
+      "HEADSET": "Hodesett",
+      "CAMERA": "Kamera",
+      "DESK_SETUP": "Arbeidsstasjonsoppsett"
+    },
+    "NEXT": {
+      "NEXT": "NESTE:",
+      "TITLE": "Beste praksis",
+      "LEARN_MORE": "Lær mer"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Godta",
+    "APPLY": "Bruk",
+    "CANCEL": "Avbryt",
+    "CONTINUE": "Fortsett",
+    "DECLINE": "Avslå",
+    "DONE": "Utført",
+    "LOG_IN": "Logg inn",
+    "LOG_OUT": "Logg av",
+    "OK": "OK",
+    "RETRY": "Prøv på nytt",
+    "SHOW_LESS": "Vis mindre",
+    "JOIN": "Bli med",
+    "JOINING": "Blir med",
+    "CREATE": "Opprett",
+    "INSTALL": "Installer",
+    "CHOOSE_FILE": "Velg fil",
+    "DELETE": "Slett",
+    "CLOSE": "Lukk",
+    "SELECT_FILE": "Velg fil",
+    "FEEDBACK": "Tilbakemelding"
+  },
+  "REQUIRED": "Obligatorisk",
+  "OPTIONAL": "Tilleggsutstyr",
+  "Download": "Last ned",
+  "Upload": "Opplasting",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "Operasjonen ble ikke fullført. Prøv på nytt.",
+  "RECEIVING_SETTINGS": "Mottaksinnstillinger",
+  "GENERAL": {
+    "BACK": "Bakside",
+    "CANCEL": "Avbryt",
+    "CLOSE": "Lukk",
+    "COMING_SOON": "KOMMER SNART",
+    "DOWNLOAD": "Last ned",
+    "DOWNLOADING": "Laster ned",
+    "LOADING": "Laster",
+    "FEEDBACK": "Tilbakemelding",
+    "HOME": "Hjem",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Legg til ny",
+    "EDIT_NAME": "Rediger navn",
+    "DELETE": "Slett",
+    "RESTORE_DEFAULTS": "Gjenopprett standardinnstillingene",
+    "SEARCH_SETTINGS": "Søkeinnstillinger",
+    "SUPPORT": "Brukerstøtte",
+    "UPLOAD": "Opplasting",
+    "UPDATE": "Oppdater",
+    "RETURN_HOME": "Tilbake til hovedskjerm",
+    "VERSION": "Versjoner",
+    "RECORDING": "Tar opp",
+    "RECOVER": "Gjenopprett"
+  },
+  "FTU": {
+    "WELCOME_TO": "Velkommen til",
+    "WELCOME_1": "La oss hjelpe deg med å få den beste opplevelsen med Poly Lens.",
+    "CONNECTIVITY": {
+      "HEADER": "Tilkobling",
+      "TITLE": "Lens administrerer enhetene dine"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Beste praksis",
+      "TITLE": "Lens forbedrer skrivebordsopplevelsen din"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Helse og velvære",
+      "TITLE": "Lens hjelper deg"
+    },
+    "EXPLORE": {
+      "BUTTON": "Fortsett som gjest"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Logg inn"
+    },
+    "GETTING_STARTED": "Komme i gang",
+    "LOGIN_CARD": {
+      "TITLE": "Kom i gang i dag!",
+      "DESCRIPTION": "Logg deg på Lens Desktop, slik at Poly og organisasjonen din kan gi deg den beste enhetsopplevelsen."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Montering",
+      "DESCRIPTION": "Plasser skjermen slik at øynene dine er på høyde med den øverste delen av skjermen. Fest kameraet midt på skjermen."
+    },
+    "CENTERING": {
+      "TITLE": "Sentrering",
+      "DESCRIPTION": "Du ser best ut når du er midt i kameravisningen. Kontroller at ansiktet er synlig og ikke beskjært. Prøv å plassere deg selv slik at andre kan se minst 15 cm av t-skjorten fra halsen og ned."
+    },
+    "LIGHTING": {
+      "TITLE": "Lys",
+      "DESCRIPTION": "Belysningen er det viktigste for å se bra ut på kameraet. Dagslys er en variabel lyskilde som kan komme i konflikt med innendørsbelysningen. Hvis det er mulig, bør du plassere arbeidsstasjonen slik at vinduene er bak skjermen og unngå sterke lyskilder bak deg. Indirekte belysning i taket fungerer best."
+    },
+    "BACKGROUND": {
+      "TITLE": "Bakgrunn",
+      "DESCRIPTION": "Bakgrunnsobjekter kan gjøre videoanrop mer personlige, men sørg for at du er det viktigste fokuspunktet. Når du er i tvil, er det bedre med færre bakgrunnsobjekter."
+    },
+    "NEXT": {
+      "SUBTITLE": "Arbeidsstasjonsoppsett"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Sjekkliste for tilkobling",
+    "POWER": {
+      "TITLE": "Kontroller strømbryteren",
+      "DESCRIPTION": "Er strømbryteren slått på?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Kontroller bluetooth-adapteren",
+      "DESCRIPTION": "Skinner det et blått lys på enden av adapteren? Noen ganger hjelper det å koble fra adapteren før du kobler den til igjen, for at hodesettet skal koble seg til."
+    },
+    "SUPPORT": {
+      "TITLE": "Kontakt kundestøtte.",
+      "DESCRIPTION": "Har du fortsatt problemer?",
+      "LINK": {
+        "TEXT": "Kontakt kundestøtte."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Arbeidsstasjon",
+      "DESCRIPTION": "Pass på at det ikke ligger noe under arbeidsstasjonen, og at du har god nok beinplass. Hvis du ikke kan justere høyden på arbeidsstasjonen, kan du heve eller senke stolen og bruke en fotstøtte om nødvendig."
+    },
+    "KEYBOARD": {
+      "TITLE": "Tastatur",
+      "DESCRIPTION": "Sørg for at du når tastaturet med avslappede skuldre med underarmene parallelt med gulvet.  Prøv å holde håndleddene rette med minimal bøying."
+    },
+    "CHAIR": {
+      "TITLE": "Stol",
+      "DESCRIPTION": "Velg en stol som støtter ryggraden din. Juster høyden på stolen slik at føttene hviler flatt på gulvet og at lårene holder seg parallelle med gulvet. Juster armlenene slik at armene hviler forsiktig på dem med avslappede skuldre."
+    },
+    "FEET": {
+      "TITLE": "Føtter",
+      "DESCRIPTION": "Sørg for at du kan hvile føttene flatt på gulvet. Bruk en fotstøtte hvis stolen er for høy, eller hev stolen hvis arbeidsstasjonen er for høyt oppe."
+    },
+    "MONITOR": {
+      "TITLE": "Skjerm",
+      "DESCRIPTION": "Plasser skjermen rett foran deg, omtrent en armlengdes avstand fra deg. Plasser skjermen 45 til 70 cm fra øynene, med toppen av skjermen på eller litt under øyenivå."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Hodesett",
+    "USB_ADAPTER": "USB-adapter",
+    "CUSTOM_SOFTWARE_UPDATE": "Egendefinert programvareoppdatering:",
+    "LOGS": "Logger:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Lagre loggene",
+    "SELECT_SOFTWARE_UPDATE": "Velg programvareoppdatering",
+    "SERIAL_NUMBER": "Serienummer:",
+    "SOFTWARE_VERSION": "Programvareversjon:",
+    "COUNTRY": "Land:",
+    "LENS_ACCOUNT": "Lens-konto:",
+    "HARDWARE_VERSION": "Maskinvareversjon:",
+    "HARDWARE_REVISION": "Maskinvarerevisjon:",
+    "ADDITIONAL_HARDWARE_REVISION": "Maskinvarerevisjon for hodesett:",
+    "MAC_ADDRESS": "Mac-adresse:",
+    "IP_ADDRESS": "IP-adresse:",
+    "DEVICE_DIAGNOSTIC_CODE": "Diagnosekode for enhet:",
+    "CRASH_REPORTS": "Krasjrapporter:",
+    "SAVE_CRASH_REPORTS": "Lagre krasjrapporter"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Statistikk",
+    "CHART": {
+      "TITLE": "Bruk",
+      "SERIES_NAME": "Total bruk"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Forsinkelse (ms)",
+      "NETWORK_SPEED": "Nettverkshastighet (Mbps)",
+      "RUNNING": "Kjører",
+      "START_TEST": "Kjør test",
+      "TEST_AGAIN": "Test på nytt",
+      "TEST_RESULTS": "Testresultater",
+      "TITLE": "Testing av nettverksdiagnostikk",
+      "NO_CONNECTION": "Du ser ut til å være frakoblet. Nettverkstesting er bare tilgjengelig når du er koblet til internett.",
+      "SUBTEXT": "Testing av nettverksdiagnostikk er en kommersiell forhåndsvisningsfunksjon."
+    }
+  },
+  "EE": {
+    "PAUSED": "Satt på pause",
+    "CONTINUE": "Trykk på MELLOMROM for å fortsette",
+    "FIRE": "SKIFT – Fire",
+    "MOVE": "PILER – Flytt",
+    "PAUSE": "MELLOMROM – Pause",
+    "EXIT": "ESC – Avslutt",
+    "START": "Trykk på MELLOMROM for å starte.",
+    "DONE": "Ikke dårlig. Bra jobba.",
+    "TRY_AGAIN": "Trykk på MELLOMROM for å prøve på nytt."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Justering av hodebåndet",
+      "DESCRIPTION": "Hvis du vil ha riktig passform, justerer du hodebåndet slik at øreklokkene på hodesettet er sentrert over eller på ørene, og at hodesettet ikke sitter for stramt eller for løst. Sjekk brukerveiledningen for hodesettet hvis du vil ha detaljerte justeringsinstruksjoner."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Stangform",
+      "DESCRIPTION": "Poly-stenger er bøybare og lette å plassere. Hvis hodesettet har en bom, plasserer du mikrofonen omtrent 5 cm fra leppene."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Plassering av stangen",
+      "DESCRIPTION": "Hvis hodesettet har en stang, kan du rotere den og bære den på både venstre og høyre side. Pass på at stangen er vendt mot munnen din og ikke oppover når du skal ta imot en samtale."
+    },
+    "NEXT": {
+      "SUBTITLE": "Kamera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Hei, {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Hallo, {{open_tag}}Gjest{{close_tag}}",
+    "GO_TO_DETAIL": "Gå til detaljer",
+    "CONNECT_A_DEVICE": "Koble til en enhet for å komme i gang.",
+    "NOT_SEEING_DEVICE": "Ser du ikke enheten din?",
+    "SUBMIT_FEEDBACK": "Send tilbakemelding",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Statistikk",
+        "DESCRIPTION": "Kontroller enhetsbruken og arbeidsstasjonstilkoblingen."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Helse og velvære",
+        "DESCRIPTION": "Få påminnelser om å hydrere deg selv og hvile. Spill av lydlandskap for å forbedre fokuset."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Beste praksis",
+        "DESCRIPTION": "Optimaliser kameraet, og lær hvordan du kan gjøre arbeidsområdet mer ergonomisk."
+      },
+      "SUPPORT": {
+        "TITLE": "Poly-kundestøtte",
+        "DESCRIPTION": "Opplever du problemer? La oss hjelpe deg."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Kantonesisk",
+    "1030": "Dansk",
+    "2057": "Engelsk (Storbritannia)",
+    "1033": "Engelsk (USA)",
+    "1036": "Fransk",
+    "1031": "Tysk",
+    "1040": "Italiensk",
+    "1041": "Japansk",
+    "1042": "Koreansk",
+    "1045": "Polsk",
+    "2052": "Mandarin",
+    "1044": "Norsk",
+    "2068": "Norsk",
+    "1049": "Russisk",
+    "1034": "Spansk",
+    "1053": "Svensk",
+    "16393": "Engelsk (India)",
+    "1057": "Indonesisk",
+    "1054": "Thai",
+    "1046": "Brasiliansk portugisisk"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Aktiv",
+    "INACTIVE": "Inaktiv",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI er designet for å hindre ikke-menneskelige lyder (som lyder fra tastatur eller papir som blas igjennom) i å påvirke møtene dine ved å høre etter for når lyden skjer, men ingen snakker, og automatisk dempe mikrofonen. Dempingen på mikrofonen oppheves så snart du begynner å snakke igjen.",
+    "FOR_INCOMING_DESCRIPTION": "Hindre distraherende lyder fra utkanten av samtalen (for eksempel tastaturskriving eller papirstokking) fra å forstyrre møtet.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI for innkommende lyd",
+    "FOR_OUTGOING_DESCRIPTION": "Hindre distraherende lyder i omgivelsene (for eksempel tastaturskriving eller papirstokking) fra å forstyrre møtet.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI for utgående lyd",
+    "SEE_HOW_WORKS": "Se hvordan det fungerer"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Lading",
+      "STOPPED": "Sluttet å lade"
+    },
+    "MUTE": {
+      "ON": "Demping på",
+      "OFF": "Demping av"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Programoppdatering {{build}} tilgjengelig."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Enhetsoppdatering tilgjengelig"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Enhet ikke funnet",
+      "MESSAGE": "Å nei. Det har oppstått et problem. Prøv på nytt."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Side ikke funnet",
+      "MESSAGE": "Å nei. Det har oppstått et problem. Prøv på nytt."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens krever tillatelse for å få tilgang til kameraet. Gi kameraet tilgang til Poly Lens i systeminnstillingene hvis du vil aktivere det."
+    },
+    "BUTTON": {
+      "CLOSE": "Lukk"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "Enheten er koblet fra"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "Lavt batterinivå"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Velkommen til Studio P21",
+      "CONTENT": "Hvis du vil bruke Studio P21, må du laste ned ekstra programvare for skjermen.",
+      "BUTTON": "Last ned"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Velkommen til din nye Studio P21!",
+      "CONTENT": "Velkommen til din nye Studio P21! Før du kan bruke den nye enheten, må du installere ekstra programvare for skjermen",
+      "BUTTON_DOWNLOAD": "Last ned her",
+      "BUTTON_MORE_INFO": "Mer informasjon"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} oppdaget. Åpne Poly Lens for å konfigurere denne enheten."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Flere språkfunksjoner er lastet inn."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Skjermen låses om fem sekunder. Koble hodesettet til den innebygde kontrolleren igjen for å fortsette å jobbe."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "Lagring av konfigurasjonen var vellykket.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "Konfigurasjonen ble ikke lagret.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP-serverkonfigurasjoner ble brukt.",
+    "CHANGE_NTP_SETTINGS_FAILED": "NTP-serverkonfigurasjoner kunne ikke brukes.",
+    "COPIED_TO_CLIPBOARD": "Kopiert til utklippstavlen",
+    "SAVE_CSR_FILE_SUCCESS": "CSR-fil er lagret.",
+    "SAVE_CSR_FILE_FAILED": "CSR-fil ble ikke lagret.",
+    "FILE_READ_FAILED": "Kunne ikke lese filen.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Sertifikat er installert.",
+    "CERTIFICATE_INSTALL_FAILED": "Kunne ikke installere sertifikatet.",
+    "CERTIFICATE_DELETE_SUCCESS": "Sertifikat ble slettet.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Passord er oppdatert.",
+    "CONFIG_EXPORT_FAILED": "Eksport mislyktes. Prøv på nytt.",
+    "CONFIG_IMPORT_FAILED": "Import mislyktes. Prøv på nytt.",
+    "CONFIG_EXPORT_SUCCEEDED": "Eksporten var vellykket.",
+    "CONFIG_IMPORT_SUCCEEDED": "Importen var vellykket.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Lyddiagnostikk mislyktes. Prøv på nytt.",
+    "WIFI_JOIN_ERROR": "Nettverket kunne ikke kobles til. Kontroller informasjonen og prøv igjen.",
+    "CRASH_REPORTS_SUCCESS": "Krasjrapporter lastet ned.",
+    "CRASH_REPORTS_FAILED": "Krasjrapporter ikke funnet.",
+    "NETWORK_ERROR": "Nettverkstilkobling er ikke tilgjengelig. Noen funksjoner kan være begrenset til tilkoblingen er gjenopprettet."
+  },
+  "DETAIL": {
+    "AUTO": "Automatisk",
+    "TITLE": "Detaljside",
+    "BACK_TO_HOME": "Tilbake til Hjem",
+    "CAMERA": "Kamera",
+    "CONTROLS": "Kontroller",
+    "EXPAND": "Utvid",
+    "LINK": "Koble til",
+    "UNLINK": "Koble fra",
+    "CONTRACT": "Trekk sammen",
+    "GRID": "Rutenett",
+    "SETTINGS": "Angi",
+    "FAVORITES": "Favoritter",
+    "FAVORITE_DELETE_CONFIRM": "Er du sikker på at du vil slette favoritten «{{favoriteName}}»?",
+    "FAVORITE_NUMBER": "Favoritt {{number}}",
+    "FAVORITE_SAVE_AS": "Lagre som ny favoritt",
+    "FAVORITES_SAVED": "Tatt opp",
+    "FAVORITE_COPY": "{{favoriteName}} kopi",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Klikk på Vis-ikonet nedenfor for å starte forhåndsvisning.",
+    "PREVIEW_SHOW": "Vis",
+    "PREVIEW_HIDE": "Skjul",
+    "PREVIEW_HIDDEN": "Forhåndsvisning skjult",
+    "PREVIEW_WINDOWS_NOTICE": "Andre programmer kan ikke bruke dette kameraet når Fforhåndsvisning er aktivert.",
+    "PREVIEW_CONTROLS_READ_ERROR": "En annen app bruker dette kameraet.{{line_feed}}Lukk det for å aktivere forhåndsvisning og innstillinger.{{line_feed}}{{line_feed}}Hvis det ikke fungerer, kontroller at den andre appen ikke kjører i bakgrunnen.",
+    "SNAPSHOT": "Stillbilde",
+    "SNAPSHOT_SAVE": "Lagre stillbilde",
+    "SNAPSHOT_SAVED_SUCCESS": "Lagring av stillbilde var vellykket.",
+    "SNAPSHOT_SAVED_FAIL": "Bildet ble ikke lagret.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "stillbilde",
+    "SANDBOX": "Sandkasse",
+    "IT_MANAGED": "IT-administrert",
+    "HEADSET": "Hodesett",
+    "SUPPORT": "Brukerstøtte",
+    "USB_ADAPTER": "USB-adapter",
+    "CHARGING_CASE": "Etui",
+    "CHARGING_CASE_NAME": "Ladeetui",
+    "DEVICES": "Enheter",
+    "OVERVIEW": {
+      "OVERVIEW": "Oversikt",
+      "BATTERY_LABEL": "Batteri:",
+      "BATTERY_CRITICAL": "Kritisk",
+      "WIFI_LABEL": "Nettverk:",
+      "PROVISION_LABEL": "Tilkobling:",
+      "PROVISION_AUTO": "Generelt",
+      "PROVISION_OFF": "Tilkobling",
+      "PROVISION_NOT_SET_UP": "Ikke konfigurert",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "Enheten vil fungere, men vil ikke fjernadministreres",
+      "SET_PROVISION": "Klikk for å kongifurere tilkobling",
+      "STATUS_LABEL": "Status:",
+      "HEADSET_STATUS_LABEL": "Hodesett:",
+      "FIRMWARE_LABEL": "Programvare:",
+      "CONNECTED": "Tilkoblet",
+      "NOT_CONNECTED": "Ikke tilkoblet",
+      "DISCONNECTED": "Frakoblet",
+      "PAIRING_MODE": "Sammenkoble Bluetooth-lyd",
+      "PAIR_REMOTE": "Sammenkoble Bluetooth-fjernkontroll",
+      "USB_PAIRING_MODE": "Sammenkoble en ny enhet",
+      "MAKE_PRIMARY": "Gjør til primær",
+      "DELETE_DEVICE": "Slett enhet",
+      "TROUBLE_CONNECTING": "Har du problemer med å koble til enheten din?",
+      "AVAILABLE_FIRMWARE": "Tilgjengelig:",
+      "SAVE_BUTTON": "Lagre",
+      "CANCEL_BUTTON": "Avbryt",
+      "RENAME_DEVICE": "Gi nytt navn",
+      "DEVICE_NAME": "Navn:",
+      "RECOVERY_MODE": "Gjenopprettingsmodus",
+      "POLICY_UPDATE_NOTE": "Organisasjonen krever at denne enheten bruker en bestemt programvareversjon. Oppdater så snart som mulig.",
+      "CASE_UPDATE_NOTE": "Koble til USB-kabelen for å oppdatere ladeetuiet"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Enhet oppdaget",
+      "SETUP_REQUIRED": "Konfigurasjon kreves for enhetsbruk.",
+      "IMPORT_CONFIGURATION": "Importer konfigurasjon",
+      "BEGIN_SETUP": "Start konfigurasjon",
+      "MODAL": {
+        "TITLE": "Importer konfigurasjon",
+        "DESCRIPTION": "Oppgi navnet og sikkerhetstypen for nettverket du vil koble til.",
+        "LABEL_INPUT": "Enhetsnavn",
+        "INPUT_PLACEHOLDER": "Tilleggsutstyr",
+        "INPUT_RECOMMENDATION": "Vi anbefaler å navngi denne enheten etter rommet eller møterommet den er plassert i."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Ved å klikke på «Jeg godtar» nedenfor, erkjenner du og erklærer deg enig i at din bruk av denne programvaren reguleres av vilkårene til ",
+      "EULA_LINK": "Polys lisensavtale for sluttbrukere",
+      "EULA_I_ACCEPT": "Jeg godtar lisensavtalen for sluttbrukere",
+      "BEGIN_SETUP": "Start konfigurasjon",
+      "PASSWORD_INVALID": "Det oppgitte passordet er ugyldig. Skriv inn passordet på nytt."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Åpne",
+      "NO_DEVICES": "Ingen enheter er tilkoblet.",
+      "QUIT": "Avslutt Poly Lens",
+      "SOUNDSCAPING": "Soundscaping",
+      "MDA_AUDIO_RECORDING": "Lydopptak mens dempet er aktivert",
+      "MDA_AUDIO_RECORDING_START": "Spill inn talenotater",
+      "MDA_AUDIO_RECORDING_STOP": "Stopp opptak av talenotater",
+      "OFF": "Av"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Helse og velvære",
+    "SOUNDSCAPING": {
+      "TITLE": "Soundscaping",
+      "ENABLE_SOUNDSCAPES": "Aktiver Soundscapes",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Legg lydlandskap til omgivelsene dine",
+          "DESCRIPTION": "Et beroligende miljø kan bidra til å holde distraksjonene på avstand. Soundscape omfatter naturlige lyder fra fosser, vind, bekker, skoger og hav. Disse kuraterte biofiliske lydene kan bidra til å redusere stress og forbedre fokus."
+        }
+      },
+      "MOUNTAIN_RANCH": "Mountain Ranch",
+      "GENTLE_OCEAN": "Gentle Ocean",
+      "BABBLING_BROOK": "Babbling Brook",
+      "AT_VOLUME": "ved volum"
+    },
+    "HYDRATION": {
+      "TITLE": "Hydrering",
+      "REMINDERS": "Påminnelser om hydrering",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Drikk vann",
+          "DESCRIPTION": "For å forbli hydrert trenger menn ca. 3,7 liter vann og kvinner trenger ca. 2,7 liter vann hver dag.",
+          "SOURCE_LINK_LABEL": "Kilde",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "På tide med en vannpause",
+        "BODY": "Det å være godt hydrert kan forbedrere søvnkvalitet, kognisjon og humør."
+      }
+    },
+    "VISION": {
+      "TITLE": "Syn",
+      "REMINDERS": "Påminnelser om pause for øynene",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Se bort fra skjermen",
+          "DESCRIPTION": "En god regel å følge er 20-20-20-regelen, som betyr at du hvert 20. minutt ser på noe som er 20 fot (6 m) unna i 20 sekunder."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Beveg på deg",
+          "DESCRIPTION": "20-20-20-regelen er en god start, men sørg for at du forlater arbeidsstasjonen og kommer deg ut, tøyer eller øver på oppmerksomt nærvær."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "På tide med en pause",
+        "BODY": "Hvis du tar en pause, kan det øke oppmerksomheten, produktiviteten og kvaliteten på arbeidet ditt"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Angi purrefrekvens",
+    "REMINDER_SCHEDULE": "{{timeSpan}} på {{days}} mellom {{startTime}} og {{endTime}}",
+    "FREQUENCY": "Frekvens",
+    "TIME_RANGE": "Tidsintervall",
+    "WEEKDAYS": "Ukedager (M-F)",
+    "WEEKDAYS_SHORT": "Hverdager",
+    "EVERY_DAY": "Hver dag",
+    "CUSTOM": "Egendefinert",
+    "ON": "på",
+    "LEARN_MORE": "Lær mer",
+    "NEXT": "NESTE",
+    "THROUGH": "til"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Hvordan Acoustic Fence fungerer",
+      "TITLE": "Hvordan Acoustic Fence fungerer",
+      "DESCRIPTION": "Acoustic Fence bruker avansert ekkokanselleringsteknologi og flere mikrofoner for å lage et virtuelt «lydgjerde». Dette reduserer virkningen som distraherende lyder utenfor gjerdet kan ha på samtalen din, som skravling fra kollegaene dine. {{line_feed}}For den beste opplevelsen, bruk det sammen med Poly NoiseBlockAI for å undertrykke bakgrunnsstøy som ikke er tale, spesielt tastaturlyder, papirrasling og til og med bjeffende hunder."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Hvordan NoiseBlockAI fungerer",
+      "TITLE": "Hvordan NoiseBlockAI fungerer",
+      "DESCRIPTION": "NoiseBlockAI er utformet for å hindre ikke-menneskelige lyder (for eksempel tastaturskriving eller papirstokking) fra å forstyrre møtene dine ved hjelp av maskinlæringsbaserte støyundertrykkingsteknikker for å redusere distraherende bakgrunnsstøy både i miljøet ditt og fra den andre siden av samtalen. {{line_feed}}Og når du ikke snakker, demper NoiseBlockAI automatisk mikrofonen for å hindre at bakgrunnsstøy forstyrrer samtalen."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Gjenopprett stndr.innst.",
+      "CONFIRM_MESSAGE": "Dette gjenoppretter alle fabrikkinnstillingene for enheten.",
+      "COMPLETE_TITLE": "Innstillingene er gjenopprettet.",
+      "COMPLETE_MESSAGE": "Husk å koble fra (hvis USB-tilkoblet) og slå hodesettet av/på for at de nye innstillingene skal bli gjeldende.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "Enheten kan måtte starte på nytt nå for å fullføre denne prosessen."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Start enhet på nytt",
+      "CONFIRM_MESSAGE": "Denne handlingen starter enheten på nytt umiddelbart."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Gjenopprett standardinnstillingene",
+      "CONFIRM_MESSAGE": "Dette vil gjenopprette alle standardinnstillingene for Lens."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Lydtittel",
+      "CONFIRM_MESSAGE": "Lydbekreftelsesmelding."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Lær mer om Anti-Startle",
+      "TITLE": "Om Anti-Startle",
+      "INTRO": "Det finnes to eller tre ulike typer Anti-Startle-beskyttelse, avhengig av produktet:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "En australsk industristandard for akustisk sjokkbeskyttelse som begrenser lydnivået som når øret ditt, for å unngå skade fra høye volum.",
+      "G616_POLY_ENHANCED": "G616 (Poly Enhanced)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Polys rettighetsbeskyttede algoritmer gjelder for mer enn G616-beskyttelse ved å eliminere plutselige høye lyder og redusere dem umiddelbart for å gi deg en behagelig lytteopplevelse samtidig som lydkvaliteten opprettholdes.",
+      "OFF": "Av",
+      "OFF_DESCRIPTION": "Når denne innstillingen er deaktivert, avgir hodesettet ufiltrert lyd, men det vil fortsatt ha en øvre lydnivågrense på 118 dBA for å beskytte hørselen din.",
+      "NOTE": "MERK",
+      "NOTE_DESCRIPTION": "Dette alternativet er produktavhengig.",
+      "MORE_INFO": "Hvis du vil ha mer informasjon om denne funksjonen, kan du gå til"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Finn og koble til et Wi-Fi-nettverk",
+      "NETWORK_NAME": "Nettverksnavn",
+      "DESCRIPTION": "Oppgi navnet og sikkerhetstypen for nettverket du vil koble til.",
+      "PASSWORD_TITLE": "Legg til passord for {{networkName}}-nettverk",
+      "SECURITY": "Sikkerhet",
+      "EAP_METHOD": "EAP-metode",
+      "PHASE2": "Fase 2-godkjenning",
+      "CA_CERTIFICATE": "CA-sertifikat",
+      "USER_CERTIFICATE": "Brukersertifikat",
+      "IDENTITY": "Identitet",
+      "ANONYMOUS_IDENTITY": "Anonym identitet",
+      "PASSWORD": "Passord",
+      "IP_SETTINGS": "IP-innstillinger",
+      "STATIC": "Statisk",
+      "SHOW_ADVANCED": "Vis avanserte innstillinger",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP-adresse",
+      "GATEWAY": "Gateway",
+      "SUBNET_MASK": "Nettverksmaske",
+      "DNS1": "DNS-adresse 1",
+      "DNS2": "DNS-adresse 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Administrer kjente nettverk",
+      "NO_NETWORKS": "Det er ingen kjente nettverk. Koble til."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Opprett forespørsel om sertifikatsignering",
+      "DESCRIPTION": "Spesifiser nedenfor informasjonen for sertifikatforespørselen din.",
+      "COUNTRY": "Land",
+      "STATE": "Delstat eller provins",
+      "CITY": "By eller sted",
+      "ORGANIZATION": "Organisasjon",
+      "ORGANIZATION_UNIT": "Organisasjonsenhet",
+      "COMMON_NAME": "Vanlig navn",
+      "SAVE_FILE_TITLE": "Lagre filen med forespørsel om sertifikatsignering"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Installer sertifikat",
+      "TYPE": "Type",
+      "CERTIFICATE": "Sertifikat",
+      "CHOOSE_FILE_TITLE": "Velg fil"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Sertifikatdetaljer",
+      "PASSWORD_ERROR": "Passordet du skrev inn er ikke gyldig. Skriv inn passordet på nytt.",
+      "PASSWORD": "Passord til privat nøkkel:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Dette er primærenheten din.",
+    "MAKE_DEVICE_MAIN": "Gjør denne enheten til primærenheten din.",
+    "DEVICE_NOT_SUPPORTED": "Enhetsstøtte kommer snart. Funksjonaliteten i programmet kan være begrenset.",
+    "DISABLED_BY_ADMIN": "Funksjon er deaktivert av administratoren"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Programvarekomponenter",
+    "VIEW_LIST_OF_COMPONENTS": "Se {{numberOfComponents}}-komponenter",
+    "VIEW_ONE_COMPONENT": "Se 1 komponent",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "Lydinnstilling",
+    "BASE": "Baseenhet",
+    "HEADSET": "Hodesett",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "Kamera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Nesten ferdig!",
+    "REPLUG_DESCRIPTION": "Koble fra og koble til enheten på nytt, og klikk deretter på Fortsett for å fullføre oppdateringen.",
+    "UPDATE_WARNING_1": "Denne oppdateringen tar noen minutter.",
+    "UPDATE_WARNING_2": "{{open_tag}}Ikke koble fra enheten{{close_tag}} under oppgradering.",
+    "UPDATE_WARNING_3": "Kontroller at kameraet ikke er i bruk av et annet program før du fortsetter med denne programvareoppdateringen.",
+    "DISTANCE_WARNING.TITLE": "Gjør deg klar til å oppdatere",
+    "DISTANCE_WARNING_1": "Hold {{open_tag}}{{device_name}}{{close_tag}} innenfor en radius på 1,5 meter fra datamaskinen under oppdateringen.",
+    "DISTANCE_WARNING_2": "Koble fra andre Bluetooth-tilkoblinger (for eksempel en mobiltelefon) for å unngå at oppdateringen blir avbrutt.",
+    "LANGUAGE_DOWNLOAD": "Last ned språk",
+    "DOWNLOADING_LANGUAGE": "Laster ned språk",
+    "LANGUAGE_UPDATE": "Språkoppdatering",
+    "UPDATEING_LANGUAGE": "Oppdaterer språk",
+    "LANGUAGE_UPDATED": "Språkoppdatering",
+    "SOFTWARE_DOWNLOAD": "Programvarenedlasting",
+    "DOWNLOADING_SOFTWARE": "Laste ned programvare",
+    "SOFTWARE_UPDATE": "Programvareoppdatering",
+    "UPDATING_SOFTWARE": "Oppdaterer programvaren",
+    "SOFTWARE_INSTALLED": "Programvaren er installert",
+    "CUSTOM_SOFTWARE_UPDATE": "Egendefinert programvareoppdatering",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Laster opp egendefinert programvareoppdatering",
+    "CUSTOM_SOFTWARE_INSTALLED": "Egendefinert programvare er installert",
+    "DEVICE_RECOVERY": "Enhetsgjenoppretting",
+    "RECOVERING_DEVICE": "Gjenoppretter enhet",
+    "DEVICE_RECOVERED": "Enhet gjenopprettet",
+    "UPDATE_FAILED": "Programvareoppdatering mislyktes",
+    "UPDATE_FAILED_TITLE": "Å nei. Vi har et problem.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "Programvareoppdateringen ble ikke fullført.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "Programvaren er allerede oppdatert",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "Enheten du prøvde å oppdatere, har allerede den nyeste programvaren.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Batterinivået er for lavt til å utføre en oppdatering. Lad opp batteriet i {{deviceName}} før du oppdaterer.",
+      "DeviceNotConnectedError": "Koble {{deviceName}}-enheten til med ledning for å oppdatere.",
+      "CallinProgressError": "Kan ikke oppdatere {{deviceName}} under en samtale.",
+      "DFUInProgressError": "Kan ikke oppdatere {{deviceName}} mens en annen oppdatering pågår.",
+      "MultipleDevicesError": "To eller flere enheter av samme modell er koblet til. Koble fra de andre enhetene før du oppdaterer denne enheten.",
+      "ReplugDevice": "Koble fra og koble til enheten på nytt for å fullføre programvareoppdateringen.",
+      "CameraInUseError": "Kontroller at forhåndsvisning av kameraet er deaktivert, og at mikrofonen og kameraet ikke er aktive i andre programmer.",
+      "SingleEarbudError": "Kontroller at begge øreproppene er koblet til, ute av etuiet og at de har mer enn 50 % batteri til oppdateringen."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Generelt",
+    "DisplayControls": "Skjermkontroller",
+    "RingtoneAndVolume": "Ringetoner og volum",
+    "Audio": "Lyd",
+    "SensorAndPresence": "Sensorer og tilstedeværelse",
+    "SoftphonesAndMediaPlayers": "PC-telefoner og mediespillere",
+    "Wireless": "trådløs",
+    "Advanced": "Avansert",
+    "ANC": "ANC",
+    "Firmware": "Fastvare",
+    "Language": "Språk",
+    "VoicePromptsAndTones": "Talebeskjeder og toner",
+    "Admin": "Admin",
+    "ResetHeadset": "Tilbakestill enheten",
+    "Lights": "Lys",
+    "CustomButton": "Tilpasset knapp",
+    "CustomSwipe": "Tilpasset sveipesensor",
+    "Diagnostics": "Diagnostikk",
+    "SoftwareSettings": "Programvareinnstillinger"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Språk",
+      "description": "Velg ønsket språk for alle talemeldinger og varsler. For eksempel «innkommende anrop fra John.» eller «Demp lyden.»",
+      "serverNotReachable": "Du kan ikke endre språket nå fordi serveren ikke er tilgjengelig.",
+      "options": {
+        "3076": "Kantonesisk",
+        "1030": "Dansk",
+        "2057": "Engelsk – Storbritannia",
+        "1033": "Engelsk – USA",
+        "1036": "Fransk",
+        "1031": "Tysk",
+        "1040": "Italiensk",
+        "1041": "Japansk",
+        "1042": "Koreansk",
+        "1045": "Polsk",
+        "2052": "Mandarin",
+        "1044": "Norsk – Bokmål",
+        "2068": "Norsk – nynorsk",
+        "1049": "Russisk",
+        "1034": "Spansk",
+        "1053": "Svensk",
+        "16393": "Engelsk – India",
+        "1057": "Indonesisk",
+        "1054": "Thai",
+        "1046": "Portugisisk – Brasil"
+      }
+    },
+    "0x102": {
+      "name": "Andre innkommende anrop",
+      "description": "Kontroller ringeatferden for et innkommende anrop fra en andre kommunikasjonsvei (f.eks. et innkommende mobilanrop når du sitter i en pågående PC-telefonsamtale).",
+      "options": {
+        "ignore": "Ignorer",
+        "once": "Ring én gang",
+        "continuous": "Ring kontinuerlig"
+      }
+    },
+    "0x103": {
+      "name": "Volum for datamaskin",
+      "description": "",
+      "options": {
+        "off": "Av",
+        "low": "Lavt volum",
+        "standard": "Standard volum"
+      }
+    },
+    "0x104": {
+      "name": "Volum for bordtelefon",
+      "description": "",
+      "options": {
+        "off": "Av",
+        "low": "Lavt volum",
+        "standard": "Standard volum"
+      }
+    },
+    "0x105": {
+      "name": "Mobiltelefonvolum",
+      "description": "",
+      "options": {
+        "off": "Av",
+        "low": "Lavt volum",
+        "standard": "Standard volum"
+      }
+    },
+    "0x106": {
+      "name": "PCen.",
+      "description": "Velg ringetonen (og volumet for enkelte modeller) du hører når PC-telefonen ringer.",
+      "options": {
+        "sound1": "Lyd 1",
+        "sound2": "Lyd 2",
+        "sound3": "Lyd 3",
+        "off": "Av"
+      }
+    },
+    "0x107": {
+      "name": "Bordtelefon",
+      "description": "Velg ringetonen (og volumet for aktuelle modeller) du hører når bordtelefonen ringer.",
+      "options": {
+        "sound1": "Lyd 1",
+        "sound2": "Lyd 2",
+        "sound3": "Lyd 3",
+        "off": "Av"
+      }
+    },
+    "0x108": {
+      "name": "Mobiltelefon",
+      "description": "Velg ringetonen (og volumet for enkelte modeller) du hører når den mobile enheten ringer.",
+      "options": {
+        "sound1": "Lyd 1",
+        "sound2": "Lyd 2",
+        "sound3": "Lyd 3",
+        "off": "Av"
+      }
+    },
+    "0x109": {
+      "name": "Ringetone",
+      "description": "Spill av en ringetone du hører når en tilkoblet enhet mottar et anrop og er konfigurert til ikke å spille av sin egen ringetone."
+    },
+    "0x10A": {
+      "name": "Standard ringevolum",
+      "description": "Konfigurer standard ringevolum.",
+      "options": {
+        "off": "Av",
+        "low": "Lav",
+        "medium": "Medium",
+        "high": "Høy"
+      }
+    },
+    "0x200": {
+      "name": "Brukssensor",
+      "description": "Slå på denne hovedinnstillingen for å tillate individuell konfigurasjon av sensoravhengige innstillinger."
+    },
+    "0x201": {
+      "name": "Automatisk svar",
+      "description": "Svar automatisk på et innkommende anrop når du tar på deg hodesettet mens telefonen ringer."
+    },
+    "0x202": {
+      "name": "Smart lydoverføring",
+      "description": "Overfør samtalelyd automatisk fra hodesettet til de mobilen når du fjerner hodesettet. Sett hodesettet på igjen for å overføre samtalelyd tilbake til hodesettet."
+    },
+    "0x203": {
+      "name": "Lås for ringeknapp",
+      "description": "Lås hodesettets ringeknapp for å unngå utilsiktede anrop når du ikke bruker hodesettet."
+    },
+    "0x204": {
+      "name": "Sett musikk automatisk på pause",
+      "description": "Sett automatisk strømmet lyd fra en mobil enhet på pause når hodesettet blir tatt av øret (og gjenoppta lyden når du plasserer det tilbake på øret igjen). Deaktiver for å spille av strømmet lyd kontinuerlig."
+    },
+    "0x205": {
+      "name": "Automatisk demping",
+      "description": "Demper automatisk hodesettets mikrofon når du tar av hodesettet under en samtale."
+    },
+    "0x206": {
+      "name": "Lyd for aktivt anrop",
+      "description": "Velg den handlingen du vil at hodesettet skal utføre, når du tar det av hodet under et aktivt anrop.",
+      "options": {
+        "doNothing": "Ikke gjør noe",
+        "transferAudioToMobile": "Overføre lyd til mobiltelefon",
+        "muteMic": "Dempe mikrofonen"
+      }
+    },
+    "0x300": {
+      "name": "Automatisk svar (uten sensor)",
+      "description": "Svar automatisk på et innkommende anrop når du fjerner hodesettet fra ladeholderen. Velg Av for å svare på innkommende anrop når du trykker på ringekontrollknappen."
+    },
+    "0x301": {
+      "name": "Koble automatisk til mobiltelefonen",
+      "description": "Koble Savi-basen automatisk til mobiltelefonen igjen når den kommer innenfor baseenhetens rekkevidde."
+    },
+    "0x302": {
+      "name": "Sett den i holderen for å koble den fra automatisk",
+      "description": "Koble automatisk fra et anrop når du fjerner hodesettet fra ladeholderen."
+    },
+    "0x400": {
+      "name": "Standard telefonlinje",
+      "description": "Angi utgående linje som telefonen bruker når du trykker på hodesettets samtalekontrollknapp.",
+      "options": {
+        "pstn": "Bordtelefon",
+        "voip": "Datamaskin",
+        "mobile": "Mobil"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Aktiver for å koble til den mobile enheten din via Bluetooth."
+    },
+    "0x402": {
+      "name": "Mobile talekommandoer",
+      "description": "Aktiver for å sette en tilkoblet mobil enhet i talekommandomodus ved å trykke på knappen for mobil enhet på basen."
+    },
+    "0xB05": {
+      "name": "Varsel om innkommende anrop",
+      "description": "Når du mottar et innkommende anrop, hører du en talemelding."
+    },
+    "0x913": {
+      "name": "Ventepåminnelse",
+      "description": "Motta en nyttig påminnelse om at du har en samtale på vent."
+    },
+    "0xB06": {
+      "name": "Varsler for laveste/høyeste volumnivå",
+      "description": "Velg lyden som høres når laveste/høyeste volumnivå er nådd.",
+      "options": {
+        "voice": "Tale",
+        "tone": "Tone"
+      }
+    },
+    "0x500": {
+      "name": "Støyeksponering",
+      "description": "Overvåk og kontroller den daglige eksponeringen for støy for å sikre at den ikke overstiger den valgte handlingsverdien (80 dBA eller 85 dBA) som spesifiseres av gjeldende lovgivning.",
+      "options": {
+        "85db": "Begrenset til 85 dBA",
+        "80db": "Begrenset til 80 dBA",
+        "off": "Ingen begrensning"
+      }
+    },
+    "0x501": {
+      "name": "Timer i telefonen per dag",
+      "description": "Optimaliser nøyaktigheten for innstillingen av støyeksponering ved å velge verdien som best representerer din vanlige bruk av denne enheten.",
+      "options": {
+        "off": "Av",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Antisjokk",
+      "description": "Intelligente algoritmer som fjerner akustisk sjokk fra høye lyder, og som umiddelbart reduserer dem for din sikkerhet og lyttekomfort."
+    },
+    "0x505": {
+      "name": "Antisjokk",
+      "description": "G616 er en industristandard for akustisk beskyttelse. Det begrenser lydnivået som når øret ditt for å unngå å skvette fra høyt volum."
+    },
+    "0x600": {
+      "name": "Svar/ignorer",
+      "description": "Hør en talemelding som ber deg om å «svare» eller «ignorere» et anrop når du mottar et innkommende anrop på mobiltelefonen."
+    },
+    "0x601": {
+      "name": "Anropsvarsel",
+      "description": "Du hører talevarselet Answering Call (Besvarer anrop) når du svarer på et innkommende anrop via hodesettet."
+    },
+    "0x602": {
+      "name": "Varsel for «Demping av»",
+      "description": "Tilbakemeldingen du hører når du slår hodesettets mikrofonsperre av og på.",
+      "options": {
+        "false": "Tone",
+        "true": "Tale"
+      }
+    },
+    "0x603": {
+      "name": "Hyppighet for varsel om mikrofonsperre",
+      "description": "Angi antall minutter mellom påminnelser om demping.",
+      "options": {
+        "off": "Av",
+        "1": "1 minutt",
+        "2": "2 minutter",
+        "3": "3 minutter",
+        "4": "4 minutter",
+        "5": "5 minutter",
+        "6": "6 minutter",
+        "7": "7 minutter",
+        "8": "8 minutter",
+        "9": "9 minutter",
+        "10": "10 minutter",
+        "11": "11 minutter",
+        "12": "12 minutter",
+        "13": "13 minutter",
+        "14": "14 minutter",
+        "15": "15 minutter"
+      }
+    },
+    "0x604": {
+      "name": "Volum for påminnelse om demping",
+      "description": "Still inn volumet for lyddempingsvarselet.",
+      "options": {
+        "off": "Av",
+        "low": "Lavt volum",
+        "standard": "Standard volum"
+      }
+    },
+    "0x607": {
+      "name": "Varsler for mikrofonsperre av/på",
+      "description": "Velg typen varsel du hører når du demper eller opphever demping av mikrofonen på hodesettet eller mottar en påminnelse om demping.",
+      "options": {
+        "voice": "Tale",
+        "singleTone": "Enkelttone",
+        "doubleTone": "Dobbel tone"
+      }
+    },
+    "0x608": {
+      "name": "Systemtone",
+      "description": "Angi volumet for hodesettets lydvarsler.",
+      "options": {
+        "off": "Av",
+        "low": "Lavt volum",
+        "standard": "Standard volum"
+      }
+    },
+    "0x609": {
+      "name": "Volumnivåtoner",
+      "description": "Når du justerer volumet, hører du toner som indikerer det gjeldende volumnivået.",
+      "options": {
+        "atEveryLevel": "Hvert nivå",
+        "minMaxOnly": "Kun minimum og maksimum"
+      }
+    },
+    "0x60A": {
+      "name": "Oppringer-ID",
+      "description": "Hør navnet på personen som ringer."
+    },
+    "0x60C": {
+      "name": "Aktiv lydtone",
+      "description": "Du hører en kort tonekombinasjon som indikerer at lydkanalen er åpen og klar for kommunikasjon."
+    },
+    "0x60D": {
+      "name": "Modus for påminnelse om mikrofonsperre",
+      "description": "Få en nyttig påminnelse om at hodesettet er dempet under en samtale. Konfigurer når og hvordan påminnelsen oppstår.",
+      "options": {
+        "off": "Av",
+        "timed": "Tidsbasert",
+        "voiceAudible": "Hørbare påminnelser",
+        "voiceVisible": "Påminnelser på skjermen",
+        "voiceVisibleAndAudible": "Påminnelser på skjermen og hørbare påminnelser"
+      }
+    },
+    "0x610": {
+      "name": "Varsler for demping",
+      "description": "Tilbakemeldingen du hører når du slår mikrofonen til høyttalertelefonen av og på."
+    },
+    "0x700": {
+      "name": "Lydkvalitet",
+      "description": "Optimaliser lydkvalitet for ønsket aktivitet.",
+      "options": {
+        "homeMode": "Musikk",
+        "enterpriseMode": "Kombinasjon",
+        "mono": "Samtale",
+        "narrowBand": "Smalbånd"
+      }
+    },
+    "0x701": {
+      "name": "Over-the-Air-tilknytning",
+      "description": "Koble dette hodesettet til basen uten fysisk å plassere hodesettet i ladeholderen."
+    },
+    "0x702": {
+      "name": "Rekkevidde",
+      "description": "Begrens rekkevidden for å redusere problemer med lydforstyrrelser fra andre DECT-enheter.",
+      "options": {
+        "low": "Lav",
+        "medium": "Medium",
+        "high": "Høy"
+      }
+    },
+    "0x704": {
+      "name": "Strømming av lyd",
+      "description": "Aktiver for å strømme musikk, podkaster og andre typer lyd fra en mobil enhet til hodesettet. Hvis du ikke strømmer lyd til hodesettet, kan du deaktivere denne funksjonen for å spare batteristrøm.",
+      "powerCycleRequired": {
+        "title": "Aktiver/deaktiver strømming av lyd",
+        "buttonText": "OK",
+        "true": {
+          "title": "Deaktiver strømming av lyd",
+          "text": "Velg for å spare batteristrøm og slik at samtaler kan vare lenger. Når strømming av lyd er deaktivert, kan du ikke høre på musikk eller podcaster via hodesettet."
+        },
+        "false": {
+          "title": "Aktiver strømming av lyd",
+          "text": "Velg for å høre på musikk og podcaster via hodesettet. Når dette alternativet er aktivert, kan du redusere tilgjengelig taletid for anrop."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Modus for utvidet rekkevidde (PC)",
+      "description": "Få bedre trådløs rekkevidde fra PC-en til hodesettet. MERK: Dette deaktiverer bredbåndsbasert stereotelefoni og reduserer kvaliteten på lyden som du hører fra PC-en."
+    },
+    "0x706": {
+      "name": "Båndbredde for PC-lyd",
+      "description": "Bredbåndslyd gir bedre taleklarhet og lyd som er tro mot originalen, men bruker mer batteristrøm, noe som fører til redusert taletid.",
+      "options": {
+        "narrowband": "Smalbånd",
+        "wideband": "Bredbånd"
+      }
+    },
+    "0x707": {
+      "name": "Lydbåndbredde for bordtelefon",
+      "description": "Bredbåndslyd gir bedre taleklarhet og lyd som er tro mot originalen, men bruker mer batteristrøm, noe som fører til redusert taletid.",
+      "options": {
+        "narrowband": "Smalbånd",
+        "wideband": "Bredbånd"
+      }
+    },
+    "0x708": {
+      "name": "HD-tale",
+      "description": "Bredbåndslyd forbedrer stemmeklarheten hvis telefonen og tjenesteleverandøren også støtter denne funksjonen. MERK: Denne funksjonen bruker mye strøm, noe som fører til redusert taletid.",
+      "options": {
+        "narrowband": "Av",
+        "wideband": "På",
+        "stereo": "Stereo",
+        "widebandStereo": "Bredbåndsstereo"
+      },
+      "powerCycleRequired": {
+        "title": "Aktiver/deaktiver HD-tale",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "Deaktiver HD-tale",
+          "text": "Bredbåndslyd forbedrer stemmeklarheten hvis telefonen og leverandøren støtter denne funksjonen. Deaktiver sparing av batteristrøm og slik at samtaler kan vare lenger."
+        },
+        "wideband": {
+          "title": "Aktiver HD Voice",
+          "text": "Bredbåndslyd forbedrer stemmeklarheten hvis telefonen og leverandøren støtter denne funksjonen. Hvis du aktiverer HD-tale, bruker du mer batteristrøm og reduserer den tilgjengelige taletiden for samtaler."
+        },
+        "stereo": {
+          "title": "Stereotittel",
+          "text": "Stereotekst"
+        },
+        "widebandStereo": {
+          "title": "Bredbåndsstereotittel",
+          "text": "Bredbåndsstereotekst"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Koble til seriekobling automatisk",
+      "description": "Behold seriekobling mellom to enheter når de er slått på."
+    },
+    "0x70B": {
+      "name": "Koble fra Bluetooth automatisk",
+      "description": "Koble fra Bluetooth når enheten går i ventemodus."
+    },
+    "0x800": {
+      "name": "Øk volum for QD-hodetelefoner",
+      "description": "Hvis volumet på hodetelefonene som er koblet til basen med Quick Disconnect (QD), er for lavt, velger du hodetelefonmodellen for å øke volumet.",
+      "options": {
+        "new": "EncorePro 500-serien",
+        "legacy": "EncorePro 700-serien og alle andre hodetelefon-modeller"
+      }
+    },
+    "0x801": {
+      "name": "Tonekontroll",
+      "description": "Forsterk bass- eller diskanttonene for å optimalisere lydopplevelsen. Du kan tilpasse bordstelefonen og datatonene separat for hver enhet. ",
+      "options": {
+        "maxBass": "Maks. Bass",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Maks. Diskant"
+      }
+    },
+    "0x802": {
+      "name": "Lukk samtalebegrensningen",
+      "description": "Begrens mengden av samtaler i nærheten som overføres via mikrofonen. (Merk: Endringene trer i kraft i neste samtale.)",
+      "options": {
+        "no": "Ingen begrensning",
+        "moderate": "Beste lyd",
+        "agressive": "Open Office"
+      }
+    },
+    "0x803": {
+      "name": "Sidetone",
+      "description": "Juster volumet på stemmen du hører når du snakker.",
+      "options": {
+        "low": "Lav",
+        "medium": "Medium",
+        "high": "Høy"
+      }
+    },
+    "0x804": {
+      "name": "ANC-tidsavbrudd",
+      "description": "Spar på batteriet ved å redusere hvor mye ANC (Active Noise Cancellation) som er på når hodesettet er inaktivt.",
+      "options": {
+        "2": "2 timer",
+        "4": "4 timer",
+        "off": "Av"
+      }
+    },
+    "0x810": {
+      "name": "ANC-modus",
+      "description": "Velg det beste støyreduserende nivået for ditt miljø.",
+      "options": {
+        "adaptive": "Adaptiv",
+        "automatic": "Automatisk",
+        "standard": "Standard",
+        "off": "Av"
+      }
+    },
+    "0x805": {
+      "name": "Varseltoner",
+      "description": "Hør varseltoner fra andre tilkoblede enheter når du strømmer lyd."
+    },
+    "0x806": {
+      "name": "Uavhengig volumkontroll",
+      "description": "Aktiver eller deaktiver uavhengig volumkontroll."
+    },
+    "0x807": {
+      "name": "Seriekoble lyd",
+      "description": "Velg lydutgangen du hører når høyttalertelefoner seriekobles.",
+      "options": {
+        "party": "Fest",
+        "stereo": "Stereo"
+      }
+    },
+    "0x808": {
+      "name": "Utjevner",
+      "description": "Sett utjevner-forhåndsinnstillingen til den foretrukne lydsignaturen.",
+      "options": {
+        "bass": "Bass",
+        "flat": "Flat",
+        "bright": "Lys"
+      }
+    },
+    "0x90A": {
+      "name": "Gjenopprett standardinnstillingene",
+      "description": "Dette vil gjenopprette alle fabrikkinnstillingene for enheten.",
+      "resetBtn": "Gjenopprett standardinnstillingene",
+      "powerCycleRequired": {
+        "title": "Innstillinger gjenopprettet",
+        "buttonText": "Gjenopprett",
+        "true": {
+          "title": "Gjenopprett standardinnstillingene",
+          "text": "Alle de egendefinerte innstillingene dine gjenopprettes til de opprinnelige standardinnstillingene."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Start enhet på nytt",
+      "description": "Denne handlingen starter enheten på nytt umiddelbart.",
+      "resetBtn": "Start på nytt"
+    },
+    "0x848": {
+      "name": "Fjern registrerte enheter",
+      "description": "Tøm listen over tilkoblede enheter lagret på hodesettet. (Dette gjelder for alle tilkoblede enheter, inkludert BT700.)",
+      "resetBtn": "Fjern enheter",
+      "powerCycleRequired": {
+        "title": "Enhetene er fjernet",
+        "buttonText": "Fjern",
+        "true": {
+          "title": "Fjern registrerte enheter",
+          "text": "Denne handlingen fjerner alle de tilkoblede enhetene som er lagret på hodesettet, inkludert BT700-USB-adapter."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Vibrer ved ringing",
+      "description": "Angi at hodesettet skal vibrere når du mottar en samtale."
+    },
+    "0x901": {
+      "name": "Ladebekreftelse",
+      "description": "Angi at hodesettet skal vibrere for å bekrefte at hodesettet lader."
+    },
+    "0x902": {
+      "name": "Online-indikator",
+      "description": "Aktiver indikatorlampen på enheten for å informere andre om at du er i en samtale."
+    },
+    "0x903": {
+      "name": "Bruksmåte for volumkontroll",
+      "description": "Angi ønsket bruksmåte for hodesettet (høyre eller venstre øre), og dytt så alltid volumkontrollen opp for å øke volumet.",
+      "options": {
+        "unknown": "Ingen endring",
+        "left": "Venstre øre",
+        "right": "Høyre øre",
+        "leftRight": "Mikrofonbøyle på høyre side",
+        "leftRightSwapped": "Mikrofonbøyle på venstre side"
+      }
+    },
+    "0xA00": {
+      "name": "Lydregistrering",
+      "description": "Opprett automatisk en radioforbindelse mellom basen og de trådløse hodetelefonene når USB-porten registrerer lyden fra datamaskinen."
+    },
+    "0xA01": {
+      "name": "Summetone",
+      "description": "Hør en summetone for en VoIP-samtale når du trykker på hodesettets ringeknapp. PC-telefonen må støtte summetone."
+    },
+    "0xFFF1": {
+      "name": "Koble automatisk til mobiltelefonen",
+      "description": "Koble Savi-basen automatisk til den parede mobilenheten igjen når telefonen kommer innenfor baseenhetens rekkevidde.",
+      "options": {
+        "never": "Aldri",
+        "whenUndocked": "Bare når hodesettet ikke er dokket",
+        "always": "Alltid"
+      }
+    },
+    "0xFFF2": {
+      "name": "Anti–Startle",
+      "description": "Algoritmer som fjerner akustisk sjokk fra høye lyder for din sikkerhet og lyttekomfort.",
+      "options": {
+        "off": "Av",
+        "standard": "G616",
+        "enhanced": "G616 (Poly Enhanced)"
+      }
+    },
+    "0x60E": {
+      "name": "Batteristatus",
+      "description": "Hør batteristatus når du slår på enheten."
+    },
+    "0x60F": {
+      "name": "Tilkobling",
+      "description": "Hør en talemelding som indikerer tilkoblingsstatus.",
+      "options": {
+        "voice": "Tale",
+        "tone": "Tone"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Aktiver eller deaktiver alle Bluetooth-tilkoblinger på Sync-høyttaleren."
+    },
+    "-": {
+      "name": "Tilkobling",
+      "description": "Hør en talemelding som indikerer tilkoblingsstatus."
+    },
+    "0x907": {
+      "name": "Sikker Bluetooth-tilkobling",
+      "description": "Trykk på knappen for Bluetooth-sammenkobling for å fullføre tilkoblingen mellom høyttaleren og mobilenheten."
+    },
+    "0x908": {
+      "name": "Tilpasset knapp",
+      "description": "Tilordne handlingen som starter når du trykker på handlingsknappen.",
+      "options": {
+        "playPause": "Spill/Pause",
+        "redial": "Ring på nytt (bare for mobil)",
+        "vpa": "VPA (Siri, Google Assistant, osv.)",
+        "clearTrustedDevice": "Tøm listen over klarerte enheter",
+        "statusCheck": "Statuskontroll",
+        "holdResume": "Sett en samtale på vent/fortsett samtale",
+        "anc": "ANC-/Transparency-modus",
+        "nothing": "Ikke gjør noe"
+      }
+    },
+    "0x909": {
+      "name": "Eksklusiv tilkobling",
+      "description": "Fjern informasjon om tidligere sammenkoblede enheter når en ny enhet er sammenkoblet og koblet til. Dette gjør at bare én enhet kan være sammenkoblet og koblet til om gangen."
+    },
+    "0xC00": {
+      "name": "Lysstyrke",
+      "description": "Juster videoens lysstyrke."
+    },
+    "0xC01": {
+      "name": "Kontrast",
+      "description": "Juster videokontrasten."
+    },
+    "0xC02": {
+      "name": "Fargetone",
+      "description": "Juster videoens farge."
+    },
+    "0xC03": {
+      "name": "Metning",
+      "description": "Juster fargemetningen i videoen."
+    },
+    "0xC04": {
+      "name": "Skarphet",
+      "description": "Juster skarpheten i videoen."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Juster videogamma."
+    },
+    "0xC06": {
+      "name": "Farge",
+      "description": "Juster videoens farge."
+    },
+    "0xC07": {
+      "name": "Hvitbalanse",
+      "description": "Angi hvordan kameraet kompenserer for variasjon i rommets lyskilder."
+    },
+    "0xC08": {
+      "name": "Kompensasjon for bakgrunnsbelysning",
+      "description": "Aktiver eller deaktiver kompensasjon for bakgrunnsbelysning."
+    },
+    "0xC09": {
+      "name": "Forsterking",
+      "description": "Juster signalforsterkningen fra kameraet."
+    },
+    "0xC0A": {
+      "name": "Drei mot",
+      "description": "Juster kameraets retning høyre eller venstre."
+    },
+    "0xC0B": {
+      "name": "Vipp",
+      "description": "Juster kameraets retning opp eller ned."
+    },
+    "0xC0C": {
+      "name": "Rull",
+      "description": "Juster rullevinkelen på kameraet."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Juster zoomnivået på kameraet."
+    },
+    "0xC0E": {
+      "name": "Eksponering",
+      "description": "Juster kameraeksponeringen."
+    },
+    "0xC0F": {
+      "name": "Irisblender",
+      "description": "Juster kameraets irisblender."
+    },
+    "0xC10": {
+      "name": "Fokus",
+      "description": "Juster kamerafokuset."
+    },
+    "0xC11": {
+      "name": "Hudforbedring",
+      "description": "Aktiver eller deaktiver fargeforbedringer for naturlige hudfarger for deltakere."
+    },
+    "0xC12": {
+      "name": "Bredt dynamisk område",
+      "description": "Aktiver eller deaktiver kameraeksponering basert på det innrammede området i stedet for full visning."
+    },
+    "0xC13": {
+      "name": "Deltakerantall",
+      "description": "Rapporter deltakerantall i møter."
+    },
+    "0xC14": {
+      "name": "Skjermvisning",
+      "description": "Vis kameraparameter i videoutganger."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Gjør det mulig for Poly Acoustic Fence å blokkere bakgrunnsstøy og konfigurere bredden på Poly Acoustic Fence-strålen.",
+      "options": {
+        "off": "Av",
+        "60": "Smal",
+        "90": "Medium",
+        "120": "Bred",
+        "cameraView": "Kameravisning"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI for utgående lyd",
+      "description": "Hindre distraherende lyder i omgivelsene (for eksempel tastaturskriving eller papirstokking) fra å forstyrre møtet.",
+      "options": {
+        "true": "Sann",
+        "false": "Usann",
+        "fast": "Hurtig"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI for innkommende lyd",
+      "description": "Hindre distraherende lyder fra utkanten av samtalen (for eksempel tastaturskriving eller papirstokking) fra å forstyrre møtet."
+    },
+    "0xC17": {
+      "name": "Stereolyd",
+      "description": "Bruk to lydkanaler på kameraet for å få stereolyd."
+    },
+    "0xC26": {
+      "name": "Bassheving",
+      "description": "Bassheving."
+    },
+    "0xC18": {
+      "name": "Sporingshastighet",
+      "description": "Konfigurer hvor raskt kameraet finner møtedeltakere.",
+      "options": {
+        "slow": "Sakte",
+        "normal": "Normal",
+        "fast": "Hurtig"
+      }
+    },
+    "0xC19": {
+      "name": "Sporingsmodus",
+      "description": "Konfigurer hvordan kameraet skal spore deltakere.",
+      "options": {
+        "speaker": "Høyttalerinnramming",
+        "off": "Av",
+        "group": "Gruppeinnramming",
+        "presenter": "Presentatør",
+        "conversation": "Samtale",
+        "gallery": "Menneskeinnramming"
+      }
+    },
+    "0xC21": {
+      "name": "Bass",
+      "description": "Juster basslyden fra høyttaleren."
+    },
+    "0xC22": {
+      "name": "Diskant",
+      "description": "Juster diskantlyd fra høyttaleren."
+    },
+    "0xC23": {
+      "name": "Løsning for anti-flimring (50 Hz / 60 Hz)",
+      "description": "Velg riktig frekvens (NTSC 60 Hz / PAL 50 Hz) for å redusere flimring på skjermen.",
+      "options": {
+        "0": "Deaktivert",
+        "1": "50Hz",
+        "2": "60Hz",
+        "3": "Automatisk"
+      }
+    },
+    "0xC27": {
+      "name": "Speil/vend bilde",
+      "description": "Inverter kameraets videoutgang.",
+      "options": {
+        "0": "Deaktivert",
+        "1": "Speil horisontalt",
+        "2": "Vend loddrett",
+        "3": "Vend og speil i begge retninger"
+      }
+    },
+    "0xC28": {
+      "name": "Fargetemperatur",
+      "description": "Fargetemperatur",
+      "options": {
+        "warm": "Varm",
+        "cool": "Kald"
+      }
+    },
+    "0xC1A": {
+      "name": "Bildestørrelse",
+      "description": "Konfigurer rammevisning for kamerasporing.",
+      "options": {
+        "tight": "Tett",
+        "medium": "Medium",
+        "wide": "Bred"
+      }
+    },
+    "0xC1B": {
+      "name": "Maksimal zoom",
+      "description": "Begrens maksimal kamerazoom i forhold på 2x, 3x eller 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Kamerabevegelse",
+      "description": "Juster kamerabevegelsen",
+      "options": {
+        "auto pan": "Automatisk panorering",
+        "cut": "Kutt"
+      }
+    },
+    "0xC80": {
+      "name": "Lysstyrke på skjermen",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Lysstyrke for statuslampe",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Inaktiv status",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Innkommende samtale",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Aktiv samtale",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Samtale på vent",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Demp påminnelse",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Trådløs lading",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "App-knapp",
+      "description": "Velg plattformen du vil ha tilgang til fra skjermen.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Rakett-knapp",
+      "description": "Tilordne handlingen som starter når du trykker på raketten",
+      "options": {
+        "holdResume": "Sett en samtale på vent/fortsett samtale",
+        "playPause": "Spill av / pause",
+        "statusLight": "Lampe for status",
+        "lens": "Åpne skrivebord med Poly Lens",
+        "vpa": "VPA - Siri, Cortana",
+        "redial": "Ring opp den siste samtalen på nytt",
+        "vanity": "Skjønnhetslys",
+        "answerEnd": "Svar på / avslutt samtale",
+        "videoMute": "Video dempekamera"
+      }
+    },
+    "0xC90": {
+      "name": "Lysstyrke på skjermen",
+      "description": "Juster lysstyrken på skjermen."
+    },
+    "0xC81": {
+      "name": "Skjermkontrast",
+      "description": "Juster kontrasten på skjermen."
+    },
+    "0x910": {
+      "name": "PC-lyd – vedvarende modus",
+      "description": "Hvis aktivert, vil PC-lyden blandes med telefongrensesnittet."
+    },
+    "0x1300": {
+      "name": "Administrer alt",
+      "description": "Velg meldingene og tonene du hører mens du bruker enheten."
+    },
+    "0x1301": {
+      "name": "Samtaler",
+      "description": "Hør talemeldinger eller toner for å indikere samtalestatus."
+    },
+    "0x1302": {
+      "name": "Innkommende samtale"
+    },
+    "0x1303": {
+      "name": "Svar/ignorer"
+    },
+    "0x1305": {
+      "name": "Besvare anrop"
+    },
+    "0x1500": {
+      "name": " Transparency-modus",
+      "description": "Velg nivå for Transparency-modus og lydsignatur.",
+      "options": {
+        "speech": "Tale",
+        "environment": "Omgivelser",
+        "off": "Av"
+      }
+    },
+    "0x1800": {
+      "name": "Inaktiv",
+      "description": "Tilordne hurtighandlingen når enheten går inn i en inaktiv tilstand.",
+      "options": {
+        "volume": "Volum",
+        "anc": "ANC-/Transparency-modus",
+        "status": "Statuskontroll",
+        "nothing": "Ikke gjør noe"
+      }
+    },
+    "0x1801": {
+      "name": "I samtale",
+      "description": "Tilordne hurtighandlingen for når du er i en samtale. ",
+      "options": {
+        "volume": "Volum",
+        "anc": "ANC-/Transparency-modus",
+        "hold": "Sett en samtale på vent/fortsett samtale",
+        "mute": "Demp",
+        "nothing": "Ikke gjør noe"
+      }
+    },
+    "0x1802": {
+      "name": "Strømming av medier ",
+      "description": "Tilordne hurtighandlingen for når du strømmer medier.",
+      "options": {
+        "volume": "Volum",
+        "anc": "ANC-/Transparency-modus",
+        "track": "Neste spor / forrige spor",
+        "nothing": "Ikke gjør noe"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "Ok, skjønner",
+      "powerOffText": "Husk å <b>slå hodesettet av i minst fem sekunder</b> for at de nye innstillingene skal bli gjeldende."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Velg språk",
+      "DESCRIPTION": "Velg det språket du vil høre talebeskjedene og varslene på (f.eks. «Incoming call from John» (Innkommende samtale fra John), «Mute on» (Demping på)).",
+      "DESCRIPTION_USB_CABLE": "Hvis du vil endre språket du vil høre talebeskjedene og varslene på, kobler du {{device_name}} til en datamaskin via USB-kabel.",
+      "CONFIRM_TITLE": "Skift språk"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi-navn",
+      "CONNECTED": "Tilkoblet",
+      "DISCONNECTED": "Frakoblet",
+      "SIGNAL_STRENGTH": "Signalstyrke",
+      "AUTOCONNECT": "Automatisk tilkobling",
+      "JOIN_OTHER_NETWORK": "Koble til andre nettverk",
+      "MANAGE_KNOWN_NETWORKS": "Administrer kjente nettverk",
+      "PLACEHOLDER": "Velg nettverk"
+    },
+    "GENERAL": {
+      "LABEL": "Generelt",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP-modus",
+      "NTP_SERVER": "NTP-server",
+      "CAMERA_VIVID": "Kamera vivid-modus",
+      "CAMERA_VIVID_NOTE": "Enheten må startes på nytt for at kamera vivid-modusen skal tas i bruk."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Automatisk tilkobling",
+      "REMOTE_CONTROL_CONNECTION": "Fjernkontrolltilkobling",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "Du må pare fjernkontrollen manuelt etter at du har deaktivert og aktivert tilkoblingen på nytt."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Tilkoblingsserver",
+      "PROVISIONING_MODE": "Tilkoblingsmodus",
+      "PROVISIONING_MODE_OPTION_AUTO": "Automatisk",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Manuell",
+      "PROVISIONING_MODE_OPTION_OFF": "Av",
+      "SERVER_TYPE": "Servertype",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS-server (brukes til å klargjørie Lens)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly-klargjøringsserver",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS-server",
+      "SERVER_ADDRESS": "Serveradresse",
+      "USERNAME": "Brukernavn",
+      "PASSWORD": "Passord"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Sertifikater",
+      "VALIDATE_PEER_CERTS": "Valider alltid gruppesertifikater fra server",
+      "INSTALLED_CERTIFICATES": "Installerte sertifikater",
+      "ISSUED_TO": "Utstedt til",
+      "ISSUED_BY": "Utstedt av",
+      "EXPIRATION_DATE": "Utløpsdato",
+      "TYPE": "Type",
+      "CERTIFICATE_SIGNING_REQUEST": "Forespørsel om sertifikatsignering",
+      "NO_CERTIFICATES": "Ingen poster funnet"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Konfigureringen.",
+      "DESCRIPTION": "Eksporter konfigurasjonsfilen til ditt lokale system, eller importer et konfigurasjonssett fra en lokal fil. Du må starte enheten på nytt for at en importert konfigurasjon skal tas i bruk.",
+      "IMPORT": "Importer",
+      "IMPORT_DIALOG_TITLE": "Importer konfigurasjon",
+      "EXPORT": "Eksporter",
+      "EXPORT_DIALOG_TITLE": "Eksporter konfigurasjon"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "Hvis du ikke ser innstillingene du leter etter, kontakt din Poly Lens-administrator, eller logg på med enhetspassordet.",
+      "ACTION": "Logg på med enhetspassord",
+      "PASSWORD": "Passord",
+      "CANCEL": "Avbryt",
+      "LOGIN": "Pålogging",
+      "INVALID_PASSWORD": "Det oppgitte passordet er ugyldig. Skriv inn passordet på nytt.",
+      "REQUIRED": "Obligatorisk"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Passord",
+      "CHANGE_PASSWORD": "Endre passord",
+      "CURRENT_PASSWORD": "Gjeldende passord",
+      "CREATE_NEW_PASSWORD": "Opprett nytt enhetspassord",
+      "NEW_PASSWORD": "Nytt passord",
+      "RE_ENTER_NEW_PASSWORD": "Oppgi nytt passord på nytt",
+      "PASSWORD_UNMATCH": "Passordene er ikke like. Skriv inn nytt passord.",
+      "SIMPLE_PASSWORD": "Enkelt passord",
+      "DEVICE_PASSWORD": "Enhetspassord",
+      "WEAK_PASSWORD": "Bruk svakt passord (anbefales ikke).",
+      "STRONG_PASSWORD_RECOMMENDED": "Et sterkt passord anbefales.",
+      "SAME_PASSWORD_ERROR": "Du kan ikke bruke et passord du har brukt før. Oppgi nytt passord.",
+      "RECOMMENDATION_1": "Minimumslengde 15 tegn",
+      "RECOMMENDATION_2": "Krever 2 små bokstaver",
+      "RECOMMENDATION_3": "Krever 2 store bokstaver",
+      "RECOMMENDATION_4": "Krever 2 tall",
+      "RECOMMENDATION_5": "Krever 2 spesialtegn"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Lyd-equalizer",
+      "DESCRIPTION": "Få og still inn bass- og diskantglidebrytere. "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Ved å klikke på «Jeg godtar» nedenfor, erkjenner du og erklærer deg enig i at din bruk av denne programvaren reguleres av vilkårene til ",
+      "EULA_LINK": "Polys lisensavtale for sluttbrukere",
+      "EULA_I_ACCEPT": "Jeg godtar lisensavtalen for sluttbrukere",
+      "BEGIN_SETUP": "Start konfigurasjon",
+      "PASSWORD_INVALID": "Det oppgitte passordet er ugyldig. Skriv inn passordet på nytt."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "Land",
+      "DEVICE_NAME": "Enhetsnavn",
+      "DEVICE_NAME_DESCRIPTION": "Vi anbefaler å navngi denne enheten etter rommet eller møterommet den er plassert i.",
+      "BEGIN_SETUP": "Start konfigurasjon",
+      "PASSWORD_INVALID": "Det oppgitte passordet er ugyldig. Skriv inn passordet på nytt."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Lydtest",
+      "DESCRIPTION": "Det tar flere minutter å fullføre lydtesten og laste ned lydoppføringene til den lokale harddisken din. Klikk på «Start test» for at systemet skal ta opp lyd fra alle lydkildeportene: mikrofon, USB og line-in.",
+      "START_TEST": "Start test",
+      "MODAL_TITLE": "Lydopptak",
+      "MODAL_TIME": "Klokkeslett:",
+      "DIALOG_TITLE": "Lagre diagnostikkfilen",
+      "PLEASE_WAIT": "Vent mens diagnostikken lagres.",
+      "STOP_RECORDING": "Stopp"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "Om frakoblet enhet",
+      "DESCRIPTION": "Bruk automatisk den valgte adferden når du kobler et hodesett fra Poly in-line-adapteren.",
+      "HOLD_ACTIVE_CALL": "Sett en aktiv samtale på vent",
+      "LOCK_SCREEN": "Lås PC-skjermen",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Lås PC-skjermen og sett en aktiv samtale på vent",
+      "DO_NOTHING": "Ikke gjør noe"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Radiotilkobling mellom hodesett og PC",
+      "DESCRIPTION": "Hold radiokoblingen til PC-en aktiv etter at samtalen er avsluttet.",
+      "ACTIVE_ONLY_DURING_CALL": "Kun aktiv under et anrop",
+      "ALWAYS_ACTIVE": "Alltid aktiv"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}Innstillinger{{close_tag}}",
+    "NAME_LABEL": "Navn:",
+    "EMAIL_LABEL": "E-post:",
+    "INVITED_BY_IT_ADMIN": "En IT-administrator",
+    "INVITED": "{{invited_by_email}} har invitert deg til å bli med {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Konto",
+      "login": {
+        "TITLE": "Kontoen din",
+        "DESCRIPTION_INTRO": "Du er ikke logget inn for øyeblikket. Ved å logge på godtar du våre",
+        "DESCRIPTION_TERMS": "bruksvilkår",
+        "DESCRIPTION_AND": "og",
+        "DESCRIPTION_PRIVACY": "retningslinjer for personvern"
+      }
+    },
+    "General": {
+      "TITLE": "Generelt",
+      "startOnSystemStartup": {
+        "TITLE": "Start Poly Lens ved oppstart",
+        "DESCRIPTION": "La Poly Lens starte automatisk ved pålogging."
+      },
+      "startMinimized": {
+        "TITLE": "Start programmet minimert"
+      },
+      "eulaAccepted": {
+        "TITLE": "Lisensavtale for sluttbruker",
+        "DESCRIPTION": " Godkjent av administrator"
+      }
+    },
+    "Language": {
+      "TITLE": "Språk",
+      "LABEL": "Velg språket som brukes i dette programmet."
+    },
+    "Softphone": {
+      "TITLE": "PC-telefon",
+      "MODULE_NAME": "Modulnavn",
+      "MODULE_VERSION": "Modulversjon",
+      "ENABLE": "Aktiver",
+      "CONNECTED": "Tilkoblet",
+      "VIEW_ALL": "Vis alle støttede PC-telefoner",
+      "targetSoftphone": {
+        "TITLE": "Tilkoblet PC-telefon",
+        "DESCRIPTION": "Indikerer PC-telefonen som skal brukes til utgående samtaler og summetone (for støttede enheter og PC-telefon)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Mediespillerhandling under innkommende anrop",
+        "DESCRIPTION": "Kontrollerer atferdsmønsteret til mediespillerapplikasjoner som iTunes og Windows Media Player når du får et anrop fra en PC-telefon."
+      },
+      "table": {
+        "TITLE": "PC-telefoner og mediespillere | Poly-aktiverte"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Varsler og enhetsvarsler",
+      "enableNotifications": {
+        "TITLE": "Tillate skrivebordsvarsler og enhetsvarsler"
+      },
+      "wellness": {
+        "TITLE": "Helse og velvære",
+        "DESCRIPTION": "Riktig hydrering og konsekvent bevegelse er avgjørende for helsen, både på kort og lang sikt i et primært stillestående miljø. Velg alternativer for å tilpasse varslingsfrekvens og -tid.",
+        "hydrationEnabled": "Påminnelser om hydrering",
+        "visionEnabled": "Påminnelser om pause for øynene",
+        "hydrationEnabledTitle": "Påminnelser om hydrering",
+        "visionEnabledTitle": "Påminnelser om pause for øynene"
+      },
+      "deviceAlerts": {
+        "TITLE": "Enhetsvarsler",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Uparet enhet",
+        "lowBattery": "Lavt batterinivå",
+        "deviceCharging": "Enhet lades",
+        "deviceDisconnected": "Enhet frakoblet",
+        "muteAlert": "Varsler for demping",
+        "deviceSoftwareUpdate": "Programvareoppdatering for enhet"
+      },
+      "softwareUpdate": {
+        "TITLE": "Programvareoppdatering",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Programvareoppdatering",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens-skrivebordsversjon",
+        "SOFTWARE": "Programvare",
+        "UP_TO_DATE": "Du er oppdatert",
+        "RELEASE_NOTES": "Vis produktmerknader",
+        "CHECKING_FOR_UPDATES": "Se etter oppdateringer",
+        "UPDATE": "Oppdater",
+        "UPDATE_AVAILABLE": "Tilgjengelig",
+        "DOWNLOADING": "Laster ned",
+        "CONTINUE": "Fortsett",
+        "CONTINUE_DESC": "Velg {{open_tag}}Fortsett{{close_tag}} for å avslutte Poly Lens og installere oppdateringen.",
+        "DOWNLOAD_ERROR": "Det oppstod en feil under nedlasting av oppdateringen. Kontroller internettilkoblingen, og prøv på nytt."
+      }
+    },
+    "About": {
+      "TITLE": "Om",
+      "COPYRIGHT": "2022-2024 HP Inc. Med enerett.",
+      "PRIVACY_POLICY": "retningslinjer for personvern",
+      "EULA": "Lisensavtale for sluttbrukere"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Pause og gjenoppta",
+    "NO_ACTION": "Ingen handling"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens-støtte",
+    "TITLE_OTHER": "Kontakt kundestøtte",
+    "QUICK_START_GUIDE": "Hurtigstartveiledning",
+    "USER_GUIDE": "Brukerveiledning",
+    "DEVICE_INFO_AND_LOGS": "Enhetsinformasjon og logger",
+    "CONTACT_SUPPORT": "Kontakt kundestøtte",
+    "CONTACT_TYPE": "Støtte på telefon, e-post og Internett",
+    "DEVICE_INFO": "Enhetsinformasjon",
+    "APP_INFO": "Applikasjonsinformasjon",
+    "DEVICE_MODEL": "Enhetsmodell",
+    "SERIAL_NUMBER": "Serienummer",
+    "SOFTWARE_VERSION": "Programvare Versjon",
+    "COM_LIB_VERSION": "Versjon for enhetkommunikasjon",
+    "PID": "Produkt-ID",
+    "LAST_CONNECTED": "Sist tilkoblet",
+    "USER_ID": "Bruker-ID",
+    "TENANT_ID": "Leietaker-ID",
+    "APP_ID": "Program-ID",
+    "GET_ACCESS": "Få tilgang til direkte støtte og støtte fra fellesskapet",
+    "GET_STARTED": "Komme i gang, dokumentasjon og mer",
+    "POLY_SUPPORT_LINK": "Gå til Poly Support",
+    "POLY_DOCUMENT_LINK": "Nettbasert hjelp for skrivebordsprogrammet Poly Lens",
+    "DIAGNOSTICS": "Diagnostikk",
+    "DIAGNOSTICS_DESCRIPTION": "Hvis du trenger hjelp til feilsøking, kan du laste ned logger som skal deles med Poly Support",
+    "DOWNLOAD_LOGS": "Last ned logger",
+    "SAVE_LOGS": "Lagre loggene",
+    "NONE": "Ingen",
+    "UNKNOWN": "Ukjent"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "hverdager",
+    "Monday": "Mandag",
+    "Tuesday": "Tirsdag",
+    "Wednesday": "Onsdag",
+    "Thursday": "Torsdag",
+    "Friday": "Fredag",
+    "Saturday": "Lørdag",
+    "Sunday": "Søndag",
+    "MON": "Man",
+    "TUE": "Tir",
+    "WED": "Ons",
+    "THU": "Tor",
+    "FRI": "Fre",
+    "SAT": "Lør",
+    "SUN": "Søn",
+    "12:00 AM": "00:00",
+    "1:00 AM": "01:00",
+    "2:00 AM": "02:00",
+    "3:00 AM": "03:00",
+    "4:00 AM": "04:00",
+    "5:00 AM": "05:00",
+    "6:00 AM": "06:00",
+    "7:00 AM": "07:00",
+    "8:00 AM": "08:00",
+    "9:00 AM": "09:00",
+    "10:00 AM": "10:00",
+    "11:00 AM": "11:00",
+    "12:00 PM": "12:00",
+    "1:00 PM": "13:00",
+    "2:00 PM": "14:00",
+    "3:00 PM": "15:00",
+    "4:00 PM": "16:00",
+    "5:00 PM": "17:00",
+    "6:00 PM": "18:00",
+    "7:00 PM": "19:00",
+    "8:00 PM": "20:00",
+    "9:00 PM": "21:00",
+    "10:00 PM": "22:00",
+    "11:00 PM": "23:00",
+    "SHORT_LABELS": {
+      "12AM": "00.00",
+      "4AM": "04.00",
+      "8AM": "08.00",
+      "12PM": "12.00",
+      "4PM": "16.00",
+      "8PM": "20.00"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "00.00",
+      "1am": "01.00",
+      "2am": "02.00",
+      "3am": "03.00",
+      "4am": "04.00",
+      "5am": "05.00",
+      "6am": "06.00",
+      "7am": "07.00",
+      "8am": "08.00",
+      "9am": "09.00",
+      "10am": "10.00",
+      "11am": "11.00",
+      "12pm": "12.00",
+      "1pm": "13.00",
+      "2pm": "14.00",
+      "3pm": "15.00",
+      "4pm": "16.00",
+      "5pm": "17.00",
+      "6pm": "18.00",
+      "7pm": "19.00",
+      "8pm": "20.00",
+      "9pm": "21.00",
+      "10pm": "22.00",
+      "11pm": "23.00"
+    },
+    "1 minute": "Hvert minutt",
+    "30 minutes": "Hvert 30. minutt",
+    "1 hour": "Hver time",
+    "3 hours": "Hver 3. time"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Utilgjengelig",
+    "SELECT_PLACEHOLDER": "Velg"
+  }
+}

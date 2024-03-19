@@ -1,0 +1,150 @@
+@import 'variables';
+
+.stepper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  height: 100%;
+
+  .stepper-bar {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-between;
+    width: $sidebar-width;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #fff;
+    color: #333;
+
+    .stepper-labels {
+      margin-left: 10px;
+      padding-bottom: 100px;
+      padding-left: 27px;
+
+      .step {
+        position: relative;
+        margin-bottom: 30px;
+
+        .col {
+          display: flex;
+          position: absolute;
+          left: -25px;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 2px;
+
+          & > img {
+            position: relative;
+            z-index: 1;
+          }
+
+          .circle {
+            position: relative;
+            width: 12px;
+            height: 12px;
+            border: 1px solid transparent;
+            border-radius: 100%;
+
+            &.active {
+              top: -2px;
+              left: -3px;
+              width: 17px;
+              height: 17px;
+              border-color: #318461;
+              background-color: white;
+            }
+
+            &.inactive {
+              background-color: #ccc;
+            }
+          }
+
+          .bar {
+            position: relative;
+            top: -2px;
+            width: 2.4px;
+            height: 40px;
+            background-color: #ccc;
+
+            &.active {
+              left: -3px;
+            }
+
+            &.complete {
+              background-color: #318461;
+            }
+          }
+        }
+      }
+
+      oz-step:last-of-type > .step {
+        margin-bottom: 0;
+
+        & .bar {
+          width: 0;
+        }
+      }
+    }
+  }
+
+  .close {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 16px;
+    cursor: pointer;
+  }
+
+  .step-content {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: calc(100vw - 290px);
+    height: calc(100vh - 40px);
+    overflow: hidden;
+    background-color: #f7f8f9;
+
+    .max-height {
+      // TODO: UI: This the "page" of the wizard. It should overlap the toolbar.
+      position: relative;
+      height: calc(100% - 80px);
+    }
+
+    .stepper-toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 80px;
+    }
+  }
+}
+
+.wizard {
+  height: calc(100vh - 40px);
+  margin-top: 40px;
+
+  .ftc-wizard-page-title {
+    margin-top: 64px;
+    margin-bottom: 57px;
+  }
+
+  .wizard-label {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    &.wizard-label-inactive {
+      color: #707070;
+      font-size: $font-sm;
+    }
+  }
+
+  oz-toasts {
+    position: fixed;
+    z-index: $toast-z-index;
+    top: 40px;
+    right: 0;
+    left: 0;
+  }
+}

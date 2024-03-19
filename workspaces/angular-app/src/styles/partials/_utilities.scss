@@ -1,0 +1,566 @@
+@import './variables';
+
+// BEGIN: Utility classes.  Note the use of !important, so can override any built-in styles on the specified elements
+// scss-lint:disable ImportantRule
+
+// creating .margin-bottom, .margin-top, .padding-bottom, etc. utility classes
+// pattern is: mb-1em = 1em, 5em = .5em, 75em = .75em
+// Moving towards a pattern like described here: https://getbootstrap.com/docs/4.0/utilities/spacing/
+$margins: (
+  0: 0,
+  5: 0.5em,
+  75: 0.75em,
+  1: 1em,
+  15: 1.5em,
+  2: 2em,
+  25: 2.5em,
+  3: 3em,
+  35: 3.5em,
+  4: 4em,
+);
+$sides: (
+  top: t,
+  right: r,
+  bottom: b,
+  left: l,
+);
+
+@each $name, $em in $margins {
+  @each $side, $abbr in $sides {
+    .m#{$abbr}-#{$name} {
+      margin-#{$side}: unquote('#{$em}') !important;
+    }
+
+    .m#{$abbr}-n#{$name} {
+      margin-#{$side}: unquote('#{-$em}') !important;
+    }
+
+    .p#{$abbr}-#{$name} {
+      padding-#{$side}: unquote('#{$em}') !important;
+    }
+  }
+
+  .m-#{$name} {
+    margin: unquote('#{$em}') !important;
+  }
+
+  .m-n#{$name} {
+    margin: unquote('#{-$em}') !important;
+  }
+
+  .mx-#{$name} {
+    margin-right: unquote('#{$em}') !important;
+    margin-left: unquote('#{$em}') !important;
+  }
+
+  .mx-n#{$name} {
+    margin-right: unquote('#{-$em}') !important;
+    margin-left: unquote('#{-$em}') !important;
+  }
+
+  .my-#{$name} {
+    margin-top: unquote('#{$em}') !important;
+    margin-bottom: unquote('#{$em}') !important;
+  }
+
+  .my-n#{$name} {
+    margin-top: unquote('#{-$em}') !important;
+    margin-bottom: unquote('#{-$em}') !important;
+  }
+
+  .mr-#{$name} {
+    margin-right: unquote('#{-$em}');
+  }
+
+  .p-#{$name} {
+    padding: unquote('#{$em}') !important;
+  }
+
+  .px-#{$name} {
+    padding-right: unquote('#{$em}') !important;
+    padding-left: unquote('#{$em}') !important;
+  }
+
+  .py-#{$name} {
+    padding-top: unquote('#{$em}') !important;
+    padding-bottom: unquote('#{$em}') !important;
+  }
+}
+
+// "auto" only applies to margins, and cannot be negative
+@each $side, $abbr in $sides {
+  .m#{$abbr}-auto {
+    margin-#{$side}: auto !important;
+  }
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.va-middle {
+  vertical-align: middle !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+// use button.link([disabled]="myVar") where possible, use of this class is an anti-pattern in most cases
+.clickable {
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.sr-only {
+  @extend %sr-only;
+}
+
+.code {
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter',
+    'Lucida Typewriter', monospace !important;
+}
+
+.code-block {
+  display: block;
+  padding: 20px;
+  border-radius: 5px;
+  white-space: pre;
+  @extend .code;
+  @extend .grey-bg;
+}
+
+.mid-gray,
+.mid-grey {
+  color: $mid-gray;
+}
+
+.v-center {
+  align-self: center;
+}
+
+.v-bottom {
+  align-self: end;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.black {
+  color: #000;
+}
+
+.green {
+  color: #26870d;
+}
+
+.gray,
+.grey {
+  color: #707070;
+}
+
+.gray-bg,
+.grey-bg {
+  background: #ecedee !important;
+}
+
+%tooltip-common {
+  position: absolute;
+  z-index: $front-z-index;
+  width: fit-content;
+  min-width: 100px;
+  max-width: 150px;
+  padding: 2px 5px;
+  border-radius: 1px;
+  background: rgba(248, 248, 248, 0.85);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4), 0 3px 7px rgba(0, 0, 0, 0.3);
+  color: $black;
+  font-family: $font-family;
+  font-size: $font-sm;
+  line-height: 16px;
+  text-align: left;
+
+  backdrop-filter: blur(44px);
+}
+
+.has-tooltip {
+  position: relative;
+
+  .tooltip {
+    display: block;
+    left: -999em;
+    opacity: 0;
+
+    backdrop-filter: blur(44px);
+    @extend %tooltip-common;
+
+    &.normal {
+      font-weight: $font-weight-normal;
+    }
+  }
+
+  &:hover {
+    .tooltip {
+      left: 0;
+      opacity: 1 !important;
+
+      &.make-primary {
+        left: 230px !important;
+      }
+
+      &.upper-right {
+        top: -25px;
+        right: 0;
+        left: auto;
+        transform: translateX(calc(100% + 8px));
+        background: rgba(230, 230, 230, 0.85);
+      }
+
+      &.top {
+        top: -25px;
+        max-width: unset;
+      }
+
+      &.bottom {
+        bottom: -40px;
+      }
+
+      &.delay-show {
+        transition: left 0s, opacity 0.5s;
+        transition-delay: 0.4s;
+      }
+
+      &.disabled {
+        position: absolute;
+        bottom: 20px;
+        left: 50% !important;
+        max-width: unset !important;
+        transform: translateX(-50%) !important;
+        transition: left 0s, opacity 0.5s;
+        transition-delay: 0.4s;
+      }
+    }
+
+    .has-tooltip {
+      .tooltip {
+        left: -999em;
+      }
+    }
+  }
+}
+
+.warning-tooltip {
+  display: inline;
+  width: max-content;
+  max-width: 210px;
+  transform: translateY(-50%) translateY(8px);
+  font-weight: 500;
+  text-align: left !important;
+  @extend %tooltip-common;
+
+  &.left {
+    right: calc(100% + 0.75em);
+  }
+
+  &.right {
+    left: calc(100% + 0.75em);
+  }
+
+  &.bottom {
+    top: calc(100% + 2em);
+    left: -4em;
+  }
+
+  &.topSmallScreen {
+    left: calc(100% + 0.75em);
+
+    // Move tooltip to top - only on small screen
+    @media only screen and (max-width: 1200px) {
+      top: -5.5em;
+      transform: translateX(calc(-50% - 0.75em));
+    }
+  }
+}
+
+.any-icon-tooltip-content {
+  @extend %tooltip-common;
+  display: none;
+  position: fixed;
+  width: max-content;
+  max-width: 210px;
+  font-weight: 500;
+  text-align: left;
+}
+
+//To be deleted once we fully support Auto Framing setting
+.w-105 {
+  width: 105px !important;
+}
+
+//To be deleted once we fully support Auto Framing setting
+.coming-soon-label {
+  width: fit-content;
+  margin-left: 10px;
+  border-radius: 5px;
+  background: #5d748e !important;
+  color: white;
+  font-size: 9px;
+}
+
+.has-arrow-tooltip {
+  display: inline-block;
+  position: relative;
+
+  &:hover {
+    .arrow-tooltip {
+      visibility: visible;
+    }
+  }
+
+  .arrow-tooltip {
+    visibility: hidden;
+    width: 244px;
+    max-width: inherit;
+    margin-top: 14px;
+    transform: translateX(calc(-50% + 12px));
+    border-radius: 4px;
+
+    @extend %tooltip-common;
+
+    // Arrow
+    &:before {
+      content: '';
+      position: absolute;
+      top: -6px;
+      left: 50%;
+      width: 14px;
+      height: 14px;
+      margin-left: -7px;
+      transform: rotate(45deg);
+      background: rgba(248, 248, 248, 0.85);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0.4), 0 3px 7px rgba(0, 0, 0, 0.3);
+    }
+
+    // Tooltip content
+    .tooltip {
+      position: relative;
+      padding: 8px 7px;
+      background: #fff;
+    }
+  }
+}
+
+.hover-toggle {
+  .show-on-hover {
+    display: none;
+  }
+
+  .hide-on-hover {
+    display: block;
+
+    &.inline-block {
+      display: inline-block;
+    }
+
+    &.inline {
+      display: inline;
+    }
+  }
+
+  &:hover {
+    .hide-on-hover {
+      display: none;
+    }
+
+    .show-on-hover {
+      display: block;
+
+      &.delay-hover {
+        display: none;
+        animation: delay-hover 1s;
+      }
+
+      &.inline-block {
+        display: inline-block;
+      }
+
+      &.inline {
+        display: inline;
+      }
+    }
+  }
+}
+
+.semi-transparent-bg {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.border-bottom {
+  border-bottom: 1px solid $mid-gray;
+}
+
+.v-center-in-window {
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scrollbar-offset {
+  margin-right: calc($scrollbar-width / 2);
+}
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.normal-wrap {
+  white-space: normal;
+}
+
+.wrap {
+  overflow-wrap: break-word;
+}
+
+.p-static {
+  position: static;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+hr,
+.hr {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid $hr-color;
+  background: transparent;
+}
+
+/*
+ * If adjusting animation delay or duration, be sure
+ * to check / change the auth timeout in home.component.ts
+ */
+.initial-fade-in {
+  animation: initial-fade-in 0.4s;
+  opacity: 0;
+
+  animation-fill-mode: forwards;
+
+  &.delayed {
+    animation-delay: 3s;
+  }
+}
+
+@keyframes delay-hover {
+  0% {
+    display: none;
+  }
+
+  99% {
+    display: none;
+  }
+
+  100% {
+    display: block;
+  }
+}
+
+@keyframes initial-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
+  transition: background-color 0.6s ease;
+  border-radius: 50%;
+  background-color: $dot-background;
+
+  &.active {
+    background-color: $link-color;
+  }
+}
+
+oz-edit-custom-name {
+  display: flex;
+  justify-content: center;
+}
+
+.font-size-10 {
+  font-size: 10px !important;
+}
+
+.h-center {
+  margin: 0 auto;
+}
+
+.input-field {
+  width: 208px;
+  height: 94px;
+  padding: 16px 20px;
+  border-width: 0;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.05);
+  font-family: $font-family;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+}
+
+div.on-hover .only-show-on-hover {
+  visibility: hidden;
+}
+
+div.on-hover:hover .only-show-on-hover {
+  visibility: visible;
+}
+
+.oz-icon {
+  display: flex;
+  align-items: center;
+}

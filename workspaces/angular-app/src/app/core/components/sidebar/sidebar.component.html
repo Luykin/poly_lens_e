@@ -1,0 +1,32 @@
+<div class="side-bar">
+  <div class="spacer"></div>
+  <div class="container">
+    @if(showDeviceListComputed()) {
+    <oz-device-list
+      [deviceList]="deviceListItemsComputed()!"
+      [selectedDevice]="selectedDeviceSignal()!"
+      (deviceSelectionChange)="handleDeviceSelection($event)"
+    ></oz-device-list>
+    } @else {
+    <div class="cactus">
+      <ng-lottie
+        class="lottie-cactus"
+        [options]="animationOptions"
+        (animationCreated)="animationCreated($event)"
+      ></ng-lottie>
+      <p>{{ 'HOME.CONNECT_A_DEVICE' | translate }}</p>
+      <a
+        class="no-device"
+        routerLink="/connection-checklist"
+        routerLinkActive="active"
+        >{{ 'HOME.NOT_SEEING_DEVICE' | translate }}</a
+      >
+    </div>
+    }
+  </div>
+  <div class="logo-container">
+    <div class="logo">
+      <oz-icon icon="prop_poly" [size]="5"></oz-icon>
+    </div>
+  </div>
+</div>

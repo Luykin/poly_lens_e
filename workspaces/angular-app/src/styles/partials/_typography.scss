@@ -1,0 +1,129 @@
+@import '_variables.scss';
+
+html,
+body {
+  font-size: $font-md;
+  line-height: 1.5em;
+  user-select: none;
+}
+
+h1,
+.h1 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+h2,
+.h2 {
+  font-size: 21px;
+  line-height: 32px;
+}
+
+h3,
+.h3 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h4,
+.h4 {
+  font-size: 14px;
+  font-weight: $font-weight-bold;
+  line-height: 21px;
+}
+
+.font-normal {
+  font-weight: $font-weight-normal;
+}
+
+.bold,
+.strong {
+  font-weight: $font-weight-bold;
+}
+
+.bolder,
+.stronger {
+  font-weight: $font-weight-bolder;
+}
+
+.extra-bold,
+.extra-strong {
+  font-weight: $font-weight-extra-bold;
+}
+
+.em,
+.italic,
+.i {
+  font-style: italic;
+}
+
+.light {
+  font-weight: $font-weight-light;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font-xl {
+  font-size: $font-xl;
+}
+
+.font-lg {
+  font-size: $font-lg;
+}
+
+.font-md {
+  font-size: $font-md;
+}
+
+.font-sm {
+  font-size: $font-sm !important;
+}
+
+.font-xs {
+  font-size: $font-xs !important;
+}
+
+.font-xxs {
+  font-size: $font-xxs !important;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+
+  &.blue {
+    color: #0270e3;
+  }
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: $font-weight-extra-bold;
+}
+
+.page-title {
+  margin-top: 0;
+  text-align: left;
+}
+
+.thin-text {
+  font-weight: $font-weight-light;
+}
+
+.dim {
+  color: #707070;
+}
+
+.text-error {
+  color: $error-text-message;
+}
+
+.success {
+  color: green;
+}
+
+.selectable {
+  user-select: text;
+}

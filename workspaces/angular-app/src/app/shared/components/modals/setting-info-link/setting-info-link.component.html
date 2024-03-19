@@ -1,0 +1,40 @@
+<div class="oz-modal">
+  <h1>{{ 'MODALS.ANTI_STARTLE.TITLE' | translate }}</h1>
+  <p class="mb-1">{{ 'MODALS.ANTI_STARTLE.INTRO' | translate }}</p>
+  <ol class="px-15">
+    <li class="mb-1">
+      <span class="strong">{{ 'MODALS.ANTI_STARTLE.G616' | translate }}:</span>
+      <span class="ml-5">{{
+        'MODALS.ANTI_STARTLE.G616_DESCRIPTION' | translate
+      }}</span>
+    </li>
+    <li class="mb-1">
+      <span class="strong"
+        >{{ 'MODALS.ANTI_STARTLE.G616_POLY_ENHANCED' | translate }}:</span
+      >
+      <span class="ml-5">{{
+        'MODALS.ANTI_STARTLE.G616_POLY_ENHANCED_DESCRIPTION' | translate
+      }}</span>
+      <br />
+      <span class="strong">{{ 'MODALS.ANTI_STARTLE.NOTE' | translate }}:</span>
+      <span class="ml-5">{{
+        'MODALS.ANTI_STARTLE.NOTE_DESCRIPTION' | translate
+      }}</span>
+    </li>
+    <li class="mb-1">
+      <span class="strong">{{ 'MODALS.ANTI_STARTLE.OFF' | translate }}:</span>
+      <span class="ml-5">{{
+        'MODALS.ANTI_STARTLE.OFF_DESCRIPTION' | translate
+      }}</span>
+    </li>
+  </ol>
+  <p>
+    {{ 'MODALS.ANTI_STARTLE.MORE_INFO' | translate }}
+    <a class="blue strong" (click)="openPolySite()">&nbsp; Poly.com</a>
+  </p>
+  <p class="mt-15 text-right">
+    <button class="btn btn-primary" (click)="confirm()">
+      {{ 'GENERAL.OK' | translate }}
+    </button>
+  </p>
+</div>

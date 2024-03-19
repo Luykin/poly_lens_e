@@ -1,0 +1,15 @@
+<label class="toggle-switch" [class.disabled]="isDisabled">
+  <input
+    role="switch"
+    type="checkbox"
+    [id]="id"
+    [disabled]="isDisabled"
+    [(ngModel)]="value"
+    (ngModelChange)="onChange(value)"
+  /><span class="slider" [class.cursor-default]="isDisabled"
+    ><span
+      class="button"
+      [style.transition-duration]="animationTimeout + 'ms'"
+    ></span
+  ></span>
+</label>

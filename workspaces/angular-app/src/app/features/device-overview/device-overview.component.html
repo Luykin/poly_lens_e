@@ -1,0 +1,193 @@
+<div class="device-overview-container">
+  <div class="scrollable-content">
+    <div class="flex-center align-items-start">
+      @for(componentInfo of componentsInfo; track index; let index = $index) {
+      <ng-container
+        *ngTemplateOutlet="
+          componentInfoTmpl;
+          context: { $implicit: componentInfo, index: index }
+        "
+      ></ng-container>
+      }
+    </div>
+    <!-- No DFU, up to date -->
+    @if(dfuNotNeeded) {
+    <div class="flex-center">
+      <div class="card overview-common-details-flex white-bg font-sm mb-2">
+        <oz-icon icon="dfu_up_to_date" [size]="5"></oz-icon>
+        <span>
+          {{ 'DETAIL.OVERVIEW.FIRMWARE_LABEL' | translate }}
+        </span>
+        <span>
+          {{ deviceSoftwareVersionSignal()?.value }}
+        </span>
+        <span class="emphasize"
+          >{{ 'DETAIL.OVERVIEW.DFU_UP_TO_DATE' | translate }}
+        </span>
+      </div>
+    </div>
+    }
+    <!-- DFU is available -->
+    @if(dfuAvailable) {
+    <div class="flex-center">
+      <div class="card overview-common-details-flex white-bg font-sm mb-2">
+        <div class="has-tooltip">
+          <oz-icon icon="info_2" [size]="5"></oz-icon>
+          @if(deviceSoftwareVersionSignal()) {
+          <div class="tooltip delay-show">
+            {{ 'DETAIL.OVERVIEW.CURRENT_FIRMWARE' | translate }}
+            {{ deviceSoftwareVersionSignal()?.value }}
+          </div>
+          }
+        </div>
+        <span>
+          <span class="emphasize">
+            {{ 'DETAIL.OVERVIEW.AVAILABLE_FIRMWARE' | translate }}
+          </span>
+          @if(availableDFUSignal()?.releaseNoteUrl){
+          <a class="strong blue underline" (click)="handleOpenReleaseNotes()">{{
+            availableDFUSignal()?.availableDFUVersion
+          }}</a>
+          } @else {
+          {{ availableDFUSignal()?.availableDFUVersion }}
+          }
+        </span>
+        <button class="btn btn-primary mr-75" (click)="scheduleNewestDFU()">
+          {{ 'GENERAL.UPDATE' | translate }}
+        </button>
+      </div>
+    </div>
+    }
+  </div>
+  <!-- DFU in Progress -->
+  @if(dfuInProgress) {
+  <div class="flex-center">
+    <div class="card overview-common-details-flex white-bg font-sm mb-2">
+      <!-- Download progress -->
+      @if(hasDfuDownloadInProgress) {
+      <span>
+        {{ 'DFU.DOWNLOADING_SOFTWARE' | translate }}
+      </span>
+      <oz-icon
+        class="v-middle icon-spin"
+        icon="progress_loading"
+        [size]="9"
+        [px]="14"
+      >
+      </oz-icon>
+      @if(downloadPercentageProgress) {
+      <span>
+        {{ downloadPercentageProgress }}
+      </span>
+      }
+      <!-- Update progress -->
+      } @else {
+      <span>
+        {{ 'DFU.UPDATING_SOFTWARE' | translate }}
+      </span>
+      <oz-icon
+        class="v-middle icon-spin"
+        icon="progress_loading"
+        [size]="9"
+        [px]="14"
+      >
+      </oz-icon>
+      <!-- Has update progress -->
+      @if(dfuStatusSignal()?.progress) {
+      <span>
+        {{ dfuStatusSignal()?.progress + ' %' }}
+      </span>
+      }}
+    </div>
+  </div>
+  }
+</div>
+
+<ng-template #componentInfoTmpl let-componentInfo let-index="index">
+  <div class="split">
+    @if(componentInfo.mark) {
+    <div class="circle-wrapper mt-2">
+      <div class="circle"></div>
+      <div class="letter font-sm">{{ componentInfo.mark }}</div>
+    </div>
+    }
+    <div class="my-2 text-center">
+      <img
+        class="product-image"
+        [src]="
+          componentInfo.image | deviceImage : selectedDevice()?.device | async
+        "
+        [class.not-connected]="!componentInfo.connected"
+      />
+    </div>
+    <div class="card overview-details-flex grey-bg font-sm mb-2 m-1">
+      <div class="details-column">
+        <ng-container>
+          <div class="label">
+            {{ 'DETAIL.OVERVIEW.STATUS_LABEL' | translate }}
+          </div>
+          <!-- Is device connected and metadata are retrieved? -->
+          @if(componentInfo.connected && isDeviceSettingsMetadataRetrieved){
+          <div class="icon">
+            <oz-icon
+              icon="circle"
+              [size]="5"
+              [color]="color_connected"
+            ></oz-icon>
+          </div>
+          <div class="status">
+            {{ 'DETAIL.OVERVIEW.CONNECTED' | translate }}
+          </div>
+          } @else if (componentInfo.connected &&
+          !isDeviceSettingsMetadataRetrieved){
+          <!-- Has the device connected, but metadata not yet been retrieved? -->
+          <div class="icon">
+            <oz-icon
+              icon="circle"
+              [size]="5"
+              [color]="color_disconnected"
+            ></oz-icon>
+          </div>
+          <div class="status">
+            {{ 'DETAIL.OVERVIEW.INITIALIZING' | translate }}
+          </div>
+          } @else {
+          <div class="icon">
+            <oz-icon
+              icon="circle"
+              [size]="5"
+              [color]="color_disconnected"
+            ></oz-icon>
+          </div>
+          <div class="status">
+            {{ 'DETAIL.OVERVIEW.NOT_CONNECTED' | translate }}
+          </div>
+          }
+        </ng-container>
+      </div>
+      <!-- Battery -->
+      @if(isConnectedSignal() && hasBatteryInfo) {
+      <!-- Loop -->
+      <div class="details-column">
+        <div class="label">
+          {{ 'DETAIL.OVERVIEW.BATTERY_LABEL' | translate }}
+        </div>
+        <div class="icon">
+          <oz-icon
+            class="ml-n5 battery-icon-margin"
+            [icon]="getBatteryIcon(componentInfo.batteryInfo!)"
+            [size]="4"
+          ></oz-icon>
+        </div>
+        <div class="status">
+          {{
+            isBatteryLevelCritical(componentInfo.batteryInfo!)
+              ? ('DETAIL.OVERVIEW.BATTERY_CRITICAL' | translate)
+              : getBatteryLevelPercent(componentInfo.batteryInfo!)
+          }}
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</ng-template>

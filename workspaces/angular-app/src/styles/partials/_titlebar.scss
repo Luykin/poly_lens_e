@@ -1,0 +1,202 @@
+@import 'variables';
+
+.titlebar {
+  display: flex;
+  position: absolute;
+  z-index: 99999;
+  top: 0;
+  right: 0;
+  left: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 22px;
+  padding: 20px 0;
+  overflow: hidden;
+  zoom: 1;
+  background-color: rgb(37, 45, 54);
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  line-height: 22px;
+  user-select: none;
+
+  .poly-controls,
+  .window-controls {
+    display: grid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    grid-template-columns: repeat(3, 46px);
+    height: 100%;
+
+    -webkit-app-region: no-drag;
+  }
+
+  .poly-controls {
+    right: auto;
+    left: 8px;
+    grid-template-columns: 28px 28px 16px 28px;
+
+    .control {
+      // home button icon sits slightly low naturally
+      .home {
+        transform: translateY(-1px);
+      }
+
+      &.active {
+        &::after {
+          content: '';
+          position: absolute;
+          top: 30px;
+          left: 50%;
+          width: 16px;
+          height: 1px;
+          transform: translateX(-50%);
+          background: $white;
+        }
+      }
+
+      &.back-link {
+        display: inline-flex;
+        flex: 0 1 auto;
+        flex-grow: 0;
+        align-items: center;
+        justify-content: flex-start;
+        width: auto;
+        padding-right: 8px;
+        padding-left: 8px;
+        font-size: $font-sm;
+
+        span {
+          position: relative;
+          top: 2px;
+          transform: translateY(-2px);
+        }
+      }
+    }
+
+    .separator {
+      position: relative;
+      grid-row: 1 / span 1;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 7px;
+        left: 8px;
+        width: 1px;
+        height: 24px;
+        background: #333a41;
+      }
+    }
+
+    .badge {
+      top: 7px;
+      box-sizing: border-box;
+      min-width: 10px;
+      height: 10px;
+      border-width: 1px;
+      font-size: 6px;
+      line-height: 7px;
+    }
+  }
+
+  // position to accommodate Mac max / min / close buttons to left
+  &.os-mac {
+    .poly-controls {
+      left: 84px;
+    }
+  }
+
+  .control {
+    display: flex;
+    position: relative;
+    grid-row: 1 / span 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: $white;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover:not(:disabled) {
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    &:active {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    &:focus,
+    &:active {
+      outline: none;
+    }
+  }
+
+  .window-controls {
+    #min-button {
+      grid-column: 1;
+    }
+
+    #max-button,
+    #restore-button {
+      grid-column: 2;
+    }
+
+    #close-button {
+      grid-column: 3;
+
+      &:hover {
+        background: #e81123;
+      }
+
+      &:active {
+        background: #f1707a;
+
+        .icon {
+          filter: invert(1);
+        }
+      }
+    }
+  }
+
+  .drag-region {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    -webkit-app-region: drag;
+  }
+
+  .window-title {
+    flex: 0 1 auto;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    //background: url("../../assets/icons/poly_lens.svg") no-repeat center;
+    //text-indent: 100%;
+
+    img {
+      width: auto;
+      height: 10px;
+    }
+  }
+}

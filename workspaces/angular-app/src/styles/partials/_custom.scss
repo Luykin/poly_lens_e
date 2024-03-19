@@ -1,0 +1,596 @@
+@import 'variables';
+
+// TODO: Where is this used? The Auth window?
+.menubar-menu-button {
+  display: none !important;
+}
+
+// NOTE .enable-section can have .disabled on itself, or .enable-sub-section as a child of .disabled
+// this allows for more specific enabling & disabling of child components under a parent .disabled element
+// see also .allow-pointer-events in _utilities.scss
+.enable-section.disabled,
+.disabled .enable-sub-section {
+  opacity: $disabled-opacity;
+  pointer-events: none;
+}
+
+.expand {
+  max-height: 0;
+  overflow: hidden;
+  transition: 1s;
+
+  &.open {
+    max-height: 1000px;
+  }
+}
+
+.first-col-fixed {
+  grid-template-columns: 200px repeat($grid-columns-lg - 1, 1fr);
+}
+
+.receiving-settings-animation {
+  width: 350px;
+  height: 221px;
+}
+
+// Due to different images that goes with DFU modal dialog,
+// we need to put a fixed size for a dialog, or otherwise
+// when switching between "Download" phase into "Progress"
+// phase or "Error/Retry" phase dialog is changing its size.
+.dfu-modal-card-size {
+  width: 400px;
+  min-height: 415px;
+
+  .image-size {
+    max-width: 375px;
+    max-height: 270px;
+  }
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.position-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+#icon-list {
+  ul {
+    li:hover {
+      list-style-type: disc;
+      opacity: 0.3;
+    }
+  }
+
+  .invert {
+    background-color: $black;
+    color: $white;
+  }
+}
+
+.coming-soon {
+  display: block;
+  position: relative;
+  height: 140px;
+
+  span {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 10px 20px;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    background: red;
+    color: $white;
+    font-size: $font-xxl;
+  }
+}
+
+.not-allowed {
+  cursor: not-allowed;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.wellness-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .toggle-switch {
+    display: block;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-row-end {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.v-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+// Device overview
+.device-overview-container {
+  .overview-details {
+    padding: 1.2em 3em;
+  }
+
+  .overview-common-details-flex {
+    display: flex;
+    padding: 1em 3em;
+    align-items: center;
+    gap: 0.5rem;
+
+    .emphasize {
+      font-weight: $font-weight-extra-bold;
+    }
+  }
+
+  .overview-details-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 3em;
+
+    &.wide {
+      flex-direction: row;
+
+      gap: 50px;
+    }
+
+    &.not-connected-offset {
+      margin-top: 52px !important;
+    }
+
+    .details-column {
+      display: grid;
+      grid-template-columns: 1fr 0.4fr 1fr;
+      grid-auto-rows: 1.5em;
+      padding: 0.25em 0;
+
+      row-gap: 0.5em;
+
+      &:empty {
+        padding: 0;
+      }
+
+      .label {
+        grid-column: 1;
+        min-width: 105px;
+        font-weight: $font-weight-extra-bold;
+      }
+
+      .name {
+        grid-column: 2 / 4;
+        min-width: 100px;
+        padding-left: 1rem;
+      }
+
+      .icon {
+        grid-column: 2;
+        padding: 0.1rem 1rem 0 1rem;
+      }
+
+      .status {
+        grid-column: 3;
+        white-space: nowrap;
+      }
+    }
+
+    // Ignore wide layout for small screen size - md size
+    @media only screen and (max-width: 768px) {
+      &.wide {
+        flex-direction: column;
+
+        gap: 0;
+      }
+    }
+  }
+
+  .overview-update-button-center {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    & oz-any-icon-tooltip {
+      position: absolute;
+      left: calc(50% - 60px);
+    }
+
+    & oz-warning-tooltip {
+      position: absolute;
+      left: calc(50% + 40px);
+    }
+  }
+}
+
+.battery-icon-margin {
+  margin-top: 2px !important;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  &.align-items-start {
+    align-items: flex-start;
+  }
+}
+
+.up-to-date-negative-margin {
+  margin-top: -2em;
+}
+
+.dfu-replug-device-negative-mt {
+  margin-top: -20px;
+}
+
+// secret page settings textarea
+.secret-settings {
+  min-height: 125px;
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter',
+    'Lucida Typewriter', monospace;
+}
+
+// Makes chart responsive to the viewport width and keeps aspect ratio
+// Example: Call usage chart on the Insights page
+.chart-responsive-container {
+  width: calc(100vw - #{$sidebar-width} - 140px);
+  height: calc((100vw - #{$sidebar-width}) / 3);
+}
+
+.beta {
+  width: 50px;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: $black;
+  color: $white;
+}
+
+// Some cards are specified to have a "rainbow" gradient border.
+// The only way to achieve that is by adding a wrapping the card
+// element with this wrapper, which has the rainbow gradient bg
+.poly-plus-border {
+  padding: 1px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f70c5f 0%, #1e4c7d 100%);
+}
+
+// container for certain Lottie animations, eg "How NBAI" works
+.animation-container {
+  position: relative;
+  max-width: 225px;
+  min-height: 214px;
+  margin: 0 auto;
+  padding: $animation-container-padding;
+
+  &.animation-nbai {
+    max-width: 280px;
+    min-height: 206px;
+  }
+
+  > ng-lottie {
+    position: absolute;
+    top: $animation-container-padding;
+    left: $animation-container-padding;
+    width: calc(100% - #{2 * $animation-container-padding});
+  }
+
+  .background {
+    margin-top: 1px;
+    transition: opacity 0.5s ease;
+
+    &.dim {
+      opacity: 0.3;
+    }
+  }
+}
+
+.wifi-settings {
+  position: relative;
+
+  .switch-offset {
+    position: relative;
+    top: 3px;
+  }
+
+  .signal-offset {
+    position: relative;
+    top: 1px;
+    left: 10px;
+  }
+
+  .signal-offset-right {
+    position: relative;
+    top: -1px;
+    right: 10px;
+  }
+
+  .input-top-offset {
+    position: relative;
+    top: -4px;
+  }
+
+  .input-top-offset-sm {
+    position: relative;
+    top: -1px;
+  }
+
+  .dropdown-top-offset {
+    position: relative;
+    top: -1px;
+  }
+
+  .join-network-wrapper {
+    max-height: 60vh;
+    overflow-y: auto;
+  }
+
+  .known-networks-wrapper {
+    padding: 0 6em 0 2em;
+  }
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.lens-build-offset {
+  position: relative;
+  top: 2px;
+}
+
+.nav-bar-dfu-available-indicator {
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  left: 4px;
+  box-sizing: border-box;
+  width: 4px;
+  height: 4px;
+  border: 1px solid $badge-background;
+  border-radius: 50%;
+  background-color: $badge-background;
+}
+
+.ellipsis {
+  display: inline-block;
+  width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.filePath {
+  overflow-wrap: break-word;
+}
+
+.resizeNone {
+  resize: none;
+}
+
+.enter-device-password-modal-width {
+  width: 32em;
+}
+
+.import-configuration-modal-width {
+  width: 360px;
+}
+
+.flex-space {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.device-ftc-enter-password {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 200px);
+  text-align: center;
+
+  .content {
+    max-width: 350px;
+
+    .password {
+      display: flex;
+    }
+
+    .password-label {
+      font-weight: $font-weight-bold;
+    }
+
+    .password-input {
+      flex: 1;
+    }
+
+    .password-error {
+      color: $error;
+    }
+
+    .not-visible {
+      visibility: hidden;
+    }
+  }
+
+  .animation-content {
+    width: 304.72px;
+    height: 238.93px;
+  }
+
+  &:first-child {
+    padding-top: 50px;
+  }
+}
+
+.device-start-setup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+
+  .ftc-wizard-page-title {
+    margin-top: 64px;
+    margin-bottom: 57px;
+  }
+}
+
+.device-ftc-identity {
+  max-width: 450px;
+  margin: 0 auto;
+
+  .countries {
+    position: relative;
+    top: -3px;
+
+    select {
+      width: 100% !important;
+    }
+  }
+
+  .input-top-offset {
+    position: relative;
+    top: -4px;
+  }
+
+  .passwords-match-error {
+    color: $error;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.set-provisioning-modal {
+  & .modal-content {
+    max-width: unset !important;
+  }
+}
+
+.weekPassword {
+  display: flex;
+  flex-direction: row;
+}
+
+.ls-05 {
+  letter-spacing: 0.5px;
+}
+
+.w-150px {
+  width: 150px !important;
+}
+
+.font-11px {
+  font-size: 11px;
+}
+
+.feedback {
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  transform: rotate(-90deg);
+  transform-origin: bottom right;
+
+  .btn-feedback {
+    display: inline-block;
+    padding: 8px;
+    padding-right: 28px;
+    border: none;
+    border-radius: 5px 5px 0 0;
+    background: $white;
+    box-shadow: -2px -1px 2px rgba(0, 0, 0, 0.03),
+      -1px 0 1px rgba(0, 0, 0, 0.04);
+    color: $black;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  oz-icon {
+    position: relative;
+    top: 4px;
+    left: -24px;
+  }
+}
+
+.play-greeting-icon {
+  position: relative;
+  top: 8px;
+  margin-right: 5px;
+  cursor: pointer;
+
+  &.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+}
+
+.play-greeting-filename {
+  position: relative;
+  top: 1px;
+}
+
+.circle-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .circle {
+    display: inline-block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border: 1px solid $light-gray;
+    border-radius: 50%;
+  }
+
+  .letter {
+    display: inline-block;
+    position: absolute;
+    color: $mid-gray;
+    font-weight: $font-weight-bold;
+  }
+}
+
+.policy-note,
+.case-update-note {
+  font-family: Lato;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  margin-left: 0.5rem;
+}

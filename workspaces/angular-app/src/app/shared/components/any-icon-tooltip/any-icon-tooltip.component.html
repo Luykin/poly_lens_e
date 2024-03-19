@@ -1,0 +1,12 @@
+<div class="v-center" #iconContainerRef>
+  <oz-icon
+    (mouseenter)="showTooltip()"
+    (mouseleave)="hideTooltip()"
+    [icon]="icon"
+    [size]="size"
+    [ngClass]="{ 'icon-spin': spinAnimation }"
+  ></oz-icon>
+  <div class="any-icon-tooltip-content" #tooltipContentRef>
+    <ng-content></ng-content>
+  </div>
+</div>

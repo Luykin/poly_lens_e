@@ -1,0 +1,49 @@
+<ul>
+  @for(device of deviceList; track index; let index = $index) {
+  <li
+    routerLinkActive="active"
+    [ngClass]="{ active: isActive(device.device.deviceId) }"
+  >
+    <a
+      class="hover-toggle d-flex"
+      [class.disconnected]="!device.device.attached"
+      (click)="handleDeviceSelection(device.device.deviceId)"
+    >
+      <div class="d-flex">
+        <div class="icon" [class.connected]="device.device.attached">
+          @if (device.device.attached) {
+          <oz-connection-indicator
+            [connected]="device.device.attached"
+            [supported]="device.supported"
+          >
+          </oz-connection-indicator>
+          }
+        </div>
+        <div class="label has-tooltip">
+          {{ device.device.productName }}
+          @if (!device.supported) {
+          <div class="tooltip delay-show">
+            {{ 'TOOLTIPS.DEVICE_NOT_SUPPORTED' | translate }}
+          </div>
+          }
+        </div>
+      </div>
+      @if(device.hasActionInProgress) {
+      <div class="icon">
+        <oz-icon
+          class="v-middle icon-spin"
+          icon="progress_loading"
+          [size]="9"
+          [px]="18"
+        >
+        </oz-icon>
+      </div>
+      }
+      <!-- Badge counter -->
+      @if (showBadge(device)) {
+      <oz-badge [count]="device.badgeValue!"></oz-badge>
+      }
+    </a>
+  </li>
+  }
+</ul>

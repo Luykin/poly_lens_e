@@ -1,0 +1,18 @@
+<div class="accordion-item">
+  <div class="grid">
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Language.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <oz-dropdown
+        [options]="languages"
+        [translateOptions]="true"
+        [(ngModel)]="selectedLanguage"
+        (ngModelChange)="onLanguageChange($event)"
+      />
+    </div>
+    <div class="col-12 font-xs">
+      <div class="grey">{{ 'SETTINGS.Language.LABEL' | translate }}</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,123 @@
+<h1 class="page-title light text-center">
+  {{ 'SUPPORT.TITLE_APP' | translate }}
+</h1>
+
+<div class="scroll-container has-heading">
+  <div class="scrollable-content">
+    <div class="card-container-sm mt-3">
+      <div class="grid equal-height">
+        <div class="col-6 card text-left">
+          <h4 class="mb-1">{{ 'SUPPORT.CONTACT_TYPE' | translate }}</h4>
+          <div class="text-center py-1">
+            <oz-icon class="arrow" icon="contact_support" [size]="4"></oz-icon>
+          </div>
+          <div class="text-left">
+            {{ 'SUPPORT.GET_ACCESS' | translate }}
+          </div>
+          <div class="ml-0">
+            <a
+              (click)="openSupportPage()"
+              class="blue bold font-sm clickable"
+              id="support_visit_poly_link"
+            >
+              {{ 'SUPPORT.POLY_SUPPORT_LINK' | translate }}
+            </a>
+          </div>
+          <div class="ml-0">
+            <a
+              (click)="openCommunityPage()"
+              class="blue bold font-sm clickable"
+              id="support_visit_poly_community_link"
+            >
+              {{ 'SUPPORT.POLY_COMMUNITY_LINK' | translate }}
+            </a>
+          </div>
+          <div class="text-left">
+            {{ 'SUPPORT.GET_STARTED' | translate }}
+          </div>
+          <a
+            (click)="openDocumentPage()"
+            class="blue bold font-sm clickable"
+            id="support_get_started_link"
+          >
+            {{ 'SUPPORT.POLY_DOCUMENT_LINK' | translate }}
+          </a>
+        </div>
+        <div class="col-6 card text-left">
+          <h4 class="mb-1">{{ 'SUPPORT.APP_INFO' | translate }}</h4>
+          <div class="grid">
+            <div class="col-12">
+              <div class="sub-title selectable" id="support_tenant_label">
+                {{ 'SUPPORT.TENANT_ID' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_tenant_value">
+                {{ polySupport.tenantId || 'SUPPORT.NONE' | translate }}
+              </div>
+              <div class="sub-title selectable" id="support_user_label">
+                {{ 'SUPPORT.USER_ID' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_user_value">
+                {{ polySupport.userId || 'SUPPORT.NONE' | translate }}
+              </div>
+              <div
+                class="sub-title selectable"
+                id="support_application_id_label"
+              >
+                {{ 'SUPPORT.APP_ID' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_application_id_value">
+                {{ polySupport.appId || 'SUPPORT.NONE' | translate }}
+              </div>
+              <div
+                class="sub-title selectable"
+                id="support_software_version_label"
+              >
+                {{ 'SUPPORT.SOFTWARE_VERSION' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_software_version_value">
+                {{ polySupport.appVersion }}
+              </div>
+              @if (lensServiceVersionVisibility) {
+              <div class="sub-title selectable" id="support_lens_system_label">
+                {{ 'SUPPORT.LENS_SYSTEM' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_lens_system_value">
+                {{
+                  polySupport.lensVersion || 'SUPPORT.LENS_SYSTEM_NOT_CONNECTED'
+                    | translate
+                }}
+              </div>
+              }
+              <div
+                class="sub-title selectable"
+                id="support_last_connected_label"
+              >
+                {{ 'SUPPORT.LAST_CONNECTED' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_last_connected_value">
+                @if (polySupport.lastConnected) {
+                {{ polySupport.lastConnected | date : 'medium' }}
+                } @else {
+                {{ 'SUPPORT.UNKNOWN' | translate }}
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid equal-height mt-15">
+        <div class="col-6 offset-6 card text-left">
+          <h4>{{ 'SUPPORT.DIAGNOSTICS' | translate }}</h4>
+          <p>{{ 'SUPPORT.DIAGNOSTICS_DESCRIPTION' | translate }}</p>
+          <button
+            (click)="downloadLogs()"
+            class="btn btn-primary mt-1"
+            id="support_download_logs_button"
+          >
+            {{ 'SUPPORT.DOWNLOAD_LOGS' | translate }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

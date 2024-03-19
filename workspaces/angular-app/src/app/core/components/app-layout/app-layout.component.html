@@ -1,0 +1,21 @@
+<sidebar></sidebar>
+<div
+  class="main-content"
+  [class.ocean-background]="'ocean' === background"
+  [ngClass]="classes.join(' ')"
+>
+  <oz-toast-container></oz-toast-container>
+  <div [ngClass]="className" [@routeAnimations]="prepareRouteAnimation(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </div>
+</div>
+<div class="feedback">
+  <button
+    class="btn btn-feedback"
+    id="feedbackButton"
+    (click)="openFeedbackForm()"
+  >
+    {{ 'BUTTONS.FEEDBACK' | translate }}
+  </button>
+  <oz-icon icon="megaphone" [size]="3"></oz-icon>
+</div>

@@ -1,0 +1,1580 @@
+{
+  "ACOUSTIC_FENCE": {
+    "OFF": "Kikapcsolva",
+    "NARROW": "Keskeny",
+    "MEDIUM": "Közepes",
+    "WIDE": "Széles"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Kezdjük az elején...",
+    "I_AGREE": "Elfogadom a",
+    "POLY_EULA": "Poly végfelhasználói licencszerződést",
+    "CLOSE": "Bezárás",
+    "PROCEED": "Tovább"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Ajánlott eljárások",
+    "MENU": {
+      "HEADSET": "Headset",
+      "CAMERA": "Kamera",
+      "DESK_SETUP": "Munkaállomás beállítása"
+    },
+    "NEXT": {
+      "NEXT": "KÖVETKEZŐ:",
+      "TITLE": "Ajánlott eljárások",
+      "LEARN_MORE": "További információ"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Elfogadás",
+    "APPLY": "Alkalmazás",
+    "CANCEL": "Mégse",
+    "CONTINUE": "Folytatás",
+    "DECLINE": "Elutasítás",
+    "DONE": "Kész",
+    "LOG_IN": "Bejelentkezés",
+    "LOG_OUT": "Kijelentkezés",
+    "OK": "OK",
+    "RETRY": "Újra",
+    "SHOW_LESS": "Kevesebb megjelenítése"
+  },
+  "Download": "Letöltés",
+  "Upload": "Feltöltés",
+  "RECEIVING_SETTINGS": "Fogadási beállítások",
+  "GENERAL": {
+    "BACK": "Vissza",
+    "CANCEL": "Mégse",
+    "CLOSE": "Bezárás",
+    "COMING_SOON": "HAMAROSAN",
+    "DOWNLOAD": "Letöltés",
+    "DOWNLOADING": "Letöltés folyamatban",
+    "LOADING": "Betöltés",
+    "FEEDBACK": "Visszajelzés",
+    "HOME": "Kezdőlap",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Új hozzáadása",
+    "EDIT_NAME": "Név szerkesztése",
+    "DELETE": "Törlés",
+    "RESTORE_DEFAULTS": "Alapértelmezések visszaállítása",
+    "SEARCH_SETTINGS": "Keresési beállítások",
+    "SUPPORT": "Támogatás",
+    "UPLOAD": "Feltöltés",
+    "UPDATE": "Frissítés",
+    "RETURN_HOME": "Vissza a Kezdőképernyőre",
+    "VERSION": "Verzió"
+  },
+  "FTU": {
+    "WELCOME_TO": "Üdvözöli a",
+    "WELCOME_1": "Engedje meg, hogy segítsünk a legjobb élményt elérni a Poly Lens megoldással.",
+    "WELCOME_2": "Csatlakoztassa eszközeit a teljes körű élmény érdekében.",
+    "CONNECTIVITY": {
+      "HEADER": "Csatlakoztatás",
+      "TITLE": "A Poly Lens kezeli az eszközeit",
+      "DESCRIPTION": "A Poly Lens segítségével megtekintheti a kamerák és headsetek állapotát, frissítheti a szoftvert, testre szabhatja a beállításokat, és elháríthatja a csatlakozási problémákat. A Poly Lens az IT-csapattal is csatlakoztatható az irodai beállítás és a távmunka egyszerűsítésére."
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Ajánlott eljárások",
+      "TITLE": "A Poly Lens javítja a munkaállomás felhasználói élményét",
+      "DESCRIPTION": "A Poly Lens használatával ergonomikusabbá teheti a munkaállomását, illetve biztosíthatja, hogy a lehető legjobb kép- és hangminőséget nyújthassa."
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Egészség és wellness",
+      "TITLE": "A Poly Lens segít, hogy odafigyelhessen magára",
+      "DESCRIPTION": "A Poly Lens segít formában tartani Önt a munkája során. Beállíthat különböző emlékeztetőket, amelyek a vízfogyasztásra, illetve a szünetekre emlékeztetik, a munkavégzés során pedig a természet pihentető hangjait hallgathatja."
+    },
+    "EXPLORE": {
+      "TITLE": "Fedezze fel a Poly Lens Desktopot",
+      "DESCRIPTION": "Nem nagyvállalati ügyfél? Nem gond. A Poly Lens segítségével továbbra is kezelheti eszközeit, megismerheti az ajánlott eljárásokat, és megőrizheti egészségét.",
+      "BUTTON": "Folytatás vendégként"
+    },
+    "GET_STARTED": {
+      "TITLE": "Első lépések a Poly Lens Desktop használatakor",
+      "DESCRIPTION": "Jelentkezzen be a Lens Desktop alkalmazásba, hogy a Poly és a szervezete a legjobb eszközfelhasználói élményt nyújthassa.",
+      "BUTTON": "Bejelentkezés"
+    },
+    "GETTING_STARTED": "Első lépések",
+    "LOGIN_CARD": {
+      "TITLE": "Első lépések a Poly Lens Desktop használatakor",
+      "DESCRIPTION": "Jelentkezzen be a Lens Desktop alkalmazásba, hogy a Poly és a szervezete a legjobb eszközfelhasználói élményt nyújthassa."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Felszerelés",
+      "DESCRIPTION": "Helyezze el úgy a monitort, hogy a szeme egy szintben legyen a képernyő felső harmadával. Csatlakoztassa a kamerát a monitor középső részére."
+    },
+    "CENTERING": {
+      "TITLE": "Központosítás",
+      "DESCRIPTION": "A kameranézet középpontjában néz ki a legjobban. Ügyeljen arra, hogy az arca jól látható legyen, és ne lógjon ki a széleken. Próbáljon meg úgy elhelyezkedni, hogy a gallértól lefelé legalább 15 cm látszódjon az ingéből."
+    },
+    "LIGHTING": {
+      "TITLE": "Megvilágítás",
+      "DESCRIPTION": "A megvilágítás kulcsfontosságú ahhoz, hogy jól nézzen ki a képen. A napsütés egy változó fényforrás, amely hatással lehet a beltér megvilágítására. Amennyiben lehetséges, úgy helyezze el a munkaállomását, hogy az ablakok a monitor mögött legyenek, és amennyire csak lehetséges, ne legyenek erős fényforrások a háta mögött. A fej felett elhelyezett szórt fényt biztosító fényforrások a legmegfelelőbbek."
+    },
+    "BACKGROUND": {
+      "TITLE": "Háttér",
+      "DESCRIPTION": "A háttérben elhelyezett tárgyak sokkal személyesebbé tehetik a videohívásokat, de mindenképp Ön legyen a fókuszpontban. Ha nem tud dönteni: mindig előnyösebb, ha kevesebb tárgy van a háttérben."
+    },
+    "NEXT": {
+      "SUBTITLE": "Munkaállomás beállítása"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "POWER": {
+      "TITLE": "Ellenőrizze a főkapcsolót",
+      "DESCRIPTION": "Be van kapcsolva a főkapcsoló?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Ellenőrizze a Bluetooth-adaptert",
+      "DESCRIPTION": "Világít az adapter végén található kék fény? Néha, ha kihúzza az adaptert, majd újra csatlakoztatja, ekkor a headset csatlakozni fog."
+    },
+    "SUPPORT": {
+      "TITLE": "Forduljon a támogatási csapathoz.",
+      "DESCRIPTION": "Továbbra is problémákba ütközik?",
+      "LINK": {
+        "TEXT": "Forduljon a támogatási csapathoz."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Munkaállomás",
+      "DESCRIPTION": "Ügyeljen arra, hogy szabad legyen a munkaállomás alatti terület, és hogy elegendő lábtér álljon rendelkezésre. Ha a munkaállomás magassága nem állítható, a széket emelje feljebb vagy engedje lejjebb, szükség esetén pedig használjon lábtámaszt."
+    },
+    "KEYBOARD": {
+      "TITLE": "Billentyűzet",
+      "DESCRIPTION": "Ügyeljen rá, hogy a billentyűzet eléréséhez a vállai ne feszüljenek, az alkarjai pedig párhuzamosak legyenek a padlóval.  Próbálja egyenesen tartani a csuklóit, hogy azok csak minimálisan legyenek behajlítva."
+    },
+    "CHAIR": {
+      "TITLE": "Szék",
+      "DESCRIPTION": "Olyan széket válasszon, amely megtámasztja a gerincét. A szék magasságát úgy állítsa be, hogy a lábai vízszintesen feküdjenek a padlón, a combjai pedig párhuzamosak legyenek a padlóval. A kartámaszokat úgy állítsa be, hogy a karját és vállát lazán tarthassa."
+    },
+    "FEET": {
+      "TITLE": "Lábak",
+      "DESCRIPTION": "Ügyeljen rá, hogy lábfejeit vízszintesen a padlón tudja pihentetni. Használjon lábtámaszt, ha a szék túl magas, vagy ha a munkaállomás magassága miatt magasra kell állítania a széket."
+    },
+    "MONITOR": {
+      "TITLE": "Monitor",
+      "DESCRIPTION": "Helyezze a monitort közvetlenül maga elé, körülbelül egy karnyújtásnyira. A monitort úgy helyezze el, hogy a képernyő 45–70 cm távolságra legyen a szemeitől, a felső szintje pedig a szem magasságában vagy az alatt legyen egy kicsivel."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Headset",
+    "USB_ADAPTER": "USB adapter",
+    "CUSTOM_SOFTWARE_UPDATE": "Egyéni szoftverfrissítés:",
+    "LOGS": "Naplók:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Naplók mentése",
+    "SELECT_SOFTWARE_UPDATE": "Szoftverfrissítés kiválasztása",
+    "SERIAL_NUMBER": "Sorozatszám:",
+    "SOFTWARE_VERSION": "Szoftververzió:"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Meglátások",
+    "CHART": {
+      "TITLE": "Használat",
+      "SERIES_NAME": "Teljes használat"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Késleltetés (ms)",
+      "NETWORK_SPEED": "Hálózati sebesség (Mbps)",
+      "RUNNING": "Fut",
+      "START_TEST": "Teszt futtatása",
+      "TEST_AGAIN": "Teszt megismétlése",
+      "TEST_RESULTS": "Teszteredmények",
+      "TITLE": "Hálózati diagnosztikai tesztelés",
+      "NO_CONNECTION": "Úgy tűnik, hogy nem kapcsolódik az internethez. A hálózat tesztelése csak akkor használható, ha kapcsolódik az internethez.",
+      "SUBTEXT": "A hálózati diagnosztikai tesztelés egy kereskedelmi előzetes funkció."
+    }
+  },
+  "EE": {
+    "PAUSED": "Szüneteltetve",
+    "CONTINUE": "A folytatáshoz nyomja meg a SZÓKÖZ billentyűt.",
+    "FIRE": "SHIFT - Fire",
+    "MOVE": "NYILAK - Mozgás",
+    "PAUSE": "SZÓKÖZ - Szünet",
+    "EXIT": "ESC – Kilépés",
+    "START": "A kezdéshez nyomja meg A SZÓKÖZ gombot.",
+    "DONE": "Nem rossz. Szép munka.",
+    "TRY_AGAIN": "Az ismételt próbálkozáshoz nyomja meg a SZÓKÖZ gombot."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Fejpánt beállítása",
+      "DESCRIPTION": "A megfelelő illeszkedés érdekében állítsa be a fejpántot úgy, hogy a headset fülpárnája középre kerüljön a fülére, és ügyeljen arra, hogy a headset ne legyen se túl szoros, se túl laza. Tekintse meg a headset felhasználói útmutatóját a részletes beállítási utasításokért."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Gém alakja",
+      "DESCRIPTION": "A Poly gémjei hajlíthatóak és könnyedén pozicionálhatóak. Ha a headsete gémmel is rendelkezik, a mikrofont kb. 5 cm távolságban helyezze el az ajkaitól."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Gém elhelyezése",
+      "DESCRIPTION": "Ha a headset gémmel is rendelkezik, azt elfogatva a bal vagy a jobb oldalon is elhelyezheti. Ügyeljen arra, hogy a hívások fogadásakor a gém a szája felé nézzen, és ne felfelé."
+    },
+    "NEXT": {
+      "SUBTITLE": "Kamera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Üdv, {{open_tag}}{{user_name}}{{close_tag}}!",
+    "TITLE_GUEST": "Üdv, {{open_tag}}Vendég{{close_tag}}!",
+    "GO_TO_DETAIL": "Ugrás a Részletekhez",
+    "CONNECT_A_DEVICE": "Kezdésként csatlakoztasson egy eszközt.",
+    "NOT_SEEING_DEVICE": "Nem látja az eszközét?",
+    "SUBMIT_FEEDBACK": "Visszajelzés küldése",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Meglátások",
+        "DESCRIPTION": "Ellenőrizheti az eszközhasználatot és a munkaállomás csatlakozását."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Egészség és wellness",
+        "DESCRIPTION": "Emlékeztetőket kérhet a folyadékfogyasztásra és a pihenésre vonatkozóan. Játsszon le hangképeket az összpontosítás elősegítéséhez."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Ajánlott eljárások",
+        "DESCRIPTION": "Optimalizálja a kamerát, és ismerje meg, hogyan teheti még ergonomikusabbá munkaterületét."
+      },
+      "SUPPORT": {
+        "TITLE": "Poly támogatás",
+        "DESCRIPTION": "Problémákat tapasztal? Segítünk."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Aktív",
+    "INACTIVE": "Inaktív",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "A NoiseBlockAI funkciót arra tervezték, hogy kiszűrje a nem emberi hangokat (például billentyűzeten való gépelés vagy papírrendezés hangjait), és megakadályozza, hogy ezek megzavarják a megbeszéléseket. Ezt úgy éri el, hogy hallgatja azokat a hangokat, amelyek akkor hallhatók, amikor senki sem beszél, és ezeknél automatikusan elnémítja a mikrofont. A mikrofon némítása megszűnik, amikor folytatódik a beszéd.",
+    "FOR_INCOMING_DESCRIPTION": "Megakadályozhatja, hogy a megbeszélést a másik féltől érkező hangok (például billentyűzeten való gépelés vagy papírrendezés hangjai) megzavarják.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI bejövő hanghoz",
+    "FOR_OUTGOING_DESCRIPTION": "Megakadályozhatja, hogy a megbeszélést környezetből származó zavaró hangok (például billentyűzeten való gépelés vagy papírrendezés hangjai) megzavarják.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI kimenő hanghoz",
+    "SEE_HOW_WORKS": "Nézze meg, hogyan működik"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Töltés",
+      "STOPPED": "Töltés leállt"
+    },
+    "MUTE": {
+      "ON": "Némítás bekapcsolása",
+      "OFF": "Némítás kikapcsolása"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Elérhető egy szoftverfrissítés: {{build}}."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Elérhető egy eszközfrissítés"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Az eszköz nem található",
+      "MESSAGE": "Ó, jaj. Hiba történt. Próbálja újra."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Az oldal nem található",
+      "MESSAGE": "Ó, jaj. Hiba történt. Próbálja újra."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "A Poly Lens alkalmazásnak engedélyre van szüksége a kamera eléréséhez. A kamera-hozzáférést a rendszerbeállításokban engedélyezheti a Poly Lens számára."
+    },
+    "BUTTON": {
+      "CLOSE": "Bezárás"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "Az eszköz leválasztva"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Üdvözli a Studio P21!",
+      "CONTENT": "A Studio P21 használatához a megjelenítést szolgáló kiegészítő szoftvert kell letöltenie.",
+      "BUTTON": "Letöltés"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Üdvözli az új Studio P21!",
+      "CONTENT": "Mielőtt használatba venné új eszközét, a megjelenítést szolgáló kiegészítő szoftvert kell letöltenie.",
+      "BUTTON_DOWNLOAD": "Letöltés",
+      "BUTTON_MORE_INFO": "További információk"
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "További nyelvi eszközök sikeresen betöltve."
+    }
+  },
+  "DETAIL": {
+    "AUTO": "Auto",
+    "TITLE": "Részletek oldal",
+    "BACK_TO_HOME": "Vissza a kezdőlapra",
+    "CAMERA": "Kamera",
+    "CONTROLS": "Vezérlők",
+    "EXPAND": "Kibontás",
+    "LINK": "Összekapcsolás",
+    "UNLINK": "Leválasztás",
+    "CONTRACT": "Kicsinyítés",
+    "GRID": "Rács",
+    "SETTINGS": "Beállítások",
+    "FAVORITES": "Kedvencek",
+    "FAVORITE_DELETE_CONFIRM": "Biztosan törli a(z) „{{favoriteName}}” nevű kedvencet?",
+    "FAVORITE_NUMBER": "{{number}}. kedvenc",
+    "FAVORITE_SAVE_AS": "Mentés új kedvencként",
+    "FAVORITES_SAVED": "Mentve",
+    "FAVORITE_COPY": "{{favoriteName}} másolat",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Az előnézet elindításához kattintson az alábbi Megjelenítés ikonra.",
+    "PREVIEW_SHOW": "Megjelenítés",
+    "PREVIEW_HIDE": "Elrejtés",
+    "PREVIEW_HIDDEN": "Előnézet elrejtve",
+    "PREVIEW_WINDOWS_NOTICE": "Más alkalmazások nem fogják tudni használni ezt a kamerát, ha az Előnézet engedélyezve van.",
+    "SNAPSHOT": "Pillanatkép",
+    "SNAPSHOT_SAVE": "Pillanatkép mentése",
+    "SNAPSHOT_SAVED_SUCCESS": "A pillanatkép mentése sikerült.",
+    "SNAPSHOT_SAVED_FAIL": "A pillanatkép nem került mentésre.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "pillanatkép",
+    "SANDBOX": "Sandbox",
+    "HEADSET": "Headset",
+    "SUPPORT": "Támogatás",
+    "USB_ADAPTER": "USB adapter",
+    "OVERVIEW": {
+      "OVERVIEW": "Leírás",
+      "BATTERY_LABEL": "Akkumulátor:",
+      "BATTERY_CRITICAL": "Kritikus",
+      "STATUS_LABEL": "Állapot:",
+      "FIRMWARE_LABEL": "Firmware:",
+      "CONNECTED": "Csatlakoztatva",
+      "NOT_CONNECTED": "Nincs csatlakoztatva",
+      "PAIRING_MODE": "Új eszköz párosítása",
+      "MAKE_PRIMARY": "Legyen az elsődleges",
+      "DELETE_DEVICE": "Eszköz törlése",
+      "TROUBLE_CONNECTING": "Nem sikerül csatlakoztatni a készüléket?"
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Megnyitás",
+      "NO_DEVICES": "Nincsenek csatlakoztatott eszközök.",
+      "QUIT": "Kilépés a Poly Lensből",
+      "SOUNDSCAPING": "Hangképek",
+      "OFF": "Kikapcsolva"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Egészség és wellness",
+    "SOUNDSCAPING": {
+      "TITLE": "Hangképek",
+      "ENABLE_SOUNDSCAPES": "Hangképek engedélyezése",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Adjon hangképeket környezetéhez",
+          "DESCRIPTION": "A megnyugtató környezet segít a zavaró tényezők kiszűrésében. A hangképi lehetőségek közé tartoznak a vízesések, a szél, a patakok, az erdők és az óceánok természetes hangjai. Ezek az összegyűjtött biofil hangok segíthetnek csökkenteni a stresszt, és javítani a koncentrációt."
+        }
+      },
+      "MOUNTAIN_RANCH": "Hegyi gazdaság",
+      "GENTLE_OCEAN": "Nyugodt óceán",
+      "BABBLING_BROOK": "Csobogó patak",
+      "AT_VOLUME": "ezen a hangerőn:"
+    },
+    "HYDRATION": {
+      "TITLE": "Folyadékfogyasztás",
+      "REMINDERS": "Folyadékfogyasztási emlékeztetők",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Igyon vizet",
+          "DESCRIPTION": "A megfelelő hidratáltsághoz a férfiaknak kb. 3,7 liter, a nőknek pedig kb. 2,7 liter vízre van szükségük naponta.",
+          "SOURCE_LINK_LABEL": "Forrás",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Ideje vízszünetet tartani",
+        "BODY": "Az elegendő folyadék javíthatja az alvás minőségét, a gondolkodást és a hangulatot."
+      }
+    },
+    "VISION": {
+      "TITLE": "Látás",
+      "REMINDERS": "Látáspihentető szünet emlékeztetők",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Forduljon el a képernyőtől",
+          "DESCRIPTION": "Jó szabálynak tekinthető a 20-20-20-as szabály, ami azt jelenti, hogy minden 20 percben 20 másodpercig nézzünk valamire körülbelül 20 lábnyira (6 m)."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Mozogjon",
+          "DESCRIPTION": "A 20-20-20-as szabály jó kezdet, de emellett ügyeljen arra, hogy időnként hagyja el a munkaállomást, menjen a szabadba, nyújtózkodjon vagy gyakorolja az éberséget."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Ideje szünetet tartani",
+        "BODY": "A szünet növelheti az odafigyelési képességet, a termelékenységet és a munka minőségét."
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Emlékeztető gyakoriságának beállítása",
+    "REMINDER_SCHEDULE": "{{timeSpan}} {{days}} napokon {{startTime}} és {{endTime}} időpont között",
+    "FREQUENCY": "Gyakoriság",
+    "TIME_RANGE": "Időtartomány",
+    "WEEKDAYS": "Hétköznapok (H–P)",
+    "WEEKDAYS_SHORT": "Hétköznap",
+    "EVERY_DAY": "Minden nap",
+    "CUSTOM": "Egyéni",
+    "ON": "ekkor:",
+    "LEARN_MORE": "További információ",
+    "NEXT": "KÖVETKEZŐ",
+    "THROUGH": "eddig"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Hogyan működik az Acoustic Fence",
+      "TITLE": "Hogyan működik az Acoustic Fence",
+      "DESCRIPTION": "Az Acoustic Fence továbbfejlesztett visszhangcsökkentési technológia és egyszerre több mikrofon segítségével hoz létre virtuális „hangkerítést”, amely kizárja a kerítésen túlról érkező hangokat – például a munkatársak beszélgetését, a gépek hangos zaját vagy akár a kutyaugatást is –, így ezek nem zavarják meg a beszélgetést."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Hogyan működik a NoiseBlockAI",
+      "TITLE": "Hogyan működik a NoiseBlockAI",
+      "DESCRIPTION": "A NoiseBlockAI funkciót arra tervezték, hogy kiszűrje a nem emberi hangokat (például billentyűzeten való gépelés vagy papírrendezés hangjai), és megakadályozza, hogy ezek megzavarják a megbeszéléseket. Ezt úgy éri el, hogy gépi tanuláson alapuló zajcsökkentő technológia segítségével tompítja a beszéd közben jelentkező zavaró háttérzajokat. {{line_feed}}Amikor pedig nem beszél, a NoiseBlockAI automatikusan elnémítja a mikrofont, és ezzel megakadályozza, hogy a háttérzajok megzavarják a beszélgetést."
+    },
+    "RESET_HEADSET": {
+      "TITLE": "Alapértelmezések visszaállítása",
+      "CONFIRM_MESSAGE": "Ez a művelet az eszköz összes gyári alapértelmezett beállításának a visszaállítására szolgál.",
+      "COMPLETE_TITLE": "Beállítások visszaállítva!",
+      "COMPLETE_MESSAGE": "Az új beállítások alkalmazásához ne felejtse el kihúzni (ha USB-kábellel csatlakozik), majd ki-/bekapcsolni a headsetet.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "A folyamat befejezéséhez a készülék most újraindulhat."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Alapértelmezések visszaállítása",
+      "CONFIRM_MESSAGE": "Ez a művelet visszaállítja a Lens összes alapértelmezett beállítását."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "További tudnivalók az Anti-Startle funkcióról",
+      "TITLE": "Az Anti-Startle funkció ismertetése",
+      "INTRO": "Az akusztikus sokk elleni védelemhez (Anti-Startle) a terméktől függően 2 vagy 3 opció áll rendelkezésre:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "Az akusztikus sokk elleni védelemre vonatkozó ausztrál ipari iránymutatás korlátozza a fülbe érő hangszintet, hogy ezzel csökkentse a nagy hangerő okozta sokkhatást.",
+      "G616_POLY_ENHANCED": "G616 (a Poly által továbbfejlesztve)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "A Poly szabadalmaztatott algoritmusai a G616 szintű védelmet is meghaladó mértékben iktatják ki a hirtelen jelentkező erős hangokat, és azonnal tompítják ezeket, így az ép hangzás megőrzése mellett biztosítják a kellemes hallgatási élményt.",
+      "OFF": "Kikapcsolva",
+      "OFF_DESCRIPTION": "Amikor ezt a beállítást letiltják, akkor a headset szűrés nélkül továbbítja a hangot, ugyanakkor hallásvédelmi célból 118 dBA hengerősségre korlátozza a hangszintet.",
+      "NOTE": "MEGJEGYZÉS",
+      "NOTE_DESCRIPTION": "Ez az opció termékfüggő.",
+      "MORE_INFO": "Ha szeretne többet megtudni erről a funkcióról, akkor látogasson el ide:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Ez az elsődleges eszköz.",
+    "MAKE_DEVICE_MAIN": "Az eszköz beállítása elsődleges eszközként.",
+    "DEVICE_NOT_SUPPORTED": "Az eszköztámogatás hamarosan elérhetővé válik. Az alkalmazáson belüli funkciók korlátozottak lehetnek."
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Szoftverösszetevők",
+    "VIEW_LIST_OF_COMPONENTS": "{{numberOfComponents}} összetevő megtekintése",
+    "VIEW_ONE_COMPONENT": "1 összetevő megtekintése",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "Hangolás",
+    "BASE": "Alap",
+    "HEADSET": "Headset",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "Kamera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Már majdnem végeztünk!",
+    "REPLUG_DESCRIPTION": "Válassza le, majd csatlakoztassa újra az eszközt, és kattintson a „Folytatás” gombra a frissítés befejezéséhez.",
+    "UPDATE_WARNING_1": "A frissítés elvégzése néhány percet vesz igénybe.",
+    "UPDATE_WARNING_2": "{{open_tag}}Ne válassza le az eszközt{{close_tag}} a frissítési folyamat közben.",
+    "UPDATE_WARNING_3": "A szoftverfrissítés megkezdése előtt gondoskodjon róla, hogy a kamerát ne használják más alkalmazások.",
+    "DISTANCE_WARNING.TITLE": "Készüljön fel a frissítésre",
+    "DISTANCE_WARNING_1": "A frissítés során tartsa a(z) {{open_tag}}{{device_name}}{{close_tag}} eszközt 1,5 méter távolságra a számítógéptől.",
+    "DISTANCE_WARNING_2": "A frissítés zökkenőmentes elvégzése érdekében válasszon le minden egyéb Bluetooth-kapcsolatot (pl. mobiltelefon).",
+    "LANGUAGE_DOWNLOAD": "Nyelvletöltés",
+    "DOWNLOADING_LANGUAGE": "Nyelv letöltése",
+    "LANGUAGE_UPDATE": "Nyelvfrissítés",
+    "UPDATEING_LANGUAGE": "Nyelv frissítése",
+    "LANGUAGE_UPDATED": "Nyelv frissítve",
+    "SOFTWARE_DOWNLOAD": "Szoftverletöltés",
+    "DOWNLOADING_SOFTWARE": "Szoftver letöltése",
+    "SOFTWARE_UPDATE": "Szoftverfrissítés",
+    "UPDATING_SOFTWARE": "Szoftver frissítése",
+    "SOFTWARE_INSTALLED": "Szoftver telepítve",
+    "CUSTOM_SOFTWARE_UPDATE": "Egyéni szoftverfrissítés",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Egyéni szoftverfrissítés feltöltése",
+    "CUSTOM_SOFTWARE_INSTALLED": "Egyéni szoftver telepítve",
+    "UPDATE_FAILED": "Szoftverfrissítés sikertelen",
+    "UPDATE_FAILED_TITLE": "Ó, jaj. Van egy kis probléma.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "A szoftverfrissítés sikertelen volt.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "A szoftver már naprakész",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "A frissíteni kívánt eszközön már a legújabb szoftver található.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Az akkumulátor töltöttségi szintje nem elegendő a frissítés elvégzéséhez. A frissítés megkezdése előtt töltse fel a(z) {{deviceName}} eszköz akkumulátorát.",
+      "DeviceNotConnectedError": "Csatlakoztassa a(z) {{deviceName}} eszközt kábelen keresztül a frissítéshez.",
+      "CallinProgressError": "A(z) {{deviceName}} nem frissíthető hívás közben.",
+      "DFUInProgressError": "A(z) {{deviceName}} eszköz nem frissíthető, ha folyamatban van egy másik frissítés.",
+      "MultipleDevicesError": "Kettő vagy több azonos modellszámú eszköz van csatlakoztatva. Az eszköz frissítése előtt válassza le a többi eszközt.",
+      "ReplugDevice": "Válassza le, majd csatlakoztassa újra az eszközt a szoftverfrissítés befejezéséhez."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Általános",
+    "DisplayControls": "Kijelző vezérlőfunkciói",
+    "RingtoneAndVolume": "Csengőhangok és hangerő",
+    "SensorAndPresence": "Érzékelő és jelenlét",
+    "SoftphonesAndMediaPlayers": "Softphone-ok és médialejátszók",
+    "Wireless": "Vezeték nélküli",
+    "Advanced": "Speciális",
+    "Firmware": "Firmware",
+    "Language": "Nyelv",
+    "ResetHeadset": "Készülék visszaállítása",
+    "Lights": "Lámpák"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Nyelv",
+      "description": "Válassza ki a nyelvet a gépi hang és a riasztások számára. Például: „Incoming call from John.” (Bejövő hívás Johntól) vagy „Mute on” (Némítás bekapcsolva).",
+      "serverNotReachable": "Jelenleg nem módosíthatja a nyelvet, mert a szerver nem elérhető.",
+      "options": {
+        "3076": "Kantoni",
+        "1030": "Dán",
+        "2057": "Angol – Egyesült Királyság",
+        "1033": "Angol – Egyesült Államok",
+        "1036": "Francia",
+        "1031": "Német",
+        "1040": "Olasz",
+        "1041": "Japán",
+        "1042": "Koreai",
+        "1045": "Lengyel",
+        "2052": "Mandarin",
+        "1044": "Norvég – Bokml",
+        "2068": "Norvég – Nynorsk",
+        "1049": "Orosz",
+        "1034": "Spanyol",
+        "1053": "Svéd",
+        "16393": "Angol – India",
+        "1057": "Indonéz",
+        "1054": "Thai",
+        "1046": "Portugál – Brazília"
+      }
+    },
+    "0x102": {
+      "name": "Második bejövő hívás",
+      "description": "Beállíthatja, hogy a csengőhang hogyan viselkedjen más forrásról érkező bejövő hívások esetén. Például akkor, amikor mobiltelefonról indított hívás érkezik, miközben Ön egy softphone-hívásban van.",
+      "options": {
+        "ignore": "Mellőzés",
+        "once": "Egyszeri csengés",
+        "continuous": "Folyamatos csengés"
+      }
+    },
+    "0x103": {
+      "name": "Számítógép hangereje",
+      "description": "",
+      "options": {
+        "off": "Kikapcsolva",
+        "low": "Alacsony hangerő",
+        "standard": "Normál hangerő"
+      }
+    },
+    "0x104": {
+      "name": "Asztali telefon hangereje",
+      "description": "",
+      "options": {
+        "off": "Kikapcsolva",
+        "low": "Alacsony hangerő",
+        "standard": "Normál hangerő"
+      }
+    },
+    "0x105": {
+      "name": "Mobiltelefon hangereje",
+      "description": "",
+      "options": {
+        "off": "Kikapcsolva",
+        "low": "Alacsony hangerő",
+        "standard": "Normál hangerő"
+      }
+    },
+    "0x106": {
+      "name": "Számítógép",
+      "description": "Válassza ki a csengőhangot, amelyet a számítógép softphone-ja használ a bejövő hívásokhoz.",
+      "options": {
+        "sound1": "1. hang",
+        "sound2": "2. hang",
+        "sound3": "3. hang",
+        "off": "Kikapcsolva"
+      }
+    },
+    "0x107": {
+      "name": "Asztali telefon",
+      "description": "",
+      "options": {
+        "sound1": "1. hang",
+        "sound2": "2. hang",
+        "sound3": "3. hang",
+        "off": "Kikapcsolva"
+      }
+    },
+    "0x108": {
+      "name": "Mobiltelefon",
+      "description": "Válassza ki a mobiltelefonra érkező hívások csengőhangját.",
+      "options": {
+        "sound1": "1. hang",
+        "sound2": "2. hang",
+        "sound3": "3. hang",
+        "off": "Kikapcsolva"
+      }
+    },
+    "0x109": {
+      "name": "Csengőhang",
+      "description": "Csengőhangot játszik le akkor, amikor egy csatlakoztatott eszközre hívás érkezik, de nem rendelkezik saját csengőhanggal.",
+      "options": {
+        "false": "Kikapcsolva",
+        "true": "Be"
+      }
+    },
+    "0x10A": {
+      "name": "Alapeszköz csengetési hangereje",
+      "description": "Konfigurálja az alapeszköz csengetési hangerejét.",
+      "options": {
+        "off": "Kikapcsolva",
+        "low": "Alacsony",
+        "medium": "Közepes",
+        "high": "Magas"
+      }
+    },
+    "0x200": {
+      "name": "Viselésérzékelő (VEZÉRLŐ)",
+      "description": "Ennek a vezérlőbeállításnak a bekapcsolásakor egyenként konfigurálhatja az érzékelőfüggő beállításokat. A kikapcsolásával egyszerre tilthatja le az összes érzékelőfüggő beállítást."
+    },
+    "0x201": {
+      "name": "Automatikus hívásfogadás",
+      "description": "Automatikusan fogadja a bejövő hívást, amikor a telefonkészülék cseng."
+    },
+    "0x202": {
+      "name": "Intelligens hangátvitel",
+      "description": "Automatikusan továbbítja a hívás hangját a headsetről a mobiltelefonra, amikor leveszi a headsetet. A hívás hangjának a headsetre történő átirányításához vegye fel ismét a headsetet."
+    },
+    "0x203": {
+      "name": "Hívógombzár",
+      "description": "Ha nem használja a headsetet, a véletlen visszahívás elkerülése érdekében lezárja a fejhallgató hívógombját."
+    },
+    "0x204": {
+      "name": "Zene automatikus szüneteltetése",
+      "description": "Automatikusan szünetelteti a mobileszközről érkező audioadatfolyam-továbbítást, amikor leveszi a headsetet. Az audioadatfolyam-továbbítás folytatásához vegye vissza a headsetet. Ennek a beállításnak a letiltásával folyamatos audioadatfolyam-lejátszást állíthat be."
+    },
+    "0x205": {
+      "name": "Automatikus némítás",
+      "description": "Automatikusan elnémítja a headset mikrofonját, amikor hívás közben leveszi a headsetet."
+    },
+    "0x206": {
+      "name": "Aktív hívás hangja",
+      "description": "Kiválaszthatja, hogy milyen műveletet végezzen a headset, amikor hívás közben leveszi a fejéről.",
+      "options": {
+        "doNothing": "Ne tegyen semmit",
+        "transferAudioToMobile": "Hang átvitele mobiltelefonra",
+        "muteMic": "Mikrofon elnémítása"
+      }
+    },
+    "0x300": {
+      "name": "Automatikus válasz (nincs érzékelő)",
+      "description": "Automatikusan fogadja a bejövő hívást, amikor leveszi a headsetet a töltődokkról. Ha a bejövő hívásokat a hívásvezérlő gomb megnyomásával szeretné fogadni, állítsa Kikapcsolva értékre."
+    },
+    "0x301": {
+      "name": "Automatikus csatlakozás mobiltelefonhoz",
+      "description": "Automatikusan újracsatlakoztatja a Savi alapkészüléket a párosított mobiltelefonnal, ha a telefon az alapkészülék hatótávolságán belülre kerül."
+    },
+    "0x302": {
+      "name": "Automatikus hívásmegszakítás dokkra helyezéskor",
+      "description": "Automatikusan megszakítja a hívást, amikor a headsetet a töltődokkra helyezi."
+    },
+    "0x400": {
+      "name": "Alapértelmezett telefonvonal",
+      "description": "Állítsa be a kimenő vonalat, amelyet a telefonján a headset hívásvezérlő gombjának a megnyomásakor használni kíván.",
+      "options": {
+        "pstn": "Asztali telefon",
+        "voip": "Számítógép",
+        "mobile": "Mobiltelefon"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Engedélyezze a csatlakozást a mobileszközhöz Bluetooth-kapcsolaton keresztül."
+    },
+    "0x402": {
+      "name": "Mobilos hangparancsok",
+      "description": "Engedélyezze a csatlakoztatott mobileszköz hangparancs módba történő átkapcsolását az alapeszközön lévő mobileszköz gomb megnyomásával."
+    },
+    "0xB05": {
+      "name": "Bejövő hívásra figyelmeztető riasztás",
+      "description": "Amikor a headseten keresztül fogadja a bejövő hívást, a „Hívásfogadás” hangos figyelmeztetés hallható."
+    },
+    "0xB06": {
+      "name": "Min./max. hangerő riasztások",
+      "description": "Válassza ki annak a riasztásnak a típusát, ami akkor jelez, amikor eléri a minimális és a maximális hangerőt.",
+      "options": {
+        "voice": "Beszédhang",
+        "tone": "Hang"
+      }
+    },
+    "0x500": {
+      "name": "Zajterhelés",
+      "description": "Az átlagos napi zajterhelés figyelemmel kísérése és szabályozása annak biztosítása érdekében, hogy az ne haladja meg a hatályos uniós jogszabályokban meghatározott kiválasztott beavatkozási értéket (80 dBA vagy 85 dBA).",
+      "options": {
+        "85db": "85 dBA-ra korlátozva",
+        "80db": "80 dBA-ra korlátozva",
+        "off": "Nincs korlát"
+      }
+    },
+    "0x501": {
+      "name": "Telefonálással töltött napi idő",
+      "description": "Optimalizálja a Zajterhelés-beállítás pontosságát az eszköz tipikus használatát legjobban reprezentáló érték kiválasztásával.",
+      "options": {
+        "off": "Kikapcsolva",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Felriasztás elleni védelem",
+      "description": "Intelligens algoritmusok, amelyek kiszűrik az erősebb hanghatások okozta akusztikus rezgéseket, azonnal csökkentik azok erejét az Ön védelme és a hallgatás kényelmének érdekében."
+    },
+    "0x505": {
+      "name": "G616 akusztikus sokk elleni védelem",
+      "description": "Az akusztikus sokk elleni védelemről szóló G616-os ipari szabvány korlátozza a fülbe érő hang erősségét, hogy megakadályozza a sokkhatást kiváltó erősségű hangszinteket."
+    },
+    "0x600": {
+      "name": "Fogadás/Mellőzés",
+      "description": "„Fogadás” vagy „Mellőzés” hangüzenet megszólalása, amikor bejövő hívás érkezik a mobiltelefonjára."
+    },
+    "0x601": {
+      "name": "Hívásfogadási riasztás",
+      "description": "Amikor a headseten keresztül fogadja a bejövő hívást, a „Hívásfogadás” beszédriasztás hallható."
+    },
+    "0x602": {
+      "name": "Némítás ki riasztás",
+      "description": "Válassza ki a headset mikrofonja némításának a megszüntetésekor megszólaló riasztás típusát.",
+      "options": {
+        "false": "Hang",
+        "true": "Beszédhang"
+      }
+    },
+    "0x603": {
+      "name": "Némítási emlékeztető időzítése",
+      "description": "Beállíthatja, hogy hány perc teljen el a némításra emlékeztető riasztások között.",
+      "options": {
+        "off": "Kikapcsolva",
+        "1": "1 perc",
+        "2": "2 perc",
+        "3": "3 perc",
+        "4": "4 perc",
+        "5": "5 perc",
+        "6": "6 perc",
+        "7": "7 perc",
+        "8": "8 perc",
+        "9": "9 perc",
+        "10": "10 perc",
+        "11": "11 perc",
+        "12": "12 perc",
+        "13": "13 perc",
+        "14": "14 perc",
+        "15": "15 perc"
+      }
+    },
+    "0x604": {
+      "name": "Némítási emlékeztető hangereje",
+      "description": "A némítási emlékeztető hangerejének a beállítására szolgál.",
+      "options": {
+        "off": "Kikapcsolva",
+        "low": "Alacsony hangerő",
+        "standard": "Normál hangerő"
+      }
+    },
+    "0x607": {
+      "name": "Némítás jelzésének típusai",
+      "description": "A fejhallgató mikrofonjának némításakor és a némítás megszüntetésekor, illetve némítási emlékeztető fogadásakor hallható jelzés típusának a kiválasztására szolgál.",
+      "options": {
+        "voice": "Beszédhang",
+        "singleTone": "Egyszeri hangjelzés",
+        "doubleTone": "Kettős hangjelzés"
+      }
+    },
+    "0x608": {
+      "name": "Rendszerhang",
+      "description": "A headset hangüzenetei hangerejének a beállítására szolgál.",
+      "options": {
+        "off": "Kikapcsolva",
+        "low": "Alacsony hangerő",
+        "standard": "Normál hangerő"
+      }
+    },
+    "0x609": {
+      "name": "Hangerőszintek hangjelzései",
+      "description": "A hangerő beállításakor az aktuális hangerőszintet jelző hangjelzések szólalnak meg.",
+      "options": {
+        "atEveryLevel": "Minden szint",
+        "minMaxOnly": "Csak minimum és maximum"
+      }
+    },
+    "0x60A": {
+      "name": "Hívóazonosító",
+      "description": "Bejövő mobilhívások esetén a hívó fél nevét a mobilja névjegyzékének megfelelően hallhatja."
+    },
+    "0x60C": {
+      "name": "Hangcsatorna hangjelzése",
+      "description": "Egy rövid hangjelzés kombinációja jelzi, hogy az audiocsatorna nyitva van, és készen áll a kommunikációra."
+    },
+    "0x60D": {
+      "name": "Némítási emlékeztető üzemmód",
+      "description": "Válassza ki a némítási emlékeztető értesítésének a típusát.",
+      "options": {
+        "off": "Kikapcsolva",
+        "timed": "Időalapú",
+        "voiceAudible": "Hallható emlékeztető",
+        "voiceVisible": "Képernyőn megjelenő emlékeztető",
+        "voiceVisibleAndAudible": "Képernyőn megjelenő és hallható emlékeztető"
+      }
+    },
+    "0x610": {
+      "name": "Riasztások némítása",
+      "description": "A kihangosító mikrofonjának némításakor és a némítás megszüntetésekor hallható visszajelzés."
+    },
+    "0x700": {
+      "name": "Hangminőség",
+      "description": "Hangminőség optimalizálása a tevékenysége alapján.",
+      "options": {
+        "homeMode": "Zene",
+        "enterpriseMode": "Hibrid",
+        "mono": "Beszélgetés"
+      }
+    },
+    "0x701": {
+      "name": "Vezeték nélküli regisztrálás",
+      "description": "Regisztrálja a headsetet az alapeszközhöz anélkül, hogy azt fizikailag a töltődokkba kellene helyeznie."
+    },
+    "0x702": {
+      "name": "Hatótávolság",
+      "description": "Korlátozza a hatótávolságot a más DECT-eszközök által okozott interferenciából eredő hangproblémák csökkentése érdekében. Magas: ≤ 105 m, közepes: ≤ 45 m, alacsony: ≤ 15 m. Megjegyzés: Magas: ≤ 90 m a Savi 400 sorozat esetén.",
+      "options": {
+        "low": "Alacsony",
+        "medium": "Közepes",
+        "high": "Magas"
+      }
+    },
+    "0x704": {
+      "name": "Audioadatfolyam",
+      "description": "Engedélyezheti zene, podcastok és egyéb típusú hanganyagok átvitelét a mobileszközről a headsetre. Ha nem továbbít hangtartalmat a headsetre, kapcsolja ki ezt a funkciót, hogy ezzel is kímélje az akkumulátort.",
+      "powerCycleRequired": {
+        "title": "Audio-adatfolyam engedélyezése/letiltása",
+        "buttonText": "OK",
+        "true": {
+          "title": "Audio-adatfolyam letiltása",
+          "text": "Ennek a lehetőségnek a kiválasztásával az akkumulátor kisebb mértékben merül, így hosszabb ideig telefonálhat. Ha le van tiltva, nem fog tudni zenét vagy podcastokat hallgatni a headseten keresztül."
+        },
+        "false": {
+          "title": "Audioadatfolyam engedélyezése",
+          "text": "Ennek a beállításnak a kiválasztása esetén zenéket és podcastokat hallgathat a headseten keresztül. Ha engedélyezve van, csökkenhet a beszélgetésre rendelkezésre álló idő."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Kibővített hatótávolságú üzemmód (PC)",
+      "description": "Nagyobb vezeték nélküli hatótávolságot érhet el a számítógép és a headset között. MEGJEGYZÉS: Ez letiltja a szélessávú sztereó telefonálást, és csökkenti a számítógép felől érkező hang minőségét."
+    },
+    "0x706": {
+      "name": "Számítógép hangjának sávszélessége",
+      "description": "A számítógép audio-sávszélességének a kiválasztására szolgál. A szélessávú hang növeli a beszéd érthetőségét, illetve élethű hangzást biztosít, de több energiát fogyaszt, ami kevesebb beszélgetési időt eredményez.",
+      "options": {
+        "narrowband": "Keskenysávú",
+        "wideband": "Szélessávú"
+      }
+    },
+    "0x707": {
+      "name": "Asztali telefon hangjának sávszélessége",
+      "description": "Az asztali telefon audio-sávszélességének a kiválasztására szolgál. A szélessávú hang növeli a beszéd érthetőségét, illetve élethű hangzást biztosít, de több energiát fogyaszt, ami kevesebb beszélgetési időt eredményez.",
+      "options": {
+        "narrowband": "Keskenysávú",
+        "wideband": "Szélessávú"
+      }
+    },
+    "0x708": {
+      "name": "HD beszédhang",
+      "description": "A szélessávú hang javítja a beszéd érthetőségét, ha a telefon és a szolgáltató is támogatja ezt a funkciót. MEGJEGYZÉS: Ez a funkció jelentős akkumulátor-fogyasztást eredményez, ami csökkenti a beszélgetési időt.",
+      "options": {
+        "narrowband": "Kikapcsolva",
+        "wideband": "Be",
+        "stereo": "Sztereó",
+        "widebandStereo": "Szélessávú sztereó"
+      },
+      "powerCycleRequired": {
+        "title": "HD beszédhang engedélyezése/letiltása",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "HD beszédhang letiltása",
+          "text": "A szélessávú hang javítja a beszédérthetőséget, amennyiben a telefon és a szolgáltató is támogatja ezt a funkciót. A funkció letiltása esetén az akkumulátor kisebb mértékben merül, így hosszabb ideig telefonálhat."
+        },
+        "wideband": {
+          "title": "HD beszédhang bekapcsolása",
+          "text": "A szélessávú hang javítja a beszédérthetőséget, amennyiben a telefon és a szolgáltató is támogatja ezt a funkciót. A HD beszédhang bekapcsolása esetén az akkumulátor nagyobb mértékben merül, így rövidebb ideig telefonálhat."
+        },
+        "stereo": {
+          "title": "Sztereó cím",
+          "text": "Sztereó szöveg"
+        },
+        "widebandStereo": {
+          "title": "Szélessávú sztereó cím",
+          "text": "Szélessávú sztereó szöveg"
+        }
+      }
+    },
+    "0x800": {
+      "name": "QD headset hangerejének növelése",
+      "description": "Ha a Quick Disconnect (QD) alapkészülékhez csatlakoztatott headset hangereje túlságosan alacsony, válassza ki a headset modellszámát a hangerő növeléséhez.",
+      "options": {
+        "new": "EncorePro 500 sorozat",
+        "legacy": "EncorePro 700 sorozat és minden egyéb headsetmodell"
+      }
+    },
+    "0x801": {
+      "name": "Hangszínvezérlés",
+      "description": "A hangélmény optimalizálása érdekében növelheti a mély és a magas hangok hangerejét. Minden egyes eszköz esetén külön állíthatja be az asztali telefon és a számítógép mély és magas hangját. ",
+      "options": {
+        "maxBass": "Max. mélyhang",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Max. magas"
+      }
+    },
+    "0x802": {
+      "name": "Közeli beszélgetés korlátozása",
+      "description": "Korlátozhatja, hogy a mikrofon milyen mértékben továbbítsa a közeli beszédhangokat. Ez a beállítás a következő híváskor lép érvénybe.",
+      "options": {
+        "no": "Nincs korlát",
+        "moderate": "Legjobb hang",
+        "agressive": "Nyitott iroda"
+      }
+    },
+    "0x803": {
+      "name": "Önhang",
+      "description": "Beállíthatja, hogy milyen hangosan hallja önmagát beszéd közben.",
+      "options": {
+        "low": "Alacsony",
+        "medium": "Közepes",
+        "high": "Magas"
+      }
+    },
+    "0x804": {
+      "name": "ANC időtúllépés",
+      "description": "Beállíthatja, hogy üresjáratban használt headset esetén mennyi ideig maradjon bekapcsolva az aktív zajszűrés (ANC). Az akkumulátor védelme érdekében állítson be rövidebb időtartamot.",
+      "options": {
+        "2": "2 óra",
+        "4": "4 óra",
+        "off": "Kikapcsolva"
+      }
+    },
+    "0x805": {
+      "name": "Értesítési hangok",
+      "description": "Hangadatfolyam közben más csatlakoztatott eszközökről is hallhatja az értesítési hangokat."
+    },
+    "0x806": {
+      "name": "Független hangerő-szabályozás",
+      "description": "A független hangerő-szabályozás médiatartalom hallgatása közbeni engedélyezésére/letiltására szolgál."
+    },
+    "0x807": {
+      "name": "Láncba kötött hang",
+      "description": "Válassza ki azt a hangkimenetet, amelyet hallani szeretne akkor, amikor a kihangosítókat egy láncolatban összekapcsolják.",
+      "options": {
+        "party": "Parti",
+        "stereo": "Sztereó"
+      }
+    },
+    "0x808": {
+      "name": "Hangszínszabályozó",
+      "description": "Állítsa az előre beállított hangszínszabályozót a tetszőleges hangszínre.",
+      "options": {
+        "bass": "Mély",
+        "flat": "Lapos",
+        "bright": "Éles"
+      }
+    },
+    "0x90A": {
+      "name": "Alapértelmezések visszaállítása",
+      "description": "Ez a művelet az eszköz összes gyári alapértelmezett beállításának a visszaállítására szolgál.",
+      "resetBtn": "Alapértelmezések visszaállítása",
+      "powerCycleRequired": {
+        "title": "Beállítások visszaállítva",
+        "buttonText": "Visszaállítás",
+        "true": {
+          "title": "Alapértelmezett beállítások visszaállítása",
+          "text": "Az összes egyéni beállítás visszaáll az eredeti alapértékekre."
+        }
+      }
+    },
+    "0x848": {
+      "name": "Megbízható eszközök törlése",
+      "description": "Ez a művelet törli a headseten tárolt összes csatlakoztatott eszköz listáját (beleértve a BT600 készüléket is).",
+      "resetBtn": "Eszközök törlése",
+      "powerCycleRequired": {
+        "title": "Eszközök törölve",
+        "buttonText": "Törlés",
+        "true": {
+          "title": "Megbízható eszközök törlése",
+          "text": "Ez a művelet törli a headseten tárolt összes csatlakoztatott eszköz listáját, beleértve a BT600 USB-s adaptert is."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Rezgés híváskor",
+      "description": "Beállíthatja, hogy a headset rezegjen a bejövő hívások esetén."
+    },
+    "0x901": {
+      "name": "Töltés megerősítése",
+      "description": "Beállíthatja, hogy a headset rezgéssel erősítse meg annak töltését."
+    },
+    "0x902": {
+      "name": "Online állapot jelző",
+      "description": "Annak engedélyezésére szolgál, hogy hívás közben a headset LED-je világítson, ezzel jelezve, hogy hívást folytat."
+    },
+    "0x903": {
+      "name": "Viselési preferencia a hangerővezérlőhöz",
+      "description": "Beállíthatja a headset viselési preferenciáját (bal vagy jobb oldal), hogy mindig használni tudja a hangerővezérlőt a hangerő növelése érdekében.",
+      "options": {
+        "unknown": "Nincs változtatás",
+        "left": "Bal fül",
+        "right": "Jobb fül",
+        "leftRight": "Gém a jobb oldalon",
+        "leftRightSwapped": "Gém a bal oldalon"
+      }
+    },
+    "0xA00": {
+      "name": "Hangérzékelés",
+      "description": "Automatikusan létrehoz egy rádiókapcsolatot az alapkészülék és a vezeték nélküli headset között, amennyiben az USB-port a számítógép felől érkező hangot észlel."
+    },
+    "0xA01": {
+      "name": "Tárcsahang",
+      "description": "VoIP-hívás esetén tárcsahang hallható, amikor megnyomja a headset hívásgombját. A softphone-nak támogatnia kell a tárcsahangot."
+    },
+    "0xFFF1": {
+      "name": "Automatikus csatlakozás mobiltelefonhoz",
+      "description": "Automatikusan újracsatlakoztatja a Savi alapkészüléket a párosított mobiltelefonnal, ha a telefon az alapkészülék hatótávolságán belülre kerül.",
+      "options": {
+        "never": "Soha",
+        "whenUndocked": "Csak akkor, ha a headset nincs a dokkolóban",
+        "always": "Mindig"
+      }
+    },
+    "0xFFF2": {
+      "name": "Felriasztás elleni védelem",
+      "description": "Olyan algoritmusok, amelyek kiszűrik az erősebb hanghatások okozta akusztikus sokkot az Ön védelme és a hallgatási kényelem érdekében.",
+      "options": {
+        "off": "Kikapcsolva",
+        "standard": "G616",
+        "enhanced": "G616 (a Poly által továbbfejlesztve)"
+      }
+    },
+    "0x60E": {
+      "name": "Akkumulátor állapota",
+      "description": "A készülék bekapcsolásakor hallható az akkumulátor állapota."
+    },
+    "0x60F": {
+      "name": "Kapcsolat jelzése",
+      "description": "A beállítás kiválasztása esetén egy hangjelzés szólal meg, amikor az eszköz vezeték nélküli kapcsolatot hoz létre.",
+      "options": {
+        "voice": "Beszédhang",
+        "tone": "Hang"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "A hangszórók közötti audio-adatfolyamhoz használt Bluetooth-kapcsolat engedélyezésére vagy letiltására szolgál."
+    },
+    "0x907": {
+      "name": "Biztonságos Bluetooth-kapcsolat",
+      "description": "A Bluetooth párosítási gomb megnyomásával engedélyezheti vagy letilthatja a biztonságos csatlakozást a Bluetooth kihangosító/headset és a mobil kézibeszélő között."
+    },
+    "0x908": {
+      "name": "Rakéta",
+      "description": "A rakéta gomb viselkedésének a konfigurálására szolgál.",
+      "options": {
+        "playPause": "Lejátszás/szünet",
+        "redial": "Újratárcsázás (Csak mobil)",
+        "vpa": "Virtuális személyi asszisztens (VPA)",
+        "clearTrustedDevice": "Megbízható eszközök listájának törlése",
+        "statusCheck": "Állapotellenőrzés",
+        "holdResume": "Hívás tartása/folytatása"
+      }
+    },
+    "0x909": {
+      "name": "Kizárólagos kapcsolat",
+      "description": "A korábban csatlakoztatott eszköz információinak eltávolítása új eszköz csatlakoztatásakor. Lehetővé teszi, hogy egyszerre mindig csak egy eszköz legyen csatlakoztatva."
+    },
+    "0xC00": {
+      "name": "Fényerő",
+      "description": "Videó fényerejének beállítása."
+    },
+    "0xC01": {
+      "name": "Kontraszt",
+      "description": "Videó kontrasztjának beállítása."
+    },
+    "0xC02": {
+      "name": "Színárnyalat",
+      "description": "Videó színének beállítása."
+    },
+    "0xC03": {
+      "name": "Telítettség",
+      "description": "Videó színtelítettségének beállítása."
+    },
+    "0xC04": {
+      "name": "Élesség",
+      "description": "Videó élességének beállítása."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Videó gammájának beállítása."
+    },
+    "0xC06": {
+      "name": "Szín",
+      "description": "Videó színének beállítása."
+    },
+    "0xC07": {
+      "name": "Fehéregyensúly",
+      "description": "Megadhatja, hogy a kamera hogyan kompenzálja a helyiség különböző fényforrásait."
+    },
+    "0xC08": {
+      "name": "Háttérvilágítás kompenzálása",
+      "description": "Háttérvilágítás-kompenzálás be- vagy kikapcsolása."
+    },
+    "0xC09": {
+      "name": "Erősítés",
+      "description": "A kamera jelerősítésének beállítása."
+    },
+    "0xC0A": {
+      "name": "Pásztázás",
+      "description": "A kamera bal vagy jobb irányának beállítása."
+    },
+    "0xC0B": {
+      "name": "Döntés",
+      "description": "A kamera felfelé vagy lefelé néző irányának beállítása."
+    },
+    "0xC0C": {
+      "name": "Hossziránti szög",
+      "description": "A kamera hossziránti szögének beállítása."
+    },
+    "0xC0D": {
+      "name": "Nagyítás",
+      "description": "A kamera nagyítási szintjének beállítása."
+    },
+    "0xC0E": {
+      "name": "Expozíció",
+      "description": "A kamera expozíciójának beállítása."
+    },
+    "0xC0F": {
+      "name": "Írisz",
+      "description": "A kamera íriszének beállítása."
+    },
+    "0xC10": {
+      "name": "Fókusz",
+      "description": "A kamera fókuszának beállítása."
+    },
+    "0xC11": {
+      "name": "Bőrtónus-kiemelés",
+      "description": "A résztvevők természetes bőrtónus-kiemelésének az engedélyezésére vagy letiltására szolgál."
+    },
+    "0xC12": {
+      "name": "Széles dinamikatartomány",
+      "description": "A kamera keretbe foglalt területen alapuló expozíciójának az engedélyezése/letiltása a teljes nézet helyett."
+    },
+    "0xC13": {
+      "name": "Résztvevők száma",
+      "description": "Résztvevők számának jelentése az értekezleteken."
+    },
+    "0xC14": {
+      "name": "Képernyőn megjelenő értékek",
+      "description": "A kamera paramétereinek megjelenítése a videokimeneten."
+    },
+    "0xC15": {
+      "name": "Poly Acoustic Fence",
+      "description": "A Poly Acoustic Fence engedélyezésére szolgál, amely blokkolja a háttérzajt, illetve konfigurálhatja a Poly Acoustic Fence sugarának a szélességét.",
+      "options": {
+        "off": "Kikapcsolva",
+        "60": "Keskeny",
+        "90": "Közepes",
+        "120": "Széles"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI kimenő hanghoz",
+      "description": "Megakadályozhatja, hogy a megbeszélést környezetből származó zavaró hangok (például billentyűzeten való gépelés vagy papírrendezés hangjai) megzavarják.",
+      "options": {
+        "true": "Igaz",
+        "false": "Hamis",
+        "fast": "Gyors"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI bejövő hanghoz",
+      "description": "Megakadályozhatja, hogy a megbeszélést a másik féltől érkező hangok (például billentyűzeten való gépelés vagy papírrendezés hangjai) megzavarják."
+    },
+    "0xC17": {
+      "name": "Sztereó hang",
+      "description": "A kamera két audiocsatornájának a használata a sztereo hang érdekében."
+    },
+    "0xC18": {
+      "name": "Követés sebessége",
+      "description": "Beállíthatja, hogy a kamera milyen gyorsan érzékelje a megbeszélés résztvevőit.",
+      "options": {
+        "slow": "Lassú",
+        "normal": "Normál",
+        "fast": "Gyors"
+      }
+    },
+    "0xC19": {
+      "name": "Követési mód",
+      "description": "Beállíthatja, hogy a kamera hogyan kövesse a résztvevőket.",
+      "options": {
+        "speaker": "Hangszóró",
+        "off": "Kikapcsolva",
+        "group": "Csoport",
+        "presenter": "Előadó"
+      }
+    },
+    "0xC21": {
+      "name": "Mélyhang",
+      "description": "A hangszóró mélyhangjának a beállítására szolgál."
+    },
+    "0xC22": {
+      "name": "Magas hang",
+      "description": "A hangszóró magas hangjának a beállítására szolgál."
+    },
+    "0xC23": {
+      "name": "Anti-Flicker (50 Hz/60 Hz) megoldás",
+      "description": "Az Egyesült Államokban és Kanadában a 60 Hz (hertz) értéket, más országokban pedig az 50 Hz értéket használja.",
+      "options": {
+        "0": "Letiltva",
+        "1": "50 Hz",
+        "2": "60 Hz",
+        "3": "Auto"
+      }
+    },
+    "0xC1A": {
+      "name": "Keret mérete",
+      "description": "Beállíthatja a kamerakövetés keretnézetét.",
+      "options": {
+        "tight": "Keskeny",
+        "medium": "Közepes",
+        "wide": "Széles"
+      }
+    },
+    "0xC1B": {
+      "name": "Maximális nagyítás",
+      "description": "Korlátozhatja a kamera maximális nagyítását 2-szeres, 3-szoros vagy 4-szeres arányra",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Kameramozgás",
+      "description": "Beállíthatja a kameramozgást",
+      "options": {
+        "auto pan": "Automatikus pásztázás",
+        "cut": "Vágás"
+      }
+    },
+    "0xC80": {
+      "name": "Képernyő fényerőssége",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Állapotjelző LED fényerőssége",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Tétlen állapot",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Bejövő hívás",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Aktív hívás",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Várakoztatott hívás",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Emlékeztető elnémítása",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Vezeték nélküli töltés",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "Alkalmazás gomb",
+      "description": "Válassza ki azt a platformot, amelyet a kijelzőről el szeretne érni.",
+      "options": {
+        "zoom": "Nagyítás",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Rakéta gomb",
+      "description": "Rendelje hozzá a rakéta megérintésekor elinduló műveletet",
+      "options": {
+        "holdResume": "Hívás tartása/folytatása",
+        "playPause": "Lejátszás/szünet",
+        "statusLight": "Állapotjelző fények",
+        "lens": "A Poly Lens Desktop megnyitása",
+        "vpa": "VPA – Siri, Cortana",
+        "redial": "Utolsó hívás újratárcsázása",
+        "vanity": "Piperelámpa",
+        "answerEnd": "Hívás fogadása/befejezése",
+        "videoMute": "Videó elnémítása"
+      }
+    },
+    "0xC90": {
+      "name": "Kijelző fényerőssége",
+      "description": "Állítsa be a kijelző fényerősségét."
+    },
+    "0xC81": {
+      "name": "Kijelző kontrasztja",
+      "description": "Állítsa be a kijelző kontrasztját."
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "Rendben, értem",
+      "powerOffText": "Az új beállítások életbe léptetéséhez legalább <b>5 másodpercre kapcsolja ki a headsetet</b>."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Nyelv kiválasztása",
+      "DESCRIPTION": "Válassza ki a hangüzenetek és a hangriasztások nyelvét (például „Incoming call from Pat” (Bejövő hívás Pattől) vagy „Mute on” (Némítás bekapcsolva)).",
+      "CONFIRM_TITLE": "Nyelv módosítása"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}Beállítások{{close_tag}}",
+    "NAME_LABEL": "Név:",
+    "EMAIL_LABEL": "E-mail:",
+    "INVITED_BY_IT_ADMIN": "Egy rendszergazda",
+    "INVITED": "{{invited_by_email}} meghívta, hogy csatlakozzon a következőhöz: {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Fiók",
+      "login": {
+        "TITLE": "Az Ön fiókja",
+        "DESCRIPTION": "Jelenleg nincs bejelentkezve."
+      }
+    },
+    "Language": {
+      "TITLE": "Nyelv",
+      "LABEL": "Válassza ki az alkalmazás által használt nyelvet."
+    },
+    "Softphone": {
+      "TITLE": "Softphone",
+      "MODULE_NAME": "Modul neve",
+      "MODULE_VERSION": "Modul verziója",
+      "ENABLE": "Engedélyez",
+      "CONNECTED": "Csatlakoztatva",
+      "VIEW_ALL": "Összes támogatott Softphone megtekintése",
+      "targetSoftphone": {
+        "TITLE": "Cél Softphone",
+        "DESCRIPTION": "A kimenő hívásokhoz használt softphone-t jelzi, és a tárcsahangot (támogatott eszközök és softphone esetén)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Médialejátszó művelet bejövő hívás esetén",
+        "DESCRIPTION": "A médialejátszó alkalmazások, például az iTunes és a Windows Media Player viselkedését szabályozza bejövő softphone-hívásokkor."
+      },
+      "table": {
+        "TITLE": "Softphone-ok és médialejátszók | Poly-kompatibilis"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Értesítések és eszközriasztások",
+      "enableNotifications": {
+        "TITLE": "Engedélyezi az asztali értesítéseket és az eszközriasztásokat"
+      },
+      "wellness": {
+        "TITLE": "Egészség és wellness",
+        "DESCRIPTION": "A megfelelő folyadékpótlás és az állandó mozgás is elengedhetetlen ahhoz, hogy rövid és hosszú távon megőrizzük az egészségünket egy jellemzően mozgásszegény környezetben. Válasszon a lehetőségek közül, melyekkel személyre szabhatja az értesítések gyakoriságát és idejét.",
+        "hydrationEnabled": "Folyadékfogyasztási emlékeztető",
+        "visionEnabled": "Látáspihentető szünet emlékeztető",
+        "hydrationEnabledTitle": "Folyadékfogyasztási emlékeztetők",
+        "visionEnabledTitle": "Látáspihentető szünet emlékeztetők"
+      },
+      "deviceAlerts": {
+        "TITLE": "Eszközriasztások",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Eszköz párosítása megszüntetve",
+        "lowBattery": "Gyenge akkumulátor",
+        "deviceCharging": "Az eszköz töltődik",
+        "deviceDisconnected": "Az eszköz leválasztva",
+        "muteAlert": "Némításra figyelmeztető jelzés",
+        "deviceSoftwareUpdate": "Készülékszoftver frissítése"
+      },
+      "softwareUpdate": {
+        "TITLE": "Szoftverfrissítés",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Szoftverfrissítés",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens Desktop verziószáma",
+        "CURRENT": "Aktuális",
+        "UP_TO_DATE": "Az alkalmazás naprakész",
+        "RELEASE_NOTES": "Kiadási megjegyzések",
+        "CHECKING_FOR_UPDATES": "Frissítések keresése",
+        "UPDATE": "Frissítés",
+        "UPDATE_AVAILABLE": "Frissítés érhető el",
+        "DOWNLOADING": "Letöltés folyamatban",
+        "CONTINUE": "Folytatás",
+        "CONTINUE_DESC": "A Poly Lens bezárásához, majd a frissítés telepítéséhez válassza a {{open_tag}}Folytatás{{close_tag}} lehetőséget.",
+        "DOWNLOAD_ERROR": "Hiba történt a frissítés letöltése során. Ellenőrizze az internetkapcsolatot, majd próbálja meg újra."
+      }
+    },
+    "About": {
+      "TITLE": "Névjegy",
+      "COPYRIGHT": "2022-2024 HP Inc. Minden jog fenntartva.",
+      "PRIVACY_POLICY": "Adatkezelési tájékoztató",
+      "EULA": "Végfelhasználói licencszerződés"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Szünet és folytatás",
+    "NO_ACTION": "Nincs művelet"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens támogatás",
+    "TITLE_OTHER": "Terméktámogatás kérése",
+    "QUICK_START_GUIDE": "Rövid használati útmutató",
+    "USER_GUIDE": "Használati útmutató",
+    "DEVICE_INFO_AND_LOGS": "Eszközadatok és naplók",
+    "CONTACT_SUPPORT": "Terméktámogatás kérése",
+    "CONTACT_TYPE": "Telefonos, e-mailes és online támogatás",
+    "DEVICE_INFO": "Eszközadatok",
+    "APP_INFO": "Alkalmazásinformációk",
+    "DEVICE_MODEL": "Eszköztípus",
+    "SERIAL_NUMBER": "Sorozatszám",
+    "SOFTWARE_VERSION": "Szoftververzió",
+    "COM_LIB_VERSION": "Kommunikációs eszköz verziója",
+    "PID": "Termékazonosító",
+    "LAST_CONNECTED": "Utoljára csatlakoztatva",
+    "USER_ID": "Felhasználói azonosító",
+    "TENANT_ID": "Bérlőazonosító",
+    "APP_ID": "Alkalmazásazonosító",
+    "GET_ACCESS": "A támogatáshoz való hozzáférés érdekében látogasson el a következő oldalra:",
+    "DIAGNOSTICS": "Diagnosztika",
+    "DIAGNOSTICS_DESCRIPTION": "Ha segítséget kér a hibaelhárításhoz, akkor töltse le a naplókat, és ossza meg a Poly támogatási csapatával",
+    "DOWNLOAD_LOGS": "Naplók letöltése",
+    "SAVE_LOGS": "Naplók mentése"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "hétköznap",
+    "Monday": "Hétfő",
+    "Tuesday": "Kedd",
+    "Wednesday": "Szerda",
+    "Thursday": "Csütörtök",
+    "Friday": "Péntek",
+    "Saturday": "Szombat",
+    "Sunday": "Vasárnap",
+    "MON": "Hét",
+    "TUE": "Ked",
+    "WED": "Sze",
+    "THU": "Csü",
+    "FRI": "Pén",
+    "SAT": "Szo",
+    "SUN": "Vas",
+    "12:00 AM": "0:00",
+    "1:00 AM": "1:00",
+    "2:00 AM": "2:00",
+    "3:00 AM": "3:00",
+    "4:00 AM": "4:00",
+    "5:00 AM": "5:00",
+    "6:00 AM": "6:00",
+    "7:00 AM": "7:00",
+    "8:00 AM": "8:00",
+    "9:00 AM": "9:00",
+    "10:00 AM": "10:00",
+    "11:00 AM": "11:00",
+    "12:00 PM": "12:00",
+    "1:00 PM": "13:00",
+    "2:00 PM": "14:00",
+    "3:00 PM": "15:00",
+    "4:00 PM": "16:00",
+    "5:00 PM": "17:00",
+    "6:00 PM": "18:00",
+    "7:00 PM": "19:00",
+    "8:00 PM": "20:00",
+    "9:00 PM": "21:00",
+    "10:00 PM": "22:00",
+    "11:00 PM": "23:00",
+    "SHORT_LABELS": {
+      "12AM": "12 DE",
+      "4AM": "4 DE",
+      "8AM": "8 DE",
+      "12PM": "12 DU",
+      "4PM": "4 DU",
+      "8PM": "8 DU"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12 de",
+      "1am": "1 de",
+      "2am": "2 de",
+      "3am": "3 de",
+      "4am": "4 de",
+      "5am": "5 de",
+      "6am": "6 de",
+      "7am": "7 de",
+      "8am": "8 de",
+      "9am": "9 de",
+      "10am": "10 de",
+      "11am": "11 de",
+      "12pm": "12 du",
+      "1pm": "1 du",
+      "2pm": "2 du",
+      "3pm": "3 du",
+      "4pm": "4 du",
+      "5pm": "5 du",
+      "6pm": "6 du",
+      "7pm": "7 du",
+      "8pm": "8 du",
+      "9pm": "9 du",
+      "10pm": "10 du",
+      "11pm": "11 du"
+    },
+    "1 minute": "Percenként",
+    "30 minutes": "30 percenként",
+    "1 hour": "Óránként",
+    "3 hours": "3 óránként"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Nem elérhető",
+    "SELECT_PLACEHOLDER": "Kiválasztás"
+  }
+}

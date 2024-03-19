@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "プロビジョニングするには、デバイスがネットワークに接続されている必要があります",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "デバイス セットアップの終了",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "デバイスのセットアップは完了していません。",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "セットアップが完了するまで {{deviceName}} は使用できません。ここまでの進行は保存されません。",
+  "EXIT_SETUP": "セットアップを終了",
+  "GET_STARTED": "はじめに",
+  "NETWORK": "ネットワーク",
+  "PROVISIONING": "プロビジョニング",
+  "COMPLETE": "完成図",
+  "BUTTON_BACK": "戻る",
+  "BUTTON_SKIP": "スキップ",
+  "BUTTON_NEXT": "次へ",
+  "BUTTON_FINISH": "終了",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "{{deviceName}} のセットアップが完了しました！",
+  "PROVISION_DEVICE_MODAL_TITLE": "デバイスのプロビジョニング",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "プロビジョニング",
+  "POSTPONE_DFU_MESSAGE": "デバイスでアップデートが利用可能です。これらのアップデートは数分で完了します。アップデート中はデバイスを取り外さないでください。",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "{{deviceName}} のアップデートが利用可能です。このアップデートは数分で完了します。アップデート中はデバイスを取り外さないでください。",
+  "UPDATE_NOW": "今すぐアップデート",
+  "ASK_ME_LATER": "後で確認する",
+  "AUDIO_RECORDING_START": "音声録音の開始",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}} のアップデートが 1 時間延期されました",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}} のアップデートが {{hours}} 時間延期されました",
+  "PLAY_GREETING_NAME": "応答メッセージの再生",
+  "PLAY_GREETING_DESCRIPTION": "着信に応答するときに再生する音声ファイルを選択します。",
+  "SELECT_FILE": "ファイルの選択",
+  "ACOUSTIC_FENCE": {
+    "OFF": "オフ",
+    "NARROW": "狭い",
+    "MEDIUM": "中角",
+    "WIDE": "広角",
+    "CAMERA_VIEW": "カメラ視野に合わせる"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "まず最初に...",
+    "I_AGREE": "私は以下に同意します。",
+    "POLY_EULA": "Poly エンドユーザー使用許諾契約書",
+    "CLOSE": "閉じる",
+    "PROCEED": "進む"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "ベスト プラクティス",
+    "MENU": {
+      "HEADSET": "ヘッドセット",
+      "CAMERA": "カメラ",
+      "DESK_SETUP": "ワークステーションのセットアップ"
+    },
+    "NEXT": {
+      "NEXT": "次へ:",
+      "TITLE": "ベスト プラクティス",
+      "LEARN_MORE": "詳細"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "同意する",
+    "APPLY": "適用",
+    "CANCEL": "キャンセル",
+    "CONTINUE": "続行",
+    "DECLINE": "辞退する",
+    "DONE": "完了",
+    "LOG_IN": "ログイン",
+    "LOG_OUT": "ログアウト",
+    "OK": "OK",
+    "RETRY": "再試行",
+    "SHOW_LESS": "表示件数を減らす",
+    "JOIN": "参加",
+    "JOINING": "参加中",
+    "CREATE": "作成",
+    "INSTALL": "インストール",
+    "CHOOSE_FILE": "ファイルの選択",
+    "DELETE": "削除",
+    "CLOSE": "閉じる",
+    "SELECT_FILE": "ファイルの選択",
+    "FEEDBACK": "フィードバック"
+  },
+  "REQUIRED": "必須",
+  "OPTIONAL": "オプション",
+  "Download": "ダウンロード",
+  "Upload": "アップロード",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "操作は正常に完了しませんでした。もう一度試してください。",
+  "RECEIVING_SETTINGS": "設定を受信中",
+  "GENERAL": {
+    "BACK": "戻る",
+    "CANCEL": "キャンセル",
+    "CLOSE": "閉じる",
+    "COMING_SOON": "近日対応予定",
+    "DOWNLOAD": "ダウンロード",
+    "DOWNLOADING": "ダウンロード中",
+    "LOADING": "ロード中",
+    "FEEDBACK": "フィードバック",
+    "HOME": "ホーム",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "新規追加",
+    "EDIT_NAME": "名前の変更",
+    "DELETE": "削除",
+    "RESTORE_DEFAULTS": "デフォルトに戻す",
+    "SEARCH_SETTINGS": "検索設定",
+    "SUPPORT": "サポート",
+    "UPLOAD": "アップロード",
+    "UPDATE": "更新",
+    "RETURN_HOME": "ホームに戻る",
+    "VERSION": "バージョン",
+    "RECORDING": "録音中",
+    "RECOVER": "回復"
+  },
+  "FTU": {
+    "WELCOME_TO": "ようこそ",
+    "WELCOME_1": "Poly Lens のメリットを最大限に引き出す方法をご紹介します。",
+    "CONNECTIVITY": {
+      "HEADER": "接続性",
+      "TITLE": "Lens でデバイスを管理する"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "ベスト プラクティス",
+      "TITLE": "Lens でデスク エクスペリエンスを向上"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "健康およびウェルネス",
+      "TITLE": "Lens で健康管理"
+    },
+    "EXPLORE": {
+      "BUTTON": "ゲストとして続行"
+    },
+    "GET_STARTED": {
+      "BUTTON": "ログイン"
+    },
+    "GETTING_STARTED": "はじめに",
+    "LOGIN_CARD": {
+      "TITLE": "今日から始めましょう！",
+      "DESCRIPTION": "Lens Desktop にログインすると、Poly とお客様所属の組織が最高のデバイス エクスペリエンスを提供します。"
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "設置",
+      "DESCRIPTION": "目の高さが画面の上部 3 分の 1 におさまるように、モニターの位置を調整します。カメラをモニターの中央に取り付けます。"
+    },
+    "CENTERING": {
+      "TITLE": "中心を揃える",
+      "DESCRIPTION": "カメラの視野の中心に自分が映っているのが一番よい位置です。顔がはっきりと表示され、切れている部分がないようにしてください。シャツの襟から下の部分が 15cm 以上映るように、自分の位置を調整します。"
+    },
+    "LIGHTING": {
+      "TITLE": "照明",
+      "DESCRIPTION": "カメラ映りを良くするには、照明が大切です。昼光は変わりやすい光源であり、室内照明と相容れないおそれがあります。可能ならば、窓がモニターの背面にくるようにワークステーションを配置して、自分の背面から強い光源があたらないようにしてください。オーバーヘッド型の拡散照明が最良です。"
+    },
+    "BACKGROUND": {
+      "TITLE": "背景",
+      "DESCRIPTION": "背景要素により、ビデオ通話で親しみを感じさせることができますが、あくまでも自分自身が映像の中心です。迷ったら、背景要素は少ない方が無難です。"
+    },
+    "NEXT": {
+      "SUBTITLE": "ワークステーションのセットアップ"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "接続チェックリスト",
+    "POWER": {
+      "TITLE": "電源スイッチの確認",
+      "DESCRIPTION": "電源スイッチはオンになっていますか？"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Bluetooth アダプターの確認",
+      "DESCRIPTION": "アダプターの端で青い光が点灯していますか？アダプターを一度抜いてから再度差し込み直すと、ヘッドセットが接続されることがあります。"
+    },
+    "SUPPORT": {
+      "TITLE": "サポートに問い合わせる。",
+      "DESCRIPTION": "不具合が解消しませんか？",
+      "LINK": {
+        "TEXT": "サポートに問い合わせる。"
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "ワークステーション",
+      "DESCRIPTION": "ワークステーションの下が片付いていて、脚を置くのに十分なスペースがあることを確認しましょう。ワークステーションの高さを調節できない場合は、椅子の高さを調節し、必要に応じてフットレストを利用してください。"
+    },
+    "KEYBOARD": {
+      "TITLE": "キーボード",
+      "DESCRIPTION": "肩の力を抜き、前腕を床に平行になるように置いてキーボードを打てるようにしてください。  手首を真っ直ぐに保ち、できるだけ曲げないようにしましょう。"
+    },
+    "CHAIR": {
+      "TITLE": "椅子",
+      "DESCRIPTION": "背骨を支える椅子を選びましょう。足の裏全体が床につき、太ももが床と並行になるように、椅子の高さを調整してください。肘掛けは、腕を静かに置いて肩の力を抜くことができるように調整します。"
+    },
+    "FEET": {
+      "TITLE": "足",
+      "DESCRIPTION": "足の裏全体が床につくようにします。椅子が高すぎる場合やワークステーションが高くて椅子の高さを上げなければならない場合は、フットレストを使用しましょう。"
+    },
+    "MONITOR": {
+      "TITLE": "モニター",
+      "DESCRIPTION": "モニターは自分の前方に、腕の長さくらい離れた場所に置きます。モニターを目から 45 ～ 70cm 離し、画面の上部が目線の位置か少し下にくるように配置します。"
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "ヘッドセット",
+    "USB_ADAPTER": "USB アダプター",
+    "CUSTOM_SOFTWARE_UPDATE": "カスタム ソフトウェア アップデート:",
+    "LOGS": "ログ:",
+    "PID": "PID:",
+    "SAVE_LOGS": "ログの保存",
+    "SELECT_SOFTWARE_UPDATE": "ソフトウェア アップデートの選択",
+    "SERIAL_NUMBER": "シリアル番号:",
+    "SOFTWARE_VERSION": "ソフトウェア バージョン:",
+    "COUNTRY": "国:",
+    "LENS_ACCOUNT": "Lens アカウント:",
+    "HARDWARE_VERSION": "ハードウェア バージョン:",
+    "HARDWARE_REVISION": "ハードウェア リビジョン:",
+    "ADDITIONAL_HARDWARE_REVISION": "ヘッドセットのハードウェア リビジョン:",
+    "MAC_ADDRESS": "MAC アドレス:",
+    "IP_ADDRESS": "IP アドレス:",
+    "DEVICE_DIAGNOSTIC_CODE": "デバイス診断コード:",
+    "CRASH_REPORTS": "クラッシュ レポート:",
+    "SAVE_CRASH_REPORTS": "クラッシュ レポートの保存"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "インサイト機能",
+    "CHART": {
+      "TITLE": "使用状況",
+      "SERIES_NAME": "合計使用時間"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "遅延 (ms)",
+      "NETWORK_SPEED": "ネットワーク速度 (Mbps)",
+      "RUNNING": "実行中",
+      "START_TEST": "テストを実行",
+      "TEST_AGAIN": "再テスト",
+      "TEST_RESULTS": "テスト結果",
+      "TITLE": "ネットワーク診断テスト",
+      "NO_CONNECTION": "オフラインになっているようです。ネットワーク テストはインターネット接続時にのみ実施できます。",
+      "SUBTEXT": "ネットワーク診断テストは、業務用のプレビュー機能です。"
+    }
+  },
+  "EE": {
+    "PAUSED": "一時停止しました",
+    "CONTINUE": "Space キーを押して続行します。",
+    "FIRE": "Shift - 発射",
+    "MOVE": "矢印 - 移動",
+    "PAUSE": "Space - 一時停止",
+    "EXIT": "Esc - 終了",
+    "START": "Space キーを押して開始します。",
+    "DONE": "なかなかいいですね。いい調子です。",
+    "TRY_AGAIN": "Space キーを押してもう一度実行します。"
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "ヘッドバンドの調節",
+      "DESCRIPTION": "適切に装着するには、ヘッドセットのイヤー カップが耳の中心にあたるようにヘッドバンドを調整して、ヘッドセットがきつすぎる、またはゆるすぎる状態ではないことを確認します。詳しい調整の手順については、ヘッドセットのユーザー ガイドを確認してください。"
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "ブームの形状",
+      "DESCRIPTION": "Poly のブームは曲げられるので、簡単に配置できます。ヘッドセットにブームが付いている場合は、マイクを口元から 5cm くらい離して配置してください。"
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "ブームの配置",
+      "DESCRIPTION": "お使いのヘッドセットにブームが付いている場合は、ブームを回転して、右側または左側に配置できます。通話に応答する場合は、ブームが上向きではなく、口の方に向いていることを確認しましょう。"
+    },
+    "NEXT": {
+      "SUBTITLE": "カメラ"
+    }
+  },
+  "HOME": {
+    "TITLE": "{{open_tag}}{{user_name}}{{close_tag}} さん、こんにちは",
+    "TITLE_GUEST": "{{open_tag}}ゲスト{{close_tag}}さん、こんにちは",
+    "GO_TO_DETAIL": "詳細へ移動",
+    "CONNECT_A_DEVICE": "デバイスを接続して開始してください。",
+    "NOT_SEEING_DEVICE": "デバイスが見当たりませんか？",
+    "SUBMIT_FEEDBACK": "フィードバックを提出",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "インサイト機能",
+        "DESCRIPTION": "デバイスの使用状況とワークステーションの接続性を確認します。"
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "健康およびウェルネス",
+        "DESCRIPTION": "水分補給と休憩のリマインダーを設定します。集中力を高めるサウンドスケープを再生します。"
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "ベスト プラクティス",
+        "DESCRIPTION": "カメラを最適化して、ワークスペースをより快適にする方法を学びます。"
+      },
+      "SUPPORT": {
+        "TITLE": "Poly サポート",
+        "DESCRIPTION": "何か問題がありますか？Poly にご連絡ください。"
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "広東語",
+    "1030": "デンマーク語",
+    "2057": "英語 (英国)",
+    "1033": "英語 (米国)",
+    "1036": "フランス語",
+    "1031": "ドイツ語",
+    "1040": "イタリア語",
+    "1041": "日本語",
+    "1042": "韓国語",
+    "1045": "ポーランド語",
+    "2052": "標準中国語",
+    "1044": "ノルウェー語",
+    "2068": "ノルウェー語",
+    "1049": "ロシア語",
+    "1034": "スペイン語",
+    "1053": "スウェーデン語",
+    "16393": "英語 (インド)",
+    "1057": "インドネシア語",
+    "1054": "タイ語",
+    "1046": "ポルトガル語 (ブラジル)"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "アクティブ",
+    "INACTIVE": "休止状態",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI は、音が発生していても誰も話していない時間を識別し、自動的にマイクをミュートすることで、人以外のノイズ (キーボードの打鍵音や紙をめくる音など) が会議に影響を与えないように設計されています。発話を再開すると、マイクのミュートはすぐに解除されます。",
+    "FOR_INCOMING_DESCRIPTION": "通話の相手側の雑音 (キーボードの打鍵音や紙をめくる音など) が会議の邪魔にならないようにします。",
+    "FOR_INCOMING_TITLE": "受話音声の Poly NoiseBlockAI",
+    "FOR_OUTGOING_DESCRIPTION": "自環境側の雑音 (キーボードの打鍵音や紙をめくる音など) が会議の邪魔にならないようにします。",
+    "FOR_OUTGOING_TITLE": "送話音声の Poly NoiseBlockAI",
+    "SEE_HOW_WORKS": "その仕組みをご覧ください"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "充電",
+      "STOPPED": "充電停止"
+    },
+    "MUTE": {
+      "ON": "ミュートオン",
+      "OFF": "ミュートオフ"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "ソフトウェア アップデート {{build}} が利用可能です。"
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "デバイスのアップデートが利用可能です"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "デバイスが見つかりません",
+      "MESSAGE": "申し訳ありません。問題が発生しました。もう一度試してください。"
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "ページが見つかりません",
+      "MESSAGE": "申し訳ありません。問題が発生しました。もう一度試してください。"
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens は、カメラへのアクセス許可を求めています。有効にするには、お客様のシステム設定で、Poly Lens にカメラへのアクセスを許可する必要があります。"
+    },
+    "BUTTON": {
+      "CLOSE": "閉じる"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "デバイスの接続が切断されました"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "バッテリー残量が少なくなりました"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Studio P21 へようこそ",
+      "CONTENT": "Studio P21を使用するには、ディスプレイ用の追加のソフトウェアをダウンロードする必要があります。",
+      "BUTTON": "ダウンロード"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "新しい Studio P21 へようこそ！",
+      "CONTENT": "新しい Studio P21 へようこそ！新しいデバイスを使用する前に、ディスプレイ用の追加のソフトウェアをインストールする必要があります",
+      "BUTTON_DOWNLOAD": "ここからダウンロード",
+      "BUTTON_MORE_INFO": "詳細情報"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} が検出されました。Poly Lens を開いて、このデバイスをセットアップします。"
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "追加の言語機能が正常にロードされました。"
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "画面は 5 秒後にロックされます。業務を続けるには、ヘッドセットをインライン型コントローラーに接続し直します。"
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "設定は正常に保存されました。",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "設定は正常に保存されませんでした。",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP サーバー設定が正常に適用されました。",
+    "CHANGE_NTP_SETTINGS_FAILED": "NTP サーバー設定を適用できませんでした。",
+    "COPIED_TO_CLIPBOARD": "クリップボードにコピーされました",
+    "SAVE_CSR_FILE_SUCCESS": "CSR ファイルが正常に保存されました。",
+    "SAVE_CSR_FILE_FAILED": "CSR ファイルは正常に保存されませんでした。",
+    "FILE_READ_FAILED": "ファイルを取み取れませんでした。",
+    "CERTIFICATE_INSTALL_SUCCESS": "証明書が正常にインストールされました。",
+    "CERTIFICATE_INSTALL_FAILED": "証明書のインストールに失敗しました。",
+    "CERTIFICATE_DELETE_SUCCESS": "証明書は正常に削除されました。",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "パスワードが正常に変更されました。",
+    "CONFIG_EXPORT_FAILED": "エクスポートに失敗しました。もう一度試してください。",
+    "CONFIG_IMPORT_FAILED": "インポートに失敗しました。もう一度試してください。",
+    "CONFIG_EXPORT_SUCCEEDED": "エクスポートに成功しました。",
+    "CONFIG_IMPORT_SUCCEEDED": "インポートに成功しました。",
+    "AUDIO_DIAGNOSTIC_FAILED": "音声の診断に失敗しました。もう一度試してください。",
+    "WIFI_JOIN_ERROR": "ネットワークに参加できませんでした。認証情報を確認して再度実行してください。",
+    "CRASH_REPORTS_SUCCESS": "クラッシュ レポートがダウンロードされました。",
+    "CRASH_REPORTS_FAILED": "クラッシュ レポートが見つかりません。",
+    "NETWORK_ERROR": "ネットワーク接続が使用できません。接続が復元されるまで、一部の機能が制限されることがあります。"
+  },
+  "DETAIL": {
+    "AUTO": "自動",
+    "TITLE": "詳細ページ",
+    "BACK_TO_HOME": "ホームに戻る",
+    "CAMERA": "カメラ",
+    "CONTROLS": "各種機能",
+    "EXPAND": "拡張",
+    "LINK": "リンク",
+    "UNLINK": "リンク解除",
+    "CONTRACT": "縮小",
+    "GRID": "グリッド",
+    "SETTINGS": "オプション",
+    "FAVORITES": "お気に入り",
+    "FAVORITE_DELETE_CONFIRM": "お気に入りの「{{favoriteName}}」を削除してもよろしいですか？",
+    "FAVORITE_NUMBER": "お気に入りの {{number}}",
+    "FAVORITE_SAVE_AS": "新しいお気に入りとして保存",
+    "FAVORITES_SAVED": "録音済み",
+    "FAVORITE_COPY": "{{favoriteName}} のコピー",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "下の［表示］アイコンをクリックしてプレビューを開始します。",
+    "PREVIEW_SHOW": "表示",
+    "PREVIEW_HIDE": "非表示",
+    "PREVIEW_HIDDEN": "プレビュー非表示",
+    "PREVIEW_WINDOWS_NOTICE": "プレビューが有効になっているときは、他のアプリケーションでこのカメラを使用できません。",
+    "PREVIEW_CONTROLS_READ_ERROR": "別のアプリケーションがこのカメラを使用しています。{{line_feed}}プレビューと設定を有効にするには、アプリケーションを閉じます。{{line_feed}}{{line_feed}}それでも問題が解決しない場合は、さらに別のアプリケーションがバックグラウンドで実行されていないことを確認してください。",
+    "SNAPSHOT": "スナップショット",
+    "SNAPSHOT_SAVE": "スナップショットを保存",
+    "SNAPSHOT_SAVED_SUCCESS": "スナップショットは正常に保存されました。",
+    "SNAPSHOT_SAVED_FAIL": "スナップショットは保存されませんでした。",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "スナップショット",
+    "SANDBOX": "サンドボックス",
+    "IT_MANAGED": "IT 部門が管理",
+    "HEADSET": "ヘッドセット",
+    "SUPPORT": "サポート",
+    "USB_ADAPTER": "USB アダプター",
+    "CHARGING_CASE": "ケース",
+    "CHARGING_CASE_NAME": "充電ケース",
+    "DEVICES": "デバイス",
+    "OVERVIEW": {
+      "OVERVIEW": "概要",
+      "BATTERY_LABEL": "バッテリー:",
+      "BATTERY_CRITICAL": "クリティカル",
+      "WIFI_LABEL": "ネットワーク:",
+      "PROVISION_LABEL": "プロビジョニング:",
+      "PROVISION_AUTO": "一般",
+      "PROVISION_OFF": "プロビジョニング",
+      "PROVISION_NOT_SET_UP": "セットアップされていません",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "デバイスは機能しますが、リモートで管理できなくなります",
+      "SET_PROVISION": "プロビジョニングをセットアップするにはクリック",
+      "STATUS_LABEL": "ステータス:",
+      "HEADSET_STATUS_LABEL": "ヘッドセット:",
+      "FIRMWARE_LABEL": "ソフトウェア:",
+      "CONNECTED": "接続済み",
+      "NOT_CONNECTED": "接続されていません",
+      "DISCONNECTED": "切断されました",
+      "PAIRING_MODE": "Bluetooth オーディオのペアリング",
+      "PAIR_REMOTE": "Bluetooth でリモート ペアリング",
+      "USB_PAIRING_MODE": "新しいデバイスのペアリング",
+      "MAKE_PRIMARY": "既定のデバイスにする",
+      "DELETE_DEVICE": "デバイスの削除",
+      "TROUBLE_CONNECTING": "デバイスの接続に問題がありますか？",
+      "AVAILABLE_FIRMWARE": "使用可能:",
+      "SAVE_BUTTON": "保存",
+      "CANCEL_BUTTON": "キャンセル",
+      "RENAME_DEVICE": "名前の変更",
+      "DEVICE_NAME": "名前:",
+      "RECOVERY_MODE": "リカバリー モード",
+      "POLICY_UPDATE_NOTE": "お客様所属の組織では、このデバイスは、特定のソフトウェア バージョンを使用する必要があります。できるだけ早くアップデートしてください。",
+      "CASE_UPDATE_NOTE": "USB ケーブルを接続して充電ケースをアップデートします"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "デバイスが検出されました",
+      "SETUP_REQUIRED": "デバイスを使用するにはセットアップが必要です。",
+      "IMPORT_CONFIGURATION": "設定のインポート",
+      "BEGIN_SETUP": "セットアップの開始",
+      "MODAL": {
+        "TITLE": "設定のインポート",
+        "DESCRIPTION": "接続するネットワークの名前とセキュリティの種類を入力します。",
+        "LABEL_INPUT": "デバイス名",
+        "INPUT_PLACEHOLDER": "オプション",
+        "INPUT_RECOMMENDATION": "このデバイスに付ける名前は、デバイスを設置する部屋または会議スペースの名前を付けることをお勧めします。"
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "以下の［同意します］をクリックすることにより、このソフトウェアの利用には、以下のドキュメントの条項が適用されることを認め、これに同意したことになります。 ",
+      "EULA_LINK": "Poly エンドユーザー使用許諾契約書",
+      "EULA_I_ACCEPT": "エンドユーザー使用許諾契約書に同意します",
+      "BEGIN_SETUP": "セットアップの開始",
+      "PASSWORD_INVALID": "入力されたパスワードは無効です。パスワードを再入力してください。"
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "開く",
+      "NO_DEVICES": "デバイスが接続されていません。",
+      "QUIT": "Poly Lens の終了",
+      "SOUNDSCAPING": "サウンドスケーピング",
+      "MDA_AUDIO_RECORDING": "ミュート有効時の音声録音",
+      "MDA_AUDIO_RECORDING_START": "音声メモの録音",
+      "MDA_AUDIO_RECORDING_STOP": "音声メモの録音を停止",
+      "OFF": "オフ"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "健康およびウェルネス",
+    "SOUNDSCAPING": {
+      "TITLE": "サウンドスケーピング",
+      "ENABLE_SOUNDSCAPES": "サウンドスケープの有効化",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "環境にサウンドスケープを加える",
+          "DESCRIPTION": "心地良い環境は、集中を妨げる要素を遠ざけます。サウンドスケープのオプションでは、滝、風、小川、森、海といった自然の音を選べます。こうした生命力に溢れる厳選された音を聴くと、ストレスの軽減や集中力の向上につながります。"
+        }
+      },
+      "MOUNTAIN_RANCH": "山の放牧場",
+      "GENTLE_OCEAN": "穏やかな海",
+      "BABBLING_BROOK": "サラサラ流れる小川",
+      "AT_VOLUME": "音量"
+    },
+    "HYDRATION": {
+      "TITLE": "水分補給",
+      "REMINDERS": "水分補給のリマインダー",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "水を飲みましょう",
+          "DESCRIPTION": "十分な水分補給には、男性は毎日 3.7 リットル、女性は 2.7 リットルの水を摂取する必要があります。",
+          "SOURCE_LINK_LABEL": "出典",
+          "SOURCE": "全米科学・技術・医学アカデミー"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "水を飲む時間です",
+        "BODY": "十分な水分補給は睡眠の質、認知、気分を改善します。"
+      }
+    },
+    "VISION": {
+      "TITLE": "視覚",
+      "REMINDERS": "目を休めるリマインダー",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "画面から目を離しましょう",
+          "DESCRIPTION": "推奨されるのは 20-20-20 ルールです。つまり、20 分ごとに約 20 フィート (6 メートル) 離れたものを 20 秒間見るやり方です。"
+        },
+        "TAKE_BREAK": {
+          "TITLE": "体を動かしましょう",
+          "DESCRIPTION": "最初は 20-20-20 ルールから始めますが、ワークステーションから離れて屋外に出たり、ストレッチしたり、マインドフルネスを実践したりするようにしましょう。"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "休憩の時間",
+        "BODY": "休憩することで集中力が高まり、業務の生産性と質が向上します"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "リマインダーの頻度の設定",
+    "REMINDER_SCHEDULE": "{{days}} の {{timeSpan}}、{{startTime}} から {{endTime}} まで",
+    "FREQUENCY": "頻度",
+    "TIME_RANGE": "時間範囲",
+    "WEEKDAYS": "平日 (月～金)",
+    "WEEKDAYS_SHORT": "平日",
+    "EVERY_DAY": "毎日",
+    "CUSTOM": "カスタム",
+    "ON": "オン",
+    "LEARN_MORE": "詳細",
+    "NEXT": "次へ",
+    "THROUGH": "から"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Acoustic Fence の仕組み",
+      "TITLE": "Acoustic Fence の仕組み",
+      "DESCRIPTION": "Acoustic Fence は、高度なエコーキャンセル テクノロジーと複数のマイクを使用して、バーチャル「音声フェンス」を作成します。フェンス外の同僚の会話などの雑音が、通話に与える影響を軽減します。{{line_feed}}最高の体験を得るため、Poly NoiseBlockAI と併用して、人の声以外のバックグラウンドノイズ、特にキーボードの打鍵音、紙をめくる音、犬の吠え声などを抑制します。"
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "NoiseBlockAI の仕組み",
+      "TITLE": "NoiseBlockAI の仕組み",
+      "DESCRIPTION": "NoiseBlockAI は、機械学習ベースのノイズ抑制技術を駆使して、自環境側と通話の相手側の両方で邪魔なバックグラウンドノイズを軽減することで、人以外のノイズ (キーボードの打鍵音や紙をめくる音など) が会議に影響を与えないように設計されています。{{line_feed}}また、自分が話していないときは、NoiseBlockAI が自動的にマイクをミュートにして、こちら側のバックグラウンドノイズが通話の邪魔にならないようにします。"
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "デフォルトに戻す",
+      "CONFIRM_MESSAGE": "この操作はデバイスのすべての設定を出荷時のデフォルト設定に戻します。",
+      "COMPLETE_TITLE": "設定がリストアされました！",
+      "COMPLETE_MESSAGE": "新しい設定を反映させるために、(USB接続の場合) ヘッドセットを取り外し、電源を入れ直してください。",
+      "COMPLETE_MESSAGE_NO_REPLUG": "このプロセスを完了するには、今すぐデバイスを再起動する必要があります。"
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "デバイスの再起動",
+      "CONFIRM_MESSAGE": "この操作でデバイスはただちに再起動します。"
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "デフォルトに戻す",
+      "CONFIRM_MESSAGE": "この操作は Lens のすべての設定をデフォルト設定に戻します。"
+    },
+    "AUDIO_TEST": {
+      "TITLE": "音声タイトル",
+      "CONFIRM_MESSAGE": "音声確認メッセージ。"
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Anti-Startle の詳細を見る",
+      "TITLE": "Anti-Startle について",
+      "INTRO": "製品によって Anti-Startle 機能には 2 ～ 3 つのオプションがあります。",
+      "G616": "G616",
+      "G616_DESCRIPTION": "音響衝撃防止に関するオーストラリアの業界ガイドラインです。ユーザーの耳に届く音量が制御されて大音量による衝撃を軽減します。",
+      "G616_POLY_ENHANCED": "G616 (Poly 強化型)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Poly 独自のアルゴリズムは G616 の保護規格を超える機能を持つため、突発的な大音量を抑制し、音声の一貫性を維持しながら快適に聞こえる音量まで即時に下げることができます。",
+      "OFF": "オフ",
+      "OFF_DESCRIPTION": "この設定を無効にすると、ヘッドセットはフィルター処理せずに音声を転送しますが、継続的に音量に 118dBA の上限を設定し、ユーザーの聴覚を保護します。",
+      "NOTE": "注",
+      "NOTE_DESCRIPTION": "このオプションは製品によって違いがあります。",
+      "MORE_INFO": "この機能について詳しくは、次をご確認ください。"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Wi-Fi ネットワークを検索して接続する",
+      "NETWORK_NAME": "ネットワーク名",
+      "DESCRIPTION": "接続するネットワークの名前とセキュリティの種類を入力します。",
+      "PASSWORD_TITLE": "{{networkName}} ネットワークのパスワードの追加",
+      "SECURITY": "セキュリティ",
+      "EAP_METHOD": "EAP メソッド",
+      "PHASE2": "フェーズ 2 認証",
+      "CA_CERTIFICATE": "CA 証明書",
+      "USER_CERTIFICATE": "ユーザー証明書:",
+      "IDENTITY": "ID",
+      "ANONYMOUS_IDENTITY": "匿名アイデンティティ:",
+      "PASSWORD": "パスワード",
+      "IP_SETTINGS": "IP 設定",
+      "STATIC": "静的",
+      "SHOW_ADVANCED": "詳細設定を表示する",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP アドレス",
+      "GATEWAY": "ゲートウェイ",
+      "SUBNET_MASK": "サブネットマスク",
+      "DNS1": "DNS アドレス 1",
+      "DNS2": "DNS アドレス 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "既知のネットワークを管理する",
+      "NO_NETWORKS": "既知のネットワークがありません。接続してください。"
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "証明書署名要求の作成",
+      "DESCRIPTION": "証明書要求に使用する以下の情報を指定します。",
+      "COUNTRY": "国",
+      "STATE": "都道府県",
+      "CITY": "市区町村または地域",
+      "ORGANIZATION": "組織",
+      "ORGANIZATION_UNIT": "組織単位",
+      "COMMON_NAME": "共通名",
+      "SAVE_FILE_TITLE": "証明書署名要求ファイルの保存"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "証明書のインストール",
+      "TYPE": "タイプ",
+      "CERTIFICATE": "証明書",
+      "CHOOSE_FILE_TITLE": "ファイルの選択"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "証明書の詳細",
+      "PASSWORD_ERROR": "入力されたパスワードは無効です。パスワードを再入力してください。",
+      "PASSWORD": "プライベートキーのパスワード:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "これは既定のデバイスです。",
+    "MAKE_DEVICE_MAIN": "このデバイスを既定のデバイスにしてください。",
+    "DEVICE_NOT_SUPPORTED": "デバイス サポートは近日開始予定です。アプリケーション内機能は制限されている可能性があります。",
+    "DISABLED_BY_ADMIN": "管理者によって無効にされた機能"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "ソフトウェア コンポーネント",
+    "VIEW_LIST_OF_COMPONENTS": "{{numberOfComponents}} コンポーネントを表示",
+    "VIEW_ONE_COMPONENT": "1 コンポーネントを表示",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "チューニング",
+    "BASE": "ベース",
+    "HEADSET": "ヘッドセット",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "カメラ"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "もうすぐ終わります！",
+    "REPLUG_DESCRIPTION": "デバイスを一度取り外して接続し直し、［続行］をクリックすると、アップデートが完了します。",
+    "UPDATE_WARNING_1": "このアップデートは数分で完了します。",
+    "UPDATE_WARNING_2": "アップデート中は{{open_tag}}デバイスを取り外さないでください{{close_tag}}。",
+    "UPDATE_WARNING_3": "ソフトウェアのアップデートを続行する前に、他のアプリケーションでこのカメラが使用されていないことを確認してください。",
+    "DISTANCE_WARNING.TITLE": "アップデートの準備ができました",
+    "DISTANCE_WARNING_1": "アップデート中は、{{open_tag}}{{device_name}}{{close_tag}} を PC から 1.5m 以内の位置に保ってください。",
+    "DISTANCE_WARNING_2": "アップデートが中断されないように、携帯電話などの Bluetooth 接続を切断してください。",
+    "LANGUAGE_DOWNLOAD": "言語ダウンロード",
+    "DOWNLOADING_LANGUAGE": "言語をダウンロードしています",
+    "LANGUAGE_UPDATE": "言語アップデート",
+    "UPDATEING_LANGUAGE": "言語をアップデートしています",
+    "LANGUAGE_UPDATED": "言語がアップデートされました",
+    "SOFTWARE_DOWNLOAD": "ソフトウェアのダウンロード",
+    "DOWNLOADING_SOFTWARE": "ソフトウェアをダウンロードしています",
+    "SOFTWARE_UPDATE": "ソフトウェア アップデート",
+    "UPDATING_SOFTWARE": "ソフトウェアをアップデートしています",
+    "SOFTWARE_INSTALLED": "ソフトウェアがインストールされました",
+    "CUSTOM_SOFTWARE_UPDATE": "カスタム ソフトウェア アップデート",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "カスタム ソフトウェア アップデートをアップロードしています",
+    "CUSTOM_SOFTWARE_INSTALLED": "カスタム ソフトウェアがインストールされました",
+    "DEVICE_RECOVERY": "デバイスの復元",
+    "RECOVERING_DEVICE": "デバイスを復元しています",
+    "DEVICE_RECOVERED": "デバイスが復元されました",
+    "UPDATE_FAILED": "ソフトウェア アップデートが失敗しました",
+    "UPDATE_FAILED_TITLE": "申し訳ありません。問題が発生しています。",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "ソフトウェア アップデートが正常に完了しませんでした。",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "ソフトウェアはすでに最新です",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "更新しようとしているデバイスのソフトウェアはすでに最新です。",
+    "PREREQUISITES": {
+      "BatteryLowError": "更新を実行するにはバッテリー残量が不足しています。更新する前に{{deviceName}}のバッテリーを充電してください。",
+      "DeviceNotConnectedError": "更新するには、{{deviceName}} をケーブルで接続してください。",
+      "CallinProgressError": "通話中は {{deviceName}} を更新できません。",
+      "DFUInProgressError": "他のアップデートが進行中のため {{deviceName}} を更新できません。",
+      "MultipleDevicesError": "同一モデルのデバイスが 2 台以上接続されています。他のデバイスの接続を外してから、このデバイスをアップデートしてください。",
+      "ReplugDevice": "デバイスを一度取り外してから接続し直すと、ソフトウェア アップデートが完了します。",
+      "CameraInUseError": "カメラ映像が無効になっていることと、マイクとカメラが他のどのアプリケーションでもアクティブになっていないことを確認してください。",
+      "SingleEarbudError": "アップデートするには、両イヤホンが接続されていること、ケースの外にあること、および 50% 以上充電されていることを確認してください。"
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "全般",
+    "DisplayControls": "表示コントロール",
+    "RingtoneAndVolume": "着信音 & 音量",
+    "Audio": "音声",
+    "SensorAndPresence": "センサー & プレゼンス",
+    "SoftphonesAndMediaPlayers": "ソフトフォン & メディア プレイヤー",
+    "Wireless": "ワイヤレス",
+    "Advanced": "高度な設定",
+    "ANC": "ANC",
+    "Firmware": "ファームウェア",
+    "Language": "言語",
+    "VoicePromptsAndTones": "音声プロンプトとトーン音",
+    "Admin": "管理",
+    "ResetHeadset": "デバイスのリセット",
+    "Lights": "照明",
+    "CustomButton": "カスタム ボタン",
+    "CustomSwipe": "カスタム スワイプ センサー",
+    "Diagnostics": "診断",
+    "SoftwareSettings": "ソフトウェア設定"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "言語",
+      "description": "すべての音声プロンプトと通知で使用する言語を選択します。たとえば \"Incoming call from John.\" (ジョンから着信) や \"Mute on.\" (ミュートがオン) などです。",
+      "serverNotReachable": "サーバーが使用できないため、今回は言語を変更できません。",
+      "options": {
+        "3076": "広東語",
+        "1030": "デンマーク語",
+        "2057": "英語 (イギリス)",
+        "1033": "英語 (米国)",
+        "1036": "フランス語",
+        "1031": "ドイツ語",
+        "1040": "イタリア語",
+        "1041": "日本語",
+        "1042": "韓国語",
+        "1045": "ポーランド語",
+        "2052": "標準中国語",
+        "1044": "ノルウェー語 (ブークモール)",
+        "2068": "ノルウェー語 (ニーノシュク)",
+        "1049": "ロシア語",
+        "1034": "スペイン語",
+        "1053": "スウェーデン語",
+        "16393": "英語 - インド",
+        "1057": "インドネシア語",
+        "1054": "タイ語",
+        "1046": "ポルトガル語 (ブラジル)"
+      }
+    },
+    "0x102": {
+      "name": "2 番目の着信",
+      "description": "別の通信手段の着信音 (たとえば、ソフトフォンで通話しているときの携帯電話の着信) の鳴り方をコントロールします。",
+      "options": {
+        "ignore": "無視",
+        "once": "一度鳴らす",
+        "continuous": "継続的に鳴らす"
+      }
+    },
+    "0x103": {
+      "name": "PC の音量",
+      "description": "",
+      "options": {
+        "off": "オフ",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x104": {
+      "name": "デスクトップ電話機の音量",
+      "description": "",
+      "options": {
+        "off": "オフ",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x105": {
+      "name": "携帯電話音量",
+      "description": "",
+      "options": {
+        "off": "オフ",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "PCソフトフォンの着信音（および該当するモデルでは音量）を選択します。",
+      "options": {
+        "sound1": "サウンド 1",
+        "sound2": "サウンド 2",
+        "sound3": "サウンド 3",
+        "off": "オフ"
+      }
+    },
+    "0x107": {
+      "name": "デスクトップ電話機",
+      "description": "固定電話の着信音（および該当するモデルでは音量）を選択します。",
+      "options": {
+        "sound1": "サウンド 1",
+        "sound2": "サウンド 2",
+        "sound3": "サウンド 3",
+        "off": "オフ"
+      }
+    },
+    "0x108": {
+      "name": "携帯電話",
+      "description": "モバイルデバイスの着信音（および該当するモデルでは音量）を選択します。",
+      "options": {
+        "sound1": "サウンド 1",
+        "sound2": "サウンド 2",
+        "sound3": "サウンド 3",
+        "off": "オフ"
+      }
+    },
+    "0x109": {
+      "name": "着信音",
+      "description": "独自の着信音が設定されていない接続デバイスの着信音を再生します。"
+    },
+    "0x10A": {
+      "name": "ベース リンガーの音量",
+      "description": "ベース リンガーの音量を設定します。",
+      "options": {
+        "off": "オフ",
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x200": {
+      "name": "センサーの装着",
+      "description": "このマスター設定をオンにすると、センサーを利用するオプションを個別に設定することができます。"
+    },
+    "0x201": {
+      "name": "自動応答",
+      "description": "電話の着信中にヘッドセットを装着すると、自動的に着信に応答します。"
+    },
+    "0x202": {
+      "name": "Smart Audio 転送",
+      "description": "ヘッドセットを耳から外すと、通話音声がヘッドセットから携帯電話へ自動的に転送されます。ヘッドセットを再び装着すると、通話の音声がヘッドセットに転送されます。"
+    },
+    "0x203": {
+      "name": "コールボタンのロック",
+      "description": "ヘッドセットのコールボタンをロックして、ヘッドセットを装着していないときの携帯電話の誤操作を防止します。"
+    },
+    "0x204": {
+      "name": "音楽の自動一時停止",
+      "description": "ヘッドセットを耳から外すと、モバイル デバイスからのオーディオ ストリーミングが自動的に一時停止します (装着し直すと再開されます)。無効にすると、オーディオ ストリーミングが流れ続けます。"
+    },
+    "0x205": {
+      "name": "自動ミュート",
+      "description": "通話中にヘッドセットを外すと、ヘッドセットのマイクを自動的にミュートします。"
+    },
+    "0x206": {
+      "name": "通話音声",
+      "description": "通話中に頭からヘッドセットを取り外す際、ヘッドセットに実行してほしい操作を選択します。",
+      "options": {
+        "doNothing": "何もしない",
+        "transferAudioToMobile": "音声を携帯電話に転送する",
+        "muteMic": "マイクをミュートにする"
+      }
+    },
+    "0x300": {
+      "name": "自動応答 (センサーなし)",
+      "description": "充電用クレードルからヘッドセットを取り外したとき、着信に自動的に応答します。コール コントロール ボタンを押したときに、着信への応答がオフに設定されます。"
+    },
+    "0x301": {
+      "name": "携帯電話への自動接続",
+      "description": "ペアリングされている携帯電話が Savi ベース ユニットの範囲内に入ると、Savi ベース ユニットと携帯電話が自動的に再接続されます。"
+    },
+    "0x302": {
+      "name": "クレードルに置くと自動切断",
+      "description": "ヘッドセットを充電用クレードルに置いたとき、通話を自動的に切断します。"
+    },
+    "0x400": {
+      "name": "デフォルトの電話回線",
+      "description": "ヘッドセットのコール コントロール ボタンを押したときに電話が使用する発信回線を設定します。",
+      "options": {
+        "pstn": "デスクトップ電話機",
+        "voip": "PC",
+        "mobile": "モバイル"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "有効にすると、Bluetooth でモバイル デバイスに接続されます。"
+    },
+    "0x402": {
+      "name": "モバイル音声コマンド",
+      "description": "ベースのモバイル デバイスボタンを押して、接続されているモバイル デバイスを音声コマンド モードにできます。"
+    },
+    "0xB05": {
+      "name": "着信通知",
+      "description": "着信の応答時に音声プロンプトが流れます。"
+    },
+    "0x913": {
+      "name": "保留リマインダー",
+      "description": "保留中の通話があることをわかりやすく通知します。"
+    },
+    "0xB06": {
+      "name": "最小/最大音量の通知",
+      "description": "最小/最大音量に達したときに聞こえるアナウンスメントの種類を選択します。",
+      "options": {
+        "voice": "音声",
+        "tone": "トーン音"
+      }
+    },
+    "0x500": {
+      "name": "ノイズ レベル",
+      "description": "日常的にさらされているノイズレベルが、現行法で規定されている対策値（80dBAまたは85dBAを選択）を超えないように監視および制御します。",
+      "options": {
+        "85db": "85dBA に制限",
+        "80db": "80dBA に制限",
+        "off": "制限なし"
+      }
+    },
+    "0x501": {
+      "name": "1 日あたりの通話時間",
+      "description": "本デバイスの通常の使用方法に最も近い値を選択することで、ノイズ レベル設定の精度を最大化します。",
+      "options": {
+        "off": "オフ",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Anti-Startle",
+      "description": "大音量による音響衝撃を軽減するインテリジェントなアルゴリズムにより、大音量を瞬時に抑制して聴覚を保護し、快適な音量に保ちます。"
+    },
+    "0x505": {
+      "name": "Anti Startle",
+      "description": "音響保護の業界標準、G616 は、ユーザーの耳に届く音量を制御し、突発的な大音量を防止します。"
+    },
+    "0x600": {
+      "name": "“Answer” (着信応答)/“Ignore” (着信拒否)",
+      "description": "携帯電話への着信に応答する際に、“Answer” (着信応答) または “Ignore” (着信拒否) の選択を求める音声プロンプトが流れます。"
+    },
+    "0x601": {
+      "name": "通話のアナウンスメント",
+      "description": "ヘッドセットで着信に応答すると、\"Answering Call\" (着信に応答しています) という音声通知が流れます。"
+    },
+    "0x602": {
+      "name": "“Mute Off” (ミュート オフ) 通知",
+      "description": "ヘッドセットのマイクをミュートおよびミュートオフしたときに聞こえるフィードバック。",
+      "options": {
+        "false": "トーン音",
+        "true": "音声"
+      }
+    },
+    "0x603": {
+      "name": "ミュート通知時間",
+      "description": "ミュートのリマインダー通知間隔を分単位で設定します。",
+      "options": {
+        "off": "オフ",
+        "1": "1 分間",
+        "2": "2 分間",
+        "3": "3 分間",
+        "4": "4 分間",
+        "5": "5 分間",
+        "6": "6 分間",
+        "7": "7 分間",
+        "8": "8 分間",
+        "9": "9 分間",
+        "10": "10 分間",
+        "11": "11 分間",
+        "12": "12 分間",
+        "13": "13 分間",
+        "14": "14 分間",
+        "15": "15 分間"
+      }
+    },
+    "0x604": {
+      "name": "ミュート通知音量",
+      "description": "ミュート リマインダー通知の音量を設定します。",
+      "options": {
+        "off": "オフ",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x607": {
+      "name": "ミュート オン/オフ通知",
+      "description": "ヘッドセット マイクのミュートをオンまたはオフしたときや、ミュート通知を受けたときに聞こえる通知の種類を選択します。",
+      "options": {
+        "voice": "音声",
+        "singleTone": "トーン音 1 回",
+        "doubleTone": "トーン音 2 回"
+      }
+    },
+    "0x608": {
+      "name": "システム音",
+      "description": "ヘッドセットの音声プロンプトの音量を設定します。",
+      "options": {
+        "off": "オフ",
+        "low": "低音量",
+        "standard": "標準音量"
+      }
+    },
+    "0x609": {
+      "name": "音量のトーン音",
+      "description": "音量を調整するとき、現在の音量を示すトーン音が聞こえます。",
+      "options": {
+        "atEveryLevel": "すべての音量",
+        "minMaxOnly": "最小と最大のみ"
+      }
+    },
+    "0x60A": {
+      "name": "発信者番号",
+      "description": "発信者の名前が聞こえます。"
+    },
+    "0x60C": {
+      "name": "音声がアクティブのトーン",
+      "description": "音声チャネルが開かれ、通信の準備ができたことを示す短い一連のトーン音が流れます。"
+    },
+    "0x60D": {
+      "name": "ミュート通知モード",
+      "description": "通話中にヘッドセットがミュートされていることをわかりやすく通知します。通知が発生する方法とタイミングを設定します。",
+      "options": {
+        "off": "オフ",
+        "timed": "時間ベース",
+        "voiceAudible": "音声通知",
+        "voiceVisible": "画面表示通知",
+        "voiceVisibleAndAudible": "画面表示と音声による通知"
+      }
+    },
+    "0x610": {
+      "name": "ミュート通知",
+      "description": "スピーカーフォンのマイクをミュートおよびミュートオフしたときに聞こえるフィードバック。"
+    },
+    "0x700": {
+      "name": "音質",
+      "description": "目的の活動に合わせて、音質を最適化します。",
+      "options": {
+        "homeMode": "音楽",
+        "enterpriseMode": "ハイブリッド",
+        "mono": "会話",
+        "narrowBand": "狭帯域"
+      }
+    },
+    "0x701": {
+      "name": "無線ペアリング",
+      "description": "ヘッドセットを物理的に充電用クレードルに置かずに、このヘッドセットをベースにペアリングします。"
+    },
+    "0x702": {
+      "name": "範囲",
+      "description": "他の DECT デバイスからの音声干渉を軽減するために、範囲を制限します。",
+      "options": {
+        "low": "低",
+        "medium": "中角",
+        "high": "高"
+      }
+    },
+    "0x704": {
+      "name": "ストリーミング オーディオ",
+      "description": "音楽、ポッドキャスト、その他の種類のオーディオをモバイル デバイスからヘッドセットにストリーミングできます。オーディオのストリーミングを使用していないときにこの機能を無効にすると、バッテリーの持続時間を延長できます。",
+      "powerCycleRequired": {
+        "title": "ストリーミング オーディオの有効化/無効化",
+        "buttonText": "OK",
+        "true": {
+          "title": "ストリーミング オーディオを無効にする",
+          "text": "バッテリーの電力消費を抑えて、通話時間を延ばす場合に選択します。無効にすると、ヘッドセットで音楽やポッドキャストを聞くことができなくなります。"
+        },
+        "false": {
+          "title": "ストリーミング オーディオを有効にする",
+          "text": "ヘッドセットで音楽やポッドキャストを聞く場合に選択します。有効にすると、通話可能時間が短くなります。"
+        }
+      }
+    },
+    "0x705": {
+      "name": "範囲拡張モード (PC)",
+      "description": "PC からヘッドセットへのワイヤレス通信距離を拡張します。注: これにより、ワイドバンドステレオテレフォニーが無効になり、PC から聞こえる音質が低下します。"
+    },
+    "0x706": {
+      "name": "PC 音声周波数",
+      "description": "ワイドバンド オーディオにより音声の明瞭度が向上し、臨場感のあるクリアな通話が実現しますが、バッテリー電力消費量が大きいため通話時間が短くなります。",
+      "options": {
+        "narrowband": "狭帯域",
+        "wideband": "広帯域"
+      }
+    },
+    "0x707": {
+      "name": "デスクトップ電話機の音声帯域",
+      "description": "ワイドバンド オーディオにより音声の明瞭度が向上し、臨場感のあるクリアな通話が実現しますが、バッテリー電力消費量が大きいため通話時間が短くなります。",
+      "options": {
+        "narrowband": "狭帯域",
+        "wideband": "広帯域"
+      }
+    },
+    "0x708": {
+      "name": "HD 品質の音声",
+      "description": "携帯電話と通信事業者の両方がワイドバンドでの音声通話に対応していれば、ワイドバンドで鮮明な音声が得られます。注: この機能は電力を大きく消費するため、連続通話時間が短縮されます。",
+      "options": {
+        "narrowband": "オフ",
+        "wideband": "オン",
+        "stereo": "ステレオ",
+        "widebandStereo": "ワイドバンド ステレオ"
+      },
+      "powerCycleRequired": {
+        "title": "HD Voice の有効化/無効化",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "HD Voice を無効にする",
+          "text": "携帯電話と通信事業者の両方が広帯域での音声通話に対応していれば、広帯域で鮮明な音声が得られます。無効にすると、バッテリーの電力消費を抑えて、通話時間を延ばせます。"
+        },
+        "wideband": {
+          "title": "HD Voice を有効にする",
+          "text": "携帯電話と通信事業者の両方が広帯域での音声通話に対応していれば、広帯域で鮮明な音声が得られます。HD Voice を有効にするとバッテリーの消費電力が大きくなるため、使用可能な通話時間が減ります。"
+        },
+        "stereo": {
+          "title": "ステレオ タイトル",
+          "text": "ステレオ テキスト"
+        },
+        "widebandStereo": {
+          "title": "ワイドバンド ステレオ タイトル",
+          "text": "ワイドバンド ステレオ テキスト"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "デイジー チェーンの自動再接続",
+      "description": "電源が入っているときに、2 台のデバイス間のデイジー チェーン接続を維持します。"
+    },
+    "0x70B": {
+      "name": "Bluetooth の自動切断",
+      "description": "デバイスがスタンバイ モードになったら、Bluetooth を切断します。"
+    },
+    "0x800": {
+      "name": "QD ヘッドセットの音量を上げる",
+      "description": "ベース QD (Quick Disconnect: クイック切断) に接続されているヘッドセットの音量が小さすぎる場合は、ご使用のヘッドセット モデルを選択して音量を上げます。",
+      "options": {
+        "new": "EncorePro 500 シリーズ",
+        "legacy": "EncorePro 700 シリーズおよび他のすべてのヘッドセット モデル"
+      }
+    },
+    "0x801": {
+      "name": "音質コントロール",
+      "description": "低音または高音を強めて、聴こえ具合を最適化します。各デバイスごとに、デスクトップ電話機と PC のトーンをカスタマイズできます。 ",
+      "options": {
+        "maxBass": "低音最大",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "高音最大"
+      }
+    },
+    "0x802": {
+      "name": "近距離の会話の制限",
+      "description": "マイクを通じて拾われる近距離の会話の音量を制限します(注: 変更は次回の通話時から適用されます)。",
+      "options": {
+        "no": "制限なし",
+        "moderate": "最高の音質",
+        "agressive": "オープン オフィス"
+      }
+    },
+    "0x803": {
+      "name": "サイドトーン",
+      "description": "通話中に聞こえる自分の声の音量を調整します。",
+      "options": {
+        "low": "低",
+        "medium": "中角",
+        "high": "高"
+      }
+    },
+    "0x804": {
+      "name": "ANC タイムアウト",
+      "description": "ヘッドセットがアイドル状態のときにアクティブ ノイズ キャンセル (ANC) をオンに維持する時間を短縮して、バッテリーの消費を抑えます。",
+      "options": {
+        "2": "2 時間",
+        "4": "4 時間",
+        "off": "オフ"
+      }
+    },
+    "0x810": {
+      "name": "ANC モード",
+      "description": "環境に最適なノイズキャンセル レベルを選択します。",
+      "options": {
+        "adaptive": "適応型",
+        "automatic": "自動",
+        "standard": "標準",
+        "off": "オフ"
+      }
+    },
+    "0x805": {
+      "name": "通知音",
+      "description": "オーディオのストリーミング中に、他の接続デバイスから通知音が鳴ります。"
+    },
+    "0x806": {
+      "name": "独立した音量コントロール",
+      "description": "独立した音量コントロールを有効または無効にします。"
+    },
+    "0x807": {
+      "name": "デイジー チェーン オーディオ",
+      "description": "スピーカーフォンをデイジー チェーン接続したときに聞こえる音声出力を選択します。",
+      "options": {
+        "party": "パーティ",
+        "stereo": "ステレオ"
+      }
+    },
+    "0x808": {
+      "name": "イコライザー",
+      "description": "イコライザーのプリセットをお好みのサウンド特性に設定します。",
+      "options": {
+        "bass": "バス",
+        "flat": "フラット",
+        "bright": "ブライト"
+      }
+    },
+    "0x90A": {
+      "name": "デフォルトに戻す",
+      "description": "この操作はデバイスのすべての設定を出荷時のデフォルト設定に戻します。",
+      "resetBtn": "デフォルトに戻す",
+      "powerCycleRequired": {
+        "title": "設定がリストアされました",
+        "buttonText": "リストア",
+        "true": {
+          "title": "デフォルトの設定に戻す",
+          "text": "カスタマイズした設定すべてが元のデフォルト設定に戻ります。"
+        }
+      }
+    },
+    "0x90C": {
+      "name": "デバイスの再起動",
+      "description": "この操作でデバイスはただちに再起動します。",
+      "resetBtn": "再起動"
+    },
+    "0x848": {
+      "name": "信頼済みデバイスのクリア",
+      "description": "ヘッドセットに保存されている接続済みデバイスのリストを削除します(BT700 を含むすべての接続済みデバイスに適用されます)。",
+      "resetBtn": "デバイスのクリア",
+      "powerCycleRequired": {
+        "title": "デバイスが消去されました",
+        "buttonText": "クリア",
+        "true": {
+          "title": "信頼済みデバイスのクリア",
+          "text": "この操作を実行すると、お使いのヘッドセットに保存されているすべての接続デバイスが消去されます (BT700 USB アダプターを含む)。"
+        }
+      }
+    },
+    "0x900": {
+      "name": "着信時にバイブレーション",
+      "description": "着信時にヘッドセットのバイブレーターが作動するよう設定します。"
+    },
+    "0x901": {
+      "name": "充電確認",
+      "description": "ヘッドセットが充電中であることを確認するために、ヘッドセットのバイブレーターが作動するよう設定します。"
+    },
+    "0x902": {
+      "name": "オンライン インジケーター",
+      "description": "デバイスのLEDインジケーターを有効にすると、通話中であることを周囲の人に知らせることができます。"
+    },
+    "0x903": {
+      "name": "音量コントロールの装着設定",
+      "description": "ヘッドセット装着設定 (左耳/右耳) を指定し、音量コントロールを常に上げて音量を大きくします。",
+      "options": {
+        "unknown": "変更なし",
+        "left": "左耳",
+        "right": "右耳",
+        "leftRight": "右側のブーム",
+        "leftRightSwapped": "左側のブーム"
+      }
+    },
+    "0xA00": {
+      "name": "オーディオ センシング",
+      "description": "USB ポートが PC オーディオを検知したときに、ベースとワイヤレス ヘッドセット間のラジオ リンクを自動的に確立します。"
+    },
+    "0xA01": {
+      "name": "ダイヤルトーン",
+      "description": "ヘッドセットのコールボタンを押すと、VoIP 通話のダイヤルトーンが聞こえます。お使いのソフトフォンがダイヤルトーンに対応していることが必要です。"
+    },
+    "0xFFF1": {
+      "name": "携帯電話への自動接続",
+      "description": "ペアリングされている携帯電話が Savi ベース ユニットの範囲内に入ると、Savi ベース ユニットと携帯電話は自動的に再接続されます。",
+      "options": {
+        "never": "行わない",
+        "whenUndocked": "ヘッドセットを外したときのみ",
+        "always": "常時"
+      }
+    },
+    "0xFFF2": {
+      "name": "Anti–Startle",
+      "description": "大音量による音響衝撃を軽減するアルゴリズムにより、聴覚を保護し、快適な音量に保ちます。",
+      "options": {
+        "off": "オフ",
+        "standard": "G616",
+        "enhanced": "G616 (Poly 強化型)"
+      }
+    },
+    "0x60E": {
+      "name": "バッテリー残量",
+      "description": "デバイスに電源を入れたときにバッテリー残量を音声で知らせます。"
+    },
+    "0x60F": {
+      "name": "接続",
+      "description": "接続ステータスを示す音声プロンプトが流れます。",
+      "options": {
+        "voice": "音声",
+        "tone": "トーン音"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Sync スピーカーのすべての Bluetooth 接続を有効または無効にします。"
+    },
+    "-": {
+      "name": "接続",
+      "description": "接続ステータスを示す音声プロンプトが流れます。"
+    },
+    "0x907": {
+      "name": "Bluetooth セキュア接続",
+      "description": "Bluetooth ペアリング ボタンを押して、スピーカーフォンとモバイル デバイス間の接続を完了します。"
+    },
+    "0x908": {
+      "name": "カスタム ボタン",
+      "description": "アクション ボタンをタップしたときに起動するアクションを割り当てます。",
+      "options": {
+        "playPause": "再生/一時停止",
+        "redial": "リダイヤル (モバイルのみ)",
+        "vpa": "VPA (Siri、Google アシスタントなど)",
+        "clearTrustedDevice": "信頼済みデバイス リストのクリア",
+        "statusCheck": "ステータス チェック",
+        "holdResume": "通話の保留/再開",
+        "anc": "ANC/トランスペアレント モード",
+        "nothing": "何もしない"
+      }
+    },
+    "0x909": {
+      "name": "排他的接続",
+      "description": "新しいデバイスをペアリングして接続したときに、以前ペアリングしたデバイス情報を削除します。これにより、ペアリングと接続が可能なデバイスを一度に 1 つに限定できます。"
+    },
+    "0xC00": {
+      "name": "明るさ",
+      "description": "ビデオの輝度を調整します。"
+    },
+    "0xC01": {
+      "name": "コントラスト",
+      "description": "ビデオのコントラストを調整します。"
+    },
+    "0xC02": {
+      "name": "色相",
+      "description": "ビデオの色を調整します。"
+    },
+    "0xC03": {
+      "name": "彩度",
+      "description": "ビデオのカラー彩度を調整します。"
+    },
+    "0xC04": {
+      "name": "シャープネス",
+      "description": "ビデオの鮮明度を調整します。"
+    },
+    "0xC05": {
+      "name": "ガンマ",
+      "description": "ビデオのガンマを調整します。"
+    },
+    "0xC06": {
+      "name": "色",
+      "description": "ビデオの色を調整します。"
+    },
+    "0xC07": {
+      "name": "ホワイト バランス",
+      "description": "室内の光源の状況にあわせてカメラを補正する方法を指定します。"
+    },
+    "0xC08": {
+      "name": "バック ライト補正",
+      "description": "バック ライト補正を有効または無効にします。"
+    },
+    "0xC09": {
+      "name": "ゲイン",
+      "description": "カメラからの信号増幅を調整します。"
+    },
+    "0xC0A": {
+      "name": "パン",
+      "description": "カメラの左右方向を調整します。"
+    },
+    "0xC0B": {
+      "name": "チルト",
+      "description": "カメラの上下方向を調整します。"
+    },
+    "0xC0C": {
+      "name": "回転",
+      "description": "カメラの回転角度を調整します。"
+    },
+    "0xC0D": {
+      "name": "ズーム",
+      "description": "カメラのズーム レベルを調整します。"
+    },
+    "0xC0E": {
+      "name": "露出",
+      "description": "カメラの露出を調整します。"
+    },
+    "0xC0F": {
+      "name": "絞り",
+      "description": "カメラの絞りを調整します。"
+    },
+    "0xC10": {
+      "name": "ピント",
+      "description": "カメラのピントを調整します。"
+    },
+    "0xC11": {
+      "name": "肌色補正",
+      "description": "参加者の自然な肌色の補正を有効または無効にします。"
+    },
+    "0xC12": {
+      "name": "ワイド ダイナミック レンジ",
+      "description": "全景ではなく、フレーミングされた領域に基づく再露光を有効または無効にします。"
+    },
+    "0xC13": {
+      "name": "参加者数",
+      "description": "会議の参加者数をレポートします。"
+    },
+    "0xC14": {
+      "name": "オンスクリーンディスプレイ",
+      "description": "カメラのパラメーターをビデオ出力に表示します。"
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "周囲の騒音をブロックする Poly Acoustic Fence を有効にして、Poly Acoustic Fence ビーム幅を設定します。",
+      "options": {
+        "off": "オフ",
+        "60": "狭い",
+        "90": "中角",
+        "120": "広角",
+        "cameraView": "カメラ映像"
+      }
+    },
+    "0xC16": {
+      "name": "送話音声の Poly NoiseBlockAI",
+      "description": "自環境側の雑音 (キーボードの打鍵音や紙をめくる音など) が会議の邪魔にならないようにします。",
+      "options": {
+        "true": "オン",
+        "false": "オフ",
+        "fast": "高速"
+      }
+    },
+    "0xC24": {
+      "name": "受話音声の Poly NoiseBlockAI",
+      "description": "通話の相手側の雑音 (キーボードの打鍵音や紙をめくる音など) が会議の邪魔にならないようにします。"
+    },
+    "0xC17": {
+      "name": "ステレオ音声",
+      "description": "カメラ搭載の 2 つの音声チャネルを使用してステレオサウンドを提供します。"
+    },
+    "0xC26": {
+      "name": "低音ブースト",
+      "description": "低音ブーストです。"
+    },
+    "0xC18": {
+      "name": "トラッキング速度",
+      "description": "カメラが会議の参加者を検出する速度を設定します。",
+      "options": {
+        "slow": "低速",
+        "normal": "標準",
+        "fast": "高速"
+      }
+    },
+    "0xC19": {
+      "name": "トラッキング モード",
+      "description": "カメラが参加者を追跡する方法を設定します。",
+      "options": {
+        "speaker": "話者フレーミング",
+        "off": "オフ",
+        "group": "グループ フレーミング",
+        "presenter": "発表者",
+        "conversation": "会話",
+        "gallery": "人物フレーミング"
+      }
+    },
+    "0xC21": {
+      "name": "バス",
+      "description": "スピーカーの低音域出力を調整します。"
+    },
+    "0xC22": {
+      "name": "トレブル",
+      "description": "スピーカーの高音域出力を調整します。"
+    },
+    "0xC23": {
+      "name": "ちらつき防止 (50Hz / 60Hz) 対策",
+      "description": "ディスプレイのちらつきを軽減するための適切な周波数 (NTSC 60Hz/PAL 50Hz) を選択します。",
+      "options": {
+        "0": "無効",
+        "1": "50Hz",
+        "2": "60Hz",
+        "3": "自動"
+      }
+    },
+    "0xC27": {
+      "name": "画像の水平/垂直反転",
+      "description": "カメラのビデオ出力を反転します。",
+      "options": {
+        "0": "無効",
+        "1": "水平反転",
+        "2": "垂直反転",
+        "3": "水平垂直両方に反転"
+      }
+    },
+    "0xC28": {
+      "name": "色温度",
+      "description": "色温度",
+      "options": {
+        "warm": "暖色",
+        "cool": "寒色"
+      }
+    },
+    "0xC1A": {
+      "name": "フレーム サイズ",
+      "description": "カメラ トラッキングのフレーム表示を設定します。",
+      "options": {
+        "tight": "狭角",
+        "medium": "中角",
+        "wide": "広角"
+      }
+    },
+    "0xC1B": {
+      "name": "最大ズーム",
+      "description": "最大カメラ ズームを 2 倍、3 倍、または 4 倍に制限します",
+      "options": {
+        "2x": "2 倍",
+        "3x": "3 倍",
+        "4x": "4 倍"
+      }
+    },
+    "0xC1C": {
+      "name": "カメラ動作",
+      "description": "カメラ動作を調整します",
+      "options": {
+        "auto pan": "自動追跡",
+        "cut": "カット"
+      }
+    },
+    "0xC80": {
+      "name": "画面の輝度",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "ステータス LED の輝度",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "アイドル状態",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "着信中",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "アクティブな通話",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "保留中の通話",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "ミュート通知",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "ワイヤレス充電",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "アプリケーション ボタン",
+      "description": "ディスプレイからアクセスするプラットフォームを選択します。",
+      "options": {
+        "zoom": "ズーム",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "ロケット ボタン",
+      "description": "ロケット シップをタップしたときに起動するアクションを割り当てます",
+      "options": {
+        "holdResume": "通話の保留/再開",
+        "playPause": "再生/一時停止",
+        "statusLight": "ステータス ライト",
+        "lens": "Poly Lens Desktop を開く",
+        "vpa": "VPA - Siri、Cortana",
+        "redial": "最後の通話にリダイヤル",
+        "vanity": "バニティ ライト",
+        "answerEnd": "着信応答/通話終了",
+        "videoMute": "カメラのビデオ ミュート"
+      }
+    },
+    "0xC90": {
+      "name": "ディスプレイ輝度",
+      "description": "ディスプレイの輝度を調整します。"
+    },
+    "0xC81": {
+      "name": "ディスプレイ コントラスト",
+      "description": "ディスプレイのコントラストを調整します。"
+    },
+    "0x910": {
+      "name": "PC 音声継続モード",
+      "description": "有効にすると、PC 音声がデスクトップ電話機インターフェイスと統合されます。"
+    },
+    "0x1300": {
+      "name": "すべて管理",
+      "description": "デバイスの使用中に流れるプロンプトとトーンを選択します。"
+    },
+    "0x1301": {
+      "name": "通話",
+      "description": "通話状態を示す音声プロンプトまたはトーンが流れます。"
+    },
+    "0x1302": {
+      "name": "着信中"
+    },
+    "0x1303": {
+      "name": "“Answer” (着信応答)/“Ignore” (着信拒否)"
+    },
+    "0x1305": {
+      "name": "着信に応答"
+    },
+    "0x1500": {
+      "name": " トランスペアレント モード",
+      "description": "トランスペアレント モードのレベルとサウンド特性を選択します。",
+      "options": {
+        "speech": "スピーチ",
+        "environment": "環境",
+        "off": "オフ"
+      }
+    },
+    "0x1800": {
+      "name": "アイドル",
+      "description": "デバイスがアイドル状態になったときのクイック アクションを割り当てます。",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/トランスペアレント モード",
+        "status": "ステータス チェック",
+        "nothing": "何もしない"
+      }
+    },
+    "0x1801": {
+      "name": "通話中",
+      "description": "通話中のクイック アクションを割り当てます。 ",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/トランスペアレント モード",
+        "hold": "通話の保留/再開",
+        "mute": "ミュート",
+        "nothing": "何もしない"
+      }
+    },
+    "0x1802": {
+      "name": "メディア ストリーミング ",
+      "description": "メディア ストリーミング時のクイック アクションを割り当てます。",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/トランスペアレント モード",
+        "track": "前の曲/次の曲へスキップ",
+        "nothing": "何もしない"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "了解です",
+      "powerOffText": "新しい設定を有効にするには、忘れずに<b>ヘッドセットの電源を切って、5 秒以上経過してから入れ直してください</b>。"
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "言語の選択",
+      "DESCRIPTION": "\"Incoming call from John\" (ジョンからの着信) や \"Mute on\" (ミュート オン) などの音声プロンプトおよび音声通知に使用する言語を選択してください。",
+      "DESCRIPTION_USB_CABLE": "音声プロンプトと音声通知に使用する言語を変更するには、{{device_name}} を USB ケーブルで PC に接続します。",
+      "CONFIRM_TITLE": "言語の変更"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi 名",
+      "CONNECTED": "接続済み",
+      "DISCONNECTED": "切断されました",
+      "SIGNAL_STRENGTH": "信号強度",
+      "AUTOCONNECT": "自動接続",
+      "JOIN_OTHER_NETWORK": "他のネットワークに参加",
+      "MANAGE_KNOWN_NETWORKS": "既知のネットワークを管理する",
+      "PLACEHOLDER": "ネットワークの選択"
+    },
+    "GENERAL": {
+      "LABEL": "全般",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP モード",
+      "NTP_SERVER": "NTP サーバー",
+      "CAMERA_VIVID": "カメラ ビビッド モード",
+      "CAMERA_VIVID_NOTE": "カメラ ビビッド モードを適用するには、デバイスを再起動する必要があります。"
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "自動接続",
+      "REMOTE_CONTROL_CONNECTION": "リモコンの接続",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "接続を一度無効にして再び有効にした後は、リモコンを手動でペアリングする必要があります。"
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "プロビジョニングサーバ",
+      "PROVISIONING_MODE": "プロビジョニングモード",
+      "PROVISIONING_MODE_OPTION_AUTO": "自動",
+      "PROVISIONING_MODE_OPTION_MANUAL": "マニュアル",
+      "PROVISIONING_MODE_OPTION_OFF": "オフ",
+      "SERVER_TYPE": "サーバタイプ",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS サーバー (Lens のプロビジョニングに使用)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly ホスト サーバー",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS サーバー",
+      "SERVER_ADDRESS": "サーバアドレス",
+      "USERNAME": "ユーザー名",
+      "PASSWORD": "パスワード"
+    },
+    "CERTIFICATES": {
+      "LABEL": "証明書",
+      "VALIDATE_PEER_CERTS": "サーバーからピアの証明書を常に認証する",
+      "INSTALLED_CERTIFICATES": "インストールされている証明書",
+      "ISSUED_TO": "発行先",
+      "ISSUED_BY": "発行者",
+      "EXPIRATION_DATE": "有効期限",
+      "TYPE": "タイプ",
+      "CERTIFICATE_SIGNING_REQUEST": "証明書署名要求",
+      "NO_CERTIFICATES": "レコードは見つかりませんでした"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "設定",
+      "DESCRIPTION": "設定ファイルをローカル システムにエクスポートするか、ローカル ファイルから設定セットをインポートします。インポートした設定を有効にするには、デバイスを再起動する必要があります。",
+      "IMPORT": "インポート",
+      "IMPORT_DIALOG_TITLE": "設定のインポート",
+      "EXPORT": "エクスポート",
+      "EXPORT_DIALOG_TITLE": "設定のエクスポート"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "お探しの設定が表示されない場合は、Poly Lens 管理者に連絡するか、デバイス パスワードでログインしてください。",
+      "ACTION": "デバイス パスワードでログイン",
+      "PASSWORD": "パスワード",
+      "CANCEL": "キャンセル",
+      "LOGIN": "ログイン",
+      "INVALID_PASSWORD": "入力されたパスワードは無効です。パスワードを再入力してください。",
+      "REQUIRED": "必須"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "パスワード",
+      "CHANGE_PASSWORD": "パスワードの変更",
+      "CURRENT_PASSWORD": "現在のパスワード",
+      "CREATE_NEW_PASSWORD": "新しいデバイス パスワードの作成",
+      "NEW_PASSWORD": "新しいパスワード",
+      "RE_ENTER_NEW_PASSWORD": "新しいパスワードをもう一度入力する",
+      "PASSWORD_UNMATCH": "パスワードが一致しません。新しいパスワードを再入力してください。",
+      "SIMPLE_PASSWORD": "シンプル パスワード",
+      "DEVICE_PASSWORD": "デバイス パスワード",
+      "WEAK_PASSWORD": "弱いパスワードを使用します (お勧めしません)。",
+      "STRONG_PASSWORD_RECOMMENDED": "強力なパスワードをお勧めします。",
+      "SAME_PASSWORD_ERROR": "以前に使用したことのあるパスワードは使用できません。新しいパスワードを入力してください。",
+      "RECOMMENDATION_1": "15 文字以上",
+      "RECOMMENDATION_2": "2 文字以上の小文字",
+      "RECOMMENDATION_3": "2 文字以上の大文字",
+      "RECOMMENDATION_4": "2 文字以上の数字",
+      "RECOMMENDATION_5": "2 文字以上の特殊文字"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "音声イコライザー",
+      "DESCRIPTION": "バス スライダーとトレブル スライダーを設定します。 "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "以下の［同意します］をクリックすることにより、このソフトウェアの利用には、以下のドキュメントの条項が適用されることを認め、これに同意したことになります。 ",
+      "EULA_LINK": "Poly エンドユーザー使用許諾契約書",
+      "EULA_I_ACCEPT": "エンドユーザー使用許諾契約書に同意します",
+      "BEGIN_SETUP": "セットアップの開始",
+      "PASSWORD_INVALID": "入力されたパスワードは無効です。パスワードを再入力してください。"
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "国",
+      "DEVICE_NAME": "デバイス名",
+      "DEVICE_NAME_DESCRIPTION": "このデバイスに付ける名前は、デバイスを設置する部屋または会議スペースの名前を付けることをお勧めします。",
+      "BEGIN_SETUP": "セットアップの開始",
+      "PASSWORD_INVALID": "入力されたパスワードは無効です。パスワードを再入力してください。"
+    },
+    "AUDIO_TEST": {
+      "TITLE": "音声テスト",
+      "DESCRIPTION": "音声テストを完了してローカルディスクに音声録音をダウンロードするには、数分かかります。すべての音声入力ポート (マイク、USB、ライン入力) からの音声を録音するには、システムの［テストの開始］をクリックします。",
+      "START_TEST": "テストの開始",
+      "MODAL_TITLE": "音声録音",
+      "MODAL_TIME": "時間:",
+      "DIALOG_TITLE": "ログファイルの保存",
+      "PLEASE_WAIT": "診断が保存されるまでお待ちください。",
+      "STOP_RECORDING": "停止"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "デバイス切断時",
+      "DESCRIPTION": "Poly コード搭載アダプターからヘッドセットを取り外すと、選択した動作が自動的に適用されます。",
+      "HOLD_ACTIVE_CALL": "通話を保留にする",
+      "LOCK_SCREEN": "PC 画面をロック",
+      "LOCK_SCREEN_AND_HOLD_CALL": "PC 画面をロックして通話を保留にする",
+      "DO_NOTHING": "何もしない"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "ヘッドセットからPCへのラジオリンク",
+      "DESCRIPTION": "通話終了後も PC へのラジオ リンクを保持します。",
+      "ACTIVE_ONLY_DURING_CALL": "通話中のみ有効",
+      "ALWAYS_ACTIVE": "常に有効"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}設定{{close_tag}}",
+    "NAME_LABEL": "名前:",
+    "EMAIL_LABEL": "電子メール:",
+    "INVITED_BY_IT_ADMIN": "IT 管理者",
+    "INVITED": "{{invited_by_email}} が {{tenant_name}} への参加を招待しています。",
+    "Account": {
+      "TITLE": "アカウント",
+      "login": {
+        "TITLE": "自分のアカウント",
+        "DESCRIPTION_INTRO": "現在ログインしていません。ログインすると、次に同意したことになります:",
+        "DESCRIPTION_TERMS": "サービス利用規約",
+        "DESCRIPTION_AND": "および",
+        "DESCRIPTION_PRIVACY": "プライバシー"
+      }
+    },
+    "General": {
+      "TITLE": "全般",
+      "startOnSystemStartup": {
+        "TITLE": "起動時に Poly Lens を起動",
+        "DESCRIPTION": "ログイン時に自動的に Poly Lens を起動します。"
+      },
+      "startMinimized": {
+        "TITLE": "アプリケーションを最小化して起動"
+      },
+      "eulaAccepted": {
+        "TITLE": "エンドユーザー使用許諾契約書",
+        "DESCRIPTION": " は管理者が合意済み"
+      }
+    },
+    "Language": {
+      "TITLE": "言語",
+      "LABEL": "このアプリケーションで使用する言語を選択します。"
+    },
+    "Softphone": {
+      "TITLE": "ソフトフォン",
+      "MODULE_NAME": "モジュール名",
+      "MODULE_VERSION": "モジュールのバージョン",
+      "ENABLE": "有効",
+      "CONNECTED": "接続済み",
+      "VIEW_ALL": "サポートされるすべてのソフトフォンを表示",
+      "targetSoftphone": {
+        "TITLE": "対象のソフトフォン",
+        "DESCRIPTION": "(サポートされているデバイスとソフトフォンの) 発信通話とダイヤル トーンに使用されるソフトフォンが表示されます。"
+      },
+      "mediaPlayerAction": {
+        "TITLE": "着信時のメディア プレイヤー操作",
+        "DESCRIPTION": "ソフトフォン受信時の、iTunes や Windows Media Player などのメディア プレイヤー アプリケーションの動作を制御します。"
+      },
+      "table": {
+        "TITLE": "ソフトフォン＆メディアプレイヤー | Poly 対応"
+      }
+    },
+    "Notifications": {
+      "TITLE": "通知 & デバイスの警告",
+      "enableNotifications": {
+        "TITLE": "デスクトップ通知とデバイスの警告を許可"
+      },
+      "wellness": {
+        "TITLE": "健康およびウェルネス",
+        "DESCRIPTION": "基本的に体を動かさない環境では、適切な水分補給と定期的な運動が、短期および長期の健康に不可欠です。通知の頻度とタイミングをカスタマイズするオプションを選択します。",
+        "hydrationEnabled": "水分補給のリマインダー",
+        "visionEnabled": "目を休めるリマインダー",
+        "hydrationEnabledTitle": "水分補給のリマインダー",
+        "visionEnabledTitle": "目を休めるリマインダー"
+      },
+      "deviceAlerts": {
+        "TITLE": "デバイスの警告",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "デバイスがペアリングされていません",
+        "lowBattery": "バッテリー残量不足",
+        "deviceCharging": "デバイス充電中",
+        "deviceDisconnected": "デバイスが切断されました",
+        "muteAlert": "ミュート通知",
+        "deviceSoftwareUpdate": "デバイス ソフトウェア アップデート"
+      },
+      "softwareUpdate": {
+        "TITLE": "ソフトウェア アップデート",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "ソフトウェア アップデート",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens Desktop のバージョン",
+        "SOFTWARE": "ソフトウェア",
+        "UP_TO_DATE": "最新です",
+        "RELEASE_NOTES": "リリース ノートの表示",
+        "CHECKING_FOR_UPDATES": "更新プログラムの確認",
+        "UPDATE": "更新",
+        "UPDATE_AVAILABLE": "取得可能",
+        "DOWNLOADING": "ダウンロード中",
+        "CONTINUE": "続行",
+        "CONTINUE_DESC": "{{open_tag}}［続行］{{close_tag}}を選択すると、Poly Lens を終了してアップデートをインストールします。",
+        "DOWNLOAD_ERROR": "アップデートのダウンロード中にエラーが発生しました。インターネット接続を確認し、もう一度試してください。"
+      }
+    },
+    "About": {
+      "TITLE": "バージョン情報",
+      "COPYRIGHT": "2022-2024 HP Inc. All Rights Reserved.",
+      "PRIVACY_POLICY": "プライバシー",
+      "EULA": "エンドユーザー使用許諾契約書"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "一時停止/再開",
+    "NO_ACTION": "処理なし"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens サポート",
+    "TITLE_OTHER": "サポートのお問い合わせ",
+    "QUICK_START_GUIDE": "クイック スタート ガイド",
+    "USER_GUIDE": "ユーザー ガイド",
+    "DEVICE_INFO_AND_LOGS": "デバイス情報とログ",
+    "CONTACT_SUPPORT": "サポートのお問い合わせ",
+    "CONTACT_TYPE": "電話番号、メールアドレス、オンライン サポート",
+    "DEVICE_INFO": "デバイス情報",
+    "APP_INFO": "アプリケーション情報",
+    "DEVICE_MODEL": "デバイス モデル",
+    "SERIAL_NUMBER": "シリアル番号",
+    "SOFTWARE_VERSION": "ソフトウェア バージョン",
+    "COM_LIB_VERSION": "デバイス コミュニケーション バージョン",
+    "PID": "製品ID",
+    "LAST_CONNECTED": "最後の接続",
+    "USER_ID": "ユーザー ID",
+    "TENANT_ID": "テナント ID",
+    "APP_ID": "アプリケーション ID",
+    "GET_ACCESS": "直接サポートとコミュニティ サポートにアクセス",
+    "GET_STARTED": "入門、ドキュメントなど",
+    "POLY_SUPPORT_LINK": "Poly サポートにアクセス",
+    "POLY_DOCUMENT_LINK": "Lens Desktop オンライン ヘルプ",
+    "DIAGNOSTICS": "診断",
+    "DIAGNOSTICS_DESCRIPTION": "トラブルシューティングにサポートが必要な場合は、ログをダウンロードして Poly サポートと共有してください。",
+    "DOWNLOAD_LOGS": "ログのダウンロード",
+    "SAVE_LOGS": "ログの保存",
+    "NONE": "なし",
+    "UNKNOWN": "不明"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "平日",
+    "Monday": "月曜日",
+    "Tuesday": "火曜日",
+    "Wednesday": "水曜日",
+    "Thursday": "木曜日",
+    "Friday": "金曜日",
+    "Saturday": "土曜日",
+    "Sunday": "日曜日",
+    "MON": "月曜日",
+    "TUE": "火曜日",
+    "WED": "水曜日",
+    "THU": "木曜日",
+    "FRI": "金曜日",
+    "SAT": "土曜日",
+    "SUN": "日曜日",
+    "12:00 AM": "午前 12 時",
+    "1:00 AM": "午前 1 時",
+    "2:00 AM": "午前 2 時",
+    "3:00 AM": "午前 3 時",
+    "4:00 AM": "午前 4 時",
+    "5:00 AM": "午前 5 時",
+    "6:00 AM": "午前 6 時",
+    "7:00 AM": "午前 7 時",
+    "8:00 AM": "午前 8 時",
+    "9:00 AM": "午前 9 時",
+    "10:00 AM": "午前 10 時",
+    "11:00 AM": "午前 11 時",
+    "12:00 PM": "午後 12 時",
+    "1:00 PM": "午後 1 時",
+    "2:00 PM": "午後 2 時",
+    "3:00 PM": "午後 3 時",
+    "4:00 PM": "午後 4 時",
+    "5:00 PM": "午後 5 時",
+    "6:00 PM": "午後 6 時",
+    "7:00 PM": "午後 7 時",
+    "8:00 PM": "午後 8 時",
+    "9:00 PM": "午後 9 時",
+    "10:00 PM": "午後 10 時",
+    "11:00 PM": "午後 11 時",
+    "SHORT_LABELS": {
+      "12AM": "12 AM",
+      "4AM": "4 AM",
+      "8AM": "8 AM",
+      "12PM": "12 PM",
+      "4PM": "4 PM",
+      "8PM": "8 PM"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12am",
+      "1am": "1am",
+      "2am": "2am",
+      "3am": "3am",
+      "4am": "4am",
+      "5am": "5am",
+      "6am": "6am",
+      "7am": "7am",
+      "8am": "8am",
+      "9am": "9am",
+      "10am": "10am",
+      "11am": "11am",
+      "12pm": "12pm",
+      "1pm": "1pm",
+      "2pm": "2pm",
+      "3pm": "3pm",
+      "4pm": "4pm",
+      "5pm": "5pm",
+      "6pm": "6pm",
+      "7pm": "7pm",
+      "8pm": "8pm",
+      "9pm": "9pm",
+      "10pm": "10pm",
+      "11pm": "11pm"
+    },
+    "1 minute": "毎分",
+    "30 minutes": "30 分ごと",
+    "1 hour": "毎時間",
+    "3 hours": "3 時間ごと"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "使用できません",
+    "SELECT_PLACEHOLDER": "選択"
+  }
+}

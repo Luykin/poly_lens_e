@@ -1,0 +1,179 @@
+@import './variables';
+
+@import './images';
+
+app-layout {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100vw;
+  height: calc(100vh - #{$title-bar-height});
+  margin-top: $title-bar-height;
+  background: $default-bg;
+
+  .main-content {
+    display: block;
+    box-sizing: border-box;
+    width: calc(100vw - #{$sidebar-width});
+    max-height: $layout-height;
+    padding-top: 64px;
+    overflow: hidden;
+
+    // This padding top is NEEDED on all detail routes
+    &.device-menu {
+      padding-top: 28px;
+    }
+
+    .scroll-container {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      height: calc(100vh - 66px);
+
+      &.has-sub-nav {
+        height: calc(100vh - 244px);
+      }
+
+      &.has-heading {
+        height: calc(100vh - 164px);
+      }
+
+      .scrollable-content {
+        flex-grow: 1;
+        margin: 0;
+        padding: 0 30px 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
+
+      &.no-scroll {
+        .scrollable-content {
+          padding: 0;
+          overflow-y: hidden;
+        }
+      }
+    }
+
+    &.device-menu.device-info-and-logs {
+      padding-top: 0;
+
+      .scroll-container {
+        height: $layout-height;
+      }
+
+      &.has-toasts {
+        .scroll-container {
+          height: calc(100vh - 22px - #{$toast-total-height});
+        }
+      }
+    }
+
+    &.has-toasts {
+      .scroll-container {
+        height: calc(100vh - 66px - #{$toast-total-height});
+
+        &.has-sub-nav {
+          height: calc(100vh - 164px - #{$toast-total-height});
+        }
+      }
+
+      &.home {
+        .scroll-container {
+          height: calc(100vh - 100px - #{$toast-total-height});
+        }
+      }
+    }
+  }
+}
+
+// For certain outlets that don't use app-layout, set display / overflow
+oz-ftu,
+oz-secret,
+oz-page-not-found {
+  display: block;
+  height: $layout-height;
+  margin-top: $title-bar-height;
+  overflow-y: auto;
+  background: $default-bg;
+}
+
+oz-ftu {
+  overflow-y: unset;
+}
+
+// Padding-top and bottom to prevent headings with margins from pushing down the entire background.
+// @help https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing
+.ocean-background {
+  height: 100%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background: url($ocean) no-repeat fixed right bottom;
+  background-size: cover;
+
+  // allow ocean wave crest to show through cards
+  .card {
+    backdrop-filter: blur(2px);
+  }
+}
+
+// horizontal tabs, eg. Best Practices
+.tab-links {
+  max-height: 50px;
+  margin-bottom: 32px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 0 20px;
+    opacity: 1;
+  }
+
+  a,
+  button {
+    display: inline-block;
+    padding: 8px 0;
+    color: $black;
+    line-height: 30px;
+    text-decoration: none;
+  }
+
+  .active {
+    border-bottom: 1px solid $black;
+  }
+
+  .disabled {
+    color: #999;
+  }
+}
+
+// Yes, min and max are required even though height is set.
+.product-image {
+  width: auto;
+  height: auto;
+  min-height: 100px;
+  max-height: 200px;
+  border-radius: 8px;
+
+  &.not-connected {
+    opacity: 0.4;
+  }
+}
+
+%absolute-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.product-image-success {
+  .product-image {
+    z-index: 1;
+    @extend %absolute-center;
+  }
+
+  .background {
+    @extend %absolute-center;
+  }
+}

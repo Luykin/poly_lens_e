@@ -1,0 +1,30 @@
+<select
+  class="dropdown-options"
+  [(ngModel)]="value"
+  (change)="emitChanges()"
+  [ngClass]="className"
+  [disabled]="disabled"
+>
+  @if(currentPlaceholder.value !== undefined) {
+  <option
+    [ngClass]="{
+      'dropdown-select-placeholder':
+        currentPlaceholder.value === placeholder.SELECT_PLACEHOLDER
+    }"
+    [value]="undefined"
+  >
+    {{ currentPlaceholder.text | translate }}
+  </option>
+  } @for (option of options; track trackByFn; let i = $index) {
+  <option
+    [value]="useIndexAsValue ? i : option.value"
+    [disabled]="option.disabled"
+  >
+    @if(translateOptions) {
+    {{ option.translatedText || option.text | translate : option.params }}
+    } @else {
+    {{ option.translatedText || option.text }}
+    }
+  </option>
+  }
+</select>

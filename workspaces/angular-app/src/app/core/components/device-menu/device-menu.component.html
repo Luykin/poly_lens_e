@@ -1,0 +1,59 @@
+<div
+  class="scroll-container"
+  [class.no-scroll]="controlsState.controlsRoute"
+  [class.controls-route]="controlsState.controlsRoute"
+  [class.camera-max]="controlsState.cameraMax"
+  [class.hide-navigation]="controlsState.hideNavigation"
+>
+  @if (detailNavOptionsSignal()?.showNav) {
+  <ul class="tab-links nav-links">
+    <li>
+      <button
+        class="link"
+        [routerLink]="['overview']"
+        routerLinkActive="active"
+      >
+        {{ 'DETAIL.OVERVIEW.OVERVIEW' | translate }}
+      </button>
+      <!--the line below has to appear based on new fw availability-->
+      @if(!shouldDisableSettings && hasAvailableDFU) {
+      <div class="nav-bar-dfu-available-indicator"></div>
+      }
+    </li>
+    @if (hasSettings) {
+    <li>
+      <button
+        class="link"
+        [routerLink]="['settings']"
+        routerLinkActive="active"
+        [disabled]="shouldDisableSettings"
+      >
+        {{ 'DETAIL.SETTINGS' | translate }}
+      </button>
+    </li>
+    }
+    <li>
+      <button class="link" routerLinkActive="active" [routerLink]="['support']">
+        {{ 'DETAIL.SUPPORT' | translate }}
+        @if (true) {
+        <!-- this is here purely to cause routerLinkActive to light up when on the "Contact Support" as well as "Support" routes-->
+        <div class="hidden" [routerLink]="['poly-support']"></div>
+        }
+      </button>
+    </li>
+  </ul>
+  }
+  <div class="position-center">
+    @if (detailNavOptionsSignal()?.showDeviceHeading) {
+    <div class="h1 light text-center" [id]="id">
+      {{ deviceTitle }}
+    </div>
+    }
+    <!--oz-device-not-supported [pid]="device?.pid"></--oz-device-not-supported-->
+  </div>
+  <div class="scrollable-content">
+    <oz-animated-router-outlet
+      [id]="selectedDeviceSignal()?.deviceId"
+    ></oz-animated-router-outlet>
+  </div>
+</div>

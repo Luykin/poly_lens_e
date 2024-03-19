@@ -1,0 +1,24 @@
+{
+  "development": {
+    "configId": "development",
+    "isContextIsolation": true,
+    "isEnableRemoteModule": false,
+    "isIconAvailable": true,
+    "isNodeIntegration": false,
+    "isOpenDevTools": true,
+    "isSandbox": false,
+    "mainLogFile": "dist/dev-main.log",
+    "mainLogLevel": "debug"
+  },
+  "production": {
+    "configId": "production",
+    "isContextIsolation": true,
+    "isEnableRemoteModule": false,
+    "isIconAvailable": true,
+    "isNodeIntegration": false,
+    "isOpenDevTools": false,
+    "isSandbox": true,
+    "mainLogFile": "main.log",
+    "mainLogLevel": "error"
+  }
+}

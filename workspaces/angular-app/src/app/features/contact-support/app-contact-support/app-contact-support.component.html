@@ -1,0 +1,99 @@
+<h1 class="page-title light text-center" id="support_page_title">
+  {{ 'SUPPORT.TITLE_APP' | translate }}
+</h1>
+<div class="scroll-container has-heading">
+  <div class="scrollable-content">
+    <div class="card-container-sm mt-3">
+      <div class="grid equal-height">
+        <div class="col-6 card text-left">
+          <oz-contact-support-general-info></oz-contact-support-general-info>
+        </div>
+        <div class="col-6 card text-left">
+          <h4 class="mb-1" id="support_application_information_title">
+            {{ 'SUPPORT.' + type.toUpperCase() + '_INFO' | translate }}
+          </h4>
+          <div class="grid">
+            <div class="col-12">
+              <div class="sub-title selectable" id="support_tenant_label">
+                {{ 'SUPPORT.TENANT_ID' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_tenant_value">
+                {{ tenantId || 'SUPPORT.NONE' | translate }}
+              </div>
+              <div class="sub-title selectable" id="support_user_label">
+                {{ 'SUPPORT.USER_ID' | translate }}
+              </div>
+              <div class="mb-1 selectable wrap" id="support_user_value">
+                {{ profile?.sub || 'SUPPORT.NONE' | translate }}
+              </div>
+              <div
+                class="sub-title selectable"
+                id="support_applicationId_label"
+              >
+                {{ 'SUPPORT.APP_ID' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_applicationId_value">
+                {{ undefined || 'SUPPORT.NONE' | translate }}
+              </div>
+              <div
+                class="sub-title selectable"
+                id="support_software_version_label"
+              >
+                {{ 'SUPPORT.SOFTWARE_VERSION' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_software_version_value">
+                {{ appVersion }}
+              </div>
+              @if(lensServiceVersionVisibility){
+              <div class="sub-title selectable" id="support_lens_system_label">
+                {{ 'SUPPORT.LENS_SYSTEM' | translate }}
+              </div>
+              <div class="mb-1 selectable" id="support_lens_system_value">
+                {{
+                  lensServiceVersion
+                    ? lensServiceVersion
+                    : ('SUPPORT.LENS_SYSTEM_NOT_CONNECTED' | translate)
+                }}
+              </div>
+              }
+              <div
+                class="sub-title selectable"
+                id="support_last_connected_label"
+              >
+                {{ 'SUPPORT.LAST_CONNECTED' | translate }}
+              </div>
+              <div class="mb-1" id="support_last_connected_value">
+                @if(profile) {
+                <div class="selectable">
+                  {{ profile?.last_connected | date : 'medium' }}
+                </div>
+                }@else {
+                <div class="selectable">
+                  {{ 'SUPPORT.UNKNOWN' | translate }}
+                </div>
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid equal-height mt-15">
+        <div class="col-6 offset-6 card text-left">
+          <h4 id="support_diagnostic_title">
+            {{ 'SUPPORT.DIAGNOSTICS' | translate }}
+          </h4>
+          <p id="support_diagnostic_description">
+            {{ 'SUPPORT.DIAGNOSTICS_DESCRIPTION' | translate }}
+          </p>
+          <button
+            class="btn btn-primary mt-1"
+            (click)="downloadLogs()"
+            id="support_download_logs_button"
+          >
+            {{ 'SUPPORT.DOWNLOAD_LOGS' | translate }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,122 @@
+<div class="titlebar" [class.os-windows]="isWindows" [class.os-mac]="isMac">
+  <div class="drag-region">
+    <div class="poly-controls" *ngIf="state.hidden !== true">
+      <button
+        class="control"
+        [disabled]="state.disabled"
+        routerLink="/home"
+        routerLinkActive="active"
+        id="titlebarButtonHome"
+      >
+        <oz-icon class="home" icon="home" [px]="16" color="#ffffff"></oz-icon>
+      </button>
+      <button
+        class="control icon-with-badge"
+        [disabled]="state.disabled"
+        routerLink="/settings"
+        routerLinkActive="active"
+        id="titlebarButtonSettings"
+      >
+        <oz-icon icon="settings" [px]="16" color="#ffffff"></oz-icon>
+        <div class="badge" *ngIf="showSettingsBadge"></div>
+      </button>
+      <div class="separator" *ngIf="state.back"></div>
+      <div *ngIf="state.back">
+        <button
+          class="control back-link"
+          [disabled]="state.disabled"
+          (click)="onBackLinkClicked()"
+        >
+          <oz-icon
+            class="back_arrow mr-5"
+            icon="back_arrow"
+            [px]="14"
+            color="#ffffff"
+          ></oz-icon>
+          <span>{{ state.back.labelKey | translate }}</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="window-controls" *ngIf="isWindows">
+    <div class="control" id="min-button" (click)="onMinimizeClicked()">
+      <img
+        class="icon"
+        srcset="
+          ./assets/icons/titlebar/min-w-10.png 1x,
+          ./assets/icons/titlebar/min-w-12.png 1.25x,
+          ./assets/icons/titlebar/min-w-15.png 1.5x,
+          ./assets/icons/titlebar/min-w-15.png 1.75x,
+          ./assets/icons/titlebar/min-w-20.png 2x,
+          ./assets/icons/titlebar/min-w-20.png 2.25x,
+          ./assets/icons/titlebar/min-w-24.png 2.5x,
+          ./assets/icons/titlebar/min-w-30.png 3x,
+          ./assets/icons/titlebar/min-w-30.png 3.5x
+        "
+        draggable="false"
+      />
+    </div>
+    <div
+      class="control"
+      id="max-button"
+      *ngIf="!max"
+      (click)="onMaximizeClicked()"
+    >
+      <img
+        class="icon"
+        srcset="
+          ./assets/icons/titlebar/max-w-10.png 1x,
+          ./assets/icons/titlebar/max-w-12.png 1.25x,
+          ./assets/icons/titlebar/max-w-15.png 1.5x,
+          ./assets/icons/titlebar/max-w-15.png 1.75x,
+          ./assets/icons/titlebar/max-w-20.png 2x,
+          ./assets/icons/titlebar/max-w-20.png 2.25x,
+          ./assets/icons/titlebar/max-w-24.png 2.5x,
+          ./assets/icons/titlebar/max-w-30.png 3x,
+          ./assets/icons/titlebar/max-w-30.png 3.5x
+        "
+        draggable="false"
+      />
+    </div>
+    <div
+      class="control"
+      id="restore-button"
+      *ngIf="max"
+      (click)="onRestoreClicked()"
+    >
+      <img
+        class="icon"
+        srcset="
+          ./assets/icons/titlebar/restore-w-10.png 1x,
+          ./assets/icons/titlebar/restore-w-12.png 1.25x,
+          ./assets/icons/titlebar/restore-w-15.png 1.5x,
+          ./assets/icons/titlebar/restore-w-15.png 1.75x,
+          ./assets/icons/titlebar/restore-w-20.png 2x,
+          ./assets/icons/titlebar/restore-w-20.png 2.25x,
+          ./assets/icons/titlebar/restore-w-24.png 2.5x,
+          ./assets/icons/titlebar/restore-w-30.png 3x,
+          ./assets/icons/titlebar/restore-w-30.png 3.5x
+        "
+        draggable="false"
+      />
+    </div>
+    <div class="control" id="close-button" (click)="onCloseClicked()">
+      <img
+        class="icon"
+        srcset="
+          ./assets/icons/titlebar/close-w-10.png 1x,
+          ./assets/icons/titlebar/close-w-12.png 1.25x,
+          ./assets/icons/titlebar/close-w-15.png 1.5x,
+          ./assets/icons/titlebar/close-w-15.png 1.75x,
+          ./assets/icons/titlebar/close-w-20.png 2x,
+          ./assets/icons/titlebar/close-w-20.png 2.25x,
+          ./assets/icons/titlebar/close-w-24.png 2.5x,
+          ./assets/icons/titlebar/close-w-30.png 3x,
+          ./assets/icons/titlebar/close-w-30.png 3.5x
+        "
+        draggable="false"
+      />
+    </div>
+  </div>
+  <div class="window-title"><img src="./assets/icons/poly_lens.svg" /></div>
+</div>

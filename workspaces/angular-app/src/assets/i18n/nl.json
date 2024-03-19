@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "Apparaat moet zijn verbonden met een netwerk om te kunnen worden geconfigureerd",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Apparaat installeren verlaten",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "De installatie van het apparaat is niet voltooid.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "{{deviceName}} kan niet worden gebruikt totdat de installatie is voltooid. Voortgang is niet opgeslagen.",
+  "EXIT_SETUP": "Installatie afsluiten",
+  "GET_STARTED": "Aan de slag",
+  "NETWORK": "Netwerk",
+  "PROVISIONING": "Configureren",
+  "COMPLETE": "Voltooid",
+  "BUTTON_BACK": "Vorige",
+  "BUTTON_SKIP": "Overslaan",
+  "BUTTON_NEXT": "Volgende",
+  "BUTTON_FINISH": "Voltooien",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "Installatie van {{deviceName}} voltooid!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Apparaat configureren",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Configureren",
+  "POSTPONE_DFU_MESSAGE": "Er zijn updates beschikbaar voor uw apparaten. De updates duren enkele minuten. Koppel uw apparaten tijdens het updateproces niet los.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "Er is een update beschikbaar voor uw {{deviceName}}. De updates duren enkele minuten. Koppel uw apparaat niet los tijdens het updateproces.",
+  "UPDATE_NOW": "Nu updaten",
+  "ASK_ME_LATER": "Vraag het me later",
+  "AUDIO_RECORDING_START": "Audio-opname starten",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}}-update 1 uur uitgesteld",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}}-update {{hours}} uur uitgesteld",
+  "PLAY_GREETING_NAME": "Begroeting afspelen",
+  "PLAY_GREETING_DESCRIPTION": "Selecteer een spraakbestand dat wordt afgespeeld als u een oproep beantwoordt.",
+  "SELECT_FILE": "Bestand selecteren",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Uit",
+    "NARROW": "Smal",
+    "MEDIUM": "Gemiddeld",
+    "WIDE": "Breed",
+    "CAMERA_VIEW": "Afstemmen op camerabeeld"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Eerst nog het volgende...",
+    "I_AGREE": "Ik ga akkoord met de",
+    "POLY_EULA": "Licentieovereenkomst voor de eindgebruiker van Poly",
+    "CLOSE": "Sluiten",
+    "PROCEED": "Doorgaan"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Best practices",
+    "MENU": {
+      "HEADSET": "Headset",
+      "CAMERA": "Camera",
+      "DESK_SETUP": "Werkplek instellen"
+    },
+    "NEXT": {
+      "NEXT": "VOLGENDE:",
+      "TITLE": "Best practices",
+      "LEARN_MORE": "Meer informatie"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Accepteren",
+    "APPLY": "Toepassen",
+    "CANCEL": "Annuleren",
+    "CONTINUE": "Doorgaan",
+    "DECLINE": "Afwijzen",
+    "DONE": "Gereed",
+    "LOG_IN": "Aanmelden",
+    "LOG_OUT": "Afmelden",
+    "OK": "OK",
+    "RETRY": "Opnieuw",
+    "SHOW_LESS": "Minder weergeven",
+    "JOIN": "Doe mee",
+    "JOINING": "Meedoen",
+    "CREATE": "Maken",
+    "INSTALL": "Installeren",
+    "CHOOSE_FILE": "Bestand kiezen",
+    "DELETE": "Verwijderen",
+    "CLOSE": "Sluiten",
+    "SELECT_FILE": "Bestand selecteren",
+    "FEEDBACK": "Feedback"
+  },
+  "REQUIRED": "Vereist",
+  "OPTIONAL": "Optioneel",
+  "Download": "Download",
+  "Upload": "Uploaden",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "De bewerking is geslaagd. Probeer het nogmaals.",
+  "RECEIVING_SETTINGS": "Ontvangstinstellingen",
+  "GENERAL": {
+    "BACK": "Vorige",
+    "CANCEL": "Annuleren",
+    "CLOSE": "Sluiten",
+    "COMING_SOON": "BINNENKORT",
+    "DOWNLOAD": "Download",
+    "DOWNLOADING": "Downloaden",
+    "LOADING": "Bezig met laden",
+    "FEEDBACK": "Feedback",
+    "HOME": "Home",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Nieuwe toevoegen",
+    "EDIT_NAME": "Naam bewerken",
+    "DELETE": "Verwijderen",
+    "RESTORE_DEFAULTS": "Standaardwaarden herstellen",
+    "SEARCH_SETTINGS": "Zoekinstellingen",
+    "SUPPORT": "Ondersteuning",
+    "UPLOAD": "Uploaden",
+    "UPDATE": "Update",
+    "RETURN_HOME": "Terug naar Home",
+    "VERSION": "Versie",
+    "RECORDING": "Bezig met opnemen",
+    "RECOVER": "Herstellen"
+  },
+  "FTU": {
+    "WELCOME_TO": "Welkom bij",
+    "WELCOME_1": "Laat ons u helpen het meeste uit uw Poly Lens te halen.",
+    "CONNECTIVITY": {
+      "HEADER": "Connectiviteit",
+      "TITLE": "Lens beheert uw apparaten"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Best practices",
+      "TITLE": "Met Lens is bureauwerk veel prettiger"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Gezondheid en welzijn",
+      "TITLE": "Lens zorgt voor u"
+    },
+    "EXPLORE": {
+      "BUTTON": "Doorgaan als gast"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Aanmelden"
+    },
+    "GETTING_STARTED": "Aan de slag",
+    "LOGIN_CARD": {
+      "TITLE": "Ga vandaag nog aan de slag!",
+      "DESCRIPTION": "Meld u aan bij Lens Desktop zodat Poly en uw organisatie u de beste apparaatervaring kunnen bieden."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Montage",
+      "DESCRIPTION": "Plaats de monitor zodanig dat uw ogen zich op dezelfde hoogte bevinden als het bovenste derde deel van uw scherm. Bevestig de camera in het midden van de monitor."
+    },
+    "CENTERING": {
+      "TITLE": "Centreren",
+      "DESCRIPTION": "U ziet er het beste uit wanneer u in het midden van de camera zit. Zorg ervoor dat uw gezicht duidelijk en niet maar half zichtbaar is. Probeer uzelf zo te positioneren dat anderen minstens 15 cm van uw shirt kunnen zien vanaf de halslijn naar beneden."
+    },
+    "LIGHTING": {
+      "TITLE": "Verlichting",
+      "DESCRIPTION": "Belichting is essentieel om er op de camera goed uit te zien. Daglicht is een veranderlijke lichtbron en kan de verlichting van de binnenruimte compliceren. Plaats uw werkstation op een manier dat de ramen zich achter uw monitor bevinden en vermijd felle lichtbronnen achter u. Een lamp aan het plafond werkt het beste."
+    },
+    "BACKGROUND": {
+      "TITLE": "Achtergrond",
+      "DESCRIPTION": "Met achtergrondobjecten kunt u videogesprekken persoonlijker maken, maar zorg er wel voor dat u het middelpunt bent. Bij twijfel is het beter minder achtergrondobjecten te hebben."
+    },
+    "NEXT": {
+      "SUBTITLE": "Werkplek instellen"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Controlelijst voor aansluitingen",
+    "POWER": {
+      "TITLE": "Controleer de aan/uit-schakelaar",
+      "DESCRIPTION": "Is de aan/uit-schakelaar ingedrukt?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Controleer uw Bluetooth-adapter",
+      "DESCRIPTION": "Schijnt er een blauw lampje aan het einde van uw adapter? Als u de adapter loskoppelt en weer aansluit, maakt de headset verbinding."
+    },
+    "SUPPORT": {
+      "TITLE": "Neem contact op met ondersteuning.",
+      "DESCRIPTION": "Hebt u nog steeds problemen?",
+      "LINK": {
+        "TEXT": "Neem contact op met ondersteuning."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Werkplek",
+      "DESCRIPTION": "Zorg ervoor dat er zich geen obstakels onder uw werkplek bevinden en dat u voldoende beenruimte hebt. Als u de hoogte van uw werkplek niet kunt aanpassen, zet u de stoel hoger of lager en gebruikt u zo nodig een voetsteun."
+    },
+    "KEYBOARD": {
+      "TITLE": "Toetsenbord",
+      "DESCRIPTION": "Zorg ervoor dat u met ontspannen schouders en met uw onderarmen parallel aan de vloer uw toetsenbord bereikt.  Probeer uw polsen recht te houden zonder dat u ze hoeft te buigen."
+    },
+    "CHAIR": {
+      "TITLE": "Stoel",
+      "DESCRIPTION": "Kies een stoel die uw rug ondersteunt. Pas de hoogte van uw stoel aan zodat uw voeten plat op de vloer rusten en uw dijen zich parallel aan de vloer bevinden. Stel de armleuningen zo af dat uw armen er prettig op rusten en uw schouders ontspannen zijn."
+    },
+    "FEET": {
+      "TITLE": "Voeten",
+      "DESCRIPTION": "Zorg ervoor dat u uw voeten plat op de vloer kunt laten rusten. Gebruik een voetsteun als uw stoel te hoog is of als u vanwege de hoogte van uw werkplek de stoel hoger moet zetten."
+    },
+    "MONITOR": {
+      "TITLE": "Monitor",
+      "DESCRIPTION": "Plaats de monitor recht voor u, ongeveer op armlengte. Plaats de monitor 45 tot 70 cm van uw ogen, met de bovenkant van het scherm op ooghoogte of iets onder ooghoogte."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Headset",
+    "USB_ADAPTER": "USB-adapter",
+    "CUSTOM_SOFTWARE_UPDATE": "Aangepaste software-update:",
+    "LOGS": "Logboeken:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Logbestanden opslaan",
+    "SELECT_SOFTWARE_UPDATE": "Selecteer software-update",
+    "SERIAL_NUMBER": "Serienummer:",
+    "SOFTWARE_VERSION": "Softwareversie:",
+    "COUNTRY": "Land:",
+    "LENS_ACCOUNT": "Lensaccount:",
+    "HARDWARE_VERSION": "Hardwareversie:",
+    "HARDWARE_REVISION": "Hardwarerevisie:",
+    "ADDITIONAL_HARDWARE_REVISION": "Revisie van headsethardware:",
+    "MAC_ADDRESS": "Mac-adres:",
+    "IP_ADDRESS": "IP-adres:",
+    "DEVICE_DIAGNOSTIC_CODE": "Diagnostische code apparaat:",
+    "CRASH_REPORTS": "Crashrapporten:",
+    "SAVE_CRASH_REPORTS": "Crashrapporten opslaan"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Inzichten",
+    "CHART": {
+      "TITLE": "Gebruik",
+      "SERIES_NAME": "Totaal gebruik"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Latentie (ms)",
+      "NETWORK_SPEED": "Netwerksnelheid (Mbps)",
+      "RUNNING": "Actief",
+      "START_TEST": "Test uitvoeren",
+      "TEST_AGAIN": "Opnieuw testen",
+      "TEST_RESULTS": "Testresultaten",
+      "TITLE": "Diagnostische test netwerk",
+      "NO_CONNECTION": "U lijkt offline te zijn. Netwerktests zijn alleen beschikbaar als u verbinding hebt met internet.",
+      "SUBTEXT": "De functie voor diagnostische netwerktests is een commerciële previewfunctie."
+    }
+  },
+  "EE": {
+    "PAUSED": "Onderbroken",
+    "CONTINUE": "Druk op SPATIE om door te gaan.",
+    "FIRE": "SHIFT - Fire",
+    "MOVE": "PIJLEN - Verplaatsen",
+    "PAUSE": "SPATIE - Pauze",
+    "EXIT": "ESC - Afsluiten",
+    "START": "Druk op SPATIE om te starten.",
+    "DONE": "Niet slecht. Goed zo.",
+    "TRY_AGAIN": "Druk op SPATIE om het opnieuw te proberen."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Aanpassing hoofdband",
+      "DESCRIPTION": "Voor een goede pasvorm stelt u de hoofdband zo af dat de oorschelpen van de headset zich in het midden van of op uw oren bevinden en zorgt u ervoor dat de headset niet te strak of te los zit. Raadpleeg de gebruikershandleiding van de headset voor gedetailleerde instructies over het aanpassen."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Vorm van verlengde microfoon",
+      "DESCRIPTION": "De verlengde microfoon van Poly is buigbaar en eenvoudig te plaatsen. Als uw headset een verlengde microfoon heeft, plaatst u de microfoon ongeveer 5 cm van uw lippen."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Plaatsing van de verlengde microfoon",
+      "DESCRIPTION": "Als uw headset een verlengde microfoon heeft, kunt u deze draaien en aan de linker- of rechterkant dragen. Zorg ervoor dat wanneer u een oproep wilt aannemen, uw verlengde microfoon naar uw mond en niet omhoog is gericht."
+    },
+    "NEXT": {
+      "SUBTITLE": "Camera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Hallo, {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Hallo, {{open_tag}}gast{{close_tag}}",
+    "GO_TO_DETAIL": "Ga naar Details",
+    "CONNECT_A_DEVICE": "Sluit een apparaat aan om aan de slag te gaan.",
+    "NOT_SEEING_DEVICE": "Ziet u uw apparaat niet?",
+    "SUBMIT_FEEDBACK": "Feedback verzenden",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Inzichten",
+        "DESCRIPTION": "Controleer het gebruik van uw apparaat en de connectiviteit van uw werkstation."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Gezondheid en welzijn",
+        "DESCRIPTION": "Ontvang herinneringen om te drinken en te rusten. Speel soundscapes af om de focus te verbeteren."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Best practices",
+        "DESCRIPTION": "Optimaliseer uw camera en leer hoe u uw werkplek ergonomischer kunt maken."
+      },
+      "SUPPORT": {
+        "TITLE": "Poly-ondersteuning",
+        "DESCRIPTION": "Hebt u problemen? Laat ons u hierbij helpen."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Kantonees",
+    "1030": "Deens",
+    "2057": "Engels (VK)",
+    "1033": "Engels (VS)",
+    "1036": "Frans",
+    "1031": "Duits",
+    "1040": "Italiaans",
+    "1041": "Japans",
+    "1042": "Koreaans",
+    "1045": "Pools",
+    "2052": "Mandarijn",
+    "1044": "Noors",
+    "2068": "Noors",
+    "1049": "Russisch",
+    "1034": "Spaans",
+    "1053": "Zweeds",
+    "16393": "Engels (India)",
+    "1057": "Indonesisch",
+    "1054": "Thais",
+    "1046": "Braziliaans-Portugees"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Actief",
+    "INACTIVE": "Inactief",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI is ontworpen om te voorkomen dat niet-menselijke geluiden (zoals typen met een toetsenbord of papiergeluiden) invloed hebben op uw vergaderingen, door te detecteren wanneer geluid optreedt terwijl niemand praat, en uw microfoon automatisch te muten. Het geluid van de microfoon wordt direct weer ingeschakeld zodra u begint te praten.",
+    "FOR_INCOMING_DESCRIPTION": "Voorkom dat storende geluiden (zoals typen met een toetsenbord of papiergeluiden) uw vergadering onderbreken.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI voor inkomende audio",
+    "FOR_OUTGOING_DESCRIPTION": "Voorkom dat storende geluiden in uw omgeving (zoals het typen met een toetsenbord of papiergeluiden) uw vergadering onderbreken.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI voor uitgaande audio",
+    "SEE_HOW_WORKS": "Ontdek hoe het werkt"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Opladen",
+      "STOPPED": "Opladen gestopt"
+    },
+    "MUTE": {
+      "ON": "Mutefunctie ingeschakeld",
+      "OFF": "Mutefunctie uitgeschakeld"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Software-update {{build}} is beschikbaar."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Apparaatupdate is beschikbaar"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Apparaat is niet gevonden",
+      "MESSAGE": "Oh oh. Er is een probleem. Probeer het nogmaals."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Pagina niet gevonden",
+      "MESSAGE": "Oh oh. Er is een probleem. Probeer het nogmaals."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens heeft toestemming nodig voor toegang tot uw camera. Als u deze optie wilt inschakelen, geeft u de camera toegang tot Poly Lens in uw systeeminstellingen."
+    },
+    "BUTTON": {
+      "CLOSE": "Sluiten"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "De verbinding met het apparaat is verbroken"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "Batterij is bijna leeg"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Welkom bij Studio P21",
+      "CONTENT": "Als u Studio P21 wilt gebruiken, moet u extra software voor het scherm downloaden.",
+      "BUTTON": "Download"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Welkom bij uw nieuwe Studio P21!",
+      "CONTENT": "Welkom bij uw nieuwe Studio P21! Voordat u uw nieuwe apparaat kunt gebruiken, moet u extra software voor het scherm installeren",
+      "BUTTON_DOWNLOAD": "Hier downloaden",
+      "BUTTON_MORE_INFO": "Meer info"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} gedetecteerd. Open Poly Lens om dit apparaat in te stellen."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Extra taalmogelijkheden geladen."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Uw scherm wordt over 5 seconden vergrendeld. Sluit de headset opnieuw aan op de regelmodule in het snoer om door te gaan."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "De configuratie is opgeslagen.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "De configuratie is niet opgeslagen.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP-serverconfiguraties zijn toegepast.",
+    "CHANGE_NTP_SETTINGS_FAILED": "NTP-serverconfiguraties kunnen niet worden toegepast.",
+    "COPIED_TO_CLIPBOARD": "Gekopieerd naar klembord",
+    "SAVE_CSR_FILE_SUCCESS": "CSR-bestand opgeslagen.",
+    "SAVE_CSR_FILE_FAILED": "CSR-bestand is niet opgeslagen.",
+    "FILE_READ_FAILED": "Kan het bestand niet lezen.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Certificaat is geïnstalleerd.",
+    "CERTIFICATE_INSTALL_FAILED": "Het installeren van het certificaat is mislukt.",
+    "CERTIFICATE_DELETE_SUCCESS": "Certificaat verwijderd.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Het wachtwoord is bijgewerkt.",
+    "CONFIG_EXPORT_FAILED": "Exporteren mislukt. Probeer het nogmaals.",
+    "CONFIG_IMPORT_FAILED": "Importeren mislukt. Probeer het nogmaals.",
+    "CONFIG_EXPORT_SUCCEEDED": "Exporteren is geslaagd.",
+    "CONFIG_IMPORT_SUCCEEDED": "Importeren is geslaagd.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Audiodiagnose mislukt. Probeer het nogmaals.",
+    "WIFI_JOIN_ERROR": "Deelname aan oproep mislukt. Controleer de gebruikersgegevens en probeer het opnieuw.",
+    "CRASH_REPORTS_SUCCESS": "Crashrapporten gedownload.",
+    "CRASH_REPORTS_FAILED": "Crashrapporten niet gevonden.",
+    "NETWORK_ERROR": "Er is geen netwerkverbinding beschikbaar. Sommige functies zijn mogelijk beperkt totdat de verbinding is hersteld."
+  },
+  "DETAIL": {
+    "AUTO": "Automatisch",
+    "TITLE": "Detailpagina",
+    "BACK_TO_HOME": "Terug naar Thuis",
+    "CAMERA": "Camera",
+    "CONTROLS": "Bediening",
+    "EXPAND": "Uitbreiden",
+    "LINK": "Link",
+    "UNLINK": "Ontkoppelen",
+    "CONTRACT": "Contract",
+    "GRID": "Raster",
+    "SETTINGS": "Instellingen",
+    "FAVORITES": "Favorieten",
+    "FAVORITE_DELETE_CONFIRM": "Weet u zeker dat u de favoriet {{favoriteName}} wilt verwijderen?",
+    "FAVORITE_NUMBER": "Favoriet {{number}}",
+    "FAVORITE_SAVE_AS": "Opslaan als nieuwe favoriet",
+    "FAVORITES_SAVED": "Opgenomen",
+    "FAVORITE_COPY": "Kopie van {{favoriteName}}",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Klik op het pictogram Weergeven hieronder om de preview te starten.",
+    "PREVIEW_SHOW": "Weergeven",
+    "PREVIEW_HIDE": "Verbergen",
+    "PREVIEW_HIDDEN": "Preview verborgen",
+    "PREVIEW_WINDOWS_NOTICE": "Andere apps kunnen deze camera niet gebruiken wanneer Preview is ingeschakeld.",
+    "PREVIEW_CONTROLS_READ_ERROR": "Deze camera wordt gebruikt door een andere app.{{line_feed}}Sluit deze om Voorbeeld en Instellingen in te schakelen.{{line_feed}}{{line_feed}}Als dat niet werkt, controleert u of de andere app niet wordt uitgevoerd op de achtergrond.",
+    "SNAPSHOT": "Momentopname",
+    "SNAPSHOT_SAVE": "Momentopname opslaan",
+    "SNAPSHOT_SAVED_SUCCESS": "Momentopname is opgeslagen.",
+    "SNAPSHOT_SAVED_FAIL": "Momentopname is niet opgeslagen.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "momentopname",
+    "SANDBOX": "Sandbox",
+    "IT_MANAGED": "IT-beheerd",
+    "HEADSET": "Headset",
+    "SUPPORT": "Ondersteuning",
+    "USB_ADAPTER": "USB-adapter",
+    "CHARGING_CASE": "Case",
+    "CHARGING_CASE_NAME": "Oplaadetui",
+    "DEVICES": "apparaten",
+    "OVERVIEW": {
+      "OVERVIEW": "Overzicht",
+      "BATTERY_LABEL": "Batterij:",
+      "BATTERY_CRITICAL": "Kritiek",
+      "WIFI_LABEL": "Netwerk:",
+      "PROVISION_LABEL": "Configureren:",
+      "PROVISION_AUTO": "Generiek",
+      "PROVISION_OFF": "Configureren",
+      "PROVISION_NOT_SET_UP": "Niet ingesteld",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "Het apparaat werkt, maar wordt niet op afstand beheerd",
+      "SET_PROVISION": "Klik om te configureren",
+      "STATUS_LABEL": "Status:",
+      "HEADSET_STATUS_LABEL": "Headset:",
+      "FIRMWARE_LABEL": "Software:",
+      "CONNECTED": "Verbonden",
+      "NOT_CONNECTED": "Niet verbonden",
+      "DISCONNECTED": "Verbinding verbroken",
+      "PAIRING_MODE": "Bluetooth-audio koppelen",
+      "PAIR_REMOTE": "Bluetooth-afstandsbediening koppelen",
+      "USB_PAIRING_MODE": "Een nieuw apparaat koppelen",
+      "MAKE_PRIMARY": "Primair maken",
+      "DELETE_DEVICE": "Apparaat verwijderen",
+      "TROUBLE_CONNECTING": "Problemen met het aansluiten van uw apparaat?",
+      "AVAILABLE_FIRMWARE": "Beschikbaar:",
+      "SAVE_BUTTON": "Opnemen",
+      "CANCEL_BUTTON": "Annuleren",
+      "RENAME_DEVICE": "Naam wijzigen",
+      "DEVICE_NAME": "Naam:",
+      "RECOVERY_MODE": "Herstelmodus",
+      "POLICY_UPDATE_NOTE": "Uw organisatie vereist dat dit apparaat een specifieke softwareversie gebruikt. Werk deze zo snel mogelijk bij.",
+      "CASE_UPDATE_NOTE": "Sluit de USB-kabel aan om de oplaadetui bij te werken"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Apparaat aangetroffen",
+      "SETUP_REQUIRED": "Installatie vereist voor apparaatgebruik.",
+      "IMPORT_CONFIGURATION": "Configuratie importeren",
+      "BEGIN_SETUP": "Installatie starten",
+      "MODAL": {
+        "TITLE": "Configuratie importeren",
+        "DESCRIPTION": "Voer de naam en het beveiligingstype in van het netwerk waarmee u verbinding wilt maken.",
+        "LABEL_INPUT": "Apparaatnaam",
+        "INPUT_PLACEHOLDER": "Optioneel",
+        "INPUT_RECOMMENDATION": "We raden u aan dit apparaat de naam te geven van de ruimte waarin het zich bevindt."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Door hieronder op Ik ga akkoord te klikken, stemt u ermee in dat op het gebruik van deze software de voorwaarden van toepassing zijn van de ",
+      "EULA_LINK": "Licentieovereenkomst voor de eindgebruiker van Poly",
+      "EULA_I_ACCEPT": "Ik ga akkoord met de licentieovereenkomst voor eindgebruikers",
+      "BEGIN_SETUP": "Installatie starten",
+      "PASSWORD_INVALID": "Het ingevoerde wachtwoord is onjuist. Voer het wachtwoord opnieuw in."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Openen",
+      "NO_DEVICES": "Er zijn geen apparaten aangesloten.",
+      "QUIT": "Sluit Poly Lens af",
+      "SOUNDSCAPING": "Soundscaping",
+      "MDA_AUDIO_RECORDING": "Audio-opnamen terwijl de mutefunctie is ingeschakeld",
+      "MDA_AUDIO_RECORDING_START": "Spraakmemo’s opnemen",
+      "MDA_AUDIO_RECORDING_STOP": "Stoppen met opnemen van spraakmemo’s",
+      "OFF": "Uit"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Gezondheid en welzijn",
+    "SOUNDSCAPING": {
+      "TITLE": "Soundscaping",
+      "ENABLE_SOUNDSCAPES": "Schakel Soundscapes in",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Voeg soundscapes toe aan uw omgeving",
+          "DESCRIPTION": "Een rustgevende omgeving kan ervoor zorgen dat u niet wordt afgeleid. Soundscape bevat de natuurlijke geluiden van watervallen, wind, beekjes, bossen en oceanen. Deze speciale biofiele geluiden kunnen stress verminderen en de focus verbeteren."
+        }
+      },
+      "MOUNTAIN_RANCH": "Bergen",
+      "GENTLE_OCEAN": "Kalme oceaan",
+      "BABBLING_BROOK": "Kabbelend beekje",
+      "AT_VOLUME": "op volume"
+    },
+    "HYDRATION": {
+      "TITLE": "Vochtinname",
+      "REMINDERS": "Herinneringen om te drinken",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Drink water",
+          "DESCRIPTION": "Mannen hebben elke dag ongeveer 3,7 liter water nodig en vrouwen ongeveer 2,7 liter om gehydrateerd te blijven.",
+          "SOURCE_LINK_LABEL": "Bron",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Tijd voor een pauze om water te drinken",
+        "BODY": "Een goede vochtinname verbetert de slaapkwaliteit, het denken en de stemming."
+      }
+    },
+    "VISION": {
+      "TITLE": "Vision",
+      "REMINDERS": "Vision-pauzeherinneringen",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Kijk weg van het scherm",
+          "DESCRIPTION": "Een goede regel is de 20-20-20-regel. Dit betekent dat u om de twintig minuten gedurende twintig seconden naar iets ongeveer twintig meter verderop kijkt."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Beweeg uw lichaam",
+          "DESCRIPTION": "De 20-20-20-regel is een goed begin, maar zorg ervoor dat u uw werkplek verlaat en naar buiten gaat, zich uitrekt of mindfulness oefent."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Tijd voor een pauze",
+        "BODY": "Als u een pauze neemt, kunnen uw concentratievermogen, productiviteit en kwaliteit van uw werk toenemen"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Frequentie van herinneringen instellen",
+    "REMINDER_SCHEDULE": "{{timeSpan}} op {{days}} tussen {{startTime}} en {{endTime}}",
+    "FREQUENCY": "Frequentie",
+    "TIME_RANGE": "Tijdbereik",
+    "WEEKDAYS": "Weekdagen (ma-vr)",
+    "WEEKDAYS_SHORT": "Weekdagen",
+    "EVERY_DAY": "Elke dag",
+    "CUSTOM": "Aangepast",
+    "ON": "aan",
+    "LEARN_MORE": "Meer informatie",
+    "NEXT": "VOLGENDE",
+    "THROUGH": "t/m"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Hoe werkt Acoustic Fence",
+      "TITLE": "Hoe werkt Acoustic Fence",
+      "DESCRIPTION": "Acoustic Fence maakt gebruik van meerdere microfoons en geavanceerde technologie voor echo-onderdrukking om een virtueel audiohek te creëren. Dit vermindert de impact die afleidende geluiden van buiten het hek kunnen hebben op uw gesprek, zoals het geklets van uw collega’s. {{line_feed}}Voor de beste ervaring gebruikt u Acoustic Fence in combinatie met Poly NoiseBlockAI. Dit onderdrukt achtergrondgeluiden zonder spraak te onderdrukken, met name geluiden van toetsenborden, papiergeritsel en zelfs blaffende honden."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Hoe werkt NoiseBlockAI",
+      "TITLE": "Hoe werkt NoiseBlockAI",
+      "DESCRIPTION": "NoiseBlockAI voorkomt dat niet-menselijke geluiden (zoals typen met een toetsenbord of het geritsel van papier) uw vergaderingen beïnvloeden. Met op machine learning gebaseerde ruisonderdrukkingstechnieken worden storende achtergrondgeluiden verminderd, in uw eigen omgeving, maar ook aan de andere kant van de lijn. {{line_feed}}En als u niet praat, dempt NoiseBlockAI automatisch uw microfoon om te voorkomen dat uw achtergrondgeluiden uw gesprek verstoren."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Standaardwaarden herstellen",
+      "CONFIRM_MESSAGE": "Met deze actie herstelt u alle fabrieksinstellingen voor uw apparaat.",
+      "COMPLETE_TITLE": "Instellingen hersteld.",
+      "COMPLETE_MESSAGE": "Vergeet niet om het apparaat te ontkoppelen (als die met USB is aangesloten) en zet uw headset uit/aan om de nieuwe instellingen door te voeren.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "Uw apparaat wordt nu opnieuw opgestart om dit proces te voltooien."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Apparaat opnieuw opstarten",
+      "CONFIRM_MESSAGE": "Hiermee wordt uw apparaat onmiddellijk opnieuw opgestart."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Standaardwaarden herstellen",
+      "CONFIRM_MESSAGE": "Met deze actie herstelt u alle standaardinstellingen voor Lens."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Titel audio",
+      "CONFIRM_MESSAGE": "Audio-bevestigingsmelding."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Meer informatie over Anti-Startle",
+      "TITLE": "Over Anti-Startle",
+      "INTRO": "Er zijn afhankelijk van het product 2 of 3 opties voor Anti-Startle-bescherming:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "Als Australische industriestandaard voor bescherming tegen akoestische schokken beperkt dat het geluidsniveau bij uw oor om schokken door hoge volumes te verminderen.",
+      "G616_POLY_ENHANCED": "G616 (Poly Enhanced)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "De eigen algoritmen van Poly gaan verder dan G616-bescherming. Ze elimineren en beperken plotselinge harde geluiden voor meer luistercomfort, terwijl de kwaliteit van het geluid behouden blijft.",
+      "OFF": "Uit",
+      "OFF_DESCRIPTION": "Wanneer deze instelling is uitgeschakeld, wordt audio ongefilterd doorgevoerd door de headset, maar wordt het geluid nog wel begrensd tot 118 dBA om uw gehoor te beschermen.",
+      "NOTE": "OPMERKING",
+      "NOTE_DESCRIPTION": "Deze optie is productafhankelijk.",
+      "MORE_INFO": "Ga voor meer informatie over deze functie naar:"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Een Wi-Fi-netwerk zoeken en verbinding maken",
+      "NETWORK_NAME": "Netwerknaam",
+      "DESCRIPTION": "Voer de naam en het beveiligingstype in van het netwerk waarmee u verbinding wilt maken.",
+      "PASSWORD_TITLE": "Wachtwoord voor netwerk {{networkName}} toevoegen",
+      "SECURITY": "Beveiliging",
+      "EAP_METHOD": "EAP-methode",
+      "PHASE2": "Fase 2-verificatie",
+      "CA_CERTIFICATE": "CA-certificaat",
+      "USER_CERTIFICATE": "Gebruikerscertificaat",
+      "IDENTITY": "Identiteit",
+      "ANONYMOUS_IDENTITY": "Anonieme identiteit",
+      "PASSWORD": "Wachtwoord",
+      "IP_SETTINGS": "IP-instellingen",
+      "STATIC": "Ruis",
+      "SHOW_ADVANCED": "Geavanceerde instellingen weergeven",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP-adres",
+      "GATEWAY": "Gateway",
+      "SUBNET_MASK": "Subnetmasker",
+      "DNS1": "DNS-adres 1",
+      "DNS2": "DNS-adres 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Bekende netwerken beheren",
+      "NO_NETWORKS": "Er zijn geen bekende netwerken. Maak verbinding."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Verzoek voor certificaatondertekening maken",
+      "DESCRIPTION": "Vermeld hieronder de gegevens voor uw certificaataanvraag.",
+      "COUNTRY": "Land",
+      "STATE": "Staat of provincie",
+      "CITY": "Plaats",
+      "ORGANIZATION": "Organisatie",
+      "ORGANIZATION_UNIT": "Organisatie-afdeling",
+      "COMMON_NAME": "Algemene naam",
+      "SAVE_FILE_TITLE": "Aanvraagbestand voor certificaatondertekening opslaan"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Certificaat installeren...",
+      "TYPE": "Type",
+      "CERTIFICATE": "Certificaat",
+      "CHOOSE_FILE_TITLE": "Bestand kiezen"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Details certificaat",
+      "PASSWORD_ERROR": "Het ingevoerde wachtwoord is niet geldig. Voer het wachtwoord opnieuw in.",
+      "PASSWORD": "Persoonlijke sleutel wachtwoord:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Dit is uw primaire apparaat.",
+    "MAKE_DEVICE_MAIN": "Maak van dit apparaat uw primaire apparaat.",
+    "DEVICE_NOT_SUPPORTED": "Apparaatondersteuning binnenkort beschikbaar. De functionaliteit in de app kan beperkt zijn.",
+    "DISABLED_BY_ADMIN": "Functie is uitgeschakeld door uw beheerder"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Softwarecomponenten",
+    "VIEW_LIST_OF_COMPONENTS": "{{numberOfComponents}} componenten weergeven",
+    "VIEW_ONE_COMPONENT": "1 component weergeven",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "Afstemmen",
+    "BASE": "Basisstation",
+    "HEADSET": "Headset",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "Camera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Bijna klaar!",
+    "REPLUG_DESCRIPTION": "Koppel het apparaat los en sluit het opnieuw aan. Klik vervolgens op Doorgaan om de update te voltooien.",
+    "UPDATE_WARNING_1": "Deze update duurt enkele minuten.",
+    "UPDATE_WARNING_2": "{{open_tag}}Koppel uw apparaat{{close_tag}} tijdens de upgradeprocedure niet los.",
+    "UPDATE_WARNING_3": "Zorg ervoor dat uw camera niet door een andere toepassing wordt gebruikt voordat u verdergaat met deze software-update.",
+    "DISTANCE_WARNING.TITLE": "Bereid u voor op de update",
+    "DISTANCE_WARNING_1": "Houd uw {{open_tag}}{{device_name}}{{close_tag}} binnen 1,5 meter van uw computer tijdens de update.",
+    "DISTANCE_WARNING_2": "Verbreek de andere Bluetooth-verbindingen (bijv. mobiele telefoon) om te voorkomen dat de update wordt onderbroken.",
+    "LANGUAGE_DOWNLOAD": "Taal downloaden",
+    "DOWNLOADING_LANGUAGE": "Taal wordt gedownload",
+    "LANGUAGE_UPDATE": "Taalupdate",
+    "UPDATEING_LANGUAGE": "Taal wordt bijgewerkt",
+    "LANGUAGE_UPDATED": "Taal bijgewerkt",
+    "SOFTWARE_DOWNLOAD": "Downloaden van software",
+    "DOWNLOADING_SOFTWARE": "Software wordt gedownload",
+    "SOFTWARE_UPDATE": "Software-update",
+    "UPDATING_SOFTWARE": "Software wordt bijgewerkt",
+    "SOFTWARE_INSTALLED": "Software geïnstalleerd",
+    "CUSTOM_SOFTWARE_UPDATE": "Aangepaste software-update",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Aangepaste software-update uploaden",
+    "CUSTOM_SOFTWARE_INSTALLED": "Aangepaste software geïnstalleerd",
+    "DEVICE_RECOVERY": "Apparaatherstel",
+    "RECOVERING_DEVICE": "Apparaat herstellen",
+    "DEVICE_RECOVERED": "Apparaat hersteld",
+    "UPDATE_FAILED": "Software-update mislukt",
+    "UPDATE_FAILED_TITLE": "Oh oh. Er is een probleem.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "De software-update is niet voltooid.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "Software is al bijgewerkt",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "Het apparaat dat u probeert bij te werken, beschikt al over de nieuwste software.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Uw batterijniveau is onvoldoende voor het uitvoeren van een update. Laad de batterij van uw {{deviceName}} op voordat u gaat bijwerken.",
+      "DeviceNotConnectedError": "Sluit uw {{deviceName}} via de kabel aan om bij te werken.",
+      "CallinProgressError": "{{deviceName}} kan niet worden bijgewerkt tijdens een gesprek.",
+      "DFUInProgressError": "Uw {{deviceName}} kan niet worden bijgewerkt terwijl er een andere update wordt uitgevoerd.",
+      "MultipleDevicesError": "Er zijn twee of meer apparaten van hetzelfde model aangesloten. Koppel de andere apparaten los voordat u dit apparaat bijwerkt.",
+      "ReplugDevice": "Koppel het apparaat los en sluit het opnieuw aan om de software-update te voltooien.",
+      "CameraInUseError": "Zorg ervoor dat de voorbeeldweergave van de camera is uitgeschakeld en dat de microfoon en de camera niet actief zijn in andere toepassingen.",
+      "SingleEarbudError": "Zorg ervoor dat beide oordopjes zijn aangesloten, uit het etui zijn gehaald, en voor meer dan 50% zijn opgeladen voordat u de update uitvoert."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Algemeen",
+    "DisplayControls": "Bediening op het display",
+    "RingtoneAndVolume": "Beltonen en volume",
+    "Audio": "Audio",
+    "SensorAndPresence": "Sensoren en aanwezigheid",
+    "SoftphonesAndMediaPlayers": "Softphones en mediaspelers",
+    "Wireless": "Draadloos",
+    "Advanced": "Geavanceerd",
+    "ANC": "ANC",
+    "Firmware": "Firmware",
+    "Language": "Taal",
+    "VoicePromptsAndTones": "Gesproken meldingen en tonen",
+    "Admin": "Beheerder",
+    "ResetHeadset": "Apparaat herstellen",
+    "Lights": "Verlichting",
+    "CustomButton": "Aangepaste knop",
+    "CustomSwipe": "Aangepaste veegsensor",
+    "Diagnostics": "Diagnose",
+    "SoftwareSettings": "Software-instellingen"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Taal",
+      "description": "Selecteer de gewenste taal voor alle gesproken meldingen en waarschuwingen. Bijvoorbeeld Inkomende oproep van Jan of Dempen aan.",
+      "serverNotReachable": "U kunt uw taal op dit moment niet wijzigen omdat de server niet beschikbaar is.",
+      "options": {
+        "3076": "Kantonees",
+        "1030": "Deens",
+        "2057": "Engels - Verenigd Koninkrijk",
+        "1033": "Engels - Verenigde Staten",
+        "1036": "Frans",
+        "1031": "Duits",
+        "1040": "Italiaans",
+        "1041": "Japans",
+        "1042": "Koreaans",
+        "1045": "Pools",
+        "2052": "Mandarijn",
+        "1044": "Noors - Bokmål",
+        "2068": "Noors - Nynorsk",
+        "1049": "Russisch",
+        "1034": "Spaans",
+        "1053": "Zweeds",
+        "16393": "Engels - India",
+        "1057": "Indonesisch",
+        "1054": "Thais",
+        "1046": "Portugees - Brazilië"
+      }
+    },
+    "0x102": {
+      "name": "Tweede inkomende oproep",
+      "description": "Beheer het beltoongedrag voor een inkomende oproep van een tweede communicatietraject (bijvoorbeeld een inkomende mobiele oproep als u al een softphonegesprek voert).",
+      "options": {
+        "ignore": "Negeren",
+        "once": "Eenmaal overgaan",
+        "continuous": "Continu overgaan"
+      }
+    },
+    "0x103": {
+      "name": "Computervolume",
+      "description": "",
+      "options": {
+        "off": "Uit",
+        "low": "Laag volume",
+        "standard": "Standaardvolume"
+      }
+    },
+    "0x104": {
+      "name": "Volume bureautelefoon",
+      "description": "",
+      "options": {
+        "off": "Uit",
+        "low": "Laag volume",
+        "standard": "Standaardvolume"
+      }
+    },
+    "0x105": {
+      "name": "Volume mobiele telefoon",
+      "description": "",
+      "options": {
+        "off": "Uit",
+        "low": "Laag volume",
+        "standard": "Standaardvolume"
+      }
+    },
+    "0x106": {
+      "name": "Pc",
+      "description": "Selecteer de beltoon die (en bij bepaalde modellen het volume dat) u hoort wanneer uw pc-softphone overgaat.",
+      "options": {
+        "sound1": "Geluid 1",
+        "sound2": "Geluid 2",
+        "sound3": "Geluid 3",
+        "off": "Uit"
+      }
+    },
+    "0x107": {
+      "name": "Vaste telefoon",
+      "description": "Selecteer de beltoon die (en bij bepaalde modellen het volume dat) u hoort wanneer uw vaste telefoon overgaat.",
+      "options": {
+        "sound1": "Geluid 1",
+        "sound2": "Geluid 2",
+        "sound3": "Geluid 3",
+        "off": "Uit"
+      }
+    },
+    "0x108": {
+      "name": "Mobiele telefoon",
+      "description": "Selecteer de beltoon die (en bij bepaalde modellen het volume dat) u hoort wanneer uw mobiele telefoon overgaat.",
+      "options": {
+        "sound1": "Geluid 1",
+        "sound2": "Geluid 2",
+        "sound3": "Geluid 3",
+        "off": "Uit"
+      }
+    },
+    "0x109": {
+      "name": "Beltoon",
+      "description": "Speel een beltoon af die u hoort wanneer een aangesloten apparaat een oproep ontvangt en er geen eigen beltoon voor is geconfigureerd."
+    },
+    "0x10A": {
+      "name": "Beltoonvolume basisstation",
+      "description": "Configureer het beltoonvolume van het basisstation.",
+      "options": {
+        "off": "Uit",
+        "low": "Laag",
+        "medium": "Gemiddeld",
+        "high": "Hoog"
+      }
+    },
+    "0x200": {
+      "name": "Draagsensor",
+      "description": "Schakel deze hoofdinstelling in als u sensorafhankelijke instellingen wilt kunnen aanpassen."
+    },
+    "0x201": {
+      "name": "Automatisch beantwoorden",
+      "description": "Beantwoord een oproep automatisch als u uw headset opzet terwijl de telefoon overgaat."
+    },
+    "0x202": {
+      "name": "Slimme audio-overdracht",
+      "description": "Schakel een oproep automatisch door van uw headset naar uw mobiele telefoon wanneer u uw headset afzet. Zet uw headset weer op om het gespreksgeluid terug te schakelen naar de headset."
+    },
+    "0x203": {
+      "name": "Gespreksknop vergrendelen",
+      "description": "Vergrendel de gespreksknop van de headset om onbedoeld mobiel terugbellen te voorkomen wanneer u de headset niet draagt."
+    },
+    "0x204": {
+      "name": "Muziek automatisch pauzeren",
+      "description": "Onderbreek automatisch de audiostream van een mobiele telefoon wanneer u de headset afzet (en hervat het streamen wanneer u de headset weer opzet). Schakel uit om gestreamde audio continu af te spelen."
+    },
+    "0x205": {
+      "name": "Auto-mute",
+      "description": "Mute automatisch de microfoon van uw headset wanneer u tijdens een oproep de headset afzet."
+    },
+    "0x206": {
+      "name": "Actief audiogesprek",
+      "description": "Selecteer de actie voor uw headset voor wanneer u deze afzet tijdens een actief gesprek.",
+      "options": {
+        "doNothing": "Niets doen",
+        "transferAudioToMobile": "Audio overdragen naar de mobiele telefoon",
+        "muteMic": "Microfoon muten"
+      }
+    },
+    "0x300": {
+      "name": "Automatisch beantwoorden (geen sensor)",
+      "description": "Beantwoord oproepen automatisch als u uw headset uit de oplader haalt. Stel in op Uit om oproepen te beantwoorden door op de call control-knop te drukken."
+    },
+    "0x301": {
+      "name": "Automatisch verbinden met mobiele telefoon",
+      "description": "Verbind het Savi-basisstation automatisch opnieuw met uw mobiele telefoon wanneer die binnen bereik van het basisstation komt."
+    },
+    "0x302": {
+      "name": "Plaats in de houder om de verbinding automatisch te verbreken",
+      "description": "Verbreek automatisch de verbinding wanneer u uw headset in de houder plaatst."
+    },
+    "0x400": {
+      "name": "Standaardtelefoonlijn",
+      "description": "Stel de uitgaande lijn in die uw telefoon gebruikt wanneer u op de call control-knop van de headset drukt.",
+      "options": {
+        "pstn": "Vaste telefoon",
+        "voip": "Computer",
+        "mobile": "Mobiel"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Schakel deze optie in om verbinding te maken met uw mobiele telefoon via bluetooth."
+    },
+    "0x402": {
+      "name": "Spraakopdrachten voor mobiel",
+      "description": "Schakel deze optie in om een verbonden mobiele telefoon in de spraakopdracht-modus te zetten wanneer u op de knop voor de mobiele telefoon op het basisstation drukt."
+    },
+    "0xB05": {
+      "name": "Waarschuwing bij inkomende oproep",
+      "description": "Er klinkt een gesproken melding wanneer u een inkomende oproep ontvangt."
+    },
+    "0x913": {
+      "name": "Herinnering in de wacht zetten",
+      "description": "Ontvang een handige herinnering dat er een gesprek in de wacht staat."
+    },
+    "0xB06": {
+      "name": "Volume Min/Max-meldingen",
+      "description": "Selecteer het type melding dat u hoort wanneer het minimale volume en het maximale volume zijn bereikt.",
+      "options": {
+        "voice": "Spraak",
+        "tone": "Geluidssignaal"
+      }
+    },
+    "0x500": {
+      "name": "Blootstelling aan geluid",
+      "description": "Meet en beheer de dagelijkse blootstelling aan geluid om na te gaan of deze niet boven de geselecteerde actiewaarde (80 dBA of 85 dBA) uitkomt die in de huidige wetgeving is vastgesteld.",
+      "options": {
+        "85db": "Beperkt tot 85 dBA",
+        "80db": "Beperkt tot 80 dBA",
+        "off": "Geen grenzen"
+      }
+    },
+    "0x501": {
+      "name": "Uren aan de telefoon per dag",
+      "description": "Optimaliseer de nauwkeurigheid van de instelling voor blootstelling aan geluid, door de waarde te selecteren die het best overeenkomt met uw gebruik van dit apparaat.",
+      "options": {
+        "off": "Uit",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Anti-Startle",
+      "description": "Intelligente algoritmen die akoestische schokken door harde geluiden elimineren en ze onmiddellijk reduceren, zodat uw bescherming en luistercomfort gewaarborgd blijven."
+    },
+    "0x505": {
+      "name": "Anti Startle",
+      "description": "G616, de standaard voor akoestische bescherming, beperkt het geluidsniveau bij uw oor om te voorkomen dat u schrikt als het volume plotseling omhoog gaat."
+    },
+    "0x600": {
+      "name": "Beantwoorden/Negeren",
+      "description": "Hoor een gesproken melding met de vraag Beantwoorden of Negeren bij binnenkomende gesprekken op uw mobiele telefoon."
+    },
+    "0x601": {
+      "name": "Oproepaankondiging",
+      "description": "Hoor de gesproken melding Oproep beantwoorden om een inkomende oproep te beantwoorden via uw headset."
+    },
+    "0x602": {
+      "name": "Waarschuwing Mute Off",
+      "description": "De feedback die u hoort wanneer u de mutefunctie van uw headsetmicrofoon in- of uitschakelt.",
+      "options": {
+        "false": "Geluidssignaal",
+        "true": "Spraak"
+      }
+    },
+    "0x603": {
+      "name": "Timing voor mute-herinnering",
+      "description": "Stel het aantal minuten in tussen waarschuwingen voor de mute-herinnering.",
+      "options": {
+        "off": "Uit",
+        "1": "1 minuut",
+        "2": "2 minuten",
+        "3": "3 minuten",
+        "4": "4 minuten",
+        "5": "5 minuten",
+        "6": "6 minuten",
+        "7": "7 minuten",
+        "8": "8 minuten",
+        "9": "9 minuten",
+        "10": "10 minuten",
+        "11": "11 minuten",
+        "12": "12 minuten",
+        "13": "13 minuten",
+        "14": "14 minuten",
+        "15": "15 minuten"
+      }
+    },
+    "0x604": {
+      "name": "Volume voor mute-herinnering",
+      "description": "Stel het volume in voor de waarschuwing voor de mute-herinnering.",
+      "options": {
+        "off": "Uit",
+        "low": "Laag volume",
+        "standard": "Standaardvolume"
+      }
+    },
+    "0x607": {
+      "name": "Waarschuwingen Mute On/Off (Muten aan/uit)",
+      "description": "Selecteer het type waarschuwing dat u hoort wanneer u de mutefunctie van uw headsetmicrofoon in- of uitschakelt of een mute-herinnering ontvangt.",
+      "options": {
+        "voice": "Spraak",
+        "singleTone": "Enkele toon",
+        "doubleTone": "Dubbele toon"
+      }
+    },
+    "0x608": {
+      "name": "Systeemtoon",
+      "description": "Stel het volume van de geluidssignalen van uw headset in.",
+      "options": {
+        "off": "Uit",
+        "low": "Laag volume",
+        "standard": "Standaardvolume"
+      }
+    },
+    "0x609": {
+      "name": "Volumeniveau van tonen",
+      "description": "Bij het aanpassen van het volume hoort u tonen die uw huidige volumeniveau aangeven.",
+      "options": {
+        "atEveryLevel": "Elk niveau",
+        "minMaxOnly": "Alleen minimum en maximum"
+      }
+    },
+    "0x60A": {
+      "name": "Nummerherkenning",
+      "description": "De naam van de persoon die belt beluisteren."
+    },
+    "0x60C": {
+      "name": "Actief geluidssignaal",
+      "description": "U hoort een korte tooncombinatie die aangeeft dat het geluidskanaal open is en gereed voor communicatie."
+    },
+    "0x60D": {
+      "name": "Modus voor mute-herinnering",
+      "description": "Ontvang een handige herinnering wanneer de mutefunctie van uw headset is ingeschakeld tijdens een oproep. Stel in hoe en wanneer de herinnering optreedt.",
+      "options": {
+        "off": "Uit",
+        "timed": "Tijdgebaseerd",
+        "voiceAudible": "Hoorbare herinnering",
+        "voiceVisible": "On-screen herinnering",
+        "voiceVisibleAndAudible": "On-screen en hoorbare herinneringen"
+      }
+    },
+    "0x610": {
+      "name": "Meldingen voor muten",
+      "description": "De feedback die u hoort wanneer u de mutefunctie van uw speakerphone in- of uitschakelt."
+    },
+    "0x700": {
+      "name": "Geluidskwaliteit",
+      "description": "Optimale geluidskwaliteit voor uw gewenste activiteit.",
+      "options": {
+        "homeMode": "Muziek",
+        "enterpriseMode": "Hybride",
+        "mono": "Gesprek",
+        "narrowBand": "Smalband"
+      }
+    },
+    "0x701": {
+      "name": "Over-the-air Subscription",
+      "description": "Koppel deze headset met uw basisstation zonder de headset fysiek in de oplader te plaatsen."
+    },
+    "0x702": {
+      "name": "Bereik",
+      "description": "Beperk het bereik om geluidsstoringen door andere DECT-apparaten te verminderen.",
+      "options": {
+        "low": "Laag",
+        "medium": "Gemiddeld",
+        "high": "Hoog"
+      }
+    },
+    "0x704": {
+      "name": "Audio streamen",
+      "description": "Schakel deze functie in om muziek, podcasts en andere typen audio van uw mobiele telefoon naar uw headset te streamen. Als u geen audio naar uw headset streamt, schakel deze functie dan uit om de levensduur van de batterij te sparen.",
+      "powerCycleRequired": {
+        "title": "Streaming audio in-/uitschakelen",
+        "buttonText": "OK",
+        "true": {
+          "title": "Streaming audio uitschakelen",
+          "text": "Selecteer deze optie om de batterij te sparen en langer aan gesprekken te blijven deelnemen. Als deze optie is uitgeschakeld, kunt u niet naar muziek of podcasts luisteren via uw headset."
+        },
+        "false": {
+          "title": "Streaming audio inschakelen",
+          "text": "Selecteer deze optie om muziek en podcasts via uw headset te beluisteren. Als deze optie is ingeschakeld, wordt de beschikbare gesprekstijd voor gesprekken mogelijk verkort."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Modus extra groot bereik (pc)",
+      "description": "Verbeter het draadloze bereik tussen uw pc en uw headset. OPMERKING: hiermee wordt breedbandstereotelefonie uitgeschakeld en de kwaliteit van het geluid dat u uit uw pc hoort verminderd."
+    },
+    "0x706": {
+      "name": "Audiobandbreedte pc",
+      "description": "Breedbandaudio zorgt voor een betere verstaanbaarheid en een natuurlijk geluid, maar verbruikt meer batterijvoeding. Dit verkort de gesprekstijd.",
+      "options": {
+        "narrowband": "Smalband",
+        "wideband": "Breedband"
+      }
+    },
+    "0x707": {
+      "name": "Audiobandbreedte vaste telefoon",
+      "description": "Breedbandaudio zorgt voor een betere verstaanbaarheid en een natuurlijk geluid, maar verbruikt meer batterijvoeding. Dit verkort de gesprekstijd.",
+      "options": {
+        "narrowband": "Smalband",
+        "wideband": "Breedband"
+      }
+    },
+    "0x708": {
+      "name": "HD-spraak",
+      "description": "Breedbandaudio verbetert spraakhelderheid als uw telefoon en serviceprovider deze functie ook ondersteunen. OPMERKING: deze functie gebruikt aanzienlijk veel batterijvermogen, wat resulteert in minder gesprekstijd.",
+      "options": {
+        "narrowband": "Uit",
+        "wideband": "Aan",
+        "stereo": "Stereo",
+        "widebandStereo": "Breedbandstereo"
+      },
+      "powerCycleRequired": {
+        "title": "HD-spraak in-/uitschakelen",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "HD-spraak uitschakelen",
+          "text": "Breedbandaudio verbetert spraakhelderheid als uw telefoon en serviceprovider deze functie ondersteunen. Schakel deze optie uit om de batterij te sparen en langer aan gesprekken te blijven deelnemen."
+        },
+        "wideband": {
+          "title": "HD-spraak inschakelen",
+          "text": "Breedbandaudio verbetert spraakhelderheid als uw telefoon en serviceprovider deze functie ondersteunen. Als u HD-spraak inschakelt, verbruikt de batterij meer energie en is er minder gesprekstijd beschikbaar voor oproepen."
+        },
+        "stereo": {
+          "title": "Stereotitel",
+          "text": "Stereotekst"
+        },
+        "widebandStereo": {
+          "title": "Titel van breedbandstereo",
+          "text": "Breedband-stereotekst"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Doorlussen automatisch opnieuw verbinden",
+      "description": "De verbinding tussen twee apparaten wordt automatisch doorgelust wanneer deze zijn ingeschakeld."
+    },
+    "0x70B": {
+      "name": "Bluetooth-verbinding automatisch verbreken",
+      "description": "Verbreek de Bluetooth-verbinding wanneer het apparaat in de stand-bymodus gaat."
+    },
+    "0x800": {
+      "name": "Het volume van de QD-headset verhogen",
+      "description": "Als het volume van de headset die is aangesloten op uw basisstation met Quick Disconnect (QD) te laag is, selecteert u uw headsetmodel om het volume te verhogen.",
+      "options": {
+        "new": "EncorePro 500-serie",
+        "legacy": "EncorePro 700-serie en alle andere headsetmodellen"
+      }
+    },
+    "0x801": {
+      "name": "Toonregeling",
+      "description": "Versterk uw bas of hoge tonen voor een optimale luisterervaring. U kunt de tonen van de vaste telefoon en de computer voor elk apparaat afzonderlijk aanpassen. ",
+      "options": {
+        "maxBass": "Maximale bas",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Maximale hoge tonen"
+      }
+    },
+    "0x802": {
+      "name": "Functiebeperking nabije gesprekken",
+      "description": "Beperk de hoeveelheid gesprekken in de buurt die via uw microfoon worden verzonden. (Opmerking: wijzigingen worden van kracht bij de volgende oproep.)",
+      "options": {
+        "no": "Geen grenzen",
+        "moderate": "Beste audio",
+        "agressive": "Open kantoren"
+      }
+    },
+    "0x803": {
+      "name": "Sidetone",
+      "description": "Het volume van uw stem aanpassen dat u hoort als u praat.",
+      "options": {
+        "low": "Laag",
+        "medium": "Gemiddeld",
+        "high": "Hoog"
+      }
+    },
+    "0x804": {
+      "name": "ANC time-out",
+      "description": "Bespaar batterijstroom door de tijd dat actieve ruisonderdrukking (ANC) is ingeschakeld te verminderen wanneer uw headset niet actief is.",
+      "options": {
+        "2": "2 uur",
+        "4": "4 uur",
+        "off": "Uit"
+      }
+    },
+    "0x810": {
+      "name": "ANC-modus",
+      "description": "Selecteer het beste niveau van noise-cancelling voor uw omgeving.",
+      "options": {
+        "adaptive": "Adaptief",
+        "automatic": "Automatisch",
+        "standard": "Standaard",
+        "off": "Uit"
+      }
+    },
+    "0x805": {
+      "name": "Meldingstonen",
+      "description": "Hoor meldingstonen van andere aangesloten apparaten terwijl audio wordt gestreamd."
+    },
+    "0x806": {
+      "name": "Onafhankelijke volumeregeling",
+      "description": "Onafhankelijke volumeregeling in- of uitschakelen."
+    },
+    "0x807": {
+      "name": "Audio doorlussen",
+      "description": "Selecteer de audio-uitgang die u hoort als speakerphones worden doorgelust.",
+      "options": {
+        "party": "Party",
+        "stereo": "Stereo"
+      }
+    },
+    "0x808": {
+      "name": "Equalizer",
+      "description": "Stel de vooraf geprogrammeerde instelling van de equalizer in op het gewenste geluid.",
+      "options": {
+        "bass": "Lage tonen",
+        "flat": "Vlak",
+        "bright": "Helder"
+      }
+    },
+    "0x90A": {
+      "name": "Standaardwaarden herstellen",
+      "description": "Met deze actie herstelt u alle fabrieksinstellingen voor uw apparaat.",
+      "resetBtn": "Standaardwaarden herstellen",
+      "powerCycleRequired": {
+        "title": "Instellingen hersteld",
+        "buttonText": "Herstellen",
+        "true": {
+          "title": "Standaardinstellingen herstellen",
+          "text": "Al uw aangepaste instellingen worden teruggezet naar de oorspronkelijke standaardinstellingen."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Apparaat opnieuw opstarten",
+      "description": "Hiermee wordt uw apparaat onmiddellijk opnieuw opgestart.",
+      "resetBtn": "Opnieuw beginnen"
+    },
+    "0x848": {
+      "name": "Vertrouwde apparaten wissen",
+      "description": "Verwijder de lijst met verbonden apparaten die op uw headset zijn opgeslagen. (Dit geldt voor alle aangesloten apparaten, inclusief de BT700.)",
+      "resetBtn": "Apparaten wissen",
+      "powerCycleRequired": {
+        "title": "Apparaten gewist",
+        "buttonText": "Wissen",
+        "true": {
+          "title": "Vertrouwde apparaten wissen",
+          "text": "Verwijder alle aangesloten apparaten die op uw headset zijn opgeslagen, inclusief de BT600-USB-adapter."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Trillen bij rinkelen",
+      "description": "Stel in dat de headset gaat trillen wanneer u een oproep ontvangt."
+    },
+    "0x901": {
+      "name": "Laadbevestiging",
+      "description": "Stel de headset in op trillen om te bevestigen dat de headset wordt opgeladen."
+    },
+    "0x902": {
+      "name": "In-bedrijflampje",
+      "description": "Het indicatielampje op uw apparaat inschakelen om anderen te informeren dat u in gesprek bent"
+    },
+    "0x903": {
+      "name": "Draagvoorkeur voor volumeregeling",
+      "description": "Geef draagvoorkeur voor headset op (linker- of rechteroor) en duw altijd de volumeregeling omhoog om het volumeniveau te verhogen.",
+      "options": {
+        "unknown": "Geen verandering",
+        "left": "Linkeroor",
+        "right": "Rechteroor",
+        "leftRight": "Verlengde microfoon rechts",
+        "leftRightSwapped": "Verlengde microfoon links"
+      }
+    },
+    "0xA00": {
+      "name": "Audiodetectie",
+      "description": "Breng automatisch een radioverbinding tot stand tussen het basisstation en uw draadloze headset wanneer de USB-poort computeraudio detecteert."
+    },
+    "0xA01": {
+      "name": "Kiestoon",
+      "description": "Hoor een kiestoon voor een VoIP-gesprek wanneer u op de gespreksknop van uw headset drukt. Uw softphone moet kiestonen ondersteunen."
+    },
+    "0xFFF1": {
+      "name": "Automatisch verbinden met mobiele telefoon",
+      "description": "Verbind het Savi-basisstation automatisch opnieuw met uw gekoppelde mobiele apparaat wanneer de telefoon binnen bereik van het basisstation komt.",
+      "options": {
+        "never": "Nooit",
+        "whenUndocked": "Alleen wanneer de headset niet in het basisstation staat",
+        "always": "Altijd"
+      }
+    },
+    "0xFFF2": {
+      "name": "Anti–Startle",
+      "description": "Algoritmen die akoestische schokken door harde geluiden elimineren, zodat uw bescherming en luistercomfort gewaarborgd blijven.",
+      "options": {
+        "off": "Uit",
+        "standard": "G616",
+        "enhanced": "G616 (Poly Enhanced)"
+      }
+    },
+    "0x60E": {
+      "name": "Batterijstatus",
+      "description": "Hoor wat de batterijstatus is wanneer u het apparaat inschakelt."
+    },
+    "0x60F": {
+      "name": "Aansluiten",
+      "description": "U hoort een gesproken melding die de verbindingsstatus aangeeft.",
+      "options": {
+        "voice": "Spraak",
+        "tone": "Geluidssignaal"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Schakel alle bluetooth-verbindingen op de Sync-luidspreker in of uit."
+    },
+    "-": {
+      "name": "Aansluiten",
+      "description": "U hoort een gesproken melding die de verbindingsstatus aangeeft."
+    },
+    "0x907": {
+      "name": "Beveiligde bluetoothverbinding",
+      "description": "Druk op de bluetooth-koppelknop om de verbinding tussen de speakerphone en het mobiele apparaat te voltooien."
+    },
+    "0x908": {
+      "name": "Aangepaste knop",
+      "description": "Wijs de actie toe die wordt gestart als u op de actieknop tikt.",
+      "options": {
+        "playPause": "Afspelen/pauzeren",
+        "redial": "Opnieuw kiezen (alleen mobiel)",
+        "vpa": "VPA (Siri, Google Assistent, enz.)",
+        "clearTrustedDevice": "Lijst met vertrouwde apparaten wissen",
+        "statusCheck": "Statuscontrole",
+        "holdResume": "Oproep in wachtstand zetten/hervatten",
+        "anc": "ANC/Transparantiemodus",
+        "nothing": "Niets doen"
+      }
+    },
+    "0x909": {
+      "name": "Exclusieve verbinding",
+      "description": "Verwijder informatie over eerder gekoppelde apparaten als een nieuw apparaat wordt gekoppeld en verbinding maakt. Hierdoor kan slechts één apparaat tegelijk worden gekoppeld en verbinding maken."
+    },
+    "0xC00": {
+      "name": "Helderheid",
+      "description": "De helderheid van de video aanpassen."
+    },
+    "0xC01": {
+      "name": "Contrast",
+      "description": "Videocontrast aanpassen."
+    },
+    "0xC02": {
+      "name": "Tint",
+      "description": "Videokleur aanpassen."
+    },
+    "0xC03": {
+      "name": "Verzadiging",
+      "description": "De verzadiging van de videokleur aanpassen."
+    },
+    "0xC04": {
+      "name": "Scherpte",
+      "description": "De videoscherpte aanpassen."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Het videogamma aanpassen."
+    },
+    "0xC06": {
+      "name": "Kleur",
+      "description": "Videokleur aanpassen."
+    },
+    "0xC07": {
+      "name": "Witbalans",
+      "description": "Geef op hoe de camera variaties in het licht in de ruimte compenseert."
+    },
+    "0xC08": {
+      "name": "Tegenlichtcompensatie",
+      "description": "Tegenlichtcompensatie in- of uitschakelen."
+    },
+    "0xC09": {
+      "name": "Gain",
+      "description": "De signaalversterking van de camera aanpassen."
+    },
+    "0xC0A": {
+      "name": "Pannen",
+      "description": "De richting van de camera naar links of rechts aanpassen."
+    },
+    "0xC0B": {
+      "name": "Kantelen",
+      "description": "De richting van de camera omhoog of omlaag aanpassen."
+    },
+    "0xC0C": {
+      "name": "Rol",
+      "description": "De rolhoek van de camera aanpassen."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Het zoomniveau van de camera aanpassen."
+    },
+    "0xC0E": {
+      "name": "Blootstelling",
+      "description": "De belichting van de camera aanpassen."
+    },
+    "0xC0F": {
+      "name": "Iris",
+      "description": "De camera-iris aanpassen."
+    },
+    "0xC10": {
+      "name": "Concentratie",
+      "description": "De scherpstelling van de camera aanpassen."
+    },
+    "0xC11": {
+      "name": "Huidoptimalisatie",
+      "description": "Hiermee schakelt u natuurlijke huidskleurverbeteringen voor deelnemers in of uit."
+    },
+    "0xC12": {
+      "name": "Breed dynamisch bereik",
+      "description": "Schakel de belichting van de camera in of uit op basis van het gebied in het kader in plaats van de volledige weergave."
+    },
+    "0xC13": {
+      "name": "Aantal deelnemers",
+      "description": "Aantal deelnemers in vergaderingen rapporteren."
+    },
+    "0xC14": {
+      "name": "Schermweergave",
+      "description": "Cameraparameters weergeven in video-uitvoer."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Schakel Poly Acoustic Fence in om achtergrondgeluid te blokkeren en de breedte van de Poly Acoustic Fence-bundel te configureren.",
+      "options": {
+        "off": "Uit",
+        "60": "Smal",
+        "90": "Gemiddeld",
+        "120": "Breed",
+        "cameraView": "Cameraweergave"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI voor uitgaande audio",
+      "description": "Voorkom dat storende geluiden in uw omgeving (zoals het typen met een toetsenbord of papiergeluiden) uw vergadering onderbreken.",
+      "options": {
+        "true": "Juist",
+        "false": "Onjuist",
+        "fast": "Snel"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI voor inkomende audio",
+      "description": "Voorkom dat storende geluiden (zoals typen met een toetsenbord of papiergeluiden) uw vergadering onderbreken."
+    },
+    "0xC17": {
+      "name": "Stereo-audio",
+      "description": "Gebruik twee audiokanalen op de camera voor stereogeluid."
+    },
+    "0xC26": {
+      "name": "Bass Boost",
+      "description": "Bass Boost."
+    },
+    "0xC18": {
+      "name": "Tracking-snelheid",
+      "description": "Configureer hoe snel de camera deelnemers aan een vergadering detecteert.",
+      "options": {
+        "slow": "Langzaam",
+        "normal": "Normaal",
+        "fast": "Snel"
+      }
+    },
+    "0xC19": {
+      "name": "Tracking-modus",
+      "description": "Configureer hoe de camera deelnemers volgt.",
+      "options": {
+        "speaker": "Luidsprekerframing",
+        "off": "Uit",
+        "group": "Groepskadering",
+        "presenter": "Spreker",
+        "conversation": "Gesprek",
+        "gallery": "Mensen kaderen"
+      }
+    },
+    "0xC21": {
+      "name": "Lage tonen",
+      "description": "Hiermee past u de bas van de audio uit de luidspreker aan."
+    },
+    "0xC22": {
+      "name": "Hoge tonen",
+      "description": "Hiermee past u de hoge tonen van de audio uit de luidspreker aan."
+    },
+    "0xC23": {
+      "name": "Anti-flickeroplossing (50/60 Hz)",
+      "description": "Selecteer de juiste frequentie (NTSC 60 Hz / PAL 50 Hz) om flikkeringen op het scherm te verminderen.",
+      "options": {
+        "0": "Uitgeschakeld",
+        "1": "50 Hz",
+        "2": "60 Hz",
+        "3": "Automatisch"
+      }
+    },
+    "0xC27": {
+      "name": "Beeld spiegelen/draaien",
+      "description": "Hiermee keert u het beeld van de camera om.",
+      "options": {
+        "0": "Uitgeschakeld",
+        "1": "Horizontaal spiegelen",
+        "2": "Verticaal draaien",
+        "3": "Draaien en spiegelen in beide richtingen"
+      }
+    },
+    "0xC28": {
+      "name": "Kleurtemperatuur",
+      "description": "Kleurtemperatuur",
+      "options": {
+        "warm": "Warm",
+        "cool": "Koel"
+      }
+    },
+    "0xC1A": {
+      "name": "Frameafmetingen",
+      "description": "Configureer de framing-weergave van de camera-tracking.",
+      "options": {
+        "tight": "Smal",
+        "medium": "Gemiddeld",
+        "wide": "Breed"
+      }
+    },
+    "0xC1B": {
+      "name": "Maximale zoom",
+      "description": "Beperk de maximale zoomverhouding van de camera tot 2x, 3x of 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Camerabeweging",
+      "description": "De camerabeweging aanpassen",
+      "options": {
+        "auto pan": "Automatisch pannen",
+        "cut": "Knippen"
+      }
+    },
+    "0xC80": {
+      "name": "Helderheid scherm",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Helderheid statuslampje",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Inactieve stand",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Binnenkomende oproep",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Actief gesprek",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Gesprek in de wacht",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Herinnering mutefunctie",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Draadloos opladen",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "App-knop",
+      "description": "Selecteer het platform dat u wilt openen op uw scherm.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Raketknop",
+      "description": "Wijs de actie toe die wordt gestart als u op de raket tikt",
+      "options": {
+        "holdResume": "Oproep in wachtstand zetten/hervatten",
+        "playPause": "Afspelen/pauze",
+        "statusLight": "Statuslampje",
+        "lens": "Poly Lens Desktop openen",
+        "vpa": "VPA - Siri, Cortana",
+        "redial": "Laatste nummer opnieuw kiezen",
+        "vanity": "Kaptafellampjes",
+        "answerEnd": "Oproep aannemen/beëindigen",
+        "videoMute": "Videocamera muten"
+      }
+    },
+    "0xC90": {
+      "name": "Helderheid scherm",
+      "description": "Hiermee past u de helderheid van het scherm aan."
+    },
+    "0xC81": {
+      "name": "Contrast scherm",
+      "description": "Hiermee past u het contrast van het scherm aan."
+    },
+    "0x910": {
+      "name": "Modus Geluid van pc aanhouden",
+      "description": "Als deze optie is ingeschakeld, wordt het geluid van de pc gecombineerd met de interface van de bureautelefoon."
+    },
+    "0x1300": {
+      "name": "Alles beheren",
+      "description": "Selecteer de meldingen en tonen die u hoort tijdens het gebruik van uw apparaat."
+    },
+    "0x1301": {
+      "name": "Oproepen",
+      "description": "U hoort gesproken meldingen of tonen om de status van de oproep aan te geven."
+    },
+    "0x1302": {
+      "name": "Binnenkomende oproep"
+    },
+    "0x1303": {
+      "name": "Beantwoorden/Negeren"
+    },
+    "0x1305": {
+      "name": "Oproep wordt beantwoord"
+    },
+    "0x1500": {
+      "name": " Transparantiemodus",
+      "description": "Selecteer het niveau van de transparantiemodus en het gewenste geluid.",
+      "options": {
+        "speech": "Spraak",
+        "environment": "Omgeving",
+        "off": "Uit"
+      }
+    },
+    "0x1800": {
+      "name": "Inactief",
+      "description": "Wijs de snelle actie toe wanneer het apparaat inactief wordt.",
+      "options": {
+        "volume": "Volume",
+        "anc": "ANC/Transparantiemodus",
+        "status": "Statuscontrole",
+        "nothing": "Niets doen"
+      }
+    },
+    "0x1801": {
+      "name": "In gesprek",
+      "description": "Wijs de snelle actie toe voor wanneer u in gesprek bent. ",
+      "options": {
+        "volume": "Volume",
+        "anc": "ANC/Transparantiemodus",
+        "hold": "Oproep in wachtstand zetten/hervatten",
+        "mute": "Mute",
+        "nothing": "Niets doen"
+      }
+    },
+    "0x1802": {
+      "name": "Media streamen ",
+      "description": "Wijs de snelle actie toe voor het streamen van media.",
+      "options": {
+        "volume": "Volume",
+        "anc": "ANC/Transparantiemodus",
+        "track": "Track vooruit/Track achteruit",
+        "nothing": "Niets doen"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "Oké, ik snap het",
+      "powerOffText": "Vergeet niet uw <b>headset ten minste 5 seconden uit te zetten</b> om de nieuwe instellingen door te voeren."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Taal selecteren",
+      "DESCRIPTION": "Selecteer de taal die u wilt horen voor alle gesproken meldingen en waarschuwingen (bijvoorbeeld Incoming call from John (U wordt gebeld door John), Mute on (Mute aan)).",
+      "DESCRIPTION_USB_CABLE": "Als u de taal wilt wijzigen die u wilt horen voor gesproken meldingen en waarschuwingen, sluit u uw {{device_name}} aan op uw computer via een USB-kabel.",
+      "CONFIRM_TITLE": "Taal wijzigen"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Naam Wi-Fi-netwerk",
+      "CONNECTED": "Verbonden",
+      "DISCONNECTED": "Verbinding verbroken",
+      "SIGNAL_STRENGTH": "Signaalsterkte",
+      "AUTOCONNECT": "Automatisch verbinden",
+      "JOIN_OTHER_NETWORK": "Verbinding maken met ander netwerk",
+      "MANAGE_KNOWN_NETWORKS": "Bekende netwerken beheren",
+      "PLACEHOLDER": "Netwerk selecteren"
+    },
+    "GENERAL": {
+      "LABEL": "Algemeen",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP-modus",
+      "NTP_SERVER": "NTP-server",
+      "CAMERA_VIVID": "Levendige modus camera",
+      "CAMERA_VIVID_NOTE": "Het apparaat moet opnieuw worden opgestart om de modus Camera levendig toe te passen."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Automatisch verbinden",
+      "REMOTE_CONTROL_CONNECTION": "Verbinding met afstandsbediening",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "U moet de afstandsbediening handmatig koppelen nadat u de verbinding hebt uitgeschakeld en weer ingeschakeld."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Server configureren",
+      "PROVISIONING_MODE": "Configuratiemodus",
+      "PROVISIONING_MODE_OPTION_AUTO": "Automatisch",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Handmatig",
+      "PROVISIONING_MODE_OPTION_OFF": "Uit",
+      "SERVER_TYPE": "Servertype",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS-server (gebruikt voor Lens-configuratie)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly-configuratieserver",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS-server",
+      "SERVER_ADDRESS": "Serveradres",
+      "USERNAME": "Gebruikersnaam",
+      "PASSWORD": "Wachtwoord"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Certificaten",
+      "VALIDATE_PEER_CERTS": "Peer-certificaten van de server altijd valideren",
+      "INSTALLED_CERTIFICATES": "Certificaat installeren...",
+      "ISSUED_TO": "Uitgegeven aan",
+      "ISSUED_BY": "Uitgegeven door",
+      "EXPIRATION_DATE": "Vervaldatum",
+      "TYPE": "Type",
+      "CERTIFICATE_SIGNING_REQUEST": "Verzoek voor certificaatondertekening",
+      "NO_CERTIFICATES": "Geen records gevonden"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Configuratie",
+      "DESCRIPTION": "Exporteer het configuratiebestand naar uw lokale systeem of importeer een configuratieset uit een lokaal bestand. U moet uw apparaat opnieuw opstarten om een geïmporteerde configuratie toe te passen.",
+      "IMPORT": "Importeren",
+      "IMPORT_DIALOG_TITLE": "Configuratie importeren",
+      "EXPORT": "Export",
+      "EXPORT_DIALOG_TITLE": "Configuratie exporteren"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "Als u de instellingen die u zoekt niet ziet, kunt u contact opnemen met uw Poly Lens-beheerder of u aanmelden met het apparaatwachtwoord.",
+      "ACTION": "Meld u aan met het apparaatwachtwoord",
+      "PASSWORD": "Wachtwoord",
+      "CANCEL": "Annuleren",
+      "LOGIN": "Aanmelden",
+      "INVALID_PASSWORD": "Het ingevoerde wachtwoord is onjuist. Voer het wachtwoord opnieuw in.",
+      "REQUIRED": "Vereist"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Wachtwoord",
+      "CHANGE_PASSWORD": "Wachtwoord wijzigen",
+      "CURRENT_PASSWORD": "Huidig wachtwoord",
+      "CREATE_NEW_PASSWORD": "Nieuw apparaatwachtwoord maken",
+      "NEW_PASSWORD": "Nieuw wachtwoord",
+      "RE_ENTER_NEW_PASSWORD": "Nieuw wachtwoord opnieuw invoeren",
+      "PASSWORD_UNMATCH": "Wachtwoorden komen niet overeen. Voer het nieuwe wachtwoord nogmaals in.",
+      "SIMPLE_PASSWORD": "Eenvoudig wachtwoord",
+      "DEVICE_PASSWORD": "Apparaatwachtwoord",
+      "WEAK_PASSWORD": "Zwak wachtwoord gebruiken (niet aanbevolen).",
+      "STRONG_PASSWORD_RECOMMENDED": "We raden u aan om een sterk wachtwoord te gebruiken.",
+      "SAME_PASSWORD_ERROR": "U kunt geen wachtwoord gebruiken dat u eerder hebt gebruikt. Voer een nieuw wachtwoord in.",
+      "RECOMMENDATION_1": "Minimale lengte 15 tekens",
+      "RECOMMENDATION_2": "2 kleine letters vereist",
+      "RECOMMENDATION_3": "2 hoofdletters vereist",
+      "RECOMMENDATION_4": "2 cijfers vereist",
+      "RECOMMENDATION_5": "2 speciale tekens vereist"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Audio-equalizer",
+      "DESCRIPTION": "Schuifregelaars voor hoge en lage tonen ophalen en instellen. "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Door hieronder op Ik ga akkoord te klikken, stemt u ermee in dat op het gebruik van deze software de voorwaarden van toepassing zijn van de ",
+      "EULA_LINK": "Licentieovereenkomst voor de eindgebruiker van Poly",
+      "EULA_I_ACCEPT": "Ik ga akkoord met de licentieovereenkomst voor eindgebruikers",
+      "BEGIN_SETUP": "Installatie starten",
+      "PASSWORD_INVALID": "Het ingevoerde wachtwoord is onjuist. Voer het wachtwoord opnieuw in."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "Land",
+      "DEVICE_NAME": "Apparaatnaam",
+      "DEVICE_NAME_DESCRIPTION": "We raden u aan dit apparaat de naam te geven van de ruimte waarin het zich bevindt.",
+      "BEGIN_SETUP": "Installatie starten",
+      "PASSWORD_INVALID": "Het ingevoerde wachtwoord is onjuist. Voer het wachtwoord opnieuw in."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Audiotest",
+      "DESCRIPTION": "Het voltooien van de audiotest en het downloaden van de geluidsopnamen naar uw lokale schijf duurt enkele minuten. Klik op Test starten om het systeem audio te laten opnemen van alle audio-ingangspoorten: microfoon, USB en lijningang.",
+      "START_TEST": "Test starten",
+      "MODAL_TITLE": "Audio opnemen",
+      "MODAL_TIME": "Tijd:",
+      "DIALOG_TITLE": "Bestand met diagnostische gegevens opslaan",
+      "PLEASE_WAIT": "Wacht tot de diagnostische gegevens zijn opgeslagen.",
+      "STOP_RECORDING": "Stoppen"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "Verbinding verbreken op apparaat",
+      "DESCRIPTION": "Pas automatisch het geselecteerde gedrag toe als u de headset van de ingebouwde Poly-adapter loskoppelt.",
+      "HOLD_ACTIVE_CALL": "Een actieve oproep in de wacht zetten",
+      "LOCK_SCREEN": "Computerscherm vergrendelen",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Computerscherm vergrendelen en een actieve oproep in de wacht zetten",
+      "DO_NOTHING": "Niets doen"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Radioverbinding tussen headset en pc",
+      "DESCRIPTION": "Houd de radioverbinding met de pc actief nadat het gesprek is beëindigd.",
+      "ACTIVE_ONLY_DURING_CALL": "Alleen actief tijdens gesprek",
+      "ALWAYS_ACTIVE": "Altijd actief"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}Instellingen{{close_tag}}",
+    "NAME_LABEL": "Naam:",
+    "EMAIL_LABEL": "E-mail:",
+    "INVITED_BY_IT_ADMIN": "Een IT-beheerder",
+    "INVITED": "{{invited_by_email}} heeft u uitgenodigd om deel te nemen aan {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Account",
+      "login": {
+        "TITLE": "Uw account",
+        "DESCRIPTION_INTRO": "U bent momenteel niet aangemeld. Door u aan te melden, gaat u akkoord met onze",
+        "DESCRIPTION_TERMS": "Servicevoorwaarden",
+        "DESCRIPTION_AND": "en",
+        "DESCRIPTION_PRIVACY": "Privacybeleid"
+      }
+    },
+    "General": {
+      "TITLE": "Algemeen",
+      "startOnSystemStartup": {
+        "TITLE": "Poly Lens opstarten bij inschakelen",
+        "DESCRIPTION": "U staat Poly Lens toe om automatisch op te starten als u zich aanmeldt."
+      },
+      "startMinimized": {
+        "TITLE": "Toepassing geminimaliseerd starten"
+      },
+      "eulaAccepted": {
+        "TITLE": "EULA",
+        "DESCRIPTION": " Geaccepteerd door beheerder"
+      }
+    },
+    "Language": {
+      "TITLE": "Taal",
+      "LABEL": "Selecteer de taal die in deze toepassing wordt gebruikt."
+    },
+    "Softphone": {
+      "TITLE": "Softphone",
+      "MODULE_NAME": "Modulenaam",
+      "MODULE_VERSION": "Moduleversie",
+      "ENABLE": "Inschakelen",
+      "CONNECTED": "Verbonden",
+      "VIEW_ALL": "Alle ondersteunde softphones weergeven",
+      "targetSoftphone": {
+        "TITLE": "Doelsoftphone",
+        "DESCRIPTION": "Geeft de softphone aan die wordt gebruikt voor uitgaande oproepen en voor kiestonen (voor ondersteunde apparaten en softphone)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Mediaspeleractie bij inkomende oproep",
+        "DESCRIPTION": "Regelt het gedrag van mediaspelerapplicaties zoals iTunes en Windows Media Player wanneer u een softphoneoproep krijgt."
+      },
+      "table": {
+        "TITLE": "Softphones en mediaspelers | Compatibel met Poly"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Meldingen en apparaatwaarschuwingen",
+      "enableNotifications": {
+        "TITLE": "Bureaubladmeldingen en apparaatwaarschuwingen toestaan"
+      },
+      "wellness": {
+        "TITLE": "Gezondheid en welzijn",
+        "DESCRIPTION": "Voldoende drinken en regelmatig bewegen is van groot belang voor uw gezondheid op de korte en lange termijn, zeker als u voornamelijk zittend werk doet. Selecteer opties om de frequentie en tijd van meldingen aan te passen.",
+        "hydrationEnabled": "Herinnering om te drinken",
+        "visionEnabled": "Vision-pauzeherinnering",
+        "hydrationEnabledTitle": "Herinneringen om te drinken",
+        "visionEnabledTitle": "Vision-pauzeherinneringen"
+      },
+      "deviceAlerts": {
+        "TITLE": "Apparaatwaarschuwingen",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Apparaat ontkoppeld",
+        "lowBattery": "Batterij bijna leeg",
+        "deviceCharging": "Apparaat wordt opgeladen",
+        "deviceDisconnected": "Verbinding met apparaat verbroken",
+        "muteAlert": "Meldingsfunctie voor muten",
+        "deviceSoftwareUpdate": "Apparaatsoftware-update"
+      },
+      "softwareUpdate": {
+        "TITLE": "Software-update",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Software-update",
+      "softwareUpdate": {
+        "TITLE": "Versie van Poly Lens Desktop",
+        "SOFTWARE": "Software",
+        "UP_TO_DATE": "Uw versie is up-to-date",
+        "RELEASE_NOTES": "Release-opmerkingen weergeven",
+        "CHECKING_FOR_UPDATES": "Controleren op updates",
+        "UPDATE": "Update",
+        "UPDATE_AVAILABLE": "Leverbaar",
+        "DOWNLOADING": "Downloaden",
+        "CONTINUE": "Doorgaan",
+        "CONTINUE_DESC": "Selecteer {{open_tag}}Doorgaan{{close_tag}} om Poly Lens af te sluiten en de update te installeren.",
+        "DOWNLOAD_ERROR": "Er is een fout opgetreden bij het downloaden van de update. Controleer uw internetverbinding en probeer het opnieuw."
+      }
+    },
+    "About": {
+      "TITLE": "Info over",
+      "COPYRIGHT": "2022-2024 HP Inc. Alle rechten voorbehouden.",
+      "PRIVACY_POLICY": "Privacybeleid",
+      "EULA": "Licentieovereenkomst voor de eindgebruiker"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Pauzeren en hervatten",
+    "NO_ACTION": "Geen actie"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens-ondersteuning",
+    "TITLE_OTHER": "Contact opnemen met ondersteuning",
+    "QUICK_START_GUIDE": "Beknopte handleiding",
+    "USER_GUIDE": "Gebruikershandleiding",
+    "DEVICE_INFO_AND_LOGS": "Apparaatgegevens en -logboeken",
+    "CONTACT_SUPPORT": "Contact opnemen met ondersteuning",
+    "CONTACT_TYPE": "Telefoon, e-mail en online ondersteuning",
+    "DEVICE_INFO": "Apparaatgegevens",
+    "APP_INFO": "Toepassingsinformatie",
+    "DEVICE_MODEL": "Apparaatmodel",
+    "SERIAL_NUMBER": "Serienummer",
+    "SOFTWARE_VERSION": "Softwareversie",
+    "COM_LIB_VERSION": "Versie apparaatcommunicatie",
+    "PID": "Product-id",
+    "LAST_CONNECTED": "Laatst verbonden",
+    "USER_ID": "Gebruikers-ID",
+    "TENANT_ID": "Tenant-id",
+    "APP_ID": "Toepassings-ID",
+    "GET_ACCESS": "Toegang tot directe en community-ondersteuning",
+    "GET_STARTED": "Aan de slag, documentatie en meer",
+    "POLY_SUPPORT_LINK": "Ga naar Poly Support",
+    "POLY_DOCUMENT_LINK": "Online Help voor Lens Desktop",
+    "DIAGNOSTICS": "Diagnose",
+    "DIAGNOSTICS_DESCRIPTION": "Als u hulp nodig hebt bij het oplossen van problemen, kunt u logbestanden downloaden en deze delen met Poly Support",
+    "DOWNLOAD_LOGS": "Logbestanden downloaden",
+    "SAVE_LOGS": "Logbestanden opslaan",
+    "NONE": "Geen",
+    "UNKNOWN": "Onbekend"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "weekdagen",
+    "Monday": "Maandag",
+    "Tuesday": "Dinsdag",
+    "Wednesday": "Woensdag",
+    "Thursday": "Donderdag",
+    "Friday": "Vrijdag",
+    "Saturday": "Zaterdag",
+    "Sunday": "Zondag",
+    "MON": "ma",
+    "TUE": "di",
+    "WED": "wo",
+    "THU": "do",
+    "FRI": "vr",
+    "SAT": "za",
+    "SUN": "zo",
+    "12:00 AM": "0:00 uur",
+    "1:00 AM": "1:00 uur",
+    "2:00 AM": "2:00 uur",
+    "3:00 AM": "3:00 uur",
+    "4:00 AM": "4:00 uur",
+    "5:00 AM": "5:00 uur",
+    "6:00 AM": "6:00 uur",
+    "7:00 AM": "7:00 uur",
+    "8:00 AM": "8:00 uur",
+    "9:00 AM": "9:00 uur",
+    "10:00 AM": "10:00 uur",
+    "11:00 AM": "11:00 uur",
+    "12:00 PM": "12:00 uur",
+    "1:00 PM": "13:00 uur",
+    "2:00 PM": "14:00 uur",
+    "3:00 PM": "15:00 uur",
+    "4:00 PM": "16:00 uur",
+    "5:00 PM": "17:00 uur",
+    "6:00 PM": "18:00 uur",
+    "7:00 PM": "19:00 uur",
+    "8:00 PM": "20:00 uur",
+    "9:00 PM": "21:00 uur",
+    "10:00 PM": "22:00 uur",
+    "11:00 PM": "23:00 uur",
+    "SHORT_LABELS": {
+      "12AM": "AM 12",
+      "4AM": "AM 4",
+      "8AM": "AM 8",
+      "12PM": "PM 12",
+      "4PM": "PM 4",
+      "8PM": "PM 8"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12am",
+      "1am": "1am",
+      "2am": "2am",
+      "3am": "3am",
+      "4am": "4am",
+      "5am": "5am",
+      "6am": "6am",
+      "7am": "7am",
+      "8am": "8am",
+      "9am": "9am",
+      "10am": "10am",
+      "11am": "11am",
+      "12pm": "12pm",
+      "1pm": "1pm",
+      "2pm": "2pm",
+      "3pm": "3pm",
+      "4pm": "4pm",
+      "5pm": "5pm",
+      "6pm": "6pm",
+      "7pm": "7pm",
+      "8pm": "8pm",
+      "9pm": "9pm",
+      "10pm": "10pm",
+      "11pm": "11pm"
+    },
+    "1 minute": "Elke minuut",
+    "30 minutes": "Elke half uur",
+    "1 hour": "Elk uur",
+    "3 hours": "Elke 3 uur"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Onbeschikbaar",
+    "SELECT_PLACEHOLDER": "Selecteren"
+  }
+}

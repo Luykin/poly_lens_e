@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "设备必须连接到网络才能进行配置",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "退出设备设置",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "设备设置未完成。",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "完成设置前无法使用 {{deviceName}}。未保存进度。",
+  "EXIT_SETUP": "退出设置",
+  "GET_STARTED": "开始使用",
+  "NETWORK": "网络",
+  "PROVISIONING": "预配置",
+  "COMPLETE": "安装完成",
+  "BUTTON_BACK": "返回",
+  "BUTTON_SKIP": "跳过",
+  "BUTTON_NEXT": "下一页",
+  "BUTTON_FINISH": "完成",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "{{deviceName}} 设置完成！",
+  "PROVISION_DEVICE_MODAL_TITLE": "设备预配置",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "预配置",
+  "POSTPONE_DFU_MESSAGE": "您的设备有可用的更新。完成这些更新需要几分钟时间。请勿在更新过程中断开设备连接。",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "您的 {{deviceName}} 有可用的更新。完成此次更新需要几分钟时间。请勿在更新过程中断开设备连接。",
+  "UPDATE_NOW": "立即更新",
+  "ASK_ME_LATER": "稍后再询问我",
+  "AUDIO_RECORDING_START": "音频录制开始",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "{{deviceName}} 更新延迟 1 小时",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "{{deviceName}} 更新延迟 {{hours}} 小时",
+  "PLAY_GREETING_NAME": "播放问候语",
+  "PLAY_GREETING_DESCRIPTION": "选择接听来电时播放的语音文件。",
+  "SELECT_FILE": "选择文件",
+  "ACOUSTIC_FENCE": {
+    "OFF": "关",
+    "NARROW": "窄",
+    "MEDIUM": "中",
+    "WIDE": "宽",
+    "CAMERA_VIEW": "匹配摄像头视图"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "迈出重要的第一步...",
+    "I_AGREE": "我同意",
+    "POLY_EULA": "Poly 博诣最终用户许可协议",
+    "CLOSE": "关闭",
+    "PROCEED": "继续"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "优秀实践",
+    "MENU": {
+      "HEADSET": "耳机",
+      "CAMERA": "摄像头",
+      "DESK_SETUP": "工作站设置"
+    },
+    "NEXT": {
+      "NEXT": "下一步：",
+      "TITLE": "优秀实践",
+      "LEARN_MORE": "了解更多"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "接受",
+    "APPLY": "应用",
+    "CANCEL": "取消",
+    "CONTINUE": "继续",
+    "DECLINE": "拒绝",
+    "DONE": "完成",
+    "LOG_IN": "登录",
+    "LOG_OUT": "注销",
+    "OK": "确认",
+    "RETRY": "重试",
+    "SHOW_LESS": "缩略显示",
+    "JOIN": "加入",
+    "JOINING": "正在加入",
+    "CREATE": "制定",
+    "INSTALL": "安装",
+    "CHOOSE_FILE": "选择“文件”",
+    "DELETE": "删除",
+    "CLOSE": "关闭",
+    "SELECT_FILE": "选择文件",
+    "FEEDBACK": "反馈"
+  },
+  "REQUIRED": "必填",
+  "OPTIONAL": "可选",
+  "Download": "下载",
+  "Upload": "上传",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "无法成功完成操作。请重试。",
+  "RECEIVING_SETTINGS": "接收设置",
+  "GENERAL": {
+    "BACK": "返回",
+    "CANCEL": "取消",
+    "CLOSE": "关闭",
+    "COMING_SOON": "即将上市",
+    "DOWNLOAD": "下载",
+    "DOWNLOADING": "下载中",
+    "LOADING": "正在载入",
+    "FEEDBACK": "反馈",
+    "HOME": "家",
+    "OK": "确认",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "添加新设备",
+    "EDIT_NAME": "编辑名称",
+    "DELETE": "删除",
+    "RESTORE_DEFAULTS": "恢复默认",
+    "SEARCH_SETTINGS": "搜索设置",
+    "SUPPORT": "支持",
+    "UPLOAD": "上传",
+    "UPDATE": "更新",
+    "RETURN_HOME": "返回主屏幕",
+    "VERSION": "版本",
+    "RECORDING": "录像",
+    "RECOVER": "恢复"
+  },
+  "FTU": {
+    "WELCOME_TO": "欢迎来到",
+    "WELCOME_1": "让我们帮助您获得出色的 Poly Lens 体验。",
+    "CONNECTIVITY": {
+      "HEADER": "连接",
+      "TITLE": "Poly Lens 可管理您的设备"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "优秀实践",
+      "TITLE": "Poly Lens 能够改善桌面体验"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "健康与幸福",
+      "TITLE": "Poly Lens 悉心照顾您"
+    },
+    "EXPLORE": {
+      "BUTTON": "以访客身份继续"
+    },
+    "GET_STARTED": {
+      "BUTTON": "登录"
+    },
+    "GETTING_STARTED": "使用入门",
+    "LOGIN_CARD": {
+      "TITLE": "立即开始使用！",
+      "DESCRIPTION": "登录 Lens Desktop，以便 Poly 博诣和您的组织可为您提供最佳设备体验。"
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "安装",
+      "DESCRIPTION": "调节显示器，使视线与屏幕的上三分之一平齐。将您的摄像头安装在显示器的中央。"
+    },
+    "CENTERING": {
+      "TITLE": "置于中心位置",
+      "DESCRIPTION": "您处于摄像头视野中心时面貌最佳。确保您的面部清晰可见，无裁剪。试着调整自己的位置，让别人可看见您衬衫领子以下至少 15 厘米的部位。"
+    },
+    "LIGHTING": {
+      "TITLE": "照明",
+      "DESCRIPTION": "照明条件是让您在摄像头中展现出良好面貌的关键。日光属于可变光源，会与会议室内部的照明光源产生冲突。如有可能，请调整工作站位置，使窗户位于显示器后方，并避开您背后的强光源。关掉顶灯可使照明效果达到最佳。"
+    },
+    "BACKGROUND": {
+      "TITLE": "背景",
+      "DESCRIPTION": "背景物品可以让视频通话更有人情味，但是要确保您是主要焦点。如果不确定的话，您只需知晓：减少背景物品能起到改善的作用。"
+    },
+    "NEXT": {
+      "SUBTITLE": "工作站设置"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "连接检查清单",
+    "POWER": {
+      "TITLE": "检查电源开关",
+      "DESCRIPTION": "电源开关是否打开？"
+    },
+    "BLUETOOTH": {
+      "TITLE": "检查蓝牙适配器",
+      "DESCRIPTION": "适配器末端是否有蓝灯亮起？有时，当您拔出适配器再插入时，会连接到耳机。"
+    },
+    "SUPPORT": {
+      "TITLE": "联系支持人员。",
+      "DESCRIPTION": "仍有问题？",
+      "LINK": {
+        "TEXT": "联系支持人员。"
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "工作站",
+      "DESCRIPTION": "确保您的工作站下方是空的，有足够的腿部伸展空间。如果工作站高度无法调整，您可以升高或降低椅子，并在必要时使用搁脚凳。"
+    },
+    "KEYBOARD": {
+      "TITLE": "键盘",
+      "DESCRIPTION": "确保您可以在放松肩部的同时把手搭到键盘上，并保持前臂与地面平行。  试着保持手腕平直，尽量减少弯曲。"
+    },
+    "CHAIR": {
+      "TITLE": "座椅",
+      "DESCRIPTION": "选择能够支撑您的脊柱的座椅。调节座椅高度，使脚放松踩在地面上，大腿与地面平行。调节扶手，使手臂能够轻轻放在上面，肩部放松。"
+    },
+    "FEET": {
+      "TITLE": "脚",
+      "DESCRIPTION": "确保您的双脚可以放松踩在地面上。如果您的座椅太高，或者工作站的高度使您需要升高座椅，则使用搁脚凳。"
+    },
+    "MONITOR": {
+      "TITLE": "显示器",
+      "DESCRIPTION": "将显示器放置在您的正前方，与您相距一只手臂的长度。将显示器置于距离您眼睛 45 至 70 厘米的位置，并使屏幕顶部与您的视线齐平或稍低于您的视线。"
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "耳机",
+    "USB_ADAPTER": "USB 适配器",
+    "CUSTOM_SOFTWARE_UPDATE": "自定义软件更新：",
+    "LOGS": "日志：",
+    "PID": "PID：",
+    "SAVE_LOGS": "保存日志",
+    "SELECT_SOFTWARE_UPDATE": "选择软件更新",
+    "SERIAL_NUMBER": "序列号：",
+    "SOFTWARE_VERSION": "软件版本：",
+    "COUNTRY": "国家或地区：",
+    "LENS_ACCOUNT": "Poly Lens 帐户：",
+    "HARDWARE_VERSION": "硬件版本：",
+    "HARDWARE_REVISION": "硬件版本：",
+    "ADDITIONAL_HARDWARE_REVISION": "耳机硬件版本：",
+    "MAC_ADDRESS": "Mac 地址：",
+    "IP_ADDRESS": "IP 地址：",
+    "DEVICE_DIAGNOSTIC_CODE": "设备诊断代码：",
+    "CRASH_REPORTS": "崩溃报告：",
+    "SAVE_CRASH_REPORTS": "保存崩溃报告"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "见解",
+    "CHART": {
+      "TITLE": "使用",
+      "SERIES_NAME": "总使用量"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "延迟（毫秒）",
+      "NETWORK_SPEED": "网速 (Mbps)",
+      "RUNNING": "跑步",
+      "START_TEST": "运行测试",
+      "TEST_AGAIN": "重新测试",
+      "TEST_RESULTS": "测试结果",
+      "TITLE": "网络诊断测试",
+      "NO_CONNECTION": "您似乎处于离线状态。只有在连接互联网时才能执行网络测试。",
+      "SUBTEXT": "网络诊断测试是一种商业预览功能。"
+    }
+  },
+  "EE": {
+    "PAUSED": "已暂停",
+    "CONTINUE": "按下空格键以继续。",
+    "FIRE": "SHIFT 键 - Fire",
+    "MOVE": "箭头键 - 移动",
+    "PAUSE": "空格键 - 暂停",
+    "EXIT": "ESC 键 - 退出",
+    "START": "按下空格键开始。",
+    "DONE": "不错。很好。",
+    "TRY_AGAIN": "按下空格键重试。"
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "头带调节",
+      "DESCRIPTION": "为了正确佩戴，应调节头带，使耳机的耳罩将您的双耳居中包裹或者盖在您的双耳上，并确保耳机不会太紧或太松。查看耳机用户指南，以获得详细的调节说明。"
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "麦克风杆的形状",
+      "DESCRIPTION": "Poly 博诣的麦克风杆可弯曲，便于定位。如果您的耳机配有麦克风杆，请将麦克风置于距离您嘴巴 5 厘米的位置。"
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "麦克风杆调节",
+      "DESCRIPTION": "如果您的耳机上配有麦克风杆，那么您可以旋转麦克风杆，在佩戴耳机时使其位于左侧或者右侧。确保接听电话时，麦克风杆朝向您的嘴巴，而不是朝上。"
+    },
+    "NEXT": {
+      "SUBTITLE": "摄像头"
+    }
+  },
+  "HOME": {
+    "TITLE": "您好，{{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "{{open_tag}}访客{{close_tag}}，您好",
+    "GO_TO_DETAIL": "转至详情",
+    "CONNECT_A_DEVICE": "连接设备，以开始使用。",
+    "NOT_SEEING_DEVICE": "没有看到您的设备？",
+    "SUBMIT_FEEDBACK": "提交反馈",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "见解",
+        "DESCRIPTION": "检查您的设备使用情况和工作站连接。"
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "健康与幸福",
+        "DESCRIPTION": "获得水分摄入和休息的提醒。播放音景以改善注意力。"
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "优秀实践",
+        "DESCRIPTION": "优化摄像头，了解如何使您的工作空间更加符合人体工程学。"
+      },
+      "SUPPORT": {
+        "TITLE": "Poly 博诣支持",
+        "DESCRIPTION": "遇到问题？让我们来为您提供帮助。"
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "粤语",
+    "1030": "丹麦语",
+    "2057": "英语（英国）",
+    "1033": "英语（美国）",
+    "1036": "法语",
+    "1031": "德语",
+    "1040": "意大利语",
+    "1041": "日语",
+    "1042": "韩国语",
+    "1045": "波兰语",
+    "2052": "普通话",
+    "1044": "挪威语",
+    "2068": "挪威语",
+    "1049": "俄语",
+    "1034": "西班牙语",
+    "1053": "瑞典语",
+    "16393": "印度英语",
+    "1057": "印度尼西亚语",
+    "1054": "泰语",
+    "1046": "巴西葡萄牙语"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "激活",
+    "INACTIVE": "未激活",
+    "TITLE": "NoiseblockAI 技术",
+    "DESCRIPTION": "NoiseBlockAI 人工智能噪音屏蔽技术旨在防止非人声噪音（如敲击键盘声或翻动纸张声）影响会议，并会在多次监听到无人说话却仍有声音时，自动将您的麦克风静音。当您再次开始讲话时，麦克风便会取消静音。",
+    "FOR_INCOMING_DESCRIPTION": "防止对话远端发出的干扰噪音（如敲击键盘声或翻动纸张声）干扰会议。",
+    "FOR_INCOMING_TITLE": "适用于传入音频的 Poly NoiseBlockAI 人工智能噪音屏蔽技术",
+    "FOR_OUTGOING_DESCRIPTION": "防止周围环境中的干扰噪音（如敲击键盘声或翻动纸张声）干扰会议。",
+    "FOR_OUTGOING_TITLE": "适用于传输音频的 Poly NoiseBlockAI 人工智能噪音屏蔽技术",
+    "SEE_HOW_WORKS": "了解其工作原理"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "正在充电",
+      "STOPPED": "停止充电"
+    },
+    "MUTE": {
+      "ON": "Mute On（静音开）",
+      "OFF": "Mute Off（静音关）"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "有可用软件更新 {{build}}。"
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "有可用设备更新"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "未找到设备",
+      "MESSAGE": "糟糕。出现问题。请重试。"
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "页面找不到",
+      "MESSAGE": "糟糕。出现问题。请重试。"
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens 需要具有权限才可访问您的摄像头。若要启用，请在系统设置中授权 Poly Lens 访问您的摄像头。"
+    },
+    "BUTTON": {
+      "CLOSE": "关闭"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "设备已断开连接"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "电池电量不足"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "欢迎使用 Studio P21",
+      "CONTENT": "要使用 Studio P21，您将需要为显示屏下载其他软件。",
+      "BUTTON": "下载"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "欢迎使用全新 Studio P21！",
+      "CONTENT": "欢迎使用全新 Studio P21！在使用新设备之前，您需要为显示屏安装其他软件",
+      "BUTTON_DOWNLOAD": "请从此处下载",
+      "BUTTON_MORE_INFO": "更多信息"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "已检测到 {{deviceName}}打开 Poly Lens 设置此设备。"
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "已成功加载其他语言功能。"
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "您的屏幕将在 5 秒钟内锁定。将耳机重新连接到内嵌式控制以继续工作。"
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "已成功保存配置。",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "未成功保存配置。",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "已成功应用 NTP 服务器配置。",
+    "CHANGE_NTP_SETTINGS_FAILED": "无法应用 NTP 服务器配置。",
+    "COPIED_TO_CLIPBOARD": "已复制到剪贴板",
+    "SAVE_CSR_FILE_SUCCESS": "已成功保存 CSR 文件。",
+    "SAVE_CSR_FILE_FAILED": "未成功保存 CSR 文件。",
+    "FILE_READ_FAILED": "无法读取此文件。",
+    "CERTIFICATE_INSTALL_SUCCESS": "已成功安装证书。",
+    "CERTIFICATE_INSTALL_FAILED": "无法安装证书。",
+    "CERTIFICATE_DELETE_SUCCESS": "已成功删除证书。",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "密码更新成功。",
+    "CONFIG_EXPORT_FAILED": "导出失败。请重试。",
+    "CONFIG_IMPORT_FAILED": "导入失败。请重试。",
+    "CONFIG_EXPORT_SUCCEEDED": "导出成功。",
+    "CONFIG_IMPORT_SUCCEEDED": "导入成功。",
+    "AUDIO_DIAGNOSTIC_FAILED": "音频诊断失败。请重试。",
+    "WIFI_JOIN_ERROR": "无法加入网络。请检查凭据，然后重试。",
+    "CRASH_REPORTS_SUCCESS": "已下载崩溃报告。",
+    "CRASH_REPORTS_FAILED": "未找到崩溃报告。",
+    "NETWORK_ERROR": "网络连接不可用。在连接恢复之前，某些功能可能会受到限制。"
+  },
+  "DETAIL": {
+    "AUTO": "自动",
+    "TITLE": "详情页",
+    "BACK_TO_HOME": "返回住宅",
+    "CAMERA": "摄像头",
+    "CONTROLS": "控件",
+    "EXPAND": "展开",
+    "LINK": "链接",
+    "UNLINK": "取消链接",
+    "CONTRACT": "缩小",
+    "GRID": "网格",
+    "SETTINGS": "首选项",
+    "FAVORITES": "收藏夹",
+    "FAVORITE_DELETE_CONFIRM": "是否确实要删除收藏夹“{{favoriteName}}”？",
+    "FAVORITE_NUMBER": "收藏夹 {{number}}",
+    "FAVORITE_SAVE_AS": "另存为新收藏夹",
+    "FAVORITES_SAVED": "已录制",
+    "FAVORITE_COPY": "{{favoriteName}} 副本",
+    "NOISEBLOCKAI": "NoiseblockAI 技术",
+    "PREVIEW_CLICK_SHOW": "单击下方的“显示”图标，开始预览。",
+    "PREVIEW_SHOW": "显示",
+    "PREVIEW_HIDE": "隐藏",
+    "PREVIEW_HIDDEN": "预览已隐藏",
+    "PREVIEW_WINDOWS_NOTICE": "启用预览后，其他应用程序将无法使用此摄像头。",
+    "PREVIEW_CONTROLS_READ_ERROR": "另一个应用程序正在使用此摄像头。{{line_feed}}请关闭它以启用预览和设置。{{line_feed}}{{line_feed}}如果仍无法启用，请确保其他应用程序未在后台运行。",
+    "SNAPSHOT": "快照",
+    "SNAPSHOT_SAVE": "保存快照",
+    "SNAPSHOT_SAVED_SUCCESS": "快照已成功保存。",
+    "SNAPSHOT_SAVED_FAIL": "快照未保存。",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "快照",
+    "SANDBOX": "测试最爱",
+    "IT_MANAGED": "IT 托管",
+    "HEADSET": "耳机",
+    "SUPPORT": "支持",
+    "USB_ADAPTER": "USB 适配器",
+    "CHARGING_CASE": "便携袋",
+    "CHARGING_CASE_NAME": "充电盒",
+    "DEVICES": "设备",
+    "OVERVIEW": {
+      "OVERVIEW": "概述",
+      "BATTERY_LABEL": "电池：",
+      "BATTERY_CRITICAL": "至关重要",
+      "WIFI_LABEL": "网络：",
+      "PROVISION_LABEL": "预配置：",
+      "PROVISION_AUTO": "通用",
+      "PROVISION_OFF": "预配置",
+      "PROVISION_NOT_SET_UP": "未设置",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "设备将正常工作，但无法进行远程管理",
+      "SET_PROVISION": "单击以设置预配",
+      "STATUS_LABEL": "状态：",
+      "HEADSET_STATUS_LABEL": "耳机：",
+      "FIRMWARE_LABEL": "软件：",
+      "CONNECTED": "已连接",
+      "NOT_CONNECTED": "未连接",
+      "DISCONNECTED": "已断开连接",
+      "PAIRING_MODE": "配对蓝牙音频",
+      "PAIR_REMOTE": "配对蓝牙遥控",
+      "USB_PAIRING_MODE": "配对新设备",
+      "MAKE_PRIMARY": "构建主设备",
+      "DELETE_DEVICE": "删除设备",
+      "TROUBLE_CONNECTING": "连接您的设备时遇到问题？",
+      "AVAILABLE_FIRMWARE": "可用：",
+      "SAVE_BUTTON": "写入",
+      "CANCEL_BUTTON": "取消",
+      "RENAME_DEVICE": "重命名",
+      "DEVICE_NAME": "名称：",
+      "RECOVERY_MODE": "恢复模式",
+      "POLICY_UPDATE_NOTE": "贵组织要求此设备使用特定版本的软件。请尽快更新。",
+      "CASE_UPDATE_NOTE": "连接 USB 线缆以更新充电盒"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "检测到设备",
+      "SETUP_REQUIRED": "设备使用所需的设置。",
+      "IMPORT_CONFIGURATION": "导入配置",
+      "BEGIN_SETUP": "开始设置",
+      "MODAL": {
+        "TITLE": "导入配置",
+        "DESCRIPTION": "输入要加入网络的名称和安全类型。",
+        "LABEL_INPUT": "设备名称",
+        "INPUT_PLACEHOLDER": "可选",
+        "INPUT_RECOMMENDATION": "我们建议根据设备所在的房间或会议空间命名该设备。"
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "单击下面的“我接受”即表明您承认并同意您使用此软件遵守 ",
+      "EULA_LINK": "Poly 博诣最终用户许可协议",
+      "EULA_I_ACCEPT": "我接受《最终用户许可协议》",
+      "BEGIN_SETUP": "开始设置",
+      "PASSWORD_INVALID": "您输入的密码无效。请再次输入密码。"
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "打开",
+      "NO_DEVICES": "没有已连接的设备。",
+      "QUIT": "退出 Poly Lens",
+      "SOUNDSCAPING": "音景",
+      "MDA_AUDIO_RECORDING": "启用静音录音功能",
+      "MDA_AUDIO_RECORDING_START": "录制语音备忘录",
+      "MDA_AUDIO_RECORDING_STOP": "停止录制语音备忘录",
+      "OFF": "关"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "健康与幸福",
+    "SOUNDSCAPING": {
+      "TITLE": "音景",
+      "ENABLE_SOUNDSCAPES": "启用音景",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "在您的环境中添加音景",
+          "DESCRIPTION": "令人舒心的环境可以有效防止分心。音景选项包括瀑布、风、溪流、森林和海浪等大自然的声音。这些亲近大自然的策划音效有助于舒缓压力，改善注意力。"
+        }
+      },
+      "MOUNTAIN_RANCH": "山地牧场",
+      "GENTLE_OCEAN": "平静海面",
+      "BABBLING_BROOK": "潺潺溪流",
+      "AT_VOLUME": "音量"
+    },
+    "HYDRATION": {
+      "TITLE": "摄入水分",
+      "REMINDERS": "摄入水分提醒",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "喝水",
+          "DESCRIPTION": "男性每天需饮 3.7 升水，女性每天需饮 2.7 升水，方可保持充足水分。",
+          "SOURCE_LINK_LABEL": "来源",
+          "SOURCE": "美国国家科学、工程和医学院"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "喝水休息的时间",
+        "BODY": "充足的水分可改善睡眠质量、提高认知水平，保持良好情绪。"
+      }
+    },
+    "VISION": {
+      "TITLE": "愿景",
+      "REMINDERS": "眼睛休息提醒",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "视线离开屏幕",
+          "DESCRIPTION": "视线离开屏幕时建议遵循 20-20-20 规则，即每 20 分钟看向 6 米以外的物体 20 秒，这是一个好的做法。"
+        },
+        "TAKE_BREAK": {
+          "TITLE": "活动一下身体",
+          "DESCRIPTION": "20-20-20 规则是一个良好的开始，但是请确保离开您的工作场地，走到室外，做伸展活动或修习正念。"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "休息时间",
+        "BODY": "适当休息可以提高注意力、工作效率和工作质量"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "设置提醒频率",
+    "REMINDER_SCHEDULE": "{{days}} 的 {{timeSpan}}（{{startTime}} 到 {{endTime}}）",
+    "FREQUENCY": "频率",
+    "TIME_RANGE": "时间范围",
+    "WEEKDAYS": "工作日（星期一至星期五）",
+    "WEEKDAYS_SHORT": "工作日",
+    "EVERY_DAY": "每天",
+    "CUSTOM": "自定义",
+    "ON": "开",
+    "LEARN_MORE": "了解更多",
+    "NEXT": "下一页",
+    "THROUGH": "至"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Acoustic Fence 拾音魔墙技术工作原理",
+      "TITLE": "Acoustic Fence 拾音魔墙技术工作原理",
+      "DESCRIPTION": "Acoustic Fence 拾音魔墙技术采用高级回音消除技术并配备多个麦克风建立虚拟音墙。该技术减少了音墙外的声音对您通话的干扰，比如同事的闲聊声。{{line_feed}}为获得最佳体验，请搭配使用 Poly NoiseBlockAI 人工智能噪音屏蔽技术，消除非语音背景噪音，尤其是键盘声、纸张的沙沙声，甚至狗叫声。"
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "NoiseBlockAI 人工智能噪音屏蔽技术工作原理",
+      "TITLE": "NoiseBlockAI 人工智能噪音屏蔽技术工作原理",
+      "DESCRIPTION": "NoiseBlockAI 人工智能噪音屏蔽技术旨在通过使用基于机器学习的噪音抑制技术来减少环境中和通话远端的背景噪音干扰，从而防止非人声噪音（如敲击键盘声或翻动纸张声）影响会议。{{line_feed}}当您没有说话时，NoiseBlockAI 人工智能噪声屏蔽技术会自动将您的麦克风静音，防止背景噪音干扰通话。"
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "恢复默认",
+      "CONFIRM_MESSAGE": "此操作将恢复设备的所有出厂默认设置。",
+      "COMPLETE_TITLE": "设置已保存！",
+      "COMPLETE_MESSAGE": "请记得拔出（如果通过 USB 连接）耳机，并将其关闭/打开，以使新设置生效。",
+      "COMPLETE_MESSAGE_NO_REPLUG": "为了完成此过程，您的设备可能会立即重启。"
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "重启设备",
+      "CONFIRM_MESSAGE": "此操作会立即重新启动您的设备。"
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "恢复默认",
+      "CONFIRM_MESSAGE": "此操作将恢复 Lens 的所有默认设置。"
+    },
+    "AUDIO_TEST": {
+      "TITLE": "音频标题",
+      "CONFIRM_MESSAGE": "音频确认消息。"
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "了解有关防惊吓功能的更多信息",
+      "TITLE": "有关 Anti-Startle",
+      "INTRO": "提供 2 个或 3 个防惊吓保护选项，具体视产品而定：",
+      "G616": "G616",
+      "G616_DESCRIPTION": "作为澳大利亚声震保护的行业准则，G616 对传入耳中的音量级别做出了限定，防止高音量造成的意外冲击。",
+      "G616_POLY_ENHANCED": "G616（经过 Poly 博诣强化）",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Poly 博诣专有算法不只提供 G616 保护功能，还能消除突然提高的音量并立即将其降低，以确保舒适的聆听效果，同时保持音频的完整性。",
+      "OFF": "关",
+      "OFF_DESCRIPTION": "此设置被禁用时，耳机会将未过滤的音频直接传入耳中，但会继续将声音级别限定为 118 dBA 来保护您的听力。",
+      "NOTE": "注意",
+      "NOTE_DESCRIPTION": "此选项取决于产品。",
+      "MORE_INFO": "有关该功能的更多信息，请访问"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "查找并加入 Wi-Fi 网络",
+      "NETWORK_NAME": "网络名称",
+      "DESCRIPTION": "输入要加入网络的名称和安全类型。",
+      "PASSWORD_TITLE": "为 {{networkName}} 网络添加密码",
+      "SECURITY": "安全性",
+      "EAP_METHOD": "EAP 方法",
+      "PHASE2": "第 2 阶段身份验证",
+      "CA_CERTIFICATE": "CA 证书",
+      "USER_CERTIFICATE": "用户证书",
+      "IDENTITY": "身份",
+      "ANONYMOUS_IDENTITY": "匿名标识",
+      "PASSWORD": "密码",
+      "IP_SETTINGS": "IP 设置",
+      "STATIC": "静态",
+      "SHOW_ADVANCED": "显示高级设置",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP 地址",
+      "GATEWAY": "网关",
+      "SUBNET_MASK": "子网掩码",
+      "DNS1": "DNS 地址 1",
+      "DNS2": "DNS 地址 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "管理已知网络",
+      "NO_NETWORKS": "没有已知网络。请连接。"
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "创建证书签名请求",
+      "DESCRIPTION": "为证书请求指定以下信息。",
+      "COUNTRY": "国家/地区",
+      "STATE": "州或省",
+      "CITY": "城市或地区",
+      "ORGANIZATION": "组织",
+      "ORGANIZATION_UNIT": "组织单位",
+      "COMMON_NAME": "通用名",
+      "SAVE_FILE_TITLE": "保存证书签名请求文件"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "安装证书",
+      "TYPE": "类型",
+      "CERTIFICATE": "证书",
+      "CHOOSE_FILE_TITLE": "选择“文件”"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "证书详情",
+      "PASSWORD_ERROR": "您输入的密码无效。请再次输入密码。",
+      "PASSWORD": "私钥密码："
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "这是您的主设备。",
+    "MAKE_DEVICE_MAIN": "将此设备设置为主设备。",
+    "DEVICE_NOT_SUPPORTED": "设备支持即将推出。应用程序内功能可能会受到限制。",
+    "DISABLED_BY_ADMIN": "您的管理员已禁用此功能"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "软件组件",
+    "VIEW_LIST_OF_COMPONENTS": "查看 {{numberOfComponents}} 个组件",
+    "VIEW_ONE_COMPONENT": "查看 1 个组件",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "调谐",
+    "BASE": "底座",
+    "HEADSET": "耳机",
+    "BLUETOOTH": "蓝牙",
+    "SETID": "SetId",
+    "CAMERA": "摄像头"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "即将完成！",
+    "REPLUG_DESCRIPTION": "拔掉设备并重新连接，然后单击“继续”完成更新。",
+    "UPDATE_WARNING_1": "完成此次更新需要几分钟。",
+    "UPDATE_WARNING_2": "{{open_tag}}请勿在更新过程中断开设备连接。{{close_tag}}",
+    "UPDATE_WARNING_3": "请先确保其他应用程序未使用您的摄像头，然后再继续进行此软件更新。",
+    "DISTANCE_WARNING.TITLE": "准备好进行更新",
+    "DISTANCE_WARNING_1": "在更新过程中，请将您的 {{open_tag}}{{device_name}}{{close_tag}} 保持在与计算机相距 1.5 米的范围内。",
+    "DISTANCE_WARNING_2": "断开任何其它蓝牙连接（例如，手机），以避免中断更新。",
+    "LANGUAGE_DOWNLOAD": "语言下载",
+    "DOWNLOADING_LANGUAGE": "正在下载语言",
+    "LANGUAGE_UPDATE": "语言更新",
+    "UPDATEING_LANGUAGE": "正在更新语言",
+    "LANGUAGE_UPDATED": "语言已更新",
+    "SOFTWARE_DOWNLOAD": "软件下载",
+    "DOWNLOADING_SOFTWARE": "正在下载软件",
+    "SOFTWARE_UPDATE": "软件更新",
+    "UPDATING_SOFTWARE": "正在更新软件",
+    "SOFTWARE_INSTALLED": "软件安装",
+    "CUSTOM_SOFTWARE_UPDATE": "自定义软件更新",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "正在上传自定义软件更新",
+    "CUSTOM_SOFTWARE_INSTALLED": "自定义软件已安装",
+    "DEVICE_RECOVERY": "设备恢复",
+    "RECOVERING_DEVICE": "恢复设备",
+    "DEVICE_RECOVERED": "设备已恢复",
+    "UPDATE_FAILED": "软件更新失败",
+    "UPDATE_FAILED_TITLE": "糟糕。我们遇到了问题。",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "软件更新未成功完成。",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "软件已是最新",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "您试图更新的设备已安装了最新软件。",
+    "PREREQUISITES": {
+      "BatteryLowError": "电池电量不足以执行更新。请先为 {{deviceName}} 电池充电，然后再进行更新。",
+      "DeviceNotConnectedError": "通过电缆连接 {{deviceName}}，以对其进行更新。",
+      "CallinProgressError": "通话期间无法更新 {{deviceName}}。",
+      "DFUInProgressError": "无法在进行其他更新时更新 {{deviceName}}。",
+      "MultipleDevicesError": "已连接两台或多台同一型号的设备。请先断开其他设备，然后再更新此设备。",
+      "ReplugDevice": "拔掉设备并重新连接，以完成软件更新。",
+      "CameraInUseError": "请确保摄像头预览被禁用，且任何其他应用都未激活麦克风和摄像头。",
+      "SingleEarbudError": "确保两个耳机已从充电盒中取出并连接，且电量超过 50%，才能更新。"
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "通用",
+    "DisplayControls": "显示屏控制",
+    "RingtoneAndVolume": "铃音和音量",
+    "Audio": "音频",
+    "SensorAndPresence": "传感器和状态",
+    "SoftphonesAndMediaPlayers": "网络电话和媒体播放器",
+    "Wireless": "无线",
+    "Advanced": "高级",
+    "ANC": "ANC",
+    "Firmware": "固件",
+    "Language": "语言",
+    "VoicePromptsAndTones": "语音提示和音调",
+    "Admin": "管理员",
+    "ResetHeadset": "重置设备",
+    "Lights": "状态",
+    "CustomButton": "自定义按钮",
+    "CustomSwipe": "自定义滑动传感器",
+    "Diagnostics": "诊断",
+    "SoftwareSettings": "软件设置"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "语言",
+      "description": "选择希望播报所有语音提示和警告的语言。比如说，希望采用哪种语言来播报“John 来电。”或“静音模式开启。”",
+      "serverNotReachable": "您现在无法更改语言，因为服务器不可用。",
+      "options": {
+        "3076": "粤语",
+        "1030": "丹麦语",
+        "2057": "英语 - 英国",
+        "1033": "英语 - 美国",
+        "1036": "法语",
+        "1031": "德语",
+        "1040": "意大利语",
+        "1041": "日语",
+        "1042": "韩国语",
+        "1045": "波兰语",
+        "2052": "普通话",
+        "1044": "挪威语 - 博克莫尔",
+        "2068": "挪威语 - 尼诺斯克语",
+        "1049": "俄语",
+        "1034": "西班牙语",
+        "1053": "瑞典语",
+        "16393": "英语 - 印度",
+        "1057": "印度尼西亚语",
+        "1054": "泰语",
+        "1046": "葡萄牙语 - 巴西"
+      }
+    },
+    "0x102": {
+      "name": "第二通信通道来电",
+      "description": "控制第二通信通道来电（例如正在接听网络电话时的手机来电）的响铃方式。",
+      "options": {
+        "ignore": "忽略",
+        "once": "响铃一次",
+        "continuous": "持续响铃"
+      }
+    },
+    "0x103": {
+      "name": "计算机音量",
+      "description": "",
+      "options": {
+        "off": "关",
+        "low": "低音量",
+        "standard": "标准音量"
+      }
+    },
+    "0x104": {
+      "name": "桌面电话音量",
+      "description": "",
+      "options": {
+        "off": "关",
+        "low": "低音量",
+        "standard": "标准音量"
+      }
+    },
+    "0x105": {
+      "name": "手机音量",
+      "description": "",
+      "options": {
+        "off": "关",
+        "low": "低音量",
+        "standard": "标准音量"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "选择 PC 网络电话的响铃铃声（适用型号还可选择音量）。",
+      "options": {
+        "sound1": "声音 1",
+        "sound2": "声音 2",
+        "sound3": "声音 3",
+        "off": "关"
+      }
+    },
+    "0x107": {
+      "name": "桌面电话",
+      "description": "选择桌面电话的响铃铃声（适用型号还可选择音量）。",
+      "options": {
+        "sound1": "声音 1",
+        "sound2": "声音 2",
+        "sound3": "声音 3",
+        "off": "关"
+      }
+    },
+    "0x108": {
+      "name": "移动电话",
+      "description": "选择移动设备的响铃铃声（适用型号还可选择音量）。",
+      "options": {
+        "sound1": "声音 1",
+        "sound2": "声音 2",
+        "sound3": "声音 3",
+        "off": "关"
+      }
+    },
+    "0x109": {
+      "name": "铃声",
+      "description": "播放您在已连接的设备接到电话时所听到的铃声（未配置为播放内置铃声）。"
+    },
+    "0x10A": {
+      "name": "底座响铃音量",
+      "description": "配置底座响铃音量。",
+      "options": {
+        "off": "关",
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x200": {
+      "name": "佩戴传感器",
+      "description": "开启此主设置可单独配置基于传感器的设置。"
+    },
+    "0x201": {
+      "name": "自动接听",
+      "description": "当您听到手机响铃并戴上耳机时自动接听来电。"
+    },
+    "0x202": {
+      "name": "智能音频传输",
+      "description": "取下耳机可将通话音频自动从耳机传输到移动设备。再次戴上耳机，即可将呼叫音频传回到耳机。"
+    },
+    "0x203": {
+      "name": "通话按钮锁",
+      "description": "锁定耳机的通话按钮，避免在您未戴耳机时意外回拨。"
+    },
+    "0x204": {
+      "name": "自动暂停音乐",
+      "description": "从耳朵摘下耳机时自动从移动设备暂停音频传输（戴上耳机则继续）。禁用持续播放传输的音频。"
+    },
+    "0x205": {
+      "name": "自动静音",
+      "description": "当您在通话期间取下耳机时，自动对耳机麦克风进行静音。"
+    },
+    "0x206": {
+      "name": "激活音频通话",
+      "description": "选择当您在通话期间取下耳机时，您希望耳机执行的操作。",
+      "options": {
+        "doNothing": "无操作",
+        "transferAudioToMobile": "将音频转接至手机",
+        "muteMic": "使麦克风静音"
+      }
+    },
+    "0x300": {
+      "name": "自动应答（无传感器）",
+      "description": "在从充电支架上取下耳机时自动接听来电。如果设置为“关”，则按下通话控制按钮才会接听来电。"
+    },
+    "0x301": {
+      "name": "自动连接到移动电话",
+      "description": "当您的手机在底座的范围内时，将 Savi 底座自动重新连接到您的移动电话。"
+    },
+    "0x302": {
+      "name": "置于支架时自动断开连接",
+      "description": "在从充电支架上取下耳机时自动断开通话。"
+    },
+    "0x400": {
+      "name": "默认电话线路",
+      "description": "设置当您按下耳机通话控制按钮时手机所使用的呼出线路。",
+      "options": {
+        "pstn": "桌面电话",
+        "voip": "电脑",
+        "mobile": "移动设备"
+      }
+    },
+    "Bluetooth": {
+      "name": "蓝牙",
+      "description": "能够通过蓝牙连接到移动设备。"
+    },
+    "0x402": {
+      "name": "移动电话语音命令",
+      "description": "按下底座上的移动设备按钮，可将连接的移动设备设置为语音命令模式。"
+    },
+    "0xB05": {
+      "name": "来电提示",
+      "description": "当您接受来电时会听到语音提示。"
+    },
+    "0x913": {
+      "name": "待接提醒",
+      "description": "收到一个有用提醒，通知您有一个来电等待接听。"
+    },
+    "0xB06": {
+      "name": "最小/最大音量提示",
+      "description": "选择达到最小音量和最大音量时听到的播报类型。",
+      "options": {
+        "voice": "语音",
+        "tone": "铃音"
+      }
+    },
+    "0x500": {
+      "name": "噪音接触量",
+      "description": "监测每日噪音接触量，以确保没有超过当前法规规定的所选操作值（80 dBA 或 85 dBA）。",
+      "options": {
+        "85db": "限制在 85 dBA",
+        "80db": "限制在 80 dBA",
+        "off": "无限制"
+      }
+    },
+    "0x501": {
+      "name": "每日通话小时数",
+      "description": "选择最能代表此设备使用情况的值，以提高“噪音接触量设置”的准确性。",
+      "options": {
+        "off": "关",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "防震",
+      "description": "智能算法可消除高音量产生的声震，即刻降低音量以确保听力保护和舒适的听觉效果。"
+    },
+    "0x505": {
+      "name": "防震",
+      "description": "G616 是针对声震保护的行业标准，限制传入耳中的音量级别，防止高音量造成惊吓。"
+    },
+    "0x600": {
+      "name": "接听/拒接",
+      "description": "当您收到手机来电时，会听到“接听”或“忽略”来电的语音提示。"
+    },
+    "0x601": {
+      "name": "电话通知",
+      "description": "通过耳机接听来电时，会听到“接听电话中”语音提示。"
+    },
+    "0x602": {
+      "name": "静音关提示",
+      "description": "当您的耳机麦克风静音和取消静音时听到的反馈。",
+      "options": {
+        "false": "铃音",
+        "true": "语音"
+      }
+    },
+    "0x603": {
+      "name": "静音提示定时",
+      "description": "设置播报静音提示的间隔分钟数。",
+      "options": {
+        "off": "关",
+        "1": "1 分钟",
+        "2": "2 分钟",
+        "3": "3 分钟",
+        "4": "4 分钟",
+        "5": "5 分钟",
+        "6": "6 分钟",
+        "7": "7 分钟",
+        "8": "8 分钟",
+        "9": "9 分钟",
+        "10": "10 分钟",
+        "11": "11 分钟",
+        "12": "12 分钟",
+        "13": "13 分钟",
+        "14": "14 分钟",
+        "15": "15 分钟"
+      }
+    },
+    "0x604": {
+      "name": "静音提示音音量",
+      "description": "设置静音提示音量。",
+      "options": {
+        "off": "关",
+        "low": "低音量",
+        "standard": "标准音量"
+      }
+    },
+    "0x607": {
+      "name": "静音开/关提示",
+      "description": "选择当您将耳机麦克风设为“静音”、“取消静音”或“收到静音提示”时，希望听到的提示类型。",
+      "options": {
+        "voice": "语音",
+        "singleTone": "一声音调",
+        "doubleTone": "两声音调"
+      }
+    },
+    "0x608": {
+      "name": "系统音调",
+      "description": "设置耳机音频提示音量。",
+      "options": {
+        "off": "关",
+        "low": "低音量",
+        "standard": "标准音量"
+      }
+    },
+    "0x609": {
+      "name": "音量级别音调",
+      "description": "调节音量时，会听到指示当前音量级别的音调。",
+      "options": {
+        "atEveryLevel": "每个级别",
+        "minMaxOnly": "仅最大和最小"
+      }
+    },
+    "0x60A": {
+      "name": "来电号码",
+      "description": "听到来电人姓名。"
+    },
+    "0x60C": {
+      "name": "进行中的音频的提示音",
+      "description": "听到简短的组合提示音，即表明音频信道已打开，且做好了通信准备。"
+    },
+    "0x60D": {
+      "name": "静音提示模式",
+      "description": "提醒您耳机在通话时已被静音。配置提醒的出现方式及时间。",
+      "options": {
+        "off": "关",
+        "timed": "基于时间",
+        "voiceAudible": "声音提醒",
+        "voiceVisible": "屏幕提醒",
+        "voiceVisibleAndAudible": "屏幕和声音提醒"
+      }
+    },
+    "0x610": {
+      "name": "静音提示",
+      "description": "当您的扩音器麦克风静音和取消静音时听到的反馈。"
+    },
+    "0x700": {
+      "name": "音质",
+      "description": "根据活动需要优化音频质量。",
+      "options": {
+        "homeMode": "音乐",
+        "enterpriseMode": "混合",
+        "mono": "对话",
+        "narrowBand": "窄带"
+      }
+    },
+    "0x701": {
+      "name": "空中配置",
+      "description": "无需物理放置到充电支架上，即可将此耳机配置到底座。"
+    },
+    "0x702": {
+      "name": "有效范围",
+      "description": "限制范围可减少其他 DECT 设备带来的音频干扰。",
+      "options": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x704": {
+      "name": "音频流",
+      "description": "能够将音乐、播客和其他类型的音频从移动设备传输到耳机。如果您不需要将多媒体音频/音乐流式传输至耳机，请禁用此功能以帮助节省电池电量。",
+      "powerCycleRequired": {
+        "title": "启用/禁用流式传输音频",
+        "buttonText": "一般",
+        "true": {
+          "title": "禁用音频流",
+          "text": "选择可节约电池电量，并延长通话时间。禁用后，您将无法通过耳机聆听音乐或收听播客。"
+        },
+        "false": {
+          "title": "启用音频流",
+          "text": "选择可通过耳机聆听音乐和收听博客。启用后，可能会缩短可用通话时间。"
+        }
+      }
+    },
+    "0x705": {
+      "name": "扩展范围模式 (PC)",
+      "description": "获取 PC 到耳机改进的无线范围。注意：这将禁用宽带立体声电话并且将降低您从 PC 听到的音频质量。"
+    },
+    "0x706": {
+      "name": "PC 音频带宽",
+      "description": "宽带音频可提供增强的语音清晰度和生动的高保真效果，但耗电量比较大，导致通话时间减少。",
+      "options": {
+        "narrowband": "窄带",
+        "wideband": "宽带"
+      }
+    },
+    "0x707": {
+      "name": "桌面电话宽带音频",
+      "description": "宽带音频可提供增强的语音清晰度和生动的高保真效果，但耗电量比较大，导致通话时间减少。",
+      "options": {
+        "narrowband": "窄带",
+        "wideband": "宽带"
+      }
+    },
+    "0x708": {
+      "name": "高清语音",
+      "description": "如果您的手机和服务运营商支持宽带音频，可以启用此功能以增强语音清晰度。注：此功能的耗电量大，因此将导致通话时间缩短。",
+      "options": {
+        "narrowband": "关",
+        "wideband": "开",
+        "stereo": "立体声",
+        "widebandStereo": "宽带立体声"
+      },
+      "powerCycleRequired": {
+        "title": "启用/禁用高清语音",
+        "buttonText": "一般",
+        "narrowband": {
+          "title": "禁用高清语音",
+          "text": "如果您的手机和运营商支持宽带音频，可以启用此功能以增强语音清晰度。禁用可节约电池电量，并延长通话时间。"
+        },
+        "wideband": {
+          "title": "启用高清语音",
+          "text": "如果您的手机和运营商支持宽带音频，可以启用此功能以增强语音清晰度。启用高清语音耗电量比较大，导致可用通话时间缩短。"
+        },
+        "stereo": {
+          "title": "立体声标题",
+          "text": "立体声文本"
+        },
+        "widebandStereo": {
+          "title": "宽带立体声标题",
+          "text": "宽带立体声文本"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "自动重新连接菊花链",
+      "description": "在两个设备开启后，仍然保留它们之间的菊花链连接。"
+    },
+    "0x70B": {
+      "name": "自动断开蓝牙连接",
+      "description": "设备进入待机模式时断开蓝牙连接。"
+    },
+    "0x800": {
+      "name": "提高 QD 耳机音量",
+      "description": "如果连接到 Quick Disconnect (QD) 底座的耳机音量太低，请选择相应耳机型号提高音量。",
+      "options": {
+        "new": "EncorePro 500 系列",
+        "legacy": "EncorePro 700 系列及所有其他型号耳机"
+      }
+    },
+    "0x801": {
+      "name": "音调控制",
+      "description": "增强低音或高音音调，优化您的聆听体验。您可以为每台设备分别定制桌面电话和计算机音调。 ",
+      "options": {
+        "maxBass": "最大低音",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "最大高音"
+      }
+    },
+    "0x802": {
+      "name": "近距离通话限制",
+      "description": "限制通过麦克风传输的附近对话的数量。（注意：更改将在下次通话时生效。）",
+      "options": {
+        "no": "无限制",
+        "moderate": "最佳音频",
+        "agressive": "开放式办公室"
+      }
+    },
+    "0x803": {
+      "name": "侧音",
+      "description": "调整您在通话时所听到的声音的音量大小。",
+      "options": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    },
+    "0x804": {
+      "name": "ANC 暂停",
+      "description": "耳机闲置时，减少主动降噪 (ANC) 的开启时长可节省电池使用时间。",
+      "options": {
+        "2": "2 小时",
+        "4": "4 小时",
+        "off": "关"
+      }
+    },
+    "0x810": {
+      "name": "ANC 模式",
+      "description": "为您的环境选择最佳的降噪水平。",
+      "options": {
+        "adaptive": "自适应",
+        "automatic": "自动",
+        "standard": "标准版",
+        "off": "关"
+      }
+    },
+    "0x805": {
+      "name": "通知提示音",
+      "description": "在播放音频流的同时收听其他已连接设备的提示音。"
+    },
+    "0x806": {
+      "name": "独立音量控件",
+      "description": "启用或禁用独立音量控件。"
+    },
+    "0x807": {
+      "name": "菊花链音频",
+      "description": "选择以菊花链形式将扬声器连接在一起时听到的音频输出。",
+      "options": {
+        "party": "多扬声器",
+        "stereo": "立体声"
+      }
+    },
+    "0x808": {
+      "name": "均衡器",
+      "description": "将均衡器预调为您的首选音频效果。",
+      "options": {
+        "bass": "低音",
+        "flat": "平坦",
+        "bright": "明亮"
+      }
+    },
+    "0x90A": {
+      "name": "恢复默认",
+      "description": "此操作将恢复设备的所有工厂默认设置。",
+      "resetBtn": "恢复默认",
+      "powerCycleRequired": {
+        "title": "设置已恢复",
+        "buttonText": "恢复",
+        "true": {
+          "title": "恢复默认设置",
+          "text": "所有自定义设置将恢复到原始默认值。"
+        }
+      }
+    },
+    "0x90C": {
+      "name": "重启设备",
+      "description": "此操作会立即重新启动您的设备。",
+      "resetBtn": "重新开始"
+    },
+    "0x848": {
+      "name": "清除受信任设备",
+      "description": "删除耳机上存储的已连接设备列表。（这适用于所有已连接设备，包括 BT700。）",
+      "resetBtn": "清除设备",
+      "powerCycleRequired": {
+        "title": "设备已清除",
+        "buttonText": "清除",
+        "true": {
+          "title": "清除受信任设备",
+          "text": "此操作将清除保存在耳机上的所有已连接设备列表（包括 BT700 USB 适配器）。"
+        }
+      }
+    },
+    "0x900": {
+      "name": "响铃时震动",
+      "description": "将耳机设置为在收到来电时震动。"
+    },
+    "0x901": {
+      "name": "充电确认",
+      "description": "设置耳机，使其在充电时发出震动确认。"
+    },
+    "0x902": {
+      "name": "在线指示灯",
+      "description": "启用设备上的 LED 指示灯，以通知其他人您正在通话。"
+    },
+    "0x903": {
+      "name": "用于音量控制的佩戴方式喜好",
+      "description": "表明耳机佩戴方式喜好（左耳或右耳），并且始终向上按压音量控制来提高音量级别。",
+      "options": {
+        "unknown": "无更改",
+        "left": "左耳",
+        "right": "右耳",
+        "leftRight": "右侧麦克风杆",
+        "leftRightSwapped": "左侧麦克风杆"
+      }
+    },
+    "0xA00": {
+      "name": "音频传感",
+      "description": "当 USB 端口检测到计算机音频时，自动在底座和无线耳机之间建立无线链接。"
+    },
+    "0xA01": {
+      "name": "拨号音",
+      "description": "按下耳机上的呼叫按钮时会听到 VoIP 呼叫的拨号音。您的网络电话必须支持拨号音。"
+    },
+    "0xFFF1": {
+      "name": "自动连接到移动电话",
+      "description": "当移动设备在底座的范围内时，将 Savi 底座自动重新连接到您的配对设备。",
+      "options": {
+        "never": "从不",
+        "whenUndocked": "仅在耳机未对接时",
+        "always": "始终"
+      }
+    },
+    "0xFFF2": {
+      "name": "防震",
+      "description": "可消除高音量产生的声震，从而保障听力安全，提供舒适聆听体验的算法。",
+      "options": {
+        "off": "关",
+        "standard": "G616",
+        "enhanced": "G616（经过 Poly 博诣强化）"
+      }
+    },
+    "0x60E": {
+      "name": "电池状态",
+      "description": "在设备开机时听到播报电池状态的语音提示。"
+    },
+    "0x60F": {
+      "name": "连接",
+      "description": "聆听指示连接状态的语音提示。",
+      "options": {
+        "voice": "语音",
+        "tone": "铃音"
+      }
+    },
+    "0x80C": {
+      "name": "蓝牙",
+      "description": "启用或禁用 Sync 扬声器的所有蓝牙连接。"
+    },
+    "-": {
+      "name": "连接",
+      "description": "聆听指示连接状态的语音提示。"
+    },
+    "0x907": {
+      "name": "蓝牙安全连接",
+      "description": "按下蓝牙配对按钮可完成连接扬声器和移动设备。"
+    },
+    "0x908": {
+      "name": "自定义按钮",
+      "description": "分配轻触操作按钮时启动的操作。",
+      "options": {
+        "playPause": "播放/暂停",
+        "redial": "重拨（仅限移动设备）",
+        "vpa": "虚拟助手（Siri、Google Assistant 等）",
+        "clearTrustedDevice": "清除受信任设备列表",
+        "statusCheck": "状态检查",
+        "holdResume": "保持/恢复通话",
+        "anc": "ANC/透明模式",
+        "nothing": "无操作"
+      }
+    },
+    "0x909": {
+      "name": "专用连接",
+      "description": "配对和连接新设备时将移除之前配对的设备的信息。这将允许每次仅配对和连接一台设备。"
+    },
+    "0xC00": {
+      "name": "亮度",
+      "description": "调整视频亮度。"
+    },
+    "0xC01": {
+      "name": "对比度",
+      "description": "调整视频对比度。"
+    },
+    "0xC02": {
+      "name": "色调",
+      "description": "调整视频颜色。"
+    },
+    "0xC03": {
+      "name": "饱和度",
+      "description": "调整视频色彩饱和度。"
+    },
+    "0xC04": {
+      "name": "清晰度",
+      "description": "调整视频清晰度。"
+    },
+    "0xC05": {
+      "name": "伽玛校正",
+      "description": "调整视频伽玛校正。"
+    },
+    "0xC06": {
+      "name": "颜色",
+      "description": "调整视频颜色。"
+    },
+    "0xC07": {
+      "name": "白平衡",
+      "description": "指定摄像头如何补偿会议室光源变化。"
+    },
+    "0xC08": {
+      "name": "背光补偿",
+      "description": "启用或禁用背光补偿。"
+    },
+    "0xC09": {
+      "name": "增益",
+      "description": "调整摄像头信号放大器。"
+    },
+    "0xC0A": {
+      "name": "平移",
+      "description": "调节摄像头的向左或向右移动。"
+    },
+    "0xC0B": {
+      "name": "倾斜",
+      "description": "调节摄像头的向上或向下移动。"
+    },
+    "0xC0C": {
+      "name": "翻滚",
+      "description": "调整摄像头横摇角。"
+    },
+    "0xC0D": {
+      "name": "缩放",
+      "description": "调整摄像头缩放比例。"
+    },
+    "0xC0E": {
+      "name": "曝光",
+      "description": "调整摄像头曝光量。"
+    },
+    "0xC0F": {
+      "name": "光圈",
+      "description": "调整摄像头光圈。"
+    },
+    "0xC10": {
+      "name": "对焦",
+      "description": "调整摄像头焦距。"
+    },
+    "0xC11": {
+      "name": "皮肤增强",
+      "description": "启用和禁用参会者自然肤色增强功能。"
+    },
+    "0xC12": {
+      "name": "宽动态范围",
+      "description": "根据取景区域而非全景启用或禁用摄像头曝光。"
+    },
+    "0xC13": {
+      "name": "与会者计数",
+      "description": "报告参加会议的与会人员人数。"
+    },
+    "0xC14": {
+      "name": "屏幕显示",
+      "description": "显示视频输出中的摄像头参数。"
+    },
+    "0xC15": {
+      "name": "Acoustic Fence 拾音魔墙技术",
+      "description": "启用 Poly Acoustic Fence 拾音魔墙技术可阻挡背景噪音，并配置 Poly Acoustic Fence 拾音魔墙技术的波束宽度。",
+      "options": {
+        "off": "关",
+        "60": "窄",
+        "90": "中",
+        "120": "宽",
+        "cameraView": "摄像头视图"
+      }
+    },
+    "0xC16": {
+      "name": "适用于传输音频的 Poly NoiseBlockAI 人工智能噪音屏蔽技术",
+      "description": "防止周围环境中的干扰噪音（如敲击键盘声或翻动纸张声）干扰会议。",
+      "options": {
+        "true": "对",
+        "false": "错",
+        "fast": "快速"
+      }
+    },
+    "0xC24": {
+      "name": "适用于传入音频的 Poly NoiseBlockAI 人工智能噪音屏蔽技术",
+      "description": "防止对话远端发出的干扰噪音（如敲击键盘声或翻动纸张声）干扰会议。"
+    },
+    "0xC17": {
+      "name": "立体声音频",
+      "description": "使用摄像头上的两个声道可提供立体声。"
+    },
+    "0xC26": {
+      "name": "低音增强",
+      "description": "低音增强。"
+    },
+    "0xC18": {
+      "name": "跟踪速度",
+      "description": "配置摄像头检测与会人员的速度。",
+      "options": {
+        "slow": "慢速",
+        "normal": "正常",
+        "fast": "快速"
+      }
+    },
+    "0xC19": {
+      "name": "跟踪模式",
+      "description": "配置摄像头跟踪与会人员的方式。",
+      "options": {
+        "speaker": "发言人取景",
+        "off": "关",
+        "group": "群组取景",
+        "presenter": "演讲者",
+        "conversation": "对话",
+        "gallery": "人物取景"
+      }
+    },
+    "0xC21": {
+      "name": "低音",
+      "description": "调整扬声器的音频低音输出。"
+    },
+    "0xC22": {
+      "name": "高音",
+      "description": "调整扬声器的音频高音输出。"
+    },
+    "0xC23": {
+      "name": "防闪烁 (50Hz/60Hz) 解决方案",
+      "description": "选择合适的频率 (NTSC 60Hz/PAL 50Hz) 减少显示屏闪烁次数。",
+      "options": {
+        "0": "已禁用",
+        "1": "50Hz",
+        "2": "60Hz",
+        "3": "自动"
+      }
+    },
+    "0xC27": {
+      "name": "图像镜像/翻转",
+      "description": "倒置摄像头视频输出。",
+      "options": {
+        "0": "已禁用",
+        "1": "水平镜像",
+        "2": "垂直翻转",
+        "3": "双向翻转和镜像"
+      }
+    },
+    "0xC28": {
+      "name": "色温",
+      "description": "色温",
+      "options": {
+        "warm": "暖色调",
+        "cool": "冷色调"
+      }
+    },
+    "0xC1A": {
+      "name": "取景大小",
+      "description": "配置摄像头跟踪取景视野。",
+      "options": {
+        "tight": "窄",
+        "medium": "中",
+        "wide": "宽"
+      }
+    },
+    "0xC1B": {
+      "name": "高比例缩放",
+      "description": "将最大摄像头缩放倍数限制在 2x、3x 或 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4 倍"
+      }
+    },
+    "0xC1C": {
+      "name": "摄像头位移",
+      "description": "调整摄像头移动",
+      "options": {
+        "auto pan": "自动摇摄",
+        "cut": "剪辑"
+      }
+    },
+    "0xC80": {
+      "name": "屏幕亮度",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "状态指示灯亮度",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "空闲状态",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "来电",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "通话中",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "保持通话",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "静音提示",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "无线充电",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "应用程序按钮",
+      "description": "从显示屏中选择想要访问的平台。",
+      "options": {
+        "zoom": "缩放",
+        "teams": "Room System"
+      }
+    },
+    "0xC8E": {
+      "name": "火箭按钮",
+      "description": "分配轻触火箭飞船时启动的操作",
+      "options": {
+        "holdResume": "保持/恢复通话",
+        "playPause": "播放/暂停",
+        "statusLight": "状态灯",
+        "lens": "打开 Poly Lens Desktop",
+        "vpa": "虚拟助手 - Siri、Cortana",
+        "redial": "重拨上次呼叫的号码",
+        "vanity": "梳妆台式照明",
+        "answerEnd": "应答/结束通话",
+        "videoMute": "视频静音摄像头"
+      }
+    },
+    "0xC90": {
+      "name": "显示屏亮度",
+      "description": "调整显示屏的亮度。"
+    },
+    "0xC81": {
+      "name": "显示屏对比度",
+      "description": "调整显示屏的对比度。"
+    },
+    "0x910": {
+      "name": "PC 音频保留模式",
+      "description": "如果启用，PC 音频将与桌面电话接口混合。"
+    },
+    "0x1300": {
+      "name": "管理全部",
+      "description": "选择使用设备时听到的提示和音调。"
+    },
+    "0x1301": {
+      "name": "呼叫",
+      "description": "聆听指示通话状态的语音提示或音调。"
+    },
+    "0x1302": {
+      "name": "来电"
+    },
+    "0x1303": {
+      "name": "接听/拒接"
+    },
+    "0x1305": {
+      "name": "正在接听来电"
+    },
+    "0x1500": {
+      "name": " 透明模式",
+      "description": "选择透明模式级别和音频效果。",
+      "options": {
+        "speech": "讲话",
+        "environment": "环境",
+        "off": "关"
+      }
+    },
+    "0x1800": {
+      "name": "空闲",
+      "description": "分配设备进入空闲状态时的快速操作。",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/透明模式",
+        "status": "状态检查",
+        "nothing": "无操作"
+      }
+    },
+    "0x1801": {
+      "name": "通话中",
+      "description": "分配通话中的快速操作。 ",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/透明模式",
+        "hold": "保持/恢复通话",
+        "mute": "静音",
+        "nothing": "无操作"
+      }
+    },
+    "0x1802": {
+      "name": "流媒体 ",
+      "description": "分配流媒体的快速操作。",
+      "options": {
+        "volume": "音量",
+        "anc": "ANC/透明模式",
+        "track": "前一首/后一首",
+        "nothing": "无操作"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "好的，知道了",
+      "powerOffText": "记住<b>关闭耳机电源至少 5 秒</b>，使新设置生效。"
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "选择语言",
+      "DESCRIPTION": "选择您希望听到提示音的语言，例如：“希望听到哪种语言来提示“John 的来电”或者“静音模式开启”。",
+      "DESCRIPTION_USB_CABLE": "要更改您想听到的语音提示和警告的语言，请通过 USB 线缆将 {{device_name}} 连接到计算机。",
+      "CONFIRM_TITLE": "更改语言"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi 名称",
+      "CONNECTED": "已连接",
+      "DISCONNECTED": "已断开连接",
+      "SIGNAL_STRENGTH": "信号强度",
+      "AUTOCONNECT": "自动连接",
+      "JOIN_OTHER_NETWORK": "加入其它网络",
+      "MANAGE_KNOWN_NETWORKS": "管理已知网络",
+      "PLACEHOLDER": "选择网络"
+    },
+    "GENERAL": {
+      "LABEL": "通用",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP 模式",
+      "NTP_SERVER": "NTP 服务器",
+      "CAMERA_VIVID": "摄像头鲜艳模式",
+      "CAMERA_VIVID_NOTE": "需要重新启动设备才能应用 Camera Vivid 模式。"
+    },
+    "BLUETOOTH": {
+      "LABEL": "蓝牙",
+      "AUTOCONNECT": "自动连接",
+      "REMOTE_CONTROL_CONNECTION": "远程控制连接",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "禁用并重新启用连接后，必须手动配对遥控器。"
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "预配置服务器",
+      "PROVISIONING_MODE": "预配置模式",
+      "PROVISIONING_MODE_OPTION_AUTO": "自动",
+      "PROVISIONING_MODE_OPTION_MANUAL": "手动",
+      "PROVISIONING_MODE_OPTION_OFF": "关",
+      "SERVER_TYPE": "服务器类型",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS 服务器（用于 Lens 配置）",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly 博诣预配置服务器",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS 服务器",
+      "SERVER_ADDRESS": "服务器地址",
+      "USERNAME": "用户名",
+      "PASSWORD": "密码"
+    },
+    "CERTIFICATES": {
+      "LABEL": "证书",
+      "VALIDATE_PEER_CERTS": "始终验证来自服务器的对等证书",
+      "INSTALLED_CERTIFICATES": "已安装证书",
+      "ISSUED_TO": "接受者",
+      "ISSUED_BY": "签发人",
+      "EXPIRATION_DATE": "到期日期",
+      "TYPE": "类型",
+      "CERTIFICATE_SIGNING_REQUEST": "证书签名请求",
+      "NO_CERTIFICATES": "未找到记录"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "配置",
+      "DESCRIPTION": "将配置文件导出到本地系统，或从本地文件导入配置集。您必须重新启动设备才能使导入的配置生效。",
+      "IMPORT": "导入",
+      "IMPORT_DIALOG_TITLE": "导入配置",
+      "EXPORT": "导出",
+      "EXPORT_DIALOG_TITLE": "导出配置"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "如果您没有看到所需的设置，请联系您的 Poly Lens 管理员，或者使用设备密码登录。",
+      "ACTION": "使用设备密码登录",
+      "PASSWORD": "密码",
+      "CANCEL": "取消",
+      "LOGIN": "登录",
+      "INVALID_PASSWORD": "您输入的密码无效。请再次输入密码。",
+      "REQUIRED": "必填"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "密码",
+      "CHANGE_PASSWORD": "更改密码",
+      "CURRENT_PASSWORD": "当前密码",
+      "CREATE_NEW_PASSWORD": "创建新的设备密码",
+      "NEW_PASSWORD": "新密码",
+      "RE_ENTER_NEW_PASSWORD": "重新输入新密码",
+      "PASSWORD_UNMATCH": "密码不匹配。请重新输入新密码。",
+      "SIMPLE_PASSWORD": "简单密码",
+      "DEVICE_PASSWORD": "设备密码",
+      "WEAK_PASSWORD": "使用弱密码（不推荐）。",
+      "STRONG_PASSWORD_RECOMMENDED": "建议使用强密码。",
+      "SAME_PASSWORD_ERROR": "您不能使用旧密码。输入新密码",
+      "RECOMMENDATION_1": "最小长度 15 个字符",
+      "RECOMMENDATION_2": "须含 2 个小写字母",
+      "RECOMMENDATION_3": "须含 2 个大写字母",
+      "RECOMMENDATION_4": "须含 2 个数字",
+      "RECOMMENDATION_5": "须含 2 个特殊字符"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "音频均衡器",
+      "DESCRIPTION": "获取并设置低音和高音滑块。 "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "单击下面的“我接受”即表明您承认并同意您使用此软件遵守 ",
+      "EULA_LINK": "Poly 博诣最终用户许可协议",
+      "EULA_I_ACCEPT": "我接受《最终用户许可协议》",
+      "BEGIN_SETUP": "开始设置",
+      "PASSWORD_INVALID": "您输入的密码无效。请再次输入密码。"
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "国家/地区",
+      "DEVICE_NAME": "设备名称",
+      "DEVICE_NAME_DESCRIPTION": "我们建议根据设备所在的房间或会议空间命名该设备。",
+      "BEGIN_SETUP": "开始设置",
+      "PASSWORD_INVALID": "您输入的密码无效。请再次输入密码。"
+    },
+    "AUDIO_TEST": {
+      "TITLE": "音频测试",
+      "DESCRIPTION": "完成音频测试并将音频记录下载到本地磁盘需要几分钟时间。单击“开始测试”，让系统记录来自所有音频输入端口的所有音频：麦克风、USB 和线路输入。",
+      "START_TEST": "开始测试",
+      "MODAL_TITLE": "音频录制",
+      "MODAL_TIME": "时间：",
+      "DIALOG_TITLE": "保存诊断文件。",
+      "PLEASE_WAIT": "正在保存诊断信息，请稍候。",
+      "STOP_RECORDING": "停止"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "设备断开连接",
+      "DESCRIPTION": "当您将耳机与 Poly 博诣内置式适配器断开时，将自动应用已选状态。",
+      "HOLD_ACTIVE_CALL": "暂停正在进行的通话",
+      "LOCK_SCREEN": "锁定电脑屏幕",
+      "LOCK_SCREEN_AND_HOLD_CALL": "锁定电脑屏幕并暂停正在进行的通话",
+      "DO_NOTHING": "无操作"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "耳机与 PC 间的无线电连接",
+      "DESCRIPTION": "通话结束后，保持与 PC 的无线电连接始终处于活动状态。",
+      "ACTIVE_ONLY_DURING_CALL": "只在通话过程中激活",
+      "ALWAYS_ACTIVE": "处于活动状态"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}设置{{close_tag}}",
+    "NAME_LABEL": "名称：",
+    "EMAIL_LABEL": "电子邮件：",
+    "INVITED_BY_IT_ADMIN": "IT 管理员",
+    "INVITED": "{{invited_by_email}} 邀请您加入 {{tenant_name}}。",
+    "Account": {
+      "TITLE": "帐户",
+      "login": {
+        "TITLE": "您的帐户",
+        "DESCRIPTION_INTRO": "您当前未登录。登录既表示您同意",
+        "DESCRIPTION_TERMS": "服务条款",
+        "DESCRIPTION_AND": "和",
+        "DESCRIPTION_PRIVACY": "隐私政策"
+      }
+    },
+    "General": {
+      "TITLE": "通用",
+      "startOnSystemStartup": {
+        "TITLE": "启动时开启 Poly Lens",
+        "DESCRIPTION": "登录后自动启动 Poly Lens。"
+      },
+      "startMinimized": {
+        "TITLE": "开启应用程序并最小化窗口"
+      },
+      "eulaAccepted": {
+        "TITLE": "EULA",
+        "DESCRIPTION": " 管理员接受"
+      }
+    },
+    "Language": {
+      "TITLE": "语言",
+      "LABEL": "选择要在此应用程序中使用的语言。"
+    },
+    "Softphone": {
+      "TITLE": "网络电话",
+      "MODULE_NAME": "模块名称",
+      "MODULE_VERSION": "模块版本",
+      "ENABLE": "启用",
+      "CONNECTED": "已连接",
+      "VIEW_ALL": "查看所有支持的 Softphone",
+      "targetSoftphone": {
+        "TITLE": "目标软电话",
+        "DESCRIPTION": "指示用于拨出电话和拨号音的软电话（针对受支持的设备和软电话）。"
+      },
+      "mediaPlayerAction": {
+        "TITLE": "来电时的媒体播放器操作",
+        "DESCRIPTION": "当收到网络电话来电时，控制 iTunes 和 Windows Media Player 等媒体播放器应用程序的行为。"
+      },
+      "table": {
+        "TITLE": "网络电话和媒体播放器 | 支持 Poly 博诣"
+      }
+    },
+    "Notifications": {
+      "TITLE": "通知和设备警报",
+      "enableNotifications": {
+        "TITLE": "允许桌面通知和设备警报"
+      },
+      "wellness": {
+        "TITLE": "健康与幸福",
+        "DESCRIPTION": "在基本保持静止的环境中，适当补充水分和持续运动对短期和长期的健康都至关重要。选择自定义通知频率和时间的选项。",
+        "hydrationEnabled": "摄入水分提醒",
+        "visionEnabled": "眼睛休息提醒",
+        "hydrationEnabledTitle": "摄入水分提醒",
+        "visionEnabledTitle": "眼睛休息提醒"
+      },
+      "deviceAlerts": {
+        "TITLE": "设备警报",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "设备未配对",
+        "lowBattery": "电池电量不足",
+        "deviceCharging": "设备正在充电",
+        "deviceDisconnected": "设备已断开",
+        "muteAlert": "静音提示",
+        "deviceSoftwareUpdate": "设备软件更新"
+      },
+      "softwareUpdate": {
+        "TITLE": "软件更新",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "软件更新",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens Desktop 版本",
+        "SOFTWARE": "软件",
+        "UP_TO_DATE": "您的软件已是最新",
+        "RELEASE_NOTES": "查看发行说明",
+        "CHECKING_FOR_UPDATES": "检查更新",
+        "UPDATE": "更新",
+        "UPDATE_AVAILABLE": "可用",
+        "DOWNLOADING": "下载中",
+        "CONTINUE": "继续",
+        "CONTINUE_DESC": "选择{{open_tag}}继续{{close_tag}}可退出 Poly Lens 并安装更新。",
+        "DOWNLOAD_ERROR": "下载更新时出错。请检查您的互联网连接，然后重试。"
+      }
+    },
+    "About": {
+      "TITLE": "关于",
+      "COPYRIGHT": "2022-2024 HP Inc. 保留所有权利。",
+      "PRIVACY_POLICY": "隐私政策",
+      "EULA": "最终用户许可协议"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "暂停和恢复",
+    "NO_ACTION": "无操作"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens 支持",
+    "TITLE_OTHER": "联系支持人员",
+    "QUICK_START_GUIDE": "快速入门指南",
+    "USER_GUIDE": "用户指南",
+    "DEVICE_INFO_AND_LOGS": "设备信息和日志",
+    "CONTACT_SUPPORT": "联系支持人员",
+    "CONTACT_TYPE": "电话、电子邮件和在线支持",
+    "DEVICE_INFO": "设备信息",
+    "APP_INFO": "应用程序信息",
+    "DEVICE_MODEL": "设备型号",
+    "SERIAL_NUMBER": "序列号",
+    "SOFTWARE_VERSION": "固件版本",
+    "COM_LIB_VERSION": "设备通信版本",
+    "PID": "产品 ID",
+    "LAST_CONNECTED": "最后一次连接",
+    "USER_ID": "用户 ID",
+    "TENANT_ID": "租户 ID",
+    "APP_ID": "应用程序 ID",
+    "GET_ACCESS": "直接访问和社区支持",
+    "GET_STARTED": "使用入门、文档等",
+    "POLY_SUPPORT_LINK": "访问 Poly 博诣支持",
+    "POLY_DOCUMENT_LINK": "Lens Desktop 在线帮助",
+    "DIAGNOSTICS": "诊断",
+    "DIAGNOSTICS_DESCRIPTION": "如需帮助排除故障，请下载日志并将其共享给 Poly 博诣支持部门",
+    "DOWNLOAD_LOGS": "下载日志",
+    "SAVE_LOGS": "保存日志",
+    "NONE": "无",
+    "UNKNOWN": "未知"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "工作日",
+    "Monday": "星期一",
+    "Tuesday": "星期二",
+    "Wednesday": "星期三",
+    "Thursday": "星期四",
+    "Friday": "星期五",
+    "Saturday": "星期六",
+    "Sunday": "星期日",
+    "MON": "周一",
+    "TUE": "周二",
+    "WED": "周三",
+    "THU": "周四",
+    "FRI": "周五",
+    "SAT": "周六",
+    "SUN": "周日",
+    "12:00 AM": "午夜 24:00",
+    "1:00 AM": "凌晨 1:00",
+    "2:00 AM": "凌晨 2:00",
+    "3:00 AM": "凌晨 3:00",
+    "4:00 AM": "凌晨 4:00",
+    "5:00 AM": "凌晨 5:00",
+    "6:00 AM": "凌晨 6:00",
+    "7:00 AM": "凌晨 7:00",
+    "8:00 AM": "上午 8:00",
+    "9:00 AM": "上午 9:00",
+    "10:00 AM": "上午 10:00",
+    "11:00 AM": "上午 11:00",
+    "12:00 PM": "中午 12:00",
+    "1:00 PM": "下午 13:00",
+    "2:00 PM": "下午 14:00",
+    "3:00 PM": "下午 15:00",
+    "4:00 PM": "下午 16:00",
+    "5:00 PM": "下午 17:00",
+    "6:00 PM": "下午 18:00",
+    "7:00 PM": "下午 19:00",
+    "8:00 PM": "晚上 20:00",
+    "9:00 PM": "晚上 21:00",
+    "10:00 PM": "晚上 22:00",
+    "11:00 PM": "晚上 23:00",
+    "SHORT_LABELS": {
+      "12AM": "凌晨 24:00",
+      "4AM": "凌晨 4:00",
+      "8AM": "上午 8:00",
+      "12PM": "中午 12:00",
+      "4PM": "下午 4:00",
+      "8PM": "晚上 8：00"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "凌晨 24:00",
+      "1am": "凌晨 1:00",
+      "2am": "凌晨 2:00",
+      "3am": "凌晨 3:00",
+      "4am": "凌晨 4:00",
+      "5am": "凌晨 5:00",
+      "6am": "凌晨 6:00",
+      "7am": "上午 7:00",
+      "8am": "上午 8:00",
+      "9am": "上午 9:00",
+      "10am": "上午 10:00",
+      "11am": "上午 11:00",
+      "12pm": "中午 12:00",
+      "1pm": "下午 1:00",
+      "2pm": "下午 2:00",
+      "3pm": "下午 3:00",
+      "4pm": "下午 4:00",
+      "5pm": "下午 5:00",
+      "6pm": "下午 6:00",
+      "7pm": "晚上 7:00",
+      "8pm": "晚上 8:00",
+      "9pm": "晚上 9:00",
+      "10pm": "晚上 10:00",
+      "11pm": "晚上 11:00"
+    },
+    "1 minute": "每分钟",
+    "30 minutes": "每 30 分钟",
+    "1 hour": "每小时",
+    "3 hours": "每 3 小时"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "不可用",
+    "SELECT_PLACEHOLDER": "选择"
+  }
+}

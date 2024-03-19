@@ -1,0 +1,167 @@
+resources:
+  repositories:
+    - repository: LensDesktop2
+      type: githubenterprise
+      name: Poly-Lens-Apps/LensDesktop2
+      endpoint: 'Poly Lens Apps GitHub Enterprise'
+    - repository: templates
+      type: githubenterprise
+      name: codeway/templates
+      endpoint: 'Poly Lens Apps GitHub Enterprise'
+  pipelines:
+    - pipeline: CallControlApp
+      source: Poly Lens Control Service
+      trigger:
+        branches:
+          include:
+          - refs/heads/LENS-13196_bluetooth_call_control_support
+
+trigger:
+  - main
+
+variables:
+  - name: advancedInstallerVersion
+    value: '20.9.1'
+  - name: lensDesktopSemanticVersion
+    value: '2.0.10'
+  - name: lensDesktopBuildNumber
+    value: $[counter(variables['lensDesktopSemanticVersion'], 1)]
+  - name: lensDesktopFullVersion
+    value: '$(lensDesktopSemanticVersion).$(lensDesktopBuildNumber)'
+
+pr:
+  - main
+
+parameters:
+  - name: pipCommand
+    type: string
+    default: 'pip3'
+
+stages:
+  - stage: Test
+    displayName: 'Test LensDesktop2.0 application'
+    pool:
+      name: 'CodeWayAWSWindows2022'
+    jobs:
+      - job: TestAngularApplication
+        displayName: 'Testing Angular application'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSource: 'spec'
+              versionSpec: '20.x'
+            continueOnError: false
+          - task: Npm@1
+            inputs:
+              command: 'install'
+              workingDir: '$(Build.SourcesDirectory)'
+              verbose: true
+            continueOnError: false
+          - task: Npm@1
+            inputs:
+              command: 'custom'
+              workingDir: '$(Build.SourcesDirectory)'
+              customCommand: 'run test:angular'
+            continueOnError: false
+      - job: TestElectronApplication
+        displayName: 'Testing Electron application'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSource: 'spec'
+              versionSpec: '20.x'
+            continueOnError: false
+          - task: Npm@1
+            inputs:
+              command: 'install'
+              workingDir: '$(Build.SourcesDirectory)'
+              verbose: true
+            continueOnError: false
+          - task: Npm@1
+            inputs:
+              command: 'custom'
+              workingDir: '$(Build.SourcesDirectory)'
+              customCommand: 'run test:main'
+            continueOnError: false
+  - stage: Build
+    dependsOn: Test
+    displayName: 'Build LensDesktop2.0 application'
+    pool:
+      name: 'CodeWayAWSWindows2022'
+    jobs:
+      - job: BuildWindowsInstaller
+        displayName: 'Build Windows installer for LensDesktop2 application'
+        steps:
+          - task: NodeTool@0
+            inputs:
+              versionSource: 'spec'
+              versionSpec: '20.x'
+            continueOnError: false
+            displayName: 'Install Node'
+          - script: npm --no-git-tag-version version $(lensDesktopSemanticVersion)
+            continueOnError: false
+            failOnStderr: true
+            displayName: 'Setting application version'
+          - task: Npm@1
+            inputs:
+              command: 'install'
+              workingDir: '$(Build.SourcesDirectory)'
+              verbose: true
+            continueOnError: false
+            displayName: 'Install LensDesktop2 npm dependencies'
+          - task: Npm@1
+            inputs:
+              command: 'custom'
+              workingDir: '$(Build.SourcesDirectory)'
+              customCommand: 'run package'
+              verbose: true
+            continueOnError: false
+            displayName: 'Build LensDesktop2 application'
+          - powershell: |
+              wget https://www.advancedinstaller.com/downloads/$(advancedInstallerVersion)/advinst.msi -OutFile advinst.msi
+              Start-Process advinst.msi -ArgumentList '/passive /qn /l ai_install_log.txt' -Wait
+              $DirectoryToCheck = 'C:\Program Files (x86)\Caphyon\' + 'Advanced Installer ' + '$(advancedInstallerVersion)'
+              if (!(Test-Path $DirectoryToCheck -PathType Container)) {
+                Write-Host "Advanced Installer Directory '$DirectoryToCheck' not found."
+                Write-Host "##vso[task.complete result=Failed;]"
+              } else {
+                Write-Host "Advanced Installer Directory '$DirectoryToCheck' was verified."
+                Write-Host "##vso[task.complete result=Succeeded;]"
+              }
+            failOnStderr: true
+            continueOnError: false
+            displayName: 'Verify Advanced Installer is installed'
+          - task: DownloadPipelineArtifact@2
+            displayName: 'Download Call Control artifacts'
+            inputs:
+              buildType: 'specific'
+              project: '6e267843-73b1-4eb3-abcd-0937241818b8'
+              definition: '22857'
+              branchName: 'refs/heads/LENS-13196_bluetooth_call_control_support'
+              buildVersionToDownload: 'latestFromBranch'
+              artifactName: 'CallControlAppArtifacts2'
+              targetPath: '$(Pipeline.Workspace)\s\installer\CallControlApp'
+          - powershell: |
+              $callControlAppVersion = (Get-Item ".\installer\CallControlApp\PolyLensCallControlApp.exe").VersionInfo.FileVersionRaw
+              Write-Host "##vso[task.setvariable variable=callControlAppVersion;isOutput=true]$callControlAppVersion"
+              $ai = 'C:\Program Files (x86)\Caphyon\' + 'Advanced Installer ' + '$(advancedInstallerVersion)' + '\bin\x86\AdvancedInstaller.com'
+              echo "================================================================================="
+              echo "Path to Advanced Installer script:"
+              echo "$ai"
+              echo "================================================================================="
+              echo "Version number:"
+              echo $(lensDesktopFullVersion)
+              echo "================================================================================="
+              & "$ai" /register $(AiKey)
+              cd installer
+              .\build_installer.ps1 -ai_version "$(advancedInstallerVersion)" -lens_version "$(lensDesktopFullVersion)" -call_control_version "$callControlAppVersion"
+            failOnStderr: true
+            continueOnError: false
+            displayName: 'Build LensDesktop2 Installer'
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.SourcesDirectory)/installer/LensDesktop_tmp-SetupFiles/LensDesktop.msi'
+              ArtifactName: 'LensDesktop2.0-Installer'
+              publishLocation: 'Container'
+            continueOnError: false
+            displayName: 'Publish LensDesktop2 installer'

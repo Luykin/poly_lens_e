@@ -1,0 +1,2065 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "Laitteen on oltava yhdistettynä verkkoon, jotta se voidaan ottaa käyttöön",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Poistu laiteasetuksista",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "Laitteen asennus ei ole valmis.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "Laitetta {{deviceName}} ei voida käyttää ennen kuin asennus on valmis. Edistystä ei tallennettu.",
+  "EXIT_SETUP": "Poistu asetuksista",
+  "GET_STARTED": "Aloittaminen",
+  "NETWORK": "Verkko",
+  "PROVISIONING": "Otetaan käyttöön",
+  "COMPLETE": "Valmis",
+  "BUTTON_BACK": "Takaisin",
+  "BUTTON_SKIP": "Ohita",
+  "BUTTON_NEXT": "Seuraava",
+  "BUTTON_FINISH": "Suomi",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "Laitteen {{deviceName}} asennus valmis!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Ota laite käyttöön",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Käyttöönotto",
+  "POSTPONE_DFU_MESSAGE": "Laitteillesi on saatavilla päivityksiä. Päivityksissä kestää muutama minuutti. Älä irrota laitteita päivityksen aikana.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "Laitteen {{deviceName}} päivitys on saatavilla. Päivitys kestää muutaman minuutin. Älä irrota laitetta päivityksen aikana.",
+  "UPDATE_NOW": "Päivitä nyt",
+  "ASK_ME_LATER": "Kysy myöhemmin",
+  "AUDIO_RECORDING_START": "Äänityksen aloitus",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "Laitteen {{deviceName}} päivitys lykätty tunnilla",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "Laitteen {{deviceName}} päivitys lykätty {{hours}} tunnilla",
+  "PLAY_GREETING_NAME": "Toista tervehdys",
+  "PLAY_GREETING_DESCRIPTION": "Valitse toistettava äänitiedosto, kun vastaat puheluun.",
+  "SELECT_FILE": "Valitse tiedosto",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Pois",
+    "NARROW": "Kapea",
+    "MEDIUM": "Keskikokoinen",
+    "WIDE": "Laaja",
+    "CAMERA_VIEW": "Yhdistä kameranäkymään"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Ihan ensimmäiseksi...",
+    "I_AGREE": "Hyväksyn",
+    "POLY_EULA": "Poly-käyttöoikeussopimuksen ehdot",
+    "CLOSE": "Sulje",
+    "PROCEED": "Jatka"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Parhaat käytännöt",
+    "MENU": {
+      "HEADSET": "Kuulokemikrofoni",
+      "CAMERA": "Kamera",
+      "DESK_SETUP": "Työpisteen määritys"
+    },
+    "NEXT": {
+      "NEXT": "SEURAAVA:",
+      "TITLE": "Parhaat käytännöt",
+      "LEARN_MORE": "Lue lisää"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Hyväksy",
+    "APPLY": "Käytä",
+    "CANCEL": "Peruuta",
+    "CONTINUE": "Jatka",
+    "DECLINE": "Hylkää",
+    "DONE": "Valmis",
+    "LOG_IN": "Kirjaudu sisään",
+    "LOG_OUT": "Kirjaudu ulos",
+    "OK": "OK",
+    "RETRY": "Yritä uudelleen",
+    "SHOW_LESS": "Näytä vähemmän",
+    "JOIN": "Liity",
+    "JOINING": "Liitytään",
+    "CREATE": "Luo uutta",
+    "INSTALL": "Asenna",
+    "CHOOSE_FILE": "Valitse tiedosto",
+    "DELETE": "Poista",
+    "CLOSE": "Sulje",
+    "SELECT_FILE": "Valitse tiedosto",
+    "FEEDBACK": "Palaute"
+  },
+  "REQUIRED": "Tarvitaan",
+  "OPTIONAL": "Lisävaruste",
+  "Download": "Lataa",
+  "Upload": "Siirto",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "Toimenpide ei onnistunut. Yritä uudelleen.",
+  "RECEIVING_SETTINGS": "Vastaanottaa asetuksia",
+  "GENERAL": {
+    "BACK": "Takaisin",
+    "CANCEL": "Peruuta",
+    "CLOSE": "Sulje",
+    "COMING_SOON": "TULOSSA PIAN",
+    "DOWNLOAD": "Lataa",
+    "DOWNLOADING": "Ladataan",
+    "LOADING": "Ladataan",
+    "FEEDBACK": "Palaute",
+    "HOME": "Aloitusnäyttö",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Lisää uusi",
+    "EDIT_NAME": "Muokkaa nimeä",
+    "DELETE": "Poista",
+    "RESTORE_DEFAULTS": "Palauta oletukset",
+    "SEARCH_SETTINGS": "Hakuasetukset",
+    "SUPPORT": "Tuki",
+    "UPLOAD": "Siirto",
+    "UPDATE": "Päivitys",
+    "RETURN_HOME": "Palaa alkuun",
+    "VERSION": "Versio",
+    "RECORDING": "Tallennetaan",
+    "RECOVER": "Palauta"
+  },
+  "FTU": {
+    "WELCOME_TO": "Tervetuloa:",
+    "WELCOME_1": "Autamme sinua saamaan Poly Lensistä kaiken irti.",
+    "CONNECTIVITY": {
+      "HEADER": "Liitettävyys",
+      "TITLE": "Lens hallitsee laitteitasi"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Parhaat käytännöt",
+      "TITLE": "Lens parantaa työpöytäkokemusta"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Terveys ja hyvinvointi",
+      "TITLE": "Lens huolehtii sinusta"
+    },
+    "EXPLORE": {
+      "BUTTON": "Jatka vierailijana"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Kirjaudu sisään"
+    },
+    "GETTING_STARTED": "Käytön aloittaminen",
+    "LOGIN_CARD": {
+      "TITLE": "Aloita jo tänään!",
+      "DESCRIPTION": "Kirjaudu Lens-työpöytäsovellukseen, niin Poly ja oma organisaatiosi voivat tarjota sinulle parhaan mahdollisen käyttäjäkokemuksen."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Asennus",
+      "DESCRIPTION": "Aseta näyttö siten, että silmäsi ovat näytön ylimmän kolmanneksen tasolla. Kiinnitä kamera näytön keskelle."
+    },
+    "CENTERING": {
+      "TITLE": "Keskittäminen",
+      "DESCRIPTION": "Kuva näyttää parhaalta, kun olet keskellä kameranäkymää. Varmista, että kasvot näkyvät selvästi ja kokonaan. Yritä asettua niin, että paitaasi näkyy vähintään 15 cm kauluksesta alaspäin."
+    },
+    "LIGHTING": {
+      "TITLE": "Valaistus",
+      "DESCRIPTION": "Jos haluat näyttää kuvassa mahdollisimman hyvältä, hyvä valaistus on ehdoton. Päivänvalon kirkkaus vaihtelee ja voi olla ristiriidassa sisävalaistuksen kanssa. Aseta työpisteesi mahdollisuuksien mukaan niin, että ikkunat ovat näytön takana, ja vältä voimakkaita valonlähteitä takanasi. Ylhäältä tuleva hajautettu valo toimii parhaiten."
+    },
+    "BACKGROUND": {
+      "TITLE": "Tausta",
+      "DESCRIPTION": "Taustalla näkyvät esineet voivat tuoda videopuheluihin persoonallisuutta, mutta varmista, etteivät ne varasta huomiota. Jos olet kahden vaiheilla, jätä ylimääräiset taustaesineet pois."
+    },
+    "NEXT": {
+      "SUBTITLE": "Työpisteen määritys"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Yhteyden tarkistuslista",
+    "POWER": {
+      "TITLE": "Tarkista virtakytkin",
+      "DESCRIPTION": "Onko virta kytkettynä?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Tarkista Bluetooth-sovitin",
+      "DESCRIPTION": "Palaako sovittimen päässä sininen valo? Toisinaan kuulokemikrofoni muodostaa yhteyden, kun irrotat sovittimen ja kytket sen takaisin."
+    },
+    "MORE_APPS_OPEN": {
+      "TITLE": "Onko laitteessa auki useampi kuin yksi sovellus?",
+      "DESCRIPTION": "Jos laitteessa on useampi kuin yksi sovellus auki, laite voi toimia eri tavoin kuin odotettu. Sulje muut sovellukset."
+    },
+    "SUPPORT": {
+      "TITLE": "Ota yhteys tukeen.",
+      "DESCRIPTION": "Ongelmia edelleen?",
+      "LINK": {
+        "TEXT": "Ota yhteyttä tukeen."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Työpiste",
+      "DESCRIPTION": "Varmista, että työpisteen alla on riittävästi jalkatilaa. Jos työpisteen korkeutta ei voi säätää, nosta tai laske tuolia ja käytä tarvittaessa jalkatukea."
+    },
+    "KEYBOARD": {
+      "TITLE": "Näppäimistö",
+      "DESCRIPTION": "Varmista, että yletät näppäimistölle niin, että olkapääsi ovat rentoina ja käsivarret lattian suuntaisesti.  Yritä pitää ranteet mahdollisimman suorina."
+    },
+    "CHAIR": {
+      "TITLE": "Tuoli",
+      "DESCRIPTION": "Valitse selkärankaa tukeva tuoli. Säädä tuolin korkeus siten, että jalkateräsi ovat lattialla ja reidet lattian suuntaisesti. Säädä käsinojat siten, että käsivarret lepäävät niiden päällä kevyesti ja olkapääsi ovat rennot."
+    },
+    "FEET": {
+      "TITLE": "Jalkaterät",
+      "DESCRIPTION": "Varmista, että voit laskea jalkasi tasaisesti lattialle. Käytä jalkatukea, jos tuolisi on liian korkea tai työpisteen korkeus edellyttää tuolin nostamista."
+    },
+    "MONITOR": {
+      "TITLE": "Näyttö",
+      "DESCRIPTION": "Aseta näyttö suoraan eteesi, noin käsivarren mitan päähän. Aseta näyttö 45–70 cm:n päähän silmistäsi siten, että näytön yläosa on silmien tasolla tai hieman sen alapuolella."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Kuulokemikrofoni",
+    "USB_ADAPTER": "USB-sovitin",
+    "CUSTOM_SOFTWARE_UPDATE": "Mukautettu ohjelmistopäivitys:",
+    "LOGS": "Lokit:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Tallenna lokit",
+    "SELECT_SOFTWARE_UPDATE": "Valitse ohjelmistopäivitys",
+    "SERIAL_NUMBER": "Sarjanumero:",
+    "SOFTWARE_VERSION": "Ohjelmistoversio:",
+    "COUNTRY": "Maa:",
+    "LENS_ACCOUNT": "Lens-tili:",
+    "HARDWARE_VERSION": "Laitteistoversio:",
+    "HARDWARE_REVISION": "Laitteiston tarkastus:",
+    "ADDITIONAL_HARDWARE_REVISION": "Kuulokemikrofonin laitteiston tarkastus:",
+    "MAC_ADDRESS": "Mac-osoite:",
+    "IP_ADDRESS": "IP-osoite:",
+    "DEVICE_DIAGNOSTIC_CODE": "Laitteen vikakoodi:",
+    "CRASH_REPORTS": "Kaatumisraportit:",
+    "SAVE_CRASH_REPORTS": "Tallenna kaatumisraportit:"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Tiedot",
+    "CHART": {
+      "TITLE": "Käyttö",
+      "SERIES_NAME": "Kokonaiskäyttö"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Viive (ms)",
+      "NETWORK_SPEED": "Verkon nopeus (Mbps)",
+      "RUNNING": "Suoritetaan",
+      "START_TEST": "Tee testi",
+      "TEST_AGAIN": "Testaa uudelleen",
+      "TEST_RESULTS": "Testin tulokset",
+      "TITLE": "Verkon vianmääritys",
+      "NO_CONNECTION": "Olet offline-tilassa. Verkkotestaus on käytettävissä vain, kun olet yhteydessä internetiin.",
+      "SUBTEXT": "Verkkodiagnostiikkatestaus on kaupallinen esikatselutoiminto."
+    }
+  },
+  "EE": {
+    "PAUSED": "Pysäytetty",
+    "CONTINUE": "Jatka painamalla VÄLILYÖNTIÄ.",
+    "FIRE": "VAIHTO – Fire",
+    "MOVE": "NUOLET – liiku",
+    "PAUSE": "VÄLILYÖNTI – tauko",
+    "EXIT": "ESC – poistu",
+    "START": "Aloita painamalla VÄLILYÖNTIÄ.",
+    "DONE": "Ei huono. Hyvin menee.",
+    "TRY_AGAIN": "Yritä uudelleen painamalla VÄLILYÖNTIÄ."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Pääsangan säätö",
+      "DESCRIPTION": "Säädä sanka istuvaksi siten, että korvakupit ovat korvien päällä. Varmista, että kuulokemikrofoni ei ole liian kireällä tai löysällä. Katso tarkemmat säätöohjeet kuulokemikrofonin käyttöoppaasta."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Mikrofonivarren asento",
+      "DESCRIPTION": "Poly-kuulokkeiden mikrofonivarsi on taivutettava ja helppo asettaa sopivaan kohtaan. Jos kuulokkeissasi on mikrofonivarsi, aseta mikrofoni noin 5 cm:n päähän suustasi."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Mikrofonivarren asettelu",
+      "DESCRIPTION": "Jos kuulokkeissa on mikrofonivarsi, sitä voi kiertää niin, että sitä voi käyttää joko vasemmalla tai oikealla puolella. Varmista, että mikrofonivarsi osoittaa kohti suutasi eikä kattoa, kun valmistaudut puheluun."
+    },
+    "NEXT": {
+      "SUBTITLE": "Kamera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Hei {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Hei {{open_tag}}vierailija{{close_tag}}",
+    "GO_TO_DETAIL": "Siirry kohtaan Tiedot",
+    "CONNECT_A_DEVICE": "Aloita yhdistämällä laite.",
+    "NOT_SEEING_DEVICE": "Eikö laitetta näy?",
+    "SUBMIT_FEEDBACK": "Lähetä palautetta",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Tiedot",
+        "DESCRIPTION": "Tarkista laitteen käyttö ja työaseman liitännät."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Terveys ja hyvinvointi",
+        "DESCRIPTION": "Muistutuksia tauoista ja vedenjuonnista. Paranna keskittymistä soittamalla taustaääniä."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Parhaat käytännöt",
+        "DESCRIPTION": "Optimoi kamera ja opi parantamaan työtilasi ergonomiaa."
+      },
+      "SUPPORT": {
+        "TITLE": "Poly-tuki",
+        "DESCRIPTION": "Ongelmia? Anna meidän auttaa."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Kantoninkiina",
+    "1030": "tanska",
+    "2057": "englanti (Iso-Britannia)",
+    "1033": "englanti (Yhdysvallat)",
+    "1036": "ranska",
+    "1031": "saksa",
+    "1040": "italia",
+    "1041": "japani",
+    "1042": "korea",
+    "1045": "puola",
+    "2052": "Mandariinikiina",
+    "1044": "norja",
+    "2068": "norja",
+    "1049": "venäjä",
+    "1034": "espanja",
+    "1053": "ruotsi",
+    "16393": "englanti (Intia)",
+    "1057": "indonesia",
+    "1054": "thai",
+    "1046": "Brasilian portugali"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Aktiivinen",
+    "INACTIVE": "Ei aktiivinen",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI estää taustaääniä (kuten näppäimistön naputtelua tai paperin rapistelua) häiritsemästä kokousta mykistämällä mikrofonin, kun ääntää kuuluu mutta kukaan ei puhu. Mikrofonin mykistys poistetaan, kun alat puhua.",
+    "FOR_INCOMING_DESCRIPTION": "Älä anna häiritsevien äänten (kuten näppäimistön naputtelun tai paperin rapistelun) keskeyttää kokousta.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI saapuviin ääniin",
+    "FOR_OUTGOING_DESCRIPTION": "Älä anna ympäristön häiritsevien äänten (kuten näppäimistön naputtelun tai paperin rapistelun) keskeyttää kokousta.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI lähteviin ääniin",
+    "SEE_HOW_WORKS": "Näin se toimii"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Lataaminen",
+      "STOPPED": "Lataaminen loppui"
+    },
+    "MUTE": {
+      "ON": "Mykistys käytössä",
+      "OFF": "Mykistys ei käytössä"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Ohjelmistopäivitys {{build}} on saatavilla."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Laitteen päivitys on saatavilla"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Laitetta ei löydy",
+      "MESSAGE": "Voi ei. Toiminto epäonnistui. Yritä uudelleen."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Sivua ei löydy",
+      "MESSAGE": "Voi ei. Toiminto epäonnistui. Yritä uudelleen."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens tarvitsee kamerasi käyttöoikeudet. Anna Poly Lensille kameran käyttöoikeus järjestelmäasetuksissa."
+    },
+    "BUTTON": {
+      "CLOSE": "Sulje"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "Yhteys laitteeseen on katkaistu"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "Akun virta on vähissä"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Tervetuloa Studio P21-laitteeseen",
+      "CONTENT": "Studio P21-laitteen käyttäminen edellyttää lisäohjelmiston lataamista näyttöön.",
+      "BUTTON": "Lataa"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Tervetuloa uuteen Studio P21-laitteeseen!",
+      "CONTENT": "Tervetuloa uuteen Studio P21-laitteeseen! Ennen uuden laitteen käyttöä sinun on asennettava lisäohjelmisto näyttöön.",
+      "BUTTON_DOWNLOAD": "Lataa täältä",
+      "BUTTON_MORE_INFO": "Lisätietoja"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "Laite {{deviceName}} löydetty. Asenna laite avaamalla Poly Lens."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Kieliominaisuuksien lataaminen onnistui."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Näyttö lukitaan 5 sekunnin kuluessa. Jatka työskentelyä liittämällä kuulokemikrofoni johdon säätimiin."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "Asetus on tallennettu.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "Asetusta ei tallennettu.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP-palvelinasetukset on otettu käyttöön.",
+    "CHANGE_NTP_SETTINGS_FAILED": "NTP-palvelinasetuksia ei voitu ottaa käyttöön.",
+    "COPIED_TO_CLIPBOARD": "Kopioitu leikepöydälle",
+    "SAVE_CSR_FILE_SUCCESS": "CSR-tiedosto on tallennettu.",
+    "SAVE_CSR_FILE_FAILED": "CSR-tiedostoa ei tallennettu.",
+    "FILE_READ_FAILED": "Tiedostoa ei voitu lukea.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Todistus asennettu.",
+    "CERTIFICATE_INSTALL_FAILED": "Todistusta ei asennettu.",
+    "CERTIFICATE_DELETE_SUCCESS": "Todistus poistettu.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Salasana päivitetty.",
+    "CONFIG_EXPORT_FAILED": "Vienti epäonnistui. Yritä uudelleen.",
+    "CONFIG_IMPORT_FAILED": "Tuonti epäonnistui. Yritä uudelleen.",
+    "CONFIG_EXPORT_SUCCEEDED": "Vienti onnistui.",
+    "CONFIG_IMPORT_SUCCEEDED": "Tuonti onnistui.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Äänen vianmääritys epäonnistui. Yritä uudelleen.",
+    "WIFI_JOIN_ERROR": "Verkkoja ei voitu yhdistää. Tarkista tunnukset ja yritä uudelleen.",
+    "CRASH_REPORTS_SUCCESS": "Kaatumisraportit ladattu.",
+    "CRASH_REPORTS_FAILED": "Kaatumisraportteja ei löytynyt.",
+    "NETWORK_ERROR": "Verkkoyhteys ei ole käytettävissä. Joidenkin toimintojen käyttö voi olla rajoittunutta, kunnes yhteys palautuu."
+  },
+  "DETAIL": {
+    "AUTO": "Automaattinen",
+    "TITLE": "Tietosivu",
+    "BACK_TO_HOME": "Takaisin alkunäyttöön",
+    "CAMERA": "Kamera",
+    "CONTROLS": "Säätimet",
+    "EXPAND": "Laajenna",
+    "LINK": "Muodosta yhteys",
+    "UNLINK": "Irrota yhteys",
+    "CONTRACT": "Pienennä",
+    "GRID": "Ruudukko",
+    "SETTINGS": "Preferences (Asetukset)",
+    "FAVORITES": "Suosikit",
+    "FAVORITE_DELETE_CONFIRM": "Haluatko varmasti poistaa suosikin \"{{favoriteName}}\"?",
+    "FAVORITE_NUMBER": "Suosikki {{number}}",
+    "FAVORITE_SAVE_AS": "Tallenna uudeksi suosikiksi",
+    "FAVORITES_SAVED": "Tallennettu",
+    "FAVORITE_COPY": "Suosikin {{favoriteName}} kopio",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Aloita esikatselu napsauttamalla alla olevaa Näytä-kuvaketta.",
+    "PREVIEW_SHOW": "Näytä",
+    "PREVIEW_HIDE": "Piilota",
+    "PREVIEW_HIDDEN": "Esikatsele piilotetut",
+    "PREVIEW_WINDOWS_NOTICE": "Muut sovellukset eivät voi käyttää tätä kameraa, kun esikatselu on käytössä.",
+    "PREVIEW_CONTROLS_READ_ERROR": "Toinen sovellus käyttää kameraa.{{line_feed}}Sulje sovellus, jotta voit käyttää esikatselua ja asetuksia.{{line_feed}}{{line_feed}}Jos se ei auta, varmista, ettei toinen sovellus ole käynnissä taustalla.",
+    "SNAPSHOT": "Tilannekuva",
+    "SNAPSHOT_SAVE": "Tallenna tilannekuva",
+    "SNAPSHOT_SAVED_SUCCESS": "Tilannekuva on tallennettu.",
+    "SNAPSHOT_SAVED_FAIL": "Tilannekuvaa ei tallennettu.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "tilannekuva",
+    "SANDBOX": "Hiekkalaatikko",
+    "IT_MANAGED": "IT-tuen hallitsema",
+    "HEADSET": "Kuulokemikrofoni",
+    "SUPPORT": "Tuki",
+    "USB_ADAPTER": "USB-sovitin",
+    "CHARGING_CASE": "Kotelo",
+    "CHARGING_CASE_NAME": "Latauskotelo",
+    "DEVICES": "Laitteet",
+    "OVERVIEW": {
+      "OVERVIEW": "Yleiskatsaus",
+      "BATTERY_LABEL": "Akku:",
+      "BATTERY_CRITICAL": "Kriittinen",
+      "WIFI_LABEL": "Verkko:",
+      "PROVISION_LABEL": "Käyttöönotto:",
+      "PROVISION_AUTO": "Geneerinen",
+      "PROVISION_OFF": "Käyttöönotto",
+      "PROVISION_NOT_SET_UP": "Ei asennettu",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "Laite toimii, mutta sitä ei hallita ulkoisesti",
+      "SET_PROVISION": "Napsauta asentaaksesi käyttöönoton",
+      "STATUS_LABEL": "Tila:",
+      "HEADSET_STATUS_LABEL": "Kuulokemikrofoni:",
+      "FIRMWARE_LABEL": "Ohjelmisto:",
+      "CONNECTED": "Yhteys muodostettu",
+      "NOT_CONNECTED": "Ei yhteyttä",
+      "DISCONNECTED": "Yhteys katkaistu",
+      "PAIRING_MODE": "Muodosta pariliitos Bluetooth Audio -laitteen kanssa",
+      "PAIR_REMOTE": "Muodosta pariliitos Bluetooth Remote -laitteen kanssa",
+      "USB_PAIRING_MODE": "Yhdistä uusi laite pariliitoksella",
+      "MAKE_PRIMARY": "Määritä ensisijaiseksi",
+      "DELETE_DEVICE": "Poista laite",
+      "TROUBLE_CONNECTING": "Eikö laitteen liittäminen onnistu?",
+      "AVAILABLE_FIRMWARE": "Käytettävissä:",
+      "SAVE_BUTTON": "Tallenna",
+      "CANCEL_BUTTON": "Peruuta",
+      "RENAME_DEVICE": "Vaihda nimi:",
+      "DEVICE_NAME": "Nimi:",
+      "RECOVERY_MODE": "Palautustila",
+      "POLICY_UPDATE_NOTE": "Organisaatiosi edellyttää, että laite käyttää tiettyä ohjelmistoversiota. Päivitä mahdollisimman pian.",
+      "CASE_UPDATE_NOTE": "Liitä USB-kaapeli latauskotelon päivitystä varten"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Laite tunnistettu",
+      "SETUP_REQUIRED": "Laitteen käyttö vaatii asennuksen.",
+      "IMPORT_CONFIGURATION": "Tuo asetus",
+      "BEGIN_SETUP": "Aloita asennus",
+      "MODAL": {
+        "TITLE": "Tuo asetus",
+        "DESCRIPTION": "Ilmoita sen verkon nimi ja suojaustyyppi, johon haluat liittyä.",
+        "LABEL_INPUT": "Laitteen nimi",
+        "INPUT_PLACEHOLDER": "Lisävaruste",
+        "INPUT_RECOMMENDATION": "Suosittelemme nimeämään laitteen sen huoneen tai kokoustilan mukaan, jossa laite sijaitsee."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Painamalla alla olevaa Hyväksyn-painiketta hyväksyt, että ohjelmiston käyttöä säätelevät ",
+      "EULA_LINK": "Poly-käyttöoikeussopimuksen ehdot",
+      "EULA_I_ACCEPT": "Hyväksyn käyttöoikeussopimuksen",
+      "BEGIN_SETUP": "Aloita asennus",
+      "PASSWORD_INVALID": "Syöttämäsi salasana on virheellinen. Syötä salasana uudelleen."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Avaa",
+      "NO_DEVICES": "Laitteita ei ole liitetty.",
+      "QUIT": "Sulje Poly Lens",
+      "SOUNDSCAPING": "Äänimaisemat",
+      "MDA_AUDIO_RECORDING": "Äänitys mykistettynä otettu käyttöön",
+      "MDA_AUDIO_RECORDING_START": "Äänitä äänimuistiinpanoja",
+      "MDA_AUDIO_RECORDING_STOP": "Pysäytä äänimuistiinpanojen äänittäminen",
+      "OFF": "Pois"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Terveys ja hyvinvointi",
+    "SOUNDSCAPING": {
+      "TITLE": "Äänimaisemat",
+      "ENABLE_SOUNDSCAPES": "Ota äänimaisemat käyttöön",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Lisää ympäristöön äänimaisemia",
+          "DESCRIPTION": "Rauhoittava ympäristö voi auttaa pitämään häiriötekijät kurissa. Äänimaisemiin on vaihtoehtoja erilaisista luonnon äänistä, kuten vesiputouksista, puroista, tuulesta, metsästä ja meristä. Tällaiset äänet voivat auttaa vähentämään stressiä ja parantamaan keskittymistä."
+        }
+      },
+      "MOUNTAIN_RANCH": "Vuoristo",
+      "GENTLE_OCEAN": "Tyyni meri",
+      "BABBLING_BROOK": "Soliseva puro",
+      "AT_VOLUME": "äänenvoimakkuudella"
+    },
+    "HYDRATION": {
+      "TITLE": "Vedenjuonti",
+      "REMINDERS": "Muistutukset vedenjuonnista",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Juo vettä",
+          "DESCRIPTION": "Hyvän nestetasapainon ylläpitämiseksi miehet tarvitsevat vettä päivittäin noin 3,7 litraa ja naiset noin 2,7 litraa.",
+          "SOURCE_LINK_LABEL": "Lähde",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Aika hörpätä vettä",
+        "BODY": "Riittävä nesteytys voi parantaa unen laatua, tietoisuutta ja mielialaa."
+      }
+    },
+    "VISION": {
+      "TITLE": "Silmät",
+      "REMINDERS": "Muistutukset: anna silmille tauko",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Irrota katse näytöstä",
+          "DESCRIPTION": "Hyvä muistisääntö on 20/20/20: katso 20 minuutin välein jotain noin 20 metrin päässä olevaa kohdetta 20 sekunnin ajan."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Liikuskele hieman",
+          "DESCRIPTION": "20/20/20-sääntö on hyvä alku, mutta muista myös poistua työpisteeltäsi ja käydä ulkona, venytellä tai vaikka tehdä mindfulness-harjoituksia."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Tauon paikka",
+        "BODY": "Tauon pitäminen voi parantaa huomiokykyä, tuottavuutta ja työn laatua."
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Määritä muistutusväli",
+    "REMINDER_SCHEDULE": "{{timeSpan}} {{days}} aikavälillä {{startTime}} ja {{endTime}}",
+    "FREQUENCY": "Taajuus",
+    "TIME_RANGE": "Aikaväli",
+    "WEEKDAYS": "Arkipäivisin (ma-pe)",
+    "WEEKDAYS_SHORT": "Arkipäivisin",
+    "EVERY_DAY": "Joka päivä",
+    "CUSTOM": "Mukautettu",
+    "ON": "käytössä",
+    "LEARN_MORE": "Lue lisää",
+    "NEXT": "SEURAAVA",
+    "THROUGH": "–"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Näin Acoustic Fence toimii",
+      "TITLE": "Näin Acoustic Fence toimii",
+      "DESCRIPTION": "Acoustic Fence käyttää edistynyttä kaiun poistoa ja useaa mikrofonia luodakseen virtuaalisen \"ääniaidan\". Se estää häiritseviä taustaääniä, kuten kollegoiden puhetta, keskeyttämästä puhelua. {{line_feed}}Käytä yhdessä Poly NoiseBlockAI:n kanssa ja estä häiritsevien taustaäänten, kuten näppäimistön naputuksen, papereiden selaamisen ja koiran haukunnan, kuulumista."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Näin NoiseBlockAI toimii",
+      "TITLE": "Näin NoiseBlockAI toimii",
+      "DESCRIPTION": "NoiseBlockAI estää taustaääniä (kuten näppäimistön naputtelua tai paperin rapistelua) häiritsemästä kokousta koneoppimiseen perustuvan melunvaimennustekniikan avulla, joka vaimentaa häiritsevät taustaäänet sekä oman että vastapuolen puheen aikana. {{line_feed}}Kun et puhu, NoiseBlockAI mykistää mikrofonin automaattisesti, jotta häiritsevät taustaäänet eivät keskeytä puhelua."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Palauta oletukset",
+      "CONFIRM_MESSAGE": "Tämä toiminto palauttaa laitteen tehdasasetukset.",
+      "COMPLETE_TITLE": "Asetukset palautettu!",
+      "COMPLETE_MESSAGE": "Muista katkaista mahdollinen USB-yhteys sekä katkaista kuulokkeesta virta ja kytkeä se uudelleen, jotta asetukset tulevat voimaan.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "Laite saattaa käynnistyä uudelleen nyt, jotta prosessi saadaan viimeisteltyä."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Käynnistä laite uudelleen",
+      "CONFIRM_MESSAGE": "Toiminto käynnistää laitteen uudelleen heti."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Palauta oletukset",
+      "CONFIRM_MESSAGE": "Tämä toiminto palauttaa Lensin tehdasasetukset."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Ääniotsikko",
+      "CONFIRM_MESSAGE": "Vahvistusäänite."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Lue lisää kovien äänten poisto-ominaisuudesta",
+      "TITLE": "Lisätietoja kovien äänien poisto-ominaisuudesta",
+      "INTRO": "Valittavana on 2 tai 3 kovien äänien poistoasetusta tuotteesta riippuen:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "Äkillisten ja kovien äänien suojauksessa käytetty australialainen alan standardi suojaa korvia äkillisiltä kovilta ääniltä rajoittamalla äänenvoimakkuutta.",
+      "G616_POLY_ENHANCED": "G616 (Poly Enhanced)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Polyn ainutlaatuiset algoritmit eivät tyydy pelkkään G616-suojaukseen, vaan ne takaavat kuuntelumukavuuden vaimentamalla äkilliset kovat äänet välittömästi äänenlaatua huonontamatta.",
+      "OFF": "Pois",
+      "OFF_DESCRIPTION": "Kun asetus on poistettu käytöstä, ääntä ei suodateta mutta kuuloke suojaa käyttäjän kuuloa rajoittamalla äänenvoimakkuuden tasolle 118 dBA.",
+      "NOTE": "HUOMAUTUS",
+      "NOTE_DESCRIPTION": "Vaihtoehto riippuu tuotteesta.",
+      "MORE_INFO": "Lisätietoja ominaisuudesta löydät osoitteesta"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Löydä Wi-Fi-verkko ja yhdistä",
+      "NETWORK_NAME": "Verkon nimi",
+      "DESCRIPTION": "Ilmoita sen verkon nimi ja suojaustyyppi, johon haluat liittyä.",
+      "PASSWORD_TITLE": "Lisää salasana verkolle {{networkName}}",
+      "SECURITY": "Tietoturva",
+      "EAP_METHOD": "EAP-menetelmä",
+      "PHASE2": "Vaiheen 2 todennus",
+      "CA_CERTIFICATE": "CA-todistus",
+      "USER_CERTIFICATE": "Käyttäjätodistus",
+      "IDENTITY": "Identiteetti",
+      "ANONYMOUS_IDENTITY": "Anonyymi",
+      "PASSWORD": "Salasana",
+      "IP_SETTINGS": "IP-asetukset",
+      "STATIC": "Staattinen",
+      "SHOW_ADVANCED": "Näytä lisäasetukset",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP-osoite",
+      "GATEWAY": "Yhdyskäytävä",
+      "SUBNET_MASK": "Aliverkon peite",
+      "DNS1": "DNS-osoite 1",
+      "DNS2": "DNS-osoite 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Hallitse tuttuja verkkoja",
+      "NO_NETWORKS": "Tuttuja verkkoja ei ole. Muodosta yhteys."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Luo todistuksen allekirjoituspyyntö",
+      "DESCRIPTION": "Määritä alla tiedot todistuspyyntöäsi varten.",
+      "COUNTRY": "Maa",
+      "STATE": "Osavaltio ja provinssi",
+      "CITY": "Kaupunki tai paikkakunta",
+      "ORGANIZATION": "Järjestö",
+      "ORGANIZATION_UNIT": "Järjestön osasto",
+      "COMMON_NAME": "Kutsumanimi",
+      "SAVE_FILE_TITLE": "Tallenna todistuksen allekirjoituspyyntötiedosto"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Asenna todistus",
+      "TYPE": "Tyyppi",
+      "CERTIFICATE": "Todistus",
+      "CHOOSE_FILE_TITLE": "Valitse tiedosto"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Todistuksen tiedot",
+      "PASSWORD_ERROR": "Syöttämäsi salasana on virheellinen. Syötä salasana uudelleen.",
+      "PASSWORD": "Yksityinen avainsalasana:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Tämä on ensisijainen laitteesi.",
+    "MAKE_DEVICE_MAIN": "Tee tästä laitteesta ensisijainen laite.",
+    "DEVICE_NOT_SUPPORTED": "Laitetuki tulossa pian. Sovelluksen toiminnot voivat olla rajallisia.",
+    "DISABLED_BY_ADMIN": "Järjestelmävalvoja on poistanut ominaisuuden käytöstä"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Ohjelmistokomponentit",
+    "VIEW_LIST_OF_COMPONENTS": "Näytä {{numberOfComponents}} komponenttia",
+    "VIEW_ONE_COMPONENT": "Näytä 1 komponentti",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "Viritys",
+    "BASE": "Tukiasema",
+    "HEADSET": "Kuulokemikrofoni",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "Kamera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Melkein valmista!",
+    "REPLUG_DESCRIPTION": "Irrota ja liitä laite uudelleen. Viimeistele päivitys valitsemalla Jatka.",
+    "UPDATE_WARNING_1": "Päivitys kestää muutaman minuutin.",
+    "UPDATE_WARNING_2": "{{open_tag}}Älä irrota laitetta{{close_tag}} päivityksen aikana.",
+    "UPDATE_WARNING_3": "Varmista, ettei kamerasi ole toisen sovelluksen käytössä, ennen kuin jatkat ohjelmistopäivitystä.",
+    "DISTANCE_WARNING.TITLE": "Valmistaudu päivitykseen",
+    "DISTANCE_WARNING_1": "Pidä {{open_tag}}{{device_name}}{{close_tag}} 1,5 metrin päässä tietokoneesta päivityksen aikana.",
+    "DISTANCE_WARNING_2": "Katkaise muut Bluetooth-yhteydet (esimerkiksi matkapuhelimesta), jotta ne eivät häiritse päivitystä.",
+    "LANGUAGE_DOWNLOAD": "Kielen lataus",
+    "DOWNLOADING_LANGUAGE": "Ladataan kieltä",
+    "LANGUAGE_UPDATE": "Kielipäivitys",
+    "UPDATEING_LANGUAGE": "Päivitetään kieltä",
+    "LANGUAGE_UPDATED": "Kieli päivitetty",
+    "SOFTWARE_DOWNLOAD": "Ohjelmistolataus",
+    "DOWNLOADING_SOFTWARE": "Ladataan ohjelmistoa",
+    "SOFTWARE_UPDATE": "Ohjelmistopäivitys",
+    "UPDATING_SOFTWARE": "Päivitetään ohjelmistoa",
+    "SOFTWARE_INSTALLED": "Ohjelmisto asennettu",
+    "CUSTOM_SOFTWARE_UPDATE": "Mukautettu ohjelmistopäivitys",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Ladataan mukautettua ohjelmistopäivitystä",
+    "CUSTOM_SOFTWARE_INSTALLED": "Mukautettu ohjelmisto asennettu",
+    "DEVICE_RECOVERY": "Laitteen palauttaminen",
+    "RECOVERING_DEVICE": "Laitetta palautetaan",
+    "DEVICE_RECOVERED": "Laite palautettu",
+    "UPDATE_FAILED": "Ohjelmistopäivitys epäonnistui",
+    "UPDATE_FAILED_TITLE": "Voi ei. Meillä on ongelma.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "Ohjelmistopäivitys ei onnistunut.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "Ohjelmisto on jo ajan tasalla",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "Laitteessa, jota yritit päivittää, on jo uusin ohjelmisto.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Akun lataustaso ei riitä päivityksen asentamiseen. {{deviceName}} on ladattava ennen päivitystä.",
+      "DeviceNotConnectedError": "Liitä {{deviceName}} kaapelilla päivitystä varten.",
+      "CallinProgressError": "Laitetta {{deviceName}} ei voi päivittää puhelun aikana.",
+      "DFUInProgressError": "Laitetta {{deviceName}} ei voi päivittää, kun toinen päivitys on käynnissä.",
+      "MultipleDevicesError": "Kaksi tai useampia saman mallin laitteita on liitetty. Irrota muut laitteet ennen tämän laitteen päivittämistä.",
+      "ReplugDevice": "Viimeistele ohjelmistopäivitys irrottamalla ja liittämällä laite uudelleen.",
+      "CameraInUseError": "Varmista, että kameran esikatselu on poistettu käytöstä ja että mikrofoni ja kamera eivät ole käytössä missään muussa sovelluksessa.",
+      "SingleEarbudError": "Tehdessäsi päivitystä varmista, että molemmat nappikuulokkeet on yhdistetty ja otettu pois latauskotelosta ja että niiden lataus on yli 50 %."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Yleistä",
+    "DisplayControls": "Näytön säätimet",
+    "RingtoneAndVolume": "Soittoäänet ja äänenvoimakkuus",
+    "Audio": "Äänet",
+    "SensorAndPresence": "Anturit ja tavoitettavuus",
+    "SoftphonesAndMediaPlayers": "Puhelinohjelmistot ja mediasoittimet",
+    "Wireless": "Langaton",
+    "Advanced": "Lisä",
+    "ANC": "Aktiivinen melunvaimennus",
+    "Firmware": "Laiteohjelmisto",
+    "Language": "Kieli",
+    "VoicePromptsAndTones": "Tilailmoitukset + merkkiäänet",
+    "Admin": "Järjestelmävalvoja",
+    "ResetHeadset": "Nollaa laite",
+    "Lights": "Valot",
+    "CustomButton": "Mukautuspainike",
+    "CustomSwipe": "Mukautettu pyyhkäisyanturi",
+    "Diagnostics": "Diagnostiikka",
+    "SoftwareSettings": "Ohjelmistoasetukset"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Kieli",
+      "description": "Valitse kieli, jota käytetään kaikissa äänikehotteissa ja -ilmoituksissa. Esimerkiksi \"Incoming call from John\" (Saapuva puhelu Johnilta) tai \"Mute on\" (Mykistys käytössä).",
+      "serverNotReachable": "Kieltä ei voi vaihtaa juuri nyt, koska palvelin ei ole käytettävissä.",
+      "options": {
+        "3076": "Kantoninkiina",
+        "1030": "tanska",
+        "2057": "englanti (Iso-Britannia)",
+        "1033": "englanti (Yhdysvallat)",
+        "1036": "ranska",
+        "1031": "saksa",
+        "1040": "italia",
+        "1041": "japani",
+        "1042": "korea",
+        "1045": "puola",
+        "2052": "Mandariinikiina",
+        "1044": "norja (bokmål)",
+        "2068": "norja (nynorsk)",
+        "1049": "venäjä",
+        "1034": "espanja",
+        "1053": "ruotsi",
+        "16393": "englanti (Intia)",
+        "1057": "indonesia",
+        "1054": "thai",
+        "1046": "portugali (Brasilia)"
+      }
+    },
+    "0x102": {
+      "name": "Toinen tuleva puhelu",
+      "description": "Hallitse toisen, eri kautta saapuvan puhelun soitto-ominaisuuksia (esim. saapuva puhelu matkapuhelimeen, kun sinulla on aktiivinen puhelu puhelinohjelmistossa).",
+      "options": {
+        "ignore": "Ohita",
+        "once": "Soita kerran",
+        "continuous": "Jatkuva soitto"
+      }
+    },
+    "0x103": {
+      "name": "Tietokoneen äänenvoimakkuus",
+      "description": "",
+      "options": {
+        "off": "Pois",
+        "low": "Pieni äänenvoimakkuus",
+        "standard": "Vakioäänenvoimakkuus"
+      }
+    },
+    "0x104": {
+      "name": "Pöytäpuhelimen äänenvoimakkuus",
+      "description": "",
+      "options": {
+        "off": "Pois",
+        "low": "Pieni äänenvoimakkuus",
+        "standard": "Vakioäänenvoimakkuus"
+      }
+    },
+    "0x105": {
+      "name": "Matkapuhelimen äänenvoimakkuus",
+      "description": "",
+      "options": {
+        "off": "Pois",
+        "low": "Pieni äänenvoimakkuus",
+        "standard": "Vakioäänenvoimakkuus"
+      }
+    },
+    "0x106": {
+      "name": "tietokoneessani.",
+      "description": "Valitse tietokoneen puhelinohjelmiston soittoääni (ja soiton äänenvoimakkuus tietyissä malleissa).",
+      "options": {
+        "sound1": "Ääni 1",
+        "sound2": "Ääni 2",
+        "sound3": "Ääni 3",
+        "off": "Pois"
+      }
+    },
+    "0x107": {
+      "name": "Pöytäpuhelin",
+      "description": "Valitse pöytäpuhelimen soittoääni (ja soiton äänenvoimakkuus tietyissä malleissa).",
+      "options": {
+        "sound1": "Ääni 1",
+        "sound2": "Ääni 2",
+        "sound3": "Ääni 3",
+        "off": "Pois"
+      }
+    },
+    "0x108": {
+      "name": "Matkapuhelin",
+      "description": "Valitse mobiililaitteen soittoääni (ja soiton äänenvoimakkuus tietyissä malleissa).",
+      "options": {
+        "sound1": "Ääni 1",
+        "sound2": "Ääni 2",
+        "sound3": "Ääni 3",
+        "off": "Pois"
+      }
+    },
+    "0x109": {
+      "name": "Soittoääni",
+      "description": "Toistaa soittoäänen, kun puhelu saapuu liitettyyn laitteeseen, jolla ei ole omaa soittoääntä."
+    },
+    "0x10A": {
+      "name": "Tukiaseman soittoäänen voimakkuus",
+      "description": "Määritä tukiaseman soittoäänen voimakkuus.",
+      "options": {
+        "off": "Pois",
+        "low": "Pieni",
+        "medium": "Keskikokoinen",
+        "high": "Suuri"
+      }
+    },
+    "0x200": {
+      "name": "Käyttöasentoanturi",
+      "description": "Kun tämä yläasetus on käytössä, anturiin liittyviä asetuksia voi säätää erikseen."
+    },
+    "0x201": {
+      "name": "Automaattinen vastaus",
+      "description": "Puheluun vastataan automaattisesti asettamalla kuuloke korvaan, kun puhelin soi."
+    },
+    "0x202": {
+      "name": "Älykäs äänensiirto",
+      "description": "Puhelun ääni siirtyy automaattisesti kuulokkeesta matkapuhelimeen aina, kun kuuloke otetaan pois päästä. Voit siirtää puhelun takaisin kuulokkeeseen asettamalla sen uudelleen päähän."
+    },
+    "0x203": {
+      "name": "Puhelupainikkeen lukitus",
+      "description": "Lukitse kuulokkeen puhelupainike ja estä siten tahattomat takaisinsoitot, kun kuuloke ei ole korvassa."
+    },
+    "0x204": {
+      "name": "Musiikin automaattinen keskeytys",
+      "description": "Äänen suoratoisto mobiililaitteesta keskeytyy automaattisesti, kun kuuloke otetaan korvasta (ja jatkuu, kun kuuloke asetetaan takaisin korvaan). Poista valinta, jos haluat suoratoistaa ääntä keskeytyksettä."
+    },
+    "0x205": {
+      "name": "Automaattinen mykistys",
+      "description": "Mykistä kuulokkeen mikrofoni automaattisesti, kun kuuloke otetaan pois päästä puhelun aikana."
+    },
+    "0x206": {
+      "name": "Puhelun toisto käynnissä",
+      "description": "Valitse, minkä toiminnon kuulokkeet tekevät, kun otat ne pois päästä käynnissä olevan puhelun aikana.",
+      "options": {
+        "doNothing": "Älä tee mitään",
+        "transferAudioToMobile": "Äänen siirtäminen matkapuhelimeen",
+        "muteMic": "Mikrofonin mykistys"
+      }
+    },
+    "0x300": {
+      "name": "Automaattinen vastaus (ilman antureita)",
+      "description": "Vastaa puheluun automaattisesti, kun kuuloke nostetaan lataustelineestä. Poista toiminto käytöstä, jos haluat vastata saapuviin puheluihin painamalla puhelunhallintapainiketta."
+    },
+    "0x301": {
+      "name": "Automaattinen yhdistäminen matkapuhelimeen",
+      "description": "Yhdistä pariliitetty matkapuhelin automaattisesti Savi-tukiasemaan, kun puhelin tulee tukiaseman kantaman sisälle."
+    },
+    "0x302": {
+      "name": "Automaattinen katkaisu lataustelineeseen asetettaessa",
+      "description": "Katkaise puhelu automaattisesti, kun kuuloke asetetaan lataustelineeseen."
+    },
+    "0x400": {
+      "name": "Oletuspuhelinlinja",
+      "description": "Määritä, mitä puhelulinjaa käytetään soitettaville puheluille, kun kuulokkeen puhelunhallintapainiketta painetaan.",
+      "options": {
+        "pstn": "Pöytäpuhelin",
+        "voip": "Tietokone",
+        "mobile": "Matkapuhelin"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Tällä toiminnolla voit yhdistää mobiililaitteen Bluetooth-yhteyden kautta."
+    },
+    "0x402": {
+      "name": "Matkapuhelimen äänikomennot",
+      "description": "Tällä toiminnolla yhdistetyn mobiililaitteen voi asettaa ääniohjaustilaan painamalla tukiaseman mobiililaitepainiketta."
+    },
+    "0xB05": {
+      "name": "Ilmoitus saapuvasta puhelusta",
+      "description": "Puhelun saapuessa kuulet tilailmoituksen."
+    },
+    "0x913": {
+      "name": "Pitomuistutus",
+      "description": "Saat muistutuksen siitä, että puhelu on pidossa."
+    },
+    "0xB06": {
+      "name": "Äänenvoimakkuuden minimi- ja maksimihälytykset",
+      "description": "Valitse, millainen ilmoitus kuuluu, kun äänenvoimakkuus säädetään maksimiin tai minimiin.",
+      "options": {
+        "voice": "Ääni",
+        "tone": "Merkkiääni"
+      }
+    },
+    "0x500": {
+      "name": "Melualtistus",
+      "description": "Tarkkaile ja hallitse melutasoa ja varmista, ettei se nouse lainsäädännön määrittämän enimmäisrajan (80 dBA tai 85 dBA) yläpuolelle.",
+      "options": {
+        "85db": "Enimmäisrajoitus 85 dBA",
+        "80db": "Enimmäisrajoitus 80 dBA",
+        "off": "Ei rajoitusta"
+      }
+    },
+    "0x501": {
+      "name": "Päivittäiset puhelintunnit",
+      "description": "Optimoi melutasoasetukset valitsemalla arvo, joka vastaa parhaiten laitteen tyypillistä käyttöä.",
+      "options": {
+        "off": "Pois",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Anti-Startle",
+      "description": "Älykkäät algoritmit vaimentavat kovia ääniä välittömästi turvallisuuden ja kuuntelumukavuuden takaamiseksi."
+    },
+    "0x505": {
+      "name": "Kovien äänien poisto",
+      "description": "Äkillisten ja kovien äänten suojauksessa käytetty alan standardi, G616, suojaa korvia kovilta ääniltä rajoittamalla äänenvoimakkuuden tasoa."
+    },
+    "0x600": {
+      "name": "Vastaa/hylkää",
+      "description": "Puhelun saapuessa matkapuhelimeen kuulet tilailmoituksen, jossa pyydetään sanomaan \"Answer\" (Vastaa) tai \"Ignore\" (Hylkää)."
+    },
+    "0x601": {
+      "name": "Ilmoitus puhelusta",
+      "description": "Kuulet ääni-ilmoituksen \"Answering Call\" (Puheluun vastataan), kun vastaat tulevaan puheluun kuulokkeessasi."
+    },
+    "0x602": {
+      "name": "Mykistys ei käytössä -ilmoitus",
+      "description": "Ääni-ilmoitus, joka vahvistaa kuulokkeen mykistämisen ja mykistyksen poiston.",
+      "options": {
+        "false": "Merkkiääni",
+        "true": "Ääni"
+      }
+    },
+    "0x603": {
+      "name": "Mykistyksen muistutus -ajastus",
+      "description": "Aseta mykistyksen muistutusten välinen aika minuutteina.",
+      "options": {
+        "off": "Pois",
+        "1": "1 minuuttia",
+        "2": "2 minuuttia",
+        "3": "3 minuuttia",
+        "4": "4 minuuttia",
+        "5": "5 minuuttia",
+        "6": "6 minuuttia",
+        "7": "7 minuuttia",
+        "8": "8 minuuttia",
+        "9": "9 minuuttia",
+        "10": "10 minuuttia",
+        "11": "11 minuuttia",
+        "12": "12 minuuttia",
+        "13": "13 minuuttia",
+        "14": "14 minuuttia",
+        "15": "15 minuuttia"
+      }
+    },
+    "0x604": {
+      "name": "Mykistyksen merkkiäänen voimakkuus",
+      "description": "Valitse mykistyksen muistutuksen äänenvoimakkuus.",
+      "options": {
+        "off": "Pois",
+        "low": "Pieni äänenvoimakkuus",
+        "standard": "Vakioäänenvoimakkuus"
+      }
+    },
+    "0x607": {
+      "name": "Mykistyksen ilmoitukset",
+      "description": "Valitse, millaisen ilmoituksen kuulet, kun asetat tai poistat mikrofonin mykistyksen tai saat mykistyksen muistutuksen.",
+      "options": {
+        "voice": "Ääni",
+        "singleTone": "Yksi äänimerkki",
+        "doubleTone": "Kaksi äänimerkkiä"
+      }
+    },
+    "0x608": {
+      "name": "Järjestelmän merkkiääni",
+      "description": "Määritä kuulokkeen tilailmoitusten äänenvoimakkuus.",
+      "options": {
+        "off": "Pois",
+        "low": "Pieni äänenvoimakkuus",
+        "standard": "Vakioäänenvoimakkuus"
+      }
+    },
+    "0x609": {
+      "name": "Äänenvoimakkuuden ilmoitukset",
+      "description": "Kun säädät äänenvoimakkuutta, äänimerkit kertovat nykyisen äänenvoimakkuuden tason.",
+      "options": {
+        "atEveryLevel": "Joka tasolla",
+        "minMaxOnly": "Vain minimi- ja maksimitasolla"
+      }
+    },
+    "0x60A": {
+      "name": "Soittajan tiedot",
+      "description": "Kuulet soittajan nimen."
+    },
+    "0x60C": {
+      "name": "Äänet käytössä -äänimerkki",
+      "description": "Lyhyt äänimerkkiyhdistelmä ilmoittaa, että äänikanava on avoin ja käyttövalmis."
+    },
+    "0x60D": {
+      "name": "Mykistyksen muistutustila",
+      "description": "Kuuloke muistuttaa mikrofonin mykistyksestä puhelun aikana. Määritä, miten ja milloin muistutus annetaan.",
+      "options": {
+        "off": "Pois",
+        "timed": "Aikapohjainen",
+        "voiceAudible": "Äänimuistutus",
+        "voiceVisible": "Näyttömuistutus",
+        "voiceVisibleAndAudible": "Näyttö- ja äänimuistutukset"
+      }
+    },
+    "0x610": {
+      "name": "Mykistä ilmoitukset",
+      "description": "Ääni-ilmoitus, joka vahvistaa kaiutinpuhelimen mykistämisen ja mykistyksen poiston."
+    },
+    "0x700": {
+      "name": "Äänenlaatu",
+      "description": "Optimoi haluamasi toiminnon äänenlaatu.",
+      "options": {
+        "homeMode": "Musiikki",
+        "enterpriseMode": "Hybridi",
+        "mono": "Keskustelu",
+        "narrowBand": "Kapeakaista"
+      }
+    },
+    "0x701": {
+      "name": "OTA-liittymä",
+      "description": "Liitä kuuloke tukiasemaan asettamatta kuuloketta lataustelineeseen."
+    },
+    "0x702": {
+      "name": "Toimintasäde",
+      "description": "Voit yrittää vähentää muiden DECT-laitteiden aiheuttamia häiriöitä äänenlaadussa pienentämällä laitteen kantamaa.",
+      "options": {
+        "low": "Pieni",
+        "medium": "Keskikokoinen",
+        "high": "Suuri"
+      }
+    },
+    "0x704": {
+      "name": "Äänen suoratoisto",
+      "description": "Valitse tämä asetus, jos haluat suoratoistaa kuulokkeeseen mobiililaitteestasi erityyppistä ääntä, esimerkiksi musiikkia ja podcasteja. Jollet suoratoista kuulokkeeseen ääntä, säästä akun kestoa poistamalla ominaisuus käytöstä.",
+      "powerCycleRequired": {
+        "title": "Äänen suoratoisto käyttöön/pois",
+        "buttonText": "OK",
+        "true": {
+          "title": "Poista äänen suoratoisto käytöstä",
+          "text": "Valitsemalla tämän voit säästää akkuvirtaa ja pidentää käytettävissä olevaa puheaikaa. Kun toiminto ei ole käytössä, et voi kuunnella musiikkia tai podcasteja kuulokkeilla."
+        },
+        "false": {
+          "title": "Ota äänen suoratoisto käyttöön",
+          "text": "Valitsemalla tämän voit kuunnella musiikkia ja podcasteja kuulokkeilla. Kun toiminto on käytössä, käytettävissä oleva puheaika voi lyhentyä."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Laajennetun kantaman tila (PC)",
+      "description": "Pidennä tietokoneen ja kuulokkeen välisen langattoman yhteyden kantamaa. HUOMAUTUS: Tämä poistaa laajakaistaisen stereoäänen käytöstä ja huonontaa tietokoneesta toistettavan äänen laatua."
+    },
+    "0x706": {
+      "name": "Tietokoneen äänen kaistanleveys",
+      "description": "Laajakaistaäänessä puhe toistuu erittäin selvänä ja luonnollisena. Akkuvirtaa kuluu kuitenkin enemmän, joten puheaika lyhenee.",
+      "options": {
+        "narrowband": "Kapeakaista",
+        "wideband": "Laajakaista"
+      }
+    },
+    "0x707": {
+      "name": "Pöytäpuhelimen äänen kaistanleveys",
+      "description": "Laajakaistaäänessä puhe toistuu erittäin selvänä ja luonnollisena. Akkuvirtaa kuluu kuitenkin enemmän, joten puheaika lyhenee.",
+      "options": {
+        "narrowband": "Kapeakaista",
+        "wideband": "Laajakaista"
+      }
+    },
+    "0x708": {
+      "name": "HD-ääni",
+      "description": "Laajakaistaääni selkeyttää puheääntä, mikäli puhelin ja operaattori tukevat kyseistä toimintoa. HUOMAUTUS: toiminto kuluttaa akkuvirtaa normaalia enemmän, joten puheaika lyhenee.",
+      "options": {
+        "narrowband": "Pois",
+        "wideband": "Päällä",
+        "stereo": "Stereo",
+        "widebandStereo": "Laajakaistastereo"
+      },
+      "powerCycleRequired": {
+        "title": "HD-ääni käyttöön/pois",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "Poista HD-ääni käytöstä",
+          "text": "Laajakaistaääni selkeyttää puheääntä, mikäli puhelin ja operaattori tukevat kyseistä toimintoa. Poista toiminto käytöstä, jos haluat säästää akkuvirtaa ja pidentää käytettävissä olevaa puheaikaa."
+        },
+        "wideband": {
+          "title": "Ota HD-ääni käyttöön",
+          "text": "Laajakaistaääni selkeyttää puheääntä, mikäli puhelin ja operaattori tukevat kyseistä toimintoa. HD-äänen käyttäminen kuluttaa enemmän akkuvirtaa ja lyhentää käytettävissä olevaa puheaikaa."
+        },
+        "stereo": {
+          "title": "Stereo-otsikko",
+          "text": "Stereoteksti"
+        },
+        "widebandStereo": {
+          "title": "Laajakaistainen stereo -otsikko",
+          "text": "Laajakaistainen stereo -teksti"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Automaattinen kaiutinten uudelleenliittäminen sarjaksi",
+      "description": "Säilytä kaiutinten sarjaliitos kahden laiteen välillä, kun molemmat laitteet ovat käynnissä."
+    },
+    "0x70B": {
+      "name": "Katkaise Bluetooth-yhteys automaattisesti",
+      "description": "Katkaise Bluetooth-yhteys, kun laite siirtyy valmiustilaan."
+    },
+    "0x800": {
+      "name": "QD-kuulokkeen äänenvoimakkuuden lisääminen",
+      "description": "Jos tukiaseman Quick Disconnectiin (QD) liitetyn kuulokkeen äänenvoimakkuus on liian alhainen, lisää äänenvoimakkuutta valitsemalla käyttämäsi kuulokemalli.",
+      "options": {
+        "new": "EncorePro 500 -sarja",
+        "legacy": "EncorePro 700 -sarja ja muut kuulokemallit"
+      }
+    },
+    "0x801": {
+      "name": "Äänitaajuuden valitsin",
+      "description": "Tehosta basso- ja diskanttiääniä kuuntelukokemuksen optimoimiseksi. Voit mukauttaa pöytäpuhelimen ja tietokoneen äänet erikseen kullekin laitteelle. ",
+      "options": {
+        "maxBass": "Suurin basso",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Suurin diskantti"
+      }
+    },
+    "0x802": {
+      "name": "Ympäristön äänten rajoitus",
+      "description": "Rajoittaa mikrofoniin tulevien lähellä olevien keskustelujen ääniä. (Huomautus: muutokset tulevat voimaan seuraavassa puhelussa.)",
+      "options": {
+        "no": "Ei rajoitusta",
+        "moderate": "Paras äänentoisto",
+        "agressive": "Avokonttori"
+      }
+    },
+    "0x803": {
+      "name": "Sidetone",
+      "description": "Säädä itse kuulemaasi oman puheesi äänenvoimakkuutta.",
+      "options": {
+        "low": "Pieni",
+        "medium": "Keskikokoinen",
+        "high": "Suuri"
+      }
+    },
+    "0x804": {
+      "name": "Aktiivisen melunvaimennuksen aikakatkaisu",
+      "description": "Säästää akkua vähentämällä aktiivisen melunvaimennukset käyttöaikaa, kun kuuloke on käyttämättömänä.",
+      "options": {
+        "2": "2 tuntia",
+        "4": "4 tuntia",
+        "off": "Pois"
+      }
+    },
+    "0x810": {
+      "name": "ANC-tila",
+      "description": "Valitse ympäristöösi parhaiten sopiva melunvaimennustaso.",
+      "options": {
+        "adaptive": "Mukautuva",
+        "automatic": "Automaattinen",
+        "standard": "Oletus",
+        "off": "Pois"
+      }
+    },
+    "0x805": {
+      "name": "Ilmoitusäänet",
+      "description": "Toistaa ilmoitusäänet muista liitetyistä laitteista äänen suoratoiston aikana."
+    },
+    "0x806": {
+      "name": "Erillinen äänenvoimakkuuden säätö",
+      "description": "Ota käyttöön tai poista käytöstä erillinen äänenvoimakkuuden säätö."
+    },
+    "0x807": {
+      "name": "Sarjaksi liitettyjen kaiuttimien ääni",
+      "description": "Valitse, millaista ääntä sarjaksi liitetyt kaiutinpuhelimet tuottavat.",
+      "options": {
+        "party": "Juhlat",
+        "stereo": "Stereo"
+      }
+    },
+    "0x808": {
+      "name": "Taajuuskorjain",
+      "description": "Määritä taajuuskorjaimen esiasetukseksi haluamasi ääni.",
+      "options": {
+        "bass": "Basso",
+        "flat": "Lattea",
+        "bright": "Kirkas"
+      }
+    },
+    "0x90A": {
+      "name": "Palauta oletukset",
+      "description": "Tämä toiminto palauttaa laitteen tehdasasetukset.",
+      "resetBtn": "Palauta oletukset",
+      "powerCycleRequired": {
+        "title": "Asetukset palautettu",
+        "buttonText": "Palauta",
+        "true": {
+          "title": "Palauta tehdasasetukset",
+          "text": "Kaikki mukautetut asetukset palautetaan alkuperäisiin oletusasetuksiin."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Käynnistä laite uudelleen",
+      "description": "Toiminto käynnistää laitteen uudelleen heti.",
+      "resetBtn": "Käynnistä uudelleen"
+    },
+    "0x848": {
+      "name": "Poista luotetut laitteet",
+      "description": "Poista kuulokemikrofoniin yhdistettyjen laitteiden luettelo. (Koskee kaikkia liitettyjä laitteita, myös laitetta BT700.)",
+      "resetBtn": "Poista laitteet",
+      "powerCycleRequired": {
+        "title": "Laitteet poistettu",
+        "buttonText": "Tyhjennä",
+        "true": {
+          "title": "Poista luotetut laitteet",
+          "text": "Tämä toiminto poistaa kaikki kuulokkeeseen liitetyt laitteet (mukaan lukien BT700-USB-sovittimen)."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Värinähälytys",
+      "description": "Kuuloke värisee saapuvan puhelun merkiksi."
+    },
+    "0x901": {
+      "name": "Latausvahvistus",
+      "description": "Kuuloke värisee sen merkiksi, että akku latautuu."
+    },
+    "0x902": {
+      "name": "Linjan merkkivalo",
+      "description": "Voit ilmoittaa muille, että olet puhelussa, ottamalla käyttöön laitteen LED-merkkivalon."
+    },
+    "0x903": {
+      "name": "Kuulokkeen käyttötapa äänenvoimakkuuden säätämistä varten",
+      "description": "Määritä kuulokkeen käyttötapa (käytetäänkö kuuloketta vasemmassa vai oikeassa korvassa) ja suurenna äänenvoimakkuutta työntämällä aina äänenvoimakkuuden säädintä ylöspäin.",
+      "options": {
+        "unknown": "Ei muutosta",
+        "left": "Vasen korva",
+        "right": "Oikea korva",
+        "leftRight": "Puomi oikealla puolella",
+        "leftRightSwapped": "Puomi vasemmalla puolella"
+      }
+    },
+    "0xA00": {
+      "name": "Äänen havaitseminen",
+      "description": "Muodosta tukiaseman ja langattoman kuulokkeen välille automaattinen radioyhteys, kun USB-portti havaitsee tietokoneaudion."
+    },
+    "0xA01": {
+      "name": "Valintaääni",
+      "description": "VoIP-puhelujen valintaääni kuuluu, kun kuulokkeen puhelupainiketta painetaan. Edellyttää, että puhelinohjelmisto tukee valintaääniä."
+    },
+    "0xFFF1": {
+      "name": "Automaattinen yhdistäminen matkapuhelimeen",
+      "description": "Savi-tukiasema liitetään automaattisesti, kun pariliitoksella siihen yhdistetty laite on sen kantaman sisäpuolella.",
+      "options": {
+        "never": "Ei koskaan",
+        "whenUndocked": "Vain, kun kuuloke ei ole telakassa",
+        "always": "Aina"
+      }
+    },
+    "0xFFF2": {
+      "name": "Kovien äänien poisto",
+      "description": "Algoritmit vaimentavat yllättäviä kovia ääniä turvallisuuden ja kuuntelumukavuuden takaamiseksi.",
+      "options": {
+        "off": "Pois",
+        "standard": "G616",
+        "enhanced": "G616 (Poly Enhanced)"
+      }
+    },
+    "0x60E": {
+      "name": "Akun tila",
+      "description": "Kuulet akun varaustason, kun käynnistät laitteen."
+    },
+    "0x60F": {
+      "name": "Liittäminen",
+      "description": "Kuulet tilailmoituksen, joka ilmaisee yhteyden tilan.",
+      "options": {
+        "voice": "Ääni",
+        "tone": "Merkkiääni"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Ota käyttöön tai poista käytöstä kaikki Bluetooth-yhteydet Sync-kaiuttimessa."
+    },
+    "-": {
+      "name": "Liittäminen",
+      "description": "Kuulet tilailmoituksen, joka ilmaisee yhteyden tilan."
+    },
+    "0x907": {
+      "name": "Suojattu Bluetooth-yhteys",
+      "description": "Muodosta yhteys kaiutinpuhelimen ja mobiililaitteen välille painamalla Bluetooth-pariliitospainiketta."
+    },
+    "0x908": {
+      "name": "Mukautuspainike",
+      "description": "Valitse toiminto, joka käynnistetään toimintopainiketta napauttamalla.",
+      "options": {
+        "playPause": "Toisto/tauko",
+        "redial": "Uudelleenvalinta (vain matkapuhelin)",
+        "vpa": "Virtuaaliassistentti (esim. Siri tai Google Assistant.)",
+        "clearTrustedDevice": "Tyhjennä luotettujen laitteiden luettelo",
+        "statusCheck": "Tilan tarkistaminen",
+        "holdResume": "Aseta pitoon / jatka puhelua",
+        "anc": "Melunvaimennus-/Läpäisytila",
+        "nothing": "Älä tee mitään"
+      }
+    },
+    "0x909": {
+      "name": "Yksinomainen yhteys",
+      "description": "Edellisen liitetyn laitteen tiedot poistetaan, kun uusi laite liitetään ja yhdistetään. Sallii vain yhden pariliitoksen ja laiteyhteyden kerrallaan."
+    },
+    "0xC00": {
+      "name": "Kirkkaus",
+      "description": "Säädä videon kirkkautta."
+    },
+    "0xC01": {
+      "name": "Kontrasti",
+      "description": "Säädä videon kontrastia."
+    },
+    "0xC02": {
+      "name": "Värisävy",
+      "description": "Säädä videon väriä."
+    },
+    "0xC03": {
+      "name": "Värikylläisyys",
+      "description": "Säädä videon värikylläisyyttä."
+    },
+    "0xC04": {
+      "name": "Terävyys",
+      "description": "Säädä videon terävyyttä."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Säädä videon gamma-arvoa."
+    },
+    "0xC06": {
+      "name": "Väri",
+      "description": "Säädä videon väriä."
+    },
+    "0xC07": {
+      "name": "Valkotasapaino",
+      "description": "Määritä, miten kamera kompensoi huoneen valonlähteiden vaihtelun."
+    },
+    "0xC08": {
+      "name": "Taustavalon kompensointi",
+      "description": "Ota taustavalon kompensointi käyttöön tai poista se käytöstä."
+    },
+    "0xC09": {
+      "name": "Vahvistus",
+      "description": "Säädä kameran signaalin vahvistusta."
+    },
+    "0xC0A": {
+      "name": "Panorointi",
+      "description": "Säädä kameran suuntaa vasemmalle tai oikealle."
+    },
+    "0xC0B": {
+      "name": "Kallistus",
+      "description": "Säädä kameran suuntaa ylös- tai alaspäin."
+    },
+    "0xC0C": {
+      "name": "Kääntö",
+      "description": "Säädä kameran kääntökulmaa."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Säädä kameran zoomaustasoa."
+    },
+    "0xC0E": {
+      "name": "Valotus",
+      "description": "Säädä kameran valotusta."
+    },
+    "0xC0F": {
+      "name": "Valotusaukko",
+      "description": "Säädä kameran valotusaukkoa."
+    },
+    "0xC10": {
+      "name": "Focus",
+      "description": "Säädä kameran tarkennusta."
+    },
+    "0xC11": {
+      "name": "Ihon parannus",
+      "description": "Ota käyttöön tai poista käytöstä ihon värinparannukset."
+    },
+    "0xC12": {
+      "name": "Laaja dynaaminen alue",
+      "description": "Valitse, perustuuko kameran valotus rajattuun alueeseen koko näkymän sijaan."
+    },
+    "0xC13": {
+      "name": "Osallistujamäärä",
+      "description": "Ilmoita kokousten osallistujamäärä."
+    },
+    "0xC14": {
+      "name": "Näyttö näytössä",
+      "description": "Näytä kameran parametrit videolähdössä."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Ota käyttöön Poly Acoustic Fence, niin voit estää taustamelua ja määrittää Poly Acoustic Fence -säteen leveyden.",
+      "options": {
+        "off": "Pois",
+        "60": "Kapea",
+        "90": "Keskikokoinen",
+        "120": "Laaja",
+        "cameraView": "Kameranäkymä"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI lähteviin ääniin",
+      "description": "Älä anna ympäristön häiritsevien äänten (kuten näppäimistön naputtelun tai paperin rapistelun) keskeyttää kokousta.",
+      "options": {
+        "true": "Oikein",
+        "false": "Väärin",
+        "fast": "Nopea"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI saapuviin ääniin",
+      "description": "Älä anna häiritsevien äänten (kuten näppäimistön naputtelun tai paperin rapistelun) keskeyttää kokousta."
+    },
+    "0xC17": {
+      "name": "Stereoääni",
+      "description": "Voit käyttää kameran kahta äänikanavaa stereoäänen luomiseen."
+    },
+    "0xC26": {
+      "name": "Bassotehostus",
+      "description": "Bassotehostus."
+    },
+    "0xC18": {
+      "name": "Seurantanopeus",
+      "description": "Määritä, kuinka nopeasti kamera tunnistaa kokouksen osallistujat.",
+      "options": {
+        "slow": "Hidas",
+        "normal": "Normaali",
+        "fast": "Nopea"
+      }
+    },
+    "0xC19": {
+      "name": "Seurantatila",
+      "description": "Määritä, miten kamera seuraa osallistujia.",
+      "options": {
+        "speaker": "Rajaus puhujaan",
+        "off": "Pois",
+        "group": "Rajaus ryhmään",
+        "presenter": "Esittäjä",
+        "conversation": "Keskustelu",
+        "gallery": "Ihmiset etualalla"
+      }
+    },
+    "0xC21": {
+      "name": "Basso",
+      "description": "Säädä kaiuttimen bassotoistoa."
+    },
+    "0xC22": {
+      "name": "Diskantti",
+      "description": "Säädä kaiuttimen diskanttia."
+    },
+    "0xC23": {
+      "name": "Välkynnänpoistoratkaisu (50/60 Hz)",
+      "description": "Vähennä näytön välkkymistä valitsemalla sopiva taajuus (NTSC 60 Hz / PAL 50 Hz).",
+      "options": {
+        "0": "Poissa käytöstä",
+        "1": "50 Hz",
+        "2": "60 Hz",
+        "3": "Automaattinen"
+      }
+    },
+    "0xC27": {
+      "name": "Kuvan peilaus/kääntö",
+      "description": "Käännä kameran videolähtö.",
+      "options": {
+        "0": "Poissa käytöstä",
+        "1": "Peilaa vaakasuunnassa",
+        "2": "Käännä pystysuunnassa",
+        "3": "Käännä ja peilaa molempiin suuntiin"
+      }
+    },
+    "0xC28": {
+      "name": "Värisävy",
+      "description": "Värisävy",
+      "options": {
+        "warm": "Lämmin",
+        "cool": "Kylmä"
+      }
+    },
+    "0xC1A": {
+      "name": "Rajauksen koko",
+      "description": "Määritä kameran seurannan rajausnäkymä.",
+      "options": {
+        "tight": "Tiukka",
+        "medium": "Keskikokoinen",
+        "wide": "Laaja"
+      }
+    },
+    "0xC1B": {
+      "name": "Suurin zoomaus",
+      "description": "Rajoita kameran enimmäiszoomaussuhdetta: 2x, 3x tai 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Kameran liike",
+      "description": "Säädä kameran liikettä",
+      "options": {
+        "auto pan": "Automaattinen panorointi",
+        "cut": "Leikkaa"
+      }
+    },
+    "0xC80": {
+      "name": "Näytön kirkkaus",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Tilan LED-valon kirkkaus",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Valmiustila",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Saapuva puhelu",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Käynnissä oleva puhelu",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Pidossa oleva puhelu",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Mykistyksen muistutus",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Langaton lataus",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "Sovelluspainike",
+      "description": "Valitse alusta, jota haluat käyttää näytöllä.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Rakettipainike",
+      "description": "Valitse toiminto, joka käynnistetään rakettia napauttamalla",
+      "options": {
+        "holdResume": "Aseta pitoon/jatka puhelua",
+        "playPause": "Toisto/tauko",
+        "statusLight": "Tilan merkkivalo",
+        "lens": "Avaa Poly Lens Desktop",
+        "vpa": "Virtuaaliassistentti – Siri, Cortana",
+        "redial": "Edellisen puhelun uudelleenvalinta",
+        "vanity": "Kampauspöydän valot",
+        "answerEnd": "Puheluun vastaaminen / puhelun lopettaminen",
+        "videoMute": "Videon ja kameran mykistys"
+      }
+    },
+    "0xC90": {
+      "name": "Näytön kirkkaus",
+      "description": "Säädä näytön kirkkautta."
+    },
+    "0xC81": {
+      "name": "Näytön kontrasti",
+      "description": "Säädä näytön kontrastia."
+    },
+    "0x910": {
+      "name": "Tietokoneen äänen jatkuvuustila",
+      "description": "Jos toiminto on otettu käyttöön, tietokoneen ääni sekoitetaan pöytäpuhelimen käyttöliittymän kanssa."
+    },
+    "0x1300": {
+      "name": "Hallitse kaikkia",
+      "description": "Valitse laitteen käytön aikana kuulemasi ilmoitukset ja äänimerkit."
+    },
+    "0x1301": {
+      "name": "Puhelut",
+      "description": "Kuulet tilailmoituksia tai äänimerkkejä, jotka ilmaisevat puhelun tilan."
+    },
+    "0x1302": {
+      "name": "Saapuva puhelu"
+    },
+    "0x1303": {
+      "name": "Vastaa/hylkää"
+    },
+    "0x1305": {
+      "name": "Puheluun vastaaminen"
+    },
+    "0x1500": {
+      "name": " Äänen läpäisytila",
+      "description": "Valitse äänen läpäisytilan taso ja ääni.",
+      "options": {
+        "speech": "Puhe",
+        "environment": "Ympäristö",
+        "off": "Pois"
+      }
+    },
+    "0x1800": {
+      "name": "Valmius",
+      "description": "Määritä pikatoiminto, kun laite siirtyy valmiustilaan.",
+      "options": {
+        "volume": "Äänenvoimakkuus",
+        "anc": "Melunvaimennus-/Läpäisytila",
+        "status": "Tilan tarkistaminen",
+        "nothing": "Älä tee mitään"
+      }
+    },
+    "0x1801": {
+      "name": "Puhelun aikana",
+      "description": "Määritä pikatoiminto, kun puhelu on käynnissä. ",
+      "options": {
+        "volume": "Äänenvoimakkuus",
+        "anc": "Melunvaimennus-/Läpäisytila",
+        "hold": "Aseta pitoon / jatka puhelua",
+        "mute": "Mykistys",
+        "nothing": "Älä tee mitään"
+      }
+    },
+    "0x1802": {
+      "name": "Mediasisällön suoratoisto ",
+      "description": "Määritä pikatoiminto, kun mediaa suoratoistetaan.",
+      "options": {
+        "volume": "Äänenvoimakkuus",
+        "anc": "Melunvaimennus-/Läpäisytila",
+        "track": "Siirry seuraavaan / Siirry edelliseen",
+        "nothing": "Älä tee mitään"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "OK",
+      "powerOffText": "Muista <b>katkaista kuulokkeesta virta vähintään 5 sekunniksi</b>, jotta asetukset tulevat voimaan."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Kielen valitseminen",
+      "DESCRIPTION": "Valitse kieli, jota käytetään kaikissa äänikomennoissa ja tilailmoituksissa (esimerkiksi ”Incoming call from Janne” [Saapuva puhelu Jannelta], ”Mute on” [Mykistys käytössä]).",
+      "DESCRIPTION_USB_CABLE": "Voit vaihtaa äänikehotteiden ja tilailmoitusten kielen liittämällä {{device_name}}-laitteen tietokoneeseen USB-kaapelilla.",
+      "CONFIRM_TITLE": "Kielen vaihtaminen"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi-verkon nimi",
+      "CONNECTED": "Yhteys muodostettu",
+      "DISCONNECTED": "Yhteys katkaistu",
+      "SIGNAL_STRENGTH": "Signaalin vahvuus",
+      "AUTOCONNECT": "Autoconnect",
+      "JOIN_OTHER_NETWORK": "Liity toiseen verkkoon",
+      "MANAGE_KNOWN_NETWORKS": "Hallitse tuttuja verkkoja",
+      "PLACEHOLDER": "Valitse verkko"
+    },
+    "GENERAL": {
+      "LABEL": "Yleistä",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP-tila",
+      "NTP_SERVER": "NTP-palvelin",
+      "CAMERA_VIVID": "Eloisa kameratila",
+      "CAMERA_VIVID_NOTE": "Laite on käynnistettävä uudelleen, jotta eloisa kameratila voidaan ottaa käyttöön."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Autoconnect",
+      "REMOTE_CONTROL_CONNECTION": "Kauko-ohjausyhteys",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "Kauko-ohjaus on pariliitettävä manuaalisesti sen jälkeen, kun yhteys on otettu pois käytöstä ja otettu takaisin käyttöön."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Palvelimen käyttöönotto",
+      "PROVISIONING_MODE": "Käyttöönottotila",
+      "PROVISIONING_MODE_OPTION_AUTO": "Automaattinen",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Manuaalinen",
+      "PROVISIONING_MODE_OPTION_OFF": "Pois",
+      "SERVER_TYPE": "Palvelintyyppi",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS-palvelin (käytetään Lensin käyttöönotossa)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly-käyttöönottopalvelin",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS-palvelin",
+      "SERVER_ADDRESS": "Palvelimen osoite",
+      "USERNAME": "Käyttäjätunnus",
+      "PASSWORD": "Salasana"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Todistukset",
+      "VALIDATE_PEER_CERTS": "Tarkista aina vertaistodistukset palvelimelta",
+      "INSTALLED_CERTIFICATES": "Asennetut todistukset",
+      "ISSUED_TO": "Osoitettu",
+      "ISSUED_BY": "Myöntänyt",
+      "EXPIRATION_DATE": "Viimeinen voimassaolopäivä",
+      "TYPE": "Tyyppi",
+      "CERTIFICATE_SIGNING_REQUEST": "Todistuksen allekirjoituspyyntö",
+      "NO_CERTIFICATES": "Tietoja ei löytynyt"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Asetusten määrittäminen",
+      "DESCRIPTION": "Tuo asetustiedosto paikalliseen järjestelmään tai vie asetustiedosto paikalliselta tiedostolta. Laite on käynnistettävä uudelleen, jotta tuotu asetus voidaan ottaa käyttöön.",
+      "IMPORT": "Tuo",
+      "IMPORT_DIALOG_TITLE": "Tuo asetus",
+      "EXPORT": "Vie",
+      "EXPORT_DIALOG_TITLE": "Vie asetus"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "Jos et löydät tarvitsemaasi asetusta, ota yhteyttä Poly Lens -järjestelmävalvojaan tai kirjaudu sisään laitteen salasanalla.",
+      "ACTION": "Kirjaudu sisään laitteen salasanalla",
+      "PASSWORD": "Salasana",
+      "CANCEL": "Peruuta",
+      "LOGIN": "Kirjaudu sisään",
+      "INVALID_PASSWORD": "Syöttämäsi salasana on virheellinen. Syötä salasana uudelleen.",
+      "REQUIRED": "Tarvitaan"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Salasana",
+      "CHANGE_PASSWORD": "Salasanan vaihtaminen",
+      "CURRENT_PASSWORD": "Nykyinen salasana",
+      "CREATE_NEW_PASSWORD": "Luo uusi salasana laitteelle",
+      "NEW_PASSWORD": "Uusi salasana",
+      "RE_ENTER_NEW_PASSWORD": "Kirjoita uusi salasana uudelleen",
+      "PASSWORD_UNMATCH": "Salasanat eivät täsmää. Syötä salasana uudelleen.",
+      "SIMPLE_PASSWORD": "Yksinkertainen salasana",
+      "DEVICE_PASSWORD": "Laitteen salasana",
+      "WEAK_PASSWORD": "Käytä heikkoa salasanaa (ei suositella).",
+      "STRONG_PASSWORD_RECOMMENDED": "Suosittelemme vahvaa salasanaa.",
+      "SAME_PASSWORD_ERROR": "Et voi käyttää salasanaa, jota olet käyttänyt aikaisemmin. Anna uusi salasana.",
+      "RECOMMENDATION_1": "Vähimmäispituus on 15 merkkiä.",
+      "RECOMMENDATION_2": "Vaatii 2 pientä kirjainta",
+      "RECOMMENDATION_3": "Vaati 2 isoa kirjainta",
+      "RECOMMENDATION_4": "Vaatii 2 numeroa",
+      "RECOMMENDATION_5": "Vaatii 2 erikoismerkkiä"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Äänen taajuuskorjain",
+      "DESCRIPTION": "Hanki ja asenna basso- ja diskanttiliukusäätimet "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Painamalla alla olevaa Hyväksyn-painiketta hyväksyt, että ohjelmiston käyttöä säätelevät ",
+      "EULA_LINK": "Poly-käyttöoikeussopimuksen ehdot",
+      "EULA_I_ACCEPT": "Hyväksyn käyttöoikeussopimuksen",
+      "BEGIN_SETUP": "Aloita asennus",
+      "PASSWORD_INVALID": "Syöttämäsi salasana on virheellinen. Syötä salasana uudelleen."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "Maa",
+      "DEVICE_NAME": "Laitteen nimi",
+      "DEVICE_NAME_DESCRIPTION": "Suosittelemme nimeämään laitteen sen huoneen tai kokoustilan mukaan, jossa laite sijaitsee.",
+      "BEGIN_SETUP": "Aloita asennus",
+      "PASSWORD_INVALID": "Syöttämäsi salasana on virheellinen. Syötä salasana uudelleen."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Äänen testaus",
+      "DESCRIPTION": "Äänen testaus ja äänen tietojen lataaminen paikalliselle asemalle kestää useamman minuutin Paina Aloita testi -painiketta, jotta voit äänittää kaikilla äänen tulolähteillä: mikrofoni, USB ja johdot.",
+      "START_TEST": "Aloita testi",
+      "MODAL_TITLE": "Äänitys",
+      "MODAL_TIME": "Aika:",
+      "DIALOG_TITLE": "Tallenna vianmääritystiedosto",
+      "PLEASE_WAIT": "Odota hetki, vianmääritystä tallennetaan.",
+      "STOP_RECORDING": "Pysäytä"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "Laitteen irrottaminen",
+      "DESCRIPTION": "Siirtyy automaattisesti valittuun tilaan, kun kuulokemikrofoni irrotetaan Poly-sovittimesta.",
+      "HOLD_ACTIVE_CALL": "Aseta aktiivinen puhelu pitoon",
+      "LOCK_SCREEN": "Lukitse tietokoneen näyttö",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Lukitse tietokoneen näyttö & aseta aktiivinen puhelu pitoon",
+      "DO_NOTHING": "Älä tee mitään"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Kuulokkeen ja tietokoneen välinen radioyhteys",
+      "DESCRIPTION": "Pidä radioyhteys tietokoneeseen aktiivisena puhelun päätyttyä.",
+      "ACTIVE_ONLY_DURING_CALL": "Aktiivinen vain puhelun aikana",
+      "ALWAYS_ACTIVE": "Aina aktiivinen"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}Asetukset{{close_tag}}",
+    "NAME_LABEL": "Nimi:",
+    "EMAIL_LABEL": "Sähköposti:",
+    "INVITED_BY_IT_ADMIN": "IT-järjestelmänvalvoja",
+    "INVITED": "{{invited_by_email}} on kutsunut sinut liittymään kohteeseen {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Tili",
+      "login": {
+        "TITLE": "Tilisi",
+        "DESCRIPTION_INTRO": "Et ole kirjautunut sisään. Kirjautumalla sisään hyväksyt",
+        "DESCRIPTION_TERMS": "Käyttöehdot",
+        "DESCRIPTION_AND": "sekä",
+        "DESCRIPTION_PRIVACY": "Yksityisyydensuoja"
+      }
+    },
+    "General": {
+      "TITLE": "Yleistä",
+      "startOnSystemStartup": {
+        "TITLE": "Käynnistä Poly Lens käynnistyksen yhteydessä",
+        "DESCRIPTION": "Poly Lens käynnistyy automaattisesti, kun kirjaudut sisään."
+      },
+      "startMinimized": {
+        "TITLE": "Käynnistä sovellus pienennettynä"
+      },
+      "eulaAccepted": {
+        "TITLE": "Käyttöoikeussopimus",
+        "DESCRIPTION": " Järjestelmänvalvojan hyväksymä"
+      }
+    },
+    "Language": {
+      "TITLE": "Kieli",
+      "LABEL": "Valitse sovelluksessa käytettävä kieli."
+    },
+    "Softphone": {
+      "TITLE": "Puhelinohjelma",
+      "MODULE_NAME": "Moduulin nimi",
+      "MODULE_VERSION": "Moduulin versio",
+      "ENABLE": "Ota käyttöön",
+      "CONNECTED": "Yhteys muodostettu",
+      "VIEW_ALL": "Tarkastele kaikkia tuettuja puhelinohjelmistoja",
+      "targetSoftphone": {
+        "TITLE": "Kohdepuhelinohjelmisto",
+        "DESCRIPTION": "Puhelinohjelmisto otetaan käyttöön lähtevissä puheluissa ja valintaäänen käytössä (tuettuja laitteita ja puhelinohjelmistoja varten)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Media Playerin toiminta puhelun saapuessa",
+        "DESCRIPTION": "Määrittää mediasoitinsovellusten (esimerkiksi iTunesin tai Windows Media Playerin) toimintamallin, kun puhelinohjelmistoon tulee puhelu."
+      },
+      "table": {
+        "TITLE": "Puhelinohjelmistot ja mediasoittimet | Poly-yhteensopivuus"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Ilmoitukset ja laitehälytykset",
+      "enableNotifications": {
+        "TITLE": "Salli työpöytäilmoitukset ja laitehälytykset"
+      },
+      "wellness": {
+        "TITLE": "Terveys ja hyvinvointi",
+        "DESCRIPTION": "Asianmukainen vedenjuonti ja säännöllinen liikunta ovat olennainen osa terveyttä sekä lyhyellä että pitkällä aikavälillä, kun ollaan pääosin paikoillaan. Asetuksista voit mukauttaa ilmoitusten väliä ja ajoitusta.",
+        "hydrationEnabled": "Muistutus vedenjuonnista",
+        "visionEnabled": "Muistutus: anna silmille tauko",
+        "hydrationEnabledTitle": "Muistutukset vedenjuonnista",
+        "visionEnabledTitle": "Muistutukset: anna silmille tauko"
+      },
+      "deviceAlerts": {
+        "TITLE": "Laitehälytykset",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Laitteen pariliitos poistettu",
+        "lowBattery": "Lataus vähissä",
+        "deviceCharging": "Laite latautuu",
+        "deviceDisconnected": "Laite irrotettu",
+        "muteAlert": "Mykistysilmoitus",
+        "deviceSoftwareUpdate": "Laitteen ohjelmistopäivitys"
+      },
+      "softwareUpdate": {
+        "TITLE": "Ohjelmistopäivitys",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Ohjelmistopäivitys",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens Desktop -versio",
+        "SOFTWARE": "Ohjelmistot",
+        "UP_TO_DATE": "Olet ajan tasalla",
+        "RELEASE_NOTES": "Julkaisutietoihin tutustuminen",
+        "CHECKING_FOR_UPDATES": "Etsitään päivityksiä",
+        "UPDATE": "Päivitys",
+        "UPDATE_AVAILABLE": "Käytettävissä",
+        "DOWNLOADING": "Ladataan",
+        "CONTINUE": "Jatka",
+        "CONTINUE_DESC": "Valitse {{open_tag}}Jatka{{close_tag}}, niin Poly Lens suljetaan ja päivitys asennetaan.",
+        "DOWNLOAD_ERROR": "Virhe ladattaessa päivitystä. Tarkista internetyhteys ja yritä uudelleen."
+      }
+    },
+    "About": {
+      "TITLE": "Tietoja",
+      "COPYRIGHT": "2022-2024 HP Inc. Kaikki oikeudet pidätetään.",
+      "PRIVACY_POLICY": "Yksityisyydensuoja",
+      "EULA": "Käyttäjän käyttöoikeussopimus"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Keskeytä ja jatka",
+    "NO_ACTION": "Ei toimintoa"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens -tuki",
+    "TITLE_OTHER": "Ota yhteys tukeen",
+    "QUICK_START_GUIDE": "Pikaopas",
+    "USER_GUIDE": "Käyttöopas",
+    "DEVICE_INFO_AND_LOGS": "Laitteen tiedot ja lokit",
+    "CONTACT_SUPPORT": "Ota yhteys tukeen",
+    "CONTACT_TYPE": "Puhelin-, sähköposti- ja online-tuki",
+    "DEVICE_INFO": "Laitetiedot",
+    "APP_INFO": "Sovellustiedot",
+    "DEVICE_MODEL": "Laitteen malli",
+    "SERIAL_NUMBER": "Sarjanumero",
+    "SOFTWARE_VERSION": "Ohjelmistoversio",
+    "COM_LIB_VERSION": "Laitteen ilmoitusversio",
+    "PID": "Tuotetunnus",
+    "LAST_CONNECTED": "Viimeksi yhdistetty",
+    "USER_ID": "Käyttäjätunnus",
+    "TENANT_ID": "Vierailijan tunnus",
+    "APP_ID": "Sovellustunnus",
+    "GET_ACCESS": "Suora ja yhteisön tuki",
+    "GET_STARTED": "Aloittaminen, asiakirjat ja paljon muuta",
+    "POLY_SUPPORT_LINK": "Tutustu Poly-tukeen",
+    "POLY_DOCUMENT_LINK": "Lens Desktop -sovelluksen ohjeet verkossa",
+    "DIAGNOSTICS": "Diagnostiikka",
+    "DIAGNOSTICS_DESCRIPTION": "Lataa lokit vianmäärityksen tukea varten, jotta voit jakaa ne Poly-tuen kanssa",
+    "DOWNLOAD_LOGS": "Lataa lokit",
+    "SAVE_LOGS": "Tallenna lokit",
+    "NONE": "Ei mitään",
+    "UNKNOWN": "Tuntematon"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "arkipäivisin",
+    "Monday": "maanantai",
+    "Tuesday": "tiistai",
+    "Wednesday": "keskiviikko",
+    "Thursday": "torstai",
+    "Friday": "perjantai",
+    "Saturday": "lauantai",
+    "Sunday": "sunnuntai",
+    "MON": "ma",
+    "TUE": "ti",
+    "WED": "ke",
+    "THU": "to",
+    "FRI": "pe",
+    "SAT": "la",
+    "SUN": "su",
+    "12:00 AM": "00.00",
+    "1:00 AM": "01.00",
+    "2:00 AM": "02.00",
+    "3:00 AM": "03.00",
+    "4:00 AM": "04.00",
+    "5:00 AM": "05.00",
+    "6:00 AM": "06.00",
+    "7:00 AM": "07.00",
+    "8:00 AM": "08.00",
+    "9:00 AM": "09.00",
+    "10:00 AM": "10.00",
+    "11:00 AM": "11.00",
+    "12:00 PM": "12.00",
+    "1:00 PM": "13.00",
+    "2:00 PM": "14.00",
+    "3:00 PM": "15.00",
+    "4:00 PM": "16.00",
+    "5:00 PM": "17.00",
+    "6:00 PM": "18.00",
+    "7:00 PM": "19.00",
+    "8:00 PM": "20.00",
+    "9:00 PM": "21.00",
+    "10:00 PM": "22.00",
+    "11:00 PM": "23.00",
+    "SHORT_LABELS": {
+      "12AM": "00.00",
+      "4AM": "04.00",
+      "8AM": "08.00",
+      "12PM": "12.00",
+      "4PM": "4.00",
+      "8PM": "8.00"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12am",
+      "1am": "1am",
+      "2am": "2am",
+      "3am": "3am",
+      "4am": "4am",
+      "5am": "5am",
+      "6am": "6am",
+      "7am": "7am",
+      "8am": "8am",
+      "9am": "9am",
+      "10am": "10am",
+      "11am": "11am",
+      "12pm": "12pm",
+      "1pm": "1pm",
+      "2pm": "2pm",
+      "3pm": "3pm",
+      "4pm": "4pm",
+      "5pm": "5pm",
+      "6pm": "6pm",
+      "7pm": "7pm",
+      "8pm": "8pm",
+      "9pm": "9pm",
+      "10pm": "10pm",
+      "11pm": "11pm"
+    },
+    "1 minute": "Minuutin välein",
+    "30 minutes": "30 minuutin välein",
+    "1 hour": "Tunnin välein",
+    "3 hours": "3 tunnin välein"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Ei käytettävissä",
+    "SELECT_PLACEHOLDER": "Valitse"
+  }
+}

@@ -1,0 +1,50 @@
+<h1 class="page-title light text-center">
+  {{ 'SUPPORT.TITLE_OTHER' | translate }}
+</h1>
+<div class="card-container-sm">
+  <div class="grid equal-height mt-3">
+    <div class="col-6 card text-left">
+      <oz-contact-support-general-info></oz-contact-support-general-info>
+    </div>
+
+    <div class="col-6 card text-left">
+      <h4 class="mb-1">
+        {{ 'SUPPORT.' + type.toUpperCase() + '_INFO' | translate }}
+      </h4>
+      <div class="grid">
+        <div class="col-11">
+          <div class="sub-title selectable">
+            {{ 'SUPPORT.DEVICE_MODEL' | translate }}
+          </div>
+          <div class="mb-1 selectable">
+            {{ selectedDevice()?.device?.productName | deviceName }}
+          </div>
+          <div class="sub-title selectable">
+            {{ 'SUPPORT.SERIAL_NUMBER' | translate }}
+          </div>
+          <div class="mb-1 selectable">
+            {{ selectedDevice()?.device?.serialNumber }}
+          </div>
+          <div class="sub-title selectable">
+            {{ 'SUPPORT.SOFTWARE_VERSION' | translate }}
+          </div>
+          <div class="mb-1 selectable">
+            {{ deviceSoftwareVersionSignal()?.value }}
+          </div>
+          <div class="sub-title selectable">
+            {{ 'SUPPORT.PID' | translate }}
+          </div>
+          <div class="mb-1 selectable">
+            {{ selectedDevice()?.device?.deviceId }}
+          </div>
+          <div class="sub-title selectable">
+            {{ 'SUPPORT.LAST_CONNECTED' | translate }}
+          </div>
+          <div class="mb-1 selectable">
+            {{ selectedDevice()?.device?.lastAttachedUtc | date : 'medium' }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

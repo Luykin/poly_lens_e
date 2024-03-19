@@ -1,0 +1,60 @@
+<div class="accordion-item">
+  <div
+    class="grid setting-item enable-section disabled"
+    id="enableNotifications"
+  >
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Notifications.enableNotifications.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <oz-slide-toggle
+        [waitForAnimation]="true"
+        [disabled]="enableNotificationsDisabled"
+      ></oz-slide-toggle>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <div class="grid setting-item enable-section disabled" id="wellness">
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Notifications.wellness.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <oz-slide-toggle
+        [waitForAnimation]="true"
+        [disabled]="wellnessDisabled"
+      ></oz-slide-toggle>
+    </div>
+    <div class="col-12 font-xs">
+      <div class="grey">
+        {{ 'SETTINGS.Notifications.wellness.DESCRIPTION' | translate }}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <div class="grid setting-item enable-section disabled" id="deviceAlerts">
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Notifications.deviceAlerts.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <oz-slide-toggle
+        [waitForAnimation]="true"
+        [disabled]="deviceAlertsDisabled"
+      ></oz-slide-toggle>
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <div class="grid setting-item enable-section disabled" id="softwareUpdate">
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Notifications.softwareUpdate.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <oz-slide-toggle
+        [waitForAnimation]="true"
+        [disabled]="softwareUpdateDisabled"
+      ></oz-slide-toggle>
+    </div>
+  </div>
+</div>

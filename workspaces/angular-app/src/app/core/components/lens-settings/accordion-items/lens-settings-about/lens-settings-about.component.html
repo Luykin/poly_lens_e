@@ -1,0 +1,26 @@
+<div class="accordion-item">
+  <div class="grid">
+    <div class="col-12">
+      <h2 id="poly_lens_title">{{ 'GENERAL.POLY_LENS' | translate }}</h2>
+      <p>
+        <a
+          class="blue"
+          (click)="openPrivacyPolicy()"
+          id="privacy_policy_link"
+          >{{ 'SETTINGS.About.PRIVACY_POLICY' | translate }}</a
+        >
+      </p>
+      <p>
+        <a
+          class="blue"
+          (click)="openEula()"
+          id="end_user_license_agreement_link"
+          >{{ 'SETTINGS.About.EULA' | translate }}</a
+        >
+      </p>
+      <p id="copyright_title">
+        &copy;{{ 'SETTINGS.About.COPYRIGHT' | translate }}
+      </p>
+    </div>
+  </div>
+</div>

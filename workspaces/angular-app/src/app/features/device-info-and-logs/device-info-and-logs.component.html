@@ -1,0 +1,106 @@
+<div class="device-overview-container mt-3">
+  <div class="h1 light text-center">
+    {{ 'SUPPORT.DEVICE_INFO_AND_LOGS' | translate }}
+    <!-- <oz-device-not-supported [pid]="device?.pid"></oz-device-not-supported> -->
+  </div>
+  <div class="my-2 text-center">
+    <div class="position-center">
+      <div class="my-2 text-center">
+        <img
+          class="product-image"
+          [src]="'' | deviceImage : selectedDevice()?.device | async"
+          [class.not-connected]="!selectedDevice()?.device?.attached"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="card-container-sm font-sm">
+    <div class="grid">
+      <div class="col-6 text-right mb-1 selectable">
+        <label>{{ 'DEVICE_INFO_LOGS.SOFTWARE_VERSION' | translate }}</label>
+      </div>
+      <div class="col-6 selectable">
+        {{ deviceSoftwareVersionSignal()?.value }}
+      </div>
+      <div class="col-6 text-right mb-1 selectable">
+        <label>{{ 'DEVICE_INFO_LOGS.SERIAL_NUMBER' | translate }}</label>
+      </div>
+      <div class="col-6 selectable">
+        {{ selectedDevice()?.device?.serialNumber }}
+      </div>
+      <!-- <div class="col-6 text-right mb-1 selectable">
+        <label>{{ 'DEVICE_INFO_LOGS.PID' | translate }}</label>
+      </div>
+      <div class="col-6 selectable">
+        TODO: Add PID
+      </div> -->
+      <!-- 
+      <ng-container *ngIf="getMacAddress()">
+        <div class="col-6 text-right mb-1 selectable">
+          <label>{{ 'DEVICE_INFO_LOGS.MAC_ADDRESS' | translate }}</label>
+        </div>
+        <div class="col-6 selectable">{{ getMacAddress() }}</div>
+      </ng-container>
+      <ng-container *ngIf="getIPAddress()">
+        <div class="col-6 text-right mb-1 selectable">
+          <label>{{ 'DEVICE_INFO_LOGS.IP_ADDRESS' | translate }}</label>
+        </div>
+        <div class="col-6 selectable">{{ getIPAddress() }}</div>
+      </ng-container>
+      <ng-container *ngIf="getDeviceDiagnosticCode()">
+        <div class="col-6 text-right mb-1 selectable">
+          <label>{{
+            'DEVICE_INFO_LOGS.DEVICE_DIAGNOSTIC_CODE' | translate
+          }}</label>
+        </div>
+        <div class="col-6 selectable">{{ getDeviceDiagnosticCode() }}</div>
+      </ng-container>
+       -->
+      <!-- <div class="col-6 text-right mb-1 selectable">
+        <label
+          >{{ 'DEVICE_COMPONENTS.SOFTWARE_COMPONENTS' | translate }}:</label
+        >
+      </div>
+      <div class="col-6 mb-1">
+        <oz-device-components [device]="selectedDevice"></oz-device-components>
+      </div> -->
+      <div class="col-6 text-right mb-1">
+        <label>{{
+          'DEVICE_INFO_LOGS.CUSTOM_SOFTWARE_UPDATE' | translate
+        }}</label>
+      </div>
+      <div class="col-6 mb-1 v-center">
+        <!-- <button class="btn btn-primary mr-5" (click)="onDfuArchiveSelection()" [disabled]="!device?.isConnected || dfuWarnings?.length || !supportDFU()">{{ "GENERAL.UPLOAD" | translate }}</button> -->
+        <button
+          class="btn btn-primary mr-5"
+          (click)="selectDFUFile()"
+          [disabled]="isCustomDFUEnabled"
+        >
+          {{ 'GENERAL.UPLOAD' | translate }}
+        </button>
+        <!-- <oz-warning-tooltip *ngIf="dfuWarnings?.length">
+                    <oz-dfu-warning-tooltip-content [device]="selectedDevice" [warnings]="dfuWarnings"></oz-dfu-warning-tooltip-content>
+                </oz-warning-tooltip> -->
+      </div>
+      <!-- <div class="col-6 text-right mb-1" *ngIf="supportDownloadLogs()"><label>{{ "DEVICE_INFO_LOGS.LOGS" | translate }}</label></div>
+            <div class="col-6 mb-1" *ngIf="supportDownloadLogs()"><button class="btn btn-primary" *ngIf="!downloading" (click)="onDownloadLogs()" [disabled]="!device?.isConnected" id="download-logs-btn">{{ "GENERAL.DOWNLOAD" | translate }}</button><button class="btn btn-primary" *ngIf="downloading" (click)="onDownloadLogs()"
+                    disabled="disabled"><span class="mr-1"><oz-icon class="v-middle icon-spin" icon="loading" size="5" px="10" style="transform-origin: 5px 5px;" color="white"></oz-icon></span><span class="not-allowed">{{ "GENERAL.DOWNLOADING" | translate }}</span></button></div>
+            <div
+                class="col-6 text-right mb-1" *ngIf="supportCrashReports()"><label>{{ "DEVICE_INFO_LOGS.CRASH_REPORTS" | translate }}</label>
+            </div> -->
+      <!-- <div class="col-6 mb-1" *ngIf="supportCrashReports()"><button class="btn btn-primary" *ngIf="!downloadingCrashFiles" (click)="onDownloadCrashFiles()" [disabled]="!device?.isConnected" id="crash-files-btn">{{ "GENERAL.DOWNLOAD" | translate }}</button><button class="btn btn-primary" *ngIf="downloadingCrashFiles"
+                disabled="disabled"><span class="not-allowed">{{ "GENERAL.DOWNLOADING" | translate }}</span></button></div>
+        <ng-container *ngIf="showHardwareRevision">
+            <div class="col-6 text-right mb-1"><label>{{ "DEVICE_INFO_LOGS.HARDWARE_REVISION" | translate }}</label></div>
+            <div class="col-6 selectable">{{ selectedDevice?.manufacturerInfo?.hardwareVersion }}</div>
+        </ng-container>
+        <ng-container *ngIf="showAdditionalHardwareRevision">
+            <div class="col-6 text-right mb-1"><label>{{ "DEVICE_INFO_LOGS.ADDITIONAL_HARDWARE_REVISION" | translate }}</label></div>
+            <div class="col-6 selectable">{{ selectedDevice?.manufacturerInfo?.additionalHardwareVersion }}</div>
+        </ng-container> -->
+    </div>
+  </div>
+  <!-- <oz-modal [show]="showDfuConfirmModal">
+    <oz-dfu-confirm [device]="selectedDevice" (confirm)="showDfuConfirmModal=false; onDfuConfirm()" (cancel)="showDfuConfirmModal=false"></oz-dfu-confirm>
+</oz-modal> -->
+</div>

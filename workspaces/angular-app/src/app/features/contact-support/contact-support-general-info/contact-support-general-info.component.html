@@ -1,0 +1,19 @@
+<h4 class="mb-1">{{ 'SUPPORT.CONTACT_TYPE' | translate }}</h4>
+<div class="text-center py-1">
+  <oz-icon class="arrow" icon="contact_support" [size]="4"></oz-icon>
+</div>
+<div class="text-left">{{ 'SUPPORT.GET_ACCESS' | translate }}</div>
+<div class="ml-0">
+  <a class="blue bold font-sm" (click)="handleOpenSupport()">{{
+    'SUPPORT.POLY_SUPPORT_LINK' | translate
+  }}</a>
+</div>
+<div class="ml-0">
+  <a class="blue bold font-sm" (click)="handleOpenCommunity()">{{
+    'SUPPORT.POLY_COMMUNITY_LINK' | translate
+  }}</a>
+</div>
+<div class="text-left">{{ 'SUPPORT.GET_STARTED' | translate }}</div>
+<a class="blue bold font-sm" (click)="handleOpenDocumentation()">{{
+  'SUPPORT.POLY_DOCUMENT_LINK' | translate
+}}</a>

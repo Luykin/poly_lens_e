@@ -1,0 +1,92 @@
+@if (setting.action === 'login') {
+
+<div class="col-12">
+  @for (invite of invites; track invite.id) {
+
+  <div class="box-outline mb-2 grid margin-left-right-xs">
+    <div class="col-12 font-xs">
+      {{ 'SETTINGS.INVITED' | translate : invite }}
+    </div>
+    <div class="col-7"></div>
+    <div class="col-5 text-right">
+      <button class="btn ml-75 mr-1">
+        {{ 'BUTTONS.DECLINE' | translate }}
+      </button>
+      <button class="btn btn-primary ml-75">
+        {{ 'BUTTONS.ACCEPT' | translate }}
+      </button>
+    </div>
+  </div>
+
+  }
+</div>
+
+} @if (isAuthed) {
+
+<div class="accordion-item">
+  <div class="grid">
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Account.login.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      @if (!isLoginless) {
+      <button class="btn btn-primary">
+        {{ 'BUTTONS.LOG_OUT' | translate }}
+      </button>
+      }
+    </div>
+    <div class="col-12 font-xs">
+      <!-- TO DO: Originally, profile$ is authService.profile$ -->
+      @if (profile$ | async; as profile) {
+      <div>
+        <div class="grey">
+          {{ 'SETTINGS.NAME_LABEL' | translate }}
+          <span class="black ml-1">{{
+            profile.given_name || profile.family_name
+              ? profile.given_name + ' ' + profile.family_name
+              : '-'
+          }}</span>
+        </div>
+        <div class="grey">
+          {{ 'SETTINGS.EMAIL_LABEL' | translate }}
+          <span class="black ml-1">{{ profile.email || '-' }}</span>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</div>
+
+} @else {
+<div class="accordion-item">
+  <div class="grid py-1">
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.Account.login.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <button class="btn btn-primary" debounce-click disabled>
+        {{ 'BUTTONS.LOG_IN' | translate }}
+      </button>
+    </div>
+    <div class="col-12 font-xs">
+      {{ 'SETTINGS.Account.login.DESCRIPTION_INTRO' | translate }}
+      <a
+        class="blue"
+        (click)="openTerms()"
+        tabIndex="0"
+        (keydown.enter)="$any($event.target).click()"
+      >
+        {{ 'SETTINGS.Account.login.DESCRIPTION_TERMS' | translate }}
+      </a>
+      {{ 'SETTINGS.Account.login.DESCRIPTION_AND' | translate }}
+      <a
+        class="blue"
+        (click)="openPrivacy()"
+        tabIndex="0"
+        (keydown.enter)="$any($event.target).click()"
+        >{{ 'SETTINGS.Account.login.DESCRIPTION_PRIVACY' | translate }}</a
+      >
+    </div>
+  </div>
+</div>
+}

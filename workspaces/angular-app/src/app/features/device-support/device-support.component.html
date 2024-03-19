@@ -1,0 +1,59 @@
+<div class="card-container-sm">
+  <div class="grid equal-height">
+    <div class="col-6 card">
+      <!-- <a (click)="handleOpenBrowser(deviceResources?.quickStartUrl)"> -->
+      <a>
+        <oz-dynamic-card
+          title="{{ 'SUPPORT.QUICK_START_GUIDE' | translate }}"
+          logo="rocket"
+          [style]="DynamicCardStyleEnum.RECTANGLE_CARD"
+          [disabled]="!isCloud"
+          [tooltipText]="'TOOLTIPS.DISABLED_BY_ADMIN' | translate"
+        ></oz-dynamic-card>
+      </a>
+    </div>
+    <div class="col-6 card">
+      <!-- <a (click)="handleOpenBrowser(deviceResources?.userGuideUrl)"> -->
+      <a>
+        <oz-dynamic-card
+          title="{{ 'SUPPORT.USER_GUIDE' | translate }}"
+          logo="book"
+          [style]="DynamicCardStyleEnum.RECTANGLE_CARD"
+          [disabled]="!isCloud"
+          [tooltipText]="'TOOLTIPS.DISABLED_BY_ADMIN' | translate"
+        ></oz-dynamic-card>
+      </a>
+    </div>
+    <div class="col-6 card">
+      <a
+        [routerLink]="[
+          '/detail',
+          selectedDevice()?.device?.deviceId,
+          'device-info-and-logs'
+        ]"
+      >
+        <!-- <a> -->
+        <oz-dynamic-card
+          title="{{ 'SUPPORT.DEVICE_INFO_AND_LOGS' | translate }}"
+          logo="info"
+          [style]="DynamicCardStyleEnum.RECTANGLE_CARD"
+        ></oz-dynamic-card>
+      </a>
+    </div>
+    <div class="col-6 card">
+      <a
+        [routerLink]="[
+          '/detail',
+          selectedDevice()?.device?.deviceId,
+          'contact-support'
+        ]"
+      >
+        <oz-dynamic-card
+          title="{{ 'SUPPORT.CONTACT_SUPPORT' | translate }}"
+          logo="life_raft"
+          [style]="DynamicCardStyleEnum.RECTANGLE_CARD"
+        ></oz-dynamic-card>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+@for(item of accordionItems; track index; let index = $index) {
+<div class="accordion-wrapper" [class.expanded]="expandedIds.has(index)">
+  <div
+    [id]="getId(item.title)"
+    class="grid accordion-title"
+    (click)="toggle(index)"
+    [class.disabled]="item.isDisabled"
+  >
+    <div class="col-8">
+      {{ item.title | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <img class="text-right va-middle" src="./assets/icons/down_arrow.svg" />
+    </div>
+  </div>
+  <div
+    class="accordion-group"
+    [@sectionExpanded]="expandedIds.has(index) ? 'expanded' : 'collapsed'"
+  >
+    <ng-container
+      *ngTemplateOutlet="item.content.templateReference"
+    ></ng-container>
+  </div>
+</div>
+}

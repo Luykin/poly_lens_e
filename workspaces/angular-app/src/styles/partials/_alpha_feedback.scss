@@ -1,0 +1,15 @@
+@import './variables';
+
+.alpha-feedback {
+  padding: 5px 10px !important;
+  border-radius: 4px;
+  background: $link-color;
+  color: $white;
+
+  .btn {
+    margin: 5px 0 0;
+    border: none;
+    color: $link-color;
+    font-size: $font-xs;
+  }
+}

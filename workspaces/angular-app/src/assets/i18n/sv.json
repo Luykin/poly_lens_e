@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "Enheten måste vara ansluten till ett nätverk för att kunna driftsättas",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Avsluta enhetskonfiguration",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "Enhetskonfiguration är inte klar.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "{{deviceName}} kan inte användas förrän konfigurationen är klar. Förloppet sparas inte.",
+  "EXIT_SETUP": "Avsluta konfigurationen",
+  "GET_STARTED": "Kom igång",
+  "NETWORK": "Nätverk",
+  "PROVISIONING": "Driftsättning",
+  "COMPLETE": "Slutförd",
+  "BUTTON_BACK": "Föregående",
+  "BUTTON_SKIP": "Hoppa över",
+  "BUTTON_NEXT": "Nästa",
+  "BUTTON_FINISH": "Slutför",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "Konfigurationen av {{deviceName}} är klar!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Driftsätt enhet",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Driftsättning",
+  "POSTPONE_DFU_MESSAGE": "Uppdateringar är tillgängliga för dina enheter. Uppdateringarna tar några minuter att slutföra. Koppla inte bort enheterna under uppdateringsproceduren.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "Det finns en uppdatering för din {{deviceName}}. Den här uppdateringen tar några minuter att slutföra. Koppla inte bort enheten under uppdateringsproceduren.",
+  "UPDATE_NOW": "Uppdatera nu",
+  "ASK_ME_LATER": "Fråga mig senare",
+  "AUDIO_RECORDING_START": "Ljudinspelning startar",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "Uppdateringen för {{deviceName}} sköts upp 1 timme",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "Uppdateringen för {{deviceName}} sköts upp {{hours}} timmar",
+  "PLAY_GREETING_NAME": "Spela upp hälsningsmeddelande",
+  "PLAY_GREETING_DESCRIPTION": "Välj en röstfil att spela upp när du besvarar ett samtal.",
+  "SELECT_FILE": "Välj fil",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Av",
+    "NARROW": "Smal",
+    "MEDIUM": "Mellan",
+    "WIDE": "Bred",
+    "CAMERA_VIEW": "Matcha kameravyn"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Först och främst ...",
+    "I_AGREE": "Jag godkänner",
+    "POLY_EULA": "Polys licensavtal för slutanvändare",
+    "CLOSE": "Stäng",
+    "PROCEED": "Fortsätt"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Bästa praxis",
+    "MENU": {
+      "HEADSET": "Headset",
+      "CAMERA": "Kamera",
+      "DESK_SETUP": "Arbetsstationens konfiguration"
+    },
+    "NEXT": {
+      "NEXT": "NÄSTA:",
+      "TITLE": "Bästa praxis",
+      "LEARN_MORE": "Mer information"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Acceptera",
+    "APPLY": "Använd",
+    "CANCEL": "Avbryt",
+    "CONTINUE": "Nästa",
+    "DECLINE": "Avböj",
+    "DONE": "Klart",
+    "LOG_IN": "Logga in",
+    "LOG_OUT": "Logga ut",
+    "OK": "OK",
+    "RETRY": "Försök igen",
+    "SHOW_LESS": "Visa mindre",
+    "JOIN": "Anslut",
+    "JOINING": "Ansluter",
+    "CREATE": "Skapa",
+    "INSTALL": "Installera",
+    "CHOOSE_FILE": "Välj fil",
+    "DELETE": "Ta bort",
+    "CLOSE": "Stäng",
+    "SELECT_FILE": "Välj fil",
+    "FEEDBACK": "Feedback"
+  },
+  "REQUIRED": "Obligatoriskt",
+  "OPTIONAL": "Tillval",
+  "Download": "Hämta",
+  "Upload": "Överföring",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "Åtgärden slutfördes inte. Försök igen.",
+  "RECEIVING_SETTINGS": "Tar emot inställningar",
+  "GENERAL": {
+    "BACK": "Föregående",
+    "CANCEL": "Avbryt",
+    "CLOSE": "Stäng",
+    "COMING_SOON": "KOMMER SNART",
+    "DOWNLOAD": "Hämta",
+    "DOWNLOADING": "Hämtar",
+    "LOADING": "Läser in",
+    "FEEDBACK": "Feedback",
+    "HOME": "Hem",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Lägg till ny",
+    "EDIT_NAME": "Redigera namn",
+    "DELETE": "Ta bort",
+    "RESTORE_DEFAULTS": "Återställ standardlägen",
+    "SEARCH_SETTINGS": "Sökinställningar",
+    "SUPPORT": "Support",
+    "UPLOAD": "Överföring",
+    "UPDATE": "Uppdatera",
+    "RETURN_HOME": "Gå tillbaka till start",
+    "VERSION": "Versioner",
+    "RECORDING": "Inspelning",
+    "RECOVER": "Återställ"
+  },
+  "FTU": {
+    "WELCOME_TO": "Välkommen till",
+    "WELCOME_1": "Låt oss hjälpa dig att få ut mesta möjliga av Poly Lens.",
+    "CONNECTIVITY": {
+      "HEADER": "Anslutning",
+      "TITLE": "Lens hanterar dina enheter"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Bästa praxis",
+      "TITLE": "Lens förbättrar din skrivbordsupplevelse"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Hälsa och välbefinnande",
+      "TITLE": "Lens sköter jobbet"
+    },
+    "EXPLORE": {
+      "BUTTON": "Fortsätt som gäst"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Logga in"
+    },
+    "GETTING_STARTED": "Komma igång",
+    "LOGIN_CARD": {
+      "TITLE": "Kom igång redan idag!",
+      "DESCRIPTION": "Logga in på Lens Desktop så att Poly och din organisation kan ge dig den bästa enhetsupplevelsen."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Montering",
+      "DESCRIPTION": "Placera bildskärmen så att ögonen är i nivå med den övre tredjedelen av skärmen. Fäst kameran på mitten av skärmen."
+    },
+    "CENTERING": {
+      "TITLE": "Centrering",
+      "DESCRIPTION": "Du ser bäst ut när du är centrerad i kamerans vy. Se till att ansiktet syns tydligt och inte beskärs. Försök att placera dig så att andra kan se minst 15 cm av din tröja från halsen och nedåt."
+    },
+    "LIGHTING": {
+      "TITLE": "Ljussättning",
+      "DESCRIPTION": "Ljussättning är avgörande för att du ska se bra ut i kameran. Dagsljus är en varierande ljuskälla och kan stå i konflikt med belysningen i rummet. Placera om möjligt arbetsstationen så att fönstret är bakom skärmen och undvik starka ljuskällor bakom dig. Mindre skarpt ljus från en taklampa fungerar bäst."
+    },
+    "BACKGROUND": {
+      "TITLE": "Bakgrund",
+      "DESCRIPTION": "Bakgrundsobjekt kan göra videosamtal mer personliga, men se till att du är den huvudsakliga fokuspunkten. Vid tveksamheter är det bättre med färre bakgrundsobjekt."
+    },
+    "NEXT": {
+      "SUBTITLE": "Arbetsstationens konfiguration"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Checklista för anslutning",
+    "POWER": {
+      "TITLE": "Kontrollera strömbrytaren",
+      "DESCRIPTION": "Är strömbrytaren påslagen?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Kontrollera Bluetooth-adaptern",
+      "DESCRIPTION": "Lyser ett blått ljus på kanten av adaptern? Ibland kan headsetet anslutas om du kopplar bort adaptern och ansluter den igen."
+    },
+    "SUPPORT": {
+      "TITLE": "Kontakta support.",
+      "DESCRIPTION": "Har du fortfarande problem?",
+      "LINK": {
+        "TEXT": "Kontakta support."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Arbetsstation",
+      "DESCRIPTION": "Se till att utrymmet under arbetsstationen är fritt och att du har tillräckligt med benutrymme. Om du inte kan justera arbetsstationens höjd höjer eller sänker du stolen och använder fotstöd om det behövs."
+    },
+    "KEYBOARD": {
+      "TITLE": "Tangentbord",
+      "DESCRIPTION": "Se till att du kan nå tangentbordet med avslappnade axlar och underarmarna parallella med golvet.  Försök hålla handlederna raka med minimal böjning."
+    },
+    "CHAIR": {
+      "TITLE": "Stol",
+      "DESCRIPTION": "Välj en stol som ger stöd åt ryggraden. Justera stolens höjd så att fötterna vilar plant på golvet och låren är parallella med golvet. Justera armstöden så att armarna vilar mjukt på dem medan dina axlar är avslappnade."
+    },
+    "FEET": {
+      "TITLE": "Fötter",
+      "DESCRIPTION": "Se till att du kan vila fötterna plant på golvet. Använd ett fotstöd om stolen är för hög eller om du måste höja på stolen på grund av arbetsstationens höjd."
+    },
+    "MONITOR": {
+      "TITLE": "Bildskärm",
+      "DESCRIPTION": "Placera bildskärmen direkt framför dig, på ungefär en armlängds avstånd. Placera bildskärmen 45 till 70 cm från ögonen, med skärmens övre del i ögonhöjd eller något under."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Headset",
+    "USB_ADAPTER": "USB-adapter",
+    "CUSTOM_SOFTWARE_UPDATE": "Anpassad programvaruuppdatering:",
+    "LOGS": "Loggar:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Spara loggar",
+    "SELECT_SOFTWARE_UPDATE": "Välj programvaruuppdatering",
+    "SERIAL_NUMBER": "Serienummer:",
+    "SOFTWARE_VERSION": "Programvaruversion:",
+    "COUNTRY": "Land:",
+    "LENS_ACCOUNT": "Lens-konto:",
+    "HARDWARE_VERSION": "Maskinvaruversion:",
+    "HARDWARE_REVISION": "Maskinvarurevision:",
+    "ADDITIONAL_HARDWARE_REVISION": "Maskinvaruversion för headset:",
+    "MAC_ADDRESS": "Mac-adress:",
+    "IP_ADDRESS": "IP-adress:",
+    "DEVICE_DIAGNOSTIC_CODE": "Enhetens diagnostikkod:",
+    "CRASH_REPORTS": "Kraschrapporter:",
+    "SAVE_CRASH_REPORTS": "Spara kraschrapporter"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Insikter",
+    "CHART": {
+      "TITLE": "Användning",
+      "SERIES_NAME": "Total användning"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Latens (ms)",
+      "NETWORK_SPEED": "Nätverkshastighet (Mbit/s)",
+      "RUNNING": "Körs",
+      "START_TEST": "Kör test",
+      "TEST_AGAIN": "Testa igen",
+      "TEST_RESULTS": "Testresultat",
+      "TITLE": "Test av nätverksdiagnostik",
+      "NO_CONNECTION": "Du är offline. Nätverkstestning är endast tillgänglig när du är ansluten till internet.",
+      "SUBTEXT": "Test av nätverksdiagnostik är en kommersiell förhandsvisningsfunktion."
+    }
+  },
+  "EE": {
+    "PAUSED": "Pausad",
+    "CONTINUE": "Tryck på BLANKSTEG för att fortsätta.",
+    "FIRE": "SHIFT – Fire",
+    "MOVE": "PILAR – Flytta",
+    "PAUSE": "BLANKSTEG – Pausa",
+    "EXIT": "ESC - Avsluta",
+    "START": "Tryck på BLANKSTEG för att starta.",
+    "DONE": "Inte illa. Bra gjort.",
+    "TRY_AGAIN": "Tryck på BLANKSTEG för att försöka igen."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Justering av huvudband",
+      "DESCRIPTION": "Justera huvudbandet så att headsetets öronkåpor är centrerade över eller på öronen och se till att headsetet inte sitter för hårt eller sitter för löst. Se headsetets användarhandbok om du vill ha detaljerade justeringsinstruktioner."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Bommens form",
+      "DESCRIPTION": "Poly-bommar är böjbara och enkla att placera. Om headsetet har en bom placerar du mikrofonen cirka 5 cm från läpparna."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Bommens placering",
+      "DESCRIPTION": "Om headsetet har en bom kan du rotera den och bära den på antingen vänster eller höger sida. Se till att bommen är vänd mot munnen och inte uppåt när du besvarar ett samtal."
+    },
+    "NEXT": {
+      "SUBTITLE": "Kamera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Hej, {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Hej, {{open_tag}}gäst{{close_tag}}",
+    "GO_TO_DETAIL": "Gå till information",
+    "CONNECT_A_DEVICE": "Anslut en enhet för att komma igång.",
+    "NOT_SEEING_DEVICE": "Kan du inte se din enhet?",
+    "SUBMIT_FEEDBACK": "Skicka feedback",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Insikter",
+        "DESCRIPTION": "Kontrollera enhetsanvändningen och anslutningen till arbetsstationen."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Hälsa och välbefinnande",
+        "DESCRIPTION": "Få påminnelser om att dricka vatten och vila. Spela upp ljudlandskap för att förbättra fokus."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Bästa praxis",
+        "DESCRIPTION": "Optimera din kamera och lär dig hur du gör din arbetsplats mer ergonomisk."
+      },
+      "SUPPORT": {
+        "TITLE": "Poly Support",
+        "DESCRIPTION": "Har du problem? Låt oss hjälpa till."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Kantonesiska",
+    "1030": "Danska",
+    "2057": "Engelska (Storbritannien)",
+    "1033": "Engelska (USA)",
+    "1036": "Franska",
+    "1031": "Tyska",
+    "1040": "Italienska",
+    "1041": "Japanska",
+    "1042": "Koreanska",
+    "1045": "Polska",
+    "2052": "Mandarin",
+    "1044": "Norska",
+    "2068": "Norska",
+    "1049": "Ryska",
+    "1034": "Spanska",
+    "1053": "Svenska",
+    "16393": "Engelska – Indien",
+    "1057": "Indonesiska",
+    "1054": "Thailändska",
+    "1046": "Brasiliansk portugisiska"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Aktiv",
+    "INACTIVE": "Inaktiv",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI är utformat för att hindra ljud som inte kommer från människor (som när du skriver på tangentbordet eller bläddrar bland papper) från att påverka dina möten genom att lyssna efter ljud som hörs när ingen pratar och stänga av mikrofonen automatiskt. Mikrofonen aktiveras igen så fort du säger något.",
+    "FOR_INCOMING_DESCRIPTION": "Förhindra att distraherande ljud i andra änden av samtalet (som när någon skriver på tangentbordet eller bläddrar bland papper) stör mötet.",
+    "FOR_INCOMING_TITLE": "Poly NoiseBlockAI för inkommande ljud",
+    "FOR_OUTGOING_DESCRIPTION": "Förhindra att distraherande ljud i din omgivning (som när någon skriver på tangentbordet eller bläddrar bland papper) stör mötet.",
+    "FOR_OUTGOING_TITLE": "Poly NoiseBlockAI för utgående ljud",
+    "SEE_HOW_WORKS": "Så här fungerar det"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Laddar",
+      "STOPPED": "Laddningen avbröts"
+    },
+    "MUTE": {
+      "ON": "Sekretess på",
+      "OFF": "Sekretess av"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Programvaruuppdatering {{build}} är tillgänglig."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Enhetsuppdatering är tillgänglig"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Enheten hittades inte",
+      "MESSAGE": "Åh nej. Ett problem har uppstått. Försök igen."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Sidan hittades inte",
+      "MESSAGE": "Åh nej. Ett problem har uppstått. Försök igen."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens behöver behörighet för att få åtkomst till kameran. Aktivera genom att ge kameraåtkomst till Poly Lens i systeminställningarna."
+    },
+    "BUTTON": {
+      "CLOSE": "Stäng"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "Enheten har kopplats från"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "Låg batterinivå"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Välkommen till Studio P21",
+      "CONTENT": "Om du vill använda Studio P21 måste du hämta ytterligare programvara för skärmen.",
+      "BUTTON": "Hämta"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Välkommen till nya Studio P21!",
+      "CONTENT": "Välkommen till nya Studio P21! Innan du kan använda den nya enheten måste du installera ytterligare programvara för skärmen",
+      "BUTTON_DOWNLOAD": "Hämta här",
+      "BUTTON_MORE_INFO": "Mer information"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} upptäckt. Öppna Poly Lens för att konfigurera enheten."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Ytterligare språkfunktioner har lästs in."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Skärmen låses om 5 sekunder. Anslut headsetet till den integrerade handkontrollen igen om du vill fortsätta arbeta."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "Konfigurationen sparades.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "Konfigurationen sparades inte.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "NTP-serverkonfigurationer har tillämpats.",
+    "CHANGE_NTP_SETTINGS_FAILED": "Det gick inte att tillämpa NTP-serverkonfigurationer.",
+    "COPIED_TO_CLIPBOARD": "Kopierat till urklipp",
+    "SAVE_CSR_FILE_SUCCESS": "CSR-filen sparades.",
+    "SAVE_CSR_FILE_FAILED": "CSR-filen sparades inte.",
+    "FILE_READ_FAILED": "Det gick inte att läsa filen.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Certifikatet har installerats.",
+    "CERTIFICATE_INSTALL_FAILED": "Det gick inte att installera certifikatet.",
+    "CERTIFICATE_DELETE_SUCCESS": "Certifikatet har tagits bort.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Lösenordet har uppdaterats.",
+    "CONFIG_EXPORT_FAILED": "Exporten misslyckades. Försök igen.",
+    "CONFIG_IMPORT_FAILED": "Importen misslyckades. Försök igen.",
+    "CONFIG_EXPORT_SUCCEEDED": "Exporten genomfördes.",
+    "CONFIG_IMPORT_SUCCEEDED": "Importen genomfördes.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Ljuddiagnostik misslyckades. Försök igen.",
+    "WIFI_JOIN_ERROR": "Det gick inte att ansluta till nätverket. Kontrollera användaruppgifterna och försök igen.",
+    "CRASH_REPORTS_SUCCESS": "Kraschrapporter hämtade.",
+    "CRASH_REPORTS_FAILED": "Kraschrapporter hittades inte.",
+    "NETWORK_ERROR": "Ingen nätverksanslutning. Vissa funktioner kan vara begränsade tills du har återställt anslutningen."
+  },
+  "DETAIL": {
+    "AUTO": "Auto",
+    "TITLE": "Informationssida",
+    "BACK_TO_HOME": "Tillbaka till startsidan",
+    "CAMERA": "Kamera",
+    "CONTROLS": "Kontroller",
+    "EXPAND": "Utöka",
+    "LINK": "Länka",
+    "UNLINK": "Ta bort länk",
+    "CONTRACT": "Fäll ihop",
+    "GRID": "Rutnät",
+    "SETTINGS": "Alternativ",
+    "FAVORITES": "Favoriter",
+    "FAVORITE_DELETE_CONFIRM": "Är du säker på att du vill ta bort favoriten ”{{favoriteName}}”?",
+    "FAVORITE_NUMBER": "Favorit {{{number}}}",
+    "FAVORITE_SAVE_AS": "Spara som ny favorit",
+    "FAVORITES_SAVED": "Inspelat",
+    "FAVORITE_COPY": "Kopia av {{favoriteName}}",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Klicka på ikonen Visa nedan för att starta förhandsgranskningen.",
+    "PREVIEW_SHOW": "Visa",
+    "PREVIEW_HIDE": "Dölj",
+    "PREVIEW_HIDDEN": "Förhandsgranskning dold",
+    "PREVIEW_WINDOWS_NOTICE": "Andra appar kan inte använda den här kameran när förhandsgranskning är aktiverat.",
+    "PREVIEW_CONTROLS_READ_ERROR": "En annan app använder den här kameran.{{line_feed}}Stäng den om du vill aktivera Förhandsgranska och Inställningar.{{line_feed}}{{line_feed}}Om det inte fungerar, kontrollera att den andra appen inte körs i bakgrunden.",
+    "SNAPSHOT": "Ögonblicksbild",
+    "SNAPSHOT_SAVE": "Spara ögonblicksbild",
+    "SNAPSHOT_SAVED_SUCCESS": "Ögonblicksbild har sparats.",
+    "SNAPSHOT_SAVED_FAIL": "Ögonblicksbilden sparades inte.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "ögonblicksbild",
+    "SANDBOX": "Sandlåda",
+    "IT_MANAGED": "IT-styrd",
+    "HEADSET": "Headset",
+    "SUPPORT": "Support",
+    "USB_ADAPTER": "USB-adapter",
+    "CHARGING_CASE": "Fodral",
+    "CHARGING_CASE_NAME": "Laddningsfodral",
+    "DEVICES": "Enheter",
+    "OVERVIEW": {
+      "OVERVIEW": "Översikt",
+      "BATTERY_LABEL": "Batteri:",
+      "BATTERY_CRITICAL": "Kritisk",
+      "WIFI_LABEL": "Nätverk:",
+      "PROVISION_LABEL": "Driftsättning:",
+      "PROVISION_AUTO": "Allmänt",
+      "PROVISION_OFF": "Driftsättning",
+      "PROVISION_NOT_SET_UP": "Inte konfigurerad",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "Enheten fungerar men kommer inte att fjärrstyras",
+      "SET_PROVISION": "Klicka för att konfigurera driftsättning",
+      "STATUS_LABEL": "Status:",
+      "HEADSET_STATUS_LABEL": "Headset:",
+      "FIRMWARE_LABEL": "Programvara:",
+      "CONNECTED": "Ansluten",
+      "NOT_CONNECTED": "Ej anslutet",
+      "DISCONNECTED": "Frånkopplad",
+      "PAIRING_MODE": "Parkoppla Bluetooth ljudenhet",
+      "PAIR_REMOTE": "Parkoppla Bluetooth fjärrenhet",
+      "USB_PAIRING_MODE": "Parkoppla ny enhet",
+      "MAKE_PRIMARY": "Ange som primär",
+      "DELETE_DEVICE": "Ta bort enhet",
+      "TROUBLE_CONNECTING": "Har du problem med att ansluta enheten?",
+      "AVAILABLE_FIRMWARE": "Tillgänglig:",
+      "SAVE_BUTTON": "Spara",
+      "CANCEL_BUTTON": "Avbryt",
+      "RENAME_DEVICE": "Byt namn",
+      "DEVICE_NAME": "Namn:",
+      "RECOVERY_MODE": "Återställningsläge",
+      "POLICY_UPDATE_NOTE": "Du måste använda en viss programvaruversion enligt din organisation. Du bör uppdatera så snart som möjligt.",
+      "CASE_UPDATE_NOTE": "Anslut USB-kabeln för att uppdatera laddningsfodralet"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Enhet hittades",
+      "SETUP_REQUIRED": "Konfiguration krävs för enhetsanvändning.",
+      "IMPORT_CONFIGURATION": "Importera konfiguration",
+      "BEGIN_SETUP": "Starta konfiguration",
+      "MODAL": {
+        "TITLE": "Importera konfiguration",
+        "DESCRIPTION": "Ange namn och säkerhetstyp för det nätverk du vill ansluta till.",
+        "LABEL_INPUT": "Enhetsnamn",
+        "INPUT_PLACEHOLDER": "Tillval",
+        "INPUT_RECOMMENDATION": "Vi rekommenderar att du namnger den här enheten efter det rum eller den möteslokal den är placerad i."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Genom att klicka på ”Jag accepterar” nedan bekräftar och godkänner du att användning av denna programvara styrs av villkoren i ",
+      "EULA_LINK": "Polys licensavtal för slutanvändare",
+      "EULA_I_ACCEPT": "Jag accepterar licensavtalet för slutanvändare",
+      "BEGIN_SETUP": "Starta konfiguration",
+      "PASSWORD_INVALID": "Lösenordet du angav är ogiltigt. Ange lösenordet igen."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Öppna",
+      "NO_DEVICES": "Inga enheter är anslutna.",
+      "QUIT": "Avsluta Poly Lens",
+      "SOUNDSCAPING": "Ljudplanering",
+      "MDA_AUDIO_RECORDING": "Ljudinspelning när ljudet är avstängt",
+      "MDA_AUDIO_RECORDING_START": "Spela in röstanteckningar",
+      "MDA_AUDIO_RECORDING_STOP": "Stoppa inspelning av röstanteckningar",
+      "OFF": "Av"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Hälsa och välbefinnande",
+    "SOUNDSCAPING": {
+      "TITLE": "Ljudplanering",
+      "ENABLE_SOUNDSCAPES": "Aktivera ljudlandskap",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Lägg till ljudlandskap i din miljö",
+          "DESCRIPTION": "En lugnande miljö kan hjälpa till att hålla distraktionerna borta. Ljudlandskapsalternativen omfattar bland annat ljud av vattenfall, vind, bäckar, skogar och hav. Dessa lugnande naturljud kan bidra till att minska stress och förbättra fokus."
+        }
+      },
+      "MOUNTAIN_RANCH": "Ranch i bergen",
+      "GENTLE_OCEAN": "Lugnt hav",
+      "BABBLING_BROOK": "Porlande bäck",
+      "AT_VOLUME": "på volym"
+    },
+    "HYDRATION": {
+      "TITLE": "Dricka vatten",
+      "REMINDERS": "Påminnelser om att dricka vatten",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Drick vatten",
+          "DESCRIPTION": "Män behöver få i sig ca 3,7 liter vatten och kvinnor ca 2,7 liter varje dag.",
+          "SOURCE_LINK_LABEL": "Källtext",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Dags för en vattenpaus",
+        "BODY": "Att dricka mycket kan förbättra sömnkvalitet, kognition och humör."
+      }
+    },
+    "VISION": {
+      "TITLE": "Synhälsa",
+      "REMINDERS": "Påminnelser om paus för ögonen",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Titta bort från skärmen",
+          "DESCRIPTION": "En bra regel att följa är 20-6-20-regeln, vilket innebär att man var tjugonde minut tittar på något cirka 6 meter bort i 20 sekunder."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Rör på kroppen",
+          "DESCRIPTION": "20-6-20 regeln är en bra början, men se till att lämna arbetsstationen och komma ut, sträcka på dig eller öva mindfulness."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Dags för en paus",
+        "BODY": "Genom att ta en paus kan du förbättra uppmärksamheten, produktiviteten och kvaliteten i ditt arbete."
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Ställ in påminnelsefrekvens",
+    "REMINDER_SCHEDULE": "{{timeSpan}} på {{days}} mellan {{startTime}} och {{endTime}}",
+    "FREQUENCY": "Frekvens",
+    "TIME_RANGE": "Tidsintervall",
+    "WEEKDAYS": "Vardagar (m–f)",
+    "WEEKDAYS_SHORT": "Veckodagar",
+    "EVERY_DAY": "Varje dag",
+    "CUSTOM": "Anpassad",
+    "ON": "aktivt läge",
+    "LEARN_MORE": "Mer information",
+    "NEXT": "NÄSTA",
+    "THROUGH": "till"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Så fungerar Acoustic Fence",
+      "TITLE": "Så fungerar Acoustic Fence",
+      "DESCRIPTION": "Acoustic Fence använder avancerad ekodämpningsteknik och flera mikrofoner för att skapa ett virtuellt ”ljudstaket”. Detta minskar den påverkan som distraherande ljud från utsidan av ”staketet” kan ha på ditt samtal, som när din medarbetare pratar. {{line_feed}}För bästa upplevelse, använd med Poly NoiseBlockAI för att dämpa bakgrundsljud som inte är prat, särskilt tangentbordsljud, papper som prasslar och till och med skällande hundar."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Så fungerar NoiseBlockAI",
+      "TITLE": "Så fungerar NoiseBlockAI",
+      "DESCRIPTION": "NoiseBlockAI är utformat för att förhindra att icke-mänskliga ljud (som tangentbordsskrivning eller prasslande med papper) påverkar dina möten genom att använda maskininlärningsbaserade brusreduceringstekniker för att minska distraherande bakgrundsljud både i din miljö och från den bortre änden av konversationen. {{line_feed}}När du inte pratar stänger NoiseBlockAI automatiskt av mikrofonen så att bakgrundsljud inte ska störa samtalet."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Återställ standardlägen",
+      "CONFIRM_MESSAGE": "Den här åtgärden återställer alla standardinställningar för enheten.",
+      "COMPLETE_TITLE": "Inställningarna är återställda!",
+      "COMPLETE_MESSAGE": "Glöm inte att koppla från (om enheten är USB-ansluten) och att stänga av/sätta på headsetet för att de nya inställningarna ska börja gälla.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "För att slutföra den här proceduren kan enheten starta om nu."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Starta om enheten",
+      "CONFIRM_MESSAGE": "Den här åtgärden startar omedelbart om enheten."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Återställ standardlägen",
+      "CONFIRM_MESSAGE": "Den här åtgärden återställer alla standardinställningar för Lens."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Ljudtitel",
+      "CONFIRM_MESSAGE": "Bekräfta ljudmeddelande."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Läs mer om antichock",
+      "TITLE": "Om Antichock",
+      "INTRO": "Det finns två eller tre alternativ för antichockskydd, beroende på produkt:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "En australiensisk branschstandard för skydd mot akustisk chock, där ljudnivåerna i örat sänks och minskar chocken från plötslig, hög volym.",
+      "G616_POLY_ENHANCED": "G616 (Poly förbättrad)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Polys egenutvecklade algoritmer ger bättre skydd än G616-skyddet. De tar bort skarpa, höga ljud och sänker dem omedelbart så att din hörsel skyddas och ljudintegriteten bibehålls.",
+      "OFF": "Av",
+      "OFF_DESCRIPTION": "När den här inställningen är avaktiverad passerar ljudet ofiltrerat, men en gräns vid ljudnivåer på 118 dBA används fortfarande så att din hörsel inte tar skada.",
+      "NOTE": "Obs!",
+      "NOTE_DESCRIPTION": "Det här alternativet beror på produkten.",
+      "MORE_INFO": "Mer information om den här funktionen finns på"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Hitta och anslut till ett Wi-Fi-nätverk",
+      "NETWORK_NAME": "Nätverksnamn",
+      "DESCRIPTION": "Ange namn och säkerhetstyp för det nätverk du vill ansluta till.",
+      "PASSWORD_TITLE": "Lägg till lösenord för nätverket {{networkName}}",
+      "SECURITY": "Säkerhet",
+      "EAP_METHOD": "EAP-metod",
+      "PHASE2": "Fas 2-verifiering",
+      "CA_CERTIFICATE": "CA-certifikat",
+      "USER_CERTIFICATE": "Användarcertifikat",
+      "IDENTITY": "Identitet",
+      "ANONYMOUS_IDENTITY": "Anonym identitet",
+      "PASSWORD": "Lösenord",
+      "IP_SETTINGS": "IP-inställningar",
+      "STATIC": "Statisk",
+      "SHOW_ADVANCED": "Visa avancerade inställningar",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "IP-adress",
+      "GATEWAY": "Gateway",
+      "SUBNET_MASK": "Subnätmask",
+      "DNS1": "DNS-adress 1",
+      "DNS2": "DNS-adress 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Hantera kända nätverk",
+      "NO_NETWORKS": "Det finns inga kända nätverk. Anslut."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Skapa begäran om certifikatsignering",
+      "DESCRIPTION": "Ange nedan information för din certifikatbegäran.",
+      "COUNTRY": "Land",
+      "STATE": "Stat eller landskap",
+      "CITY": "Stad eller ort",
+      "ORGANIZATION": "Organisation",
+      "ORGANIZATION_UNIT": "Organisationsenhet",
+      "COMMON_NAME": "Eget namn",
+      "SAVE_FILE_TITLE": "Spara filen för begäran om certifikatsignering"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Installera certifikat",
+      "TYPE": "Typ",
+      "CERTIFICATE": "Certifikat",
+      "CHOOSE_FILE_TITLE": "Välj fil"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Certifikatinformation",
+      "PASSWORD_ERROR": "Lösenordet du angav är inte giltigt. Ange lösenordet igen.",
+      "PASSWORD": "Lösenord:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Det här är din primära enhet.",
+    "MAKE_DEVICE_MAIN": "Gör den här enheten till din primära enhet.",
+    "DEVICE_NOT_SUPPORTED": "Enhetssupport kommer snart. Funktionerna i appen kan vara begränsade.",
+    "DISABLED_BY_ADMIN": "Funktionen avaktiverad av administratören"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Programvarukomponenter",
+    "VIEW_LIST_OF_COMPONENTS": "Visa {{numberOfComponents}} komponenter",
+    "VIEW_ONE_COMPONENT": "Visa en komponent",
+    "USB": "USB",
+    "PIC": "PIC",
+    "TUNING": "Ljudinställning",
+    "BASE": "Basenhet",
+    "HEADSET": "Headset",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "Set-ID",
+    "CAMERA": "Kamera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Nästan klart!",
+    "REPLUG_DESCRIPTION": "Koppla bort enheten, anslut den på nytt och klicka sedan på Fortsätt för att slutföra uppdateringen.",
+    "UPDATE_WARNING_1": "Uppdateringen tar några minuter att slutföra.",
+    "UPDATE_WARNING_2": "{{open_tag}}Koppla inte bort enheten{{close_tag}} under uppdateringsproceduren.",
+    "UPDATE_WARNING_3": "Se till att kameran inte används av ett annat program innan du fortsätter med den här programvaruuppdateringen.",
+    "DISTANCE_WARNING.TITLE": "Gör dig redo att uppdatera",
+    "DISTANCE_WARNING_1": "Håll din {{open_tag}}{{device_name}}{{close_tag}} inom 1,5 m från datorn under uppdateringen.",
+    "DISTANCE_WARNING_2": "Koppla bort alla andra Bluetooth-anslutningar (t.ex. mobiltelefon) för att undvika att avbryta uppdateringen.",
+    "LANGUAGE_DOWNLOAD": "Hämta språk",
+    "DOWNLOADING_LANGUAGE": "Hämtar språk",
+    "LANGUAGE_UPDATE": "Språkuppdatering",
+    "UPDATEING_LANGUAGE": "Uppdaterar språk",
+    "LANGUAGE_UPDATED": "Språket uppdaterades",
+    "SOFTWARE_DOWNLOAD": "Programvaruhämtning",
+    "DOWNLOADING_SOFTWARE": "Hämtar programvara",
+    "SOFTWARE_UPDATE": "Programvaruuppdatering",
+    "UPDATING_SOFTWARE": "Uppdaterar programvara",
+    "SOFTWARE_INSTALLED": "Programvaran installerades",
+    "CUSTOM_SOFTWARE_UPDATE": "Anpassad programvaruuppdatering",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Överför anpassad programvaruuppdatering",
+    "CUSTOM_SOFTWARE_INSTALLED": "Anpassad programvara installerades",
+    "DEVICE_RECOVERY": "Enhetsåterställning",
+    "RECOVERING_DEVICE": "Återställer enheten",
+    "DEVICE_RECOVERED": "Enheten återställdes",
+    "UPDATE_FAILED": "Programvaruuppdateringen misslyckades",
+    "UPDATE_FAILED_TITLE": "Åh nej. Vi har ett problem.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "Programvaruuppdateringen slutfördes inte.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "Programvaran är redan uppdaterad",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "Enheten du försökte uppdatera har redan den senaste programvaran.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Batterinivån är inte tillräcklig för att utföra en uppdatering. Ladda {{deviceName}}-batteriet innan du uppdaterar.",
+      "DeviceNotConnectedError": "Anslut {{deviceName}} via kabel för att uppdatera.",
+      "CallinProgressError": "Det går inte att uppdatera {{deviceName}} under ett samtal.",
+      "DFUInProgressError": "Det går inte att uppdatera {{deviceName}} medan en annan uppdatering pågår.",
+      "MultipleDevicesError": "Två eller fler enheter av samma modell är anslutna. Koppla bort de andra enheterna innan du uppdaterar enheten.",
+      "ReplugDevice": "Koppla bort och anslut enheten på nytt för att slutföra programvaruuppdateringen.",
+      "CameraInUseError": "Kontrollera att kameraförhandsgranskningen är avaktiverad och att mikrofonen och kameran inte är aktiva i något annat program.",
+      "SingleEarbudError": "Se till att båda öronsnäckorna är anslutna, att de inte sitter i fodralet och att mer än 50 % av batteritiden återstår för att uppdatera dem."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Allmänt",
+    "DisplayControls": "Skärmkontroller",
+    "RingtoneAndVolume": "Ringsignaler och volym",
+    "Audio": "Ljud",
+    "SensorAndPresence": "Sensorer och närvaro",
+    "SoftphonesAndMediaPlayers": "Telefonprogram och mediespelare",
+    "Wireless": "Trådlöst",
+    "Advanced": "Avancerat",
+    "ANC": "ANC",
+    "Firmware": "Firmware",
+    "Language": "Språk",
+    "VoicePromptsAndTones": "Röstmeddelanden och signaler",
+    "Admin": "Admin",
+    "ResetHeadset": "Återställ enheten",
+    "Lights": "Lampor",
+    "CustomButton": "Anpassningsbar knapp",
+    "CustomSwipe": "Anpassningsbar svepsensor",
+    "Diagnostics": "Diagnostik",
+    "SoftwareSettings": "Programvaruinställningar"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Språk",
+      "description": "Välj önskat språk för alla röstmeddelanden och aviseringar. Till exempel ”Incoming call from John” (inkommande samtal från John) eller ”Mute on” (mikrofon avstängd).",
+      "serverNotReachable": "Du kan inte ändra språk just nu eftersom servern inte är tillgänglig.",
+      "options": {
+        "3076": "Kantonesiska",
+        "1030": "Danska",
+        "2057": "Engelska – Storbritannien",
+        "1033": "Engelska – USA",
+        "1036": "Franska",
+        "1031": "Tyska",
+        "1040": "Italienska",
+        "1041": "Japanska",
+        "1042": "Koreanska",
+        "1045": "Polska",
+        "2052": "Mandarin",
+        "1044": "Norska – bokmål",
+        "2068": "Norska – nynorska",
+        "1049": "Ryska",
+        "1034": "Spanska",
+        "1053": "Svenska",
+        "16393": "Engelska – Indien",
+        "1057": "Indonesiska",
+        "1054": "Thailändska",
+        "1046": "Portugisiska – Brasilien"
+      }
+    },
+    "0x102": {
+      "name": "Annat inkommande samtal",
+      "description": "Anpassa signalbeteendet för ett inkommande samtal från en annan kommunikationsväg (t.ex. ett inkommande mobilsamtal när du är i ett befintligt samtal med ett telefonprogram).",
+      "options": {
+        "ignore": "Ignorera",
+        "once": "Ring en gång",
+        "continuous": "Ring kontinuerligt"
+      }
+    },
+    "0x103": {
+      "name": "Datorvolym",
+      "description": "",
+      "options": {
+        "off": "Av",
+        "low": "Låg volym",
+        "standard": "Standardvolym"
+      }
+    },
+    "0x104": {
+      "name": "Bordstelefonens volym",
+      "description": "",
+      "options": {
+        "off": "Av",
+        "low": "Låg volym",
+        "standard": "Standardvolym"
+      }
+    },
+    "0x105": {
+      "name": "Volym för mobiltelefon",
+      "description": "",
+      "options": {
+        "off": "Av",
+        "low": "Låg volym",
+        "standard": "Standardvolym"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "Välj ringsignalen (och volymen på tillämpliga modeller) som du hör när PC-telefonprogrammet ringer.",
+      "options": {
+        "sound1": "Ljud 1",
+        "sound2": "Ljud 2",
+        "sound3": "Ljud 3",
+        "off": "Av"
+      }
+    },
+    "0x107": {
+      "name": "Telefon",
+      "description": "Välj ringsignalen (och volymen på tillämpliga modeller) som du hör när skrivbordstelefonen ringer.",
+      "options": {
+        "sound1": "Ljud 1",
+        "sound2": "Ljud 2",
+        "sound3": "Ljud 3",
+        "off": "Av"
+      }
+    },
+    "0x108": {
+      "name": "Mobiltelefon",
+      "description": "Välj ringsignalen (och volymen på tillämpliga modeller) som du hör när mobiltelefonen ringer.",
+      "options": {
+        "sound1": "Ljud 1",
+        "sound2": "Ljud 2",
+        "sound3": "Ljud 3",
+        "off": "Av"
+      }
+    },
+    "0x109": {
+      "name": "Ringsignal",
+      "description": "Spela en ringsignal som du hör när en ansluten enhet mottar ett samtal och som inte är inställd för att spela upp en egen ringsignal."
+    },
+    "0x10A": {
+      "name": "Ringsignalens volym för basenheten",
+      "description": "Konfigurera ringsignalens volym för basenheten.",
+      "options": {
+        "off": "Av",
+        "low": "Låg",
+        "medium": "Mellan",
+        "high": "Hög"
+      }
+    },
+    "0x200": {
+      "name": "Bärsensor",
+      "description": "Aktivera den här huvudinställningen för att tillåta konfiguration av alla sensorberoende inställningar."
+    },
+    "0x201": {
+      "name": "Svara automatiskt",
+      "description": "Besvara inkommande samtal automatiskt genom att sätta på dig headsetet när telefonen ringer."
+    },
+    "0x202": {
+      "name": "Smart ljudöverföring",
+      "description": "När du tar av dig headsetet överförs samtalsljudet automatiskt från headsetet till mobiltelefonen. Om du tar på dig headsetet igen överförs ljudet tillbaka till headsetet."
+    },
+    "0x203": {
+      "name": "Samtalsknapplås",
+      "description": "Lås headsetets samtalsknapp och förhindra att nummer rings upp av misstag när du inte har headsetet på dig."
+    },
+    "0x204": {
+      "name": "Pausa musik automatiskt",
+      "description": "Strömmat ljud från en mobil enhet pausas automatiskt när du tar av dig headsetet (och startas när du sätter på dig det igen). Avaktivera om du vill spela upp strömmat ljud utan avbrott."
+    },
+    "0x205": {
+      "name": "Tysta automatiskt",
+      "description": "Stäng av headsetets mikrofon automatiskt när du tar av dig headsetet under ett samtal."
+    },
+    "0x206": {
+      "name": "Aktivt samtalsljud",
+      "description": "Välj den åtgärd som du vill att headsetet ska vidta när du tar bort det från huvudet under ett aktivt samtal.",
+      "options": {
+        "doNothing": "Gör inget",
+        "transferAudioToMobile": "Överföra ljud till mobiltelefonen",
+        "muteMic": "Stänga av mikrofonen"
+      }
+    },
+    "0x300": {
+      "name": "Automatiskt svar (ingen sensor)",
+      "description": "Besvara inkommande samtal automatiskt när du tar bort headsetet från laddningsklykan. Stäng av den här funktionen om du vill besvara samtal genom att trycka på samtalsknappen."
+    },
+    "0x301": {
+      "name": "Anslut automatiskt till mobiltelefon",
+      "description": "Savi-basen återansluts automatiskt till mobiltelefonen när den är inom basenhetens räckvidd."
+    },
+    "0x302": {
+      "name": "Placera i klykan för automatisk frånkoppling",
+      "description": "Koppla från ett samtal automatiskt när du placerar headsetet i laddningsklykan."
+    },
+    "0x400": {
+      "name": "Standardtelefonlinje",
+      "description": "Ange utgående linje som telefonen ska använda när du trycker på headsetets samtalsknapp.",
+      "options": {
+        "pstn": "Telefon",
+        "voip": "Dator",
+        "mobile": "Mobil"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Aktivera om du vill ansluta till din mobila enhet via Bluetooth."
+    },
+    "0x402": {
+      "name": "Röstkommandon för mobiltelefon",
+      "description": "Gör det möjligt att sätta en ansluten mobil enhet i röstkommandoläge genom att trycka på mobilenhetsknappen på basenheten."
+    },
+    "0xB05": {
+      "name": "Indikering för inkommande samtal",
+      "description": "Spela ett röstmeddelande vid inkommande samtal."
+    },
+    "0x913": {
+      "name": "Påminnelse om parkerat samtal",
+      "description": "Få en påminnelse om att du har ett samtal parkerat."
+    },
+    "0xB06": {
+      "name": "Varningar om min./max. volym",
+      "description": "Välj den typ av meddelande som ska spelas upp när du sänker till den lägsta volymen eller höjer till den högsta volymen.",
+      "options": {
+        "voice": "Röst",
+        "tone": "Ton"
+      }
+    },
+    "0x500": {
+      "name": "Bullerexponering",
+      "description": "Övervaka och kontrollera den dagliga bullerexponeringsnivån så att den inte överstiger det värde som valts (80 eller 85 dBA) i enlighet med aktuell lagstiftning.",
+      "options": {
+        "85db": "Begränsad till 85 dBA",
+        "80db": "Begränsad till 80 dBA",
+        "off": "Ingen begränsning"
+      }
+    },
+    "0x501": {
+      "name": "Timmar i telefon per dag",
+      "description": "Optimera inställningen för daglig bullerexponering genom att välja värdet som bäst överensstämmer med hur du använder enheten.",
+      "options": {
+        "off": "Av",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Anti-Startle (antichock)",
+      "description": "Intelligenta algoritmer som eliminerar den akustiska chocken från höga ljud så att de omedelbart reduceras, vilket ger optimalt skydd och maximal bekvämlighet."
+    },
+    "0x505": {
+      "name": "Antichock",
+      "description": "G616 är branschstandarden för akustiskt skydd och begränsar ljudnivåerna i dina öron för att förhindra chocken som kan uppstå från hög volym."
+    },
+    "0x600": {
+      "name": "Svara/Ignorera",
+      "description": "En röst frågar om du vill svara (”Answer”) eller ignorera (”Ignore”) när du får inkommande samtal på din mobiltelefon."
+    },
+    "0x601": {
+      "name": "Samtalsmeddelande",
+      "description": "Röstmeddelandet ”Besvarar samtal” hörs när du svarar på ett inkommande samtal via headsetet."
+    },
+    "0x602": {
+      "name": "Sekretess av-varning",
+      "description": "Den återkoppling du hör när du stänger av eller sätter på headsetets mikrofon.",
+      "options": {
+        "false": "Ton",
+        "true": "Röst"
+      }
+    },
+    "0x603": {
+      "name": "Påminnelse om avstängd mikrofon, tid",
+      "description": "Ställ in antalet minuter mellan påminnelser om avstängd mikrofon.",
+      "options": {
+        "off": "Av",
+        "1": "1 minut",
+        "2": "2 minuter",
+        "3": "3 minuter",
+        "4": "4 minuter",
+        "5": "5 minuter",
+        "6": "6 minuter",
+        "7": "7 minuter",
+        "8": "8 minuter",
+        "9": "9 minuter",
+        "10": "10 minuter",
+        "11": "11 minuter",
+        "12": "12 minuter",
+        "13": "13 minuter",
+        "14": "14 minuter",
+        "15": "15 minuter"
+      }
+    },
+    "0x604": {
+      "name": "Volym för påminnelse om avstängd mikrofon",
+      "description": "Ställ in volymen för påminnelse om avstängd mikrofon.",
+      "options": {
+        "off": "Av",
+        "low": "Låg volym",
+        "standard": "Standardvolym"
+      }
+    },
+    "0x607": {
+      "name": "Varning för mikrofon avstängd/aktiverad",
+      "description": "Välj den typ av varning du hör när du stänger av eller sätter på headsetets mikrofon eller får en påminnelse om avstängd mikrofon.",
+      "options": {
+        "voice": "Röst",
+        "singleTone": "En ljudsignal",
+        "doubleTone": "Dubbel ljudsignal"
+      }
+    },
+    "0x608": {
+      "name": "Systemsignal",
+      "description": "Ställ in volymen för headsetets ljudmeddelanden.",
+      "options": {
+        "off": "Av",
+        "low": "Låg volym",
+        "standard": "Standardvolym"
+      }
+    },
+    "0x609": {
+      "name": "Volymnivåsignaler",
+      "description": "När du justerar volymen hörs signaler som anger aktuell volymnivå.",
+      "options": {
+        "atEveryLevel": "Varje nivå",
+        "minMaxOnly": "Endast minimum- och maximumnivå"
+      }
+    },
+    "0x60A": {
+      "name": "Nummerpresentation",
+      "description": "Hör namnet på personen som ringer."
+    },
+    "0x60C": {
+      "name": "Signal för aktiv ljudkanal",
+      "description": "En kort ljudsignalskombination hörs som indikerar att ljudkanalen är öppen och redo för kommunikation."
+    },
+    "0x60D": {
+      "name": "Påminnelse om avstängd mikrofon",
+      "description": "Få en praktisk påminnelse om att headsetet är avstängt under ett samtal. Konfigurera hur och när påminnelsen inträffar.",
+      "options": {
+        "off": "Av",
+        "timed": "Tidsbaserad",
+        "voiceAudible": "Påminnelse via ljud",
+        "voiceVisible": "Påminnelse på skärmen",
+        "voiceVisibleAndAudible": "Påminnelser på skärmen och via ljud"
+      }
+    },
+    "0x610": {
+      "name": "Varning för avstängd mikrofon",
+      "description": "Den återkoppling du hör när du stänger av eller sätter på högtalartelefonens mikrofon."
+    },
+    "0x700": {
+      "name": "Ljudkvalitet",
+      "description": "Optimera ljudkvaliteten för önskad aktivitet.",
+      "options": {
+        "homeMode": "Musik",
+        "enterpriseMode": "Hybrid",
+        "mono": "Samtal",
+        "narrowBand": "Smalband"
+      }
+    },
+    "0x701": {
+      "name": "Over-the-Air Subscription (radioanslutning)",
+      "description": "Anslut headsetet till basenheten utan att fysiskt placera headsetet i laddningsklykan."
+    },
+    "0x702": {
+      "name": "Räckvidd",
+      "description": "Begränsa ljudstörningar från andra DECT-enheter.",
+      "options": {
+        "low": "Låg",
+        "medium": "Mellan",
+        "high": "Hög"
+      }
+    },
+    "0x704": {
+      "name": "Direktuppspelat ljud",
+      "description": "Aktivera den här funktionen om du vill strömma musik, poddsändningar och annat ljud från en mobil enhet till headsetet. Om du inte strömmar ljud till headsetet avaktiverar du den här funktionen för att spara batteritid.",
+      "powerCycleRequired": {
+        "title": "Aktivera/inaktivera direktuppspelning av ljud",
+        "buttonText": "OK",
+        "true": {
+          "title": "Inaktivera direktuppspelning av ljud",
+          "text": "Välj det här alternativet om du vill spara på batteriet och kunna ha längre samtal. När funktionen är inaktiverad kan du inte lyssna på musik eller poddsändningar via headsetet."
+        },
+        "false": {
+          "title": "Aktivera direktuppspelning av ljud",
+          "text": "Välj det här alternativet om du vill lyssna på musik och poddsändningar via headsetet. När funktionen är aktiverad kan du minska den tillgängliga samtalstiden."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Utökat räckviddsläge (PC)",
+      "description": "Få förbättrad trådlös räckvidd från din dator till headsetet. Obs! Detta inaktiverar bredbandsstereotelefoni och minskar kvaliteten på ljudet du hör från din dator."
+    },
+    "0x706": {
+      "name": "Bandbredd för datorljud",
+      "description": "Bredbandsljud ger klarare och bättre ljud men funktionen förbrukar mer batteritid, vilket ger kortare samtalstid.",
+      "options": {
+        "narrowband": "Smalband",
+        "wideband": "Bredband"
+      }
+    },
+    "0x707": {
+      "name": "Ljudbandbredd för skrivbordstelefon",
+      "description": "Bredbandsljud ger klarare och bättre ljud men funktionen förbrukar mer batteritid, vilket ger kortare samtalstid.",
+      "options": {
+        "narrowband": "Smalband",
+        "wideband": "Bredband"
+      }
+    },
+    "0x708": {
+      "name": "HD Voice",
+      "description": "Bredbandsljud ger tydligare tal om telefonen och operatören stöder den här funktionen. Obs! Den här funktionen förbrukar avsevärd batterikraft vilket resulterar i kortare samtalstid.",
+      "options": {
+        "narrowband": "Av",
+        "wideband": "På",
+        "stereo": "Stereo",
+        "widebandStereo": "Bredbandsstereo"
+      },
+      "powerCycleRequired": {
+        "title": "Aktivera/inaktivera HD Voice",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "Inaktivera HD Voice",
+          "text": "Bredbandsljud ger tydligare tal om telefonen och operatören stöder den här funktionen. Inaktivera funktionen för att spara på batteriet och få längre samtal."
+        },
+        "wideband": {
+          "title": "Aktivera HD Voice",
+          "text": "Bredbandsljud ger tydligare tal om telefonen och operatören stöder den här funktionen. Om du aktiverar HD Voice förbrukas mer batterikraft och samtalstiden minskar."
+        },
+        "stereo": {
+          "title": "Stereotitel",
+          "text": "Stereotext"
+        },
+        "widebandStereo": {
+          "title": "Titel för bredbandsstereo",
+          "text": "Text för bredbandsstereo"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Återanslut seriekoppling automatiskt",
+      "description": "Behåll seriekoppling mellan två enheter när de är påslagna."
+    },
+    "0x70B": {
+      "name": "Koppla från Bluetooth automatiskt",
+      "description": "Koppla från Bluetooth när enheten går in i standbyläge."
+    },
+    "0x800": {
+      "name": "Öka volymen på QD-headsetet",
+      "description": "Om volymen på det headset som är anslutet till Quick Disconnect (QD)-basenheten är för låg väljer du din headsetmodell för att öka volymen.",
+      "options": {
+        "new": "EncorePro 500-serien",
+        "legacy": "EncorePro 700-serien och övriga headsetmodeller"
+      }
+    },
+    "0x801": {
+      "name": "Tonkontroll",
+      "description": "Förstärk bas- eller diskanttonerna för att optimera ljudupplevelsen. Du kan anpassa skrivbordstelefonens och datorns toner separat för varje enhet. ",
+      "options": {
+        "maxBass": "Max bas",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Max diskant"
+      }
+    },
+    "0x802": {
+      "name": "Begränsning till nära samtal",
+      "description": "Begränsa hur mycket av samtalen i närheten som överförs via mikrofonen. (Obs! Ändringarna används vid nästa samtal.)",
+      "options": {
+        "no": "Ingen begränsning",
+        "moderate": "Bästa ljud",
+        "agressive": "Öppet kontorslandskap"
+      }
+    },
+    "0x803": {
+      "name": "Sidoton",
+      "description": "Justera volymen för din egen röst när du talar.",
+      "options": {
+        "low": "Låg",
+        "medium": "Mellan",
+        "high": "Hög"
+      }
+    },
+    "0x804": {
+      "name": "ANC-tidsgräns",
+      "description": "Spara batteritid genom att inte ha på aktiv bullerdämpning (ANC) när headsetet är i viloläge.",
+      "options": {
+        "2": "2 timmar",
+        "4": "4 timmar",
+        "off": "Av"
+      }
+    },
+    "0x810": {
+      "name": "ANC-läge",
+      "description": "Välj den bästa brusreduceringsnivån för din miljö.",
+      "options": {
+        "adaptive": "Adaptiv",
+        "automatic": "Automatisk",
+        "standard": "Standard",
+        "off": "Av"
+      }
+    },
+    "0x805": {
+      "name": "Meddelandesignaler",
+      "description": "Få meddelandesignaler från andra anslutna enheter medan du streamar ljud."
+    },
+    "0x806": {
+      "name": "Oberoende volymkontroll",
+      "description": "Aktivera eller avaktivera oberoende volymkontroll."
+    },
+    "0x807": {
+      "name": "Seriekoppla ljud",
+      "description": "Välj den ljudutsignal som ska användas när du seriekopplar högtalartelefoner.",
+      "options": {
+        "party": "Festläge",
+        "stereo": "Stereo"
+      }
+    },
+    "0x808": {
+      "name": "Equalizer",
+      "description": "Ställ in equalizer-förinställningen till önskad ljudsignatur.",
+      "options": {
+        "bass": "Bas",
+        "flat": "Platt",
+        "bright": "Ljus"
+      }
+    },
+    "0x90A": {
+      "name": "Återställ standardlägen",
+      "description": "Den här åtgärden kommer att återställa alla standardinställningarna för enheten.",
+      "resetBtn": "Återställ standardlägen",
+      "powerCycleRequired": {
+        "title": "Inställningarna är återställda",
+        "buttonText": "Återställ",
+        "true": {
+          "title": "Återställ fabriksinställningarna",
+          "text": "Alla dina anpassade inställningar återställs till sina ursprungliga standardlägen."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Starta om enheten",
+      "description": "Den här åtgärden startar omedelbart om enheten.",
+      "resetBtn": "Starta om"
+    },
+    "0x848": {
+      "name": "Rensa betrodda enheter",
+      "description": "Rensa listan med anslutna enheter som är sparade på ditt headset. (Det här gäller för alla anslutna enheter, inklusive BT700.)",
+      "resetBtn": "Rensa enheter",
+      "powerCycleRequired": {
+        "title": "Enheterna rensades",
+        "buttonText": "Rensa",
+        "true": {
+          "title": "Rensa betrodda enheter",
+          "text": "Den här åtgärden rensar alla anslutna enheter som finns lagrade i headsetet, inklusive BT700 USB-adaptern."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Vibrera när det ringer",
+      "description": "Ange att headsetet ska vibrera när du tar emot samtal."
+    },
+    "0x901": {
+      "name": "Laddningsbekräftelse",
+      "description": "Ange att headsetet ska vibrera för att bekräfta att det laddas."
+    },
+    "0x902": {
+      "name": "Onlineindikator",
+      "description": "Aktivera LED-indikatorn på enheten som visar andra att du sitter i ett samtal."
+    },
+    "0x903": {
+      "name": "Volymkontroll baserat på bärstilen du föredrar",
+      "description": "Ange vilken bärstil du föredrar (vänster eller höger öra) men se alltid till att du ökar volymnivån genom att trycka uppåt.",
+      "options": {
+        "unknown": "Ingen förändring",
+        "left": "Vänster öra",
+        "right": "Höger öra",
+        "leftRight": "Bommikrofon på höger sida",
+        "leftRightSwapped": "Bommikrofon på vänster sida"
+      }
+    },
+    "0xA00": {
+      "name": "Ljudavkänning",
+      "description": "Upprätta automatiskt en radiolänk mellan basenheten och det trådlösa headsetet när USB-porten upptäcker datorljud."
+    },
+    "0xA01": {
+      "name": "Kopplingston",
+      "description": "Hör en kopplingston för ett VoIP-samtal när du trycker ned samtalsknappen på headsetet. Telefonprogrammet måste ha stöd för kopplingstoner."
+    },
+    "0xFFF1": {
+      "name": "Anslut automatiskt till mobiltelefon",
+      "description": "Savi-basen återansluts automatiskt till den parkopplade mobilenheten när den är inom basenhetens räckvidd.",
+      "options": {
+        "never": "Aldrig",
+        "whenUndocked": "Endast när headsetet inte är dockat",
+        "always": "Alltid"
+      }
+    },
+    "0xFFF2": {
+      "name": "Antichock",
+      "description": "Algoritmer som eliminerar den akustiska chocken från höga ljud för att skydda dig och ge en behaglig ljudupplevelse.",
+      "options": {
+        "off": "Av",
+        "standard": "G616",
+        "enhanced": "G616 (Poly förbättrad)"
+      }
+    },
+    "0x60E": {
+      "name": "Batteristatus",
+      "description": "Spela upp batteristatus när du sätter på enheten."
+    },
+    "0x60F": {
+      "name": "Anslutning",
+      "description": "Spela upp ett röstmeddelande som anger anslutningsstatus.",
+      "options": {
+        "voice": "Röst",
+        "tone": "Ton"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Aktivera eller avaktivera alla Bluetooth-anslutningar på Sync-högtalaren."
+    },
+    "-": {
+      "name": "Anslutning",
+      "description": "Spela upp ett röstmeddelande som anger anslutningsstatus."
+    },
+    "0x907": {
+      "name": "Säker Bluetooth-anslutning",
+      "description": "Tryck på knappen för Bluetooth-parkoppling för att slutföra anslutningen mellan högtalartelefonen och den mobila enheten."
+    },
+    "0x908": {
+      "name": "Anpassningsbar knapp",
+      "description": "Tilldela den åtgärd som ska starta när du trycker på åtgärdsknappen.",
+      "options": {
+        "playPause": "Spela upp/paus",
+        "redial": "Återuppringning (endast mobil)",
+        "vpa": "VPA (Siri, Google Assistant, etc.)",
+        "clearTrustedDevice": "Rensa listan med betrodda enheter",
+        "statusCheck": "Statuskontroll",
+        "holdResume": "Parkera/återuppta samtal",
+        "anc": "Läge för aktiv brusreducering/transparensläge",
+        "nothing": "Gör inget"
+      }
+    },
+    "0x909": {
+      "name": "Exklusiv anslutning",
+      "description": "Ta bort information om parkopplade enheter när du parkopplar och ansluter nya enheter. Det innebär att du endast kan parkoppla och ansluta en enhet i taget."
+    },
+    "0xC00": {
+      "name": "Ljusstyrka",
+      "description": "Justera videons ljusstyrka."
+    },
+    "0xC01": {
+      "name": "Kontrast",
+      "description": "Justera videokontrasten."
+    },
+    "0xC02": {
+      "name": "Nyans",
+      "description": "Justera videofärgen."
+    },
+    "0xC03": {
+      "name": "Mättnad",
+      "description": "Justera färgmättnaden för video."
+    },
+    "0xC04": {
+      "name": "Skärpa",
+      "description": "Justera videoskärpan."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Justera videogamma."
+    },
+    "0xC06": {
+      "name": "Färg",
+      "description": "Justera videofärgen."
+    },
+    "0xC07": {
+      "name": "Vitbalans",
+      "description": "Ange hur kameran kompenserar för variationer i rummets ljuskällor."
+    },
+    "0xC08": {
+      "name": "Motljuskompensation",
+      "description": "Aktivera eller inaktivera motljuskompensation."
+    },
+    "0xC09": {
+      "name": "Förstärkning",
+      "description": "Justera signalförstärkningen från kameran."
+    },
+    "0xC0A": {
+      "name": "Panorera",
+      "description": "Justera kamerans vänstra eller högra riktning."
+    },
+    "0xC0B": {
+      "name": "Lutning",
+      "description": "Justera kamerans riktning uppåt eller nedåt."
+    },
+    "0xC0C": {
+      "name": "Rulla",
+      "description": "Justera kamerans rullningsvinkel."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Justera kamerans zoomnivå."
+    },
+    "0xC0E": {
+      "name": "Exponering",
+      "description": "Justera kameraexponeringen."
+    },
+    "0xC0F": {
+      "name": "Bländare",
+      "description": "Justera kamerans bländare."
+    },
+    "0xC10": {
+      "name": "Focus",
+      "description": "Justera kamerans fokus."
+    },
+    "0xC11": {
+      "name": "Hudförbättring",
+      "description": "Aktivera eller inaktivera naturliga förbättringar av hudfärg för deltagarna."
+    },
+    "0xC12": {
+      "name": "Brett dynamiskt omfång",
+      "description": "Aktivera eller inaktivera kameraexponering baserat på det inramade området i stället för helskärm."
+    },
+    "0xC13": {
+      "name": "Antal deltagare",
+      "description": "Rapportera antalet deltagare i möten."
+    },
+    "0xC14": {
+      "name": "Visning på skärmen",
+      "description": "Visa kameraparametrar i videoutgång."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Aktivera Poly Acoustic Fence för att blockera bakgrundsbrus och konfigurera bredden på Poly Acoustic Fence-strålen.",
+      "options": {
+        "off": "Av",
+        "60": "Smal",
+        "90": "Mellan",
+        "120": "Bred",
+        "cameraView": "Kameravy"
+      }
+    },
+    "0xC16": {
+      "name": "Poly NoiseBlockAI för utgående ljud",
+      "description": "Förhindra att distraherande ljud i din omgivning (som när någon skriver på tangentbordet eller bläddrar bland papper) stör mötet.",
+      "options": {
+        "true": "Sant",
+        "false": "Falskt",
+        "fast": "Snabb"
+      }
+    },
+    "0xC24": {
+      "name": "Poly NoiseBlockAI för inkommande ljud",
+      "description": "Förhindra att distraherande ljud i andra änden av samtalet (som när någon skriver på tangentbordet eller bläddrar bland papper) stör mötet."
+    },
+    "0xC17": {
+      "name": "Stereoljud",
+      "description": "Använd två ljudkanaler på kameran för att få stereoljud."
+    },
+    "0xC26": {
+      "name": "Basförstärkning",
+      "description": "Basförstärkning."
+    },
+    "0xC18": {
+      "name": "Spårningshastighet",
+      "description": "Konfigurera hur snabbt kameran identifierar mötesdeltagare.",
+      "options": {
+        "slow": "Långsam",
+        "normal": "Normal",
+        "fast": "Snabb"
+      }
+    },
+    "0xC19": {
+      "name": "Spårningsläge",
+      "description": "Konfigurera hur kameran spårar deltagare.",
+      "options": {
+        "speaker": "Talarspårning",
+        "off": "Av",
+        "group": "Gruppspårning",
+        "presenter": "Presentatör",
+        "conversation": "Samtal",
+        "gallery": "Människor i ramvy"
+      }
+    },
+    "0xC21": {
+      "name": "Bas",
+      "description": "Justera högtalarens basljud."
+    },
+    "0xC22": {
+      "name": "Diskant",
+      "description": "Justera högtalarens diskantljud."
+    },
+    "0xC23": {
+      "name": "Lösning för antiflimmer (50 Hz/60 Hz)",
+      "description": "Välj lämplig frekvens (NTSC: 60 Hz/PAL: 50 Hz) för att minska flimmer.",
+      "options": {
+        "0": "Avaktiverad",
+        "1": "50 Hz",
+        "2": "60 Hz",
+        "3": "Auto"
+      }
+    },
+    "0xC27": {
+      "name": "Bildspegling/-vändning",
+      "description": "Invertera kamerans videoutmatning.",
+      "options": {
+        "0": "Avaktiverad",
+        "1": "Återspegla horisontellt",
+        "2": "Vänd vertikalt",
+        "3": "Vänd och återspegla i båda riktningarna"
+      }
+    },
+    "0xC28": {
+      "name": "Färgtemperatur",
+      "description": "Färgtemperatur",
+      "options": {
+        "warm": "Varm",
+        "cool": "Kall"
+      }
+    },
+    "0xC1A": {
+      "name": "Ramstorlek",
+      "description": "Konfigurera kamerans ramvy för spårning.",
+      "options": {
+        "tight": "Tät",
+        "medium": "Mellan",
+        "wide": "Bred"
+      }
+    },
+    "0xC1B": {
+      "name": "Maximal zoom",
+      "description": "Begränsa kamerans maximala zoomning i steg om 2x, 3x eller 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Kamerarörelser",
+      "description": "Justera kamerarörelsen",
+      "options": {
+        "auto pan": "Automatisk panorering",
+        "cut": "Klipp"
+      }
+    },
+    "0xC80": {
+      "name": "Skärmens ljusstyrka",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Statuslampans ljusstyrka",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Inaktivt läge",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Inkommande samtal",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Pågående samtal",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Parkerat samtal",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Påminnelse med sekretess",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Trådlös laddning",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "Appknapp",
+      "description": "Välj vilken plattform du vill ha åtkomst till från skärmen.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Raketknapp",
+      "description": "Tilldela den åtgärd som ska starta när du trycker på raketen",
+      "options": {
+        "holdResume": "Parkera/återuppta samtal",
+        "playPause": "Spela upp/pausa",
+        "statusLight": "Statuslampor",
+        "lens": "Öppna Poly Lens Desktop",
+        "vpa": "VPA – Siri, Cortana",
+        "redial": "Återuppringning av det senaste samtalet",
+        "vanity": "Ansiktsbelysning",
+        "answerEnd": "Besvara/avsluta samtal",
+        "videoMute": "Video med avstängd mikrofon"
+      }
+    },
+    "0xC90": {
+      "name": "Skärmens ljusstyrka",
+      "description": "Justera skärmens ljusstyrka."
+    },
+    "0xC81": {
+      "name": "skärmkontrast",
+      "description": "Justera skärmens kontrast."
+    },
+    "0x910": {
+      "name": "Datorljud i kvarstående läge",
+      "description": "Om det är aktiverat kommer datorljudet att blandas med skrivbordstelefonens gränssnitt."
+    },
+    "0x1300": {
+      "name": "Hantera alla",
+      "description": "Välj de meddelanden och signaler som ska spelas upp när du använder enheten."
+    },
+    "0x1301": {
+      "name": "Samtal",
+      "description": "Spela upp röstmeddelanden och signaler för att ange samtalsstatus."
+    },
+    "0x1302": {
+      "name": "Inkommande samtal"
+    },
+    "0x1303": {
+      "name": "Svara/Ignorera"
+    },
+    "0x1305": {
+      "name": "Besvarar samtal"
+    },
+    "0x1500": {
+      "name": " Transparensläge",
+      "description": "Välj nivå för transparensläge och ljudsignatur.",
+      "options": {
+        "speech": "Tal",
+        "environment": "Miljö",
+        "off": "Av"
+      }
+    },
+    "0x1800": {
+      "name": "Inaktiv",
+      "description": "Tilldela snabbåtgärd för när enheten ändras till viloläge.",
+      "options": {
+        "volume": "Volym",
+        "anc": "Läge för aktiv brusreducering/transparensläge",
+        "status": "Statuskontroll",
+        "nothing": "Gör inget"
+      }
+    },
+    "0x1801": {
+      "name": "I samtal",
+      "description": "Tilldela snabbåtgärd för när du deltar i samtal. ",
+      "options": {
+        "volume": "Volym",
+        "anc": "Läge för aktiv brusreducering/transparensläge",
+        "hold": "Parkera/återuppta samtal",
+        "mute": "Avstängd mikrofon",
+        "nothing": "Gör inget"
+      }
+    },
+    "0x1802": {
+      "name": "Strömmade medier ",
+      "description": "Tilldela snabbåtgärd för när du strömmar medier.",
+      "options": {
+        "volume": "Volym",
+        "anc": "Läge för aktiv brusreducering/transparensläge",
+        "track": "Följ framåt/bakåt",
+        "nothing": "Gör inget"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "OK, jag förstår",
+      "powerOffText": "Glöm inte att <b>stänga av headsetet i minst 5 sekunder</b> för att de nya inställningarna ska börja gälla."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Välj språk",
+      "DESCRIPTION": "Välj det språk som du vill använda för alla röstmeddelanden och varningar (t.ex. \"Incoming call from John\" (inkommande samtal från John), \"Mute on\" (sekretess på)).",
+      "DESCRIPTION_USB_CABLE": "Om du vill ändra språk för röstmeddelanden och varningar ansluter du {{device_name}} till datorn via en USB-kabel.",
+      "CONFIRM_TITLE": "Ändra språk"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Wi-Fi-namn",
+      "CONNECTED": "Ansluten",
+      "DISCONNECTED": "Frånkopplad",
+      "SIGNAL_STRENGTH": "Signalstyrka",
+      "AUTOCONNECT": "Automatisk anslutning",
+      "JOIN_OTHER_NETWORK": "Anslut till annat nätverk",
+      "MANAGE_KNOWN_NETWORKS": "Hantera kända nätverk",
+      "PLACEHOLDER": "Välj nätverk"
+    },
+    "GENERAL": {
+      "LABEL": "Allmänt",
+      "NTP_LABEL": "NTP",
+      "NTP": "NTP-läge",
+      "NTP_SERVER": "NTP-server",
+      "CAMERA_VIVID": "Kamerans Tydlig-läge",
+      "CAMERA_VIVID_NOTE": "Enheten måste startas om för att kamerans Tydlig-läge ska kunna användas."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Automatisk anslutning",
+      "REMOTE_CONTROL_CONNECTION": "Anslutning av fjärrkontroll",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "Du måste para ihop fjärrkontrollen manuellt när du har inaktiverat och återaktiverat anslutningen."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Driftsätta server",
+      "PROVISIONING_MODE": "Driftsättningsläge",
+      "PROVISIONING_MODE_OPTION_AUTO": "Auto",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Handbok",
+      "PROVISIONING_MODE_OPTION_OFF": "Av",
+      "SERVER_TYPE": "Servertyp",
+      "SERVER_TYPE_OPTION_HTTPS": "HTTPS-server (används för Lens-driftsättning)",
+      "SERVER_TYPE_OPTION_CLOUD": "Poly-driftsättningsserver",
+      "SERVER_TYPE_OPTION_FTPS": "FTPS-server",
+      "SERVER_ADDRESS": "Serveradress",
+      "USERNAME": "Användarnamn",
+      "PASSWORD": "Lösenord"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Certifikat",
+      "VALIDATE_PEER_CERTS": "Validera alltid peer-certifikat från servern",
+      "INSTALLED_CERTIFICATES": "Installerade certifikat",
+      "ISSUED_TO": "Utfärdat till",
+      "ISSUED_BY": "Utfärdat av",
+      "EXPIRATION_DATE": "Utgångsdatum",
+      "TYPE": "Typ",
+      "CERTIFICATE_SIGNING_REQUEST": "Begäran om certifikatsignering",
+      "NO_CERTIFICATES": "Inga poster hittade"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Konfiguration",
+      "DESCRIPTION": "Exportera konfigurationsfilen till ditt lokala system eller importera en konfigurationsuppsättning från en lokal fil. Du måste starta om enheten för att en importerad konfiguration ska börja gälla.",
+      "IMPORT": "Importera",
+      "IMPORT_DIALOG_TITLE": "Importera konfiguration",
+      "EXPORT": "Exportera",
+      "EXPORT_DIALOG_TITLE": "Exportera konfiguration"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "Om du inte ser de inställningar som du letar efter, kontakta din Poly Lens-administratör, eller logga in med enhetens lösenord.",
+      "ACTION": "Logga in med enhetens lösenord",
+      "PASSWORD": "Lösenord",
+      "CANCEL": "Avbryt",
+      "LOGIN": "Inloggning",
+      "INVALID_PASSWORD": "Lösenordet du angav är ogiltigt. Ange lösenordet igen.",
+      "REQUIRED": "Obligatoriskt"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Lösenord",
+      "CHANGE_PASSWORD": "Ändra lösenord",
+      "CURRENT_PASSWORD": "Aktuellt lösenord",
+      "CREATE_NEW_PASSWORD": "Skapa nytt enhetslösenord",
+      "NEW_PASSWORD": "Nytt lösenord",
+      "RE_ENTER_NEW_PASSWORD": "Ange nytt lösenord igen",
+      "PASSWORD_UNMATCH": "Lösenorden stämmer inte överens. Ange ditt nya lösenord igen.",
+      "SIMPLE_PASSWORD": "Enkelt lösenord",
+      "DEVICE_PASSWORD": "Enhetens lösenord",
+      "WEAK_PASSWORD": "Använd svagt lösenord (rekommenderas inte).",
+      "STRONG_PASSWORD_RECOMMENDED": "Ett starkt lösenord rekommenderas.",
+      "SAME_PASSWORD_ERROR": "Du kan inte använda ett lösenord som du har använt tidigare. Ange ett nytt lösenord.",
+      "RECOMMENDATION_1": "Minsta längd 15 tecken",
+      "RECOMMENDATION_2": "2 små bokstäver krävs",
+      "RECOMMENDATION_3": "2 stora bokstäver krävs",
+      "RECOMMENDATION_4": "2 siffror krävs",
+      "RECOMMENDATION_5": "2 specialtecken krävs"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Equalizer för ljud",
+      "DESCRIPTION": "Hämta och ställ in skjutreglagen för bas och diskant. "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Genom att klicka på ”Jag accepterar” nedan bekräftar och godkänner du att användning av denna programvara styrs av villkoren i ",
+      "EULA_LINK": "Polys licensavtal för slutanvändare",
+      "EULA_I_ACCEPT": "Jag accepterar licensavtalet för slutanvändare",
+      "BEGIN_SETUP": "Starta konfiguration",
+      "PASSWORD_INVALID": "Lösenordet du angav är ogiltigt. Ange lösenordet igen."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "Land",
+      "DEVICE_NAME": "Enhetsnamn",
+      "DEVICE_NAME_DESCRIPTION": "Vi rekommenderar att du namnger den här enheten efter det rum eller den möteslokal den är placerad i.",
+      "BEGIN_SETUP": "Starta konfiguration",
+      "PASSWORD_INVALID": "Lösenordet du angav är ogiltigt. Ange lösenordet igen."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Ljudtest",
+      "DESCRIPTION": "Det tar flera minuter att slutföra ljudtestet och hämta ljudposterna till din lokala disk. Klicka på ”Start Test” för att spela in ljud från alla ljudingångar: Mikrofon, USB och line-in.",
+      "START_TEST": "Starta testet",
+      "MODAL_TITLE": "Ljudinspelning",
+      "MODAL_TIME": "Tid:",
+      "DIALOG_TITLE": "Spara diagnostikfil",
+      "PLEASE_WAIT": "Vänta medan diagnostiken sparas.",
+      "STOP_RECORDING": "Stopp"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "Vid bortkoppling av enheten",
+      "DESCRIPTION": "Tillämpa automatiskt det valda beteendet när du kopplar bort ditt headset från den integrerade Poly-adaptern.",
+      "HOLD_ACTIVE_CALL": "Parkera aktivt samtal",
+      "LOCK_SCREEN": "Lås datorskärmen",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Lås datorskärmen och parkera aktivt samtal",
+      "DO_NOTHING": "Gör inget"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Länk mellan headset och datorradio",
+      "DESCRIPTION": "Låt radiolänken till datorn vara aktiv när samtalet avslutas.",
+      "ACTIVE_ONLY_DURING_CALL": "Endast aktiv under samtal",
+      "ALWAYS_ACTIVE": "Alltid aktiv"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "Poly Lens {{open_tag}}Inställningar{{close_tag}}",
+    "NAME_LABEL": "Namn:",
+    "EMAIL_LABEL": "E-postadress:",
+    "INVITED_BY_IT_ADMIN": "En IT-administratör",
+    "INVITED": "{{invited_by_email}} har bjudit in dig att gå med i {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Konto",
+      "login": {
+        "TITLE": "Ditt konto",
+        "DESCRIPTION_INTRO": "Du är inte inloggad för närvarande. Genom att logga in godkänner du våra",
+        "DESCRIPTION_TERMS": "tjänstevillkor",
+        "DESCRIPTION_AND": "och",
+        "DESCRIPTION_PRIVACY": "Sekretesspolicy"
+      }
+    },
+    "General": {
+      "TITLE": "Allmänt",
+      "startOnSystemStartup": {
+        "TITLE": "Starta Poly Lens vid start",
+        "DESCRIPTION": "Tillåt att Poly Lens startar automatiskt vid inloggning."
+      },
+      "startMinimized": {
+        "TITLE": "Starta programmet minimerat"
+      },
+      "eulaAccepted": {
+        "TITLE": "Licensavtal för slutanvändare",
+        "DESCRIPTION": " har godkänts av administratören"
+      }
+    },
+    "Language": {
+      "TITLE": "Språk",
+      "LABEL": "Välj språk som ska användas i det här programmet."
+    },
+    "Softphone": {
+      "TITLE": "Telefonprogram",
+      "MODULE_NAME": "Modulnamn",
+      "MODULE_VERSION": "Modulversion",
+      "ENABLE": "Aktivera",
+      "CONNECTED": "Ansluten",
+      "VIEW_ALL": "Visa alla telefonprogram som kan användas",
+      "targetSoftphone": {
+        "TITLE": "Måltelefonprogram",
+        "DESCRIPTION": "Anger telefonprogrammet som ska användas för utgående samtal och kopplingston (för enheter och telefonprogram som stöds)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Mediespelarens åtgärd vid inkommande samtal",
+        "DESCRIPTION": "Styr vad som händer med mediespelarprogrammen, t.ex. iTunes och Windows Media Player, när du tar emot ett telefonprogramsamtal."
+      },
+      "table": {
+        "TITLE": "Telefonprogram och mediespelare | Aktiverad för Poly"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Meddelanden och enhetsvarningar",
+      "enableNotifications": {
+        "TITLE": "Tillåt skrivbordsaviseringar och enhetsvarningar"
+      },
+      "wellness": {
+        "TITLE": "Hälsa och välbefinnande",
+        "DESCRIPTION": "I en miljö där man främst sitter stilla är det ytterst viktigt för hälsan både på kort och långt sikt att dricka tillräckligt med vätska och röra sig ofta. Välj alternativ för att anpassa när och hur ofta du vill ha aviseringar.",
+        "hydrationEnabled": "Påminnelse om att dricka vatten",
+        "visionEnabled": "Påminnelse om paus för ögonen",
+        "hydrationEnabledTitle": "Påminnelser om att dricka vatten",
+        "visionEnabledTitle": "Påminnelser om paus för ögonen"
+      },
+      "deviceAlerts": {
+        "TITLE": "Enhetsvarningar",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Enheten tappade parkopplingen",
+        "lowBattery": "Låg batterinivå",
+        "deviceCharging": "Enheten laddas",
+        "deviceDisconnected": "Enhet frånkopplad",
+        "muteAlert": "Varning för avstängd mikrofon",
+        "deviceSoftwareUpdate": "Uppdatering av enhetens programvara"
+      },
+      "softwareUpdate": {
+        "TITLE": "Programvaruuppdatering",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Programvaruuppdatering",
+      "softwareUpdate": {
+        "TITLE": "Version av Poly Lens Desktop",
+        "SOFTWARE": "Programvara",
+        "UP_TO_DATE": "Du är uppdaterad",
+        "RELEASE_NOTES": "Visa versionskommentarer",
+        "CHECKING_FOR_UPDATES": "Söker efter uppdateringar",
+        "UPDATE": "Uppdatera",
+        "UPDATE_AVAILABLE": "Tillgänglig",
+        "DOWNLOADING": "Hämtar",
+        "CONTINUE": "Nästa",
+        "CONTINUE_DESC": "Välj {{open_tag}}Fortsätt{{close_tag}} om du vill avsluta Poly Lens och installera uppdateringen.",
+        "DOWNLOAD_ERROR": "Ett fel inträffade när uppdateringen skulle hämtas. Kontrollera din internetanslutning och försök igen."
+      }
+    },
+    "About": {
+      "TITLE": "Om",
+      "COPYRIGHT": "2022-2024 HP Inc. Med ensamrätt.",
+      "PRIVACY_POLICY": "Sekretesspolicy",
+      "EULA": "Licensavtal för slutanvändare"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Pausa och återuppta",
+    "NO_ACTION": "Ingen åtgärd"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Poly Lens-support",
+    "TITLE_OTHER": "Kontakta support",
+    "QUICK_START_GUIDE": "Snabbstarthandbok",
+    "USER_GUIDE": "Användarhandbok",
+    "DEVICE_INFO_AND_LOGS": "Enhetsinformation och -loggar",
+    "CONTACT_SUPPORT": "Kontakta support",
+    "CONTACT_TYPE": "Support via telefon, e-post och online",
+    "DEVICE_INFO": "Enhetsinformation",
+    "APP_INFO": "Programinformation",
+    "DEVICE_MODEL": "Enhetsmodell",
+    "SERIAL_NUMBER": "Serienr",
+    "SOFTWARE_VERSION": "Fast programvaruversion",
+    "COM_LIB_VERSION": "Enhetskommunikationsversion",
+    "PID": "Produkt-ID",
+    "LAST_CONNECTED": "Senast ansluten",
+    "USER_ID": "Användar-ID",
+    "TENANT_ID": "Innehavar-ID",
+    "APP_ID": "Program-ID",
+    "GET_ACCESS": "Få tillgång till direkt- och användargemenskapssupport",
+    "GET_STARTED": "Kom igång, dokumentation och mycket mer",
+    "POLY_SUPPORT_LINK": "Besök Polys support",
+    "POLY_DOCUMENT_LINK": "Onlinehjälp för Lens Desktop",
+    "DIAGNOSTICS": "Diagnostik",
+    "DIAGNOSTICS_DESCRIPTION": "Om du vill ha hjälp med felsökning kan du hämta loggar och dela dem med Poly Support",
+    "DOWNLOAD_LOGS": "Hämta loggar",
+    "SAVE_LOGS": "Spara loggar",
+    "NONE": "Ingen",
+    "UNKNOWN": "Okänd"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "veckodagar",
+    "Monday": "Måndag",
+    "Tuesday": "Tisdag",
+    "Wednesday": "Onsdag",
+    "Thursday": "Torsdag",
+    "Friday": "Fredag",
+    "Saturday": "Lördag",
+    "Sunday": "Söndag",
+    "MON": "Mån",
+    "TUE": "Tis",
+    "WED": "Ons",
+    "THU": "Tor",
+    "FRI": "Fre",
+    "SAT": "Lör",
+    "SUN": "Sön",
+    "12:00 AM": "00.00",
+    "1:00 AM": "01.00",
+    "2:00 AM": "02.00",
+    "3:00 AM": "03.00",
+    "4:00 AM": "04.00",
+    "5:00 AM": "05.00",
+    "6:00 AM": "06.00",
+    "7:00 AM": "07.00",
+    "8:00 AM": "08.00",
+    "9:00 AM": "09.00",
+    "10:00 AM": "10.00",
+    "11:00 AM": "11.00",
+    "12:00 PM": "12.00",
+    "1:00 PM": "13.00",
+    "2:00 PM": "14.00",
+    "3:00 PM": "15.00",
+    "4:00 PM": "16.00",
+    "5:00 PM": "17.00",
+    "6:00 PM": "18.00",
+    "7:00 PM": "19.00",
+    "8:00 PM": "20.00",
+    "9:00 PM": "21.00",
+    "10:00 PM": "22.00",
+    "11:00 PM": "23.00",
+    "SHORT_LABELS": {
+      "12AM": "00.00",
+      "4AM": "04.00",
+      "8AM": "08.00",
+      "12PM": "12.00",
+      "4PM": "16.00",
+      "8PM": "20.00"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "12am",
+      "1am": "1am",
+      "2am": "2am",
+      "3am": "3am",
+      "4am": "4am",
+      "5am": "5am",
+      "6am": "6am",
+      "7am": "7am",
+      "8am": "8am",
+      "9am": "9am",
+      "10am": "10am",
+      "11am": "11am",
+      "12pm": "12pm",
+      "1pm": "1pm",
+      "2pm": "2pm",
+      "3pm": "3pm",
+      "4pm": "4pm",
+      "5pm": "5pm",
+      "6pm": "6pm",
+      "7pm": "7pm",
+      "8pm": "8pm",
+      "9pm": "9pm",
+      "10pm": "10pm",
+      "11pm": "11pm"
+    },
+    "1 minute": "Varje minut",
+    "30 minutes": "Varje halvtimme",
+    "1 hour": "Varje timme",
+    "3 hours": "Var tredje timme"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Ej tillgängligt",
+    "SELECT_PLACEHOLDER": "Välj"
+  }
+}

@@ -1,0 +1,31 @@
+.icon-spin {
+  transform-origin: 9px 9px;
+  animation: spin 2s infinite linear;
+
+  &[icon='loading'] {
+    transform-origin: 7.5px 7.5px;
+  }
+
+  &[icon='buttonSpinner'] {
+    transform-origin: 5.5px 5.5px;
+  }
+
+  &[icon='progress_loading'],
+  &[ng-reflect-icon='progress_loading'] {
+    transform-origin: center;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.downloading-logs-spin {
+  animation: spin 2s infinite linear;
+}

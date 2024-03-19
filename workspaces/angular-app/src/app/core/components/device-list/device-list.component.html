@@ -1,0 +1,22 @@
+<p>
+	LCS connected: <strong>{{ clientRegistered$ | async }}</strong>
+</p>
+<button *ngIf="!(clientRegistered$ | async)" (click)="handleConnect()">
+	Connect
+</button>
+<div *ngIf="clientRegistered$ | async">
+	<button *ngIf="!(showDeviceList$ | async)" (click)="handleShowDevices()">
+		Show devices
+	</button>
+	<div *ngIf="!(showDeviceList$ | async)">
+		<p>Device list is empty</p>
+	</div>
+	<div *ngIf="showDeviceList$ | async">
+		<h2>Device list</h2>
+		<ul>
+			<li *ngFor="let device of deviceList$ | async">
+				{{ device.productName }}
+			</li>
+		</ul>
+	</div>
+</div>

@@ -1,0 +1,35 @@
+<div class="accordion-item">
+  <div
+    class="grid setting-item enable-section disabled"
+    id="startOnSystemStartup"
+  >
+    <div class="col-8 font-lg bold">
+      {{ 'SETTINGS.General.startOnSystemStartup.TITLE' | translate }}
+    </div>
+    <div class="col-4 text-right">
+      <oz-slide-toggle
+        [waitForAnimation]="true"
+        [disabled]="startOnSystemStartupConfigDisabled"
+      ></oz-slide-toggle>
+    </div>
+    <div class="col-12 font-xs" aria-hidden="true">
+      {{ 'SETTINGS.General.startOnSystemStartup.DESCRIPTION' | translate }}
+    </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <div class="grid setting-item enable-section disabled">
+    <div class="col-12 grid">
+      <div class="col-8 font-lg bold" aria-hidden="true">
+        {{ 'SETTINGS.General.startMinimized.TITLE' | translate }}
+      </div>
+      <div class="col-4 text-right">
+        <oz-slide-toggle
+          [waitForAnimation]="true"
+          [disabled]="startMinimizedConfigDisabled"
+        ></oz-slide-toggle>
+      </div>
+      <div class="col-12 font-xs"></div>
+    </div>
+  </div>
+</div>

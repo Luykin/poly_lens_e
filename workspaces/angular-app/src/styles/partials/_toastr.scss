@@ -1,0 +1,30 @@
+// regular style toast
+@import 'ngx-toastr/toastr';
+@import './variables';
+
+.toast-container {
+    &.inline {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 60px;
+    }
+
+    .ngx-toastr {
+        font-size: $font-lg;
+        line-height: 1.375;
+        width: auto;
+        border-radius: 8px;
+
+        &.toast-success {
+            background-color: $toast-success-bg;
+            background-image: url('~src/assets/icons/toast-success.svg');
+        }
+
+        &.toast-error {
+            background-color: $toast-error-bg;
+            background-image: url('~src/assets/icons/toast-error.svg');
+        }
+    }
+}

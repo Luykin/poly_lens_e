@@ -1,0 +1,481 @@
+@import 'variables';
+
+// per Robert M in Teams, don't mirror video image
+// transform: rotateY(180deg);
+// min-height added to ensure video always has a height capable of supporting camera controls
+video {
+  min-height: 150px;
+  transition: width $camera-transition, height $camera-transition;
+  border-radius: $video-radius;
+  background: #f2f2f2;
+}
+
+// background color matches P-15 "lens closed" color
+.no-video {
+  position: relative;
+  width: 450px;
+  height: 337px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #464646;
+
+  oz-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.camera-wrap {
+  position: absolute;
+  z-index: $camera-wrap-z-index;
+  top: $camera-preview-bottom;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  transition: width $camera-transition;
+}
+
+.camera {
+  position: relative;
+  min-height: $camera-preview-min-height;
+  margin: 0 auto;
+  transition: max-width $camera-transition, margin $camera-transition;
+
+  .oz-icon {
+    line-height: 0;
+  }
+
+  video {
+    z-index: $video-z-index;
+  }
+
+  .preview-hidden,
+  .camera-controls,
+  .camera-grid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: $camera-bottom;
+    left: 0;
+  }
+
+  // compensate for preview-hidden having a border
+  .preview-hidden {
+    bottom: calc(#{$camera-bottom} - 1px);
+  }
+
+  .camera-controls {
+    z-index: $camera-controls-z-index;
+    overflow: hidden;
+  }
+
+  .bottom-shelf .camera-zoom {
+    left: 11em;
+  }
+
+  // snapshot, grid, expand and pan-tilt-zoom controls overlaid at bottom of image
+  .bottom-shelf {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: $bottom-shelf-height;
+    border-radius: $video-radius $video-radius 0 0;
+    background-color: rgba(255, 255, 255, 0.75);
+
+    backdrop-filter: blur(4px);
+
+    &.hide-controls {
+      .control-label {
+        opacity: 0 !important;
+      }
+    }
+
+    // PTZ controls should not be dimmed when preview off, to allow users to PTZ during a meeting
+    .camera-button.disabled,
+    .camera-button.disabled oz-icon,
+    &.preview-disabled .camera-button:not(.preview-toggle),
+    &.preview-disabled .camera-button:not(.preview-toggle) oz-icon {
+      opacity: $camera-controls-disabled-opacity;
+      cursor: not-allowed !important;
+    }
+
+    .camera-buttons,
+    .camera-zoom,
+    .camera-pan-tilt {
+      position: absolute;
+
+      oz-icon {
+        cursor: pointer;
+      }
+    }
+
+    // note there is also shared CSS code for .camera-button
+    .camera-buttons {
+      top: 50%;
+      left: 9px;
+      transform: translateY(calc(-50% - 3px));
+    }
+
+    // if preview enabled, hover actions on all .camera-button
+    // if preview disabled, hover actions only on .preview-toggle button
+    &:not(.preview-disabled) .camera-button:not(.preview-toggle):hover,
+    .preview-toggle:hover {
+      &:hover oz-icon {
+        top: 6px;
+        opacity: 1;
+      }
+
+      &:hover .control-label {
+        bottom: 14px;
+      }
+    }
+
+    .disabled .camera-zoom,
+    .disabled .camera-pan-tilt,
+    .disabled.camera-pan-tilt {
+      opacity: 0.5;
+      cursor: not-allowed;
+
+      oz-icon {
+        cursor: not-allowed;
+      }
+    }
+
+    .camera-zoom {
+      top: 50%;
+      transform: translateY(-50%);
+
+      .zoom-slider input {
+        margin: 0 -31px;
+        transform: scale(0.45, 0.45) translateY(1px);
+      }
+    }
+
+    .camera-pan-tilt {
+      right: 1em;
+      bottom: calc(0.5em + 1px);
+
+      oz-icon {
+        cursor: pointer;
+      }
+
+      .ptz {
+        display: block;
+        position: absolute;
+      }
+
+      .pan-left {
+        right: 2 * $ptz-spacer;
+        bottom: $ptz-spacer;
+      }
+
+      .pan-right {
+        right: 0;
+        bottom: $ptz-spacer;
+      }
+
+      .tilt-up {
+        right: $ptz-spacer;
+        bottom: 2 * $ptz-spacer;
+      }
+
+      .tilt-down {
+        right: $ptz-spacer;
+        bottom: 0;
+      }
+    }
+
+    .grid {
+      margin: 0 0.25em;
+    }
+  }
+
+  .modal {
+    position: absolute;
+    border-radius: $video-radius;
+
+    .modal-content {
+      max-width: 250px;
+      margin-top: 0;
+    }
+  }
+}
+
+.preview-hidden {
+  z-index: $preview-hidden-z-index;
+  padding: 1em 4em;
+  border: 1px solid $preview-hidden-border;
+  border-radius: $video-radius;
+  background-color: $preview-hidden-background;
+  pointer-events: none;
+
+  &.macPreview {
+    padding: 4em;
+  }
+}
+
+.camera-grid {
+  z-index: $camera-grid-z-index;
+  transition: opacity $camera-fast-transition;
+  pointer-events: none;
+
+  .horizontal-line {
+    position: absolute;
+    width: 100%;
+    border-top: 1px solid $camera-grid-color;
+
+    &:nth-child(1) {
+      top: 33.33%;
+    }
+
+    &:nth-child(2) {
+      bottom: 33.33%;
+    }
+  }
+
+  .vertical-line {
+    position: absolute;
+    height: 100%;
+    border-left: 1px solid $camera-grid-color;
+
+    &:nth-child(3) {
+      left: 33.33%;
+    }
+
+    &:nth-child(4) {
+      right: 33.33%;
+    }
+  }
+}
+
+/**
+ * Handle all the animations for video preview "expand"
+ */
+$tab-links-animate-distance: -150px;
+$camera-preview-transition-time: $camera-transition-time * 1.3;
+
+// app-layout .main-content .scroll-container.no-scroll .scrollable-content
+app-layout {
+  .main-content {
+    .scroll-container {
+      &.controls-route {
+        .scrollable-content {
+          position: relative;
+          overflow: visible;
+        }
+      }
+    }
+  }
+}
+
+.controls-route {
+  .tab-links {
+    transition: all $camera-preview-transition-time ease;
+    opacity: 1;
+  }
+
+  .h1 {
+    transition: all $camera-preview-transition-time ease;
+    opacity: 1;
+  }
+}
+
+.camera-max {
+  .tab-links {
+    z-index: 255555;
+  }
+
+  &.hide-navigation {
+    .tab-links {
+      padding-bottom: 2px;
+      opacity: 0;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -12px;
+        right: 0;
+        left: 0;
+        height: 12px;
+        background: $default-bg;
+      }
+
+      &:hover {
+        transition: all 350ms ease;
+        opacity: 1;
+        background: $default-bg;
+      }
+    }
+  }
+
+  .h1 {
+    opacity: 0;
+  }
+}
+
+// yes, both height AND max-height are necessary here
+.controls-container {
+  position: relative;
+  z-index: $controls-container-z-index;
+  height: calc(
+    100vh - #{$camera-preview-bottom} - #{$camera-top-nav-height} - #{$camera-heading-height} +
+      21px
+  );
+  max-height: calc(
+    100vh - #{$camera-preview-bottom} - #{$camera-top-nav-height} - #{$camera-heading-height} +
+      21px
+  );
+  margin-top: $camera-preview-bottom - $camera-heading-height; //  + 32px;
+  overflow-y: scroll;
+  border-top: 1px solid #eee;
+
+  .ease-gradient {
+    content: '';
+    position: sticky;
+    top: 0;
+    height: 16px;
+    margin-bottom: -16px;
+    background: linear-gradient(
+      180deg,
+      rgba(246, 246, 246, 1) 0%,
+      rgba(246, 246, 246, 0) 100%
+    );
+  }
+}
+
+.has-toasts {
+  .controls-container {
+    height: calc(
+      100vh - #{$camera-preview-bottom} - #{$camera-top-nav-height} - #{$camera-heading-height} -
+        #{$toast-max-height} + 32px
+    );
+    max-height: calc(
+      100vh - #{$camera-preview-bottom} - #{$camera-top-nav-height} - #{$camera-heading-height} -
+        #{$toast-max-height} + 32px
+    );
+  }
+}
+
+.favorites .saved {
+  transition: opacity 200ms ease;
+}
+
+// specific brightness control for P21 LED lights
+.led-control {
+  position: absolute;
+  z-index: $led-controls-z-index;
+  top: 19px;
+  width: $led-controls-width;
+  height: 199px;
+  background: $white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.03);
+
+  &.led-left {
+    left: -$led-controls-width;
+    transition: $led-controls-animation;
+    border-radius: 8px 0 0 8px;
+  }
+
+  &.led-right {
+    right: -$led-controls-width;
+    transition: $led-controls-animation;
+    border-radius: 0 8px 8px 0;
+  }
+
+  .led-slider input {
+    transform: rotateZ(-90deg) translate(-38px, -44px) scale(0.64);
+  }
+
+  // to adjust for height of transformed .led-slider input
+  .led-lower-controls {
+    margin-top: 74px;
+
+    .auto {
+      padding-top: 6px;
+      color: $black;
+      font-size: 10px;
+
+      &.selected {
+        color: $link-color;
+      }
+    }
+
+    .led-controls-divider {
+      width: 38px;
+      height: 1px;
+      margin: 7px auto;
+      background: $default-bg;
+    }
+  }
+
+  // note there is also shared CSS code for .camera-button
+  .camera-side-buttons {
+    position: relative;
+    top: 2px;
+
+    .camera-button {
+      .control-label {
+        opacity: 0;
+      }
+
+      &:hover {
+        &:hover oz-icon {
+          top: 6px;
+          opacity: 1;
+        }
+
+        .control-label {
+          bottom: 11px;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.camera-wrap.expanded .led-control {
+  &.led-left {
+    top: 94px;
+    left: 0;
+    border-radius: 0 8px 8px 0;
+  }
+
+  &.led-right {
+    top: 94px;
+    right: 0;
+    border-radius: 8px 0 0 8px;
+  }
+}
+
+// shared CSS between .bottom-shelf and side vanity LED shelf
+// opacity to indicate not currently hovered, but also not disabled (.5)
+.camera-button {
+  display: inline-block;
+  position: relative;
+  padding: 0 9px;
+  cursor: pointer;
+
+  oz-icon {
+    position: relative;
+    top: 0;
+    transition: top $camera-button-label-time ease-in;
+    opacity: 0.6;
+    vertical-align: middle;
+  }
+
+  // opacity value controlled by controls.component.pug
+  .control-label {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    overflow: hidden;
+    transition: bottom $camera-button-label-time ease-in,
+      opacity $camera-button-label-time ease-in;
+    line-height: 1em;
+    text-align: center;
+    word-break: break-word;
+  }
+}

@@ -1,0 +1,2061 @@
+{
+  "PROVISIONING_TOOLTIP_WHEN_NETWORK_IS_NOT_CONFIGURED": "Perangkat harus terhubung ke jaringan untuk Disediakan",
+  "DEVICE_SETUP_WIZARD_CLOSE_TITLE": "Keluar dari Penyetelan Perangkat",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_FIRST_LINE": "Penyetelan perangkat belum selesai.",
+  "DEVICE_SETUP_WIZARD_CLOSE_MESSAGE_SECOND_LINE": "{{deviceName}} tidak dapat digunakan hingga penyetelan selesai. Progres tidak disimpan.",
+  "EXIT_SETUP": "Keluar dari Penyetelan",
+  "GET_STARTED": "Memulai",
+  "NETWORK": "Jaringan",
+  "PROVISIONING": "Menyediakan",
+  "COMPLETE": "Selesai",
+  "BUTTON_BACK": "Kembali",
+  "BUTTON_SKIP": "Lewati",
+  "BUTTON_NEXT": "Berikutnya",
+  "BUTTON_FINISH": "Selesai",
+  "DEVICE_SETUP_WIZARD_COMPLETE_TITLE": "Penyetelan {{deviceName}} selesai!",
+  "PROVISION_DEVICE_MODAL_TITLE": "Perangkat Penyediaan",
+  "PROVISION_DEVICE_MODAL_PROVISION_BUTTON": "Penyediaan",
+  "POSTPONE_DFU_MESSAGE": "Pembaruan tersedia untuk perangkat Anda. Pembaruan ini memerlukan waktu beberapa menit hingga selesai. Jangan putuskan perangkat Anda selama proses pembaruan selesai.",
+  "POSTPONE_DFU_MESSAGE_SINGLE_DEVICE": "Pembaruan tersedia untuk {{deviceName}} Anda. Pembaruan ini memerlukan waktu beberapa menit hingga selesai. Jangan putuskan perangkat Anda selama proses pembaruan berlangsung.",
+  "UPDATE_NOW": "Perbarui Sekarang",
+  "ASK_ME_LATER": "Tanyakan Nanti",
+  "AUDIO_RECORDING_START": "Rekaman Audio Dimulai",
+  "SUCCESSFULLY_POSTPONED_DFU_ONE_HOUR": "Pembaruan {{deviceName}} ditangguhkan 1 jam",
+  "SUCCESSFULLY_POSTPONED_DFU_MANY_HOURS": "Pembaruan {{deviceName}} ditangguhkan {{hours}} jam",
+  "PLAY_GREETING_NAME": "Putar Salam",
+  "PLAY_GREETING_DESCRIPTION": "Pilih file suara untuk diputar saat menjawab panggilan.",
+  "SELECT_FILE": "Pilih File",
+  "ACOUSTIC_FENCE": {
+    "OFF": "Mati",
+    "NARROW": "Sempit",
+    "MEDIUM": "Sedang",
+    "WIDE": "Lebar",
+    "CAMERA_VIEW": "Sesuaikan Tampilan Kamera"
+  },
+  "EULA": {
+    "FIRST_THINGS_FIRST": "Pertama-tama...",
+    "I_AGREE": "Saya menyetujui",
+    "POLY_EULA": "Perjanjian Lisensi Pengguna Akhir Poly",
+    "CLOSE": "Tutup",
+    "PROCEED": "Lanjutkan"
+  },
+  "BEST_PRACTICES": {
+    "TITLE": "Praktik Terbaik",
+    "MENU": {
+      "HEADSET": "Headset",
+      "CAMERA": "Kamera",
+      "DESK_SETUP": "Penyetelan Stasiun Kerja"
+    },
+    "NEXT": {
+      "NEXT": "BERIKUTNYA:",
+      "TITLE": "Praktik Terbaik",
+      "LEARN_MORE": "Pelajari Lebih Lanjut"
+    }
+  },
+  "BUTTONS": {
+    "ACCEPT": "Terima",
+    "APPLY": "Terapkan",
+    "CANCEL": "Batalkan",
+    "CONTINUE": "Lanjutkan",
+    "DECLINE": "Tolak",
+    "DONE": "Selesai",
+    "LOG_IN": "Masuk",
+    "LOG_OUT": "Keluar",
+    "OK": "OK",
+    "RETRY": "Coba lagi",
+    "SHOW_LESS": "Tampilkan Lebih Sedikit",
+    "JOIN": "Gabung",
+    "JOINING": "Bergabung",
+    "CREATE": "Buat",
+    "INSTALL": "Instal",
+    "CHOOSE_FILE": "Pilih File",
+    "DELETE": "Hapus",
+    "CLOSE": "Tutup",
+    "SELECT_FILE": "Pilih File",
+    "FEEDBACK": "Umpan Balik"
+  },
+  "REQUIRED": "Wajib diisi",
+  "OPTIONAL": "Opsional",
+  "Download": "Unduh",
+  "Upload": "Unggah",
+  "GENERAL_MESSAGE_OPERATION_FAILED": "Operasi tidak berhasil diselesaikan. Silakan coba lagi.",
+  "RECEIVING_SETTINGS": "Pengaturan Penerimaan",
+  "GENERAL": {
+    "BACK": "Kembali",
+    "CANCEL": "Batalkan",
+    "CLOSE": "Tutup",
+    "COMING_SOON": "SEGERA HADIR",
+    "DOWNLOAD": "Unduh",
+    "DOWNLOADING": "Mengunduh",
+    "LOADING": "Memuat",
+    "FEEDBACK": "Umpan Balik",
+    "HOME": "Beranda",
+    "OK": "OK",
+    "POLY_LENS": "Poly Lens",
+    "ADD_NEW": "Tambah Baru",
+    "EDIT_NAME": "Edit Nama",
+    "DELETE": "Hapus",
+    "RESTORE_DEFAULTS": "Pulihkan Default",
+    "SEARCH_SETTINGS": "Pengaturan Pencarian",
+    "SUPPORT": "Dukungan",
+    "UPLOAD": "Unggah",
+    "UPDATE": "Perbarui",
+    "RETURN_HOME": "Kembali ke Beranda",
+    "VERSION": "Versi",
+    "RECORDING": "Rekaman",
+    "RECOVER": "Pulihkan"
+  },
+  "FTU": {
+    "WELCOME_TO": "Selamat datang di",
+    "WELCOME_1": "Izinkan kami membantu Anda mendapatkan pengalaman terbaik dari Poly Lens.",
+    "CONNECTIVITY": {
+      "HEADER": "Konektivitas",
+      "TITLE": "Lens mengelola perangkat Anda"
+    },
+    "BEST_PRACTICES": {
+      "HEADER": "Praktik Terbaik",
+      "TITLE": "Lens meningkatkan pengalaman Anda saat bekerja"
+    },
+    "HEALTH_WELLNESS": {
+      "HEADER": "Kesehatan & Kebugaran",
+      "TITLE": "Lens akan menangani untuk Anda"
+    },
+    "EXPLORE": {
+      "BUTTON": "Lanjutkan sebagai Tamu"
+    },
+    "GET_STARTED": {
+      "BUTTON": "Masuk"
+    },
+    "GETTING_STARTED": "Memulai",
+    "LOGIN_CARD": {
+      "TITLE": "Mulai Sekarang!",
+      "DESCRIPTION": "Masuk ke Lens Desktop agar Poly dan organisasi Anda dapat memberikan pengalaman perangkat terbaik."
+    }
+  },
+  "CAMERA": {
+    "MOUNTING": {
+      "TITLE": "Pemasangan",
+      "DESCRIPTION": "Posisikan monitor Anda sehingga mata Anda sejajar dengan sepertiga bagian atas layar. Pasang kamera Anda di tengah monitor."
+    },
+    "CENTERING": {
+      "TITLE": "Memusatkan",
+      "DESCRIPTION": "Anda akan terlihat sempurna saat berada di tengah dalam tampilan kamera. Pastikan wajah Anda terlihat dengan jelas dan tidak terpotong. Coba posisikan diri Anda agar orang lain dapat melihat setidaknya posisi kemeja Anda berada 15 cm (6 inci) dari garis kerah ke bawah."
+    },
+    "LIGHTING": {
+      "TITLE": "Pencahayaan",
+      "DESCRIPTION": "Pencahayaan adalah kunci agar terlihat bagus di kamera. Cahaya siang hari adalah sumber cahaya yang bervariasi dan bisa konflik dengan pencahayaan dalam ruangan. Jika memungkinkan, posisikan stasiun kerja Anda agar jendela berada di belakang monitor, dan hindari sumber cahaya terang di belakang Anda. Cahaya penerangan yang tersebar di atas kepala adalah yang terbaik."
+    },
+    "BACKGROUND": {
+      "TITLE": "Latar Belakang",
+      "DESCRIPTION": "Objek latar belakang bisa membuat panggilan video lebih personal, tetapi pastikan Anda adalah titik fokus utama. Jika ragu, lebih sedikit objek di latar belakang akan lebih baik."
+    },
+    "NEXT": {
+      "SUBTITLE": "Penyetelan Stasiun Kerja"
+    }
+  },
+  "CONNECTION_CHECKLIST": {
+    "TITLE": "Daftar Periksa Koneksi",
+    "POWER": {
+      "TITLE": "Periksa Saklar Daya",
+      "DESCRIPTION": "Apakah saklar daya telah dihidupkan?"
+    },
+    "BLUETOOTH": {
+      "TITLE": "Periksa Adaptor Bluetooth Anda",
+      "DESCRIPTION": "Apakah lampu biru di ujung adaptor menyala? Terkadang jika Anda mencabut adaptor dan mencolokkannya lagi, headset akan tersambung."
+    },
+    "SUPPORT": {
+      "TITLE": "Hubungi Dukungan.",
+      "DESCRIPTION": "Masih mengalami masalah?",
+      "LINK": {
+        "TEXT": "Hubungi dukungan."
+      }
+    }
+  },
+  "DESK_SETUP": {
+    "DESK": {
+      "TITLE": "Stasiun kerja",
+      "DESCRIPTION": "Pastikan ruang di bawah stasiun kerja Anda bersih dan ruang kaki yang ada memadai. Jika tidak dapat menyesuaikan ketinggian stasiun kerja Anda, naikkan atau turunkan kursi dan bila perlu gunakan pijakan kaki."
+    },
+    "KEYBOARD": {
+      "TITLE": "Keyboard",
+      "DESCRIPTION": "Pastikan Anda dapat menjangkau keyboard dengan bahu yang rileks dan lengan bawah sejajar dengan lantai.  Usahakan pergelangan tangan Anda tetap lurus dengan sedikit ditekuk."
+    },
+    "CHAIR": {
+      "TITLE": "Kursi",
+      "DESCRIPTION": "Pilih kursi yang menopang tulang belakang Anda. Atur ketinggian kursi sehingga kaki Anda menapak sempurna di lantai dan paha sejajar dengan lantai. Sesuaikan sandaran lengan agar lengan Anda dapat bersandar dengan nyaman dan dengan bahu yang rileks."
+    },
+    "FEET": {
+      "TITLE": "Kaki",
+      "DESCRIPTION": "Pastikan kaki Anda menapak sempurna di lantai. Gunakan pijakan kaki jika kursi Anda terlalu tinggi atau jika ketinggian stasiun kerja mengharuskan Anda menaikkan ketinggian kursi."
+    },
+    "MONITOR": {
+      "TITLE": "Monitor",
+      "DESCRIPTION": "Letakkan monitor tepat di depan Anda sejauh jangkauan lengan Anda. Posisikan monitor 45 hingga 70 cm (18 hingga 24 inci) dari mata Anda, dengan bagian atas layar sejajar atau sedikit di bawah mata."
+    }
+  },
+  "DEVICE_INFO_LOGS": {
+    "HEADSET": "Headset",
+    "USB_ADAPTER": "Adaptor USB",
+    "CUSTOM_SOFTWARE_UPDATE": "Pembaruan Perangkat Lunak Kustom:",
+    "LOGS": "Log:",
+    "PID": "PID:",
+    "SAVE_LOGS": "Simpan Log",
+    "SELECT_SOFTWARE_UPDATE": "Pilih Pembaruan Perangkat Lunak",
+    "SERIAL_NUMBER": "Nomor Seri:",
+    "SOFTWARE_VERSION": "Versi Perangkat Lunak:",
+    "COUNTRY": "Negara:",
+    "LENS_ACCOUNT": "Akun Lens:",
+    "HARDWARE_VERSION": "Versi perangkat keras:",
+    "HARDWARE_REVISION": "Revisi perangkat keras:",
+    "ADDITIONAL_HARDWARE_REVISION": "Revisi perangkat keras headset:",
+    "MAC_ADDRESS": "Alamat MAC:",
+    "IP_ADDRESS": "Alamat IP:",
+    "DEVICE_DIAGNOSTIC_CODE": "Kode diagnostik perangkat:",
+    "CRASH_REPORTS": "Laporan Crash:",
+    "SAVE_CRASH_REPORTS": "Simpan Laporan Crash"
+  },
+  "DEVICE_USAGE": {
+    "TITLE": "Wawasan",
+    "CHART": {
+      "TITLE": "Penggunaan",
+      "SERIES_NAME": "Total Penggunaan"
+    },
+    "NETWORK_TEST": {
+      "LATENCY": "Latensi (mdtk)",
+      "NETWORK_SPEED": "Kecepatan Jaringan (Mbps)",
+      "RUNNING": "Berjalan",
+      "START_TEST": "Jalankan Pengujian",
+      "TEST_AGAIN": "Uji Kembali",
+      "TEST_RESULTS": "Hasil Pengujian",
+      "TITLE": "Pengujian Diagnostik Jaringan",
+      "NO_CONNECTION": "Sepertinya Anda sedang offline. Pengujian jaringan hanya tersedia saat Anda tersambung ke internet.",
+      "SUBTEXT": "Pengujian diagnostik jaringan adalah fitur pratinjau komersial."
+    }
+  },
+  "EE": {
+    "PAUSED": "Dijeda",
+    "CONTINUE": "Tekan SPASI untuk melanjutkan.",
+    "FIRE": "SHIFT - Fire",
+    "MOVE": "PANAH - Pindah",
+    "PAUSE": "SPASI - Jeda",
+    "EXIT": "ESC - Keluar",
+    "START": "Tekan SPASI untuk memulai.",
+    "DONE": "Lumayan. Bagus.",
+    "TRY_AGAIN": "Tekan SPASI untuk mencoba lagi."
+  },
+  "HEADSETS": {
+    "HEADBAND": {
+      "TITLE": "Penyesuaian Ikat Kepala",
+      "DESCRIPTION": "Agar pas, sesuaikan ikat kepala sehingga tutup telinga headset berada di tengah, di atas atau tepat di telinga Anda, dan pastikan agar headset tidak terlalu kencang atau longgar. Lihat panduan pengguna headset untuk petunjuk tentang penyesuaian secara mendetail."
+    },
+    "BOOM_SHAPE": {
+      "TITLE": "Bentuk Boom",
+      "DESCRIPTION": "Boom Poly dapat dibengkokkan dan mudah diposisikan. Jika headset Anda memiliki boom, posisikan mikrofon sekitar 5 cm (2 inci) dari bibir Anda."
+    },
+    "BOOM_PLACEMENT": {
+      "TITLE": "Penempatan Boom",
+      "DESCRIPTION": "Jika headset memiliki boom, Anda bisa memutarnya dan mengenakannya di sisi kiri atau kanan. Saat menjawab panggilan, pastikan boom menghadap mulut Anda, bukan ke atas."
+    },
+    "NEXT": {
+      "SUBTITLE": "Kamera"
+    }
+  },
+  "HOME": {
+    "TITLE": "Halo, {{open_tag}}{{user_name}}{{close_tag}}",
+    "TITLE_GUEST": "Halo, {{open_tag}}Tamu{{close_tag}}",
+    "GO_TO_DETAIL": "Buka Detail",
+    "CONNECT_A_DEVICE": "Sambungkan perangkat untuk memulai.",
+    "NOT_SEEING_DEVICE": "Tidak melihat perangkat Anda?",
+    "SUBMIT_FEEDBACK": "Kirim Umpan Balik",
+    "CARDS": {
+      "DEVICE_USAGE": {
+        "TITLE": "Wawasan",
+        "DESCRIPTION": "Periksa penggunaan perangkat dan konektivitas stasiun kerja Anda."
+      },
+      "HEALTH_AND_WELLNESS": {
+        "TITLE": "Kesehatan & Kebugaran",
+        "DESCRIPTION": "Dapatkan pengingat untuk minum dan istirahat. Putar soundscape untuk meningkatkan fokus."
+      },
+      "BEST_PRACTICES": {
+        "TITLE": "Praktik Terbaik",
+        "DESCRIPTION": "Optimalkan kamera dan pelajari cara membuat ruang kerja Anda lebih ergonomis."
+      },
+      "SUPPORT": {
+        "TITLE": "Dukungan Poly",
+        "DESCRIPTION": "Mengalami masalah? Biarkan kami membantu."
+      }
+    }
+  },
+  "LANGUAGES": {
+    "da": "Dansk",
+    "de": "Deutsch",
+    "en": "English",
+    "en-GB": "English (UK)",
+    "es-es": "Español (España)",
+    "es-xl": "Español (México/América Latina)",
+    "fi": "Suomi",
+    "fr": "Français",
+    "fr-ca": "Français (Canada)",
+    "hu": "Magyar",
+    "it": "Italiano",
+    "in": "Indonesian",
+    "ja": "日本語",
+    "ko": "한국어",
+    "nb": "Norsk",
+    "nl": "Nederlands",
+    "pt-br": "Português (Brasil)",
+    "pt-pt": "Português (Portugal)",
+    "pl": "Polski",
+    "ru-ru": "Русский",
+    "sv": "Svenska",
+    "th": "แบบไทย",
+    "zh-cn": "中文 (简体)",
+    "zh-tw": "中文 (繁體中文)"
+  },
+  "DEVICE_LANGUAGES": {
+    "3076": "Kanton",
+    "1030": "Dansk",
+    "2057": "Inggris UK",
+    "1033": "Inggris AS",
+    "1036": "Prancis",
+    "1031": "Jerman",
+    "1040": "Italia",
+    "1041": "Jepang",
+    "1042": "Korea",
+    "1045": "Polski",
+    "2052": "Mandarin",
+    "1044": "Norsk",
+    "2068": "Norsk",
+    "1049": "Rusia",
+    "1034": "Spanyol",
+    "1053": "Svenska",
+    "16393": "Bahasa Inggris India",
+    "1057": "Indonesia",
+    "1054": "Thailand",
+    "1046": "Bahasa Portugis Brasil"
+  },
+  "NOISEBLOCKAI": {
+    "ACTIVE": "Aktif",
+    "INACTIVE": "Tidak aktif",
+    "TITLE": "NoiseBlockAI",
+    "DESCRIPTION": "NoiseBlockAI dirancang untuk menjaga agar suara non-manusia (seperti suara keyboard atau kertas yang diseret) tidak mengganggu rapat ketika sering terdengar suara, tetapi tidak ada orang yang berbicara, serta akan mensenyapkan suara mikrofon secara otomatis. Mikrofon diaktifkan segera setelah Anda mulai berbicara kembali.",
+    "FOR_INCOMING_DESCRIPTION": "Cegah suara gangguan dari area sekitar (seperti suara keyboard atau kertas yang diseret) agar tidak mengganggu saat rapat berlangsung.",
+    "FOR_INCOMING_TITLE": "NoiseBlockAI Poly untuk Audio Masuk",
+    "FOR_OUTGOING_DESCRIPTION": "Untuk mencegah suara gangguan dari area sekitar (seperti suara keyboard atau kertas yang diseret) agar tidak mengganggu rapat Anda.",
+    "FOR_OUTGOING_TITLE": "NoiseBlockAI Poly untuk Audio Keluar",
+    "SEE_HOW_WORKS": "Lihat cara kerjanya"
+  },
+  "NOTIFICATIONS": {
+    "CHARGING": {
+      "CHARGING": "Mengisi Daya",
+      "STOPPED": "Pengisian Daya Terhenti"
+    },
+    "MUTE": {
+      "ON": "Senyap Aktif",
+      "OFF": "Senyap Nonaktif"
+    },
+    "SOFTWARE_UPDATE": {
+      "DESCRIPTION": "Pembaruan perangkat lunak {{build}} tersedia."
+    },
+    "DEVICE_UPDATE": {
+      "DESCRIPTION": "Pembaruan perangkat tersedia"
+    },
+    "DEVICE_NOT_FOUND": {
+      "TITLE": "Perangkat Tidak Ditemukan",
+      "MESSAGE": "Wah. Ada masalah. Silakan coba lagi."
+    },
+    "PAGE_NOT_FOUND": {
+      "TITLE": "Halaman Tidak Ditemukan",
+      "MESSAGE": "Wah. Ada masalah. Silakan coba lagi."
+    },
+    "VIDEO_NOT_STARTED": {
+      "MESSAGE": "Poly Lens memerlukan izin untuk mengakses kamera Anda. Untuk mengaktifkan, berikan Poly Lens akses di pengaturan sistem Anda."
+    },
+    "BUTTON": {
+      "CLOSE": "Tutup"
+    },
+    "DEVICE_DISCONNECTED": {
+      "DESCRIPTION": "Perangkat telah terputus"
+    },
+    "LOW_BATTERY": {
+      "MESSAGE": "Baterai hampir habis"
+    },
+    "P21_DISPLAYLINK_OS": {
+      "TITLE": "Selamat datang di Studio P21",
+      "CONTENT": "Untuk menggunakan Studio P21, Anda harus mengunduh perangkat lunak tambahan untuk tampilan.",
+      "BUTTON": "Unduh"
+    },
+    "P21_DISPLAYLINK_TOAST": {
+      "TITLE": "Selamat datang di Studio P21 baru Anda!",
+      "CONTENT": "Selamat datang di Studio P21 baru Anda! Sebelum dapat menggunakan perangkat baru, Anda perlu menginstal perangkat lunak tambahan untuk tampilan",
+      "BUTTON_DOWNLOAD": "Unduh di Sini",
+      "BUTTON_MORE_INFO": "Info Selengkapnya"
+    },
+    "FIRST_TIME_CONNECTION": {
+      "DESCRIPTION": "{{deviceName}} terdeteksi. Buka Poly Lens untuk menyetel perangkat ini."
+    },
+    "LANGUAGE_SECRET_FUNCTIONALITY_ENABLED": {
+      "MESSAGE": "Kemampuan bahasa tambahan berhasil dimuat."
+    },
+    "QD_SCREEN_LOCK": {
+      "DESCRIPTION": "Layar akan terkunci dalam 5 detik. Sambungkan kembali headset ke pengontrol inline untuk melanjutkan pekerjaan."
+    },
+    "CHANGE_PROVISIONING_CONFIG_SUCCEEDED": "Konfigurasi berhasil disimpan.",
+    "CHANGE_PROVISIONING_CONFIG_FAILED": "Konfigurasi tidak berhasil disimpan.",
+    "CHANGE_NTP_SETTINGS_SUCCEEDED": "Konfigurasi Server NTP berhasil diterapkan.",
+    "CHANGE_NTP_SETTINGS_FAILED": "Konfigurasi Server NTP tidak dapat diterapkan.",
+    "COPIED_TO_CLIPBOARD": "Disalin ke papan klip",
+    "SAVE_CSR_FILE_SUCCESS": "File CSR berhasil disimpan.",
+    "SAVE_CSR_FILE_FAILED": "File CSR tidak berhasil disimpan.",
+    "FILE_READ_FAILED": "Gagal membaca file.",
+    "CERTIFICATE_INSTALL_SUCCESS": "Sertifikat berhasil diinstal.",
+    "CERTIFICATE_INSTALL_FAILED": "Sertifikat gagal diinstal.",
+    "CERTIFICATE_DELETE_SUCCESS": "Sertifikat berhasil dihapus.",
+    "DEVICE_PASSWORD_SUCCESSFULLY_CHANGED": "Kata sandi berhasil diperbarui.",
+    "CONFIG_EXPORT_FAILED": "Ekspor gagal. Silakan coba lagi.",
+    "CONFIG_IMPORT_FAILED": "Impor gagal. Silakan coba lagi.",
+    "CONFIG_EXPORT_SUCCEEDED": "Ekspor berhasil.",
+    "CONFIG_IMPORT_SUCCEEDED": "Impor berhasil.",
+    "AUDIO_DIAGNOSTIC_FAILED": "Diagnostik audio gagal. Silakan coba lagi.",
+    "WIFI_JOIN_ERROR": "Jaringan tidak dapat digabungkan. Periksa kredensial dan coba lagi.",
+    "CRASH_REPORTS_SUCCESS": "Laporan Crash diunduh.",
+    "CRASH_REPORTS_FAILED": "Laporan Crash tidak ditemukan.",
+    "NETWORK_ERROR": "Konektivitas jaringan tidak tersedia. Beberapa fitur mungkin dibatasi hingga koneksi dipulihkan."
+  },
+  "DETAIL": {
+    "AUTO": "Otomatis",
+    "TITLE": "Halaman Detail",
+    "BACK_TO_HOME": "Kembali ke Beranda",
+    "CAMERA": "Kamera",
+    "CONTROLS": "Kontrol",
+    "EXPAND": "Perluas",
+    "LINK": "Tautkan",
+    "UNLINK": "Batalkan tautan",
+    "CONTRACT": "Kontrak",
+    "GRID": "Petak",
+    "SETTINGS": "Pengaturan",
+    "FAVORITES": "Favorit",
+    "FAVORITE_DELETE_CONFIRM": "Anda yakin ingin menghapus favorit \"{{favoriteName}}\"?",
+    "FAVORITE_NUMBER": "Favorit {{number}}",
+    "FAVORITE_SAVE_AS": "Simpan sebagai Favorit Baru",
+    "FAVORITES_SAVED": "Disimpan",
+    "FAVORITE_COPY": "Salinan {{favoriteName}}",
+    "NOISEBLOCKAI": "NoiseBlockAI",
+    "PREVIEW_CLICK_SHOW": "Klik ikon Tampilkan di bawah untuk memulai Pratinjau.",
+    "PREVIEW_SHOW": "Tampilkan",
+    "PREVIEW_HIDE": "Sembunyikan",
+    "PREVIEW_HIDDEN": "Pratinjau Disembunyikan",
+    "PREVIEW_WINDOWS_NOTICE": "Aplikasi lain tidak akan dapat menggunakan kamera ini saat Pratinjau diaktifkan.",
+    "PREVIEW_CONTROLS_READ_ERROR": "Aplikasi lain sedang menggunakan kamera ini.{{line_feed}}Tutup untuk mengaktifkan Pratinjau dan Pengaturan.{{line_feed}}{{line_feed}}Jika tidak berfungsi, pastikan aplikasi lain tidak berjalan di latar belakang.",
+    "SNAPSHOT": "Snapshot",
+    "SNAPSHOT_SAVE": "Simpan Snapshot",
+    "SNAPSHOT_SAVED_SUCCESS": "Snapshot berhasil disimpan.",
+    "SNAPSHOT_SAVED_FAIL": "Snapshot tidak disimpan.",
+    "SNAPSHOT_SUGGESTED_FILENAME_PREFIX": "snapshot",
+    "SANDBOX": "Sandbox",
+    "IT_MANAGED": "Dikelola IT",
+    "HEADSET": "Headset",
+    "SUPPORT": "Dukungan",
+    "USB_ADAPTER": "Adaptor USB",
+    "CHARGING_CASE": "Case",
+    "CHARGING_CASE_NAME": "Case Pengisi Daya",
+    "DEVICES": "Perangkat",
+    "OVERVIEW": {
+      "OVERVIEW": "Ikhtisar",
+      "BATTERY_LABEL": "Baterai:",
+      "BATTERY_CRITICAL": "Sangat penting",
+      "WIFI_LABEL": "Jaringan:",
+      "PROVISION_LABEL": "Penyedia:",
+      "PROVISION_AUTO": "Generik",
+      "PROVISION_OFF": "Penyediaan",
+      "PROVISION_NOT_SET_UP": "Belum disetel",
+      "PROVISION_NOT_SET_UP_TOOLTIP": "Perangkat akan berfungsi, tetapi tidak akan dikelola dari jarak jauh",
+      "SET_PROVISION": "Klik untuk menyetel penyediaan",
+      "STATUS_LABEL": "Status:",
+      "HEADSET_STATUS_LABEL": "Headset:",
+      "FIRMWARE_LABEL": "Perangkat Lunak:",
+      "CONNECTED": "Tersambung",
+      "NOT_CONNECTED": "Tidak Tersambung",
+      "DISCONNECTED": "Terputus",
+      "PAIRING_MODE": "Pasangkan Audio Bluetooth",
+      "PAIR_REMOTE": "Pasangkan Remote Bluetooth",
+      "USB_PAIRING_MODE": "Pasangkan Perangkat Baru",
+      "MAKE_PRIMARY": "Jadikan yang Utama",
+      "DELETE_DEVICE": "Hapus Perangkat",
+      "TROUBLE_CONNECTING": "Mengalami masalah saat menyambungkan perangkat?",
+      "AVAILABLE_FIRMWARE": "Tersedia:",
+      "SAVE_BUTTON": "Simpan",
+      "CANCEL_BUTTON": "Batalkan",
+      "RENAME_DEVICE": "Ganti nama",
+      "DEVICE_NAME": "Nama:",
+      "RECOVERY_MODE": "Mode Pemulihan",
+      "POLICY_UPDATE_NOTE": "Organisasi Anda mengharuskan perangkat ini menggunakan versi perangkat lunak tertentu. Silakan Perbarui sesegera mungkin.",
+      "CASE_UPDATE_NOTE": "Sambungkan kabel USB untuk memperbarui case pengisi daya"
+    },
+    "FTC_GET_STARTED": {
+      "DEVICE_DETECTED": "Perangkat terdeteksi",
+      "SETUP_REQUIRED": "Penyetelan diperlukan untuk penggunaan perangkat.",
+      "IMPORT_CONFIGURATION": "Impor Konfigurasi",
+      "BEGIN_SETUP": "Mulai Penyetelan",
+      "MODAL": {
+        "TITLE": "Impor Konfigurasi",
+        "DESCRIPTION": "Masukkan nama dan tipe keamanan jaringan yang ingin Anda ikuti.",
+        "LABEL_INPUT": "Nama Perangkat",
+        "INPUT_PLACEHOLDER": "Opsional",
+        "INPUT_RECOMMENDATION": "Kami sarankan untuk menamai perangkat ini sesuai nama ruangan atau ruang rapat perangkat ini berada."
+      }
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Dengan mengeklik \"Saya menerima\" di bawah, Anda mengerti dan menyetujui bahwa penggunaan perangkat lunak ini diatur sesuai ketentuan ",
+      "EULA_LINK": "Perjanjian Lisensi Pengguna Akhir Poly",
+      "EULA_I_ACCEPT": "Saya menerima Perjanjian Lisensi Pengguna Akhir",
+      "BEGIN_SETUP": "Mulai Penyetelan",
+      "PASSWORD_INVALID": "Kata sandi yang Anda masukkan tidak valid. Masukkan kembali kata sandi."
+    }
+  },
+  "MAIN": {
+    "TRAY": {
+      "OPEN": "Terbuka",
+      "NO_DEVICES": "Tidak ada perangkat tersambung.",
+      "QUIT": "Keluar dari Poly Lens",
+      "SOUNDSCAPING": "Soundscape",
+      "MDA_AUDIO_RECORDING": "Rekaman Audio saat Senyap Diaktifkan",
+      "MDA_AUDIO_RECORDING_START": "Rekam Catatan Suara",
+      "MDA_AUDIO_RECORDING_STOP": "Berhenti Rekam Catatan Suara",
+      "OFF": "Mati"
+    }
+  },
+  "HEALTH_AND_WELLNESS": {
+    "TITLE": "Kesehatan & Kebugaran",
+    "SOUNDSCAPING": {
+      "TITLE": "Soundscape",
+      "ENABLE_SOUNDSCAPES": "Aktifkan Soundscape",
+      "CARDS": {
+        "ADD_SOUNDSCAPE": {
+          "TITLE": "Tambahkan soundscape ke lingkungan Anda",
+          "DESCRIPTION": "Lingkungan yang menenangkan dapat membantu untuk mengurangi gangguan. Pilihan soundscape termasuk suara air terjun, angin, sungai, hutan, dan laut. Suara biofilik yang dipilih ini dapat membantu mengurangi stres dan meningkatkan fokus."
+        }
+      },
+      "MOUNTAIN_RANCH": "Suara Alam Pegunungan",
+      "GENTLE_OCEAN": "Suara Lautan Tenang",
+      "BABBLING_BROOK": "Suara Aliran Sungai",
+      "AT_VOLUME": "pada volume"
+    },
+    "HYDRATION": {
+      "TITLE": "Minum",
+      "REMINDERS": "Pengingat Minum",
+      "CARDS": {
+        "DRINK": {
+          "TITLE": "Minum Air",
+          "DESCRIPTION": "Agar tetap terhidrasi, pria memerlukan sekitar 125 ons (3,7 liter) air dan wanita memerlukan 91 ons (2,7 liter) air setiap hari.",
+          "SOURCE_LINK_LABEL": "Sumber",
+          "SOURCE": "National Academies of Sciences, Engineering, and Medicine"
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Waktunya minum",
+        "BODY": "Minum cukup air dapat meningkatkan kualitas tidur, kognisi, dan suasana hati."
+      }
+    },
+    "VISION": {
+      "TITLE": "Mata",
+      "REMINDERS": "Pengingat Istirahat Mata",
+      "CARDS": {
+        "LOOK_AWAY": {
+          "TITLE": "Alihkan perhatian dari layar",
+          "DESCRIPTION": "Aturan yang baik untuk diikuti adalah aturan 20-20-20, yakni setiap 20 menit melihat sesuatu yang berjarak sekitar 20 kaki (6 m) selama 20 detik."
+        },
+        "TAKE_BREAK": {
+          "TITLE": "Gerakkan tubuh Anda",
+          "DESCRIPTION": "Aturan 20-20-20 merupakan awal yang baik, tetapi pastikan Anda meninggalkan stasiun kerja dan keluar, melakukan peregangan, atau berlatih fokus."
+        }
+      },
+      "NOTIFICATION": {
+        "TITLE": "Waktunya istirahat",
+        "BODY": "Istirahat dapat meningkatkan fokus, produktivitas, dan kualitas kerja Anda"
+      }
+    },
+    "SET_REMINDER_FREQUENCY": "Atur frekuensi pengingat",
+    "REMINDER_SCHEDULE": "{{timeSpan}} aktif {{days}} antara {{startTime}} dan {{endTime}}",
+    "FREQUENCY": "Frekuensi",
+    "TIME_RANGE": "Rentang Waktu",
+    "WEEKDAYS": "Hari Kerja (S-J)",
+    "WEEKDAYS_SHORT": "Hari Kerja",
+    "EVERY_DAY": "Setiap Hari",
+    "CUSTOM": "Kustom",
+    "ON": "aktif",
+    "LEARN_MORE": "Pelajari Lebih Lanjut",
+    "NEXT": "BERIKUTNYA",
+    "THROUGH": "sampai"
+  },
+  "MODALS": {
+    "ACOUSTIC_FENCE": {
+      "LINK_TEXT": "Cara Kerja Acoustic Fence",
+      "TITLE": "Cara Kerja Acoustic Fence",
+      "DESCRIPTION": "Acoustic Fence menggunakan teknologi peredam gema canggih dan beberapa mikrofon untuk menciptakan “pagar audio” virtual. Fitur ini dapat mengurangi dampak yang ditimbulkan oleh suara gangguan dari luar selama percakapan berlangsung, seperti suara obrolan dari rekan kerja Anda. {{line_feed}}Untuk pengalaman terbaik, gunakan dengan NoiseBlockAI Poly untuk meredam suara non-ucapan di latar belakang, terutama suara keyboard, suara kertas saat diseret, dan bahkan suara anjing yang menggonggong."
+    },
+    "NOISEBLOCKAI": {
+      "LINK_TEXT": "Cara Kerja NoiseBlockAI",
+      "TITLE": "Cara Kerja NoiseBlockAI",
+      "DESCRIPTION": "NoiseBlockAI dirancang untuk menjaga agar suara non-manusia (seperti suara keyboard atau kertas yang diseret) tidak mengganggu rapat Anda dengan menggunakan teknik peredam suara berbasis pembelajaran mesin untuk mengurangi suara latar belakang yang mengganggu di sekitar Anda dan suara jauh dalam percakapan. {{line_feed}}Saat tidak sedang bicara, NoiseBlockAI secara otomatis akan membisukan bunyi mikrofon untuk mencegah kebisingan di latar belakang mengganggu panggilan Anda."
+    },
+    "RESTORE_DEFAULTS": {
+      "TITLE": "Pulihkan Default",
+      "CONFIRM_MESSAGE": "Tindakan ini ditujukan untuk memulihkan semua pengaturan default pabrik di perangkat Anda.",
+      "COMPLETE_TITLE": "Pengaturan Dipulihkan!",
+      "COMPLETE_MESSAGE": "Ingatlah untuk mencabut kabel (jika tersambung dengan USB) dan mematikan/menghidupkan headset Anda agar pengaturan baru diberlakukan.",
+      "COMPLETE_MESSAGE_NO_REPLUG": "Untuk menyelesaikan proses ini, perangkat Anda dapat dihidupkan ulang sekarang."
+    },
+    "RESTART_DEVICE": {
+      "TITLE": "Mulai Ulang Perangkat",
+      "CONFIRM_MESSAGE": "Tindakan ini ditujukan untuk segera menghidupkan ulang perangkat Anda."
+    },
+    "RESET_SETTINGS": {
+      "TITLE": "Pulihkan Default",
+      "CONFIRM_MESSAGE": "Tindakan ini akan memulihkan semua pengaturan default untuk Lens."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Nama audio",
+      "CONFIRM_MESSAGE": "Pesan konfirmasi audio."
+    },
+    "ANTI_STARTLE": {
+      "BUTTON": "Pelajari Selengkapnya tentang Anti-Kejut",
+      "TITLE": "Tentang Anti-Kejut",
+      "INTRO": "Ada 2 atau 3 opsi untuk perlindungan Anti-Kejut, tergantung pada produk:",
+      "G616": "G616",
+      "G616_DESCRIPTION": "Pedoman industri Australia untuk perlindungan kejut suara yang membatasi tingkat audio ke telinga Anda untuk mengurangi kejut dari volume tinggi.",
+      "G616_POLY_ENHANCED": "G616 (Poly Enhanced)",
+      "G616_POLY_ENHANCED_DESCRIPTION": "Algoritme yang ditawarkan Poly melampaui perlindungan yang ditawarkan oleh G616 dengan menghilangkan suara keras yang mendadak, dan langsung menguranginya untuk memastikan kenyamanan selama Anda mendengarkan dan sekaligus menjaga integritas audio.",
+      "OFF": "Mati",
+      "OFF_DESCRIPTION": "Jika pengaturan ini dinonaktifkan, headset akan membiarkan audio keluar tanpa penyaringan, tetapi akan terus membatasi tingkat suara pada 118 dBA untuk melindungi pendengaran Anda.",
+      "NOTE": "CATATAN",
+      "NOTE_DESCRIPTION": "Opsi ini tergantung pada produk.",
+      "MORE_INFO": "Untuk informasi lebih lanjut tentang fitur ini, kunjungi"
+    },
+    "WIFI_JOIN_NETWORK": {
+      "TITLE": "Temukan dan Bergabung dengan Jaringan Wi-Fi",
+      "NETWORK_NAME": "Nama Jaringan",
+      "DESCRIPTION": "Masukkan nama dan tipe keamanan jaringan yang ingin Anda ikuti.",
+      "PASSWORD_TITLE": "Tambahkan kata sandi untuk jaringan {{networkName}}",
+      "SECURITY": "Keamanan",
+      "EAP_METHOD": "Metode EAP",
+      "PHASE2": "Autentikasi Fase 2",
+      "CA_CERTIFICATE": "Sertifikat CA",
+      "USER_CERTIFICATE": "Sertifikat Pengguna",
+      "IDENTITY": "Identitas",
+      "ANONYMOUS_IDENTITY": "Identitas Anonim",
+      "PASSWORD": "Kata Sandi",
+      "IP_SETTINGS": "Pengaturan IP",
+      "STATIC": "Statis",
+      "SHOW_ADVANCED": "Tampilkan Pengaturan Lanjutan",
+      "DHCP": "DHCP",
+      "IP_ADDRESS": "Alamat IP",
+      "GATEWAY": "Gateway",
+      "SUBNET_MASK": "Subnet Mask",
+      "DNS1": "Alamat DNS 1",
+      "DNS2": "Alamat DNS 2"
+    },
+    "WIFI_KNOWN_NETWORKS": {
+      "TITLE": "Kelola jaringan yang dikenal",
+      "NO_NETWORKS": "Tidak ada jaringan yang dikenal. Sambungkan."
+    },
+    "CREATE_CERTIFICATE_SIGNING_REQUEST": {
+      "TITLE": "Buat Permintaan Penandatanganan Sertifikat",
+      "DESCRIPTION": "Sebutkan informasi untuk permintaan sertifikat Anda di bawah ini.",
+      "COUNTRY": "Negara",
+      "STATE": "Negara Bagian atau Provinsi",
+      "CITY": "Kota atau Daerah",
+      "ORGANIZATION": "Organisasi",
+      "ORGANIZATION_UNIT": "Unit Organisasi",
+      "COMMON_NAME": "Nama Umum",
+      "SAVE_FILE_TITLE": "Simpan file Permintaan Penandatanganan Sertifikat"
+    },
+    "INSTALL_CERTIFICATE": {
+      "TITLE": "Instal Sertifikat",
+      "TYPE": "Tipe",
+      "CERTIFICATE": "Sertifikat",
+      "CHOOSE_FILE_TITLE": "Pilih File"
+    },
+    "CERTIFICATE_DETAILS": {
+      "TITLE": "Detail Sertifikat",
+      "PASSWORD_ERROR": "Kata sandi yang Anda masukkan tidak valid. Masukkan kembali kata sandi.",
+      "PASSWORD": "Kata Sandi Kunci Pribadi:"
+    }
+  },
+  "TOOLTIPS": {
+    "MAIN_DEVICE": "Ini adalah perangkat utama Anda.",
+    "MAKE_DEVICE_MAIN": "Jadikan perangkat ini sebagai perangkat utama Anda.",
+    "DEVICE_NOT_SUPPORTED": "Dukungan perangkat segera hadir. Fungsionalitas dalam aplikasi mungkin terbatas.",
+    "DISABLED_BY_ADMIN": "Fitur dinonaktifkan oleh admin Anda"
+  },
+  "DEVICE_COMPONENTS": {
+    "SOFTWARE_COMPONENTS": "Komponen Perangkat Lunak",
+    "VIEW_LIST_OF_COMPONENTS": "Lihat {{numberOfComponents}} komponen",
+    "VIEW_ONE_COMPONENT": "Lihat 1 komponen",
+    "USB": "USB",
+    "PIC": "GBR",
+    "TUNING": "Penyesuaian",
+    "BASE": "Base",
+    "HEADSET": "Headset",
+    "BLUETOOTH": "Bluetooth",
+    "SETID": "SetId",
+    "CAMERA": "Kamera"
+  },
+  "DFU": {
+    "REPLUG_TITLE": "Hampir Selesai!",
+    "REPLUG_DESCRIPTION": "Cabut dan sambungkan kembali perangkat, lalu klik Lanjutkan untuk menyelesaikan pembaruan.",
+    "UPDATE_WARNING_1": "Pembaruan ini memerlukan waktu beberapa menit hingga selesai.",
+    "UPDATE_WARNING_2": "{{open_tag}}Jangan putuskan perangkat{{close_tag}} selama proses pembaruan.",
+    "UPDATE_WARNING_3": "Pastikan kamera tidak sedang digunakan oleh aplikasi lain sebelum melanjutkan pembaruan perangkat lunak ini.",
+    "DISTANCE_WARNING.TITLE": "Bersiaplah untuk Memperbarui",
+    "DISTANCE_WARNING_1": "Pastikan {{open_tag}}{{device_name}}{{close_tag}} Anda berjarak 1,5 m (5 kaki) dari komputer selama pembaruan.",
+    "DISTANCE_WARNING_2": "Putuskan sambungan Bluetooth lainnya (mis. ponsel) untuk menghindari pembaruan terhenti.",
+    "LANGUAGE_DOWNLOAD": "Pengunduhan Bahasa",
+    "DOWNLOADING_LANGUAGE": "Mengunduh bahasa",
+    "LANGUAGE_UPDATE": "Pembaruan Bahasa",
+    "UPDATEING_LANGUAGE": "Memperbarui bahasa",
+    "LANGUAGE_UPDATED": "Bahasa diperbarui",
+    "SOFTWARE_DOWNLOAD": "Pengunduhan Perangkat Lunak",
+    "DOWNLOADING_SOFTWARE": "Mengunduh perangkat lunak",
+    "SOFTWARE_UPDATE": "Pembaruan Perangkat Lunak",
+    "UPDATING_SOFTWARE": "Memperbarui perangkat lunak",
+    "SOFTWARE_INSTALLED": "Perangkat lunak diinstal",
+    "CUSTOM_SOFTWARE_UPDATE": "Pembaruan Perangkat Lunak Kustom",
+    "UPLOADING_CUSTOM_SOFTWARE_UPDATE": "Mengunggah pembaruan perangkat lunak kustom",
+    "CUSTOM_SOFTWARE_INSTALLED": "Perangkat lunak kustom diinstal",
+    "DEVICE_RECOVERY": "Pemulihan Perangkat",
+    "RECOVERING_DEVICE": "Memulihkan perangkat",
+    "DEVICE_RECOVERED": "Perangkat dipulihkan",
+    "UPDATE_FAILED": "Pembaruan Perangkat Lunak Gagal",
+    "UPDATE_FAILED_TITLE": "Wah. Ada yang salah.",
+    "UPDATE_FAILED_GENERAL_MESSAGE": "Pembaruan perangkat lunak tidak berhasil diselesaikan.",
+    "SOFTWARE_IS_UP_TO_DATE_TITLE": "Perangkat lunak sudah yang terbaru",
+    "SOFTWARE_IS_UP_TO_DATE_DESCRIPTION": "Perangkat yang Anda coba perbarui sudah memiliki perangkat lunak terbaru.",
+    "PREREQUISITES": {
+      "BatteryLowError": "Tingkat daya baterai Anda tidak memadai untuk menjalankan pembaruan. Isi daya baterai {{deviceName}} Anda sebelum menjalankan pembaruan.",
+      "DeviceNotConnectedError": "Sambungkan {{deviceName}} Anda dengan kabel untuk memperbarui.",
+      "CallinProgressError": "Tidak dapat memperbarui {{deviceName}} selama panggilan.",
+      "DFUInProgressError": "Tidak dapat memperbarui {{deviceName}} saat pembaruan lain sedang berlangsung.",
+      "MultipleDevicesError": "Dua perangkat atau lebih dengan model yang sama telah tersambung. Putuskan sambungan perangkat lain sebelum memperbarui perangkat ini.",
+      "ReplugDevice": "Cabut dan sambungkan kembali perangkat untuk menyelesaikan pembaruan perangkat lunak.",
+      "CameraInUseError": "Pastikan pratinjau kamera dinonaktifkan dan mikrofon serta kamera tidak aktif di aplikasi lainnya.",
+      "SingleEarbudError": "Pastikan kedua earbud tersambung, tidak dalam kotaknya, dan berisi daya lebih dari 50% untuk memperbarui."
+    }
+  },
+  "DeviceSettingsCategories": {
+    "General": "Umum",
+    "DisplayControls": "Kontrol Tampilan",
+    "RingtoneAndVolume": "Nada Dering & Volume",
+    "Audio": "Audio",
+    "SensorAndPresence": "Sensor & Keberadaan",
+    "SoftphonesAndMediaPlayers": "Softphone & Pemutar Media",
+    "Wireless": "Nirkabel",
+    "Advanced": "Lanjutan",
+    "ANC": "ANC",
+    "Firmware": "Firmware",
+    "Language": "Bahasa",
+    "VoicePromptsAndTones": "Perintah Suara & Nada",
+    "Admin": "Admin",
+    "ResetHeadset": "Atur Ulang Perangkat",
+    "Lights": "Menyala",
+    "CustomButton": "Tombol Kustom",
+    "CustomSwipe": "Sensor Usap Kustom",
+    "Diagnostics": "Diagnostik",
+    "SoftwareSettings": "Pengaturan Perangkat Lunak"
+  },
+  "DeviceSettings": {
+    "0x1": {
+      "name": "Bahasa",
+      "description": "Pilih bahasa yang diinginkan untuk semua perintah dan peringatan suara. Misalnya, \"Panggilan masuk dari John.\" atau \"Senyap aktif.\"",
+      "serverNotReachable": "Anda saat ini tidak dapat mengubah bahasa karena server tidak tersedia.",
+      "options": {
+        "3076": "Kanton",
+        "1030": "Dansk",
+        "2057": "Inggris - Britania",
+        "1033": "Inggris - Amerika Serikat",
+        "1036": "Prancis",
+        "1031": "Jerman",
+        "1040": "Italia",
+        "1041": "Jepang",
+        "1042": "Korea",
+        "1045": "Polski",
+        "2052": "Mandarin",
+        "1044": "Norwegia - Bokmal",
+        "2068": "Norwegia - Nynorsk",
+        "1049": "Rusia",
+        "1034": "Spanyol",
+        "1053": "Svenska",
+        "16393": "Inggris - India",
+        "1057": "Indonesia",
+        "1054": "Thailand",
+        "1046": "Portugis - Brasil"
+      }
+    },
+    "0x102": {
+      "name": "Panggilan Masuk Kedua",
+      "description": "Kontrol perilaku dering panggilan masuk dari jalur komunikasi kedua (misalnya panggilan seluler masuk saat Anda sedang dalam panggilan telepon perangkat lunak).",
+      "options": {
+        "ignore": "Abaikan",
+        "once": "Dering Sekali",
+        "continuous": "Dering Kontinu"
+      }
+    },
+    "0x103": {
+      "name": "Volume Komputer",
+      "description": "",
+      "options": {
+        "off": "Mati",
+        "low": "Volume Rendah",
+        "standard": "Volume Standar"
+      }
+    },
+    "0x104": {
+      "name": "Volume Telepon",
+      "description": "",
+      "options": {
+        "off": "Mati",
+        "low": "Volume Rendah",
+        "standard": "Volume Standar"
+      }
+    },
+    "0x105": {
+      "name": "Volume Ponsel",
+      "description": "",
+      "options": {
+        "off": "Mati",
+        "low": "Volume Rendah",
+        "standard": "Volume Standar"
+      }
+    },
+    "0x106": {
+      "name": "PC",
+      "description": "Pilih nada dering (dan volume untuk model yang berlaku) yang Anda dengar saat softphone PC Anda berdering.",
+      "options": {
+        "sound1": "Suara 1",
+        "sound2": "Suara 2",
+        "sound3": "Suara 3",
+        "off": "Mati"
+      }
+    },
+    "0x107": {
+      "name": "Telepon",
+      "description": "Pilih nada dering (dan volume untuk model yang berlaku) yang Anda dengar saat telepon meja berdering.",
+      "options": {
+        "sound1": "Suara 1",
+        "sound2": "Suara 2",
+        "sound3": "Suara 3",
+        "off": "Mati"
+      }
+    },
+    "0x108": {
+      "name": "Ponsel",
+      "description": "Pilih nada dering (dan volume untuk model yang berlaku) yang Anda dengar saat perangkat seluler berdering.",
+      "options": {
+        "sound1": "Suara 1",
+        "sound2": "Suara 2",
+        "sound3": "Suara 3",
+        "off": "Mati"
+      }
+    },
+    "0x109": {
+      "name": "Nada Dering",
+      "description": "Putar nada dering yang Anda dengar saat perangkat tersambung menerima panggilan dan dikonfigurasikan agar tidak memutar nada deringnya sendiri"
+    },
+    "0x10A": {
+      "name": "Volume dering dasar",
+      "description": "Konfigurasi volume dering dasar.",
+      "options": {
+        "off": "Mati",
+        "low": "Rendah",
+        "medium": "Sedang",
+        "high": "Tinggi"
+      }
+    },
+    "0x200": {
+      "name": "Mengenakan Sensor",
+      "description": "Aktifkan pengaturan master ini untuk memungkinkan konfigurasi terpisah dari semua pengaturan yang bergantung pada sensor."
+    },
+    "0x201": {
+      "name": "Jawab Otomatis",
+      "description": "Jawab panggilan masuk secara otomatis saat Anda mengenakan headset ketika ponsel berdering."
+    },
+    "0x202": {
+      "name": "Transfer Audio Pintar",
+      "description": "Transfer audio panggilan secara otomatis dari headset ke ponsel saat Anda melepas headset. Kenakan kembali headset Anda untuk meneruskan kembali audio panggilan ke headset."
+    },
+    "0x203": {
+      "name": "Kunci Tombol Panggil",
+      "description": "Kunci tombol panggil di headset untuk mencegah panggilan seluler balik secara tidak sengaja ketika Anda tidak memakai headset."
+    },
+    "0x204": {
+      "name": "Jeda Otomatis Musik",
+      "description": "Otomatis jeda streaming audio dari perangkat seluler ketika headset dilepas dari telinga (dan lanjutkan saat dipasang di telinga). Nonaktifkan untuk memutar stream audio secara berkelanjutan."
+    },
+    "0x205": {
+      "name": "Senyap Otomatis",
+      "description": "Senyapkan suara mikrofon di headset secara otomatis ketika Anda melepas headset selama percakapan berlangsung."
+    },
+    "0x206": {
+      "name": "Audio Panggilan Aktif",
+      "description": "Pilih tindakan yang Anda ingin headset lakukan saat Anda melepaskannya dari kepala Anda selama panggilan aktif.",
+      "options": {
+        "doNothing": "Jangan Lakukan Apa Pun",
+        "transferAudioToMobile": "Transfer Audio ke Ponsel",
+        "muteMic": "Senyapkan Mikrofon"
+      }
+    },
+    "0x300": {
+      "name": "Jawab Otomatis (Tanpa Sensor)",
+      "description": "Jawab panggilan masuk secara otomatis saat Anda melepas headset dari dudukan pengisi daya. Atur ke Nonaktif untuk menjawab panggilan masuk saat Anda menekan tombol kontrol panggilan."
+    },
+    "0x301": {
+      "name": "Sambungkan Otomatis ke Ponsel",
+      "description": "Sambungkan ulang dudukan Savi secara otomatis ke ponsel saat berada dalam jangkauan unit dudukan."
+    },
+    "0x302": {
+      "name": "Letakkan di Dudukan untuk Memutus Sambungan Secara Otomatis",
+      "description": "Putuskan panggilan secara otomatis saat Anda meletakkan headset di dudukan pengisi daya."
+    },
+    "0x400": {
+      "name": "Jalur Telepon Default",
+      "description": "Atur jalur keluar yang akan digunakan ponsel saat Anda menekan tombol kontrol panggilan headset.",
+      "options": {
+        "pstn": "Telepon",
+        "voip": "Komputer",
+        "mobile": "Perangkat Seluler"
+      }
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "description": "Aktifkan agar dapat menghubungkan perangkat seluler Anda melalui Bluetooth."
+    },
+    "0x402": {
+      "name": "Perintah Suara Seluler",
+      "description": "Aktifkan untuk menyetel perangkat seluler yang terhubung ke mode perintah suara dengan menekan tombol perangkat seluler pada dudukan."
+    },
+    "0xB05": {
+      "name": "Peringatan Panggilan Masuk",
+      "description": "Dengarkan perintah suara saat Anda menerima panggilan masuk."
+    },
+    "0x913": {
+      "name": "Tahan Pengingat",
+      "description": "Terima pengingat berguna bahwa ada panggilan yang ditahan untuk Anda."
+    },
+    "0xB06": {
+      "name": "Peringatan Min/Maks Volume",
+      "description": "Pilih jenis pengumuman yang didengar saat mencapai volume minimum dan volume maksimum.",
+      "options": {
+        "voice": "Suara",
+        "tone": "Nada"
+      }
+    },
+    "0x500": {
+      "name": "Paparan Suara Bising",
+      "description": "Pantau dan kontrol paparan derau harian untuk memastikan paparan derau tidak melebihi nilai tindakan yang dipilih (80 dBA atau 85 dBA) sesuai dengan undang-undang yang berlaku.",
+      "options": {
+        "85db": "Dibatasi pada 85 dBA",
+        "80db": "Dibatasi pada 80 dBA",
+        "off": "Tanpa Pembatasan"
+      }
+    },
+    "0x501": {
+      "name": "Jam di Telepon per Hari",
+      "description": "Optimalkan akurasi pengaturan Paparan Suara Bising dengan memilih nilai yang paling merepresentasikan penggunaan Anda secara umum di perangkat ini.",
+      "options": {
+        "off": "Mati",
+        "2": "2",
+        "4": "4",
+        "6": "6",
+        "8": "8"
+      }
+    },
+    "0x504": {
+      "name": "Anti-Kejut",
+      "description": "Algoritme pintar yang menghilangkan kejut suara dari suara keras dengan langsung menguranginya untuk memastikan perlindungan Anda dan mendengarkan dengan nyaman."
+    },
+    "0x505": {
+      "name": "Anti-Kejut",
+      "description": "Standar industri untuk perlindungan suara, G616 membatasi tingkat audio ke telinga Anda untuk menghindari kejut yang mendadak dari volume tinggi."
+    },
+    "0x600": {
+      "name": "Jawab/Abaikan",
+      "description": "Dengarkan perintah suara dengan \"Menjawab\" atau \"Mengabaikan\" panggilan saat Anda menerima panggilan masuk di ponsel."
+    },
+    "0x601": {
+      "name": "Pengumuman Panggilan",
+      "description": "Dengarkan peringatan suara ‘Menjawab Panggilan’ saat Anda menjawab panggilan masuk melalui headset."
+    },
+    "0x602": {
+      "name": "Peringatan Senyap Nonaktif",
+      "description": "Umpan balik yang Anda dengar saat Anda membisukan bunyi dan menyalakan bunyi mikrofon Anda.",
+      "options": {
+        "false": "Nada",
+        "true": "Suara"
+      }
+    },
+    "0x603": {
+      "name": "Waktu Pengingat Senyap",
+      "description": "Atur jumlah menit di antara peringatan pengingat senyap.",
+      "options": {
+        "off": "Mati",
+        "1": "1 menit",
+        "2": "2 menit",
+        "3": "3 menit",
+        "4": "4 menit",
+        "5": "5 menit",
+        "6": "6 menit",
+        "7": "7 menit",
+        "8": "8 menit",
+        "9": "9 menit",
+        "10": "10 menit",
+        "11": "11 menit",
+        "12": "12 menit",
+        "13": "13 menit",
+        "14": "14 menit",
+        "15": "15 menit"
+      }
+    },
+    "0x604": {
+      "name": "Volume Pengingat Senyap",
+      "description": "Atur volume untuk peringatan pengingat senyap.",
+      "options": {
+        "off": "Mati",
+        "low": "Volume Rendah",
+        "standard": "Volume Standar"
+      }
+    },
+    "0x607": {
+      "name": "Peringatan Hening Hidup/Mati",
+      "description": "Pilih tipe peringatan yang Anda dengar ketika mensenyapkan suara dan membunyikan suara di mikrofon headset Anda atau menerima pengingat senyap.",
+      "options": {
+        "voice": "Suara",
+        "singleTone": "Nada Tunggal",
+        "doubleTone": "Nada Ganda"
+      }
+    },
+    "0x608": {
+      "name": "Nada Sistem",
+      "description": "Atur volume untuk perintah audio di headset Anda.",
+      "options": {
+        "off": "Mati",
+        "low": "Volume Rendah",
+        "standard": "Volume Standar"
+      }
+    },
+    "0x609": {
+      "name": "Nada Tingkat Volume",
+      "description": "Saat menyesuaikan volume, dengarkan nada yang menunjukkan tingkat volume saat ini.",
+      "options": {
+        "atEveryLevel": "Setiap Tingkat",
+        "minMaxOnly": "Minimum & Maksimum Saja"
+      }
+    },
+    "0x60A": {
+      "name": "ID Pemanggil",
+      "description": "Dengarkan nama orang yang memanggil."
+    },
+    "0x60C": {
+      "name": "Nada Audio Aktif",
+      "description": "Dengarkan kombinasi nada singkat yang mengindikasikan bahwa saluran audio terbuka dan siap untuk komunikasi."
+    },
+    "0x60D": {
+      "name": "Mode Pengingat Senyap",
+      "description": "Dapatkan pengingat yang berguna saat headset dibisukan selama panggilan. Konfigurasi cara dan waktu pengingat muncul.",
+      "options": {
+        "off": "Mati",
+        "timed": "Berbasis Waktu",
+        "voiceAudible": "Pengingat Suara",
+        "voiceVisible": "Pengingat Pada Layar",
+        "voiceVisibleAndAudible": "Pengingat Pada Layar & Suara"
+      }
+    },
+    "0x610": {
+      "name": "Peringatan Senyap",
+      "description": "Umpan balik yang Anda dengar saat Anda mensenyapkan atau membunyikan mikrofon speakerphone Anda."
+    },
+    "0x700": {
+      "name": "Kualitas Audio",
+      "description": "Optimalkan kualitas audio untuk aktivitas yang Anda inginkan.",
+      "options": {
+        "homeMode": "Musik",
+        "enterpriseMode": "Hibrida",
+        "mono": "Percakapan",
+        "narrowBand": "Narrowband"
+      }
+    },
+    "0x701": {
+      "name": "Langganan Over-the-Air",
+      "description": "Hubungkan headset ini ke dudukan tanpa harus menempatkan headset Anda secara fisik ke dudukan pengisian daya."
+    },
+    "0x702": {
+      "name": "Jangkauan",
+      "description": "Batasi jangkauan untuk mengurangi interferensi audio dari perangkat DECT lain.",
+      "options": {
+        "low": "Rendah",
+        "medium": "Sedang",
+        "high": "Tinggi"
+      }
+    },
+    "0x704": {
+      "name": "Streaming Audio",
+      "description": "Aktifkan untuk menstreaming musik, podcast, dan tipe audio lainnya dari perangkat seluler ke headset Anda. Jika Anda tidak melakukan streaming audio ke headset, nonaktifkan fitur ini untuk membantu menghemat masa pakai baterai.",
+      "powerCycleRequired": {
+        "title": "Aktifkan/Nonaktifkan Streaming Audio",
+        "buttonText": "OK",
+        "true": {
+          "title": "Nonaktifkan Streaming Audio",
+          "text": "Pilih untuk menghemat daya baterai dan melakukan panggilan lebih lama. Saat dinonaktifkan, Anda tidak dapat mendengarkan musik atau podcast melalui headset."
+        },
+        "false": {
+          "title": "Aktifkan Streaming Audio",
+          "text": "Pilih untuk mendengarkan musik dan podcast melalui headset. Bila diaktifkan, waktu bicara yang tersedia untuk percakapan bisa berkurang."
+        }
+      }
+    },
+    "0x705": {
+      "name": "Mode Perluasan Jangkauan (PC)",
+      "description": "Dapatkan jangkauan nirkabel yang lebih baik dari PC ke headset Anda. CATATAN: Telefoni stereo jalur lebar akan dinonaktifkan dan kualitas audio yang Anda dengar dari PC akan berkurang."
+    },
+    "0x706": {
+      "name": "Bandwith Audio PC",
+      "description": "Audio pita lebar menghasilkan kejelasan ucapan yang lebih baik dan akurasi seperti nyata, tetapi menggunakan lebih banyak daya baterai, sehingga waktu bicara jadi lebih singkat.",
+      "options": {
+        "narrowband": "Narrowband",
+        "wideband": "Wideband"
+      }
+    },
+    "0x707": {
+      "name": "Bandwidth Audio Telepon",
+      "description": "Audio pita lebar menghasilkan kejelasan ucapan yang lebih baik dan akurasi seperti nyata, tetapi menggunakan lebih banyak daya baterai, sehingga waktu bicara jadi lebih singkat.",
+      "options": {
+        "narrowband": "Narrowband",
+        "wideband": "Wideband"
+      }
+    },
+    "0x708": {
+      "name": "Suara HD",
+      "description": "Audio Wideband berfungsi untuk meningkatkan kejelasan ucapan jika ponsel dan operator seluler Anda juga mendukung fitur ini. CATATAN: Fitur ini bisa menghabiskan banyak daya baterai dan mengurangi waktu bicara.",
+      "options": {
+        "narrowband": "Mati",
+        "wideband": "Hidup",
+        "stereo": "Stereo",
+        "widebandStereo": "Wideband Stereo"
+      },
+      "powerCycleRequired": {
+        "title": "Aktifkan/Nonaktifkan Suara HD",
+        "buttonText": "OK",
+        "narrowband": {
+          "title": "Nonaktifkan Suara HD",
+          "text": "Audio Wideband berfungsi untuk meningkatkan kejelasan ucapan jika ponsel dan operator seluler Anda mendukung fitur ini. Nonaktifkan untuk menghemat daya baterai dan melakukan percakapan lebih lama."
+        },
+        "wideband": {
+          "title": "Aktifkan Suara HD",
+          "text": "Audio Wideband berfungsi untuk meningkatkan kejelasan ucapan jika ponsel dan operator seluler Anda mendukung fitur ini. Mengaktifkan Suara HD bisa menghabiskan lebih banyak daya baterai dan mengurangi waktu bicara yang tersedia untuk panggilan."
+        },
+        "stereo": {
+          "title": "Stereo Title",
+          "text": "Stereo Text"
+        },
+        "widebandStereo": {
+          "title": "Wideband Stereo Title",
+          "text": "Wideband Stereo Text"
+        }
+      }
+    },
+    "0x70A": {
+      "name": "Sambung Ulang Daisy Chain Secara Otomatis",
+      "description": "Pertahankan sambungan daisy chain antar dua perangkat saat keduanya dihidupkan."
+    },
+    "0x70B": {
+      "name": "Putuskan Otomatis Bluetooth",
+      "description": "Putuskan Bluetooth saat perangkat memasuki mode siaga."
+    },
+    "0x800": {
+      "name": "Naikkan Volume Headset QD",
+      "description": "Jika volume headset yang tersambung ke dudukan Quick Disconnect (QD) terlalu rendah, pilih model headset untuk meningkatkan volume.",
+      "options": {
+        "new": "Seri EncorePro 500",
+        "legacy": "Seri EncorePro 700 & Semua Model Headset Lainnya"
+      }
+    },
+    "0x801": {
+      "name": "Kontrol Nada",
+      "description": "Tingkatkan suara bass atau treble untuk mengoptimalkan pengalaman mendengarkan Anda. Anda dapat menyesuaikan nada telepon dan komputer secara terpisah untuk setiap perangkat. ",
+      "options": {
+        "maxBass": "Bass Maks",
+        "midBass": "-2",
+        "minBass": "-1",
+        "noBoost": "0",
+        "minTreble": "1",
+        "midTreble": "2",
+        "maxTreble": "Treble Maks"
+      }
+    },
+    "0x802": {
+      "name": "Pembatasan Percakapan Tertutup",
+      "description": "Batasi jumlah percakapan di sekitar yang ditransmisikan melalui mikrofon Anda. (Catatan: perubahan akan diterapkan di panggilan berikutnya.)",
+      "options": {
+        "no": "Tanpa Pembatasan",
+        "moderate": "Audio Terbaik",
+        "agressive": "Buka Office"
+      }
+    },
+    "0x803": {
+      "name": "Umpan balik suara pengguna",
+      "description": "Sesuaikan volume suara yang Anda dengar saat berbicara.",
+      "options": {
+        "low": "Rendah",
+        "medium": "Sedang",
+        "high": "Tinggi"
+      }
+    },
+    "0x804": {
+      "name": "Waktu Tunggu ANC",
+      "description": "Hemat penggunaan baterai dengan mengurangi jumlah waktu Active Noise Cancellation (ANC) tetap aktif ketika headset diam.",
+      "options": {
+        "2": "2 jam",
+        "4": "4 jam",
+        "off": "Mati"
+      }
+    },
+    "0x810": {
+      "name": "Mode ANC",
+      "description": "Pilih tingkat peredam suara bising terbaik untuk lingkungan Anda.",
+      "options": {
+        "adaptive": "Adaptif",
+        "automatic": "Otomatis",
+        "standard": "Standar",
+        "off": "Mati"
+      }
+    },
+    "0x805": {
+      "name": "Nada Notifikasi",
+      "description": "Nada notifikasi terdengar di perangkat tersambung lain saat melakukan streaming audio."
+    },
+    "0x806": {
+      "name": "Kontrol Volume Independen",
+      "description": "Aktifkan atau Nonaktifkan Kontrol volume mandiri."
+    },
+    "0x807": {
+      "name": "Audio Daisy Chain",
+      "description": "Pilih output audio yang Anda dengar saat speakerphone terhubung ke daisy chain.",
+      "options": {
+        "party": "Pesta",
+        "stereo": "Stereo"
+      }
+    },
+    "0x808": {
+      "name": "Equalizer",
+      "description": "Atur preset equalizer untuk karakteristik suara yang diinginkan.",
+      "options": {
+        "bass": "Bass",
+        "flat": "Datar",
+        "bright": "Cerah"
+      }
+    },
+    "0x90A": {
+      "name": "Pulihkan Default",
+      "description": "Tindakan ini akan memulihkan semua pengaturan default pabrik untuk perangkat Anda.",
+      "resetBtn": "Pulihkan Default",
+      "powerCycleRequired": {
+        "title": "Pengaturan Dipulihkan",
+        "buttonText": "Pulihkan",
+        "true": {
+          "title": "Pulihkan Pengaturan Default",
+          "text": "Semua pengaturan kustom Anda akan dipulihkan ke default awal."
+        }
+      }
+    },
+    "0x90C": {
+      "name": "Mulai Ulang Perangkat",
+      "description": "Tindakan ini ditujukan untuk segera menghidupkan ulang perangkat Anda.",
+      "resetBtn": "Hidupkan ulang"
+    },
+    "0x848": {
+      "name": "Hapus Perangkat Tepercaya",
+      "description": "Hapus daftar perangkat tersambung yang tersimpan di headset Anda. (Ini berlaku untuk semua perangkat yang tersambung, termasuk BT700.)",
+      "resetBtn": "Hapus Perangkat",
+      "powerCycleRequired": {
+        "title": "Perangkat Dihapus",
+        "buttonText": "Hapus",
+        "true": {
+          "title": "Hapus Perangkat Tepercaya",
+          "text": "Ini ditujukan untuk menghapus semua perangkat tersambung yang tersimpan di headset Anda, termasuk adaptor USB BT700."
+        }
+      }
+    },
+    "0x900": {
+      "name": "Getar saat Berdering",
+      "description": "Atur headset Anda agar bergetar saat menerima panggilan."
+    },
+    "0x901": {
+      "name": "Informasi Pengisian Daya",
+      "description": "Atur headset agar bergetar untuk memastikan headset sedang diisi daya."
+    },
+    "0x902": {
+      "name": "Indikator Online",
+      "description": "Aktifkan indikator LED di perangkat Anda untuk memberi tahu orang lain bahwa Anda sedang dalam panggilan."
+    },
+    "0x903": {
+      "name": "Preferensi Pemakaian untuk Kontrol Volume",
+      "description": "Indikasikan preferensi mengenakan headset (telinga kiri atau kanan), dan selalu tempatkan kontrol volume ke atas untuk menaikkan tingkat volume.",
+      "options": {
+        "unknown": "Tidak Ada Perubahan",
+        "left": "Telinga Kiri",
+        "right": "Telinga Kanan",
+        "leftRight": "Boom di Sisi Kanan",
+        "leftRightSwapped": "Boom di Sisi Kiri"
+      }
+    },
+    "0xA00": {
+      "name": "Deteksi Audio",
+      "description": "Tautkan antara dudukan dan headset nirkabel secara otomatis saat port USB mendeteksi audio komputer."
+    },
+    "0xA01": {
+      "name": "Nada Panggil",
+      "description": "Dengarkan nada panggil untuk panggilan VoIP saat Anda menekan tombol panggil di headset Anda. Softphone Anda harus mendukung nada panggil."
+    },
+    "0xFFF1": {
+      "name": "Sambungkan Otomatis ke Ponsel",
+      "description": "Hubungkan ulang dudukan Savi secara otomatis ke perangkat seluler Anda yang telah disandingkan saat telepon dalam jangkauan unit dudukan.",
+      "options": {
+        "never": "Tidak Pernah",
+        "whenUndocked": "Hanya saat Headset Tidak didudukkan",
+        "always": "Selalu"
+      }
+    },
+    "0xFFF2": {
+      "name": "Anti-Kejut",
+      "description": "Algoritme yang berfungsi untuk menghilangkan kejut suara dari suara keras untuk melindungi dan memberi kenyamanan saat mendengarkan.",
+      "options": {
+        "off": "Mati",
+        "standard": "G616",
+        "enhanced": "G616 (Poly Enhanced)"
+      }
+    },
+    "0x60E": {
+      "name": "Status Baterai",
+      "description": "Dengarkan status baterai saat Anda menyalakan perangkat."
+    },
+    "0x60F": {
+      "name": "Koneksi",
+      "description": "Dengar perintah suara yang menunjukkan status koneksi.",
+      "options": {
+        "voice": "Suara",
+        "tone": "Nada"
+      }
+    },
+    "0x80C": {
+      "name": "Bluetooth",
+      "description": "Aktifkan atau nonaktifkan semua koneksi Bluetooth pada Speaker sinkronisasi."
+    },
+    "-": {
+      "name": "Koneksi",
+      "description": "Dengar perintah suara yang menunjukkan status koneksi."
+    },
+    "0x907": {
+      "name": "Koneksi Aman Bluetooth",
+      "description": "Tekan tombol pemasangan bluetooth untuk menyelesaikan koneksi antara speakerphone dan perangkat seluer."
+    },
+    "0x908": {
+      "name": "Tombol Kustom",
+      "description": "Tetapkan tindakan yang diluncurkan saat Anda mengetuk tombol tindakan.",
+      "options": {
+        "playPause": "Putar/Jeda",
+        "redial": "Panggil Ulang (Hanya Seluler)",
+        "vpa": "VPA (Siri, Google Assistant, dsb.)",
+        "clearTrustedDevice": "Hapus Daftar Perangkat Tepercaya",
+        "statusCheck": "Pemeriksaan Status",
+        "holdResume": "Tahan/Lanjutkan Panggilan",
+        "anc": "Mode ANC/Transparency",
+        "nothing": "Jangan Lakukan Apa Pun"
+      }
+    },
+    "0x909": {
+      "name": "Sambungan Eksklusif",
+      "description": "Hapus informasi perangkat yang dipasangkan sebelumnya saat perangkat baru dipasangkan dan tersambung. Ini memungkinkan hanya satu perangkat yang dipasangkan dan tersambung dalam satu waktu."
+    },
+    "0xC00": {
+      "name": "Kecerahan",
+      "description": "Sesuaikan kecerahan video."
+    },
+    "0xC01": {
+      "name": "Kontras",
+      "description": "Sesuaikan kontras video."
+    },
+    "0xC02": {
+      "name": "Rona",
+      "description": "Sesuaikan warna video."
+    },
+    "0xC03": {
+      "name": "Saturasi",
+      "description": "Sesuaikan saturasi warna video."
+    },
+    "0xC04": {
+      "name": "Ketajaman",
+      "description": "Sesuaikan ketajaman video."
+    },
+    "0xC05": {
+      "name": "Gamma",
+      "description": "Sesuaikan gamma video."
+    },
+    "0xC06": {
+      "name": "Warna",
+      "description": "Sesuaikan warna video."
+    },
+    "0xC07": {
+      "name": "Keseimbangan Putih",
+      "description": "Tentukan bagaimana kamera mengompensasi variasi sumber cahaya dalam ruangan."
+    },
+    "0xC08": {
+      "name": "Kompensasi Cahaya Latar",
+      "description": "Aktifkan atau nonaktifkan kompensasi cahaya latar."
+    },
+    "0xC09": {
+      "name": "Gain",
+      "description": "Sesuaikan penguatan sinyal dari kamera."
+    },
+    "0xC0A": {
+      "name": "Putaran",
+      "description": "Sesuaikan arah kiri atau kanan kamera."
+    },
+    "0xC0B": {
+      "name": "Kemiringan",
+      "description": "Sesuaikan arah atas atau bawah kamera."
+    },
+    "0xC0C": {
+      "name": "Roll",
+      "description": "Sesuaikan sudut roll kamera."
+    },
+    "0xC0D": {
+      "name": "Zoom",
+      "description": "Sesuaikan tingkat zoom kamera."
+    },
+    "0xC0E": {
+      "name": "Pencahayaan",
+      "description": "Sesuaikan pencahayaan kamera."
+    },
+    "0xC0F": {
+      "name": "Bukaan lensa",
+      "description": "Sesuaikan bukaan lensa kamera."
+    },
+    "0xC10": {
+      "name": "Fokus",
+      "description": "Sesuaikan fokus kamera."
+    },
+    "0xC11": {
+      "name": "Optimalisasi Kulit",
+      "description": "Aktifkan atau nonaktifkan optimalisasi warna kulit alami untuk peserta."
+    },
+    "0xC12": {
+      "name": "Rentang Dinamis Lebar",
+      "description": "Aktifkan atau nonaktifkan pencahayaan kamera berdasarkan area yang dibingkai, bukan tampilan penuh."
+    },
+    "0xC13": {
+      "name": "Jumlah Peserta",
+      "description": "Laporkan jumlah peserta saat rapat."
+    },
+    "0xC14": {
+      "name": "Tampilan di Layar",
+      "description": "Tampilkan parameter kamera pada output video."
+    },
+    "0xC15": {
+      "name": "Acoustic Fence",
+      "description": "Aktifkan Acoustic Fence Poly untuk memblokir suara bising di latar belakang dan mengonfigurasi lingkup Acoustic Fence Poly.",
+      "options": {
+        "off": "Mati",
+        "60": "Sempit",
+        "90": "Sedang",
+        "120": "Lebar",
+        "cameraView": "Tampilan Kamera"
+      }
+    },
+    "0xC16": {
+      "name": "NoiseBlockAI Poly untuk Audio Keluar",
+      "description": "Untuk mencegah suara gangguan dari area sekitar (seperti suara keyboard atau kertas yang diseret) agar tidak mengganggu rapat Anda.",
+      "options": {
+        "true": "Benar",
+        "false": "Salah",
+        "fast": "Cepat"
+      }
+    },
+    "0xC24": {
+      "name": "NoiseBlockAI Poly untuk Audio Masuk",
+      "description": "Cegah suara gangguan dari area sekitar (seperti suara keyboard atau kertas yang diseret) agar tidak mengganggu saat rapat berlangsung."
+    },
+    "0xC17": {
+      "name": "Audio Stereo",
+      "description": "Gunakan dua saluran audio di kamera untuk memberikan suara stereo."
+    },
+    "0xC26": {
+      "name": "Bass Boost",
+      "description": "Tingkatkan suara Bass."
+    },
+    "0xC18": {
+      "name": "Kecepatan Pelacakan",
+      "description": "Konfigurasi seberapa cepat kamera mendeteksi peserta rapat.",
+      "options": {
+        "slow": "Lambat",
+        "normal": "Normal",
+        "fast": "Cepat"
+      }
+    },
+    "0xC19": {
+      "name": "Mode Pelacakan",
+      "description": "Konfigurasi cara kamera melacak peserta.",
+      "options": {
+        "speaker": "Framing Speaker",
+        "off": "Mati",
+        "group": "Framing Kelompok",
+        "presenter": "Presenter",
+        "conversation": "Percakapan",
+        "gallery": "Framing Orang"
+      }
+    },
+    "0xC21": {
+      "name": "Bass",
+      "description": "Sesuaikan output bass audio dari speaker."
+    },
+    "0xC22": {
+      "name": "Treble",
+      "description": "Sesuaikan output treble audio dari speaker."
+    },
+    "0xC23": {
+      "name": "Solusi Anti-Flicker (50 Hz/60 Hz)",
+      "description": "Pilih frekuensi yang sesuai (NTSC 60 Hz/PAL 50 Hz) untuk mengurangi kedipan layar.",
+      "options": {
+        "0": "Dinonaktifkan",
+        "1": "50 Hz",
+        "2": "60 Hz",
+        "3": "Otomatis"
+      }
+    },
+    "0xC27": {
+      "name": "Cerminkan/Balikkan Gambar",
+      "description": "Balik output video kamera.",
+      "options": {
+        "0": "Dinonaktifkan",
+        "1": "Refleksikan secara horizontal",
+        "2": "Balik secara vertikal",
+        "3": "Balik dan refleksikan di kedua arah"
+      }
+    },
+    "0xC28": {
+      "name": "Suhu Warna",
+      "description": "Suhu Warna",
+      "options": {
+        "warm": "Hangat",
+        "cool": "Dingin"
+      }
+    },
+    "0xC1A": {
+      "name": "Ukuran Bingkai",
+      "description": "Konfigurasi tampilan gambar pelacakan kamera.",
+      "options": {
+        "tight": "Sempit",
+        "medium": "Sedang",
+        "wide": "Lebar"
+      }
+    },
+    "0xC1B": {
+      "name": "Zoom Maksimum",
+      "description": "Batasi zoom kamera maksimum dalam rasio 2x, 3x, atau 4x",
+      "options": {
+        "2x": "2x",
+        "3x": "3x",
+        "4x": "4x"
+      }
+    },
+    "0xC1C": {
+      "name": "Gerakan Kamera",
+      "description": "Sesuaikan gerakan kamera",
+      "options": {
+        "auto pan": "Gerak Otomatis",
+        "cut": "Potong"
+      }
+    },
+    "0xC80": {
+      "name": "Kecerahan Layar",
+      "description": ""
+    },
+    "0xC82": {
+      "name": "Kecerahan LED Status",
+      "description": ""
+    },
+    "0xC84": {
+      "name": "Status Diam",
+      "description": ""
+    },
+    "0xC85": {
+      "name": "Panggilan Masuk",
+      "description": ""
+    },
+    "0xC86": {
+      "name": "Panggilan Aktif",
+      "description": ""
+    },
+    "0xC87": {
+      "name": "Panggilan Ditahan",
+      "description": ""
+    },
+    "0xC88": {
+      "name": "Pengingat Senyap",
+      "description": ""
+    },
+    "0xC89": {
+      "name": "Pengisian Daya Nirkabel",
+      "description": ""
+    },
+    "0xC8D": {
+      "name": "Tombol Aplikasi",
+      "description": "Pilih platform yang ingin diakses dari layar.",
+      "options": {
+        "zoom": "Zoom",
+        "teams": "Microsoft Teams"
+      }
+    },
+    "0xC8E": {
+      "name": "Tombol Roket",
+      "description": "Tetapkan tindakan yang dijalankan saat Anda mengetuk roket",
+      "options": {
+        "holdResume": "Tahan/Lanjutkan Panggilan",
+        "playPause": "Putar/Jeda",
+        "statusLight": "Lampu Status",
+        "lens": "Buka Poly Lens Desktop",
+        "vpa": "VPA - Siri, Cortana",
+        "redial": "Panggil Ulang Panggilan Terakhir",
+        "vanity": "Lampu Make-up",
+        "answerEnd": "Jawab/Akhiri Panggilan",
+        "videoMute": "Kamera Senyap Video"
+      }
+    },
+    "0xC90": {
+      "name": "Kecerahan Layar",
+      "description": "Sesuaikan kecerahan layar."
+    },
+    "0xC81": {
+      "name": "Kontras Layar",
+      "description": "Sesuaikan kontras layar."
+    },
+    "0x910": {
+      "name": "Mode Persistensi Audio PC",
+      "description": "Jika diaktifkan, Audio PC akan dikombinasikan dengan antarmuka telepon."
+    },
+    "0x1300": {
+      "name": "Kelola Semua",
+      "description": "Pilih perintah dan nada yang Anda dengar saat menggunakan perangkat."
+    },
+    "0x1301": {
+      "name": "Panggilan",
+      "description": "Dengarkan perintah suara atau nada untuk menunjukkan status panggilan."
+    },
+    "0x1302": {
+      "name": "Panggilan Masuk"
+    },
+    "0x1303": {
+      "name": "Jawab/Abaikan"
+    },
+    "0x1305": {
+      "name": "Menjawab Panggilan"
+    },
+    "0x1500": {
+      "name": " Mode Transparency",
+      "description": "Pilih tingkat mode transparency dan kekhasan suara.",
+      "options": {
+        "speech": "Ucapan",
+        "environment": "Lingkungan",
+        "off": "Mati"
+      }
+    },
+    "0x1800": {
+      "name": "Tidak aktif",
+      "description": "Tetapkan tindakan cepat saat perangkat memasuki status tidak aktif.",
+      "options": {
+        "volume": "Volume",
+        "anc": "Mode ANC/Transparency",
+        "status": "Pemeriksaan Status",
+        "nothing": "Jangan Lakukan Apa Pun"
+      }
+    },
+    "0x1801": {
+      "name": "Dalam Panggilan",
+      "description": "Tetapkan tindakan cepat untuk saat dalam panggilan. ",
+      "options": {
+        "volume": "Volume",
+        "anc": "Mode ANC/Transparency",
+        "hold": "Tahan/Lanjutkan Panggilan",
+        "mute": "Senyapkan",
+        "nothing": "Jangan Lakukan Apa Pun"
+      }
+    },
+    "0x1802": {
+      "name": "Media Streaming ",
+      "description": "Tetapkan tindakan cepat untuk saat streaming media.",
+      "options": {
+        "volume": "Volume",
+        "anc": "Mode ANC/Transparency",
+        "track": "Trek Maju/Trek Mundur",
+        "nothing": "Jangan Lakukan Apa Pun"
+      }
+    },
+    "powerCycleRequiredDialog": {
+      "OkGotItBtn": "OK, Mengerti",
+      "powerOffText": "Agar pengaturan baru ini dapat diterapkan, <b>matikan headset setidaknya 5 detik</b>."
+    },
+    "SELECT_LANGUAGE": {
+      "TITLE": "Pilih Bahasa",
+      "DESCRIPTION": "Pilih bahasa yang ingin Anda dengarkan untuk semua peringatan dan prompt suara (mis. “Panggilan masuk dari John”, “Bisu aktif”).",
+      "DESCRIPTION_USB_CABLE": "Untuk mengubah bahasa yang ingin Anda dengarkan untuk perintah dan peringatan suara, sambungkan {{device_name}}ke komputer Anda melalui kabel USB.",
+      "CONFIRM_TITLE": "Ubah Bahasa"
+    },
+    "WIFI": {
+      "LABEL": "Wi-Fi",
+      "NAME": "Nama Wi-Fi",
+      "CONNECTED": "Tersambung",
+      "DISCONNECTED": "Terputus",
+      "SIGNAL_STRENGTH": "Kekuatan sinyal",
+      "AUTOCONNECT": "Sambung otomatis",
+      "JOIN_OTHER_NETWORK": "Gabung dengan Jaringan Lain",
+      "MANAGE_KNOWN_NETWORKS": "Kelola Jaringan yang Dikenal",
+      "PLACEHOLDER": "Pilih Jaringan"
+    },
+    "GENERAL": {
+      "LABEL": "Umum",
+      "NTP_LABEL": "NTP",
+      "NTP": "Mode NTP",
+      "NTP_SERVER": "Server NTP",
+      "CAMERA_VIVID": "Mode Vivid Kamera",
+      "CAMERA_VIVID_NOTE": "Perangkat perlu dihidupkan ulang untuk menerapkan mode Vivid Kamera."
+    },
+    "BLUETOOTH": {
+      "LABEL": "Bluetooth",
+      "AUTOCONNECT": "Sambung otomatis",
+      "REMOTE_CONTROL_CONNECTION": "Koneksi Remote Control",
+      "REMOTE_CONTROL_CONNECTION_NOTE": "Anda harus memasangkan remote control secara manual setelah menonaktifkan dan mengaktifkan ulang koneksi."
+    },
+    "NETWORK_PROVISIONING": {
+      "LABEL": "Server Penyedia",
+      "PROVISIONING_MODE": "Mode Penyediaan",
+      "PROVISIONING_MODE_OPTION_AUTO": "Otomatis",
+      "PROVISIONING_MODE_OPTION_MANUAL": "Manual",
+      "PROVISIONING_MODE_OPTION_OFF": "Mati",
+      "SERVER_TYPE": "Tipe Server",
+      "SERVER_TYPE_OPTION_HTTPS": "Server HTTPS (Digunakan untuk penyediaan Lens)",
+      "SERVER_TYPE_OPTION_CLOUD": "Server Penyedia Poly",
+      "SERVER_TYPE_OPTION_FTPS": "Server FTPS",
+      "SERVER_ADDRESS": "Alamat Server",
+      "USERNAME": "Nama pengguna",
+      "PASSWORD": "Kata Sandi"
+    },
+    "CERTIFICATES": {
+      "LABEL": "Sertifikat",
+      "VALIDATE_PEER_CERTS": "Selalu validasi sertifikat peer dari server",
+      "INSTALLED_CERTIFICATES": "Sertifikat Terinstal",
+      "ISSUED_TO": "Diterbitkan Untuk",
+      "ISSUED_BY": "Diterbitkan Oleh",
+      "EXPIRATION_DATE": "Tanggal Kedaluwarsa",
+      "TYPE": "Tipe",
+      "CERTIFICATE_SIGNING_REQUEST": "Permintaan Penandatanganan Sertifikat",
+      "NO_CERTIFICATES": "Tidak ditemukan catatan"
+    },
+    "IMPORT_EXPORT_CONFIG": {
+      "TITLE": "Konfigurasi",
+      "DESCRIPTION": "Ekspor file konfigurasi ke sistem lokal Anda, atau impor set konfigurasi dari file lokal. Anda harus menghidupkan ulang perangkat agar konfigurasi yang diimpor dapat diterapkan.",
+      "IMPORT": "Impor",
+      "IMPORT_DIALOG_TITLE": "Impor konfigurasi",
+      "EXPORT": "Ekspor",
+      "EXPORT_DIALOG_TITLE": "Ekspor konfigurasi"
+    },
+    "LOGIN_WITH_DEVICE_PASSWORD": {
+      "DESCRIPTION": "Jika tidak menemukan pengaturan yang Anda cari, hubungi Administrator Poly Lens, atau masuk dengan kata sandi Perangkat.",
+      "ACTION": "Masuk dengan Kata Sandi Perangkat",
+      "PASSWORD": "Kata Sandi",
+      "CANCEL": "Batalkan",
+      "LOGIN": "Masuk",
+      "INVALID_PASSWORD": "Kata sandi yang Anda masukkan tidak valid. Masukkan kembali kata sandi.",
+      "REQUIRED": "Wajib diisi"
+    },
+    "ADMIN_PASSWORD": {
+      "PASSWORD": "Kata Sandi",
+      "CHANGE_PASSWORD": "Ubah Kata Sandi",
+      "CURRENT_PASSWORD": "Kata Sandi Saat Ini",
+      "CREATE_NEW_PASSWORD": "Buat Kata Sandi Perangkat Baru",
+      "NEW_PASSWORD": "Kata Sandi Baru",
+      "RE_ENTER_NEW_PASSWORD": "Masukkan Kembali Kata Sandi Baru",
+      "PASSWORD_UNMATCH": "Kata sandi tidak cocok. Masukkan kembali kata sandi baru.",
+      "SIMPLE_PASSWORD": "Kata sandi sederhana",
+      "DEVICE_PASSWORD": "Kata Sandi Perangkat",
+      "WEAK_PASSWORD": "Gunakan kata sandi lemah (tidak disarankan).",
+      "STRONG_PASSWORD_RECOMMENDED": "Disarankan kata sandi kuat.",
+      "SAME_PASSWORD_ERROR": "Anda tidak dapat menggunakan kata sandi yang telah digunakan sebelumnya. Masukkan kata sandi baru.",
+      "RECOMMENDATION_1": "Panjang minimal 15 karakter",
+      "RECOMMENDATION_2": "Harus ada 2 huruf kecil",
+      "RECOMMENDATION_3": "Harus ada 2 huruf besar",
+      "RECOMMENDATION_4": "Harus ada 2 angka",
+      "RECOMMENDATION_5": "Harus ada 2 karakter khusus"
+    },
+    "AUDIO_EQUALIZER": {
+      "TITLE": "Equalizer Audio",
+      "DESCRIPTION": "Dapatkan dan Atur slider Bass dan Treble. "
+    },
+    "FTC_PASSWORD_AND_EULA": {
+      "EULA_DESCRIPTION": "Dengan mengeklik \"Saya menerima\" di bawah, Anda mengerti dan menyetujui bahwa penggunaan perangkat lunak ini diatur sesuai ketentuan ",
+      "EULA_LINK": "Perjanjian Lisensi Pengguna Akhir Poly",
+      "EULA_I_ACCEPT": "Saya menerima Perjanjian Lisensi Pengguna Akhir",
+      "BEGIN_SETUP": "Mulai Penyetelan",
+      "PASSWORD_INVALID": "Kata sandi yang Anda masukkan tidak valid. Masukkan kembali kata sandi."
+    },
+    "FTC_IDENTITY": {
+      "COUNTRY": "Negara",
+      "DEVICE_NAME": "Nama Perangkat",
+      "DEVICE_NAME_DESCRIPTION": "Kami sarankan untuk menamai perangkat ini sesuai nama ruangan atau ruang rapat perangkat ini berada.",
+      "BEGIN_SETUP": "Mulai Penyetelan",
+      "PASSWORD_INVALID": "Kata sandi yang Anda masukkan tidak valid. Masukkan kembali kata sandi."
+    },
+    "AUDIO_TEST": {
+      "TITLE": "Pengujian Audio",
+      "DESCRIPTION": "Perlu waktu beberapa menit untuk menyelesaikan pengujian audio dan mengunduh rekaman audio ke penyimpanan lokal Anda. Klik 'Mulai Pengujian' agar sistem merekam audio dari semua port input audio: mikrofon, USB, dan inline.",
+      "START_TEST": "Mulai Pengujian",
+      "MODAL_TITLE": "Rekaman Audio",
+      "MODAL_TIME": "Waktu:",
+      "DIALOG_TITLE": "Simpan File Diagnostik",
+      "PLEASE_WAIT": "Harap tunggu sementara diagnostik disimpan.",
+      "STOP_RECORDING": "Hentikan"
+    },
+    "QUICK_DISCONNECT": {
+      "TITLE": "Pemutusan di Perangkat",
+      "DESCRIPTION": "Terapkan otomatis karakteristik yang dipilih saat Anda memutus headset dari adaptor inline Poly.",
+      "HOLD_ACTIVE_CALL": "Tahan Panggilan Aktif",
+      "LOCK_SCREEN": "Kunci Layar Komputer",
+      "LOCK_SCREEN_AND_HOLD_CALL": "Kunci Layar Komputer & Tahan Panggilan Aktif",
+      "DO_NOTHING": "Jangan Lakukan Apa Pun"
+    },
+    "KEEP_LINK_UP": {
+      "TITLE": "Tautan Radio Headset ke PC",
+      "DESCRIPTION": "Biarkan tautan radio ke PC tetap aktif setelah panggilan berakhir.",
+      "ACTIVE_ONLY_DURING_CALL": "Aktif Hanya Selama Panggilan",
+      "ALWAYS_ACTIVE": "Selalu Aktif"
+    }
+  },
+  "SETTINGS": {
+    "TITLE": "{{open_tag}}Pengaturan{{close_tag}} Poly Lens",
+    "NAME_LABEL": "Nama:",
+    "EMAIL_LABEL": "Email:",
+    "INVITED_BY_IT_ADMIN": "Administrator TI",
+    "INVITED": "{{invited_by_email}} mengundang Anda untuk bergabung {{tenant_name}}.",
+    "Account": {
+      "TITLE": "Akun",
+      "login": {
+        "TITLE": "Akun Anda",
+        "DESCRIPTION_INTRO": "Saat ini Anda belum login. Dengan login, Anda menyetujui",
+        "DESCRIPTION_TERMS": "Ketentuan Layanan",
+        "DESCRIPTION_AND": "dan",
+        "DESCRIPTION_PRIVACY": "Kebijakan Privasi"
+      }
+    },
+    "General": {
+      "TITLE": "Umum",
+      "startOnSystemStartup": {
+        "TITLE": "Aktifkan Poly Lens saat Dinyalakan",
+        "DESCRIPTION": "Izinkan Poly Lens dimulai secara otomatis saat masuk."
+      },
+      "startMinimized": {
+        "TITLE": "Luncurkan Aplikasi yang Diminimalkan"
+      },
+      "eulaAccepted": {
+        "TITLE": "EULA",
+        "DESCRIPTION": " diterima oleh Administrator"
+      }
+    },
+    "Language": {
+      "TITLE": "Bahasa",
+      "LABEL": "Pilih bahasa yang digunakan dalam aplikasi ini."
+    },
+    "Softphone": {
+      "TITLE": "Softphone",
+      "MODULE_NAME": "Nama Modul",
+      "MODULE_VERSION": "Versi Modul",
+      "ENABLE": "Aktifkan",
+      "CONNECTED": "Tersambung",
+      "VIEW_ALL": "Lihat Semua Softphone yang Didukung",
+      "targetSoftphone": {
+        "TITLE": "Softphone Target",
+        "DESCRIPTION": "Menunjukkan softphone yang akan digunakan untuk panggilan keluar dan nada panggilan (untuk perangkat dan softphone yang didukung)."
+      },
+      "mediaPlayerAction": {
+        "TITLE": "Tindakan pada Pemutar Media saat ada Panggilan Masuk",
+        "DESCRIPTION": "Mengontrol respons aplikasi pemutar media seperti iTunes dan Windows Media Player saat Anda menerima panggilan softphone."
+      },
+      "table": {
+        "TITLE": "Softphone & Media Player | Diaktifkan Poly"
+      }
+    },
+    "Notifications": {
+      "TITLE": "Notifikasi & Peringatan Perangkat",
+      "enableNotifications": {
+        "TITLE": "Izinkan Notifikasi Desktop dan Peringatan Perangkat"
+      },
+      "wellness": {
+        "TITLE": "Kesehatan dan Kebugaran",
+        "DESCRIPTION": "Minum dengan porsi yang tepat dan pergerakan yang konsisten merupakan hal penting untuk kesehatan jangka pendek dan jangka panjang, terutama di lingkungan yang statis. Pilih opsi untuk menyesuaikan frekuensi dan waktu notifikasi.",
+        "hydrationEnabled": "Pengingat minum",
+        "visionEnabled": "Pengingat istirahat mata",
+        "hydrationEnabledTitle": "Pengingat Minum",
+        "visionEnabledTitle": "Pengingat Istirahat Mata"
+      },
+      "deviceAlerts": {
+        "TITLE": "Peringatan Perangkat",
+        "DESCRIPTION": "",
+        "deviceUnpaired": "Perangkat Tidak Dipasangkan",
+        "lowBattery": "Daya Baterai Lemah",
+        "deviceCharging": "Pengisian Daya Perangkat",
+        "deviceDisconnected": "Perangkat Terputus",
+        "muteAlert": "Peringatan Senyap",
+        "deviceSoftwareUpdate": "Pembaruan Perangkat Lunak Perangkat"
+      },
+      "softwareUpdate": {
+        "TITLE": "Pembaruan Perangkat Lunak",
+        "DESCRIPTION": ""
+      }
+    },
+    "Software Update": {
+      "TITLE": "Pembaruan Perangkat Lunak",
+      "softwareUpdate": {
+        "TITLE": "Poly Lens Versi Desktop",
+        "SOFTWARE": "Perangkat Lunak",
+        "UP_TO_DATE": "Sudah diperbarui",
+        "RELEASE_NOTES": "Lihat Catatan Rilis",
+        "CHECKING_FOR_UPDATES": "Memeriksa Pembaruan",
+        "UPDATE": "Perbarui",
+        "UPDATE_AVAILABLE": "Tersedia",
+        "DOWNLOADING": "Mengunduh",
+        "CONTINUE": "Lanjutkan",
+        "CONTINUE_DESC": "Pilih {{open_tag}}Lanjutkan{{close_tag}} untuk keluar dari Poly Lens dan menginstal pembaruan.",
+        "DOWNLOAD_ERROR": "Terjadi kesalahan saat mengunduh pembaruan. Periksa koneksi internet Anda dan coba lagi."
+      }
+    },
+    "About": {
+      "TITLE": "Tentang",
+      "COPYRIGHT": "2022-2024 HP Inc. Hak cipta dilindungi undang-undang.",
+      "PRIVACY_POLICY": "Kebijakan Privasi",
+      "EULA": "Perjanjian Lisensi Pengguna Akhir"
+    }
+  },
+  "SOFTPHONES": {
+    "PAUSE": "Jeda & Lanjutkan",
+    "NO_ACTION": "Tidak Ada Tindakan"
+  },
+  "SUPPORT": {
+    "TITLE_APP": "Dukungan Poly Lens",
+    "TITLE_OTHER": "Hubungi Dukungan",
+    "QUICK_START_GUIDE": "Panduan Mulai Cepat",
+    "USER_GUIDE": "Panduan Pengguna",
+    "DEVICE_INFO_AND_LOGS": "Info & Log Perangkat",
+    "CONTACT_SUPPORT": "Hubungi Dukungan",
+    "CONTACT_TYPE": "Telepon, Email & Dukungan Online",
+    "DEVICE_INFO": "Informasi Perangkat",
+    "APP_INFO": "Informasi Aplikasi",
+    "DEVICE_MODEL": "Model Perangkat",
+    "SERIAL_NUMBER": "Nomor Seri",
+    "SOFTWARE_VERSION": "Versi Perangkat Lunak",
+    "COM_LIB_VERSION": "Versi Komunikasi Perangkat",
+    "PID": "ID Produk",
+    "LAST_CONNECTED": "Terakhir Tersambung",
+    "USER_ID": "ID Pengguna",
+    "TENANT_ID": "ID Penyewa",
+    "APP_ID": "ID Aplikasi",
+    "GET_ACCESS": "Akses dukungan langsung dan komunitas",
+    "GET_STARTED": "Memulai, dokumentasi, dan lainnya",
+    "POLY_SUPPORT_LINK": "Kunjungi Dukungan Poly",
+    "POLY_DOCUMENT_LINK": "Bantuan Online Lens Desktop",
+    "DIAGNOSTICS": "Diagnostik",
+    "DIAGNOSTICS_DESCRIPTION": "Untuk bantuan pemecahan masalah, unduh log untuk dibagikan dengan Dukungan Poly",
+    "DOWNLOAD_LOGS": "Unduh Log",
+    "SAVE_LOGS": "Simpan Log",
+    "NONE": "Tidak ada",
+    "UNKNOWN": "Tidak Diketahui"
+  },
+  "SCHEDULE_OPTIONS": {
+    "WEEKDAYS": "hari kerja",
+    "Monday": "Senin",
+    "Tuesday": "Selasa",
+    "Wednesday": "Rabu",
+    "Thursday": "Kamis",
+    "Friday": "Jumat",
+    "Saturday": "Sabtu",
+    "Sunday": "Minggu",
+    "MON": "Sen",
+    "TUE": "Sel",
+    "WED": "Rab",
+    "THU": "Kam",
+    "FRI": "Jum",
+    "SAT": "Sab",
+    "SUN": "Min",
+    "12:00 AM": "00.00",
+    "1:00 AM": "01.00",
+    "2:00 AM": "02.00",
+    "3:00 AM": "03.00",
+    "4:00 AM": "04.00",
+    "5:00 AM": "05.00",
+    "6:00 AM": "06.00",
+    "7:00 AM": "07.00",
+    "8:00 AM": "08.00",
+    "9:00 AM": "09.00",
+    "10:00 AM": "10.00",
+    "11:00 AM": "11.00",
+    "12:00 PM": "12.00",
+    "1:00 PM": "13.00",
+    "2:00 PM": "14.00",
+    "3:00 PM": "15.00",
+    "4:00 PM": "16.00",
+    "5:00 PM": "17.00",
+    "6:00 PM": "18.00",
+    "7:00 PM": "19.00",
+    "8:00 PM": "20.00",
+    "9:00 PM": "21.00",
+    "10:00 PM": "22.00",
+    "11:00 PM": "23.00",
+    "SHORT_LABELS": {
+      "12AM": "00.00",
+      "4AM": "04.00",
+      "8AM": "08.00",
+      "12PM": "12.00",
+      "4PM": "16.00",
+      "8PM": "20.00"
+    },
+    "SHORT_LABELS_LOWER": {
+      "12am": "00.00",
+      "1am": "01.00",
+      "2am": "02.00",
+      "3am": "03.00",
+      "4am": "04.00",
+      "5am": "05.00",
+      "6am": "06.00",
+      "7am": "07.00",
+      "8am": "08.00",
+      "9am": "09.00",
+      "10am": "10.00",
+      "11am": "11.00",
+      "12pm": "12.00",
+      "1pm": "13.00",
+      "2pm": "14.00",
+      "3pm": "15.00",
+      "4pm": "16.00",
+      "5pm": "17.00",
+      "6pm": "18.00",
+      "7pm": "19.00",
+      "8pm": "20.00",
+      "9pm": "21.00",
+      "10pm": "22.00",
+      "11pm": "23.00"
+    },
+    "1 minute": "Setiap menit",
+    "30 minutes": "Setiap 30 menit",
+    "1 hour": "Setiap jam",
+    "3 hours": "Setiap 3 jam"
+  },
+  "DROPDOWN": {
+    "UNAVAILABLE_PLACEHOLDER": "Tidak tersedia",
+    "SELECT_PLACEHOLDER": "Pilih"
+  }
+}

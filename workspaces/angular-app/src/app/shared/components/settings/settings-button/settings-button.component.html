@@ -1,0 +1,25 @@
+<oz-generic-setting
+  [settingName]="settingName"
+  [settingActionName]="settingActionName"
+  [hideDescription]="hideDescription"
+  [hideTitle]="hideTitle"
+  [isChild]="isChild"
+>
+  <button
+    [id]="getId()"
+    class="btn btn-primary font-lg"
+    [disabled]="disabled"
+    (click)="onButtonClick()"
+  >
+    {{ buttonText | translate }}
+  </button>
+  @if (childrenComponents && childrenComponents.length) {
+  <div children class="col-12">
+    @for (child of childrenComponents; track $index) {
+    <ng-container
+      *ngComponentOutlet="child.component; inputs: child.inputs"
+    ></ng-container>
+    }
+  </div>
+  }
+</oz-generic-setting>

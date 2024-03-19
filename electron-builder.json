@@ -1,0 +1,54 @@
+{
+  "productName": "Poly Lens",
+  "appId": "com.poly.lens.client.app",
+  "artifactName": "PolyLens.${ext}",
+  "directories": {
+    "buildResources": "./build",
+    "output": "./release/"
+  },
+  "extraResources": [
+    {
+      "from": "./workspaces/electron-app/main/assets/notifications",
+      "to": "assets/notifications",
+      "filter": ["**/*"]
+    },
+    {
+      "from": "./workspaces/electron-app/main/assets/tray",
+      "to": "assets/tray",
+      "filter": ["**/*"]
+    },
+    {
+      "from": "node_modules/regedit/vbs",
+      "to": "regedit/vbs",
+      "filter": ["**/*"]
+    }
+  ],
+  "extends": null,
+  "files": ["!**/*", "build", "node_modules"],
+  "linux": {
+    "icon": "build/renderer/assets/icons/favicon.icns",
+    "target": ["AppImage"]
+  },
+  "afterAllArtifactBuild": "scripts/apple-notarize.js",
+  "mac": {
+    "icon": "build/renderer/assets/icons/favicon.icns",
+    "files": ["**/node_modules/**"],
+    "entitlements": "entitlements.mac.plist",
+    "extendInfo": {
+      "NSUserNotificationAlertStyle": "alert"
+    },
+    "hardenedRuntime": true,
+    "gatekeeperAssess": true,
+    "target": ["dmg"]
+  },
+  "win": {
+    "icon": "build/renderer/assets/icons/favicon.ico",
+    "files": ["**/node_modules/**"],
+    "target": ["msi"]
+  },
+  "msi": {
+    "createDesktopShortcut": false,
+    "upgradeCode": "F2DF66E0-0805-11EB-ADC1-0242AC120002"
+  },
+  "asarUnpack": ["./node_modules/node-notifier/vendor/**"]
+}

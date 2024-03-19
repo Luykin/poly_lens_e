@@ -1,0 +1,143 @@
+@import './variables';
+
+.toast-container {
+  position: fixed;
+  z-index: $toast-z-index;
+  top: 50px;
+  right: 35px; /* offset to prevent the container to overlay right scroll bar  */
+  left: 325px; /* sidebar width + 35px */
+}
+
+.toast {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.06),
+    0 2px 2px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.03),
+    0 8px 8px rgba(109, 96, 96, 0.01);
+  color: white;
+  font-family: $font-family;
+
+  &.status-toast {
+    display: inline-flex;
+    padding: 13px 16px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  &.action-toast {
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #0270e3;
+
+    .title {
+      white-space: nowrap;
+    }
+
+    .message {
+      flex-grow: 1;
+    }
+
+    button.toast-btn {
+      padding: 4px 12px;
+      border: 1px solid white;
+      border-radius: 4px;
+      outline: none;
+      background-color: white;
+      color: #0270e3;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+      white-space: nowrap;
+
+      &.secondary {
+        background-color: transparent;
+        color: white;
+      }
+    }
+  }
+
+  oz-icon {
+    position: relative;
+    top: 3px;
+  }
+}
+
+.postpone-dfu-toast,
+.postpone-app-toast {
+  padding: 10px 14px;
+  border-radius: 4px;
+  background-color: #0270e3;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.06),
+    0 2px 2px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.03),
+    0 8px 8px rgba(109, 96, 96, 0.01);
+  color: white;
+  font-family: $font-family;
+  text-align: left;
+
+  .buttons {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .toast-device-update-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  button.toast-btn {
+    position: relative;
+    padding: 4px 12px;
+    border: 1px solid white;
+    border-radius: 4px;
+    outline: none;
+    background-color: white;
+    color: #0270e3;
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+
+    &.secondary {
+      background-color: transparent;
+      color: white;
+    }
+  }
+
+  .toast-warning {
+    position: relative;
+    margin: 2px 8px 0 0;
+  }
+
+  hr.separator {
+    border: 1px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    opacity: 0.3;
+  }
+}
+
+.toast-success {
+  background-color: #26870d;
+}
+
+.toast-error {
+  background-color: #e2184a;
+}

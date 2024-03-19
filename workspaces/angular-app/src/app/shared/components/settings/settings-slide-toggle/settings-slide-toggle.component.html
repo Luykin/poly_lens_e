@@ -1,0 +1,34 @@
+<oz-generic-setting
+  [settingName]="settingName"
+  [settingActionName]="settingActionName"
+  [hideDescription]="hideDescription"
+  [hideTitle]="hideTitle"
+  [isChild]="isChild"
+>
+  <oz-slide-toggle
+    [id]="getId()"
+    [disabled]="disabled"
+    [waitForAnimation]="waitForAnimation"
+    [ngModel]="selectedValueInternal"
+    (ngModelChange)="onChange($event)"
+  ></oz-slide-toggle>
+  @if (childrenComponents && childrenComponents.length) {
+  <div
+    children
+    class="col-12"
+    [@sectionExpanded]="selectedValueInternal ? 'expanded' : 'collapsed'"
+  >
+    @for (child of childrenComponents; track $index) {
+    <ng-container
+      *ngComponentOutlet="child.component; inputs: child.inputs"
+    ></ng-container>
+    }
+  </div>
+  } @if(settingName === antiStartleSetting) {
+  <div link class="col-12">
+    <button class="link-primary" [id]="getId(link)" (click)="openSettingInfo()">
+      {{ 'MODALS.ANTI_STARTLE.BUTTON' | translate }}
+    </button>
+  </div>
+  }
+</oz-generic-setting>
